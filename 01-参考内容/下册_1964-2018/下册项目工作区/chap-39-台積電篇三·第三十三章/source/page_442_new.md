@@ -1,0 +1,9 @@
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Years later, around 2021, Intel appointed yet another president—its fourth in a decade—and word leaked that failing to take Apple's business that year was a major mistake. The reason given, however, was that Apple's price was too low. This sounds somewhat different from what Tim told me—'They are not good at contract manufacturing.' In fact the two statements are the same. Refusing to accept a price the customer can accept is tantamount to being unskilled at contract manufacturing. TSMC's strength lies in earning a reasonable profit within the price the customer can accept.</p>
+<p class="en-para">Prior to 2011, the cash TSMC generated from operating activities was usually sufficient to pay dividends and to invest in future fabs and production equipment. But in 2011 Apple gave us a very high estimate of its chip demand for 2014. If we were to fully supply their estimated demand, TSMC would need to invest roughly twenty billion dollars in fabs and equipment over the following years. That already exceeded the prudent financial planning range I had always maintained.</p>
+<p class="en-para">TSMC could pursue several options:</p>
+<p class="en-para">(1) Tell Apple that we could only commit to producing a portion of their estimated demand. Customers who do not need to invest in capacity tend to overestimate their future demand. If TSMC were to accept every customer's demand estimate and then invest in capacity accordingly, the result would certainly be overcapacity. The way TSMC wins customer trust is to make commitments we can deliver on and that the customer can accept, and then to honor those commitments at all costs.</p>
+<p class="en-para">(2) Suspend or reduce the annual dividend.</p>
+<p class="en-para">(3) Raise cash in the equity market through a seasoned offering.</p>
+</div>

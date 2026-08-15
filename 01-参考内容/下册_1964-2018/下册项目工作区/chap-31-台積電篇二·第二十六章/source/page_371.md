@@ -1,0 +1,9 @@
+> **rebook-translation**
+>
+> The 1990s marked a transformative decade for TSMC as it evolved from a fledgling venture into the global leader in dedicated semiconductor foundry services. During this period, we forged and deepened relationships with a constellation of clients—ranging from the venerable Intel to upstart fabless design houses and the communications-focused Broadcom. The interplay of these relationships mirrored the broader structural shift in the semiconductor industry away from the Integrated Device Manufacturer (IDM) model toward the foundry paradigm.
+>
+> But before recounting these commercial triumphs, a story of corporate governance and dignified departure must be told: Brook's "clean break" from TSMC.
+>
+> Brook, TSMC's third General Manager, had been my trusted lieutenant at Texas Instruments for over a decade. He joined TSMC in March 1991, initially skeptical of the venture's prospects. "I'll do one year, then go back to the U.S.," he declared. Impressed by what he saw after the first year, he extended his stay, only to be extended again. By the third year, he began contemplating a longer horizon—but still insisted, "Two or three years at most."
+>
+> I had hired Brook primarily for his marketing expertise in the American and European markets. On this front, he did not disappoint. As for managing operations in Taiwan, I genuinely needed less from him. Our local team had grown formidable by the mid-1990s. The core group led by Zeng Fan-cheng from ITRI had flourished, and we had recruited outstanding talents like Wei Li-hsing, Liu De-yin, and Robert Lin. More crucially, Brook himself had not earned the deep respect and trust of the local team—a reality reflected in my repeated veto of his proposals to hire Americans as COO, and in my orchestrating an alternative role for Zeng Fan-cheng at Vanguard rather than letting him resign.

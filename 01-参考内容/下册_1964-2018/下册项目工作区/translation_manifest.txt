@@ -1,0 +1,194 @@
+# 翻译任务清单（共 143 页）
+
+## 格式：每行一个待翻译文件路径（相对工作区根目录）
+## 对应章节目录：
+
+
+### chap-21-台積電篇一·第十七章
+chap-21-台積電篇一·第十七章/source/page_239.md
+chap-21-台積電篇一·第十七章/source/page_240.md
+chap-21-台積電篇一·第十七章/source/page_241.md
+chap-21-台積電篇一·第十七章/source/page_242.md
+chap-21-台積電篇一·第十七章/source/page_243.md
+chap-21-台積電篇一·第十七章/source/page_244.md
+chap-21-台積電篇一·第十七章/source/page_245.md
+chap-21-台積電篇一·第十七章/source/page_246.md
+chap-21-台積電篇一·第十七章/source/page_247.md
+
+### chap-22-台積電篇一·第十八章
+chap-22-台積電篇一·第十八章/source/page_255.md
+chap-22-台積電篇一·第十八章/source/page_256.md
+chap-22-台積電篇一·第十八章/source/page_257.md
+chap-22-台積電篇一·第十八章/source/page_258.md
+
+### chap-23-台積電篇一·第十九章
+chap-23-台積電篇一·第十九章/source/page_264.md
+chap-23-台積電篇一·第十九章/source/page_265.md
+chap-23-台積電篇一·第十九章/source/page_266.md
+chap-23-台積電篇一·第十九章/source/page_267.md
+chap-23-台積電篇一·第十九章/source/page_268.md
+chap-23-台積電篇一·第十九章/source/page_269.md
+chap-23-台積電篇一·第十九章/source/page_270.md
+chap-23-台積電篇一·第十九章/source/page_271.md
+chap-23-台積電篇一·第十九章/source/page_272.md
+
+### chap-25-台積電篇二·第二十章
+chap-25-台積電篇二·第二十章/source/page_288.md
+chap-25-台積電篇二·第二十章/source/page_289.md
+
+### chap-26-台積電篇二·第二十一章
+chap-26-台積電篇二·第二十一章/source/page_294.md
+chap-26-台積電篇二·第二十一章/source/page_295.md
+chap-26-台積電篇二·第二十一章/source/page_296.md
+chap-26-台積電篇二·第二十一章/source/page_297.md
+chap-26-台積電篇二·第二十一章/source/page_298.md
+
+### chap-27-台積電篇二·第二十二章
+chap-27-台積電篇二·第二十二章/source/page_309.md
+chap-27-台積電篇二·第二十二章/source/page_310.md
+chap-27-台積電篇二·第二十二章/source/page_311.md
+chap-27-台積電篇二·第二十二章/source/page_312.md
+
+### chap-28-台積電篇二·第二十三章
+chap-28-台積電篇二·第二十三章/source/page_321.md
+chap-28-台積電篇二·第二十三章/source/page_322.md
+chap-28-台積電篇二·第二十三章/source/page_323.md
+chap-28-台積電篇二·第二十三章/source/page_324.md
+
+### chap-29-台積電篇二·第二十四章
+chap-29-台積電篇二·第二十四章/source/page_338.md
+chap-29-台積電篇二·第二十四章/source/page_339.md
+chap-29-台積電篇二·第二十四章/source/page_340.md
+chap-29-台積電篇二·第二十四章/source/page_341.md
+
+### chap-30-台積電篇二·第二十五章
+chap-30-台積電篇二·第二十五章/source/page_355.md
+chap-30-台積電篇二·第二十五章/source/page_356.md
+
+### chap-31-台積電篇二·第二十六章
+chap-31-台積電篇二·第二十六章/source/page_362.md
+chap-31-台積電篇二·第二十六章/source/page_363.md
+chap-31-台積電篇二·第二十六章/source/page_364.md
+chap-31-台積電篇二·第二十六章/source/page_366.md
+chap-31-台積電篇二·第二十六章/source/page_367.md
+chap-31-台積電篇二·第二十六章/source/page_368.md
+chap-31-台積電篇二·第二十六章/source/page_369.md
+chap-31-台積電篇二·第二十六章/source/page_370.md
+
+### chap-32-台積電篇二·第二十七章
+chap-32-台積電篇二·第二十七章/source/page_373.md
+chap-32-台積電篇二·第二十七章/source/page_374.md
+chap-32-台積電篇二·第二十七章/source/page_375.md
+chap-32-台積電篇二·第二十七章/source/page_376.md
+chap-32-台積電篇二·第二十七章/source/page_379.md
+
+### chap-33-台積電篇三·卷首
+chap-33-台積電篇三·卷首/source/page_381.md
+
+### chap-34-台積電篇三·第二十八章
+chap-34-台積電篇三·第二十八章/source/page_382.md
+chap-34-台積電篇三·第二十八章/source/page_383.md
+
+### chap-35-台積電篇三·第二十九章
+chap-35-台積電篇三·第二十九章/source/page_388.md
+chap-35-台積電篇三·第二十九章/source/page_389.md
+chap-35-台積電篇三·第二十九章/source/page_390.md
+chap-35-台積電篇三·第二十九章/source/page_391.md
+chap-35-台積電篇三·第二十九章/source/page_393.md
+
+### chap-36-台積電篇三·第三十章
+chap-36-台積電篇三·第三十章/source/page_394.md
+chap-36-台積電篇三·第三十章/source/page_397.md
+chap-36-台積電篇三·第三十章/source/page_398.md
+chap-36-台積電篇三·第三十章/source/page_402.md
+chap-36-台積電篇三·第三十章/source/page_403.md
+chap-36-台積電篇三·第三十章/source/page_404.md
+
+### chap-37-台積電篇三·第三十一章
+chap-37-台積電篇三·第三十一章/source/page_405.md
+chap-37-台積電篇三·第三十一章/source/page_406.md
+chap-37-台積電篇三·第三十一章/source/page_408.md
+chap-37-台積電篇三·第三十一章/source/page_409.md
+chap-37-台積電篇三·第三十一章/source/page_410.md
+chap-37-台積電篇三·第三十一章/source/page_412.md
+chap-37-台積電篇三·第三十一章/source/page_413.md
+chap-37-台積電篇三·第三十一章/source/page_414.md
+chap-37-台積電篇三·第三十一章/source/page_416.md
+chap-37-台積電篇三·第三十一章/source/page_417.md
+chap-37-台積電篇三·第三十一章/source/page_418.md
+chap-37-台積電篇三·第三十一章/source/page_419.md
+chap-37-台積電篇三·第三十一章/source/page_421.md
+
+### chap-38-台積電篇三·第三十二章
+chap-38-台積電篇三·第三十二章/source/page_424.md
+chap-38-台積電篇三·第三十二章/source/page_425.md
+chap-38-台積電篇三·第三十二章/source/page_426.md
+chap-38-台積電篇三·第三十二章/source/page_427.md
+chap-38-台積電篇三·第三十二章/source/page_428.md
+chap-38-台積電篇三·第三十二章/source/page_429.md
+chap-38-台積電篇三·第三十二章/source/page_430.md
+chap-38-台積電篇三·第三十二章/source/page_432.md
+chap-38-台積電篇三·第三十二章/source/page_433.md
+chap-38-台積電篇三·第三十二章/source/page_435.md
+
+### chap-39-台積電篇三·第三十三章
+chap-39-台積電篇三·第三十三章/source/page_437.md
+chap-39-台積電篇三·第三十三章/source/page_438.md
+chap-39-台積電篇三·第三十三章/source/page_439.md
+chap-39-台積電篇三·第三十三章/source/page_440.md
+chap-39-台積電篇三·第三十三章/source/page_441.md
+chap-39-台積電篇三·第三十三章/source/page_442.md
+chap-39-台積電篇三·第三十三章/source/page_443.md
+chap-39-台積電篇三·第三十三章/source/page_444.md
+chap-39-台積電篇三·第三十三章/source/page_445.md
+chap-39-台積電篇三·第三十三章/source/page_446.md
+chap-39-台積電篇三·第三十三章/source/page_447.md
+
+### chap-40-台積電篇三·第三十四章
+chap-40-台積電篇三·第三十四章/source/page_449.md
+chap-40-台積電篇三·第三十四章/source/page_450.md
+chap-40-台積電篇三·第三十四章/source/page_451.md
+chap-40-台積電篇三·第三十四章/source/page_452.md
+chap-40-台積電篇三·第三十四章/source/page_453.md
+chap-40-台積電篇三·第三十四章/source/page_454.md
+chap-40-台積電篇三·第三十四章/source/page_455.md
+chap-40-台積電篇三·第三十四章/source/page_456.md
+chap-40-台積電篇三·第三十四章/source/page_458.md
+
+### chap-41-感謝
+chap-41-感謝/source/page_461.md
+
+### chap-42-張忠謀大事年表
+chap-42-張忠謀大事年表/source/page_467.md
+chap-42-張忠謀大事年表/source/page_468.md
+chap-42-張忠謀大事年表/source/page_472.md
+chap-42-張忠謀大事年表/source/page_474.md
+chap-42-張忠謀大事年表/source/page_475.md
+
+### chap-43-圖片頁（照片圖注）
+chap-43-圖片頁（照片圖注）/source/page_480.md
+chap-43-圖片頁（照片圖注）/source/page_481.md
+chap-43-圖片頁（照片圖注）/source/page_484.md
+chap-43-圖片頁（照片圖注）/source/page_486.md
+chap-43-圖片頁（照片圖注）/source/page_487.md
+chap-43-圖片頁（照片圖注）/source/page_488.md
+chap-43-圖片頁（照片圖注）/source/page_492.md
+chap-43-圖片頁（照片圖注）/source/page_494.md
+chap-43-圖片頁（照片圖注）/source/page_495.md
+chap-43-圖片頁（照片圖注）/source/page_496.md
+chap-43-圖片頁（照片圖注）/source/page_497.md
+chap-43-圖片頁（照片圖注）/source/page_498.md
+chap-43-圖片頁（照片圖注）/source/page_501.md
+chap-43-圖片頁（照片圖注）/source/page_502.md
+chap-43-圖片頁（照片圖注）/source/page_505.md
+chap-43-圖片頁（照片圖注）/source/page_507.md
+chap-43-圖片頁（照片圖注）/source/page_508.md
+chap-43-圖片頁（照片圖注）/source/page_514.md
+chap-43-圖片頁（照片圖注）/source/page_515.md
+chap-43-圖片頁（照片圖注）/source/page_519.md
+chap-43-圖片頁（照片圖注）/source/page_520.md
+chap-43-圖片頁（照片圖注）/source/page_522.md
+
+### chap-44-版權頁與營運成長圖
+chap-44-版權頁與營運成長圖/source/page_528.md
+chap-44-版權頁與營運成長圖/source/page_531.md

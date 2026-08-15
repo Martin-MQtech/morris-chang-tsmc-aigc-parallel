@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台积电张忠谋 · 传记时间线的平行世界 | Morris Chang & TSMC: A Parallel Biography</title>
+  <meta name="description" content="同一时间线，另一个视角。以台积电张忠谋生平为锚点，由 AIGC 平行叙事引擎打造的中英双语有声传记、交互地图、典藏电子书与知识卡片全矩阵。">
+  <meta name="keywords" content="张忠谋,台积电,TSMC,Morris Chang,半导体,Foundry,晶圆代工,AIGC,双语传记,GitHub Pages">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #0a0e17;
+      --bg-surface: #111726;
+      --bg-card: rgba(18, 26, 43, 0.75);
+      --border-card: rgba(0, 240, 255, 0.15);
+      --border-hover: rgba(0, 240, 255, 0.45);
+      --cyan-tsmc: #00f0ff;
+      --cyan-glow: rgba(0, 240, 255, 0.35);
+      --gold-silicon: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.3);
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --accent-purple: #8b5cf6;
+      --font-serif: "Noto Serif SC", "Songti SC", Georgia, serif;
+      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-display: "Cinzel", "Noto Serif SC", serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.7;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(0, 240, 255, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(245, 158, 11, 0.06) 0%, transparent 45%),
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+    }
+
+    /* Global Container */
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Glassmorphism */
+    .glassmorphism {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-card);
+      border-radius: 16px;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .glassmorphism:hover {
+      border-color: var(--border-hover);
+      box-shadow: 0 10px 30px -10px var(--cyan-glow);
+    }
+
+    /* Header Nav */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 14, 23, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 16px 0;
+    }
+    .nav-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
+    .brand-wafer {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, var(--cyan-tsmc), var(--gold-silicon));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      box-shadow: 0 0 12px var(--cyan-glow);
+    }
+    .brand-name {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+    .brand-name span {
+      color: var(--cyan-tsmc);
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    .nav-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-link:hover {
+      color: var(--cyan-tsmc);
+    }
+    .nav-cta {
+      background: linear-gradient(135deg, var(--cyan-tsmc), #0284c7);
+      color: #03111f;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 13px;
+      text-decoration: none;
+      transition: all 0.25s;
+    }
+    .nav-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px var(--cyan-glow);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 90px 0 60px;
+      position: relative;
+    }
+    .hero-badge-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+    .badge {
+      background: rgba(0, 240, 255, 0.08);
+      border: 1px solid rgba(0, 240, 255, 0.25);
+      color: var(--cyan-tsmc);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 30px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .badge.gold {
+      background: rgba(245, 158, 11, 0.1);
+      border-color: rgba(245, 158, 11, 0.3);
+      color: var(--gold-silicon);
+    }
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: clamp(32px, 5.5vw, 58px);
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: -0.5px;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #ffffff 40%, var(--cyan-tsmc) 80%, var(--gold-silicon) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-subtitle {
+      font-family: var(--font-display);
+      font-size: clamp(16px, 2.2vw, 22px);
+      color: var(--text-muted);
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+    .hero-tagline {
+      font-size: clamp(16px, 1.8vw, 19px);
+      color: var(--text-main);
+      max-width: 820px;
+      margin-bottom: 36px;
+      line-height: 1.8;
+    }
+    .hero-tagline strong {
+      color: var(--gold-silicon);
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--cyan-tsmc), #0284c7);
+      color: #03111f;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 20px var(--cyan-glow);
+      transition: all 0.25s;
+    }
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px var(--cyan-glow);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: var(--text-main);
+      font-weight: 600;
+      padding: 14px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.25s;
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: var(--cyan-tsmc);
+      color: var(--cyan-tsmc);
+      transform: translateY(-3px);
+    }
+
+    /* Key Statistics Bar */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 24px;
+      margin-bottom: 80px;
+    }
+    .stat-item {
+      text-align: center;
+    }
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--cyan-tsmc);
+      margin-bottom: 4px;
+    }
+    .stat-label {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* Section Title */
+    .section-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .section-tag {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--cyan-tsmc);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(26px, 3.5vw, 38px);
+      color: var(--text-main);
+      margin-bottom: 12px;
+    }
+    .section-desc {
+      font-size: 15px;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* Showcase Matrix (Portals) */
+    .portal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 90px;
+    }
+    .portal-card {
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+    .portal-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, var(--cyan-tsmc), transparent);
+    }
+    .portal-card.gold::before {
+      background: linear-gradient(90deg, var(--gold-silicon), transparent);
+    }
+    .portal-icon {
+      font-size: 36px;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+    .portal-title {
+      font-family: var(--font-serif);
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    .portal-text {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      flex-grow: 1;
+    }
+    .portal-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--cyan-tsmc);
+      text-decoration: none;
+      transition: gap 0.2s;
+    }
+    .portal-card.gold .portal-link {
+      color: var(--gold-silicon);
+    }
+    .portal-link:hover {
+      gap: 10px;
+    }
+
+    /* Episodes Grid */
+    .episodes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 28px;
+      margin-bottom: 90px;
+    }
+    .ep-card {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+    }
+    .ep-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .ep-badge {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--gold-silicon);
+      background: rgba(245, 158, 11, 0.12);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+    .ep-period {
+      font-size: 12px;
+      color: var(--text-dim);
+      font-family: var(--font-display);
+    }
+    .ep-title {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+    .ep-en-title {
+      font-size: 12px;
+      font-style: italic;
+      color: var(--text-dim);
+      margin-bottom: 12px;
+    }
+    .ep-theme {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--cyan-tsmc);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .ep-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.65;
+      margin-bottom: 18px;
+      flex-grow: 1;
+    }
+    .audio-panel {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .audio-track-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .track-tab {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      font-size: 11px;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+    .track-tab.active {
+      background: rgba(0, 240, 255, 0.15);
+      color: var(--cyan-tsmc);
+      font-weight: 600;
+    }
+    .custom-audio {
+      width: 100%;
+      height: 32px;
+      outline: none;
+    }
+    .ep-actions {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 12px;
+    }
+    .btn-subtle {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.2s;
+    }
+    .btn-subtle:hover {
+      color: var(--cyan-tsmc);
+    }
+
+    /* AIGC Pipeline Architecture */
+    .pipeline-section {
+      padding: 48px;
+      margin-bottom: 90px;
+    }
+    .pipeline-flow {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      position: relative;
+      margin-top: 40px;
+    }
+    .pipeline-step {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    .step-num {
+      width: 28px;
+      height: 28px;
+      background: var(--cyan-tsmc);
+      color: #03111f;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 13px;
+      margin: 0 auto 12px;
+    }
+    .step-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .step-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Footer */
+    .footer {
+      background: #06090f;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 60px 0 30px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    .footer-brand {
+      font-family: var(--font-serif);
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    .footer-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      max-width: 440px;
+      line-height: 1.8;
+    }
+    .footer-col h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--cyan-tsmc);
+      margin-bottom: 16px;
+    }
+    .footer-links {
+      list-style: none;
+    }
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+    .footer-links a {
+      color: var(--text-muted);
+      font-size: 13px;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover {
+      color: #fff;
+    }
+    .footer-bottom {
+      text-align: center;
+      padding-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+
+    @media (max-width: 768px) {
+      .episodes-grid {
+        grid-template-columns: 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand-logo">
+        <div class="brand-wafer">⚡</div>
+        <div class="brand-name">Morris Chang · <span>台积电平行世界</span></div>
+      </a>
+      <nav class="nav-links">
+        <a href="#overview" class="nav-link">项目全景</a>
+        <a href="#portals" class="nav-link">作品矩阵</a>
+        <a href="#episodes" class="nav-link">剧集矩阵</a>
+        <a href="#pipeline" class="nav-link">AIGC 架构</a>
+        <a href="https://github.com/Martin-MQtech/morris-chang-tsmc-aigc-parallel" target="_blank" class="nav-cta">GitHub 源码 ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-badge-group">
+          <span class="badge">🌐 GitHub Pages Live</span>
+          <span class="badge gold">🇨🇳 🇺🇸 中英双语有声全册</span>
+          <span class="badge">⚡ AIGC 平行叙事引擎</span>
+          <span class="badge">💎 00–18 期完结收官</span>
+        </div>
+
+        <h1 class="hero-title">台积电张忠谋 · 传记时间线的平行世界</h1>
+        <div class="hero-subtitle">Morris Chang & TSMC: A Parallel Biography</div>
+
+        <p class="hero-tagline">
+          <strong>同一时间线，另一个视角。</strong> 以张忠谋生平与半导体产业风云为时空坐标，由 AIGC 平行叙事引擎萃取历史图谱，融合艾萨克森的冷峻洞察、吴晓波的时代浪潮感与史景迁的文学史笔，打造的全套中英双语多模态传记巨作。
+        </p>
+
+        <div class="hero-actions">
+          <a href="portal.html" class="btn-primary">🌟 沉浸式作品官网 ↗</a>
+          <a href="map.html" class="btn-secondary">🗺️ 交互式平行世界地图</a>
+          <a href="reader.html" class="btn-secondary">📖 全册电子书在线阅读</a>
+          <a href="cards.html" class="btn-secondary">🎴 金句知识卡片</a>
+          <a href="台积电张忠谋-传记时间线的平行世界.epub" download class="btn-secondary">📥 EPUB 典藏版下载</a>
+        </div>
+
+        <!-- Key Metrics -->
+        <div class="stats-bar glassmorphism">
+          <div class="stat-item">
+            <div class="stat-num">19</div>
+            <div class="stat-label">全册精制剧集 (00–18期)</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">380+</div>
+            <div class="stat-label">分钟中英双轨广播剧</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">108</div>
+            <div class="stat-label">条跨学科公开史实源</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">AIGC 全流程自洽闭环</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="container" style="margin-bottom: 90px;">
+      <div class="section-header">
+        <span class="section-tag">OVERVIEW & CORE PHILOSOPHY</span>
+        <h2 class="section-title">项目核心全景与叙事哲学</h2>
+        <p class="section-desc">用最硬核的技术生产最温润的人文叙事，在跨文明旅程中解构半导体传奇。</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+        <div class="glassmorphism" style="padding: 32px;">
+          <h3 style="font-family: var(--font-serif); color: var(--cyan-tsmc); margin-bottom: 12px; font-size: 20px;">⚡ 纯代工模式的商业哲学</h3>
+          <p style="color: var(--text-muted); font-size: 14px; line-height: 1.8;">
+            1987年台积电的诞生，彻底打破了半导体行业IDM纵向一体化的旧秩序。「绝不与客户竞争」的信条，催生了全球芯片设计产业（Fabless）的繁荣，孕育了英伟达、高通与苹果自研芯片的时代奇迹。
+          </p>
+        </div>
+        <div class="glassmorphism" style="padding: 32px;">
+          <h3 style="font-family: var(--font-serif); color: var(--gold-silicon); margin-bottom: 12px; font-size: 20px;">🌏 跨文明重建与华人精神</h3>
+          <p style="color: var(--text-muted); font-size: 14px; line-height: 1.8;">
+            从流离失所的民国逃难少年，到MIT机械学子、德州仪器副总，再到54岁跨越太平洋回台创业。全剧贯穿东方人在西方顶级科技世界中自我重建、勇拓边界的坚毅商业精神。
+          </p>
+        </div>
+        <div class="glassmorphism" style="padding: 32px;">
+          <h3 style="font-family: var(--font-serif); color: var(--accent-purple); margin-bottom: 12px; font-size: 20px;">🧬 平行叙事引擎 (PNE)</h3>
+          <p style="color: var(--text-muted); font-size: 14px; line-height: 1.8;">
+            三维立体二创法：以真实生平为时间轴锚点（内圈交集），融合时代宏观群像与科技博弈（外圈拓展），AI旁白置换第一人称，打造完全独立版权、兼具文学与知识密度的全新叙事。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase Portals -->
+    <section id="portals" class="container">
+      <div class="section-header">
+        <span class="section-tag">EXPLORE MATRIX</span>
+        <h2 class="section-title">交互探索与作品矩阵</h2>
+        <p class="section-desc">多维度、沉浸式互动形态，满足深度阅读、快速查阅、听觉体验与社交传播。</p>
+      </div>
+
+      <div class="portal-grid">
+        <div class="portal-card glassmorphism">
+          <div>
+            <span class="portal-icon">🌟</span>
+            <h3 class="portal-title">《作品官网》</h3>
+            <p class="portal-text">杂志级排版视觉官网，集成了全18期精美章首插图、双语简介与中英双轨直载音频播放器。</p>
+          </div>
+          <a href="portal.html" class="portal-link">打开作品官网 <span>→</span></a>
+        </div>
+
+        <div class="portal-card glassmorphism gold">
+          <div>
+            <span class="portal-icon">🗺️</span>
+            <h3 class="portal-title">《平行世界地图》</h3>
+            <p class="portal-text">双轨时间轴交互罗盘：上轴记录张忠谋的人生抉择点，下轴呈现同时期的世界科技与历史大事件对照。</p>
+          </div>
+          <a href="map.html" class="portal-link">探索平行地图 <span>→</span></a>
+        </div>
+
+        <div class="portal-card glassmorphism">
+          <div>
+            <span class="portal-icon">📖</span>
+            <h3 class="portal-title">《全册电子书在线版》</h3>
+            <p class="portal-text">400万字双语典藏级HTML电子书，段落级中英对照，内嵌高清插图与学术级图注，支持全文阅读。</p>
+          </div>
+          <a href="reader.html" class="portal-link">在线畅读全书 <span>→</span></a>
+        </div>
+
+        <div class="portal-card glassmorphism gold">
+          <div>
+            <span class="portal-icon">🎴</span>
+            <h3 class="portal-title">《金句知识卡片》</h3>
+            <p class="portal-text">Bento 风格设计的商业智慧与金句卡片，萃取传主在战略、管理、人生逆境中的认知精华，适合快速阅读与分享。</p>
+          </div>
+          <a href="cards.html" class="portal-link">查看金句卡片 <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Episodes Grid -->
+    <section id="episodes" class="container">
+      <div class="section-header">
+        <span class="section-tag">MULTIMODAL EPISODES</span>
+        <h2 class="section-title">全 19 期多模态剧集矩阵 (00–18)</h2>
+        <p class="section-desc">中英双语原声音频点播 · 时代背景透视 · 传记关键抉择节点全览</p>
+      </div>
+
+      <div class="episodes-grid">
+        
+    <div class="ep-card glassmorphism" data-id="00">
+      <div class="ep-header">
+        <span class="ep-badge">导读篇 · EP 00</span>
+        <span class="ep-period">1931–2024</span>
+      </div>
+      <h3 class="ep-title">全册导读：三大乐章与时代群像</h3>
+      <p class="ep-en-title">Guide: Three Movements & The Era of Giants</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 序幕 · 全局鸟瞰</div>
+      <p class="ep-desc">全局总览台积电与张忠谋的百年史诗：从流离失所的民国少年，到德州仪器的半导体元老，再到56岁独创晶圆代工模式、建立全球半导体护国神山。以AIGC重构多维时空线索。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '00', 'zh')">🇨🇳 中文原声 (10:35)</button>
+          <button class="track-tab" onclick="switchTrack(this, '00', 'en')">🇺🇸 English (11:15)</button>
+        </div>
+        <audio id="audio-00" controls preload="none" class="custom-audio" src="03-剧集/第00期-全册导读/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/全册导读：三大乐章与时代群像/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="01">
+      <div class="ep-header">
+        <span class="ep-badge">第一乐章 · EP 01</span>
+        <span class="ep-period">1937–1942</span>
+      </div>
+      <h3 class="ep-title">逃难的孩子</h3>
+      <p class="ep-en-title">Child of Exodus</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 战乱 · 迁徙 · 广州至香港</div>
+      <p class="ep-desc">1937年抗战爆发，6岁的张忠谋跟随父母在战火与轰炸中颠沛流离，穿越火线辗转香港。幼年在防空洞中的记忆，塑造了日后处变不惊、在不确定风暴中寻找确定性的坚毅性格。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '01', 'zh')">🇨🇳 中文原声 (18:42)</button>
+          <button class="track-tab" onclick="switchTrack(this, '01', 'en')">🇺🇸 English (19:15)</button>
+        </div>
+        <audio id="audio-01" controls preload="none" class="custom-audio" src="03-剧集/第01期-逃难的孩子/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第01期-逃难的孩子/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="02">
+      <div class="ep-header">
+        <span class="ep-badge">第一乐章 · EP 02</span>
+        <span class="ep-period">1942–1948</span>
+      </div>
+      <h3 class="ep-title">考不进去的南开与作家梦</h3>
+      <p class="ep-en-title">The Nankai Dream & The Reluctant Pragmatist</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 重庆南开 · 文人梦断 · 现实抉择</div>
+      <p class="ep-desc">少年张忠谋原本沉醉于文学与历史，立志成为作家；然而父亲的一句「当作家会挨饿」，以及动荡时局中实业救国的浪潮，将他推向了工程与科学的现实大道。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '02', 'zh')">🇨🇳 中文原声 (19:10)</button>
+          <button class="track-tab" onclick="switchTrack(this, '02', 'en')">🇺🇸 English (19:48)</button>
+        </div>
+        <audio id="audio-02" controls preload="none" class="custom-audio" src="03-剧集/第02期-考不进去的南开与作家梦/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第02期-考不进去的南开与作家梦/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="03">
+      <div class="ep-header">
+        <span class="ep-badge">第一乐章 · EP 03</span>
+        <span class="ep-period">1949–1953</span>
+      </div>
+      <h3 class="ep-title">从黄浦江到查尔斯河</h3>
+      <p class="ep-en-title">From Huangpu River to the Charles River</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 赴美求学 · 哈佛转麻省理工 · 文化重塑</div>
+      <p class="ep-desc">1949年只身赴美，成为哈佛大学当年唯一的中国本科新生。在查尔斯河畔浸润人文经典一年后，为了生计转入MIT机械系，开启跨文明重建与硬核工程训练。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '03', 'zh')">🇨🇳 中文原声 (21:45)</button>
+          <button class="track-tab" onclick="switchTrack(this, '03', 'en')">🇺🇸 English (22:30)</button>
+        </div>
+        <audio id="audio-03" controls preload="none" class="custom-audio" src="03-剧集/第03期-从黄浦江到查尔斯河/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第03期-从黄浦江到查尔斯河/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="04">
+      <div class="ep-header">
+        <span class="ep-badge">第一乐章 · EP 04</span>
+        <span class="ep-period">1953–1955</span>
+      </div>
+      <h3 class="ep-title">四十封求职信</h3>
+      <p class="ep-en-title">Forty Letters of Application</p>
+      <div class="ep-theme"><span class="icon">⚡</span> MIT博士落第 · 一美元之差 · 误入半导体</div>
+      <p class="ep-desc">MIT博士资格考意外落榜成为人生最大挫折。投出40封求职信后，因福特汽车不愿多给1美元薪水（月薪469 vs 470），毅然转投半导体先驱希凡尼亚（Sylvania），阴差阳错踏入改变命运的晶体管世界。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '04', 'zh')">🇨🇳 中文原声 (21:30)</button>
+          <button class="track-tab" onclick="switchTrack(this, '04', 'en')">🇺🇸 English (22:15)</button>
+        </div>
+        <audio id="audio-04" controls preload="none" class="custom-audio" src="03-剧集/第04期-四十封求职信/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第04期-四十封求职信/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="05">
+      <div class="ep-header">
+        <span class="ep-badge">第一乐章 · EP 05</span>
+        <span class="ep-period">1955–1958</span>
+      </div>
+      <h3 class="ep-title">隔岸观火的叛乱</h3>
+      <p class="ep-en-title">Rebellion Across the Coast</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 肖克利实验室 · 仙童八叛逆 · 硅谷破晓</div>
+      <p class="ep-desc">半导体黎明期，诺奖得主肖克利在西海岸点燃火种，随后『八叛逆』出走创立仙童半导体。在东海岸希凡尼亚冷眼旁观的张忠谋，敏锐察觉到了产业转移与技术革命的剧烈脉动。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '05', 'zh')">🇨🇳 中文原声 (20:50)</button>
+          <button class="track-tab" onclick="switchTrack(this, '05', 'en')">🇺🇸 English (21:40)</button>
+        </div>
+        <audio id="audio-05" controls preload="none" class="custom-audio" src="03-剧集/第05期-隔岸观火的叛乱/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第05期-隔岸观火的叛乱/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="06">
+      <div class="ep-header">
+        <span class="ep-badge">第二乐章 · EP 06</span>
+        <span class="ep-period">1958–1964</span>
+      </div>
+      <h3 class="ep-title">德仪的太空竞赛岁月</h3>
+      <p class="ep-en-title">Texas Instruments & The Space Race Era</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 加盟德仪 · 基尔比集成电路 · 攻克良率</div>
+      <p class="ep-desc">1958年加盟德州仪器（TI），与集成电路发明人杰克·基尔比成为同事。张忠谋以严谨的工程思维攻克IBM晶体管良率难题（从0%奇迹般提至20%），获TI全额资助赴斯坦福攻读电机博士。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '06', 'zh')">🇨🇳 中文原声 (20:55)</button>
+          <button class="track-tab" onclick="switchTrack(this, '06', 'en')">🇺🇸 English (21:50)</button>
+        </div>
+        <audio id="audio-06" controls preload="none" class="custom-audio" src="03-剧集/第06期-德仪的太空竞赛岁月/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第06期-德仪的太空竞赛岁月/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="07">
+      <div class="ep-header">
+        <span class="ep-badge">第二乐章 · EP 07</span>
+        <span class="ep-period">1964–1978</span>
+      </div>
+      <h3 class="ep-title">半导体之巅的十年</h3>
+      <p class="ep-en-title">A Decade at the Semiconductor Pinnacle</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 德仪全球资深副总 · 统治半导体 · 价格战策略</div>
+      <p class="ep-desc">执掌德仪全球半导体事业部（员工达数万人），首创「学习曲线定价法」，横扫全球芯片市场。成为美国顶尖科技巨头中华人职级最高、权力最大的超级主管。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '07', 'zh')">🇨🇳 中文原声 (21:20)</button>
+          <button class="track-tab" onclick="switchTrack(this, '07', 'en')">🇺🇸 English (21:55)</button>
+        </div>
+        <audio id="audio-07" controls preload="none" class="custom-audio" src="03-剧集/第07期-半导体之巅的十年/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第07期-半导体之巅的十年/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="08">
+      <div class="ep-header">
+        <span class="ep-badge">第二乐章 · EP 08</span>
+        <span class="ep-period">1978–1985</span>
+      </div>
+      <h3 class="ep-title">离开德州与受邀回台</h3>
+      <p class="ep-en-title">Leaving Texas & The Taiwan Calling</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 战略分歧 · 辞别TI · 执掌工研院</div>
+      <p class="ep-desc">因TI战略转向消费电子而与高层产生不可弥合分歧，张忠谋告别25载德仪岁月。在李国鼎等人的三顾茅庐与力邀下，54岁的他跨越太平洋回台出任工研院院长。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '08', 'zh')">🇨🇳 中文原声 (21:05)</button>
+          <button class="track-tab" onclick="switchTrack(this, '08', 'en')">🇺🇸 English (21:45)</button>
+        </div>
+        <audio id="audio-08" controls preload="none" class="custom-audio" src="03-剧集/第08期-离开德州与受邀回台/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第08期-离开德州与受邀回台/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="09">
+      <div class="ep-header">
+        <span class="ep-badge">第二乐章 · EP 09</span>
+        <span class="ep-period">1985–1987</span>
+      </div>
+      <h3 class="ep-title">纯代工的革命</h3>
+      <p class="ep-en-title">The Pure-Play Foundry Revolution</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 商业模式创新 · 创立台积电 · 不与客户竞争</div>
+      <p class="ep-desc">面对台湾既无设计能力又无销售通路的劣势，张忠谋以惊世魄力提出「纯晶圆代工（Pure-Play Foundry）」模式：只替客户生产、绝不推出自有品牌与客户竞争。半导体垂直分工时代自此开创。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '09', 'zh')">🇨🇳 中文原声 (20:45)</button>
+          <button class="track-tab" onclick="switchTrack(this, '09', 'en')">🇺🇸 English (21:10)</button>
+        </div>
+        <audio id="audio-09" controls preload="none" class="custom-audio" src="03-剧集/第09期-纯代工的革命/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第09期-纯代工的革命/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="10">
+      <div class="ep-header">
+        <span class="ep-badge">第二乐章 · EP 10</span>
+        <span class="ep-period">1988–1997</span>
+      </div>
+      <h3 class="ep-title">从台湾到世界</h3>
+      <p class="ep-en-title">From Taiwan to the Global Stage</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 英特尔认证 · 纽交所上市 · 无厂晶圆崛起</div>
+      <p class="ep-desc">1988年安迪·格鲁夫率英特尔团队严苛审核台积电，通过认证一战成名。台积电模式催生了英伟达、高通、博通等全球无晶圆厂（Fabless）设计群雄的百花齐放。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '10', 'zh')">🇨🇳 中文原声 (20:15)</button>
+          <button class="track-tab" onclick="switchTrack(this, '10', 'en')">🇺🇸 English (20:50)</button>
+        </div>
+        <audio id="audio-10" controls preload="none" class="custom-audio" src="03-剧集/第10期-从台湾到世界/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第10期-从台湾到世界/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="11">
+      <div class="ep-header">
+        <span class="ep-badge">第三乐章 · EP 11</span>
+        <span class="ep-period">1998–2000</span>
+      </div>
+      <h3 class="ep-title">记忆体的诱惑</h3>
+      <p class="ep-en-title">The Memory Temptation</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 德碁合并 · 拒绝DRAM陷阱 · 坚守逻辑代工</div>
+      <p class="ep-desc">千禧年前夕，面对DRAM存储巨浪诱惑，张忠谋果断拒绝周期毁灭陷阱，主导兼并德碁与世大半导体，一举确立全球逻辑晶圆代工绝对霸主地位。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '11', 'zh')">🇨🇳 中文原声 (21:18)</button>
+          <button class="track-tab" onclick="switchTrack(this, '11', 'en')">🇺🇸 English (21:50)</button>
+        </div>
+        <audio id="audio-11" controls preload="none" class="custom-audio" src="03-剧集/第11期-记忆体的诱惑/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第11期-记忆体的诱惑/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="12">
+      <div class="ep-header">
+        <span class="ep-badge">第三乐章 · EP 12</span>
+        <span class="ep-period">2001–2003</span>
+      </div>
+      <h3 class="ep-title">逆周期的定力</h3>
+      <p class="ep-en-title">Contrarian Resilience Through the Dot-Com Bust</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 互联网泡沫 · 逆势扩产 · 0.13微米铜制程破局</div>
+      <p class="ep-desc">全球互联网泡沫破灭、半导体行业断崖式下跌，台积电逆势研发，自主攻克0.13微米铜制程，彻底甩开IBM与联电，技术实力首次跃居世界第一梯队。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '12', 'zh')">🇨🇳 中文原声 (18:17)</button>
+          <button class="track-tab" onclick="switchTrack(this, '12', 'en')">🇺🇸 English (19:19)</button>
+        </div>
+        <audio id="audio-12" controls preload="none" class="custom-audio" src="03-剧集/第12期-逆周期的定力/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第12期-逆周期的定力/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="13">
+      <div class="ep-header">
+        <span class="ep-badge">第三乐章 · EP 13</span>
+        <span class="ep-period">2003–2009</span>
+      </div>
+      <h3 class="ep-title">交棒之痛</h3>
+      <p class="ep-en-title">The Agony of Succession</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 首次退休 · 金融危机 · 78岁王者归来</div>
+      <p class="ep-desc">2005年首度交棒CEO，随后遭遇2008全球金融海啸与裁员动荡。78岁的张忠谋力挽狂澜重返第一线，召回老将、重聚人心，决战移动互联网前夜。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '13', 'zh')">🇨🇳 中文原声 (19:46)</button>
+          <button class="track-tab" onclick="switchTrack(this, '13', 'en')">🇺🇸 English (21:36)</button>
+        </div>
+        <audio id="audio-13" controls preload="none" class="custom-audio" src="03-剧集/第13期-交棒之痛/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第13期-交棒之痛/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="14">
+      <div class="ep-header">
+        <span class="ep-badge">第三乐章 · EP 14</span>
+        <span class="ep-period">2009–2012</span>
+      </div>
+      <h3 class="ep-title">绚烂年代</h3>
+      <p class="ep-en-title">The Golden Surge of Mobile Era</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 资本开支跃升 · 28纳米豪赌 · 移动革命主航道</div>
+      <p class="ep-desc">重掌帅印后，张忠谋力排众议将资本支出翻倍至百亿美元，全面押注28纳米与移动芯片。28纳米成为半导体史上盈利最丰厚、统治时间最长的一代神级工艺。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '14', 'zh')">🇨🇳 中文原声 (18:23)</button>
+          <button class="track-tab" onclick="switchTrack(this, '14', 'en')">🇺🇸 English (19:50)</button>
+        </div>
+        <audio id="audio-14" controls preload="none" class="custom-audio" src="03-剧集/第14期-绚烂年代/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第14期-绚烂年代/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="15">
+      <div class="ep-header">
+        <span class="ep-badge">第三乐章 · EP 15</span>
+        <span class="ep-period">2010–2014</span>
+      </div>
+      <h3 class="ep-title">苹果来敲门</h3>
+      <p class="ep-en-title">When Apple Knocked on the Door</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 秘密谈判 · 独吃A系列芯片 · 斩断三星供应链</div>
+      <p class="ep-desc">乔布斯与库克急于摆脱对三星的依赖，张忠谋派出顶尖精锐飞赴库比蒂诺，以零泄密、全封闭产线的极致信任拿下iPhone A8/A9处理器独家代工，登顶移动时代王座。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '15', 'zh')">🇨🇳 中文原声 (18:27)</button>
+          <button class="track-tab" onclick="switchTrack(this, '15', 'en')">🇺🇸 English (19:57)</button>
+        </div>
+        <audio id="audio-15" controls preload="none" class="custom-audio" src="03-剧集/第15期-苹果来敲门/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第15期-苹果来敲门/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="16">
+      <div class="ep-header">
+        <span class="ep-badge">第三乐章 · EP 16</span>
+        <span class="ep-period">2013–2018</span>
+      </div>
+      <h3 class="ep-title">摩尔定律的守卫者</h3>
+      <p class="ep-en-title">Defenders of Moore's Law</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 浸润式光刻 · 7nm与EUV极紫外光刻 · 战胜英特尔</div>
+      <p class="ep-desc">林本坚浸润式光刻奇思妙想落地，联合ASML研发极紫外光（EUV），台积电在7nm/5nm先进制程全面击败英特尔与三星，成为全球唯一擎起摩尔定律火炬的神级工厂。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '16', 'zh')">🇨🇳 中文原声 (18:04)</button>
+          <button class="track-tab" onclick="switchTrack(this, '16', 'en')">🇺🇸 English (18:44)</button>
+        </div>
+        <audio id="audio-16" controls preload="none" class="custom-audio" src="03-剧集/第16期-摩尔定律的守卫者/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第16期-摩尔定律的守卫者/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="17">
+      <div class="ep-header">
+        <span class="ep-badge">第三乐章 · EP 17</span>
+        <span class="ep-period">2013–2018</span>
+      </div>
+      <h3 class="ep-title">交棒与退休</h3>
+      <p class="ep-en-title">Succession & Final Retirement</p>
+      <div class="ep-theme"><span class="icon">⚡</span> 双首长制 · 刘德音与魏哲家 · 功成身退</div>
+      <p class="ep-desc">构建「双首长制」权力架构，确保庞大帝国在制度下平稳运转。2018年6月，87岁的张忠谋正式宣布全面退休，留下一座无懈可击的全球科技巨塔。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '17', 'zh')">🇨🇳 中文原声 (18:24)</button>
+          <button class="track-tab" onclick="switchTrack(this, '17', 'en')">🇺🇸 English (19:31)</button>
+        </div>
+        <audio id="audio-17" controls preload="none" class="custom-audio" src="03-剧集/第17期-交棒与退休/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第17期-交棒与退休/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+    <div class="ep-card glassmorphism" data-id="18">
+      <div class="ep-header">
+        <span class="ep-badge">全系列大收官 · EP 18</span>
+        <span class="ep-period">2018–2026</span>
+      </div>
+      <h3 class="ep-title">护国神山与地缘风暴</h3>
+      <p class="ep-en-title">The Silicon Shield & The Geopolitical Storm</p>
+      <div class="ep-theme"><span class="icon">⚡</span> AI算力心脏 · 地缘兵家必争 · 尾声与英伟达序章</div>
+      <p class="ep-desc">台积电成为全球AI浪潮的核心发动机（ChatGPT、英伟达GPU、苹果芯片的心脏）。张忠谋直言「全球化已死，地缘政治让台积电成为兵家必争之地」。全系列收官，并为案例二（黄仁勋）埋下辉煌伏笔。</p>
+      
+      <div class="audio-panel">
+        <div class="audio-track-tabs">
+          <button class="track-tab active" onclick="switchTrack(this, '18', 'zh')">🇨🇳 中文原声 (18:00)</button>
+          <button class="track-tab" onclick="switchTrack(this, '18', 'en')">🇺🇸 English (18:02)</button>
+        </div>
+        <audio id="audio-18" controls preload="none" class="custom-audio" src="03-剧集/第18期-护国神山/中文音频.mp3"></audio>
+      </div>
+
+      <div class="ep-actions">
+        <a href="03-剧集/第18期-护国神山与地缘风暴/README.md" class="btn-subtle" target="_blank">📖 剧集文档</a>
+        <a href="portal.html" class="btn-subtle">🌟 官网沉浸版</a>
+      </div>
+    </div>
+    
+      </div>
+    </section>
+
+    <!-- AIGC Pipeline Architecture -->
+    <section id="pipeline" class="container">
+      <div class="pipeline-section glassmorphism">
+        <div class="section-header" style="margin-bottom: 24px;">
+          <span class="section-tag">ENGINEERING PIPELINE</span>
+          <h2 class="section-title">AIGC 并行生产工程架构</h2>
+          <p class="section-desc">从事实抽取到多模态出版物的一体化 SOP 自动化流水线</p>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-step">
+            <div class="step-num">1</div>
+            <div class="step-title">知识图谱提取</div>
+            <div class="step-desc">提取真实传记年表与公开史料（S01–S108），建立实体知识图谱。</div>
+          </div>
+          <div class="pipeline-step">
+            <div class="step-num">2</div>
+            <div class="step-title">平行叙事编织</div>
+            <div class="step-desc">第三方旁白置换，编织宏观时代背景与人物冲突，输出中英文稿。</div>
+          </div>
+          <div class="pipeline-step">
+            <div class="step-num">3</div>
+            <div class="step-title">双语 TTS 语音合成</div>
+            <div class="step-desc">并发调用神经语音合成模型（中英双角色），生成广播剧级高品质音频。</div>
+          </div>
+          <div class="pipeline-step">
+            <div class="step-num">4</div>
+            <div class="step-title">质量与史实门禁</div>
+            <div class="step-desc">自动化清洗舞台标记，校对敏感年份与术语，确保学术级史实自洽。</div>
+          </div>
+          <div class="pipeline-step">
+            <div class="step-num">5</div>
+            <div class="step-title">多矩阵渲染打包</div>
+            <div class="step-desc">一键编译出版级 EPUB 3.0、全册 HTML 电子书、互动地图与静态网页。</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">台积电张忠谋 · 传记时间线的平行世界</div>
+          <p class="footer-desc">
+            本项目由 Martin-MQtech 主理，属于 ReadShift 主体工程下游 AIGC 创意示范项目。遵循开源共享精神，仅供科技与人文研究、语言学习交流使用。
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>作品导航</h4>
+          <ul class="footer-links">
+            <li><a href="portal.html">作品官网 Portal</a></li>
+            <li><a href="map.html">平行世界地图 Map</a></li>
+            <li><a href="reader.html">全册电子书 Reader</a></li>
+            <li><a href="cards.html">金句知识卡片 Cards</a></li>
+            <li><a href="台积电张忠谋-传记时间线的平行世界.epub">下载 EPUB 电子书</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>开源与架构</h4>
+          <ul class="footer-links">
+            <li><a href="https://github.com/Martin-MQtech/morris-chang-tsmc-aigc-parallel" target="_blank">GitHub 仓库</a></li>
+            <li><a href="README.md" target="_blank">主控架构 SOP</a></li>
+            <li><a href="平行叙事引擎.md" target="_blank">平行叙事引擎方法论</a></li>
+            <li><a href="完结说明.md" target="_blank">全书完结审计报告</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Martin-MQtech & Parallel Narrative Engine. Released under MIT & CC-BY-NC 4.0 Licenses.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function switchTrack(btn, epId, lang) {
+      const card = btn.closest('.ep-card');
+      const tabs = card.querySelectorAll('.track-tab');
+      tabs.forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+
+      const audio = document.getElementById('audio-' + epId);
+      const wasPlaying = !audio.paused;
+      
+      // Find audio source based on episode ID
+      const ep = {"00": {"zh": "03-\u5267\u96c6/\u7b2c00\u671f-\u5168\u518c\u5bfc\u8bfb/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c00\u671f-\u5168\u518c\u5bfc\u8bfb/\u82f1\u6587\u97f3\u9891.mp3"}, "01": {"zh": "03-\u5267\u96c6/\u7b2c01\u671f-\u9003\u96be\u7684\u5b69\u5b50/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c01\u671f-\u9003\u96be\u7684\u5b69\u5b50/\u82f1\u6587\u97f3\u9891.mp3"}, "02": {"zh": "03-\u5267\u96c6/\u7b2c02\u671f-\u8003\u4e0d\u8fdb\u53bb\u7684\u5357\u5f00\u4e0e\u4f5c\u5bb6\u68a6/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c02\u671f-\u8003\u4e0d\u8fdb\u53bb\u7684\u5357\u5f00\u4e0e\u4f5c\u5bb6\u68a6/\u82f1\u6587\u97f3\u9891.mp3"}, "03": {"zh": "03-\u5267\u96c6/\u7b2c03\u671f-\u4ece\u9ec4\u6d66\u6c5f\u5230\u67e5\u5c14\u65af\u6cb3/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c03\u671f-\u4ece\u9ec4\u6d66\u6c5f\u5230\u67e5\u5c14\u65af\u6cb3/\u82f1\u6587\u97f3\u9891.mp3"}, "04": {"zh": "03-\u5267\u96c6/\u7b2c04\u671f-\u56db\u5341\u5c01\u6c42\u804c\u4fe1/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c04\u671f-\u56db\u5341\u5c01\u6c42\u804c\u4fe1/\u82f1\u6587\u97f3\u9891.mp3"}, "05": {"zh": "03-\u5267\u96c6/\u7b2c05\u671f-\u9694\u5cb8\u89c2\u706b\u7684\u53db\u4e71/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c05\u671f-\u9694\u5cb8\u89c2\u706b\u7684\u53db\u4e71/\u82f1\u6587\u97f3\u9891.mp3"}, "06": {"zh": "03-\u5267\u96c6/\u7b2c06\u671f-\u5fb7\u4eea\u7684\u592a\u7a7a\u7ade\u8d5b\u5c81\u6708/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c06\u671f-\u5fb7\u4eea\u7684\u592a\u7a7a\u7ade\u8d5b\u5c81\u6708/\u82f1\u6587\u97f3\u9891.mp3"}, "07": {"zh": "03-\u5267\u96c6/\u7b2c07\u671f-\u534a\u5bfc\u4f53\u4e4b\u5dc5\u7684\u5341\u5e74/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c07\u671f-\u534a\u5bfc\u4f53\u4e4b\u5dc5\u7684\u5341\u5e74/\u82f1\u6587\u97f3\u9891.mp3"}, "08": {"zh": "03-\u5267\u96c6/\u7b2c08\u671f-\u79bb\u5f00\u5fb7\u5dde\u4e0e\u53d7\u9080\u56de\u53f0/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c08\u671f-\u79bb\u5f00\u5fb7\u5dde\u4e0e\u53d7\u9080\u56de\u53f0/\u82f1\u6587\u97f3\u9891.mp3"}, "09": {"zh": "03-\u5267\u96c6/\u7b2c09\u671f-\u7eaf\u4ee3\u5de5\u7684\u9769\u547d/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c09\u671f-\u7eaf\u4ee3\u5de5\u7684\u9769\u547d/\u82f1\u6587\u97f3\u9891.mp3"}, "10": {"zh": "03-\u5267\u96c6/\u7b2c10\u671f-\u4ece\u53f0\u6e7e\u5230\u4e16\u754c/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c10\u671f-\u4ece\u53f0\u6e7e\u5230\u4e16\u754c/\u82f1\u6587\u97f3\u9891.mp3"}, "11": {"zh": "03-\u5267\u96c6/\u7b2c11\u671f-\u8bb0\u5fc6\u4f53\u7684\u8bf1\u60d1/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c11\u671f-\u8bb0\u5fc6\u4f53\u7684\u8bf1\u60d1/\u82f1\u6587\u97f3\u9891.mp3"}, "12": {"zh": "03-\u5267\u96c6/\u7b2c12\u671f-\u9006\u5468\u671f\u7684\u5b9a\u529b/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c12\u671f-\u9006\u5468\u671f\u7684\u5b9a\u529b/\u82f1\u6587\u97f3\u9891.mp3"}, "13": {"zh": "03-\u5267\u96c6/\u7b2c13\u671f-\u4ea4\u68d2\u4e4b\u75db/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c13\u671f-\u4ea4\u68d2\u4e4b\u75db/\u82f1\u6587\u97f3\u9891.mp3"}, "14": {"zh": "03-\u5267\u96c6/\u7b2c14\u671f-\u7eda\u70c2\u5e74\u4ee3/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c14\u671f-\u7eda\u70c2\u5e74\u4ee3/\u82f1\u6587\u97f3\u9891.mp3"}, "15": {"zh": "03-\u5267\u96c6/\u7b2c15\u671f-\u82f9\u679c\u6765\u6572\u95e8/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c15\u671f-\u82f9\u679c\u6765\u6572\u95e8/\u82f1\u6587\u97f3\u9891.mp3"}, "16": {"zh": "03-\u5267\u96c6/\u7b2c16\u671f-\u6469\u5c14\u5b9a\u5f8b\u7684\u5b88\u536b\u8005/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c16\u671f-\u6469\u5c14\u5b9a\u5f8b\u7684\u5b88\u536b\u8005/\u82f1\u6587\u97f3\u9891.mp3"}, "17": {"zh": "03-\u5267\u96c6/\u7b2c17\u671f-\u4ea4\u68d2\u4e0e\u9000\u4f11/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c17\u671f-\u4ea4\u68d2\u4e0e\u9000\u4f11/\u82f1\u6587\u97f3\u9891.mp3"}, "18": {"zh": "03-\u5267\u96c6/\u7b2c18\u671f-\u62a4\u56fd\u795e\u5c71/\u4e2d\u6587\u97f3\u9891.mp3", "en": "03-\u5267\u96c6/\u7b2c18\u671f-\u62a4\u56fd\u795e\u5c71/\u82f1\u6587\u97f3\u9891.mp3"}}[epId];
+      if (ep) {
+        audio.src = ep[lang];
+        if (wasPlaying) {
+          audio.play();
+        }
+      }
+    }
+  </script>
+</body>
+</html>

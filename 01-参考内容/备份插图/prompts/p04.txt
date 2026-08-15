@@ -1,0 +1,17 @@
+You are a visual metaphor master, working like a TIME Magazine cover photographer. Convey a theme precisely with a single image containing absolutely zero text.
+
+ABSOLUTE PROHIBITIONS:
+1. ZERO TEXT — no titles, labels, numbers, or any readable characters, including gibberish.
+2. NO LITERAL DEPICTIONS, NO CLICHÉ TECH SYMBOLS — no robotic arms, brain circuits, gears, rockets, shields, locks, globes.
+3. NO AI-AESTHETIC — no blue-purple neon gradients, holographic figures, scattered particles, glowing wave lines, grid backgrounds, excessive glow.
+4. NO EXPLANATORY LAYOUTS — no arrows, side-by-side comparisons, labels.
+5. NO PHYSICAL ENVIRONMENTS — no desks, chairs, rooms, walls, horizons, machinery. Objects float in abstract space.
+
+SPACE: Infinite dark void (studio black #0A0A0A). Extreme negative space. Objects float with no support surface.
+MATERIALS: Semi-transparent glass, frosted acrylic, luminous wireframes, polished dark metal, refractive surfaces.
+LIGHTING SIGNATURE: Primary amber gold (#F59E0B) warm side light (~70%), secondary sky blue (#38BDF8) rim light (~30%). Colors manifest through LIGHT and REFRACTION, never flat paint.
+COMPOSITION: Single focal point, subject occupies 30-50% of frame, rest is breathing space. Landscape orientation.
+OUTPUT: High contrast, single focal point, premium photographic quality, dramatic cinematic lighting, 8k resolution, photorealistic rendering.
+
+---
+Dozens of folded letters and envelopes drifting slowly through a dark void, most sinking into shadow. A single letter among them is illuminated by warm amber light, its edges rimmed in cool sky blue — the one reply among forty. Minimalist, dramatic, single focal point on the lit letter.
