@@ -1,5 +1,4 @@
-/* Auto-generated Bilingual Subtitle & Episode Database for TSMC Morris Chang Parallel World */
-window.EPISODES_DATA = [
+window.AUDIO_DATA = [
   {
     "id": "00",
     "title": "第00期 全册导读",
@@ -13358,7 +13357,7 @@ window.EPISODES_DATA = [
     "audioZh": "./03-剧集/第10期-从台湾到世界/中文音频.mp3",
     "audioEn": "./03-剧集/第10期-从台湾到世界/英文音频.mp3",
     "durationZh": 1139.12,
-    "durationEn": 1176.06,
+    "durationEn": 1176.056,
     "cues": [
       {
         "secZh": "开场",
@@ -13367,7 +13366,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：交易所的开市钟声，人群的嘈杂，渐渐压低】",
         "en": "[SFX: the opening bell of a stock exchange, the murmur of a crowd, fading down]",
         "start": 0.0,
-        "end": 5.01
+        "end": 5.83
       },
       {
         "secZh": "开场",
@@ -13375,8 +13374,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1997 年，一场风暴，正从东南亚席卷而来。",
         "en": "1997. A storm is sweeping in from Southeast Asia.",
-        "start": 5.01,
-        "end": 9.6
+        "start": 5.83,
+        "end": 10.4
       },
       {
         "secZh": "开场",
@@ -13384,8 +13383,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "泰国的货币崩了，印尼的货币崩了，韩国的货币崩了。股市暴跌，工厂倒闭，整个亚洲，都在一夜之间，陷入了恐慌。",
         "en": "Thailand's currency collapses. Indonesia's collapses. South Korea's collapses. Stock markets crash, factories shut their doors, and in a single night, the whole of Asia falls into panic.",
-        "start": 9.6,
-        "end": 20.46
+        "start": 10.4,
+        "end": 21.58
       },
       {
         "secZh": "开场",
@@ -13393,8 +13392,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 20.46,
-        "end": 22.76
+        "start": 21.58,
+        "end": 24.02
       },
       {
         "secZh": "开场",
@@ -13402,8 +13401,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "股市的屏幕上，一片惨绿。工厂的门口，排起了讨薪的长队。机场里，挤满了拎着行李、急着把钱转走的投资人。",
         "en": "On the stock screens, a sea of red. Outside factory gates, long lines of workers waiting for wages. In the airports, investors clutching luggage, desperate to move their money out.",
-        "start": 22.76,
-        "end": 33.19
+        "start": 24.02,
+        "end": 35.08
       },
       {
         "secZh": "开场",
@@ -13411,8 +13410,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那一年，东亚的繁荣，像一面镜子，碎了一地。",
         "en": "In that year, the prosperity of East Asia shattered like a mirror.",
-        "start": 33.19,
-        "end": 37.58
+        "start": 35.08,
+        "end": 39.73
       },
       {
         "secZh": "开场",
@@ -13420,8 +13419,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 37.58,
-        "end": 38.83
+        "start": 39.73,
+        "end": 41.78
       },
       {
         "secZh": "开场",
@@ -13429,8 +13428,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可就在这一片哀鸿遍野里，有一家公司，却做出了一个让所有人意外的举动。",
         "en": "And yet, in the middle of all this ruin, one company does something that surprises everyone.",
-        "start": 38.83,
-        "end": 45.93
+        "start": 41.78,
+        "end": 48.8
       },
       {
         "secZh": "开场",
@@ -13438,8 +13437,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "它没有收缩，没有退缩，反而，登上了全世界最大的资本舞台。",
         "en": "It does not shrink. It does not retreat. Instead, it steps onto the largest capital stage in the world.",
-        "start": 45.93,
-        "end": 51.77
+        "start": 48.8,
+        "end": 54.77
       },
       {
         "secZh": "开场",
@@ -13447,8 +13446,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 51.77,
-        "end": 54.07
+        "start": 54.77,
+        "end": 57.21
       },
       {
         "secZh": "开场",
@@ -13456,8 +13455,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1997 年 10 月，这家公司在美国纽约证券交易所，正式挂牌上市——成为第一家，在美国上市的中国台湾公司。",
         "en": "In October 1997, this company lists on the New York Stock Exchange — becoming the first Taiwanese company ever to be listed in the United States.",
-        "start": 54.07,
-        "end": 65.34
+        "start": 57.21,
+        "end": 67.94
       },
       {
         "secZh": "开场",
@@ -13465,8 +13464,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这家公司，叫台积电。",
         "en": "The company is TSMC.",
-        "start": 65.34,
-        "end": 67.43
+        "start": 67.94,
+        "end": 70.34
       },
       {
         "secZh": "开场",
@@ -13474,8 +13473,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 67.43,
-        "end": 68.68
+        "start": 70.34,
+        "end": 72.39
       },
       {
         "secZh": "开场",
@@ -13483,8 +13482,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "十年前，它还只是一家靠着旧产线起步、被全行业当成笑话的小公司。十年后，它已经是全球最大的晶圆代工厂。",
         "en": "Ten years earlier, it had been a small company starting from an old production line, laughed at by the whole industry. Ten years later, it was the largest foundry in the world.",
-        "start": 68.68,
-        "end": 79.12
+        "start": 72.39,
+        "end": 82.95
       },
       {
         "secZh": "开场",
@@ -13492,8 +13491,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而它的创办人，是一个五十六岁才创业的男人。",
         "en": "And its founder was a man who only started his company at the age of fifty-six.",
-        "start": 79.12,
-        "end": 83.51
+        "start": 82.95,
+        "end": 87.42
       },
       {
         "secZh": "开场",
@@ -13501,8 +13500,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 83.51,
-        "end": 85.8
+        "start": 87.42,
+        "end": 89.86
       },
       {
         "secZh": "开场",
@@ -13510,8 +13509,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这一集，也是我们上册的最后一集。",
         "en": "And this is the final episode of our first volume.",
-        "start": 85.8,
-        "end": 89.35
+        "start": 89.86,
+        "end": 93.58
       },
       {
         "secZh": "开场",
@@ -13519,8 +13518,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "我们要讲的故事，是一个从战火里走出来的男人，和他一手创办的公司，是怎样在亚洲金融风暴里，站上了世界的舞台。",
         "en": "It is the story of a man who walked out of the fires of war, and of the company he built — and of how they stood on the world's stage in the middle of the Asian financial storm.",
-        "start": 89.35,
-        "end": 100.42
+        "start": 93.58,
+        "end": 104.36
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13528,8 +13527,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 100.42,
-        "end": 101.67
+        "start": 104.36,
+        "end": 106.41
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13537,8 +13536,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1997 年 7 月 2 日，泰国政府放弃了几十年来坚守的固定汇率。",
         "en": "On July 2, 1997, Thailand abandoned the fixed exchange rate it had held for decades.",
-        "start": 101.67,
-        "end": 108.77
+        "start": 106.41,
+        "end": 112.4
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13546,8 +13545,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "泰铢，应声暴跌。",
         "en": "The baht plunged.",
-        "start": 108.77,
-        "end": 110.44
+        "start": 112.4,
+        "end": 114.42
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13555,8 +13554,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 110.44,
-        "end": 112.73
+        "start": 114.42,
+        "end": 116.86
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13564,8 +13563,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这听起来，只是一个小小的金融事件。可它引发的连锁反应，却像多米诺骨牌一样，迅速压倒了整个东亚。",
         "en": "On its own, it sounded like a small financial event. But the chain reaction it set off fell across East Asia like a row of dominoes.",
-        "start": 112.73,
-        "end": 122.54
+        "start": 116.86,
+        "end": 126.84
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13573,8 +13572,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "印尼、马来西亚、韩国……一个个国家的货币，像雪崩一样垮塌。股市腰斩，银行倒闭，无数企业在一夜之间，资不抵债。",
         "en": "Indonesia, Malaysia, South Korea — one currency after another collapsed like an avalanche. Stock markets were cut in half, banks failed, and countless companies became insolvent overnight.",
-        "start": 122.54,
-        "end": 133.82
+        "start": 126.84,
+        "end": 138.03
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13582,8 +13581,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这就是后来震惊世界的「亚洲金融风暴」。",
         "en": "This was what the world would come to call the Asian financial crisis.",
-        "start": 133.82,
-        "end": 137.78
+        "start": 138.03,
+        "end": 141.66
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13591,8 +13590,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 137.78,
-        "end": 140.08
+        "start": 141.66,
+        "end": 144.1
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13600,8 +13599,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "说来也残酷：就在风暴来临前的几年，人们还在用另一个名字称呼这片土地——「亚洲奇迹」。",
         "en": "And here is the cruel part: just a few years before the storm, people were still calling this region by another name — the \"Asian miracle.\"",
-        "start": 140.08,
-        "end": 148.85
+        "start": 144.1,
+        "end": 152.79
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13609,8 +13608,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "几十年来，从日本、韩国，到东南亚，这些国家和地区靠着出口、靠着源源不断涌入的热钱，一路高歌猛进，被全世界当成追赶的样板。",
         "en": "For decades, from Japan and Korea to Southeast Asia, these countries and regions had ridden exports and an endless tide of hot money, charging forward, held up as models for the world to follow.",
-        "start": 148.85,
-        "end": 161.37
+        "start": 152.79,
+        "end": 165.15
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13618,8 +13617,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可潮水来得快，退得也快。当投资者开始怀疑这些国家的货币守不住的时候，一场踩踏开始了。热钱夺路而逃，货币一泻千里，那些靠借钱撑起来的繁荣，一夜之间，变成了负债累累的废墟。",
         "en": "But the tide that rushes in also rushes out. The moment investors began to doubt whether these currencies could hold, a stampede began. Hot money fled for the exits, currencies plunged, and the prosperity that had been built on borrowed money turned, overnight, into ruins weighed down by debt.",
-        "start": 161.37,
-        "end": 178.91
+        "start": 165.15,
+        "end": 182.8
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13627,8 +13626,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这场风暴，最终把亚洲，带进了几十年来最深的谷底。",
         "en": "The storm finally dragged Asia into its deepest valley in decades.",
-        "start": 178.91,
-        "end": 183.92
+        "start": 182.8,
+        "end": 187.93
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13636,8 +13635,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 183.92,
-        "end": 186.22
+        "start": 187.93,
+        "end": 190.37
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13645,8 +13644,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "国际货币基金组织紧急进场，向好几个国家伸出了援手。可那是有条件的援手——紧缩、改革、重组，代价惨重。",
         "en": "The International Monetary Fund rushed in and reached out to several countries. But its help came with conditions — austerity, reform, restructuring — at a heavy cost.",
-        "start": 186.22,
-        "end": 196.66
+        "start": 190.37,
+        "end": 201.42
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13654,8 +13653,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那一课，让整个亚洲，记了很多年。",
         "en": "It was a lesson the whole of Asia would remember for many years.",
-        "start": 196.66,
-        "end": 200.05
+        "start": 201.42,
+        "end": 205.04
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13663,8 +13662,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 200.05,
-        "end": 201.3
+        "start": 205.04,
+        "end": 207.09
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13672,8 +13671,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而台湾，也感受到了寒意。",
         "en": "Taiwan, too, felt the chill.",
-        "start": 201.3,
-        "end": 203.81
+        "start": 207.09,
+        "end": 209.87
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13681,8 +13680,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 203.81,
-        "end": 206.1
+        "start": 209.87,
+        "end": 212.3
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13690,8 +13689,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台湾的股市，跟着跌了；台币，也跟着贬了。可比起那些跌入深渊的邻居，台湾稳住了阵脚。",
         "en": "Taiwan's stock market fell, and the Taiwan dollar slid. But compared with its neighbors, who had fallen into the abyss, Taiwan held its ground.",
-        "start": 206.1,
-        "end": 214.66
+        "start": 212.3,
+        "end": 221.24
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13699,8 +13698,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "因为它手里，攒下了几千亿美元的外汇储备，也攒下了一大批真正在创造价值的企业。",
         "en": "Because it had built up hundreds of billions of dollars in foreign reserves — and it had raised a whole generation of enterprises that actually created value.",
-        "start": 214.66,
-        "end": 222.59
+        "start": 221.24,
+        "end": 229.02
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13708,8 +13707,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而台积电，就是其中，最硬的那一块压舱石。",
         "en": "And TSMC was the hardest, most solid piece of ballast among them.",
-        "start": 222.59,
-        "end": 226.77
+        "start": 229.02,
+        "end": 233.39
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13717,8 +13716,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 226.77,
-        "end": 228.02
+        "start": 233.39,
+        "end": 235.45
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13726,8 +13725,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可让许多人意外的是，在这场风暴里，台积电的日子，却并不算太难熬。",
         "en": "Yet, to many people's surprise, TSMC's days in the storm were not too hard.",
-        "start": 228.02,
-        "end": 234.7
+        "start": 235.45,
+        "end": 242.17
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13735,8 +13734,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "原因很简单：台积电的客户，大多是硅谷的无厂设计公司。它们分布在世界各地，订单不受单一地区的冲击。而芯片，恰恰是那个年代里，最不愁卖的东西之一。",
         "en": "The reason was simple: most of TSMC's customers were fabless design houses in Silicon Valley. They were spread across the world, and their orders were not tied to any single region. And chips, in that era, were among the last things anyone had trouble selling.",
-        "start": 234.7,
-        "end": 249.53
+        "start": 242.17,
+        "end": 257.41
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13744,8 +13743,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "风暴来了，可台积电手里的订单，还在。",
         "en": "The storm came — but the orders in TSMC's hands were still there.",
-        "start": 249.53,
-        "end": 253.28
+        "start": 257.41,
+        "end": 261.41
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13753,8 +13752,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 253.28,
-        "end": 255.58
+        "start": 261.41,
+        "end": 263.84
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13762,8 +13761,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "其实，这也不是什么运气。",
         "en": "And this was not really luck.",
-        "start": 255.58,
-        "end": 258.08
+        "start": 263.84,
+        "end": 266.62
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13771,8 +13770,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电从创立第一天起，走的就是一条「面向全球」的路。它不把命押在任何单一的市场上，而是把自己的客户，撒在了全世界的每一个角落。",
         "en": "From its very first day, TSMC had walked a \"global-facing\" road. It never staked its life on any single market; instead, it scattered its customers across every corner of the world.",
-        "start": 258.08,
-        "end": 271.24
+        "start": 266.62,
+        "end": 279.25
       },
       {
         "secZh": "第一幕 · 风暴来了",
@@ -13780,8 +13779,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "风暴可以掀翻一个地区，却掀不翻一张撒向全球的网。",
         "en": "A storm can overturn one region — but it cannot overturn a net cast across the whole world.",
-        "start": 271.24,
-        "end": 276.25
+        "start": 279.25,
+        "end": 284.29
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13789,8 +13788,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 276.25,
-        "end": 277.5
+        "start": 284.29,
+        "end": 286.35
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13798,8 +13797,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1997 年 10 月，台积电做了一件大事。",
         "en": "In October 1997, TSMC did something big.",
-        "start": 277.5,
-        "end": 282.09
+        "start": 286.35,
+        "end": 290.45
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13807,8 +13806,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "它在纽约证券交易所发行美国存托凭证，正式挂牌。股票代码，TSM。发行价，每股二十四块七毛八美元。",
         "en": "It issued American Depositary Receipts and listed on the New York Stock Exchange. Its ticker: TSM. The offering price: twenty-four dollars and seventy-eight cents per ADR.",
-        "start": 282.09,
-        "end": 292.11
+        "start": 290.45,
+        "end": 301.05
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13816,8 +13815,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 292.11,
-        "end": 294.41
+        "start": 301.05,
+        "end": 303.48
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13825,8 +13824,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这是第一家，在美国上市的中国台湾公司。",
         "en": "It was the first Taiwanese company ever listed in the United States.",
-        "start": 294.41,
-        "end": 298.38
+        "start": 303.48,
+        "end": 307.58
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13834,8 +13833,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这里，我们要稍微解释一下，什么叫「美国存托凭证」。",
         "en": "Let us pause to explain what an \"American Depositary Receipt\" is.",
-        "start": 298.38,
-        "end": 303.59
+        "start": 307.58,
+        "end": 312.52
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13843,8 +13842,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "简单说，就是一家外国公司的股票，被重新打包成一份份凭证，在美国的交易所里流通。它就像一座桥，把台湾的一家工厂，和华尔街的资本，连在了一起。",
         "en": "Simply put, it is a foreign company's shares, repackaged into certificates that trade on American exchanges. It works like a bridge, connecting a factory in Taiwan with the capital of Wall Street.",
-        "start": 303.59,
-        "end": 318.0
+        "start": 312.52,
+        "end": 326.92
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13852,8 +13851,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在那之前，能走上这座桥的，大多是日本和欧洲的大公司。而台积电，是第一个走上去的台湾公司。",
         "en": "Before TSMC, the companies that walked onto that bridge were mostly giants from Japan and Europe. TSMC was the first Taiwanese company ever to cross it.",
-        "start": 318.0,
-        "end": 327.19
+        "start": 326.92,
+        "end": 336.34
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13861,8 +13860,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 327.19,
-        "end": 329.48
+        "start": 336.34,
+        "end": 338.77
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13870,8 +13869,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "其实，三年前，台积电就已经在台湾证交所挂了牌。那一次，是它走进本土资本市场的第一步。",
         "en": "In fact, three years earlier, TSMC had already listed on the Taiwan Stock Exchange. That was its first step into its home capital market.",
-        "start": 329.48,
-        "end": 338.25
+        "start": 338.77,
+        "end": 347.81
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13879,8 +13878,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这一次，它要敲开的，是整个世界的大门。",
         "en": "Now, it was knocking on the door of the whole world.",
-        "start": 338.25,
-        "end": 342.42
+        "start": 347.81,
+        "end": 352.19
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13888,8 +13887,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 342.42,
-        "end": 343.68
+        "start": 352.19,
+        "end": 354.24
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13897,8 +13896,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "请注意这个「第一」的分量。",
         "en": "Consider the weight of that \"first.\"",
-        "start": 343.68,
-        "end": 346.39
+        "start": 354.24,
+        "end": 356.74
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13906,8 +13905,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在美国人的资本世界里，一家来自台湾的芯片公司，从此可以像英特尔、像 IBM 一样，被全世界的投资者，自由地买卖。",
         "en": "In the capital world of America, a chip company from Taiwan could now be bought and sold by investors all over the world, just like Intel, just like IBM.",
-        "start": 346.39,
-        "end": 358.08
+        "start": 356.74,
+        "end": 367.8
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13915,8 +13914,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 358.08,
-        "end": 360.38
+        "start": 367.8,
+        "end": 370.23
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13924,8 +13923,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "对台积电来说，这不只是多了一个融资渠道。",
         "en": "For TSMC, this was more than a new source of funding.",
-        "start": 360.38,
-        "end": 364.55
+        "start": 370.23,
+        "end": 374.52
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13933,8 +13932,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "它意味着，这家十年前还被全行业当成笑话的公司，正式站上了世界的舞台。它的名字，从此和硅谷的巨头们，并列在一起。",
         "en": "It meant that the company the whole industry had once laughed at had formally stepped onto the world's stage. Its name now stood side by side with the giants of Silicon Valley.",
-        "start": 364.55,
-        "end": 376.04
+        "start": 374.52,
+        "end": 386.1
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13942,8 +13941,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 376.04,
-        "end": 377.29
+        "start": 386.1,
+        "end": 388.16
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13951,8 +13950,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而对张忠谋来说，这更是一个意味深长的时刻。",
         "en": "And for Morris Chang, it was a moment full of meaning.",
-        "start": 377.29,
-        "end": 381.67
+        "start": 388.16,
+        "end": 392.63
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13960,8 +13959,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "很多年前，他还是那个在战火里逃难的孩子；后来，他是漂洋过海、在西方求学的青年；再后来，他是德州仪器那个被放逐的失意高管。",
         "en": "Long ago, he had been a child fleeing through the fires of war. Later, he was a young man crossing an ocean to study in the West. Still later, he was the passed-over executive, exiled at Texas Instruments.",
-        "start": 381.67,
-        "end": 394.2
+        "start": 392.63,
+        "end": 404.91
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13969,8 +13968,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而现在，六十六岁的他，站在了世界的中央。",
         "en": "And now, at sixty-six, he stood at the center of the world.",
-        "start": 394.2,
-        "end": 398.37
+        "start": 404.91,
+        "end": 409.28
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13978,8 +13977,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 398.37,
-        "end": 400.67
+        "start": 409.28,
+        "end": 411.71
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13987,8 +13986,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "有人问他，为什么要在这个节骨眼上，把公司带到美国去上市？",
         "en": "Someone asked him: why list the company in America at this very moment?",
-        "start": 400.67,
-        "end": 406.52
+        "start": 411.71,
+        "end": 417.6
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -13996,8 +13995,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他的回答，朴素得近乎直白：一家公司想要真正长大，就不能只躲在自家的池塘里。它必须，到世界上最深的海里去游泳。",
         "en": "His answer was plain to the point of bluntness: a company that wants to truly grow cannot stay in its own pond. It must swim in the deepest sea in the world.",
-        "start": 406.52,
-        "end": 417.79
+        "start": 417.6,
+        "end": 429.12
       },
       {
         "secZh": "第二幕 · 纽约的钟声",
@@ -14005,8 +14004,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在世界最深的海里，才有最大的风浪，也才有最大的鱼。",
         "en": "For it is in the deepest sea that the greatest storms rise — and where the biggest fish are found.",
-        "start": 417.79,
-        "end": 423.01
+        "start": 429.12,
+        "end": 434.44
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14014,8 +14013,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 423.01,
-        "end": 424.26
+        "start": 434.44,
+        "end": 436.49
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14023,8 +14022,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1998 年，是张忠谋人生的一个特殊年份。",
         "en": "1998 was a special year in Chang's life.",
-        "start": 424.26,
-        "end": 428.64
+        "start": 436.49,
+        "end": 440.78
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14032,8 +14031,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一年，美国的《商业周刊》，把他评为了「年度最佳二十五位经理人」之一。",
         "en": "That year, BusinessWeek named him one of the \"Top 25 Managers of the Year.\"",
-        "start": 428.64,
-        "end": 435.95
+        "start": 440.78,
+        "end": 447.23
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14041,8 +14040,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 435.95,
-        "end": 438.25
+        "start": 447.23,
+        "end": 449.66
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14050,8 +14049,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这份荣誉的分量，在于它来自大洋彼岸——那个他曾经努力想要融入、却又一度失落而归的西方世界。",
         "en": "The weight of that honor lay in where it came from — from across the ocean, from the Western world he had once tried so hard to join, and from which he had once returned disappointed.",
-        "start": 438.25,
-        "end": 447.64
+        "start": 449.66,
+        "end": 459.18
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14059,8 +14058,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "如今，西方世界亲手，把这份认可，交还给了他。",
         "en": "Now the Western world reached out, and handed that recognition back to him.",
-        "start": 447.64,
-        "end": 452.23
+        "start": 459.18,
+        "end": 464.02
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14068,8 +14067,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这份名单上的另外二十四个人，几乎清一色是美国本土的商业巨头。张忠谋，是名单上为数不多的东方面孔。",
         "en": "And of the other twenty-four names on that list, almost all were American business giants. Morris Chang was one of the very few Eastern faces on it.",
-        "start": 452.23,
-        "end": 462.46
+        "start": 464.02,
+        "end": 474.29
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14077,8 +14076,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 462.46,
-        "end": 463.72
+        "start": 474.29,
+        "end": 476.35
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14086,8 +14085,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "荣誉还在继续。",
         "en": "The honors kept coming.",
-        "start": 463.72,
-        "end": 465.18
+        "start": 476.35,
+        "end": 478.1
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14095,8 +14094,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第二年，也就是 1999 年，全球无厂半导体协会，把它的首届「杰出领导奖」，颁给了张忠谋——后来，这个奖项，干脆改成了他的名字。",
         "en": "The next year, 1999, the Fabless Semiconductor Association gave its first-ever Exemplary Leadership Award to Chang — an award that would later be renamed after him.",
-        "start": 465.18,
-        "end": 478.54
+        "start": 478.1,
+        "end": 490.79
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14104,8 +14103,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "再到 2000 年，电气与电子工程师学会，又把象征半导体界最高荣誉之一的「罗伯特·诺伊斯奖章」，颁给了他。",
         "en": "And in 2000, the Institute of Electrical and Electronics Engineers gave him the Robert N. Noyce Medal, one of the highest honors in the semiconductor world.",
-        "start": 478.54,
-        "end": 489.6
+        "start": 490.79,
+        "end": 500.53
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14113,8 +14112,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 489.6,
-        "end": 491.9
+        "start": 500.53,
+        "end": 502.97
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14122,8 +14121,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而同样是在 1998 年，张忠谋还做了一件，在商业世界里显得有些「不合时宜」的事。",
         "en": "And in that same year, 1998, Chang did something that seemed almost out of place in the business world.",
-        "start": 491.9,
-        "end": 500.46
+        "start": 502.97,
+        "end": 510.55
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14131,8 +14130,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他出版了自己的自传——上册。",
         "en": "He published his autobiography — volume one.",
-        "start": 500.46,
-        "end": 503.38
+        "start": 510.55,
+        "end": 514.04
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14140,8 +14139,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 503.38,
-        "end": 504.63
+        "start": 514.04,
+        "end": 516.09
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14149,8 +14148,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这本自传上册，记录的是 1931 年到 1964 年——从他在战乱中出生，到逃难，到求学美国，到进入德州仪器，再到从斯坦福拿到博士学位。",
         "en": "That first volume covers the years 1931 to 1964 — from his birth in the chaos of war, to flight, to studying in America, to joining Texas Instruments, and finally to earning his doctorate at Stanford.",
-        "start": 504.63,
-        "end": 518.83
+        "start": 516.09,
+        "end": 529.45
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14158,8 +14157,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那是他的前半生。",
         "en": "It was the story of his first half of life.",
-        "start": 518.83,
-        "end": 521.44
+        "start": 529.45,
+        "end": 531.39
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14167,8 +14166,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 521.44,
-        "end": 523.74
+        "start": 531.39,
+        "end": 533.82
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14176,8 +14175,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在这本自传里，他写下了自己这一路走来的样子。",
         "en": "In that book, he wrote down the shape of the road he had walked.",
-        "start": 523.74,
-        "end": 528.33
+        "start": 533.82,
+        "end": 538.49
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14185,8 +14184,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他写下了战火里的逃难，写下了重庆的南开中学，写下了那个曾经想当作家、却被父亲劝回去学工程的少年。",
         "en": "He wrote of fleeing through the flames of war, of Nankai Middle School in Chongqing, of a boy who had dreamed of being a writer before his father talked him back into engineering.",
-        "start": 528.33,
-        "end": 538.35
+        "start": 538.49,
+        "end": 548.24
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14194,8 +14193,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他写下了漂洋过海去哈佛的那一年，写下了转去麻省理工的抉择，写下了两次博士落第、却凭着几十封求职信闯进半导体行业的青年。",
         "en": "He wrote of the year at Harvard, of the decision to transfer to MIT, of failing the doctoral exam twice and still forcing his way into the semiconductor industry with dozens of job applications.",
-        "start": 538.35,
-        "end": 550.67
+        "start": 548.24,
+        "end": 560.07
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14203,8 +14202,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他也写下了德州仪器那二十五年——从良率做起，到学习曲线定价，到与英特尔对垒，再到那场会议室里的败仗。",
         "en": "He also wrote of twenty-five years at Texas Instruments — rising from fixing yields, to learning-curve pricing, to facing down Intel, to that final defeat in the boardroom.",
-        "start": 550.67,
-        "end": 561.11
+        "start": 560.07,
+        "end": 570.61
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14212,8 +14211,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这一切，都停在 1964 年——他拿到斯坦福博士学位的那一刻。",
         "en": "And all of it stops in 1964 — the moment he received his Stanford doctorate.",
-        "start": 561.11,
-        "end": 567.79
+        "start": 570.61,
+        "end": 577.21
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14221,8 +14220,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "上册，就停在了这里。就像他的人生，才刚刚走到中场。",
         "en": "Volume one ended there. Just as his life had only reached its halfway point.",
-        "start": 567.79,
-        "end": 573.0
+        "start": 577.21,
+        "end": 582.95
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14230,8 +14229,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 573.0,
-        "end": 574.26
+        "start": 582.95,
+        "end": 585.01
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14239,8 +14238,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "很多人不理解：一个正在掌舵全球最大晶圆代工厂的人，怎么有闲心，去写一本关于过去的书？",
         "en": "Many people wondered: how does the man running the world's largest foundry find the time to write a book about the past?",
-        "start": 574.26,
-        "end": 583.03
+        "start": 585.01,
+        "end": 593.74
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14248,8 +14247,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可张忠谋心里清楚。他要写的，不只是他自己。",
         "en": "But Chang understood his purpose. He was not writing only about himself.",
-        "start": 583.03,
-        "end": 587.41
+        "start": 593.74,
+        "end": 598.65
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14257,8 +14256,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 587.41,
-        "end": 589.71
+        "start": 598.65,
+        "end": 601.08
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14266,8 +14265,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "其实，还有一个更私人的理由。",
         "en": "And there was a more personal reason, too.",
-        "start": 589.71,
-        "end": 592.63
+        "start": 601.08,
+        "end": 604.23
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14275,8 +14274,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋这一生，见过太多人，也告别过太多人。那些在战火里离散的亲人，那些在大时代里浮沉的同窗，那些在半导体行业里并肩又走散的同僚。",
         "en": "In his life, Chang had met too many people, and said goodbye to too many. Family scattered by war. Classmates tossed about by a great era. Colleagues who had walked beside him in the semiconductor industry and then drifted away.",
-        "start": 592.63,
-        "end": 605.99
+        "start": 604.23,
+        "end": 617.52
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14284,8 +14283,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他怕再不写下来，这些人的名字，就会被时间，慢慢地抹掉。",
         "en": "He feared that if he did not write them down, their names would slowly be erased by time.",
-        "start": 605.99,
-        "end": 611.63
+        "start": 617.52,
+        "end": 623.3
       },
       {
         "secZh": "第三幕 · 奠基之年",
@@ -14293,8 +14292,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "所以这本自传，写的是一段人生，也是一群人的命运。",
         "en": "So that autobiography is the story of one life — and of the fates of a whole generation.",
-        "start": 611.63,
-        "end": 616.64
+        "start": 623.3,
+        "end": 628.43
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14302,8 +14301,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 616.64,
-        "end": 617.89
+        "start": 628.43,
+        "end": 630.48
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14311,8 +14310,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "让我们再把镜头，拉回到那场风暴里。",
         "en": "Let us turn the camera back to the storm.",
-        "start": 617.89,
-        "end": 621.44
+        "start": 630.48,
+        "end": 634.21
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14320,8 +14319,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "亚洲金融风暴最猛烈的那两年，无数企业倒下了。可台积电，不仅没有倒下，反而在风暴里，悄悄地长壮了。",
         "en": "In the two fiercest years of the Asian financial crisis, countless companies fell. But TSMC did not fall. Instead, it quietly grew stronger in the middle of the storm.",
-        "start": 621.44,
-        "end": 631.46
+        "start": 634.21,
+        "end": 644.47
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14329,8 +14328,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 631.46,
-        "end": 633.75
+        "start": 644.47,
+        "end": 646.9
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14338,8 +14337,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "它的秘诀，其实一点都不玄妙。",
         "en": "Its secret was not mysterious at all.",
-        "start": 633.75,
-        "end": 636.68
+        "start": 646.9,
+        "end": 650.05
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14347,8 +14346,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "当别人在恐慌中收缩的时候，台积电守住了自己最看重的东西：良率、成本、还有那份「不与客户竞争」的承诺。",
         "en": "While others shrank in panic, TSMC held fast to the things it cared about most: yield, cost, and that promise never to compete with its customers.",
-        "start": 636.68,
-        "end": 647.12
+        "start": 650.05,
+        "end": 660.01
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14356,8 +14355,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 647.12,
-        "end": 649.41
+        "start": 660.01,
+        "end": 662.44
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14365,8 +14364,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这三样东西，是台积电用了十年时间，一砖一瓦垒起来的护城河。风暴来的时候，别人的城墙在摇晃，而它的护城河，纹丝不动。",
         "en": "Those three things were a moat that TSMC had spent ten years building, brick by brick. When the storm came, other walls were shaking — but its moat did not move.",
-        "start": 649.41,
-        "end": 661.31
+        "start": 662.44,
+        "end": 674.49
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14374,8 +14373,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 661.31,
-        "end": 662.56
+        "start": 674.49,
+        "end": 676.55
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14383,8 +14382,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而就在亚洲陷入风暴的同时，大洋彼岸，另一件事正在悄悄发生。",
         "en": "And while Asia was sinking into the storm, something else was quietly beginning across the ocean.",
-        "start": 662.56,
-        "end": 668.62
+        "start": 676.55,
+        "end": 682.62
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14392,8 +14391,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "互联网，正迎来它的第一个黎明。硅谷的车库里，一家又一家新公司冒了出来，它们要做网站、做网络设备、做一切和「联网」有关的东西。",
         "en": "The internet was seeing its first dawn. In the garages of Silicon Valley, one new company after another was springing up — to build websites, to build networking gear, to build everything that had anything to do with getting connected.",
-        "start": 668.62,
-        "end": 681.56
+        "start": 682.62,
+        "end": 695.23
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14401,8 +14400,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这一切，都离不开芯片。",
         "en": "And every single one of those things needed chips.",
-        "start": 681.56,
-        "end": 684.07
+        "start": 695.23,
+        "end": 698.01
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14410,8 +14409,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 684.07,
-        "end": 686.36
+        "start": 698.01,
+        "end": 700.44
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14419,8 +14418,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "东方的风暴，和西方的黎明，就这样奇妙地交叠在一起。风暴打不倒台积电，黎明却在催着它，跑得更快。",
         "en": "The storm in the East and the dawn in the West overlapped in a strange and wonderful way. The storm could not bring TSMC down, while the dawn kept urging it to run faster.",
-        "start": 686.36,
-        "end": 696.18
+        "start": 700.44,
+        "end": 710.51
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14428,8 +14427,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 696.18,
-        "end": 697.43
+        "start": 710.51,
+        "end": 712.57
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14437,8 +14436,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "风暴，把那些靠运气和泡沫撑起来的企业，一个一个地打回了原形。",
         "en": "The storm stripped bare, one by one, the companies that had been propped up by luck and bubbles.",
-        "start": 697.43,
-        "end": 703.69
+        "start": 712.57,
+        "end": 718.83
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14446,8 +14445,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而那些真正扎实的企业，却在风暴过后，被全世界看得清清楚楚。",
         "en": "And the truly solid companies — after the storm passed — were seen clearly by the whole world.",
-        "start": 703.69,
-        "end": 709.74
+        "start": 718.83,
+        "end": 724.91
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14455,8 +14454,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 709.74,
-        "end": 712.04
+        "start": 724.91,
+        "end": 727.34
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14464,8 +14463,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，或许就是那句老话背后的道理：当潮水退去，你才知道谁在裸泳。",
         "en": "That is the truth behind the old saying: only when the tide goes out do you see who has been swimming naked.",
-        "start": 712.04,
-        "end": 718.51
+        "start": 727.34,
+        "end": 734.0
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14473,8 +14472,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而当风暴来时，扎实的企业，反而被看见。",
         "en": "And when the storm comes, it is the solid company that gets seen.",
-        "start": 718.51,
-        "end": 722.48
+        "start": 734.0,
+        "end": 738.19
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14482,8 +14481,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 722.48,
-        "end": 723.73
+        "start": 738.19,
+        "end": 740.24
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14491,8 +14490,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "风暴过后，人们重新算了一笔账：谁在裸泳，谁穿了泳衣。",
         "en": "After the storm, the world did its sums again: who was swimming naked, and who was wearing trunks.",
-        "start": 723.73,
-        "end": 729.16
+        "start": 740.24,
+        "end": 745.96
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14500,8 +14499,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那些靠热钱和泡沫堆起来的公司，变成了废墟；而台积电，凭着扎实的良率、健康的客户结构、和一句从不食言的承诺，被全世界的资本，重新标上了价码。",
         "en": "The companies built on hot money and bubbles lay in ruins. But TSMC, with its solid yields, its healthy customer base, and a promise it never broke, was re-priced by the world's capital.",
-        "start": 729.16,
-        "end": 743.56
+        "start": 745.96,
+        "end": 760.02
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14509,8 +14508,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "所谓被看见，不是被吹捧。是被最挑剔的那群人，重新掂量了一遍之后，依然点头。",
         "en": "To be seen is not to be flattered. It is to be weighed again by the most demanding eyes — and to still win their nod.",
-        "start": 743.56,
-        "end": 751.29
+        "start": 760.02,
+        "end": 768.11
       },
       {
         "secZh": "第四幕 · 风暴中的定力",
@@ -14518,8 +14517,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电，就是在 1997 年那场席卷亚洲的风暴里，被整个世界，重新看见了一次。",
         "en": "In the storm that swept across Asia in 1997, the world looked at TSMC again — and saw it for what it truly was.",
-        "start": 751.29,
-        "end": 759.43
+        "start": 768.11,
+        "end": 775.78
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14527,8 +14526,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 安静，放慢",
         "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 759.43,
-        "end": 762.35
+        "start": 775.78,
+        "end": 778.87
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14536,8 +14535,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "到这里，我们上册的故事，就要讲完了。",
         "en": "Here, the story of our first volume draws to a close.",
-        "start": 762.35,
-        "end": 766.11
+        "start": 778.87,
+        "end": 782.86
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14545,8 +14544,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "让我们把这条时间线，从头到尾，再看一遍。",
         "en": "Let us walk the whole timeline once more, from the beginning.",
-        "start": 766.11,
-        "end": 770.29
+        "start": 782.86,
+        "end": 787.24
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14554,8 +14553,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1931 年，一个男孩出生在战乱的年代。他逃难，他求学，他漂洋过海，他在西方的一家公司里，从良率做起，一路做到半导体生意的巅峰。",
         "en": "In 1931, a boy was born into an age of war. He fled. He studied. He crossed an ocean. Inside a Western company, he rose from fixing yields all the way to the peak of the semiconductor business.",
-        "start": 770.29,
-        "end": 783.65
+        "start": 787.24,
+        "end": 800.5
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14563,8 +14562,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "然后，他被放逐，他离开，他在五十六岁那年，回到东方，创办了一家没有人看好的公司。",
         "en": "Then he was exiled. He left. And at fifty-six, he returned to the East and founded a company that nobody believed in.",
-        "start": 783.65,
-        "end": 792.0
+        "start": 800.5,
+        "end": 808.91
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14572,8 +14571,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 792.0,
-        "end": 794.29
+        "start": 808.91,
+        "end": 811.34
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14581,8 +14580,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这家公司，不设计芯片，只替别人造芯片。",
         "en": "That company designed no chips. It only made other people's chips.",
-        "start": 794.29,
-        "end": 798.26
+        "start": 811.34,
+        "end": 815.53
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14590,8 +14589,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可就是这样一个「代工」的念头，让设计芯片的人，第一次可以没有工厂；让一个只会做塑料玩具和廉价跑鞋的小岛，第一次站上了世界科技之巅。",
         "en": "And yet it was this very idea of \"the foundry\" that let chip designers, for the first time, live without a factory — and that let an island known only for plastic toys and cheap running shoes climb, for the first time, to the summit of world technology.",
-        "start": 798.26,
-        "end": 811.83
+        "start": 815.53,
+        "end": 828.2
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14599,8 +14598,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 811.83,
-        "end": 814.13
+        "start": 828.2,
+        "end": 830.63
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14608,8 +14607,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋的传记，就像一面镜子。",
         "en": "Morris Chang's biography is a mirror.",
-        "start": 814.13,
-        "end": 817.05
+        "start": 830.63,
+        "end": 833.79
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14617,8 +14616,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在这面镜子里，我们看见的，不只是一个人的命运。我们看见的，是一个时代：一个东方的孩子，如何穿过战火，走进西方的课堂；又如何带着西方的一切，回到东方，把两个世界，重新连接起来。",
         "en": "In that mirror, we see more than one man's fate. We see an era: a child of the East walking through the fires of war into the classrooms of the West — and then carrying everything the West gave him back to the East, to bind the two worlds together again.",
-        "start": 817.05,
-        "end": 835.21
+        "start": 833.79,
+        "end": 852.05
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14626,8 +14625,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 835.21,
-        "end": 837.51
+        "start": 852.05,
+        "end": 854.48
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14635,8 +14634,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这是一种什么样的精神？",
         "en": "What kind of spirit is this?",
-        "start": 837.51,
-        "end": 839.8
+        "start": 854.48,
+        "end": 856.99
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14644,8 +14643,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "是奋斗不息，是不断寻找商机，是不断拓宽自己的能力边界。",
         "en": "It is the spirit of endless striving, of forever hunting for the next opportunity, of pushing the boundaries of one's ability ever outward.",
-        "start": 839.8,
-        "end": 845.81
+        "start": 856.99,
+        "end": 862.68
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14653,8 +14652,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "也是一个华人在异乡，完成自我重建的勇气。",
         "en": "And it is the courage of a man rebuilding himself, in a foreign land, from the ground up.",
-        "start": 845.81,
-        "end": 850.5
+        "start": 862.68,
+        "end": 866.97
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14662,8 +14661,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 850.5,
-        "end": 852.8
+        "start": 866.97,
+        "end": 869.4
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14671,8 +14670,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "所以，我们把上册的名字，叫作「从台湾到世界」。",
         "en": "That is why we named this first volume \"From Taiwan to the World.\"",
-        "start": 852.8,
-        "end": 857.6
+        "start": 869.4,
+        "end": 873.97
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14680,8 +14679,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可其实，这个名字还可以倒过来读：从世界，回到台湾。",
         "en": "But the title can also be read in reverse: from the world, back to Taiwan.",
-        "start": 857.6,
-        "end": 862.82
+        "start": 873.97,
+        "end": 879.49
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14689,8 +14688,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一个人的一生，两次跨过文明：年轻时，从东向西；年过半百，从西向东。而每一次跨越，他都没有空手而归。",
         "en": "One man crossed between civilizations twice in his life: in his youth, from East to West; past fifty, from West back to East. And in neither crossing did he return empty-handed.",
-        "start": 862.82,
-        "end": 873.05
+        "start": 879.49,
+        "end": 890.24
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14698,8 +14697,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他带走了一身本事，也带回了一个时代。",
         "en": "He carried away a full set of skills — and he carried back an era.",
-        "start": 873.05,
-        "end": 876.96
+        "start": 890.24,
+        "end": 894.15
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14707,8 +14706,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 876.96,
-        "end": 879.26
+        "start": 894.15,
+        "end": 896.58
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14716,8 +14715,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这一带，就是台积电，就是新竹，就是那座后来让世界瞩目的科学园区，和它背后，整整一代人的命运。",
         "en": "And what he carried back was TSMC, was Hsinchu, was the science park the world would one day watch — and behind it, the fate of an entire generation.",
-        "start": 879.26,
-        "end": 889.07
+        "start": 896.58,
+        "end": 906.31
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14725,8 +14724,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 889.07,
-        "end": 891.37
+        "start": 906.31,
+        "end": 908.74
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14734,8 +14733,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "如果非要用三句话，来总结这十集的故事，我想，大概是这三句：",
         "en": "If I had to sum up these ten episodes in three sentences, I would put it this way:",
-        "start": 891.37,
-        "end": 897.42
+        "start": 908.74,
+        "end": 914.69
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14743,8 +14742,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第一句，起点不决定终点——那个逃难的孩子，后来成了世界半导体的「教父」。",
         "en": "First, your starting point does not decide your destination — the boy who fled the war would become the \"godfather\" of the world's semiconductors.",
-        "start": 897.42,
-        "end": 904.94
+        "start": 914.69,
+        "end": 922.12
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14752,8 +14751,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第二句，最难的仗不在市场，在人心——他输过，才真正学会了怎么赢。",
         "en": "Second, the hardest battles are not fought in the market, but in the human heart — he had to lose before he truly learned to win.",
-        "start": 904.94,
-        "end": 911.72
+        "start": 922.12,
+        "end": 929.27
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14761,8 +14760,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第三句，颠覆者不做主角，做平台——让所有人都成为主角，你才真正不可替代。",
         "en": "Third, the disruptor does not play the hero — he builds the platform, and only by making everyone else the hero does he become irreplaceable.",
-        "start": 911.72,
-        "end": 919.24
+        "start": 929.27,
+        "end": 937.17
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14770,8 +14769,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 919.24,
-        "end": 921.54
+        "start": 937.17,
+        "end": 939.6
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14779,8 +14778,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这一切，在 1998 年那个「奠基之年」，都还只是开始。",
         "en": "And all of this, in the \"foundational year\" of 1998, was still only the beginning.",
-        "start": 921.54,
-        "end": 927.59
+        "start": 939.6,
+        "end": 944.92
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14788,8 +14787,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "因为台积电真正的传奇，才刚刚进入高潮。",
         "en": "Because the real legend of TSMC had only just begun to climb toward its climax.",
-        "start": 927.59,
-        "end": 931.56
+        "start": 944.92,
+        "end": 949.02
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14797,8 +14796,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 931.56,
-        "end": 933.85
+        "start": 949.02,
+        "end": 951.45
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14806,8 +14805,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在后面的故事里，你会看到这家公司如何走过千禧年、如何熬过互联网泡沫的破灭、如何在一次次危机里越战越强。",
         "en": "In the stories to come, you will see this company cross the millennium, survive the bursting of the internet bubble, and grow stronger through crisis after crisis.",
-        "start": 933.85,
-        "end": 944.5
+        "start": 951.45,
+        "end": 961.77
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14815,8 +14814,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "你也会看到，它如何从一个「代工厂」，长成一个让全世界都离不开的存在——那座被称作「护国神山」的公司。",
         "en": "And you will see it grow from a \"foundry\" into something the whole world cannot do without — the company they call the \"sacred mountain that shields the nation.\"",
-        "start": 944.5,
-        "end": 954.94
+        "start": 961.77,
+        "end": 971.47
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14824,8 +14823,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "**当风暴来时，扎实的企业反而被看见——而在风暴之后，那个扎实的人，和他扎实的公司，将撑起一座，让整个世界仰望的高山。**",
         "en": "**When the storm comes, it is the solid company that gets seen — and after the storm, the solid man and his solid company would raise a mountain for the whole world to look up to.**",
-        "start": 954.94,
-        "end": 967.67
+        "start": 971.47,
+        "end": 983.51
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14833,8 +14832,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 967.67,
-        "end": 969.97
+        "start": 983.51,
+        "end": 985.94
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14842,8 +14841,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这就是上册的十集。",
         "en": "This is the ten episodes of our first volume.",
-        "start": 969.97,
-        "end": 972.32
+        "start": 985.94,
+        "end": 988.06
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14851,8 +14850,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "从 1931 年一个孩子的出生，到 1998 年一座山的奠基。",
         "en": "From the birth of a child in 1931, to the laying of a mountain's foundation in 1998.",
-        "start": 972.32,
-        "end": 978.79
+        "start": 988.06,
+        "end": 993.68
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14860,8 +14859,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "我们讲了一个人的故事，也讲了一个时代的平行世界。",
         "en": "We have told the story of one man — and of a whole era's parallel world.",
-        "start": 978.79,
-        "end": 983.8
+        "start": 993.68,
+        "end": 998.72
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -14869,8 +14868,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "感谢你，一路听到这里。下册，我们再见。",
         "en": "Thank you for listening this far. We will meet again in Volume Two.",
-        "start": 983.8,
-        "end": 987.77
+        "start": 998.72,
+        "end": 1003.33
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -14878,8 +14877,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
         "en": "(Verified public facts, for the listener's reference)",
-        "start": 987.77,
-        "end": 991.94
+        "start": 1003.33,
+        "end": 1008.12
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -14887,8 +14886,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1. **亚洲金融风暴**：1997 年 7 月 2 日，泰国放弃固定汇率、泰铢贬值，引发波及印尼、韩国、马来西亚等国的东亚金融危机。",
         "en": "1. **The Asian Financial Crisis**: On July 2, 1997, Thailand abandoned its fixed exchange rate and the baht devalued, triggering a crisis that spread across Indonesia, South Korea, Malaysia, and the rest of East Asia.",
-        "start": 991.94,
-        "end": 1005.93
+        "start": 1008.12,
+        "end": 1020.37
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -14896,8 +14895,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "2. **台积电纽交所上市**：1997 年 10 月，台积电发行美国存托凭证（ADR）并在纽约证券交易所挂牌，成为第一家在美国上市的中国台湾公司；发行价每股 24.78 美元。",
         "en": "2. **TSMC Lists on the NYSE**: In October 1997, TSMC issued American Depositary Receipts (ADRs) and listed on the New York Stock Exchange, becoming the first Taiwanese company listed in the United States; the offering price was $24.78 per ADR.",
-        "start": 1005.93,
-        "end": 1024.51
+        "start": 1020.37,
+        "end": 1036.66
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -14905,8 +14904,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "3. **1998 年度最佳经理人**：1998 年，张忠谋被美国《商业周刊》（BusinessWeek）评为「年度最佳 25 位经理人」之一。",
         "en": "3. **Top 25 Managers of the Year**: In 1998, BusinessWeek named Morris Chang one of its \"Top 25 Managers of the Year.\"",
-        "start": 1024.51,
-        "end": 1039.54
+        "start": 1036.66,
+        "end": 1048.57
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -14914,8 +14913,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "4. **自传上册出版**：1998 年，《张忠谋自传》上册出版，记录 1931–1964 年（出生、逃难、求学、德州仪器、斯坦福博士）。",
         "en": "4. **The Autobiography, Volume One**: In 1998, Chang published the first volume of his autobiography, covering 1931–1964 — his birth, flight, education, years at Texas Instruments, and Stanford doctorate.",
-        "start": 1039.54,
-        "end": 1053.94
+        "start": 1048.57,
+        "end": 1060.72
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -14923,8 +14922,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "5. **后续荣誉**：1999 年，张忠谋获 Fabless Semiconductor Association 首届「杰出领导奖」（该奖后以他命名）；2000 年获 IEEE 罗伯特·诺伊斯奖章。",
         "en": "5. **Later Honors**: In 1999, Chang received the first Exemplary Leadership Award of the Fabless Semiconductor Association (an award later named after him); in 2000 he received the IEEE Robert N. Noyce Medal.",
-        "start": 1053.94,
-        "end": 1074.82
+        "start": 1060.72,
+        "end": 1077.44
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -14932,8 +14931,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "6. **台积电营收**：1996 年营收约 14.5 亿美元；1997 年约 13.7 亿美元（受亚洲金融风暴影响略有回落）。",
         "en": "6. **TSMC Revenue**: 1996 revenue was about $1.45 billion; 1997 revenue was about $1.37 billion, dipping slightly under the impact of the Asian financial crisis.",
-        "start": 1074.82,
-        "end": 1088.18
+        "start": 1077.44,
+        "end": 1089.07
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -14941,8 +14940,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "7. **产业地位**：1990 年代末，台积电已是全球第一大晶圆代工厂，客户以全球无厂设计公司（fabless）为主。",
         "en": "7. **Industry Position**: By the late 1990s, TSMC was the world's largest dedicated foundry, serving mostly fabless design houses around the globe.",
-        "start": 1088.18,
-        "end": 1100.71
+        "start": 1089.07,
+        "end": 1100.12
       },
       {
         "secZh": "下集预告",
@@ -14950,8 +14949,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1100.71,
-        "end": 1101.96
+        "start": 1100.12,
+        "end": 1102.18
       },
       {
         "secZh": "下集预告",
@@ -14959,8 +14958,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1998 年，张忠谋的自传上册出版。书名，停在 1964 年——他离开斯坦福、回到德州仪器的那一年。",
         "en": "In 1998, Chang published the first volume of his autobiography. Its story stops in 1964 — the year he left Stanford and returned to Texas Instruments.",
-        "start": 1101.96,
-        "end": 1112.4
+        "start": 1102.18,
+        "end": 1112.58
       },
       {
         "secZh": "下集预告",
@@ -14968,8 +14967,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "上册的故事，到这里，就讲完了。",
         "en": "Here, the story of our first volume comes to an end.",
-        "start": 1112.4,
-        "end": 1115.53
+        "start": 1112.58,
+        "end": 1116.01
       },
       {
         "secZh": "下集预告",
@@ -14977,8 +14976,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 1115.53,
-        "end": 1117.83
+        "start": 1116.01,
+        "end": 1118.44
       },
       {
         "secZh": "下集预告",
@@ -14986,8 +14985,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可台积电的故事，才刚刚进入高潮。",
         "en": "But the story of TSMC had only just climbed toward its climax.",
-        "start": 1117.83,
-        "end": 1121.17
+        "start": 1118.44,
+        "end": 1121.97
       },
       {
         "secZh": "下集预告",
@@ -14995,8 +14994,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "接下来的下册，我们将走进台积电最波澜壮阔的年代：它如何成为全球最强的芯片公司，如何撑起一座小岛，又如何，在世界的注视下，长成那座「护国神山」。",
         "en": "In the next volume, we will walk into TSMC's most dramatic decades: how it became the strongest chip company in the world, how it carried a whole island on its back, and how, under the eyes of the world, it grew into the \"sacred mountain that shields the nation.\"",
-        "start": 1121.17,
-        "end": 1135.99
+        "start": 1121.97,
+        "end": 1136.07
       },
       {
         "secZh": "下集预告",
@@ -15004,7 +15003,7 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "下册，《护国神山》，敬请期待。",
         "en": "Volume Two — \"The Sacred Mountain\" — coming next.",
-        "start": 1135.99,
+        "start": 1136.07,
         "end": 1139.12
       }
     ]
@@ -15016,8 +15015,8 @@ window.EPISODES_DATA = [
     "summary": "记忆体的诱惑 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第11期-记忆体的诱惑/中文音频.mp3",
     "audioEn": "./03-剧集/第11期-记忆体的诱惑/英文音频.mp3",
-    "durationZh": 1277.57,
-    "durationEn": 1309.59,
+    "durationZh": 1277.572,
+    "durationEn": 1309.588,
     "cues": [
       {
         "secZh": "开场",
@@ -15026,7 +15025,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：无尘车间里，机器低鸣，渐入】",
         "en": "[SFX: the low hum of machines in a cleanroom, fading in]",
         "start": 0.0,
-        "end": 3.09
+        "end": 4.38
       },
       {
         "secZh": "开场",
@@ -15034,8 +15033,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一九九八年，台积电，正站在一个奇妙的节点上。",
         "en": "1998. TSMC stands at a curious crossroads.",
-        "start": 3.09,
-        "end": 6.86
+        "start": 4.38,
+        "end": 8.82
       },
       {
         "secZh": "开场",
@@ -15043,8 +15042,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 6.86,
-        "end": 7.89
+        "start": 8.82,
+        "end": 10.73
       },
       {
         "secZh": "开场",
@@ -15052,8 +15051,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "它刚满十一岁。前一年，它刚刚在纽约证券交易所挂牌，成了第一家登上美国资本市场的中国台湾公司。它的创办人张忠谋，也刚刚出版了自传的上册——讲他从战乱里的宁波，一路走到德州仪器的前半生。",
         "en": "It had just turned eleven. The year before, it had listed on the New York Stock Exchange — the first Taiwanese company ever to be traded in the United States. And its founder, Morris Chang, had just published the first volume of his autobiography, telling the story of the first half of his life, from a wartime boyhood in Ningbo to his years at Texas Instruments.",
-        "start": 7.89,
-        "end": 23.51
+        "start": 10.73,
+        "end": 28.67
       },
       {
         "secZh": "开场",
@@ -15061,8 +15060,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 23.51,
-        "end": 25.4
+        "start": 28.67,
+        "end": 30.94
       },
       {
         "secZh": "开场",
@@ -15070,8 +15069,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可这位六十七岁的老人，此刻心里盘桓的，不是庆祝，而是一道旧伤。",
         "en": "But this sixty-seven-year-old man was not thinking about celebration. He was thinking about an old wound.",
-        "start": 25.4,
-        "end": 30.72
+        "start": 30.94,
+        "end": 37.03
       },
       {
         "secZh": "开场",
@@ -15079,8 +15078,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "七年前，他创办台积电时，给自己立过一条规矩：这辈子，再也不碰记忆体。",
         "en": "Seven years earlier, when he founded TSMC, he had set himself a rule: never touch the memory business again.",
-        "start": 30.72,
-        "end": 36.55
+        "start": 37.03,
+        "end": 43.86
       },
       {
         "secZh": "开场",
@@ -15088,8 +15087,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 36.55,
-        "end": 37.58
+        "start": 43.86,
+        "end": 45.77
       },
       {
         "secZh": "开场",
@@ -15097,8 +15096,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "七年后，命运却把他，重新推回了记忆体的漩涡中央。",
         "en": "Seven years later, fate pushed him straight back into the vortex of memory chips.",
-        "start": 37.58,
-        "end": 41.7
+        "start": 45.77,
+        "end": 50.56
       },
       {
         "secZh": "开场",
@@ -15106,8 +15105,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 41.7,
-        "end": 43.59
+        "start": 50.56,
+        "end": 52.83
       },
       {
         "secZh": "开场",
@@ -15115,8 +15114,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "诱惑之所以是诱惑，是因为它长得像机会。",
         "en": "Temptation is temptation because it looks like opportunity.",
-        "start": 43.59,
-        "end": 46.85
+        "start": 52.83,
+        "end": 56.65
       },
       {
         "secZh": "开场",
@@ -15124,8 +15123,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一集，我们讲一个关于诱惑的故事。",
         "en": "This episode, we tell a story about temptation.",
-        "start": 46.85,
-        "end": 49.76
+        "start": 56.65,
+        "end": 60.12
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15133,8 +15132,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在半导体世界里，芯片，大致分成两种。",
         "en": "In the world of semiconductors, chips come in two broad kinds.",
-        "start": 49.76,
-        "end": 52.85
+        "start": 60.12,
+        "end": 65.06
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15142,8 +15141,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 52.85,
-        "end": 53.88
+        "start": 65.06,
+        "end": 66.98
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15151,8 +15150,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一种是逻辑芯片，一种，是记忆体。逻辑芯片，是负责「思考」的；记忆体，是负责「记住」的。全世界每十颗芯片里，大约有两颗，是记忆体。",
         "en": "One is logic. The other is memory. Logic chips are the ones that think; memory chips are the ones that remember. Of every ten chips made in the world, about two are memory.",
-        "start": 53.88,
-        "end": 64.86
+        "start": 66.98,
+        "end": 79.3
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15160,8 +15159,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在张忠谋的账本里，记忆体这门生意，他太熟悉了。当年在德州仪器，他就管过记忆体。那段日子，他后来说得很实在——不如意的日子，远远多过如意的日子。",
         "en": "In Morris Chang's ledger, the memory business was something he knew all too well. He had run memory at Texas Instruments. And as he put it plainly in later years: in those days, the bad days far outnumbered the good ones.",
-        "start": 64.86,
-        "end": 77.05
+        "start": 79.3,
+        "end": 93.79
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15169,8 +15168,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 77.05,
-        "end": 78.93
+        "start": 93.79,
+        "end": 96.05
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15178,8 +15177,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "所以，创办台积电的时候，他给自己划了一条线：只做代工，不碰记忆体。",
         "en": "So when he founded TSMC, he drew a line for himself: only the foundry business — no memory chips.",
-        "start": 78.93,
-        "end": 84.6
+        "start": 96.05,
+        "end": 102.7
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15187,8 +15186,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 84.6,
-        "end": 85.63
+        "start": 102.7,
+        "end": 104.62
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15196,8 +15195,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可记忆体对别人，偏偏有一种致命的诱惑。这诱惑，听起来相当诱人：第一，进入的门槛，看起来不高；第二，市场巨大；第三，竞争者还少——逻辑芯片的市场里，挤着几百家玩家，而记忆体呢，放眼全球，就那么几家。",
         "en": "But to other people, memory had a fatal pull. And the appeal sounded very reasonable. First, the barrier to entry did not look high. Second, the market was huge. Third, there were few competitors — while the logic market was crowded with hundreds of players, in memory there were only a handful of names in the entire world.",
-        "start": 85.63,
-        "end": 102.44
+        "start": 104.62,
+        "end": 124.22
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15205,8 +15204,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 102.44,
-        "end": 104.33
+        "start": 124.22,
+        "end": 126.49
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15214,8 +15213,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而且，记忆体大多是标准品。标准品的意思是：你照着别人的样子，依样画葫芦，做出来，就卖得出去。",
         "en": "And most memory chips were commodity products. Commodity meant: copy what everyone else makes, and it will sell.",
-        "start": 104.33,
-        "end": 112.22
+        "start": 126.49,
+        "end": 135.9
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15223,8 +15222,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 112.22,
-        "end": 113.25
+        "start": 135.9,
+        "end": 137.81
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15232,8 +15231,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可张忠谋几十年的经验，却告诉他，这门生意，远没有那么简单。",
         "en": "But Morris Chang's decades of experience told him the business was far harder than it looked.",
-        "start": 113.25,
-        "end": 118.23
+        "start": 137.81,
+        "end": 143.56
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15241,8 +15240,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "记忆体的竞争者虽然少，但每一个，都是巨头——八十年代，是日本公司；九十年代以后，是韩国公司。更重要的是，他早就看明白了：客制化的产品，通常比标准品更容易赚钱。而记忆体这种标准品，拼的，从来不是聪明，而是规模与耐力的极限。",
         "en": "The few competitors in memory were all giants — in the 1980s, the Japanese companies; from the 1990s onward, the Korean ones. And he had learned something else long ago: customized products are usually easier to make money from than commodity products. Memory was a commodity. And in commodities, what wins is not cleverness — it is the outer limit of scale and endurance.",
-        "start": 118.23,
-        "end": 137.1
+        "start": 143.56,
+        "end": 165.51
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15250,8 +15249,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 137.1,
-        "end": 138.99
+        "start": 165.51,
+        "end": 167.78
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15259,8 +15258,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一九八八、八九年，全球记忆体连续好几年缺货，价格居高不下。日本、韩国的记忆体厂，都赚得盆满钵满。",
         "en": "In 1988 and 1989, the global memory market had been short of supply for several years running. Prices stayed high. Memory makers in Japan and Korea were making fortunes.",
-        "start": 138.99,
-        "end": 147.23
+        "start": 167.78,
+        "end": 177.43
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15268,8 +15267,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "于是，台湾有两位关键人物，几乎在同一时间，中了记忆体的诱惑。",
         "en": "And so, almost at the same moment, two key figures in Taiwan fell under the spell of memory.",
-        "start": 147.23,
-        "end": 152.38
+        "start": 177.43,
+        "end": 183.35
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15277,8 +15276,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 152.38,
-        "end": 153.41
+        "start": 183.35,
+        "end": 185.27
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15286,8 +15285,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一位，是宏碁的施振荣。一九八八年夏天，他找到张忠谋，说：宏碁的电脑，要用掉大量记忆体，这是成本里最重的一块；他想在宏碁旗下，自己办一家记忆体公司——既能自给自足，又能省钱，甚至，还能卖给别的客户赚钱。",
         "en": "One was Stan Shih of Acer. In the summer of 1988, he told Morris Chang: Acer's computers consumed enormous quantities of memory, and memory was the heaviest single item in its cost. He wanted to start a memory company under the Acer group — one that could supply itself, save money, and even sell to other customers for a profit.",
-        "start": 153.41,
-        "end": 170.57
+        "start": 185.27,
+        "end": 205.07
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15295,8 +15294,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 170.57,
-        "end": 172.45
+        "start": 205.07,
+        "end": 207.33
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15304,8 +15303,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "另一位，是工研院副院长史钦泰。他的算盘更大：他要以记忆体为载体，做一整个「次微米计划」，用五年时间，孵化出一家记忆体公司。",
         "en": "The other was Chintay Shih, vice president of the Industrial Technology Research Institute, known as ITRI. His plan was bigger still: he wanted to build an entire \"sub-micron program\" around memory, and hatch a memory company within five years.",
-        "start": 172.45,
-        "end": 182.92
+        "start": 207.33,
+        "end": 219.04
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15313,8 +15312,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 182.92,
-        "end": 183.95
+        "start": 219.04,
+        "end": 220.95
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15322,8 +15321,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "两个人，两条路，同一个梦：造记忆体，发大财。",
         "en": "Two men, two roads, one shared dream: make memory, get rich.",
-        "start": 183.95,
-        "end": 187.73
+        "start": 220.95,
+        "end": 225.66
       },
       {
         "secZh": "第一幕 · 记忆体的诱惑",
@@ -15331,8 +15330,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而张忠谋，这位最懂记忆体的人，恰恰，被夹在了中间。",
         "en": "And Morris Chang — the man who understood memory best of all — found himself caught right in the middle.",
-        "start": 187.73,
-        "end": 192.02
+        "start": 225.66,
+        "end": 230.7
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15340,8 +15339,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一九八九年一月，张忠谋刚卸下工研院院长的担子。",
         "en": "In January 1989, Morris Chang had just stepped down as head of ITRI.",
-        "start": 192.02,
-        "end": 195.96
+        "start": 230.7,
+        "end": 236.44
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15349,8 +15348,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 195.96,
-        "end": 196.99
+        "start": 236.44,
+        "end": 238.36
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15358,8 +15357,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一天，他忽然接到三星电子台北办事处的电话——三星会长李健熙，正好人在台湾，想请他，吃一顿早餐。",
         "en": "One day, he received a phone call from Samsung's Taipei office: Lee Kun-hee, the chairman of Samsung, happened to be in Taiwan, and wanted to invite him to breakfast.",
-        "start": 196.99,
-        "end": 205.06
+        "start": 238.36,
+        "end": 247.74
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15367,8 +15366,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋有点好奇。台积电不做记忆体，三星专做记忆体。这两家，有什么好聊的？",
         "en": "Morris Chang was curious. TSMC did not make memory. Samsung made memory. What could the two of them possibly have to talk about?",
-        "start": 205.06,
-        "end": 211.23
+        "start": 247.74,
+        "end": 255.44
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15376,8 +15375,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他还是去了。而且，他带上了两个人：想办记忆体公司的施振荣，和想孵化记忆体产业的史钦泰。",
         "en": "He went anyway. And he brought two people with him: Stan Shih, who wanted to build a memory company, and Chintay Shih, who wanted to hatch a memory industry.",
-        "start": 211.23,
-        "end": 218.61
+        "start": 255.44,
+        "end": 264.16
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15385,8 +15384,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 218.61,
-        "end": 220.5
+        "start": 264.16,
+        "end": 266.43
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15394,8 +15393,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那时候，记忆体的王座，正在易手。",
         "en": "At that moment, the throne of memory was changing hands.",
-        "start": 220.5,
-        "end": 223.25
+        "start": 266.43,
+        "end": 269.8
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15403,8 +15402,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator]",
-        "start": 223.25,
-        "end": 225.13
+        "start": 269.8,
+        "end": 272.07
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15412,8 +15411,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "八十年代，全球记忆体，是日本人的天下。可一九八五年《广场协议》之后，日元一路升值，日本厂商的成本优势，被一点一点啃掉。韩国三星，就在这时，悄悄爬了上来。",
         "en": "In the 1980s, the global memory business belonged to Japan. But after the Plaza Accord of 1985, the yen kept rising, and the cost advantage of the Japanese makers was slowly eaten away. South Korea's Samsung quietly climbed up in their place.",
-        "start": 225.13,
-        "end": 238.17
+        "start": 272.07,
+        "end": 286.86
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15421,8 +15420,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 238.17,
-        "end": 239.2
+        "start": 286.86,
+        "end": 288.78
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15430,8 +15429,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "李健熙开门见山。他要说的，不是合作，而是劝退。",
         "en": "Lee Kun-hee came straight to the point. What he had to say was not a proposal for partnership. It was a warning to stay away.",
-        "start": 239.2,
-        "end": 244.57
+        "start": 288.78,
+        "end": 293.78
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15439,8 +15438,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator, slower]",
-        "start": 244.57,
-        "end": 245.6
+        "start": 293.78,
+        "end": 295.7
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15448,8 +15447,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "李健熙的意思很直白：记忆体，是一门需要天量资本、需要海量人才的生意。而台湾，供不起这两样东西。要是真想进记忆体这行，最聪明的办法，是跟三星合作。",
         "en": "His message was blunt: memory is a business that demands enormous capital and enormous talent. Taiwan could supply neither. If they truly wanted to enter the memory business, the smartest move was to partner with Samsung.",
-        "start": 245.6,
-        "end": 257.95
+        "start": 295.7,
+        "end": 310.17
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15457,8 +15456,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator]",
-        "start": 257.95,
-        "end": 259.84
+        "start": 310.17,
+        "end": 312.44
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15466,8 +15465,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "为了让人「亲眼见识」三星的实力，李健熙还发出了邀请：到韩国，走一趟。",
         "en": "And to make them \"see with their own eyes\" what Samsung had, Lee Kun-hee extended an invitation: come to Korea, and take a look.",
-        "start": 259.84,
-        "end": 265.67
+        "start": 312.44,
+        "end": 318.83
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15475,8 +15474,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "Two and a half months later, in April 1989, Morris Chang and his party of three flew to Seoul and toured Samsung's memory fabs.",
-        "start": 265.67,
-        "end": 270.82
+        "start": 318.83,
+        "end": 320.74
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15484,8 +15483,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "两个半月后，一九八九年四月，张忠谋一行三人，飞抵首尔，参观了三星的记忆体工厂。",
         "en": "It was the first time in years that Morris Chang had stepped inside a world-class semiconductor factory. He would later recall that Samsung's plant was in no way inferior to the plants of Texas Instruments, or to the great Japanese fabs. The engineers were professional, and answered questions with sincerity.",
-        "start": 270.82,
-        "end": 281.55
+        "start": 320.74,
+        "end": 328.33
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15493,8 +15492,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "那是张忠谋时隔多年，再一次踏进一座世界级的半导体工厂。他后来回忆，三星的工厂，跟德仪的工厂、跟那些日本大厂的工厂相比，毫不逊色。工程师很专业，回答问题，也很诚恳。",
         "en": "[Main narrator, slower]",
-        "start": 281.55,
-        "end": 295.44
+        "start": 328.33,
+        "end": 344.35
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15502,8 +15501,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "Lee Kun-hee received them in a lavishly decorated reception hall.",
-        "start": 295.44,
-        "end": 297.59
+        "start": 344.35,
+        "end": 346.62
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15511,8 +15510,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator",
         "zh": "李健熙在一间布置华丽的大会客室里，接见了他们。",
         "en": "[Main narrator]",
-        "start": 297.59,
-        "end": 301.54
+        "start": 346.62,
+        "end": 351.15
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15520,8 +15519,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "Years later, Morris Chang still remembered the feeling of that moment. The scene, he said, was a little like a frontier chieftain from the old dynasties, paying homage to the emperor.",
-        "start": 301.54,
-        "end": 308.19
+        "start": 351.15,
+        "end": 353.07
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15529,8 +15528,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "多年以后，张忠谋仍记得那一刻的感受。他说，那个场面，有点像古时候，边疆的部落酋长，进京拜见皇帝。",
         "en": "Lee Kun-hee asked: well, have you all seen it now?",
-        "start": 308.19,
-        "end": 316.42
+        "start": 353.07,
+        "end": 362.72
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15538,8 +15537,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "李健熙问：怎么样，你们都看到了吧？",
         "en": "[Main narrator, slower]",
-        "start": 316.42,
-        "end": 319.34
+        "start": 362.72,
+        "end": 366.38
       },
       {
         "secZh": "第二幕 · 一场早餐",
@@ -15547,1186 +15546,1186 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "What he was really asking was: are you still going to jump in?",
-        "start": 319.34,
-        "end": 322.13
+        "start": 366.38,
+        "end": 368.65
       },
       {
         "secZh": "第二幕 · 一场早餐",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "secEn": "Act Two · A Breakfast",
         "speaker": "",
         "zh": "他其实是在问：你们，还要不要跳进来？",
-        "en": "The trip to Samsung did not cool anyone down.",
-        "start": 322.13,
-        "end": 325.22
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "Main narrator",
-        "zh": "三星之行，没有浇灭任何人的热情。",
-        "en": "[Main narrator]",
-        "start": 325.22,
-        "end": 327.96
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "Stan Shih went home and pushed his memory venture forward all the same. Chintay Shih went home and pushed the sub-micron program even harder. In July 1990, the program officially began — the economics ministry first approved a budget of NT$5.89 billion, and later, when the plan moved to eight-inch wafers, the budget was raised to NT$7.05 billion.",
-        "start": 327.96,
-        "end": 340.4
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "",
-        "zh": "施振荣回去后，照样推进他的德碁。史钦泰回去后，更卖力地推动「次微米计划」。一九九○年七月，计划正式上路——经济部先批了五十八亿九千万新台币，后来，因为改用八吋晶圆，预算追加到了七十亿五千万。",
-        "en": "But this program was carrying a mountain on its back from day one.",
-        "start": 340.4,
-        "end": 356.7
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 356.7,
-        "end": 357.73
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "",
-        "zh": "可这个计划，从一开始，就压着一座大山。",
-        "en": "Memory is the most faithful follower of Moore's Law: each generation of process technology must keep up, one after another. And that was exactly what ITRI had failed to do for the past ten years. Worse still: memory design and memory process must work together like the left and right hand — and ITRI had almost never seriously developed design.",
-        "start": 357.73,
-        "end": 370.6
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "主叙述者 · 放缓",
-        "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 370.6,
+        "en": "",
+        "start": 368.65,
         "end": 372.49
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "",
-        "zh": "记忆体，是摩尔定律最忠实的信徒——制程，必须一代一代，紧紧跟上。而这一点，恰恰是工研院过去十年，都没能真正做到的事。更要命的是：记忆体的设计和制程，必须像左右手一样，紧密配合；可工研院，几乎从没认真发展过设计。",
-        "en": "Chintay Shih flew to the United States himself to recruit talent, and brought back two brothers, Lu Chih-yuan and Lu Chao-chun — the elder for process, the younger for design. Four years later, in mid-1994, the 4-megabit DRAM was finally made.",
+        "zh": "三星之行，没有浇灭任何人的热情。",
+        "en": "The trip to Samsung did not cool anyone down.",
         "start": 372.49,
-        "end": 390.51
+        "end": 377.0
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 390.51,
-        "end": 391.54
+        "en": "[Main narrator]",
+        "start": 377.0,
+        "end": 378.92
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "",
-        "zh": "史钦泰亲自飞到美国求才，请回了卢志远、卢超群两兄弟——哥哥做制程，弟弟做设计。四年之后，一九九四年年中，四M DRAM，真的被做出来了。",
-        "en": "And at that moment, the market for 4M DRAM was brilliant. Each chip sold for over twelve US dollars, while the manufacturing cost was only five or six. Faced with such profits, everyone went red-eyed: start production fast! Go public fast! Get rich fast!",
-        "start": 391.54,
-        "end": 403.21
+        "zh": "施振荣回去后，照样推进他的德碁。史钦泰回去后，更卖力地推动「次微米计划」。一九九○年七月，计划正式上路——经济部先批了五十八亿九千万新台币，后来，因为改用八吋晶圆，预算追加到了七十亿五千万。",
+        "en": "Stan Shih went home and pushed his memory venture forward all the same. Chintay Shih went home and pushed the sub-micron program even harder. In July 1990, the program officially began — the economics ministry first approved a budget of NT$5.89 billion, and later, when the plan moved to eight-inch wafers, the budget was raised to NT$7.05 billion.",
+        "start": 378.92,
+        "end": 397.19
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
+        "en": "But this program was carrying a mountain on its back from day one.",
+        "start": 397.19,
+        "end": 399.1
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "Main narrator, slower",
+        "zh": "可这个计划，从一开始，就压着一座大山。",
+        "en": "[Main narrator, slower]",
+        "start": 399.1,
+        "end": 403.01
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 403.21,
-        "end": 405.09
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "",
-        "zh": "那时候，四M DRAM 行情正好。一颗，卖到十二美元以上；而制造成本，只要五六美元。暴利面前，人人都红了眼：赶快量产！赶快上市！赶快发财！",
-        "en": "In late 1993, the economics ministry made its decision: the company that would be spun off would be decided by tender.",
-        "start": 405.09,
-        "end": 416.93
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "The rules were unusual. Whoever wanted to lead the new company would first raise money privately in Taiwan. Once the capital was in place, they would secretly tell the government how many \"technology shares\" they were willing to give it. The government would then pick whoever offered the most.",
-        "start": 416.93,
-        "end": 427.44
+        "en": "Memory is the most faithful follower of Moore's Law: each generation of process technology must keep up, one after another. And that was exactly what ITRI had failed to do for the past ten years. Worse still: memory design and memory process must work together like the left and right hand — and ITRI had almost never seriously developed design.",
+        "start": 403.01,
+        "end": 405.28
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "Main narrator",
+        "zh": "记忆体，是摩尔定律最忠实的信徒——制程，必须一代一代，紧紧跟上。而这一点，恰恰是工研院过去十年，都没能真正做到的事。更要命的是：记忆体的设计和制程，必须像左右手一样，紧密配合；可工研院，几乎从没认真发展过设计。",
+        "en": "[Main narrator]",
+        "start": 405.28,
+        "end": 426.27
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
+        "en": "Chintay Shih flew to the United States himself to recruit talent, and brought back two brothers, Lu Chih-yuan and Lu Chao-chun — the elder for process, the younger for design. Four years later, in mid-1994, the 4-megabit DRAM was finally made.",
+        "start": 426.27,
+        "end": 428.18
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "Main narrator, slower",
+        "zh": "史钦泰亲自飞到美国求才，请回了卢志远、卢超群两兄弟——哥哥做制程，弟弟做设计。四年之后，一九九四年年中，四M DRAM，真的被做出来了。",
+        "en": "[Main narrator, slower]",
+        "start": 428.18,
+        "end": 441.65
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "主叙述者 · 放缓",
+        "zh": "【主叙述者 · 放缓】",
+        "en": "And at that moment, the market for 4M DRAM was brilliant. Each chip sold for over twelve US dollars, while the manufacturing cost was only five or six. Faced with such profits, everyone went red-eyed: start production fast! Go public fast! Get rich fast!",
+        "start": 441.65,
+        "end": 443.92
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "Main narrator",
+        "zh": "那时候，四M DRAM 行情正好。一颗，卖到十二美元以上；而制造成本，只要五六美元。暴利面前，人人都红了眼：赶快量产！赶快上市！赶快发财！",
+        "en": "[Main narrator]",
+        "start": 443.92,
+        "end": 458.3
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
+        "en": "In late 1993, the economics ministry made its decision: the company that would be spun off would be decided by tender.",
+        "start": 458.3,
+        "end": 460.22
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "",
         "zh": "一九九三年底，经济部拍板，用招标的方式，决定谁来主导这家即将诞生的记忆体公司。",
-        "en": "[Main narrator]",
-        "start": 427.44,
-        "end": 434.14
+        "en": "The rules were unusual. Whoever wanted to lead the new company would first raise money privately in Taiwan. Once the capital was in place, they would secretly tell the government how many \"technology shares\" they were willing to give it. The government would then pick whoever offered the most.",
+        "start": 460.22,
+        "end": 467.72
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "",
+        "speaker": "Main narrator",
         "zh": "规则很特别：想主导的人，先在台湾民间募资；募够了，再秘密告诉政府，你愿意给政府多少「技术股」。政府看谁给得多，就选谁。",
+        "en": "[Main narrator]",
+        "start": 467.72,
+        "end": 479.15
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "UMC was the first to step forward and say it was interested in leading.",
-        "start": 434.14,
-        "end": 444.26
+        "start": 479.15,
+        "end": 481.07
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "What about TSMC? At first, Morris Chang did not want to get involved at all. After leaving Texas Instruments, he never wanted to touch memory again. And TSMC's general manager at the time, Brook, was his old subordinate from the memory division at Texas Instruments — the two of them had both tasted the bitterness of memory.",
-        "start": 444.26,
-        "end": 456.49
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "联电，第一个站出来，说有兴趣主导。",
-        "en": "[Main narrator, slower]",
-        "start": 456.49,
-        "end": 459.4
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "",
-        "zh": "台积电呢？张忠谋本来，一点都不想掺和。他离开德仪之后，就再也不想碰记忆体了。台积电当时的总经理布鲁克，正是他当年在德仪的记忆体部门老部下——两个人，都尝过记忆体的苦头。",
-        "en": "But TSMC's number three, chief operating officer F.C. Tseng, argued forcefully for bidding. He believed in that team.",
-        "start": 459.4,
-        "end": 473.82
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "主叙述者 · 放缓",
-        "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 473.82,
-        "end": 475.71
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "",
-        "zh": "可台积电的三号人物、营运副总曾繁城，却力主竞标。他看好那支团队。",
-        "en": "Morris Chang turned it over and over, and the more he thought, the more he felt: this tender, he could not afford to skip.",
-        "start": 475.71,
-        "end": 481.2
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "There were two reasons. First, from 1989 to 1994, he was the chairman of ITRI. This program was one he had supported all along. Now that it was about to bear fruit, how could he walk away?",
-        "start": 481.2,
-        "end": 489.13
+        "en": "What about TSMC? At first, Morris Chang did not want to get involved at all. After leaving Texas Instruments, he never wanted to touch memory again. And TSMC's general manager at the time, Brook, was his old subordinate from the memory division at Texas Instruments — the two of them had both tasted the bitterness of memory.",
+        "start": 481.07,
+        "end": 484.62
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "Main narrator, slower",
-        "zh": "张忠谋左思右想，越想越觉得，这标，不投不行。",
+        "zh": "台积电呢？张忠谋本来，一点都不想掺和。他离开德仪之后，就再也不想碰记忆体了。台积电当时的总经理布鲁克，正是他当年在德仪的记忆体部门老部下——两个人，都尝过记忆体的苦头。",
         "en": "[Main narrator, slower]",
-        "start": 489.13,
-        "end": 492.91
-      },
-      {
-        "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "",
-        "zh": "原因有两个。第一，从一九八九年到九四年，他是工研院的董事长。这个计划，是他一路支持的；如今眼看要开花结果，他怎么能撒手不管？",
-        "en": "Second, and deeper: years ago, it was he who had spun TSMC out of ITRI to give the old VLSI program a way forward. And TSMC had succeeded. Now ITRI wanted to spin off another semiconductor company — could he refuse?",
-        "start": 492.91,
-        "end": 503.55
+        "start": 484.62,
+        "end": 501.72
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 503.55,
-        "end": 505.43
+        "en": "But TSMC's number three, chief operating officer F.C. Tseng, argued forcefully for bidding. He believed in that team.",
+        "start": 501.72,
+        "end": 503.99
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
-        "speaker": "",
-        "zh": "第二，是那个更深的原因——当年，正是他为了给工研院的旧计划找出路，衍生出了台积电。台积电，成功了。现在，工研院又要衍生一家半导体公司，他，能拒绝吗？",
-        "en": "He remembered, many years before, when Texas Instruments had paid his full salary and tuition to send him to get a doctorate. Back then, he had called that situation \"an offer he could not refuse\" — if you refused, how would others see you? And how would you see yourself?",
-        "start": 505.43,
-        "end": 518.13
+        "speaker": "Main narrator",
+        "zh": "可台积电的三号人物、营运副总曾繁城，却力主竞标。他看好那支团队。",
+        "en": "[Main narrator]",
+        "start": 503.99,
+        "end": 510.58
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 518.13,
-        "end": 519.16
+        "en": "Morris Chang turned it over and over, and the more he thought, the more he felt: this tender, he could not afford to skip.",
+        "start": 510.58,
+        "end": 512.49
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "",
-        "zh": "他想起很多年前，德仪出全薪、全费，送他去读博士。那时的他，把那种处境，叫作「无法拒绝的机会」——如果拒绝，别人会怎么看？你自己，又会怎么看？",
-        "en": "Now, another offer he could not refuse stood in front of him.",
-        "start": 519.16,
-        "end": 531.17
+        "zh": "张忠谋左思右想，越想越觉得，这标，不投不行。",
+        "en": "There were two reasons. First, from 1989 to 1994, he was the chairman of ITRI. This program was one he had supported all along. Now that it was about to bear fruit, how could he walk away?",
+        "start": 512.49,
+        "end": 517.01
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "Main narrator, slower",
+        "zh": "原因有两个。第一，从一九八九年到九四年，他是工研院的董事长。这个计划，是他一路支持的；如今眼看要开花结果，他怎么能撒手不管？",
+        "en": "[Main narrator, slower]",
+        "start": 517.01,
+        "end": 529.52
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
         "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "Go bid.",
-        "start": 531.17,
-        "end": 533.06
+        "en": "Second, and deeper: years ago, it was he who had spun TSMC out of ITRI to give the old VLSI program a way forward. And TSMC had succeeded. Now ITRI wanted to spin off another semiconductor company — could he refuse?",
+        "start": 529.52,
+        "end": 531.79
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Four · The Dream Breaks",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "Main narrator",
+        "zh": "第二，是那个更深的原因——当年，正是他为了给工研院的旧计划找出路，衍生出了台积电。台积电，成功了。现在，工研院又要衍生一家半导体公司，他，能拒绝吗？",
+        "en": "[Main narrator]",
+        "start": 531.79,
+        "end": 546.96
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
+        "en": "He remembered, many years before, when Texas Instruments had paid his full salary and tuition to send him to get a doctorate. Back then, he had called that situation \"an offer he could not refuse\" — if you refused, how would others see you? And how would you see yourself?",
+        "start": 546.96,
+        "end": 548.88
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "Main narrator, slower",
+        "zh": "他想起很多年前，德仪出全薪、全费，送他去读博士。那时的他，把那种处境，叫作「无法拒绝的机会」——如果拒绝，别人会怎么看？你自己，又会怎么看？",
+        "en": "[Main narrator, slower]",
+        "start": 548.88,
+        "end": 563.0
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "主叙述者 · 放缓",
+        "zh": "【主叙述者 · 放缓】",
+        "en": "Now, another offer he could not refuse stood in front of him.",
+        "start": 563.0,
+        "end": 565.27
+      },
+      {
+        "secZh": "第三幕 · 无法拒绝的机会",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
         "speaker": "",
         "zh": "现在，又一个「无法拒绝的机会」，摆在了他面前。",
-        "en": "In 1994, raising money for a memory company was far easier than it had been to raise money for TSMC.",
-        "start": 533.06,
-        "end": 537.35
+        "en": "Go bid.",
+        "start": 565.27,
+        "end": 569.52
       },
       {
         "secZh": "第三幕 · 无法拒绝的机会",
-        "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator",
+        "secEn": "Act Three · An Offer He Could Not Refuse",
+        "speaker": "",
         "zh": "去投标吧。",
-        "en": "[Main narrator]",
-        "start": 537.35,
-        "end": 538.21
+        "en": "",
+        "start": 569.52,
+        "end": 570.8
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "一九九四年，为记忆体公司募资，比当年为台积电募资，容易太多了。",
-        "en": "Because TSMC was such a success. Days after its listing, the stock had jumped to 142.5 — more than a dozen times the original investment cost. Investors believed this new memory company would succeed just the same.",
-        "start": 538.21,
-        "end": 546.15
+        "en": "In 1994, raising money for a memory company was far easier than it had been to raise money for TSMC.",
+        "start": 570.8,
+        "end": 578.11
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "In a few short months, NT$12.2 billion was raised. TSMC led the way with 4.2 billion.",
-        "start": 546.15,
-        "end": 549.58
+        "en": "[Main narrator]",
+        "start": 578.11,
+        "end": 580.03
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "因为台积电太成功了。上市没几天，股价就冲到一百四十二块五——是原始投资成本的十几倍。投资人相信，这家新的记忆体公司，也会一样成功。",
-        "en": "[Main narrator, slower]",
-        "start": 549.58,
-        "end": 560.73
+        "en": "Because TSMC was such a success. Days after its listing, the stock had jumped to 142.5 — more than a dozen times the original investment cost. Investors believed this new memory company would succeed just the same.",
+        "start": 580.03,
+        "end": 593.3
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "短短几个月，一百二十二亿新台币，募齐了。台积电领衔，出了四十二亿。",
-        "en": "Then came the crucial number: how many technology shares to give the government.",
-        "start": 560.73,
-        "end": 566.39
+        "en": "In a few short months, NT$12.2 billion was raised. TSMC led the way with 4.2 billion.",
+        "start": 593.3,
+        "end": 600.15
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "Morris Chang thought about it for days. In the end, he decided: give exactly what the government had really spent on the sub-micron program. The number was NT$5.7555 billion.",
-        "start": 566.39,
-        "end": 572.61
+        "en": "[Main narrator, slower]",
+        "start": 600.15,
+        "end": 602.42
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "接下来，就是那个关键的数字——给政府多少技术股。",
-        "en": "[Main narrator]",
-        "start": 572.61,
-        "end": 576.73
+        "en": "Then came the crucial number: how many technology shares to give the government.",
+        "start": 602.42,
+        "end": 607.51
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "张忠谋想了好几天。最后，他决定：就按政府对「次微米计划」真实的经费付出，来算。这个数字，是五十七亿五千五百五十万。",
-        "en": "On the day the tender opened, the result stunned everyone.",
-        "start": 576.73,
-        "end": 586.51
+        "en": "Morris Chang thought about it for days. In the end, he decided: give exactly what the government had really spent on the sub-micron program. The number was NT$5.7555 billion.",
+        "start": 607.51,
+        "end": 618.82
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "TSMC was the only bidder.",
-        "start": 586.51,
-        "end": 587.59
+        "en": "[Main narrator]",
+        "start": 618.82,
+        "end": 620.74
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "开标那天，结果让所有人都愣住了。",
-        "en": "[Main narrator, slower]",
-        "start": 587.59,
-        "end": 590.33
+        "en": "On the day the tender opened, the result stunned everyone.",
+        "start": 620.74,
+        "end": 624.03
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "台积电，是唯一一个投标者。",
-        "en": "The chairman of UMC promptly announced: he had successfully driven up what TSMC had to give back to the government.",
-        "start": 590.33,
-        "end": 594.62
+        "en": "TSMC was the only bidder.",
+        "start": 624.03,
+        "end": 626.8
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 594.62,
-        "end": 596.51
+        "en": "[Main narrator, slower]",
+        "start": 626.8,
+        "end": 629.07
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "联电的董事长随即放话：他说，他成功地，抬高了台积电对政府的回馈。",
-        "en": "Morris Chang felt a brief annoyance at being played. But it passed quickly — because the bigger challenge lay ahead.",
-        "start": 596.51,
-        "end": 602.0
+        "en": "The chairman of UMC promptly announced: he had successfully driven up what TSMC had to give back to the government.",
+        "start": 629.07,
+        "end": 635.46
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "The new company was founded with capital of eighteen billion, and given a name, \"Vanguard\" — chosen by Lu Chih-yuan, who brought over a team of more than two hundred people.",
-        "start": 602.0,
-        "end": 608.65
+        "en": "[Main narrator]",
+        "start": 635.46,
+        "end": 637.38
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "张忠谋有点被耍弄的不快。但这不快，很快就过去了——因为更大的挑战，还在后面。",
-        "en": "[Main narrator, slower]",
-        "start": 608.65,
-        "end": 615.17
+        "en": "Morris Chang felt a brief annoyance at being played. But it passed quickly — because the bigger challenge lay ahead.",
+        "start": 637.38,
+        "end": 645.41
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "新公司成立了，资本一百八十亿，取名「世界先进」。这名字，是卢志远起的。志远带着两百多人的团队，浩浩荡荡地过来了。",
-        "en": "Finding a general manager was a long ordeal: Chintay Shih had been promoted to head of ITRI and would not come; Roger Kung of Motorola was kept by his old employer at the last moment; an old Texas Instruments colleague also declined.",
-        "start": 615.17,
-        "end": 624.78
+        "en": "The new company was founded with capital of eighteen billion, and given a name, \"Vanguard\" — chosen by Lu Chih-yuan, who brought over a team of more than two hundred people.",
+        "start": 645.41,
+        "end": 656.44
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 624.78,
-        "end": 626.67
+        "en": "[Main narrator, slower]",
+        "start": 656.44,
+        "end": 658.71
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "总经理的人选，一波三折：史钦泰，升了工研院院长，不来了；摩托罗拉的孔毅，临行前被老东家留住了；一位德仪的旧部，也回绝了。",
-        "en": "Finally, Morris Chang thought of an old friend, Evans — a veteran who had spent many years as a vice president at IBM. Evans accepted gladly, and took up the post in January 1995.",
-        "start": 626.67,
-        "end": 636.96
+        "en": "Finding a general manager was a long ordeal: Chintay Shih had been promoted to head of ITRI and would not come; Roger Kung of Motorola was kept by his old employer at the last moment; an old Texas Instruments colleague also declined.",
+        "start": 658.71,
+        "end": 670.43
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "At first, everything went as smoothly as a dream.",
-        "start": 636.96,
-        "end": 638.89
+        "en": "[Main narrator]",
+        "start": 670.43,
+        "end": 672.34
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "最后，张忠谋想到了老朋友艾凡斯——一位在 IBM 做到副总裁多年的老将。艾凡斯欣然应允，一九九五年一月，走马上任。",
-        "en": "[Main narrator]",
-        "start": 638.89,
-        "end": 648.67
+        "en": "Finally, Morris Chang thought of an old friend, Evans — a veteran who had spent many years as a vice president at IBM. Evans accepted gladly, and took up the post in January 1995.",
+        "start": 672.34,
+        "end": 683.46
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "起初，一切都像做梦一样顺利。",
-        "en": "In 1995, the price of 4M DRAM stayed above twelve dollars. Vanguard's revenue went from nearly zero in the first quarter, to four hundred million in the second, to one and a half billion in the third. In August, the company broke even for the first time. Evans, following TSMC's old example, announced bonuses for the staff.",
-        "start": 648.67,
-        "end": 660.9
+        "en": "At first, everything went as smoothly as a dream.",
+        "start": 683.46,
+        "end": 686.4
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 660.9,
-        "end": 661.93
+        "en": "[Main narrator]",
+        "start": 686.4,
+        "end": 688.32
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "一九九五年，四M DRAM 的价格，一直维持在十二美元以上。世界先进的营收，从第一季的几乎为零，涨到第二季的四亿，再到第三季的十五亿。八月，公司第一次收支平衡。艾凡斯学着台积电当年的样子，宣布给员工分红。",
-        "en": "But by late December, Evans suddenly panicked.",
-        "start": 661.93,
-        "end": 679.43
+        "en": "In 1995, the price of 4M DRAM stayed above twelve dollars. Vanguard's revenue went from nearly zero in the first quarter, to four hundred million in the second, to one and a half billion in the third. In August, the company broke even for the first time. Evans, following TSMC's old example, announced bonuses for the staff.",
+        "start": 688.32,
+        "end": 708.08
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "He came to Morris Chang with bad news: the price of 4M DRAM was falling fast — because customers were already moving to the next generation, the 16M DRAM. And Vanguard's 16M was still in development, far from mass production.",
-        "start": 679.43,
-        "end": 688.01
+        "en": "[Main narrator, slower]",
+        "start": 708.08,
+        "end": 710.35
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator, time capsule",
+        "speaker": "",
         "zh": "可到了十二月底，艾凡斯忽然慌了。",
-        "en": "[Main narrator, time capsule]",
-        "start": 688.01,
-        "end": 690.76
+        "en": "But by late December, Evans suddenly panicked.",
+        "start": 710.35,
+        "end": 713.65
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "他跑来告诉张忠谋：四M DRAM 的价格，正在迅速下跌——因为客户，已经开始转向下一代产品，十六M DRAM 了。而世界先进的十六M，还躺在开发阶段，离量产，远得很。",
-        "en": "His year: 1996 — Vanguard loses money as memory prices collapse; the more it makes, the more it loses.",
-        "start": 690.76,
-        "end": 705.0
+        "en": "He came to Morris Chang with bad news: the price of 4M DRAM was falling fast — because customers were already moving to the next generation, the 16M DRAM. And Vanguard's 16M was still in development, far from mass production.",
+        "start": 713.65,
+        "end": 729.42
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "平行时刻 · 时间胶囊",
         "zh": "【平行时刻 · 时间胶囊】",
-        "en": "The world's year: 4M DRAM prices crash, and Samsung takes the memory throne.",
-        "start": 705.0,
-        "end": 707.79
+        "en": "[Main narrator, time capsule]",
+        "start": 729.42,
+        "end": 732.04
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "他这一年：一九九六年，世界先进在记忆体的雪崩里，越生产，越亏损。",
-        "en": "One timeline. He saw the vortex. The world saw the throne.",
-        "start": 707.79,
-        "end": 713.28
+        "en": "His year: 1996 — Vanguard loses money as memory prices collapse; the more it makes, the more it loses.",
+        "start": 732.04,
+        "end": 738.51
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "世界这一年：四M记忆体价格崩盘，三星，登上了记忆体的王座。",
-        "en": "[Main narrator]",
-        "start": 713.28,
-        "end": 718.26
+        "en": "The world's year: 4M DRAM prices crash, and Samsung takes the memory throne.",
+        "start": 738.51,
+        "end": 744.37
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "同一条时间线——他看见了漩涡，世界，看见了王座。",
-        "en": "After the New Year holiday of 1996, the market price of 4M DRAM began to collapse.",
-        "start": 718.26,
-        "end": 722.37
+        "en": "One timeline. He saw the vortex. The world saw the throne.",
+        "start": 744.37,
+        "end": 749.54
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "First quarter, average price seven dollars fifty-seven. Second quarter, three ninety-four. Third quarter, two twenty-nine.",
-        "start": 722.37,
-        "end": 725.59
+        "en": "[Main narrator]",
+        "start": 749.54,
+        "end": 751.46
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "一九九六年的新年假一过，四M DRAM 的市价，开始崩盘。",
-        "en": "[Main narrator, slower]",
-        "start": 725.59,
-        "end": 730.57
+        "en": "After the New Year holiday of 1996, the market price of 4M DRAM began to collapse.",
+        "start": 751.46,
+        "end": 756.78
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "第一季，均价七块五毛七；第二季，三块九毛四；第三季，两块两毛九。",
-        "en": "From the second quarter on, Vanguard was losing money. And the more it produced, the more it lost.",
-        "start": 730.57,
-        "end": 736.06
+        "en": "First quarter, average price seven dollars fifty-seven. Second quarter, three ninety-four. Third quarter, two twenty-nine.",
+        "start": 756.78,
+        "end": 763.21
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 736.06,
-        "end": 737.95
+        "en": "[Main narrator, slower]",
+        "start": 763.21,
+        "end": 765.48
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "从第二季起，世界先进开始亏损。而且，生产得越多，亏得越多。",
-        "en": "One weekend in April 1996, Evans invited Morris Chang to lunch at the American Club in Taipei.",
-        "start": 737.95,
-        "end": 742.92
+        "en": "From the second quarter on, Vanguard was losing money. And the more it produced, the more it lost.",
+        "start": 765.48,
+        "end": 771.62
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Morris Chang knew he had come to pour out his troubles. But it was worse than he had imagined. Evans said the 4M would keep losing money, and the 16M was nowhere in sight. He simply did not know what to do.",
-        "start": 742.92,
-        "end": 751.93
+        "en": "[Main narrator]",
+        "start": 771.62,
+        "end": 773.54
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "一九九六年四月的一个周末，艾凡斯约张忠谋，在台北的美侨联谊社，吃午饭。",
-        "en": "[Main narrator, slower]",
-        "start": 751.93,
-        "end": 757.94
+        "en": "One weekend in April 1996, Evans invited Morris Chang to lunch at the American Club in Taipei.",
+        "start": 773.54,
+        "end": 780.34
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "张忠谋知道，他是来诉苦的。但那天的情况，比他想的更糟。艾凡斯说，四M 会越亏越多，十六M 又遥遥无期，他真的不知道，该怎么办了。",
-        "en": "That day, Evans had a touch of a cold. And as he spoke, this old general from IBM was reduced to tears.",
-        "start": 757.94,
-        "end": 768.92
+        "en": "Morris Chang knew he had come to pour out his troubles. But it was worse than he had imagined. Evans said the 4M would keep losing money, and the 16M was nowhere in sight. He simply did not know what to do.",
+        "start": 780.34,
+        "end": 792.93
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "He murmured one question — such a good business. How did they ruin it like this?",
-        "start": 768.92,
-        "end": 772.35
+        "en": "[Main narrator, slower]",
+        "start": 792.93,
+        "end": 795.2
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "那天，艾凡斯有点伤风。说着说着，这位从 IBM 出来的老将，简直涕泪交流。",
-        "en": "[Main narrator]",
-        "start": 772.35,
-        "end": 778.7
+        "en": "That day, Evans had a touch of a cold. And as he spoke, this old general from IBM was reduced to tears.",
+        "start": 795.2,
+        "end": 802.4
       },
       {
         "secZh": "第四幕 · 梦碎",
         "secEn": "Act Four · The Dream Breaks",
         "speaker": "",
         "zh": "他喃喃地问了一句——这么好的生意，怎么被他们，搞成了这样？",
-        "en": "Morris Chang felt for his old friend. But he also knew: Evans could not stay on as general manager any longer.",
-        "start": 778.7,
-        "end": 783.68
+        "en": "He murmured one question — such a good business. How did they ruin it like this?",
+        "start": 802.4,
+        "end": 808.46
       },
       {
         "secZh": "第四幕 · 梦碎",
-        "secEn": "Act Five · The Turn",
+        "secEn": "Act Four · The Dream Breaks",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "And so Vanguard changed its general manager in the middle of its losses.",
-        "start": 783.68,
-        "end": 786.47
+        "en": "[Main narrator]",
+        "start": 808.46,
+        "end": 810.37
       },
       {
         "secZh": "第四幕 · 梦碎",
-        "secEn": "Act Five · The Turn",
-        "speaker": "Main narrator",
+        "secEn": "Act Four · The Dream Breaks",
+        "speaker": "",
         "zh": "张忠谋怜悯这位老朋友。但他心里也清楚：艾凡斯，不能再继续当这个总经理了。",
-        "en": "[Main narrator]",
-        "start": 786.47,
-        "end": 792.64
+        "en": "Morris Chang felt for his old friend. But he also knew: Evans could not stay on as general manager any longer.",
+        "start": 810.37,
+        "end": 817.78
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "",
         "zh": "世界先进，就这样，在亏损里换了帅。",
-        "en": "First F.C. Tseng stepped in. Later, the post went to Rick Tsai. Rick Tsai served as general manager for only thirteen months — but he did one thing that truly mattered.",
-        "start": 792.64,
-        "end": 799.29
+        "en": "And so Vanguard changed its general manager in the middle of its losses.",
+        "start": 817.78,
+        "end": 822.55
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 799.29,
-        "end": 800.32
+        "en": "[Main narrator]",
+        "start": 822.55,
+        "end": 824.46
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "",
         "zh": "先是曾繁城顶上；后来，又换成了蔡力行。蔡力行只做了十三个月的总经理，却做了一件，真正重要的事。",
-        "en": "He went to Morris Chang and said: on the memory road, Vanguard has no hope. Better to turn it into a pure-play foundry — the same as TSMC. Then TSMC could help it slowly stand up again.",
-        "start": 800.32,
-        "end": 808.39
+        "en": "First F.C. Tseng stepped in. Later, the post went to Rick Tsai. Rick Tsai served as general manager for only thirteen months — but he did one thing that truly mattered.",
+        "start": 824.46,
+        "end": 833.86
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 808.39,
-        "end": 810.27
+        "en": "[Main narrator, slower]",
+        "start": 833.86,
+        "end": 836.13
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "",
         "zh": "他找到张忠谋，说：记忆体这条路，世界先进，没有希望了。不如把它，转成专业晶圆代工——和台积电一样。这样，台积电，还能帮它，慢慢再站起来。",
-        "en": "Morris Chang agreed. From the year 2000, Vanguard began its transformation.",
-        "start": 810.27,
-        "end": 821.94
+        "en": "He went to Morris Chang and said: on the memory road, Vanguard has no hope. Better to turn it into a pure-play foundry — the same as TSMC. Then TSMC could help it slowly stand up again.",
+        "start": 836.13,
+        "end": 850.44
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "The rest of the story is well known. After surviving the semiconductor winter of 2001 and 2002, Vanguard recovered from 2003 onward, and became a healthy pure-play foundry.",
-        "start": 821.94,
-        "end": 827.95
+        "en": "[Main narrator]",
+        "start": 850.44,
+        "end": 852.35
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "张忠谋同意了。二○○○年起，世界先进，开始转型。",
-        "en": "[Main narrator]",
-        "start": 827.95,
-        "end": 832.07
+        "en": "Morris Chang agreed. From the year 2000, Vanguard began its transformation.",
+        "start": 852.35,
+        "end": 857.01
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "",
         "zh": "后来的故事，大家都知道了。熬过了二○○一、○二两年的半导体寒冬，二○○三年之后，世界先进，重新茁壮起来，成了一位健康的专业代工者。",
-        "en": "As for TI-Acer, it had started five years earlier than Vanguard — and its fate was sealed even sooner.",
-        "start": 832.07,
-        "end": 843.22
+        "en": "The rest of the story is well known. After surviving the semiconductor winter of 2001 and 2002, Vanguard recovered from 2003 onward, and became a healthy pure-play foundry.",
+        "start": 857.01,
+        "end": 868.85
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "TI-Acer had no memory technology of its own. It depended entirely on Texas Instruments. But in the 1990s, Texas Instruments itself withdrew from memory. In 1999, TSMC — needing to expand capacity faster than it could build — simply acquired TI-Acer. The TI-Acer name disappeared, and its fab became one of TSMC's wafer fabs.",
-        "start": 843.22,
-        "end": 854.8
+        "en": "[Main narrator]",
+        "start": 868.85,
+        "end": 870.77
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "而德碁，比世界先进早起步五年，结局，却更早注定。",
-        "en": "[Main narrator, slower]",
-        "start": 854.8,
-        "end": 858.92
+        "en": "As for TI-Acer, it had started five years earlier than Vanguard — and its fate was sealed even sooner.",
+        "start": 870.77,
+        "end": 875.63
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "",
         "zh": "德碁没有自己的记忆体技术——它的技术，全靠德仪。可德仪，在一九九○年代，自己都退出了记忆体。一九九九年，台积电因为自己的产能来不及扩张，干脆出手，购并了德碁。德碁的招牌，从此消失；它的工厂，变成了台积电的一座晶圆厂。",
-        "en": "And so Taiwan's brave gamble of the 1990s — \"let's build memory\" — drew to a close.",
-        "start": 858.92,
-        "end": 877.45
+        "en": "TI-Acer had no memory technology of its own. It depended entirely on Texas Instruments. But in the 1990s, Texas Instruments itself withdrew from memory. In 1999, TSMC — needing to expand capacity faster than it could build — simply acquired TI-Acer. The TI-Acer name disappeared, and its fab became one of TSMC's wafer fabs.",
+        "start": 875.63,
+        "end": 897.18
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "In those years, a popular slogan in Taiwan was \"only by fighting hard can you win.\" Vanguard and TI-Acer both fought hard. But they did not win.",
-        "start": 877.45,
-        "end": 883.25
+        "en": "[Main narrator, slower]",
+        "start": 897.18,
+        "end": 899.45
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "台湾九十年代这场「造记忆体」的勇敢一搏，就这样，落下了帷幕。",
-        "en": "[Main narrator]",
-        "start": 883.25,
-        "end": 888.39
+        "en": "And so Taiwan's brave gamble of the 1990s — \"let's build memory\" — drew to a close.",
+        "start": 899.45,
+        "end": 904.94
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "",
         "zh": "那几年，台湾流行一句口号，叫「爱拚才会赢」。世界先进和德碁，都拚了。但，没有赢。",
-        "en": "Years later, looking back at Lee Kun-hee's warning, Morris Chang agreed with only half of it.",
-        "start": 888.39,
-        "end": 895.26
+        "en": "In those years, a popular slogan in Taiwan was \"only by fighting hard can you win.\" Vanguard and TI-Acer both fought hard. But they did not win.",
+        "start": 904.94,
+        "end": 913.14
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Lee had said Taiwan could not afford the capital and did not have the talent — and on those two points, he was right. But he missed something even more important.",
-        "start": 895.26,
-        "end": 901.91
+        "en": "[Main narrator]",
+        "start": 913.14,
+        "end": 915.06
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "多年以后，张忠谋再回头看李健熙当年的劝告，只认同一半。",
-        "en": "[Main narrator, slower]",
-        "start": 901.91,
-        "end": 906.54
+        "en": "Years later, looking back at Lee Kun-hee's warning, Morris Chang agreed with only half of it.",
+        "start": 915.06,
+        "end": 920.37
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "",
         "zh": "李健熙说，台湾出不起资本，也没有人才——这两点，确实被他说中了。但他漏掉了一件，更关键的事。",
-        "en": "The learning curve.",
-        "start": 906.54,
-        "end": 914.43
+        "en": "Lee had said Taiwan could not afford the capital and did not have the talent — and on those two points, he was right. But he missed something even more important.",
+        "start": 920.37,
+        "end": 929.98
       },
       {
         "secZh": "第五幕 · 转身",
         "secEn": "Act Five · The Turn",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "When TI-Acer and Vanguard started making memory in the 1990s, Samsung was already far ahead on the learning curve. You were not chasing a mountain. You were chasing an opponent who had already reached the summit.",
-        "start": 914.43,
-        "end": 922.15
-      },
-      {
-        "secZh": "第五幕 · 转身",
-        "secEn": "Epilogue · The Parallel View",
-        "speaker": "Main narrator, slower",
-        "zh": "学习曲线。",
         "en": "[Main narrator, slower]",
-        "start": 922.15,
-        "end": 923.01
+        "start": 929.98,
+        "end": 932.25
       },
       {
         "secZh": "第五幕 · 转身",
-        "secEn": "Epilogue · The Parallel View",
+        "secEn": "Act Five · The Turn",
+        "speaker": "",
+        "zh": "学习曲线。",
+        "en": "The learning curve.",
+        "start": 932.25,
+        "end": 933.52
+      },
+      {
+        "secZh": "第五幕 · 转身",
+        "secEn": "Act Five · The Turn",
         "speaker": "",
         "zh": "当九十年代，德碁和世界先进开始做记忆体的时候，三星，早已跑到了学习曲线的最前面。你追的，不是一座山，而是一个，已经跑到山顶的对手。",
-        "en": "In the year 2000, TSMC's revenue reached NT$166.2 billion — a record high. Operating profit, NT$61.3 billion.",
-        "start": 923.01,
-        "end": 934.17
+        "en": "When TI-Acer and Vanguard started making memory in the 1990s, Samsung was already far ahead on the learning curve. You were not chasing a mountain. You were chasing an opponent who had already reached the summit.",
+        "start": 933.52,
+        "end": 946.25
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 934.17,
-        "end": 936.05
+        "en": "[Main narrator, slower]",
+        "start": 946.25,
+        "end": 948.52
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "二○○○年，台积电的营收，冲上了一千六百六十二亿新台币——创下历史新高。营业净利，六百一十三亿。",
-        "en": "That was TSMC's report card in the very years the memory dream was breaking. It did not make memory chips. It became the company that made chips better than anyone else in the world.",
-        "start": 936.05,
-        "end": 944.29
+        "en": "In the year 2000, TSMC's revenue reached NT$166.2 billion — a record high. Operating profit, NT$61.3 billion.",
+        "start": 948.52,
+        "end": 957.87
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "In July of that year, the mergers of TI-Acer and Worldwide Semiconductor took formal effect. The two names disappeared, becoming TSMC's Fab Seven and Fab Eight.",
-        "start": 944.29,
-        "end": 949.87
+        "en": "[Main narrator]",
+        "start": 957.87,
+        "end": 959.78
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "这是记忆体梦碎的这几年里，台积电交出的成绩单。它没有去造记忆体，却成了全世界，最会造芯片的公司。",
-        "en": "[Main narrator, slower]",
-        "start": 949.87,
-        "end": 958.1
+        "en": "That was TSMC's report card in the very years the memory dream was breaking. It did not make memory chips. It became the company that made chips better than anyone else in the world.",
+        "start": 959.78,
+        "end": 969.28
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "那年七月，德碁和世大的购并案，正式生效。两个名字，从此消失，变成了台积电的第七厂、第八厂。",
-        "en": "That night, TSMC held a celebration party. Champagne, laughter, lights.",
-        "start": 958.1,
-        "end": 965.83
+        "en": "In July of that year, the mergers of TI-Acer and Worldwide Semiconductor took formal effect. The two names disappeared, becoming TSMC's Fab Seven and Fab Eight.",
+        "start": 969.28,
+        "end": 978.4
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "There was not a single cloud in the sky.",
-        "start": 965.83,
-        "end": 967.76
+        "en": "[Main narrator, slower]",
+        "start": 978.4,
+        "end": 980.67
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "当晚，台积电办了一场庆祝派对。香槟，笑声，灯光。",
-        "en": "[Main narrator]",
-        "start": 967.76,
-        "end": 971.87
+        "en": "That night, TSMC held a celebration party. Champagne, laughter, lights.",
+        "start": 980.67,
+        "end": 985.93
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "天上，似乎没有一片乌云。",
-        "en": "But the clouds came in August. And by September, they had thickened.",
-        "start": 971.87,
-        "end": 974.45
+        "en": "There was not a single cloud in the sky.",
+        "start": 985.93,
+        "end": 988.52
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Orders began to slip, quietly, from every direction. It took TSMC four or five months from order to delivery — so by November, Morris Chang already knew: next year's first-quarter revenue would likely fall some twenty-six percent below this quarter's.",
-        "start": 974.45,
-        "end": 983.03
+        "en": "[Main narrator]",
+        "start": 988.52,
+        "end": 990.43
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "可乌云，八月就有了；九月，更密了。",
-        "en": "[Main narrator, slower]",
-        "start": 983.03,
-        "end": 985.95
+        "en": "But the clouds came in August. And by September, they had thickened.",
+        "start": 990.43,
+        "end": 994.06
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "订单，开始从四面八方，悄悄下滑。台积电从接单到交货，要四、五个月——所以到了十一月，张忠谋心里已经清楚：来年第一季的营收，恐怕会比这个季度，低上两成六。",
-        "en": "It was the greatest challenge TSMC had faced since its founding.",
-        "start": 985.95,
-        "end": 998.99
+        "en": "Orders began to slip, quietly, from every direction. It took TSMC four or five months from order to delivery — so by November, Morris Chang already knew: next year's first-quarter revenue would likely fall some twenty-six percent below this quarter's.",
+        "start": 994.06,
+        "end": 1009.39
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 998.99,
-        "end": 1000.87
+        "en": "[Main narrator, slower]",
+        "start": 1009.39,
+        "end": 1011.66
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "这是台积电成立以来，最大的一次挑战。",
-        "en": "And in the same year, in America, the Nasdaq index — after breaking through five thousand points in March — came crashing down. The internet bubble burst.",
-        "start": 1000.87,
-        "end": 1006.67
+        "en": "It was the greatest challenge TSMC had faced since its founding.",
+        "start": 1011.66,
+        "end": 1015.31
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 1006.67,
-        "end": 1007.7
+        "en": "[Main narrator]",
+        "start": 1015.31,
+        "end": 1017.22
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "而在同一年的美国，纳斯达克指数，在三月冲上五千点之后，轰然崩塌。互联网的泡沫，碎了。",
-        "en": "Many people at that party did not hear the clock of the cycle until the moment the bubble broke.",
-        "start": 1007.7,
-        "end": 1014.9
+        "en": "And in the same year, in America, the Nasdaq index — after breaking through five thousand points in March — came crashing down. The internet bubble burst.",
+        "start": 1017.22,
+        "end": 1025.74
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 1014.9,
-        "end": 1016.79
+        "en": "[Main narrator, slower]",
+        "start": 1025.74,
+        "end": 1028.01
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "那场狂欢里的很多人，直到泡沫破裂的那一刻，才听见，周期敲响的钟声。",
-        "en": "Temptation is temptation because it looks like opportunity.",
-        "start": 1016.79,
-        "end": 1022.45
+        "en": "Many people at that party did not hear the clock of the cycle until the moment the bubble broke.",
+        "start": 1028.01,
+        "end": 1034.46
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "It wears the costume of opportunity — a low barrier, a huge market, few competitors. But this is what makes it truly dangerous: when everyone is celebrating the same thing at once, the risk is already written on the wall.",
-        "start": 1022.45,
-        "end": 1031.03
+        "en": "[Main narrator]",
+        "start": 1034.46,
+        "end": 1036.37
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "诱惑之所以是诱惑，是因为它长得像机会。",
-        "en": "[Main narrator, slower]",
-        "start": 1031.03,
-        "end": 1034.29
+        "en": "Temptation is temptation because it looks like opportunity.",
+        "start": 1036.37,
+        "end": 1040.2
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "它披着机会的外衣——门槛不高，市场很大，竞争者很少。可真正可怕的地方在于：当所有人，都在为同一件事狂欢的时候，风险，就已经写在了墙上。",
-        "en": "Morris Chang won many times in his life, and he stumbled too. But the memory business taught him — and teaches us — one and the same thing:",
-        "start": 1034.29,
-        "end": 1045.79
+        "en": "It wears the costume of opportunity — a low barrier, a huge market, few competitors. But this is what makes it truly dangerous: when everyone is celebrating the same thing at once, the risk is already written on the wall.",
+        "start": 1040.2,
+        "end": 1053.78
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "The truly strong are not those who are never tempted. They are those who can still hear the clock of the cycle, in the middle of the party.",
-        "start": 1045.79,
-        "end": 1051.8
+        "en": "[Main narrator, slower]",
+        "start": 1053.78,
+        "end": 1056.05
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "张忠谋这辈子，赢过很多次，也栽过跟头。但记忆体这件事，教会他，也教会我们的，是同一句话——",
-        "en": "[Main narrator]",
-        "start": 1051.8,
-        "end": 1059.52
+        "en": "Morris Chang won many times in his life, and he stumbled too. But the memory business taught him — and teaches us — one and the same thing:",
+        "start": 1056.05,
+        "end": 1065.16
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "真正的强者，不是从不被诱惑，而是在狂欢里，还能听见周期钟声的人。",
-        "en": "He held the line for TSMC — the line against making memory — and in doing so, he held the road a foundry was meant to walk.",
-        "start": 1059.52,
-        "end": 1065.31
+        "en": "The truly strong are not those who are never tempted. They are those who can still hear the clock of the cycle, in the middle of the party.",
+        "start": 1065.16,
+        "end": 1071.43
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · The Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "This is the temptation of memory.",
-        "start": 1065.31,
-        "end": 1066.6
+        "en": "[Main narrator]",
+        "start": 1071.43,
+        "end": 1073.35
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Cards · Verified Background",
+        "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "他替台积电，守住了那条「不做记忆体」的底线，也守住了一家代工厂，最该走的那条路。",
-        "en": "1. **DRAM (Dynamic Random-Access Memory)** — the commodity of the semiconductor world: standard, capital-hungry, deeply cyclical. After peaking in late 1995, prices collapsed roughly 51% in 1996 and another 65% in 1997, one of the most famous price avalanches in the industry's history.",
-        "start": 1066.6,
-        "end": 1075.82
+        "en": "He held the line for TSMC — the line against making memory — and in doing so, he held the road a foundry was meant to walk.",
+        "start": 1073.35,
+        "end": 1080.68
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Cards · Verified Background",
+        "secEn": "Epilogue · The Parallel View",
         "speaker": "",
         "zh": "这，就是记忆体的诱惑。",
-        "en": "2. **The memory throne changes hands three times** — Japan dominated in the 1980s; after the Plaza Accord, the rising yen eroded its edge, and in the 1990s the crown passed to Korea's Samsung. By 1993, Samsung's DRAM revenue already exceeded that of all Japanese chipmakers combined.",
-        "start": 1075.82,
-        "end": 1085.9
+        "en": "This is the temptation of memory.",
+        "start": 1080.68,
+        "end": 1083.1
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Cards · Verified Background",
         "speaker": "",
         "zh": "1. **DRAM（动态随机存取记忆体）**：半导体产业的「大宗商品」——标准品、重规模、强周期。1995 年底价格见顶后崩跌，1996 年跌约 51%、1997 年再跌约 65%，是记忆体产业最著名的一次价格雪崩之一。（英文：DRAM, commodity chip, boom-bust cycle）",
-        "en": "3. **The sub-micron program (1990)** — ITRI's memory-led technology push, whose budget grew from NT$5.89 billion to NT$7.05 billion. It produced a working 4M DRAM in 1994 and spun off \"Vanguard.\"",
-        "start": 1085.9,
-        "end": 1111.98
+        "en": "1. **DRAM (Dynamic Random-Access Memory)** — the commodity of the semiconductor world: standard, capital-hungry, deeply cyclical. After peaking in late 1995, prices collapsed roughly 51% in 1996 and another 65% in 1997, one of the most famous price avalanches in the industry's history.",
+        "start": 1083.1,
+        "end": 1109.94
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Cards · Verified Background",
         "speaker": "",
         "zh": "2. **记忆体霸主的三次易手**：1980 年代是日本的天下；《广场协议》后日元升值、日本厂商渐衰，1990 年代王座移交韩国三星——1993 年三星的 DRAM 营收，已超过所有日本半导体厂的总和。（英文：Japan → Korea, Plaza Accord, Samsung's rise）",
-        "en": "4. **Vanguard International Semiconductor (founded 1994)** — created by tender with TSMC as the sole bidder; converted from DRAM to a pure-play foundry from 2000, and returned to health after 2003.",
-        "start": 1111.98,
-        "end": 1137.55
+        "en": "2. **The memory throne changes hands three times** — Japan dominated in the 1980s; after the Plaza Accord, the rising yen eroded its edge, and in the 1990s the crown passed to Korea's Samsung. By 1993, Samsung's DRAM revenue already exceeded that of all Japanese chipmakers combined.",
+        "start": 1109.94,
+        "end": 1134.36
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Cards · Verified Background",
         "speaker": "",
         "zh": "3. **次微米计划（1990）**：台湾工研院以记忆体为载体的技术攻坚计划，五年经费从 58.9 亿新台币追加至 70.5 亿，1994 年成功开发 4M DRAM，并衍生出「世界先进」。（英文：sub-micron program, ITRI, 4M DRAM）",
-        "en": "5. **TI-Acer (1990–1999)** — a memory joint venture between Acer and Texas Instruments with no technology of its own; TI withdrew in 1998, and TSMC acquired it in 1999, turning the fab into a foundry.",
-        "start": 1137.55,
-        "end": 1160.37
+        "en": "3. **The sub-micron program (1990)** — ITRI's memory-led technology push, whose budget grew from NT$5.89 billion to NT$7.05 billion. It produced a working 4M DRAM in 1994 and spun off \"Vanguard.\"",
+        "start": 1134.36,
+        "end": 1156.49
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Cards · Verified Background",
         "speaker": "",
         "zh": "4. **世界先进（Vanguard，1994 成立）**：以招标方式由台积电主导成立，台积电为唯一投标者；2000 年起转型专业晶圆代工，2003 年后重归健康。（英文：Vanguard International Semiconductor, DRAM → foundry）",
-        "en": "6. **TSMC's 2000 peak** — full-year revenue of NT$166.2 billion, a record; the same year, the dot-com bubble burst in the United States (Nasdaq peaked on March 10, 2000, then crashed), and a semiconductor winter followed.",
-        "start": 1160.37,
-        "end": 1184.22
+        "en": "4. **Vanguard International Semiconductor (founded 1994)** — created by tender with TSMC as the sole bidder; converted from DRAM to a pure-play foundry from 2000, and returned to health after 2003.",
+        "start": 1156.49,
+        "end": 1179.39
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Cards · Verified Background",
         "speaker": "",
         "zh": "5. **德碁（TI-Acer，1990–1999）**：宏碁与德州仪器合资的记忆体厂，无自主技术；1998 年德仪退出，1999 年台积电购并后转为代工厂。（英文：TI-Acer, Acer Semiconductor Manufacturing, acquired by TSMC）",
-        "en": "7. **The learning curve** — a pricing and management philosophy Morris Chang had practiced since his Texas Instruments years: each time cumulative output doubles, unit cost falls by a fixed percentage. Leaders widen the gap through their head start; latecomers only find the chase harder.",
-        "start": 1184.22,
-        "end": 1208.76
+        "en": "5. **TI-Acer (1990–1999)** — a memory joint venture between Acer and Texas Instruments with no technology of its own; TI withdrew in 1998, and TSMC acquired it in 1999, turning the fab into a foundry.",
+        "start": 1179.39,
+        "end": 1203.47
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Cards · Verified Background",
         "speaker": "",
         "zh": "6. **台积电 2000 年营收登顶**：全年营收 1662.28 亿新台币，创历史新高；同年美国互联网泡沫破裂（纳斯达克 2000.3.10 见顶后崩盘），半导体寒冬随之而来。（英文：TSMC 2000 revenue, dot-com bubble）",
-        "en": "The memory dream was over. But a far bigger storm was gathering on the horizon.",
-        "start": 1208.76,
-        "end": 1230.73
+        "en": "6. **TSMC's 2000 peak** — full-year revenue of NT$166.2 billion, a record; the same year, the dot-com bubble burst in the United States (Nasdaq peaked on March 10, 2000, then crashed), and a semiconductor winter followed.",
+        "start": 1203.47,
+        "end": 1225.56
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Cards · Verified Background",
         "speaker": "",
         "zh": "7. **学习曲线（Learning Curve）**：张忠谋在德仪时代就奉行的定价与管理哲学——产量每翻一番、单位成本按固定比例下降；领先者靠先发优势拉开差距，后来者越追越难。（英文：learning curve pricing, first-mover advantage）",
-        "en": "In 2001, the internet bubble burst completely, and the semiconductor industry fell into its coldest winter in nearly three decades. Rivals rushed to cut jobs, close plants, and retreat.",
-        "start": 1230.73,
-        "end": 1254.58
+        "en": "7. **The learning curve** — a pricing and management philosophy Morris Chang had practiced since his Texas Instruments years: each time cumulative output doubles, unit cost falls by a fixed percentage. Leaders widen the gap through their head start; latecomers only find the chase harder.",
+        "start": 1225.56,
+        "end": 1249.67
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "记忆体的梦醒了，可更大的风暴，正在海平面上集结。",
-        "en": "Only one seventy-year-old man moved the other way.",
-        "start": 1254.58,
-        "end": 1258.7
+        "en": "The memory dream was over. But a far bigger storm was gathering on the horizon.",
+        "start": 1249.67,
+        "end": 1255.67
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "二○○一年，互联网的泡沫彻底破裂，半导体业跌进了近三十年，最冷的冬天。同行们忙着裁员、关厂、收缩战线。",
-        "en": "[Main narrator, slower]",
-        "start": 1258.7,
-        "end": 1267.45
+        "en": "In 2001, the internet bubble burst completely, and the semiconductor industry fell into its coldest winter in nearly three decades. Rivals rushed to cut jobs, close plants, and retreat.",
+        "start": 1255.67,
+        "end": 1265.5
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "只有一位七十岁的老人，反其道而行。",
-        "en": "He said: a downturn is the best time to hire talent.",
-        "start": 1267.45,
-        "end": 1270.36
+        "en": "Only one seventy-year-old man moved the other way.",
+        "start": 1265.5,
+        "end": 1268.97
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "Next episode: \"The Steadiness of the Counter-Cycle.\"",
-        "start": 1270.36,
-        "end": 1272.25
+        "en": "[Main narrator, slower]",
+        "start": 1268.97,
+        "end": 1271.24
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "他说：不景气，是挖人才，最好的时候。",
-        "en": "",
-        "start": 1272.25,
-        "end": 1275.34
+        "en": "He said: a downturn is the best time to hire talent.",
+        "start": 1271.24,
+        "end": 1275.16
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "下一集，《逆周期的定力》。",
-        "en": "",
-        "start": 1275.34,
+        "en": "Next episode: \"The Steadiness of the Counter-Cycle.\"",
+        "start": 1275.16,
         "end": 1277.57
       }
     ]
@@ -16748,7 +16747,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：远处的欢呼声，渐渐弱下去，转为一片沉寂的嗡鸣】",
         "en": "[SFX: distant cheers fade into a low, hollow hum]",
         "start": 0.0,
-        "end": 5.31
+        "end": 6.06
       },
       {
         "secZh": "开场",
@@ -16756,8 +16755,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "上一集结尾，我们停在二○○○年七月的一场庆祝派对上。",
         "en": "Last episode, we ended at a celebration party in July of the year 2000.",
-        "start": 5.31,
-        "end": 10.42
+        "start": 6.06,
+        "end": 10.66
       },
       {
         "secZh": "开场",
@@ -16765,8 +16764,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 10.42,
-        "end": 11.6
+        "start": 10.66,
+        "end": 12.61
       },
       {
         "secZh": "开场",
@@ -16774,8 +16773,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那晚，香槟、笑声、灯光。台积电刚刚完成德碁和世大的购并，营收眼看要冲破一千六百亿新台币。天上，似乎没有一片乌云。",
         "en": "That night: champagne, laughter, lights. TSMC had just completed the mergers of TI-Acer and Worldwide Semiconductor, and its revenue was about to break through one hundred sixty billion New Taiwan dollars. There did not seem to be a single cloud in the sky.",
-        "start": 11.6,
-        "end": 22.61
+        "start": 12.61,
+        "end": 24.24
       },
       {
         "secZh": "开场",
@@ -16783,8 +16782,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可是乌云，八月就有了；九月，更密了。",
         "en": "But the clouds came in August. And by September, they had thickened.",
-        "start": 22.61,
-        "end": 26.15
+        "start": 24.24,
+        "end": 28.1
       },
       {
         "secZh": "开场",
@@ -16792,8 +16791,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 26.15,
-        "end": 28.31
+        "start": 28.1,
+        "end": 30.41
       },
       {
         "secZh": "开场",
@@ -16801,8 +16800,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○一年，互联网的泡沫彻底破裂。全球半导体业，跌进了它诞生以来，最冷的一个冬天。",
         "en": "In 2001, the internet bubble burst completely. The global semiconductor industry fell into the coldest winter since its birth.",
-        "start": 28.31,
-        "end": 36.37
+        "start": 30.41,
+        "end": 38.43
       },
       {
         "secZh": "开场",
@@ -16810,8 +16809,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 36.37,
-        "end": 37.55
+        "start": 38.43,
+        "end": 40.38
       },
       {
         "secZh": "开场",
@@ -16819,8 +16818,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "全世界的芯片公司，几乎都在做同一件事：裁员、关厂、收缩战线。",
         "en": "Nearly every chip company in the world was doing the same thing: cutting jobs, closing plants, retreating.",
-        "start": 37.55,
-        "end": 43.45
+        "start": 40.38,
+        "end": 46.59
       },
       {
         "secZh": "开场",
@@ -16828,8 +16827,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "只有一位七十岁的老人，反其道而行。",
         "en": "Only one seventy-year-old man moved the other way.",
-        "start": 43.45,
-        "end": 46.79
+        "start": 46.59,
+        "end": 50.11
       },
       {
         "secZh": "开场",
@@ -16837,8 +16836,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 46.79,
-        "end": 48.95
+        "start": 50.11,
+        "end": 52.42
       },
       {
         "secZh": "开场",
@@ -16846,8 +16845,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他说：不景气，是挖人才，最好的时候。",
         "en": "He said: a downturn is the best time to hire talent.",
-        "start": 48.95,
-        "end": 52.49
+        "start": 52.42,
+        "end": 56.4
       },
       {
         "secZh": "开场",
@@ -16855,8 +16854,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一集，我们讲逆周期的定力。",
         "en": "This episode, we tell the story of counter-cycle steadiness.",
-        "start": 52.49,
-        "end": 55.24
+        "start": 56.4,
+        "end": 59.39
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16864,8 +16863,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋对不景气，其实一点都不陌生。",
         "en": "Morris Chang was no stranger to downturns.",
-        "start": 55.24,
-        "end": 58.58
+        "start": 59.39,
+        "end": 64.14
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16873,8 +16872,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 58.58,
-        "end": 59.76
+        "start": 64.14,
+        "end": 66.09
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16882,8 +16881,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "早在一九六四年，他刚在德州仪器当上半导体业务单位的总经理，就开始跟这个行业的周期打交道。到二○○○年为止，半导体业已经历过七次不景气——一九六七、一九七○到七一、一九七五、一九八一、一九八五、一九九○，还有一九九六到九八。",
         "en": "As early as 1964, when he first became general manager of a semiconductor business unit at Texas Instruments, he began living with this industry's cycles. By the year 2000, the semiconductor industry had already gone through seven downturns — 1967, 1970 to 71, 1975, 1981, 1985, 1990, and 1996 to 98.",
-        "start": 59.76,
-        "end": 81.59
+        "start": 66.09,
+        "end": 86.98
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16891,8 +16890,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这七次，他亲历了大多数。前三次，他在德仪，正面迎战；第五次，他在通用器材，独自应对；一九九○年那回，台积电刚成立不久，二厂也才加入生产，他还几乎感觉不到寒意的存在。就是一九九六到九八那回，台积电正处在咆哮般的成长期，产能供不应求，他也只觉得客户催货的压力稍缓，并不觉得冷。",
         "en": "He lived through most of them. The first three, he faced head-on at Texas Instruments. The fifth, he handled alone at General Instrument. In the 1990 one, TSMC had only just been founded, and its second fab was only just entering production, so he could barely feel the cold. As for 1996 to 98, TSMC was in the middle of a roaring growth phase, with capacity sold out, so all he felt was the pressure from customers easing a little — he never really felt the chill.",
-        "start": 81.59,
-        "end": 108.32
+        "start": 86.98,
+        "end": 113.48
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16900,8 +16899,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 108.32,
-        "end": 110.49
+        "start": 113.48,
+        "end": 115.78
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16909,8 +16908,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可二○○一年这一次，不一样了。",
         "en": "But 2001 was different.",
-        "start": 110.49,
-        "end": 113.43
+        "start": 115.78,
+        "end": 118.59
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16918,8 +16917,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 113.43,
-        "end": 114.61
+        "start": 118.59,
+        "end": 120.54
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16927,8 +16926,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "因为台积电，已经长大到了一定的规模。它供应着全球大约一成五的逻辑芯片。当整个行业的寒冬来临，一家大到这种程度的公司，已经不可能再置身事外。",
         "en": "Because TSMC had grown to a certain size. It was supplying roughly fifteen percent of the world's logic chips. When a winter this deep falls over the whole industry, a company of that scale can no longer stand outside it.",
-        "start": 114.61,
-        "end": 128.18
+        "start": 120.54,
+        "end": 134.33
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16936,8 +16935,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这一年的冬天，冷得空前。",
         "en": "And this winter was colder than any before.",
-        "start": 128.18,
-        "end": 130.73
+        "start": 134.33,
+        "end": 137.14
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16945,8 +16944,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "其实，早在二○○○年十一月，他就已经看见了冬天的影子。台积电从接订单到交货，要四、五个月；所以那年十一月底，他已经能推算出——二○○一年第一季的营收，很可能比二○○○年第四季，整整低两成六。",
         "en": "As early as November of the year 2000, he had already seen the shadow of winter. From receiving an order to delivering chips, TSMC needed four to five months. So by the end of November, he could already calculate it — revenue in the first quarter of 2001 was very likely to come in twenty-six percent lower than the fourth quarter of 2000.",
-        "start": 130.73,
-        "end": 149.41
+        "start": 137.14,
+        "end": 154.55
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16954,8 +16953,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 149.41,
-        "end": 151.57
+        "start": 154.55,
+        "end": 156.86
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16963,8 +16962,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这是台积电成立以来，最大的挑战。",
         "en": "It would be the greatest challenge since the company was founded.",
-        "start": 151.57,
-        "end": 154.72
+        "start": 156.86,
+        "end": 160.2
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16972,8 +16971,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 154.72,
-        "end": 155.9
+        "start": 160.2,
+        "end": 162.15
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16981,8 +16980,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "先说说这个冬天，是怎么来的。",
         "en": "Let us first talk about how this winter came.",
-        "start": 155.9,
-        "end": 158.65
+        "start": 162.15,
+        "end": 165.14
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16990,8 +16989,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一九九○年代后半段，互联网，成了全世界最疯狂的名词。随便一家公司，名字后面加一个「.com」，就能在股市上圈来大把的钱。纳斯达克指数，从一九九五年不到一千点，一路狂飙，到二○○○年三月，冲破了五千点。",
         "en": "In the second half of the 1990s, the internet became the craziest word on earth. Any company that tacked \".com\" onto its name could raise piles of money on the stock market. The Nasdaq index, which was under a thousand points in 1995, went on a wild tear and broke through five thousand points by March of 2000.",
-        "start": 158.65,
-        "end": 178.31
+        "start": 165.14,
+        "end": 184.21
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -16999,8 +16998,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 178.31,
-        "end": 180.47
+        "start": 184.21,
+        "end": 186.52
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17008,8 +17007,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "然后，一切戛然而止。",
         "en": "And then, everything stopped.",
-        "start": 180.47,
-        "end": 182.44
+        "start": 186.52,
+        "end": 188.79
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17017,8 +17016,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 182.44,
-        "end": 183.62
+        "start": 188.79,
+        "end": 190.74
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17026,8 +17025,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○○年三月十日，纳斯达克见顶。此后的两年多里，它跌掉了将近八成，五万亿美元的市值，蒸发得无影无踪。烧光了钱的网络公司，一家接一家地倒闭。硅谷的停车场，空了；写字楼的租金，崩了。",
         "en": "On March 10, 2000, the Nasdaq peaked. Over the next two-plus years, it lost nearly eighty percent, and five trillion dollars of market value evaporated without a trace. Internet companies that had burned through their cash collapsed one after another. The parking lots of Silicon Valley emptied; office rents crashed.",
-        "start": 183.62,
-        "end": 201.31
+        "start": 190.74,
+        "end": 208.56
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17035,8 +17034,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而半导体，正是互联网这台机器的心脏。机器一熄火，芯片的需求，就跟着崩塌。",
         "en": "And semiconductors were the heart of the internet machine. When the machine stalled, demand for chips collapsed with it.",
-        "start": 201.31,
-        "end": 208.39
+        "start": 208.56,
+        "end": 216.05
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17044,8 +17043,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 208.39,
-        "end": 210.55
+        "start": 216.05,
+        "end": 218.35
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17053,8 +17052,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○一年，全球芯片销售额，只有一千三百九十亿美元——比前一年，整整跌掉了三成二。",
         "en": "In 2001, global chip sales fell to just one hundred thirty-nine billion dollars — a full thirty-two percent drop from the year before.",
-        "start": 210.55,
-        "end": 218.61
+        "start": 218.35,
+        "end": 226.37
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17062,8 +17061,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 218.61,
-        "end": 219.79
+        "start": 226.37,
+        "end": 228.32
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17071,8 +17070,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这是半导体业有史以来，最严重的一次衰退。对比一下：一九八五年那次著名的低谷，也不过跌了一成七。",
         "en": "It was the worst downturn in the history of the semiconductor industry. For comparison: the famous trough of 1985 was only a seventeen percent decline.",
-        "start": 219.79,
-        "end": 229.03
+        "start": 228.32,
+        "end": 237.89
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17080,8 +17079,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "订单，像退潮一样撤走。原本催着要货的客户，忽然开始砍掉一半的订单。仓库里的库存，越堆越高。",
         "en": "Orders pulled back like a receding tide. Customers who had been demanding chips suddenly cut half their orders. Warehouses piled higher and higher.",
-        "start": 229.03,
-        "end": 237.88
+        "start": 237.89,
+        "end": 247.39
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17089,8 +17088,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 237.88,
-        "end": 240.04
+        "start": 247.39,
+        "end": 249.69
       },
       {
         "secZh": "第一幕 · 第七次不景气",
@@ -17098,8 +17097,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一场真正的考验，摆在了七十岁的张忠谋面前。",
         "en": "A true test stood before the seventy-year-old Morris Chang.",
-        "start": 240.04,
-        "end": 244.17
+        "start": 249.69,
+        "end": 253.94
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17107,8 +17106,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "面对寒冬，张忠谋手里，其实早就握着一张牌。",
         "en": "Facing the winter, Morris Chang was actually holding a card all along.",
-        "start": 244.17,
-        "end": 248.3
+        "start": 253.94,
+        "end": 259.49
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17116,8 +17115,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 248.3,
-        "end": 249.48
+        "start": 259.49,
+        "end": 261.43
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17125,8 +17124,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这张牌，他想了大半辈子。它有一个朴素的名字，叫「直线投资」。",
         "en": "It was a card he had been thinking about for most of his life. It had a plain name: \"straight-line investment.\"",
-        "start": 249.48,
-        "end": 255.37
+        "start": 261.43,
+        "end": 267.41
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17134,8 +17133,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "道理，简单得近乎常识。建一座晶圆厂，从动土到量产，要三、四年。",
         "en": "The logic was almost common sense. Building a fab, from breaking ground to volume production, takes three or four years.",
-        "start": 255.37,
-        "end": 261.47
+        "start": 267.41,
+        "end": 274.08
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17143,8 +17142,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 261.47,
-        "end": 262.65
+        "start": 274.08,
+        "end": 276.03
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17152,8 +17151,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "先要圈地、盖厂房，这一步，就要三年。厂房起来了，还要在里头建无尘的洁净室，装上一台台贵得惊人的设备，这一步，又是两年。设备到位之后，工程师要培训，产线要调试，良率，要一点一点往上爬。",
         "en": "First you have to acquire the land and build the shell — that step alone takes three years. Once the building is up, you build the dust-free cleanroom inside it and install row after row of staggeringly expensive equipment — another two years. Then engineers must be trained, the line must be debugged, and yield has to be coaxed upward, point by point.",
-        "start": 262.65,
-        "end": 280.54
+        "start": 276.03,
+        "end": 294.41
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17161,8 +17160,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 280.54,
-        "end": 282.7
+        "start": 294.41,
+        "end": 296.71
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17170,8 +17169,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "所以，等你今天看到缺货、今天决定建厂，等到产能真正出来，已经是三四年后的事了。那时候，市场，恐怕早就变了天。",
         "en": "So if you see a shortage today and decide to build a fab today, by the time that capacity actually comes online, three or four years will have passed. The market will probably have changed by then.",
-        "start": 282.7,
-        "end": 293.32
+        "start": 296.71,
+        "end": 307.67
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17179,8 +17178,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "更要命的是，建产能的时间，还在悄悄变长。七八十年代，从圈地到量产，大约三四年；到了今天，制程越来越复杂，设备越来越精密，新人的训练越来越久——从头到尾，比过去还要再长至少一年。周期，因此被拉得更长，也更难踩准。",
         "en": "Worse, the time to build capacity has been quietly getting longer. In the 1970s and 80s, from acquiring land to volume production took about three or four years; today, with processes more complex, equipment more precise, and training for new people longer — end to end, it takes at least one more year than before. The cycle, in turn, is stretched longer, and harder to time.",
-        "start": 293.32,
-        "end": 313.96
+        "start": 307.67,
+        "end": 328.94
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17188,8 +17187,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 313.96,
-        "end": 315.14
+        "start": 328.94,
+        "end": 330.89
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17197,8 +17196,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而人的天性，却总在跟这个「三四年」作对。",
         "en": "And human nature keeps fighting against that \"three or four years.\"",
-        "start": 315.14,
-        "end": 319.07
+        "start": 330.89,
+        "end": 334.59
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17206,8 +17205,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "景气好的时候，大家都抢着猛建产能；三四年后，产能一起过剩，价格雪崩。于是大家又慌了，一面杀价抢订单，一面缩手不建厂；再过三四年，产能又不够了，缺货再来。",
         "en": "When times are good, everyone scrambles to build capacity; three or four years later, capacity overshoots all at once, and prices collapse. Then everyone panics — slashing prices to win orders while also pulling back on new fabs; three or four more years pass, capacity runs short again, and the shortage returns.",
-        "start": 319.07,
-        "end": 334.01
+        "start": 334.59,
+        "end": 349.72
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17215,8 +17214,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 334.01,
-        "end": 336.17
+        "start": 349.72,
+        "end": 352.03
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17224,8 +17223,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "猛建、过剩、收缩、再缺货——这个圈子，就这样一轮一轮地转。",
         "en": "Overbuild, oversupply, retreat, shortage again — the circle just keeps turning, round after round.",
-        "start": 336.17,
-        "end": 341.87
+        "start": 352.03,
+        "end": 358.34
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17233,8 +17232,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 341.87,
-        "end": 343.05
+        "start": 358.34,
+        "end": 360.28
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17242,8 +17241,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "早在一九七○年代，张忠谋在德州仪器，就提出了「直线建产能」的主张：以十年的滚动计划为依据，每年，都增加一定数量的产能。",
         "en": "As early as the 1970s, at Texas Instruments, Morris Chang proposed the idea of \"straight-line capacity building\": using a rolling ten-year plan as the basis, and adding a set amount of capacity every single year.",
-        "start": 343.05,
-        "end": 354.65
+        "start": 360.28,
+        "end": 371.23
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17251,8 +17250,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "景气好的时候，不猛建；景气坏的时候，不缩手。",
         "en": "Don't overbuild when times are good; don't shrink when times are bad.",
-        "start": 354.65,
-        "end": 358.98
+        "start": 371.23,
+        "end": 375.81
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17260,8 +17259,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 358.98,
-        "end": 360.16
+        "start": 375.81,
+        "end": 377.75
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17269,8 +17268,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个建议，当年在德仪的策略会议上，颇受赞许。可到了真正执行的时候，他上面的两层上司，加上董事会，把他的计划打了折扣——打到最后，连他自己，都认不出来了。",
         "en": "The proposal won praise at TI's strategy meetings. But when it came to actual execution, his two layers of superiors above him, and the board above them, discounted his plan until he could no longer recognize it himself.",
-        "start": 360.16,
-        "end": 375.1
+        "start": 377.75,
+        "end": 393.12
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17278,8 +17277,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 375.1,
-        "end": 377.26
+        "start": 393.12,
+        "end": 395.42
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17287,8 +17286,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "不是他们不懂，也不是他们不信。而是身处一个庞大的组织里，任何一个人，都很难让整个系统，跟着自己的节奏走。",
         "en": "It wasn't that they didn't understand, or didn't believe. It was that inside a vast organization, no single person can make the whole system move to his own rhythm.",
-        "start": 377.26,
-        "end": 387.48
+        "start": 395.42,
+        "end": 405.85
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17296,8 +17295,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 387.48,
-        "end": 388.66
+        "start": 405.85,
+        "end": 407.8
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17305,8 +17304,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他空有一张好牌，却无权把它打出去。",
         "en": "He held a good card, but he had no power to play it.",
-        "start": 388.66,
-        "end": 392.01
+        "start": 407.8,
+        "end": 411.33
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17314,8 +17313,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "直到台积电。",
         "en": "Until TSMC.",
-        "start": 392.01,
-        "end": 393.19
+        "start": 411.33,
+        "end": 412.8
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17323,8 +17322,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在这里，他终于可以把自己的理念，原原本本地落地。别人在繁荣里狂欢，台积电按自己的节奏，一年一年，稳稳地建。",
         "en": "Here, at last, he could put his philosophy into practice, exactly as he intended. While others partied in the boom, TSMC built, year after year, steadily.",
-        "start": 393.19,
-        "end": 403.6
+        "start": 412.8,
+        "end": 423.49
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17332,8 +17331,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 403.6,
-        "end": 404.78
+        "start": 423.49,
+        "end": 425.44
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17341,8 +17340,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "从一九九二年到二○○○年，台积电几乎年年尽全力投资，可产能，还是年年不够，供不应求。别人以为他疯了——明明已经供不应求，还要一路建下去。可他知道，三四年后的那场战争，此刻就要开始准备。",
         "en": "From 1992 to 2000, TSMC invested at full strength almost every year, and yet capacity was still short every year, with demand outstripping supply. People thought he was mad — already sold out, and still building. But he knew: the war three or four years away had to be prepared for right now.",
-        "start": 404.78,
-        "end": 422.87
+        "start": 425.44,
+        "end": 443.53
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17350,8 +17349,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 422.87,
-        "end": 425.03
+        "start": 443.53,
+        "end": 445.84
       },
       {
         "secZh": "第二幕 · 一条直线",
@@ -17359,8 +17358,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而当寒冬真正来临，这张准备了三十年的牌，成了最锋利的武器。",
         "en": "And when the real winter came, this card he had been holding for thirty years became his sharpest weapon.",
-        "start": 425.03,
-        "end": 430.73
+        "start": 445.84,
+        "end": 451.59
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17368,8 +17367,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○一年，不景气来了。张忠谋拿出了一套他早已想好、却从没机会完整实施的「不景气时期经营法则」。",
         "en": "In 2001, the downturn arrived. Morris Chang brought out a set of \"rules for operating through a downturn\" that he had long since worked out, but never had the chance to carry out in full.",
-        "start": 430.73,
-        "end": 440.17
+        "start": 451.59,
+        "end": 461.66
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17377,8 +17376,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 440.17,
-        "end": 441.35
+        "start": 461.66,
+        "end": 463.6
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17386,8 +17385,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第一条：全力维持与客户、与供应商的伙伴关系。",
         "en": "Rule one: do everything to preserve partnerships with customers and suppliers.",
-        "start": 441.35,
-        "end": 445.68
+        "start": 463.6,
+        "end": 468.22
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17395,8 +17394,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "不景气，让一切都乱了套。原本吵着「供货不足」的客户，忽然要砍掉一半订单；原本要加量的设备采购，也要减下来。但张忠谋的立场很坚定：半导体业，长期一定会成长；眼前的寒冬，是暂时的。既然同乘一条船，就要互相体谅对方的难处——同患难，才能共享长期的利益。",
         "en": "The downturn threw everything into disorder. Customers who had been complaining about short supply suddenly wanted to cut half their orders; equipment purchases that were supposed to increase had to be reduced. But Morris Chang's stance was firm: the semiconductor industry would surely grow over the long term; the winter at hand was temporary. Since we are all in the same boat, we should accommodate each other's difficulties — only by enduring hardship together can we share the long-term gains.",
-        "start": 445.68,
-        "end": 469.86
+        "start": 468.22,
+        "end": 492.8
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17404,8 +17403,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 469.86,
-        "end": 471.04
+        "start": 492.8,
+        "end": 494.75
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17413,8 +17412,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那一年，多少供应商被客户一脚踹开，多少客户被供应商坐地起价。而台积电选择的，是另一条路：坐下来，一起算账，一起扛。",
         "en": "That year, how many suppliers were kicked aside by customers, how many customers were gouged by suppliers. TSMC chose another road: sit down, do the math together, and carry the burden together.",
-        "start": 471.04,
-        "end": 482.24
+        "start": 494.75,
+        "end": 506.35
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17422,8 +17421,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 482.24,
-        "end": 484.4
+        "start": 506.35,
+        "end": 508.65
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17431,8 +17430,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第二条：不裁员。",
         "en": "Rule two: no layoffs.",
-        "start": 484.4,
-        "end": 485.98
+        "start": 508.65,
+        "end": 510.69
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17440,8 +17439,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 485.98,
-        "end": 487.16
+        "start": 510.69,
+        "end": 512.63
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17449,8 +17448,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他始终相信，过去日本企业那种「终身雇用」的传统，对员工的向心力，大有好处。何况，裁员的账，其实算不过来——裁掉一个人，要付大约半年的薪水当资遣费；等景气回来再招新人，培训的成本，又是半年的薪水。一进一出，等于白忙一场。",
         "en": "He had always believed that the old Japanese tradition of \"lifetime employment\" did great good for employee loyalty. Besides, the math of layoffs never really worked out — firing one person means paying roughly six months of salary as severance; when the recovery comes and you hire a replacement, training costs another six months of salary. In and out, it is a wash.",
-        "start": 487.16,
-        "end": 508.59
+        "start": 512.63,
+        "end": 534.19
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17458,8 +17457,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 508.59,
-        "end": 509.76
+        "start": 534.19,
+        "end": 536.13
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17467,8 +17466,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他见过太多公司，在最难的时候，把最宝贵的信任，当成成本砍掉。等春天回来，再花双倍的价钱，去重新买回那点信任。",
         "en": "He had seen too many companies, in their hardest hours, cut their most precious asset — trust — as if it were just another cost. And when spring returned, they paid double to buy that trust back.",
-        "start": 509.76,
-        "end": 520.38
+        "start": 536.13,
+        "end": 547.0
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17476,8 +17475,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "事实也证明了他的判断：二○○一年底，台积电的员工人数，只比前一年略少一点——那是因为，他没有去补自然流失的空缺。到了二○○二年底，人数已经反超前一年；二○○三年底，更多。",
         "en": "The facts bore out his judgment: at the end of 2001, TSMC's headcount was only slightly below the year before — and that was because he chose not to fill the gaps left by natural attrition. By the end of 2002, headcount had already overtaken the year before; by the end of 2003, it was higher still.",
-        "start": 520.38,
-        "end": 537.09
+        "start": 547.0,
+        "end": 563.02
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17485,8 +17484,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 537.09,
-        "end": 539.25
+        "start": 563.02,
+        "end": 565.32
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17494,8 +17493,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第三条，也是最狠的一条：研发经费，不但不砍，反而急遽增加。",
         "en": "Rule three — and the harshest one: not only did he not cut R&D, he increased it sharply.",
-        "start": 539.25,
-        "end": 544.95
+        "start": 565.32,
+        "end": 571.36
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17503,8 +17502,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 544.95,
-        "end": 546.13
+        "start": 571.36,
+        "end": 573.3
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17512,8 +17511,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电的研发费用，从二○○○年的五十一亿新台币，一路加到二○○一年的一百零六亿，再到二○○二年的一百一十七亿。",
         "en": "TSMC's R&D spending rose from five point one billion New Taiwan dollars in 2000, to ten point six billion in 2001, and eleven point seven billion in 2002.",
-        "start": 546.13,
-        "end": 556.95
+        "start": 573.3,
+        "end": 582.54
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17521,8 +17520,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "别人在寒冬里裁人、关厂、冬眠。他却在寒冬里，大把花钱，抢人才。",
         "en": "While others cut people, closed fabs, and hibernated in the winter, he spent heavily in the cold to grab talent.",
-        "start": 556.95,
-        "end": 563.04
+        "start": 582.54,
+        "end": 589.21
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17530,8 +17529,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 563.04,
-        "end": 565.2
+        "start": 589.21,
+        "end": 591.51
       },
       {
         "secZh": "第三幕 · 三条法则",
@@ -17539,8 +17538,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他说：不景气的时候，别的公司不雇人，恰恰是挖到人才，最好的时机。",
         "en": "He said: in a downturn, when other companies aren't hiring, that is precisely the best moment to poach talent.",
-        "start": 565.2,
-        "end": 571.49
+        "start": 591.51,
+        "end": 598.08
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17548,8 +17547,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "逆势而行，是有代价的。",
         "en": "Going against the tide has a price.",
-        "start": 571.49,
-        "end": 573.66
+        "start": 598.08,
+        "end": 601.76
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17557,8 +17556,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 573.66,
-        "end": 574.84
+        "start": 601.76,
+        "end": 603.71
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17566,8 +17565,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那几年，台积电的毛利率，从二○○○年的四成六，一路跌到二○○一年的两成七。二○○二年，三成二；二○○三年，三成七。直到二○○四年，才重新回到四成五。",
         "en": "Those years, TSMC's gross margin fell from forty-six percent in 2000 to twenty-seven percent in 2001. In 2002, thirty-two percent; in 2003, thirty-seven percent. Only in 2004 did it return to forty-five percent.",
-        "start": 574.84,
-        "end": 589.38
+        "start": 603.71,
+        "end": 616.76
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17575,8 +17574,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "利润薄了，这是明摆着的事。",
         "en": "The profit got thinner. That much was plain to see.",
-        "start": 589.38,
-        "end": 591.94
+        "start": 616.76,
+        "end": 619.56
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17584,8 +17583,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 591.94,
-        "end": 594.1
+        "start": 619.56,
+        "end": 621.87
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17593,8 +17592,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可你看它做了什么——资本支出，二○○○年三十三亿美元，二○○一年二十亿，二○○二年十六亿，二○○三年十一亿。",
         "en": "But look at what it did — capital expenditure: three point three billion dollars in 2000, two billion in 2001, one point six billion in 2002, one point one billion in 2003.",
-        "start": 594.1,
-        "end": 604.72
+        "start": 621.87,
+        "end": 631.04
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17602,8 +17601,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "数字是往下降的。但请注意：这是在史上最惨的寒冬里，别的公司几乎把投资归了零的时候，台积电，依然每年砸下十几亿、二十亿美元。",
         "en": "The numbers were falling. But note this: in the worst winter in history, when other companies had nearly zeroed out their investment, TSMC still spent one or two billion dollars every single year.",
-        "start": 604.72,
-        "end": 616.71
+        "start": 631.04,
+        "end": 643.28
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17611,8 +17610,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 616.71,
-        "end": 617.89
+        "start": 643.28,
+        "end": 645.23
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17620,8 +17619,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "它没有猛踩刹车，只是松了一点油门。这条线，就是张忠谋要的那条「直线」。",
         "en": "It did not slam on the brakes; it only eased off the throttle a little. That line is exactly the \"straight line\" Morris Chang wanted.",
-        "start": 617.89,
-        "end": 624.77
+        "start": 645.23,
+        "end": 652.1
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17629,8 +17628,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "寒冬过去之后，从二○○四年到二○○九年，台积电又相当稳定地每年投入约二十五亿美元。这条「直线」，从没有因为天气转暖而猛地冲高，也没有因为天气转冷而骤然归零。",
         "en": "After the winter passed, from 2004 through 2009, TSMC went back to investing a very steady two and a half billion dollars a year. That \"straight line\" never surged when the weather warmed, and never dropped to zero when it turned cold.",
-        "start": 624.77,
-        "end": 640.11
+        "start": 652.1,
+        "end": 666.11
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17638,8 +17637,8 @@ window.EPISODES_DATA = [
         "speaker": "平行时刻 · 时间胶囊",
         "zh": "【平行时刻 · 时间胶囊】",
         "en": "[Main narrator, time capsule]",
-        "start": 640.11,
-        "end": 642.66
+        "start": 666.11,
+        "end": 668.77
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17647,8 +17646,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他这一年：二○○一年，台积电不裁员、反加码研发，在最冷的冬天埋下种子。",
         "en": "His year: 2001 — TSMC lays off no one and instead raises R&D, planting seeds in the coldest winter.",
-        "start": 642.66,
-        "end": 649.54
+        "start": 668.77,
+        "end": 675.52
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17656,8 +17655,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "世界这一年：全球芯片销售暴跌三成二，整个半导体业，跌进有史以来最深的低谷。",
         "en": "The world's year: global chip sales plunge thirty-two percent, the whole industry sinking into the deepest trough in its history.",
-        "start": 649.54,
-        "end": 656.82
+        "start": 675.52,
+        "end": 682.9
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17665,8 +17664,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "同一条时间线——别人看见恐惧，他看见节奏。",
         "en": "One timeline — where others saw fear, he saw rhythm.",
-        "start": 656.82,
-        "end": 660.94
+        "start": 682.9,
+        "end": 687.53
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17674,8 +17673,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 660.94,
-        "end": 662.12
+        "start": 687.53,
+        "end": 689.48
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17683,8 +17682,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而台积电最大的对手，全球第二大晶圆代工厂——联电，那一年在做什么？",
         "en": "And what was TSMC's biggest rival doing that year — UMC, the world's second-largest foundry?",
-        "start": 662.12,
-        "end": 668.61
+        "start": 689.48,
+        "end": 696.34
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17692,8 +17691,8 @@ window.EPISODES_DATA = [
         "speaker": "对手视角 · 联电曹兴诚",
         "zh": "【对手视角 · 联电曹兴诚】",
         "en": "[Main narrator, rival's voice]",
-        "start": 668.61,
-        "end": 671.36
+        "start": 696.34,
+        "end": 699.18
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17701,8 +17700,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○一年七月，联电创立二十多年来，第一次裁员：九千四百名员工里，裁掉二百六十六人，约占百分之三。董事长曹兴诚在给员工的备忘录里，把话说得很硬——要正面迎接产业不景气的挑战，就必须准备好狠下心来，开除那些达不到要求的人。",
         "en": "In July 2001, for the first time in its more than twenty years of existence, UMC laid people off: two hundred sixty-six of its nine thousand four hundred employees, about three percent. Chairman Robert Tsao put it hard in a memo to employees — to face the industry's downturn head-on, the company had to be ready to get tough and dismiss those who could not meet its requirements.",
-        "start": 671.36,
-        "end": 692.99
+        "start": 699.18,
+        "end": 720.47
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17710,8 +17709,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 692.99,
-        "end": 694.17
+        "start": 720.47,
+        "end": 722.42
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17719,8 +17718,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "同一座科技城里，两家最大的晶圆代工厂，走出了完全相反的两条路。联电在挥刀逼人走路；台积电，却反过来给员工加了一点薪水，还公开说：就算景气这么差，我们仍要靠着让员工开心，来保住竞争力。",
         "en": "In the same science park, the two largest foundries walked two completely opposite roads. UMC was swinging the blade, pushing people out the door; TSMC, by contrast, gave its employees a small raise, and said openly: even with conditions this bad, we still keep our competitiveness by keeping our people happy.",
-        "start": 694.17,
-        "end": 712.06
+        "start": 722.42,
+        "end": 740.27
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17728,8 +17727,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 712.06,
-        "end": 714.22
+        "start": 740.27,
+        "end": 742.57
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17737,8 +17736,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一个在寒冬里挥刀，一个在寒冬里生火。",
         "en": "One wielded a knife in the winter; the other lit a fire.",
-        "start": 714.22,
-        "end": 717.76
+        "start": 742.57,
+        "end": 746.27
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17746,8 +17745,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 717.76,
-        "end": 719.92
+        "start": 746.27,
+        "end": 748.58
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17755,8 +17754,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "不景气延续了将近三年。直到二○○三年第三季，台积电的单季营收，才重新回到二○○○年第四季的水准。",
         "en": "The downturn lasted nearly three years. Not until the third quarter of 2003 did TSMC's quarterly revenue return to the level of the fourth quarter of 2000.",
-        "start": 719.92,
-        "end": 729.36
+        "start": 748.58,
+        "end": 757.24
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17764,8 +17763,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 729.36,
-        "end": 730.54
+        "start": 757.24,
+        "end": 759.19
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17773,8 +17772,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "然后，回报来了。",
         "en": "And then, the payoff came.",
-        "start": 730.54,
-        "end": 732.11
+        "start": 759.19,
+        "end": 761.1
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17782,8 +17781,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "当寒冬过去，竞争对手们要重新招人、重新扩产、重新追订单的时候，台积电的人，还在；台积电的技术，已经又往前走了好几年；台积电和客户的关系，熬过了最难的时候，反而更铁了。",
         "en": "When the winter ended and competitors had to rehire, re-expand, and chase orders all over again, TSMC's people were still there; TSMC's technology had already moved several years further ahead; and TSMC's relationships with its customers, forged through the hardest times, had only grown stronger.",
-        "start": 732.11,
-        "end": 748.43
+        "start": 761.1,
+        "end": 777.16
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17791,8 +17790,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 748.43,
-        "end": 750.59
+        "start": 777.16,
+        "end": 779.47
       },
       {
         "secZh": "第四幕 · 逆势的代价与回报",
@@ -17800,8 +17799,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那个在最冷的冬天里没有缩手的人，成了春天里，跑得最快的人。",
         "en": "The one who did not flinch in the coldest winter became the fastest runner in the spring.",
-        "start": 750.59,
-        "end": 756.29
+        "start": 779.47,
+        "end": 785.22
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17809,8 +17808,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "多年以后，张忠谋回头看，二○○一年到○三年的这场不景气，还带来了一个更深的变化。",
         "en": "Years later, looking back, Morris Chang saw that the downturn of 2001 to 2003 had brought one deeper change.",
-        "start": 756.29,
-        "end": 764.16
+        "start": 785.22,
+        "end": 793.72
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17818,8 +17817,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 764.16,
-        "end": 765.34
+        "start": 793.72,
+        "end": 795.66
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17827,8 +17826,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "半导体业跑得太快的日子，结束了。",
         "en": "The days of the semiconductor industry running too fast were over.",
-        "start": 765.34,
-        "end": 768.48
+        "start": 795.66,
+        "end": 799.01
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17836,8 +17835,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "从一九六○年到二○○○年，整整四十年，这个行业的平均年成长率，高达一成六。可二○○○年之后，这个数字，慢慢掉到了百分之五上下。",
         "en": "From 1960 to 2000, a full forty years, this industry's average annual growth rate was a stunning sixteen percent. But after 2000, that number slowly drifted down to around five percent.",
-        "start": 768.48,
-        "end": 780.87
+        "start": 799.01,
+        "end": 810.24
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17845,8 +17844,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 780.87,
-        "end": 783.03
+        "start": 810.24,
+        "end": 812.54
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17854,8 +17853,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "原因，他看得很清楚：摩尔定律，渐渐老了。让芯片上的晶体管，每两年翻一番，这件事，变得越来越贵，越来越难。",
         "en": "The reason, he saw clearly: Moore's Law was getting old. Doubling the number of transistors on a chip every two years had become more and more expensive, and more and more difficult.",
-        "start": 783.03,
-        "end": 793.25
+        "start": 812.54,
+        "end": 823.33
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17863,8 +17862,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他记得很清楚，自己年轻时，每年十月都要飞到华盛顿，参加一场叫「国际电子元件会议」的行业盛会。散会之后，他和同行的朋友去喝酒、吃饭，在深秋的夜里，一路唱着歌，走回旅馆。那时他们都才三十出头，自以为是走进了一个前途无限的行业，自己也前途无限。",
         "en": "He remembered it well — in his youth, every October he would fly to Washington to attend an industry gathering called the International Electron Devices Meeting. After the sessions, he and his friends would go out drinking and eating, and on deep autumn nights, walk back to the hotel singing. They were all just over thirty then, believing they had stepped into an industry of unlimited promise, and that they themselves were unlimited, too.",
-        "start": 793.25,
-        "end": 816.65
+        "start": 823.33,
+        "end": 846.28
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17872,8 +17871,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "如今白发苍苍，再回想六十多年前的那份年轻兴奋，不免有几分「时不我与」的伤感。当年对「前途无限」的那份期待，倒真兑现了——半导体，成了改变世界的力量。可那个一路狂奔的黄金年代，终究是慢下来了。",
         "en": "Now, white-haired, looking back on that youthful excitement of sixty-some years ago, he felt a touch of melancholy at how time had passed. That hope of \"unlimited promise\" had, in truth, come true — semiconductors became a force that changed the world. But the golden age of the sprint had, in the end, slowed down.",
-        "start": 816.65,
-        "end": 835.32
+        "start": 846.28,
+        "end": 864.57
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17881,8 +17880,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 835.32,
-        "end": 836.5
+        "start": 864.57,
+        "end": 866.52
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17890,8 +17889,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "行业慢下来了。可台积电，依然保持着比整个市场快一倍多的成长。它靠的，从来不是追风，而是那三个字：技术领先、制造优越、客户信任。",
         "en": "The industry slowed. Yet TSMC kept growing at more than double the pace of its market. What it relied on was never chasing the wind, but three things: technology leadership, manufacturing excellence, and customer trust.",
-        "start": 836.5,
-        "end": 848.89
+        "start": 866.52,
+        "end": 879.6
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17899,8 +17898,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 848.89,
-        "end": 851.05
+        "start": 879.6,
+        "end": 881.9
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17908,8 +17907,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，就是定力换来的东西。",
         "en": "That is what steadiness buys.",
-        "start": 851.05,
-        "end": 853.41
+        "start": 881.9,
+        "end": 884.53
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17917,8 +17916,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 853.41,
-        "end": 854.59
+        "start": 884.53,
+        "end": 886.48
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17926,8 +17925,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "很多年后再看，二○○一年到○三年的那场寒冬，恰恰是台积电和对手们，拉开差距的分水岭。",
         "en": "Many years later, looking back, the winter of 2001 to 2003 turned out to be exactly the watershed that widened the gap between TSMC and its rivals.",
-        "start": 854.59,
-        "end": 862.85
+        "start": 886.48,
+        "end": 894.1
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17935,8 +17934,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 862.85,
-        "end": 865.01
+        "start": 894.1,
+        "end": 896.4
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17944,8 +17943,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "周期，从来不是用来恐惧的。它是一面钟，懂它的人，踩着它的节奏走；不懂的人，被它的摆动，甩得晕头转向。",
         "en": "The cycle was never something to fear. It is a clock — those who understand it step to its rhythm; those who don't are thrown dizzy by its swing.",
-        "start": 865.01,
-        "end": 874.84
+        "start": 896.4,
+        "end": 906.64
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17953,8 +17952,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 874.84,
-        "end": 876.02
+        "start": 906.64,
+        "end": 908.59
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17962,8 +17961,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "别人在繁荣里狂欢，他在冷静地建厂；别人在寒冬里冬眠，他在大胆地埋种子。",
         "en": "Others partied in the boom; he built steadily in the calm. Others hibernated in the winter; he boldly planted seeds in the cold.",
-        "start": 876.02,
-        "end": 882.9
+        "start": 908.59,
+        "end": 915.49
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17971,8 +17970,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "定力，是一个领导者，最昂贵的资产。",
         "en": "Steadiness is the most expensive asset a leader can own.",
-        "start": 882.9,
-        "end": 886.24
+        "start": 915.49,
+        "end": 919.1
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -17980,8 +17979,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，就是逆周期的定力。",
         "en": "That is the steadiness of the counter-cycle.",
-        "start": 886.24,
-        "end": 888.4
+        "start": 919.1,
+        "end": 921.55
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -17989,8 +17988,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1. **半导体周期（Boom-Bust Cycle）**：半导体业天然强周期——建厂需 3–4 年，供需错配导致「缺货→猛建→过剩→收缩」循环。1964–2000 年行业历 7 次不景气。（英文：semiconductor cycle, supply-demand mismatch）",
         "en": "1. **The semiconductor cycle (boom-bust)**: Semiconductors are inherently cyclical — a fab takes 3–4 years to build, and supply-demand mismatch drives the loop of \"shortage → overbuild → oversupply → retreat.\" From 1964 to 2000 the industry lived through seven downturns.",
-        "start": 888.4,
-        "end": 916.51
+        "start": 921.55,
+        "end": 946.45
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -17998,8 +17997,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "2. **2001 年史上最惨衰退**：全球芯片销售从 2000 年的 2040 亿美元跌至 2001 年的 1390 亿美元，跌幅 32%（SIA），远超 1985 年的 17%。（英文：worst semiconductor downturn ever, −32%）",
         "en": "2. **The worst downturn in history, 2001**: Global chip sales fell from $204 billion in 2000 to $139 billion in 2001, a 32% drop (SIA), far exceeding 1985's 17%.",
-        "start": 916.51,
-        "end": 943.05
+        "start": 946.45,
+        "end": 966.68
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -18007,8 +18006,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "3. **「直线」投资（Straight-line Investment）**：张忠谋 1970s 在德仪倡议、台积电落地的理念——以十年滚动计划为依据，景气好不猛建、坏不缩手，每年稳步增产能。（英文：straight-line capacity investment）",
         "en": "3. **\"Straight-line\" investment**: The idea Morris Chang proposed at TI in the 1970s and finally carried out at TSMC — a rolling ten-year plan, adding capacity steadily every year; no overbuilding in booms, no shrinking in busts.",
-        "start": 943.05,
-        "end": 969.59
+        "start": 966.68,
+        "end": 990.28
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -18016,8 +18015,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "4. **不景气经营法则三要点**：① 与客户/供应商共患难维持伙伴关系；② 不裁员（裁员费+重招培训各约半年薪水，经济上不划算）；③ 研发经费逆势大增（2000 年 51 亿→2002 年 117 亿新台币）。（英文：recession playbook: partnership, no layoffs, more R&D）",
         "en": "4. **Three rules of the recession playbook**: ① preserve partnerships with customers and suppliers through the hardship; ② no layoffs (severance plus rehiring-and-training costs each run about six months of salary); ③ increase R&D sharply (NT$5.1B in 2000 → NT$11.7B in 2002).",
-        "start": 969.59,
-        "end": 1001.84
+        "start": 990.28,
+        "end": 1015.52
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -18025,8 +18024,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "5. **「不景气是挖人才最好的时候」**：别人裁员关厂时，正是以低成本抢到好人才的窗口——张忠谋的逆周期用人哲学。（英文：best time to hire talent is a downturn）",
         "en": "5. **\"A downturn is the best time to hire talent\"**: When rivals are cutting and closing, it is the window to grab good people at low cost — Morris Chang's counter-cyclical hiring philosophy.",
-        "start": 1001.84,
-        "end": 1021.69
+        "start": 1015.52,
+        "end": 1032.4
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -18034,8 +18033,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "6. **台积电的韧性回报**：毛利率从 2000 年 46% 跌至 2001 年 27%，但 2003 Q3 营收恢复至 2000 Q4 水准，2004 年毛利率重回 45%；寒冬过后台积电逆势扩大领先。（英文：margin dip then recovery, resilience pays off）",
         "en": "6. **TSMC's resilient payoff**: Gross margin fell from 46% in 2000 to 27% in 2001, but by Q3 2003 revenue had recovered to Q4 2000 levels, and in 2004 gross margin returned to 45%; after the winter, TSMC widened its lead.",
-        "start": 1021.69,
-        "end": 1051.77
+        "start": 1032.4,
+        "end": 1055.76
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -18043,8 +18042,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "7. **摩尔定律变老**：半导体长期成长率从 1960–2000 的年均 16% 降至 2000 后的约 5%——摩尔定律经济效益递减，行业进入「下半场」。（英文：Moore's Law slows, industry growth decelerates）",
         "en": "7. **Moore's Law grows old**: The industry's long-run growth rate fell from an average of 16% (1960–2000) to about 5% after 2000 — the economic returns of Moore's Law were diminishing, and the industry entered its second half.",
-        "start": 1051.77,
-        "end": 1077.33
+        "start": 1055.76,
+        "end": 1076.3
       },
       {
         "secZh": "下集预告",
@@ -18052,8 +18051,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "寒冬过去了，可另一场风暴，正在酝酿。",
         "en": "The winter passed, but another storm was brewing.",
-        "start": 1077.33,
-        "end": 1080.87
+        "start": 1076.3,
+        "end": 1081.31
       },
       {
         "secZh": "下集预告",
@@ -18061,8 +18060,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○五年，七十四岁的张忠谋，把 CEO 的位置，亲手交给了一个人。",
         "en": "In 2005, at seventy-four, Morris Chang handed the CEO position, with his own hands, to a single man.",
-        "start": 1080.87,
-        "end": 1087.55
+        "start": 1081.31,
+        "end": 1087.33
       },
       {
         "secZh": "下集预告",
@@ -18070,8 +18069,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 1087.55,
-        "end": 1089.71
+        "start": 1087.33,
+        "end": 1089.63
       },
       {
         "secZh": "下集预告",
@@ -18079,8 +18078,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "三年后，一场更大的危机，让他又亲手，把这个位置拿了回来。",
         "en": "Three years later, a bigger crisis made him take that position back, again with his own hands.",
-        "start": 1089.71,
-        "end": 1095.22
+        "start": 1089.63,
+        "end": 1095.29
       },
       {
         "secZh": "下集预告",
@@ -18088,7 +18087,7 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "下一集，《交棒之痛》。",
         "en": "Next episode: \"The Pain of Handing Over.\"",
-        "start": 1095.22,
+        "start": 1095.29,
         "end": 1097.38
       }
     ]
@@ -18100,8 +18099,8 @@ window.EPISODES_DATA = [
     "summary": "交棒之痛 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第13期-交棒之痛/中文音频.mp3",
     "audioEn": "./03-剧集/第13期-交棒之痛/英文音频.mp3",
-    "durationZh": 1185.84,
-    "durationEn": 1296.12,
+    "durationZh": 1185.836,
+    "durationEn": 1296.116,
     "cues": [
       {
         "secZh": "开场",
@@ -18110,7 +18109,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：会议室门轻轻合上，接着是一阵长久的安静】",
         "en": "[SFX: a meeting-room door closing softly, then a long silence]",
         "start": 0.0,
-        "end": 4.63
+        "end": 5.34
       },
       {
         "secZh": "开场",
@@ -18118,8 +18117,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○五年，台积电的天上，没有一片乌云。",
         "en": "In 2005, there was not a single cloud over TSMC.",
-        "start": 4.63,
-        "end": 8.49
+        "start": 5.34,
+        "end": 9.05
       },
       {
         "secZh": "开场",
@@ -18127,8 +18126,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 8.49,
-        "end": 9.65
+        "start": 9.05,
+        "end": 10.96
       },
       {
         "secZh": "开场",
@@ -18136,8 +18135,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "刚过去的一年，营收和获利双双破了纪录，超过了二○○○年的那个高点。一切都好，好到让人想不起，四年前那场寒冬有多冷。",
         "en": "The year before, revenue and profit had both broken records, sailing past the peak of the year 2000. Everything was going so well that it was hard to remember how cold the winter four years earlier had been.",
-        "start": 9.65,
-        "end": 20.64
+        "start": 10.96,
+        "end": 21.55
       },
       {
         "secZh": "开场",
@@ -18145,8 +18144,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可就在这一年，七十四岁的张忠谋，做了一件让所有人意外的事。",
         "en": "Yet in that year, the seventy-four-year-old Morris Chang did something that surprised everyone.",
-        "start": 20.64,
-        "end": 26.24
+        "start": 21.55,
+        "end": 27.19
       },
       {
         "secZh": "开场",
@@ -18154,8 +18153,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 26.24,
-        "end": 28.36
+        "start": 27.19,
+        "end": 29.45
       },
       {
         "secZh": "开场",
@@ -18163,8 +18162,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他决定，把 CEO 这个位置，亲手交出去。",
         "en": "He decided to hand over the CEO position, with his own hands.",
-        "start": 28.36,
-        "end": 32.41
+        "start": 29.45,
+        "end": 33.34
       },
       {
         "secZh": "开场",
@@ -18172,8 +18171,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一集，我们讲交棒之痛。",
         "en": "This episode, we tell the story of the pain of handing over.",
-        "start": 32.41,
-        "end": 35.31
+        "start": 33.34,
+        "end": 35.92
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18181,8 +18180,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "要理解这场交棒，得先弄懂一个词：CEO。",
         "en": "To understand this handover, you first have to understand one word: CEO.",
-        "start": 35.31,
-        "end": 39.17
+        "start": 35.92,
+        "end": 41.3
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18190,8 +18189,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 39.17,
-        "end": 40.32
+        "start": 41.3,
+        "end": 43.21
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18199,8 +18198,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「执行长」这个中文译名，张忠谋一直觉得不准确。他说，CEO 的职权，岂止是「执行」——他要把外面的世界带进公司，再动员公司的财力和人力，去迎接他带回来的机会和挑战。",
         "en": "Morris Chang always felt the common Chinese rendering of \"CEO\" — something like \"chief executor\" — missed the point. The CEO's job, he said, is far more than execution: he must bring the outside world into the company, then mobilize the company's money and people to meet the opportunities and challenges he has brought back.",
-        "start": 40.32,
-        "end": 56.14
+        "start": 43.21,
+        "end": 58.3
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18208,8 +18207,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个词，是美国在十八世纪末发明的。发明者，据说是亚历山大·汉弥尔顿——美国宪法的起草人之一，华盛顿总统的财政部长。",
         "en": "The title was invented in America at the end of the eighteenth century. The inventor, it is said, was Alexander Hamilton — one of the framers of the U.S. Constitution and George Washington's Secretary of the Treasury.",
-        "start": 56.14,
-        "end": 67.14
+        "start": 58.3,
+        "end": 69.54
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18217,8 +18216,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 67.14,
-        "end": 69.26
+        "start": 69.54,
+        "end": 71.8
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18226,8 +18225,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在美国宪法里，总统是国家的 Chief Executive，手握实际大权。汉弥尔顿创办美国第一银行时，想让这家银行的掌门人，也拥有类似总统在国度的权力。于是他沿用了总统的头衔，又在 Chief Executive 后面加了 Officer 一词——于是就有了 CEO。",
         "en": "In the Constitution, the President is the nation's Chief Executive, holding real power. When Hamilton founded the First Bank of the United States, he wanted its head to hold power inside the bank much as the President held power in the country. So he borrowed the President's title, and added the word \"Officer\" after \"Chief Executive\" — and so the CEO was born.",
-        "start": 69.26,
-        "end": 95.12
+        "start": 71.8,
+        "end": 95.89
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18235,8 +18234,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 95.12,
-        "end": 96.28
+        "start": 95.89,
+        "end": 97.8
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18244,8 +18243,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个词从诞生起，就带着一种「我负全责」的分量。",
         "en": "From the day of its birth, the word carried a certain weight: the weight of being the one who takes full responsibility.",
-        "start": 96.28,
-        "end": 101.58
+        "start": 97.8,
+        "end": 101.96
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18253,8 +18252,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而张忠谋，从台积电成立那天起，就一直身兼董事长和 CEO。二十年来，他既是掌舵人，又是那个「负全责」的人。",
         "en": "And Morris Chang, from the day TSMC was founded, had always held both titles — chairman and CEO. For twenty years, he was both the helmsman and the one who took full responsibility.",
-        "start": 101.58,
-        "end": 111.81
+        "start": 101.96,
+        "end": 111.84
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18262,8 +18261,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在交棒之前，他先花了很多年，做一件更隐蔽、也更难的事——搭一个理想的董事会。",
         "en": "Before handing over, he spent many years on something quieter and harder: building an ideal board of directors.",
-        "start": 111.81,
-        "end": 119.14
+        "start": 111.84,
+        "end": 119.53
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18271,8 +18270,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 119.14,
-        "end": 120.3
+        "start": 119.53,
+        "end": 121.44
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18280,8 +18279,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他心里的董事会，有他的规矩：董事要有半导体相关资历，隔行如隔山；社会声望要比他相仿或更高，免得被他说了算；人数要少，少到大家敢敞开说话；独立董事要占多数，而不是大股东的传声筒。",
         "en": "His ideal board had rules. Directors should have semiconductor experience — across trades, mountains stand between you. Their standing should be equal to or higher than his own, so no one could worry he was running the show alone. The number should be small — small enough that people dare to speak openly. And independent directors should hold the majority, rather than acting as the mouthpiece of big shareholders.",
-        "start": 120.3,
-        "end": 137.27
+        "start": 121.44,
+        "end": 138.11
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18289,8 +18288,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "还有一条，他守了三十一年——每次正式开会前一夜，先开一场「会前晚餐会」。只有独立董事参加，没有记录秘书，经理层只有他一人作陪。",
         "en": "And one practice he kept for thirty-one years: the night before every formal board meeting, he held a \"pre-meeting dinner.\" Only independent directors attended; there was no minute-taker; and from management, he alone sat as host.",
-        "start": 137.27,
-        "end": 149.43
+        "start": 138.11,
+        "end": 150.31
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18298,8 +18297,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 149.43,
-        "end": 151.55
+        "start": 150.31,
+        "end": 152.57
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18307,8 +18306,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "很多董事，不愿意把还没成熟的想法，落到白纸黑字的会议记录上，所以干脆少说话。可晚餐桌上没有记录，大家就敢讲了。这些年，张忠谋常常在晚餐桌上被说服，改了、推迟了，甚至撤回了自己的提案。",
         "en": "Many directors are unwilling to put half-formed opinions into written minutes, so they simply stay quiet. But at the dinner table, with no record, they dared to speak. Over the years, Morris Chang was often persuaded at that table — to change a proposal, to delay it, even to withdraw it.",
-        "start": 151.55,
-        "end": 169.11
+        "start": 152.57,
+        "end": 170.36
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18316,8 +18315,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 169.11,
-        "end": 170.27
+        "start": 170.36,
+        "end": 172.27
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18325,8 +18324,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他为了把合适的独立董事请进来，花的心思，一点不比经营公司少。",
         "en": "The care he poured into recruiting the right independent directors was no less than the care he poured into running the company.",
-        "start": 170.27,
-        "end": 176.05
+        "start": 172.27,
+        "end": 178.08
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18334,8 +18333,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一九九九年四月，哈佛商学院教授、竞争战略大师迈克尔·波特，应邀来台湾演讲。那天的听众，对波特那套管理理论，反应不很热烈。对谈一结束，波特拔脚就想走。",
         "en": "In April 1999, Michael Porter, the Harvard Business School professor and master of competitive strategy, came to Taiwan to speak. That day, the audience's reaction to his management theory was lukewarm. The moment the panel ended, Porter was ready to bolt.",
-        "start": 176.05,
-        "end": 190.33
+        "start": 178.08,
+        "end": 192.56
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18343,8 +18342,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 190.33,
-        "end": 192.45
+        "start": 192.56,
+        "end": 194.82
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18352,8 +18351,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋喊住了他：「请留步。」波特转过头。张忠谋问了一句：「您认识布鲁斯·韩德生吗？」",
         "en": "Morris Chang stopped him: \"Please stay.\" Porter turned. Morris Chang asked one question: \"Do you know Bruce Henderson?\"",
-        "start": 192.45,
-        "end": 200.56
+        "start": 194.82,
+        "end": 202.88
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18361,8 +18360,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 200.56,
-        "end": 201.72
+        "start": 202.88,
+        "end": 204.79
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18370,8 +18369,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "波特的眼睛，忽然亮了。",
         "en": "Porter's eyes suddenly lit up.",
-        "start": 201.72,
-        "end": 203.84
+        "start": 204.79,
+        "end": 207.2
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18379,8 +18378,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "布鲁斯·韩德生，是波士顿顾问集团的创办人，也是「学习曲线」的创始人——更是张忠谋在竞争战略上的启蒙者。在一个他认定是「管理学蛮荒之地」的地方，居然有人问起竞争战略的鼻祖，波特转过身来，反问他：「你知道他？」",
         "en": "Bruce Henderson was the founder of the Boston Consulting Group and the originator of the \"learning curve\" — and the man who had first awakened Morris Chang to competitive strategy. In a place he had written off as a wasteland of management theory, someone had just asked him about the founding father of competitive strategy. Porter turned back and asked, in surprise: \"You know him?\"",
-        "start": 203.84,
-        "end": 223.71
+        "start": 207.2,
+        "end": 225.81
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18388,8 +18387,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那一次，两人谈了十五分钟，很愉快。",
         "en": "That time, they talked for fifteen pleasant minutes.",
-        "start": 223.71,
-        "end": 226.99
+        "start": 225.81,
+        "end": 229.35
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18397,8 +18396,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "后来，波特派两位助理到新竹，花了两个星期，为台积电写了一份哈佛商学院的个案研究。个案第一次上课时，波特请张忠谋去哈佛，现身说法——第一个小时波特讲，第二个小时，学生向他提问。",
         "en": "Later, Porter sent two assistants to Hsinchu, where they spent two weeks gathering material for a Harvard Business School case study on TSMC. When the case was taught for the first time, Porter invited Morris Chang to Harvard to speak — Porter lectured for the first hour, and the students questioned Morris Chang for the second.",
-        "start": 226.99,
-        "end": 243.78
+        "start": 229.35,
+        "end": 246.35
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18406,8 +18405,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 243.78,
-        "end": 245.9
+        "start": 246.35,
+        "end": 248.61
       },
       {
         "secZh": "第一幕 · 一个职位从何而来",
@@ -18415,8 +18414,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一个用一句话留下大师的人，最终也把波特，请进了台积电的董事会当监察人。",
         "en": "The man who could keep a master with a single sentence eventually brought that master onto TSMC's board as a supervisor.",
-        "start": 245.9,
-        "end": 252.65
+        "start": 248.61,
+        "end": 255.31
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18424,8 +18423,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○五年，到了必须交棒的时候。",
         "en": "By 2005, the time to hand over had come.",
-        "start": 252.65,
-        "end": 255.74
+        "start": 255.31,
+        "end": 259.45
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18433,8 +18432,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 255.74,
-        "end": 256.89
+        "start": 259.45,
+        "end": 261.35
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18442,8 +18441,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电的未来，天上看不到乌云，而张忠谋，已经七十四岁了。身体是硬朗的，但他清楚：该为公司准备「继承」的问题了。",
         "en": "There was no cloud over TSMC's future, and Morris Chang was already seventy-four. His health was sound, but he knew it was time to prepare the question of succession.",
-        "start": 256.89,
-        "end": 267.51
+        "start": 261.35,
+        "end": 271.96
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18451,8 +18450,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他想的第一步，不是退休，而是释出 CEO——把「负全责」的那个位置让出来，自己保留董事长。",
         "en": "His first step was not retirement — it was to release the CEO role. He would give up the seat that carried \"full responsibility,\" while keeping the chairmanship.",
-        "start": 267.51,
-        "end": 276.19
+        "start": 271.96,
+        "end": 280.35
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18460,8 +18459,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 276.19,
-        "end": 277.35
+        "start": 280.35,
+        "end": 282.26
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18469,8 +18468,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他考虑的人选，只有两个：曾繁城，和蔡力行。",
         "en": "He considered only two candidates: F.C. Tseng, and Rick Tsai.",
-        "start": 277.35,
-        "end": 281.4
+        "start": 282.26,
+        "end": 286.69
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18478,8 +18477,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "论人情，论资历，都该让曾繁城先来。当年工研院的老长官们大多不愿加入台积电，是曾繁城带着核心团队投奔过来，立下了汗马功劳；他后来还引进了一批优秀的旅美华裔人才——蔡力行，正是其中之一。",
         "en": "By sentiment and by seniority, F.C. Tseng deserved the first chance. Years ago, when most of the senior people at ITRI were unwilling to join TSMC, it was F.C. Tseng who led the core team over, and did great service. He later brought in a stream of excellent Chinese-American talent — Rick Tsai among them.",
-        "start": 281.4,
-        "end": 298.96
+        "start": 286.69,
+        "end": 304.31
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18487,8 +18486,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 298.96,
-        "end": 301.08
+        "start": 304.31,
+        "end": 306.57
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18496,8 +18495,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "但张忠谋想得很清楚：半导体这个行业，无情，而且变化极快。在这里，哪能只讲人情和资历？",
         "en": "But Morris Chang's thinking was clear: semiconductors is a ruthless, fast-moving industry. Here, how could one speak only of sentiment and seniority?",
-        "start": 301.08,
-        "end": 309.18
+        "start": 306.57,
+        "end": 315.17
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18505,8 +18504,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 309.18,
-        "end": 310.34
+        "start": 315.17,
+        "end": 317.08
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18514,8 +18513,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "蔡力行当时五十四岁，正值盛年，比曾繁城小七岁。一九八九年就加入台积电，资格早、功劳多，潜力也为大家所欣赏。",
         "en": "Rick Tsai was fifty-four, in his prime, seven years younger than F.C. Tseng. He had joined TSMC back in 1989 — early enough to recognize its potential — and had built a long record of achievement. His potential was admired by Morris Chang, by F.C. Tseng, and by many colleagues.",
-        "start": 310.34,
-        "end": 322.4
+        "start": 317.08,
+        "end": 327.56
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18523,8 +18522,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○五年五月，张忠谋提请董事会，任命蔡力行为台积电 CEO。",
         "en": "In May 2005, Morris Chang proposed to the board that Rick Tsai be appointed TSMC's CEO.",
-        "start": 322.4,
-        "end": 328.38
+        "start": 327.56,
+        "end": 333.03
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18532,8 +18531,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 328.38,
-        "end": 330.5
+        "start": 333.03,
+        "end": 335.29
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18541,8 +18540,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "交出 CEO 之后，张忠谋的生活，换了一副样子。",
         "en": "After handing over the CEO role, Morris Chang's life changed shape.",
-        "start": 330.5,
-        "end": 335.13
+        "start": 335.29,
+        "end": 339.71
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18550,8 +18549,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 335.13,
-        "end": 336.29
+        "start": 339.71,
+        "end": 341.62
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18559,8 +18558,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他放弃了公司在新竹给他的公寓；没有特别的事，每周只去办公室一天。这一天，CEO 单独对他简报两小时，财务长、法务长再各简报一小时。他还自动放弃了分红，只留下薪水——要知道，台积电高管的待遇，一直以分红为主，那几年，分红还是按股票面值发的。这是一笔不小的损失，但他觉得，这本就是「专任董事长」的一部分。",
         "en": "He gave up the apartment the company had given him in Hsinchu. Unless something special came up, he came to the office only one day a week. On that day, the CEO briefed him privately for two hours, and the CFO and general counsel each briefed him for an hour. He also gave up his bonus, keeping only his salary — and at TSMC, executive pay had always been mostly bonus, and in those years the bonus was even paid at par value in stock. It was a substantial sacrifice, but he saw it as simply part of being \"chairman only.\"",
-        "start": 336.29,
-        "end": 365.23
+        "start": 341.62,
+        "end": 370.33
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18568,8 +18567,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "腾出来的时间，他拿去参加国际政经论坛。二○○六年，他在费城见过一次基辛格。那时基辛格已经八十多岁，还亲自过来，问他对台湾的看法，临走递了张名片，邀请他去纽约的办公室坐坐。",
         "en": "The freed-up time, he spent at international political and economic forums. In 2006, in Philadelphia, he met Henry Kissinger. Kissinger, then in his eighties, came over to ask his views on Taiwan, and before leaving, handed him a business card, inviting him to visit his New York office sometime.",
-        "start": 365.23,
-        "end": 381.63
+        "start": 370.33,
+        "end": 386.56
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18577,8 +18576,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 381.63,
-        "end": 383.75
+        "start": 386.56,
+        "end": 388.82
       },
       {
         "secZh": "第二幕 · 两个人，一个位置",
@@ -18586,8 +18585,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一个把公司交出去的人，开始看更大的世界。可世界，很快就变了脸色。",
         "en": "A man who had handed over his company began to look at a larger world. But the world, very soon, changed its face.",
-        "start": 383.75,
-        "end": 389.92
+        "start": 388.82,
+        "end": 395.39
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18595,8 +18594,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○七年十二月十二日，华盛顿，国会山。",
         "en": "December 12, 2007. Capitol Hill, Washington.",
-        "start": 389.92,
-        "end": 393.78
+        "start": 395.39,
+        "end": 400.31
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18604,8 +18603,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 393.78,
-        "end": 394.94
+        "start": 400.31,
+        "end": 402.22
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18613,8 +18612,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那天傍晚，张忠谋应邀到国会山的一栋楼里演讲，听众是七八十位美国的官员、议员和他们的助理。他原本准备的话题，是台湾半导体制造的竞争力。",
         "en": "That evening, Morris Chang was invited to speak in a building on Capitol Hill, to an audience of seventy or eighty American officials, congressional members, and their staff. The topic he had prepared was the competitiveness of Taiwan's semiconductor manufacturing.",
-        "start": 394.94,
-        "end": 407.67
+        "start": 402.22,
+        "end": 414.91
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18622,8 +18621,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可演讲一结束，涌上来的问题，几乎没有一个跟半导体有关——所有人都在问：金融、银行，还有经济衰退。他们的焦虑，几乎要从问题里溢出来：我们已经在担心风暴了，你们，难道一点感觉都没有吗？",
         "en": "But the moment his talk ended, the questions that flooded in had almost nothing to do with semiconductors — everyone was asking about finance, banks, and recession. The anxiety nearly spilled out of their questions: we are already bracing for the storm — can it be that you feel nothing at all?",
-        "start": 407.67,
-        "end": 425.04
+        "start": 414.91,
+        "end": 432.82
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18631,8 +18630,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 425.04,
-        "end": 427.16
+        "start": 432.82,
+        "end": 435.08
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18640,8 +18639,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "去的时候，他对未来至少一年的世界经济和台积电业务，泰然自若；出来的时候，他心里只剩四个字——山雨欲来。",
         "en": "He had arrived feeling calm about the world economy and TSMC's business for at least a year ahead. He left with four characters in his mind — a storm was coming.",
-        "start": 427.16,
-        "end": 437.0
+        "start": 435.08,
+        "end": 445.13
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18649,8 +18648,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 437.0,
-        "end": 438.16
+        "start": 445.13,
+        "end": 447.04
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18658,8 +18657,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "事实证明，他的预感，准得可怕。",
         "en": "His premonition, it turned out, was eerily accurate.",
-        "start": 438.16,
-        "end": 441.05
+        "start": 447.04,
+        "end": 450.23
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18667,8 +18666,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "就在差不多同一段时间，还有一件更凶险的事，找上了台积电。",
         "en": "Around the same time, something even more dangerous came knocking on TSMC's door.",
-        "start": 441.05,
-        "end": 446.46
+        "start": 450.23,
+        "end": 455.7
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18676,8 +18675,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○七年二月，高盛的合伙人宋学仁来访，提出了一个方案：由高盛联合其他金融机构，再向银行贷款，跟台积电的管理层联手，做一次「管理层收购」——总共出七百亿美元，把市面上台积电的股票全买下来，让公司退市，归管理层所有。",
         "en": "In February 2007, Goldman Sachs partner Sung Hsueh-jen came to visit, with a proposal: Goldman would join forces with other financial institutions, borrow from banks, and, together with TSMC's management, carry out a \"management buyout\" — putting up seventy billion dollars to buy up all of TSMC's shares on the market, take the company private, and hand it to the management.",
-        "start": 446.46,
-        "end": 467.1
+        "start": 455.7,
+        "end": 475.38
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18685,8 +18684,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 467.1,
-        "end": 469.22
+        "start": 475.38,
+        "end": 477.64
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18694,8 +18693,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个方案，对管理层极有诱惑力：借着贷款的杠杆，能大幅拉高自己的持股比例；利息，可以用不发股利省下的现金来付。",
         "en": "The proposal was deeply tempting to management: with the leverage of debt, they could sharply raise their own shareholding; and the interest could be paid out of the cash saved by not paying dividends.",
-        "start": 469.22,
-        "end": 479.64
+        "start": 477.64,
+        "end": 488.03
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18703,8 +18702,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 479.64,
-        "end": 480.8
+        "start": 488.03,
+        "end": 489.94
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18712,8 +18711,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋答应考虑。他去了旧金山、纽约，跟高盛专管并购的资深合伙人见了面；返台后，又请财务长做了细致的数字分析，还和 CEO 蔡力行讨论了几次。",
         "en": "Morris Chang agreed to consider it. He went to San Francisco and New York, and met the senior Goldman partners in charge of such deals; after returning to Taiwan, he had the finance chief run a detailed analysis, and discussed it several times with CEO Rick Tsai.",
-        "start": 480.8,
-        "end": 494.3
+        "start": 489.94,
+        "end": 503.06
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18721,8 +18720,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "蔡力行的态度很明确：反对。",
         "en": "Rick Tsai's position was clear: he opposed it.",
-        "start": 494.3,
-        "end": 496.81
+        "start": 503.06,
+        "end": 505.93
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18730,8 +18729,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋最后也拒绝了。他算了笔账：三百多亿美元的贷款，光利息就不是台积电每年的股利能扛住的；一旦退市，筹资的管道只剩增资和借款，而银行团一定会提出苛刻的抵押和财务比率要求。那样的话，营收稍微打个喷嚏，资本投资和研发投资，就要跟着遭殃。",
         "en": "Morris Chang, in the end, refused too. He did the math: with over thirty billion dollars in loans, the interest alone would exceed what TSMC's annual dividends could bear; once delisted, the only fundraising channels left would be equity issuance and borrowing, and the lending banks would surely demand harsh collateral and financial-ratio covenants. Then the slightest sneeze in operating profit would drag down capital spending and R&D.",
-        "start": 496.81,
-        "end": 519.19
+        "start": 505.93,
+        "end": 528.22
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18739,8 +18738,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 519.19,
-        "end": 521.31
+        "start": 528.22,
+        "end": 530.48
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18748,8 +18747,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "还有一层，比数字更冷。多年前，一位摩根士丹利主管并购的经理人跟他说过一句话，他一直记到今天：一旦管理层同意参与管理层收购，管理层就失去控制了。",
         "en": "And one layer was colder than the numbers. Years earlier, a Morgan Stanley manager who handled such investments had told him something he remembered to this day: once management agrees to take part in a management buyout, management loses control.",
-        "start": 521.31,
-        "end": 535.01
+        "start": 530.48,
+        "end": 544.24
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18757,8 +18756,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 535.01,
-        "end": 536.17
+        "start": 544.24,
+        "end": 546.15
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18766,8 +18765,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "收购是财团出的钱，公司的主权，最后在出钱的人手上。「管理层收购」这个词，听着是管理层当家，可真正的老板，从来不是管理层。",
         "en": "The money comes from the financiers, and the ownership of the company ends up in the hands of whoever puts up the money. The phrase \"management buyout\" sounds like management taking charge — but the real boss is never the management.",
-        "start": 536.17,
-        "end": 547.75
+        "start": 546.15,
+        "end": 557.52
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18775,8 +18774,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他回绝了。",
         "en": "He said no.",
-        "start": 547.75,
-        "end": 548.71
+        "start": 557.52,
+        "end": 558.79
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18784,8 +18783,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 548.71,
-        "end": 550.83
+        "start": 558.79,
+        "end": 561.05
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18793,8 +18792,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "两三年后回头看，这个决定，救了自己。假使当年做了收购，后来那些连续多年的高速成长，都不可能发生。",
         "en": "Two or three years later, looking back, this decision saved them. Had they done the buyout, the years of rapid growth that followed would simply have been impossible.",
-        "start": 550.83,
-        "end": 560.09
+        "start": 561.05,
+        "end": 570.58
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18802,8 +18801,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 560.09,
-        "end": 561.25
+        "start": 570.58,
+        "end": 572.49
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18811,8 +18810,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可躲过了这一劫，真正的风暴，还是来了。",
         "en": "But even having dodged that one, the real storm still came.",
-        "start": 561.25,
-        "end": 564.92
+        "start": 572.49,
+        "end": 576.38
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18820,8 +18819,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○八年九月，美国的雷曼兄弟申请破产——史上最大的一宗破产案。次贷危机的多米诺骨牌，轰然倒下，全球金融海啸，席卷而来。",
         "en": "In September 2008, Lehman Brothers filed for bankruptcy in America — the largest bankruptcy in history. The dominoes of the subprime crisis collapsed, and a global financial tsunami swept across the world.",
-        "start": 564.92,
-        "end": 576.49
+        "start": 576.38,
+        "end": 588.05
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18829,8 +18828,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电从接单到交货，要四五个月。所以二○○八年夏天，张忠谋就知道，第四季的营收会相当难看。数字比预想更惨：第三季营收还是创纪录的三十亿美元，第四季，掉到二十亿；二○○九年第一季，只剩十一亿三千万——已经到了盈亏的边缘。",
         "en": "TSMC needed four to five months from order to delivery. So by the summer of 2008, Morris Chang already knew the fourth quarter's revenue would be ugly. The numbers were worse than expected: the third quarter's revenue was a record three billion dollars; the fourth quarter, it fell to two billion; and in the first quarter of 2009, only one point one three billion — right at the edge of break-even.",
-        "start": 576.49,
-        "end": 597.52
+        "start": 588.05,
+        "end": 608.8
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18838,8 +18837,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 597.52,
-        "end": 599.65
+        "start": 608.8,
+        "end": 611.06
       },
       {
         "secZh": "第三幕 · 山雨欲来",
@@ -18847,8 +18846,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这场萎缩，比二○○一年互联网泡沫破裂那一次，还要凶。",
         "en": "This contraction was even fiercer than the one after the internet bubble burst in 2001.",
-        "start": 599.65,
-        "end": 604.66
+        "start": 611.06,
+        "end": 615.83
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18856,8 +18855,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "风暴之中，一个决定，改写了台积电的故事。",
         "en": "In the middle of the storm, one decision rewrote TSMC's story.",
-        "start": 604.66,
-        "end": 608.52
+        "start": 615.83,
+        "end": 621.1
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18865,8 +18864,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 608.52,
-        "end": 609.68
+        "start": 621.1,
+        "end": 623.01
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18874,8 +18873,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○九年一月，台积电资遣了八百四十位员工——理由是，他们的绩效评估最差。",
         "en": "In January 2009, TSMC let go of eight hundred and forty employees — on the grounds that their performance reviews were the worst.",
-        "start": 609.68,
-        "end": 616.82
+        "start": 623.01,
+        "end": 630.09
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18883,8 +18882,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "做这个决定的，是 CEO 蔡力行。",
         "en": "The decision was made by CEO Rick Tsai.",
-        "start": 616.82,
-        "end": 620.1
+        "start": 630.09,
+        "end": 633.2
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18892,8 +18891,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋其实早有预感。裁员这件事，他在德州仪器就领教过，也早就形成了自己的定见。他甚至还提前告诫过蔡力行：如果要裁员，务必把这个议题提到董事会，让董事会来决定。",
         "en": "Morris Chang had sensed this coming. He had learned about layoffs at Texas Instruments, and long ago formed his own firm views. He had even warned Rick Tsai in advance: if you want to lay people off, you must bring the matter to the board, and let the board decide.",
-        "start": 620.1,
-        "end": 635.34
+        "start": 633.2,
+        "end": 648.76
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18901,8 +18900,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 635.34,
-        "end": 637.46
+        "start": 648.76,
+        "end": 651.02
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18910,8 +18909,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "但蔡力行没有这么做。也许是积极性格的经理人，在危机时刻的本能——全面节支，然后，就是裁员。",
         "en": "But Rick Tsai did not do that. Perhaps it was the instinct of an aggressive manager in a crisis — cut costs across the board, and then, lay people off.",
-        "start": 637.46,
-        "end": 646.14
+        "start": 651.02,
+        "end": 660.33
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18919,8 +18918,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 646.14,
-        "end": 647.3
+        "start": 660.33,
+        "end": 662.24
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18928,8 +18927,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋一直反对的，恰恰是「拿绩效评估当裁员的刀」。",
         "en": "What Morris Chang had always opposed, precisely, was using the performance review as a knife for layoffs.",
-        "start": 647.3,
-        "end": 652.13
+        "start": 662.24,
+        "end": 666.75
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18937,8 +18936,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在他的信念里，绩效评估应该是个正面的制度——员工不适合现在的岗位，就帮他调去合适的岗位；真的不够努力，那就给他一个严厉的警告。它不该成为遣散人的手段。当年在德仪，正是他竭力反对以绩效为由裁员，才让公司在一九七○年，改成了以年资作为裁员标准。",
         "en": "In his belief, the performance review should be a positive institution — if an employee didn't fit the current post, you moved him to one that fit; if he truly wasn't working hard enough, you gave him a stern warning. It should never become a tool for dismissal. Years ago at Texas Instruments, it was his strenuous opposition that made the company switch, in 1970, to seniority as the standard for layoffs.",
-        "start": 652.13,
-        "end": 675.28
+        "start": 666.75,
+        "end": 689.76
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18946,8 +18945,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "现在，台积电出事了。",
         "en": "Now, TSMC was in trouble.",
-        "start": 675.28,
-        "end": 677.21
+        "start": 689.76,
+        "end": 691.99
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18955,8 +18954,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 677.21,
-        "end": 679.33
+        "start": 691.99,
+        "end": 694.25
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18964,8 +18963,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "三月，被资遣的员工成立了「自救会」，而且越滚越大。",
         "en": "In March, the laid-off employees formed a \"self-help association,\" and it quickly swelled.",
-        "start": 679.33,
-        "end": 684.15
+        "start": 694.25,
+        "end": 698.84
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18973,8 +18972,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 684.15,
-        "end": 685.31
+        "start": 698.84,
+        "end": 700.75
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18982,8 +18981,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "四月九日，大约一百二十位被资遣的同仁，来到张忠谋在台北大直的公寓外，那条窄窄的巷子，被两百多人挤得水泄不通。他们举着牌子，喊着口号：「假淘汰、真裁员」「企业巨无霸，说谎欺负人」。",
         "en": "On April 9, about one hundred and twenty laid-off colleagues came to the narrow lane in front of Morris Chang's apartment in Taipei's Dazhi district. More than two hundred people packed the small street. They held signs and chanted slogans: \"fake elimination, real layoffs,\" \"a corporate giant that lies and bullies people.\"",
-        "start": 685.31,
-        "end": 702.48
+        "start": 700.75,
+        "end": 717.21
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -18991,8 +18990,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "四月三十日，六十人在法说会场外示威；散场后，三十个人又到了他家门口，决定在附近的小公园搭帐篷，过夜。",
         "en": "On April 30, sixty people demonstrated outside the investor conference; after it ended, thirty came to his doorstep again, and decided to pitch tents overnight in the small park nearby.",
-        "start": 702.48,
-        "end": 712.13
+        "start": 717.21,
+        "end": 726.78
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19000,8 +18999,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那天夜里，张忠谋的夫人，几乎整夜没睡。好几次爬起来，把他也惊醒，两个人一起到窗口，远远望着斜对面小公园里的动静。",
         "en": "That night, Morris Chang's wife barely slept. Several times she got up, waking him too, and together they stood at the window, gazing at the stirring in the little park across the way.",
-        "start": 712.13,
-        "end": 722.93
+        "start": 726.78,
+        "end": 737.79
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19009,8 +19008,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 722.93,
-        "end": 725.06
+        "start": 737.79,
+        "end": 740.05
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19018,8 +19017,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "五月一日清晨六点，天刚亮，夫人就起身了。她和一位邻居一起，走到附近的豆浆店，买了三十个人份的豆浆、烧饼和油条，端到小公园，去看望那些过夜的「自救会」员工。",
         "en": "At six in the morning on May 1, as the sky lightened, his wife rose. With a neighbor, she walked to a nearby soy-milk shop and bought thirty servings of soy milk, sesame flatbread, and fried dough sticks, and carried them to the small park, to see the colleagues who had spent the night.",
-        "start": 725.06,
-        "end": 739.91
+        "start": 740.05,
+        "end": 754.56
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19027,8 +19026,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 739.91,
-        "end": 741.07
+        "start": 754.56,
+        "end": 756.47
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19036,8 +19035,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "大家都很感动。原本计划里，还要上凯达格兰大道示威的那一场，也取消了。",
         "en": "Everyone was moved. The demonstration planned for Ketagalan Boulevard was called off.",
-        "start": 741.07,
-        "end": 747.63
+        "start": 756.47,
+        "end": 763.38
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19045,8 +19044,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "五月十三日，公司正式提出处理办法：邀请所有被资遣的同仁，回来公司任职。最终，有近三成、大约两百五十位同仁回任；其余的人，改以资遣方式办理，让他们能领取失业给付，公司再额外发一笔关怀金。",
         "en": "On May 13, the company formally announced its resolution: it invited all the laid-off colleagues to return. In the end, nearly thirty percent — about two hundred and fifty people — came back; the rest were converted to formal severance, so they could claim unemployment benefits, with an extra care payment on top.",
-        "start": 747.63,
-        "end": 765.38
+        "start": 763.38,
+        "end": 781.15
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19054,8 +19053,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "五月二十日，张忠谋对全体员工，做了一次录影谈话。他说，他对整个事件的开始和发展，感到痛心；他也重申了一句台积电从创办以来就坚守的话——「台积人，是台积电最重要的资产」。",
         "en": "On May 20, Morris Chang made a video address to all employees. He said he felt pain and regret at how the whole episode began and unfolded; and he reaffirmed a belief TSMC had held since its founding — \"TSMC people are TSMC's most important asset.\"",
-        "start": 765.38,
-        "end": 781.59
+        "start": 781.15,
+        "end": 797.19
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19063,8 +19062,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "五月二十三日，「自救会」开会，宣布解散。",
         "en": "On May 23, the self-help association met and dissolved itself.",
-        "start": 781.59,
-        "end": 785.44
+        "start": 797.19,
+        "end": 800.91
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19072,8 +19071,8 @@ window.EPISODES_DATA = [
         "speaker": "平行时刻 · 时间胶囊",
         "zh": "【平行时刻 · 时间胶囊】",
         "en": "[Main narrator, time capsule]",
-        "start": 785.44,
-        "end": 787.95
+        "start": 800.91,
+        "end": 803.52
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19081,8 +19080,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他这一年：二○○九年，七十八岁的他，把亲手交出去的 CEO，又亲手拿了回来。",
         "en": "His year: 2009 — at seventy-eight, he takes back the CEO post he had handed over with his own hands.",
-        "start": 787.95,
-        "end": 795.28
+        "start": 803.52,
+        "end": 810.49
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19090,8 +19089,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "世界这一年：雷曼兄弟倒下，全球金融海啸，半导体业跌进又一场寒冬。",
         "en": "The world's year: Lehman Brothers falls, a global financial tsunami, and semiconductors sink into another winter.",
-        "start": 795.28,
-        "end": 801.46
+        "start": 810.49,
+        "end": 816.85
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19099,8 +19098,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "同一条时间线——别人在寒冬里裁员，他先裁掉了自己的接班人。",
         "en": "One timeline — while others were laying people off in the cold, he first cut loose his own successor.",
-        "start": 801.46,
-        "end": 807.05
+        "start": 816.85,
+        "end": 822.8
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19108,8 +19107,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 807.05,
-        "end": 808.21
+        "start": 822.8,
+        "end": 824.71
       },
       {
         "secZh": "第四幕 · 八百四十个人",
@@ -19117,8 +19116,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "风波看似平息了。可张忠谋心里，还有一个更难的决定，等着他。",
         "en": "The storm seemed to have passed. But in Morris Chang's mind, a harder decision still waited.",
-        "start": 808.21,
-        "end": 813.81
+        "start": 824.71,
+        "end": 830.75
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19126,8 +19125,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「变相裁员」这场风波，给了张忠谋很深的触动。",
         "en": "The \"disguised layoffs\" episode left a deep impression on Morris Chang.",
-        "start": 813.81,
-        "end": 818.05
+        "start": 830.75,
+        "end": 835.94
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19135,8 +19134,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 818.05,
-        "end": 819.21
+        "start": 835.94,
+        "end": 837.85
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19144,8 +19143,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他想了很久：蔡力行，既是这次事件的当事人，也是最可能继承他职务的人。该怎么处理他？",
         "en": "He thought about it for a long time. Rick Tsai was both the central figure in this episode and the man most likely to succeed him. How should he be handled?",
-        "start": 819.21,
-        "end": 827.12
+        "start": 837.85,
+        "end": 846.19
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19153,8 +19152,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "直接赶走？那太伤人，也太可惜。留他在原位？又不行——一个把「绩效评估」当刀的人，已经越过了治理的那条线。",
         "en": "Drive him out outright? Too cruel, and too wasteful. Keep him in place? Impossible — a man who would use the performance review as a knife had already crossed the line of governance.",
-        "start": 827.12,
-        "end": 837.15
+        "start": 846.19,
+        "end": 857.09
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19162,8 +19161,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 837.15,
-        "end": 839.27
+        "start": 857.09,
+        "end": 859.35
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19171,8 +19170,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋想出一个办法：让他去做「新事业」的总经理——同薪、同阶。",
         "en": "Morris Chang found a way: make him general manager of the \"new business\" — same pay, same rank.",
-        "start": 839.27,
-        "end": 845.25
+        "start": 859.35,
+        "end": 865.49
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19180,8 +19179,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 845.25,
-        "end": 846.41
+        "start": 865.49,
+        "end": 867.4
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19189,8 +19188,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "当时台积电的新事业，是太阳能和 LED，是大家都看好的「未来科技业」。让蔡力行到新领域去发挥，既保留了继承的机会，也给了他一个体面的台阶。张忠谋自己就是过来人——当年在德仪，他也被调去一个不想要的位置，他没有灰心，而是一直准备，等待东山再起。他相信，蔡力行也不会被一个挫折打倒。",
         "en": "TSMC's new businesses at the time were solar energy and LEDs, the \"future tech\" that everyone was bullish on. Putting Rick Tsai in charge of a new field both preserved his chance at succession and gave him a dignified landing. Morris Chang was himself a man who had been through this — back at Texas Instruments, he too had been moved to a post he did not want, and he had not despaired, but kept preparing, waiting to rise again. He believed Rick Tsai would not be beaten by a single setback either.",
-        "start": 846.41,
-        "end": 873.23
+        "start": 867.4,
+        "end": 893.95
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19198,8 +19197,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "想定了，他在五月下旬，一个一个地给董事们打电话，征求意见。董事们都同意了。",
         "en": "Having decided, he called the directors one by one in late May, seeking their consent. They all agreed.",
-        "start": 873.23,
-        "end": 880.37
+        "start": 893.95,
+        "end": 901.47
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19207,8 +19206,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 880.37,
-        "end": 882.49
+        "start": 901.47,
+        "end": 903.73
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19216,8 +19215,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○九年六月十一日，董事会全体无异议通过：张忠谋重兼 CEO，蔡力行转任新事业总经理。",
         "en": "On June 11, 2009, the board passed it unanimously: Morris Chang would resume the CEO role, and Rick Tsai would become general manager of the new business.",
-        "start": 882.49,
-        "end": 890.98
+        "start": 903.73,
+        "end": 911.67
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19225,8 +19224,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 890.98,
-        "end": 892.14
+        "start": 911.67,
+        "end": 913.58
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19234,8 +19233,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一年，张忠谋七十八岁。",
         "en": "That year, Morris Chang was seventy-eight.",
-        "start": 892.14,
-        "end": 894.45
+        "start": 913.58,
+        "end": 916.16
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19243,8 +19242,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他亲手把 CEO 交出去，又在风暴里，亲手把它拿了回来。两次决定，指向同一个理由——这是他创办的公司，他得对它负全责。",
         "en": "He had handed over the CEO role with his own hands — and in the middle of the storm, taken it back with his own hands. Both decisions pointed to the same reason: this was the company he had founded, and he had to take full responsibility for it.",
-        "start": 894.45,
-        "end": 906.27
+        "start": 916.16,
+        "end": 927.66
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19252,8 +19251,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 906.27,
-        "end": 908.39
+        "start": 927.66,
+        "end": 929.92
       },
       {
         "secZh": "第五幕 · 收回来",
@@ -19261,8 +19260,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "后来，蔡力行在新事业上努力了几年。但太阳能因大陆大幅投资而产能过剩，LED 又受制于少数厂商的知识产权，新事业终究没有成功。二○一四年，蔡力行离开了台积电，转任中华电信董事长；二○一七年，又转任联发科 CEO。台积电一手栽培的人才，最后为别家公司所用——对台积电来说，这是一件很可惜的事。",
         "en": "Later, Rick Tsai worked hard in the new business for several years. But solar energy was overwhelmed by capacity as the mainland poured in investment, and LEDs were hemmed in by a few firms holding the intellectual property. The new business never succeeded. In 2014, Rick Tsai left TSMC to become chairman of Chunghwa Telecom; in 2017, he became CEO of MediaTek. A talent that TSMC had cultivated ended up serving other companies — for TSMC, a real pity.",
-        "start": 908.39,
-        "end": 936.18
+        "start": 929.92,
+        "end": 957.17
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19270,8 +19269,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "多年以后回头看这场交棒，人们常常只记得那场裁员，和那次回任。",
         "en": "Years later, looking back at this handover, people tend to remember only the layoffs and the return.",
-        "start": 936.18,
-        "end": 941.96
+        "start": 957.17,
+        "end": 964.2
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19279,8 +19278,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 941.96,
-        "end": 943.12
+        "start": 964.2,
+        "end": 966.11
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19288,8 +19287,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "但真正的故事，藏在更深处：一个人，在他亲手建立的制度里，完成了一次权力的让渡，又在制度失衡的时候，亲手把它拨了回来。",
         "en": "But the real story lies deeper: a man who, inside an institution he built with his own hands, completed a transfer of power — and then, when that institution lost its balance, reached in and righted it with his own hands.",
-        "start": 943.12,
-        "end": 954.31
+        "start": 966.11,
+        "end": 977.27
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19297,8 +19296,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 954.31,
-        "end": 956.43
+        "start": 977.27,
+        "end": 979.53
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19306,8 +19305,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他搭了三十一年的董事会，不是他的橡皮图章，也不是他的敌人。他要它的支持，也要听它的意见——意见不同，就关起门来协调，而不是在公开场合争个输赢。",
         "en": "The board he had built over thirty-one years was neither his rubber stamp nor his enemy. He wanted its support, and he wanted its opinions — and when its opinions differed from his, he would settle them behind closed doors, not argue them out in public.",
-        "start": 956.43,
-        "end": 970.13
+        "start": 979.53,
+        "end": 993.57
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19315,8 +19314,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 970.13,
-        "end": 971.29
+        "start": 993.57,
+        "end": 995.48
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19324,8 +19323,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "所以那场回任，不是独裁者的翻脸，而是一个把公司看得比自己重的人，在治理失灵时，站出来接住了它。",
         "en": "So that return was not the tantrum of a dictator, but a man who valued the company above himself, stepping forward to catch it when governance failed.",
-        "start": 971.29,
-        "end": 980.36
+        "start": 995.48,
+        "end": 1004.44
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19333,8 +19332,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 980.36,
-        "end": 982.48
+        "start": 1004.44,
+        "end": 1006.7
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19342,8 +19341,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "把权力交出去，需要勇气；把它拿回来，需要更大的勇气。而两次，都是为了同一家公司。",
         "en": "It takes courage to hand power over; it takes even more courage to take it back. And both times, it was for the same company.",
-        "start": 982.48,
-        "end": 990.2
+        "start": 1006.7,
+        "end": 1014.83
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19351,8 +19350,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 990.2,
-        "end": 991.36
+        "start": 1014.83,
+        "end": 1016.73
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -19360,8 +19359,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，就是交棒之痛。",
         "en": "That is the pain of handing over.",
-        "start": 991.36,
-        "end": 993.09
+        "start": 1016.73,
+        "end": 1018.79
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -19369,8 +19368,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1. **CEO 的词源**：CEO（Chief Executive Officer）据传出自亚历山大·汉弥尔顿——美国首任财政部长、宪法起草人之一。他创办美国第一银行时，借用总统的 Chief Executive 头衔并加 Officer 一词，赋予行长类似总统的实权。（英文：Alexander Hamilton, Chief Executive + Officer）",
         "en": "1. **The origin of \"CEO\"**: Chief Executive Officer is said to come from Alexander Hamilton — America's first Treasury Secretary and a framer of the Constitution — who, founding the First Bank of the United States, borrowed the President's title of Chief Executive and added \"Officer.\"",
-        "start": 993.09,
-        "end": 1028.98
+        "start": 1018.79,
+        "end": 1050.71
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -19378,8 +19377,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "2. **独立董事与公司治理**：张忠谋「理想董事会」五原则——半导体相关资历、声望相仿或更高、人数少于 10、独董占多数、设审计与薪酬两委员会；「会前晚餐会」任董事长 31 年从未中断。（英文：independent directors, corporate governance）",
         "en": "2. **Independent directors and governance**: Morris Chang's five rules for an ideal board — semiconductor-relevant experience, standing equal or higher, fewer than ten members, independent-director majority, and audit plus compensation committees; the \"pre-meeting dinner\" ran unbroken for his 31 years as chairman.",
-        "start": 1028.98,
-        "end": 1056.38
+        "start": 1050.71,
+        "end": 1074.68
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -19387,8 +19386,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "3. **迈克尔·波特与台积电哈佛个案**：1999 波特来台演讲，张以「您认识布鲁斯·韩德生吗」留下他；波特派助理写台积电个案研究，张赴哈佛现身说法。（英文：Michael Porter, Harvard Business School case study）",
         "en": "3. **Michael Porter and the Harvard case**: In 1999, Morris Chang kept Porter in Taiwan with the question \"Do you know Bruce Henderson?\"; Porter later sent assistants to write a Harvard Business School case study on TSMC.",
-        "start": 1056.38,
-        "end": 1081.65
+        "start": 1074.68,
+        "end": 1096.01
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -19396,8 +19395,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "4. **2008 全球金融危机**：2008.9.15 雷曼兄弟（美国第四大投行）申请破产，史上最大破产案，引发全球金融海啸；台积电 2008 Q3 营收 30 亿美元 → Q4 20 亿 → 2009 Q1 11.3 亿。（英文：Lehman Brothers bankruptcy, Global Financial Crisis）",
         "en": "4. **The 2008 Global Financial Crisis**: On September 15, 2008, Lehman Brothers (America's fourth-largest investment bank) filed for bankruptcy — the largest in history — touching off a global financial tsunami; TSMC's revenue fell from $3.0B (Q3 2008) to $2.0B (Q4) to $1.13B (Q1 2009).",
-        "start": 1081.65,
-        "end": 1114.26
+        "start": 1096.01,
+        "end": 1122.74
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -19405,8 +19404,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "5. **管理层收购（MBO）**：2007 高盛提议 700 亿美元 MBO 令台积电退市，张以「财务规划太勉强 + 管理层将失去控制」为由拒绝；摩根士丹利名言「一旦管理层同意参与 MBO，管理层就失去控制」。（英文：management buyout, leveraged buyout）",
         "en": "5. **The management buyout (MBO)**: In 2007, Goldman Sachs proposed a $70 billion MBO to take TSMC private; Morris Chang refused, on the grounds that the financing was too strained and management would lose control — echoing a Morgan Stanley manager's maxim that once management joins an MBO, management loses control.",
-        "start": 1114.26,
-        "end": 1142.43
+        "start": 1122.74,
+        "end": 1145.47
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -19414,8 +19413,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "6. **2009 台积电裁员风波**：蔡力行以绩效评估为由资遣 840 人，员工组「自救会」抗议；张以「台积人是台积电最重要的资产」收尾，约 250 人回任，2009.6.11 张重兼 CEO。（英文：TSMC layoffs, 840 employees, Rick Tsai）",
         "en": "6. **The 2009 layoffs and return**: Rick Tsai let go of 840 employees on performance grounds; employees formed a self-help association; Morris Chang closed the episode with \"TSMC people are TSMC's most important asset,\" about 250 people returned, and on June 11, 2009, he resumed the CEO role.",
-        "start": 1142.43,
-        "end": 1169.63
+        "start": 1145.47,
+        "end": 1168.62
       },
       {
         "secZh": "下集预告",
@@ -19423,8 +19422,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "七十八岁，他重新坐回了 CEO 的位置。",
         "en": "At seventy-eight, he sat back down in the CEO's chair.",
-        "start": 1169.63,
-        "end": 1173.49
+        "start": 1168.62,
+        "end": 1173.46
       },
       {
         "secZh": "下集预告",
@@ -19432,8 +19431,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可等待他的，是一场更硬的仗——四十纳米的良率危机，一个在黄仁勋书房里立下的四十八小时死线，还有一碗牛肉面。",
         "en": "But waiting for him was a harder fight — a forty-nanometer yield crisis, a forty-eight-hour deadline set in Jensen Huang's study, and a bowl of beef noodles.",
-        "start": 1173.49,
-        "end": 1183.71
+        "start": 1173.46,
+        "end": 1183.78
       },
       {
         "secZh": "下集预告",
@@ -19441,7 +19440,7 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "下一集，《绚烂年代》。",
         "en": "Next episode: \"The Gilded Years.\"",
-        "start": 1183.71,
+        "start": 1183.78,
         "end": 1185.84
       }
     ]
@@ -19453,7 +19452,7 @@ window.EPISODES_DATA = [
     "summary": "绚烂年代 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第14期-绚烂年代/中文音频.mp3",
     "audioEn": "./03-剧集/第14期-绚烂年代/英文音频.mp3",
-    "durationZh": 1102.8,
+    "durationZh": 1102.804,
     "durationEn": 1190.38,
     "cues": [
       {
@@ -19463,7 +19462,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：无尘室里机器的低鸣，由远及近】",
         "en": "[SFX: the low hum of cleanroom machinery, drawing near]",
         "start": 0.0,
-        "end": 3.59
+        "end": 4.6
       },
       {
         "secZh": "开场",
@@ -19471,8 +19470,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○九年六月，七十八岁的张忠谋，重新坐回了 CEO 的位置。",
         "en": "In June 2009, the seventy-eight-year-old Morris Chang sat back down in the CEO's chair.",
-        "start": 3.59,
-        "end": 9.44
+        "start": 4.6,
+        "end": 10.06
       },
       {
         "secZh": "开场",
@@ -19480,8 +19479,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 9.44,
-        "end": 10.58
+        "start": 10.06,
+        "end": 12.02
       },
       {
         "secZh": "开场",
@@ -19489,8 +19488,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "等待他的，不是庆功，而是一张张难看的报表、一座良率卡壳的工厂，还有一桩悬了两年的、上亿美元的恩怨。",
         "en": "What waited for him was no celebration — it was a stack of ugly reports, a fab whose yield had seized up, and a dispute that had hung in the air for two years, worth over a hundred million dollars.",
-        "start": 10.58,
-        "end": 20.02
+        "start": 12.02,
+        "end": 21.7
       },
       {
         "secZh": "开场",
@@ -19498,8 +19497,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 20.02,
-        "end": 22.1
+        "start": 21.7,
+        "end": 24.03
       },
       {
         "secZh": "开场",
@@ -19507,8 +19506,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可就在接下来的几年里，这位老人干出了一连串让年轻人瞠目结舌的事。",
         "en": "Yet over the next few years, this old man pulled off one feat after another that left far younger men stunned.",
-        "start": 22.1,
-        "end": 28.15
+        "start": 24.03,
+        "end": 30.31
       },
       {
         "secZh": "开场",
@@ -19516,8 +19515,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一集，我们讲绚烂年代。",
         "en": "This episode, we tell the story of the gilded years.",
-        "start": 28.15,
-        "end": 30.51
+        "start": 30.31,
+        "end": 32.97
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19525,8 +19524,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他回来的头一件事，是一道技术难题：四十纳米。",
         "en": "The first thing waiting for him was a technical wall: forty nanometers.",
-        "start": 30.51,
-        "end": 34.66
+        "start": 32.97,
+        "end": 38.88
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19534,8 +19533,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 34.66,
-        "end": 35.8
+        "start": 38.88,
+        "end": 40.85
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19543,8 +19542,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "四十纳米，是台积电当时最新的制程节点，已经进入量产——可良率太低，还带着品质问题。投资人都在私下猜：这个问题到底有多严重？台积电，还解得开吗？",
         "en": "Forty nanometers was TSMC's newest process node at the time, and it had already entered volume production — but the yield was far too low, and there were quality problems. Investors were whispering among themselves: how bad is it, really? Can TSMC solve it?",
-        "start": 35.8,
-        "end": 49.21
+        "start": 40.85,
+        "end": 55.84
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19552,8 +19551,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那一年，台积电四十纳米的良率，一度低到只有两到三成——产线上造出来的芯片，十颗里就有七八颗不合格。连最重要的客户辉达，都因为迟迟拿不到足够的芯片，蒙受了上亿美元的损失。",
         "en": "That year, TSMC's forty-nanometer yield had at one point dropped to just twenty to thirty percent — meaning seven or eight out of every ten chips coming off the line were rejects. Even NVIDIA, TSMC's most important customer, took a loss of over a hundred million dollars because it could not get enough chips.",
-        "start": 49.21,
-        "end": 65.07
+        "start": 55.84,
+        "end": 72.66
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19561,8 +19560,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而四十纳米，又是通往智能手机时代的第一道闸门。这道闸门一天打不开，后面所有的高潮，都是空谈。",
         "en": "And forty nanometers was the first gate into the smartphone era. Until that gate opened, every high tide beyond it was just talk.",
-        "start": 65.07,
-        "end": 73.76
+        "start": 72.66,
+        "end": 82.04
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19570,8 +19569,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator",
         "zh": "张忠谋想起四十一年前，一九六八年的德州仪器。那一年，他也撞上过类似的良率难关，而他的上司，偏偏是个「添忙」远多过「帮忙」的人，整天扎进技术细节里指手画脚。",
         "en": "[Main narrator]",
-        "start": 73.76,
-        "end": 88.31
+        "start": 82.04,
+        "end": 96.46
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19579,8 +19578,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那场教训，他记了四十一年：越是危机，越不能越俎代庖，把信心从真正懂技术的人手里夺走。",
         "en": "Morris Chang thought back forty-one years, to Texas Instruments in 1968. That year, he too had run into a similar yield crisis — and his boss, unfortunately, was a man who \"added trouble\" far more than he \"added help,\" always burrowing into technical details and issuing orders.",
-        "start": 88.31,
-        "end": 99.4
+        "start": 96.46,
+        "end": 104.91
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19588,8 +19587,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 99.4,
-        "end": 101.48
+        "start": 104.91,
+        "end": 107.24
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19597,8 +19596,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "所以这一次，他决定反着来：自己早已远离生产技术的细节，那就绝不重蹈覆辙。他把信心，押在生产团队的主管秦永沛身上——从不参加他的技术会议，只是随时留出时间，听他主动来报告。",
         "en": "He had carried that lesson for forty-one years: the deeper the crisis, the more you must resist meddling — and never rip confidence away from the people who truly understand the technology.",
-        "start": 101.48,
-        "end": 117.54
+        "start": 107.24,
+        "end": 124.44
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19606,8 +19605,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 117.54,
-        "end": 118.67
+        "start": 124.44,
+        "end": 126.41
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19615,8 +19614,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他还做了一件「公关」上的事。",
         "en": "So this time, he did the opposite. He was long removed from the details of production, so he would never repeat the mistake. He placed his confidence in the head of the production team, senior VP Chin Yung-pei — never attending his technical meetings, just always making time to hear the reports Chin brought him on his own.",
-        "start": 118.67,
-        "end": 132.37
+        "start": 126.41,
+        "end": 128.99
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19624,8 +19623,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○九年七月底，他返任 CEO 后的第一次法人说明会。财务长照例做完季度报告，张忠谋站了起来，宣布：大家都很关心四十纳米的生产问题，我们也很努力在解决。现在，我想请负责营运的资深副总刘德音博士，报告生产线现状——但他在生产线上太忙，不能亲自来，所以我们用网络直播连线。",
         "en": "He also did a bit of \"public relations.\"",
-        "start": 132.37,
-        "end": 157.87
+        "start": 128.99,
+        "end": 155.16
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19633,8 +19632,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "In late July 2009, at his first investor conference since returning as CEO, after the CFO gave the usual quarterly report, Morris Chang stood up and announced: everyone is very concerned about the forty-nanometer production problem, and we are working hard to solve it. Now, I would like Dr. Liu Deyin, the senior VP in charge of operations, to report on the state of the production line — but he is too busy on the line to come in person, so we will connect him by live video link.",
-        "start": 157.87,
-        "end": 178.88
+        "start": 155.16,
+        "end": 157.49
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19642,8 +19641,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "会场的大屏幕上，出现了刘德音——穿着白色实验室长袍，站在洁净室门前，开始做他的专业报告。",
         "en": "[Main narrator, slower]",
-        "start": 178.88,
-        "end": 187.19
+        "start": 157.49,
+        "end": 166.5
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19651,8 +19650,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "On the conference screen appeared Liu Deyin — in a white lab coat, standing at the door of the cleanroom, beginning his professional report.",
-        "start": 187.19,
-        "end": 192.86
+        "start": 166.5,
+        "end": 168.47
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19660,8 +19659,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator",
         "zh": "张忠谋扫了一眼台下那一百多位听众的脸色：又惊异，又感动。",
         "en": "[Main narrator]",
-        "start": 192.86,
-        "end": 198.15
+        "start": 168.47,
+        "end": 174.22
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19669,8 +19668,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他在心里说：这是一个吉兆。",
         "en": "Morris Chang swept his eyes over the hundred-plus faces in the audience: astonished, and moved.",
-        "start": 198.15,
-        "end": 201.69
+        "start": 174.22,
+        "end": 177.18
       },
       {
         "secZh": "第一幕 · 四十纳米的卡壳",
@@ -19678,206 +19677,206 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "果然，几个月后，四十纳米的良率问题解决了，一切回归正常。他对刘德音、秦永沛和整个生产团队的信心，没有白费。",
         "en": "In his heart, he thought: this is a good omen.",
-        "start": 201.69,
-        "end": 211.7
+        "start": 177.18,
+        "end": 187.99
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
-        "secEn": "Act One · The Forty-Nanometer Seizure",
+        "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "",
         "zh": "良率卡壳，最先遭殃的，是台积电最重要的客户之一——辉达。",
-        "en": "Sure enough, a few months later, the forty-nanometer yield problem was solved, and everything returned to normal. His confidence in Liu Deyin, Chin Yung-pei, and their production team had not been misplaced.",
-        "start": 211.7,
-        "end": 219.26
-      },
-      {
-        "secZh": "第二幕 · 书房里的四十八小时",
-        "secEn": "Act Two · Forty-Eight Hours in a Study",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
         "en": "The first to suffer when yield seized up was one of TSMC's most important customers — NVIDIA.",
-        "start": 219.26,
-        "end": 223.27
-      },
-      {
-        "secZh": "第二幕 · 书房里的四十八小时",
-        "secEn": "Act Two · Forty-Eight Hours in a Study",
-        "speaker": "Main narrator",
-        "zh": "那时的辉达，还是一家「不造芯片、只画图纸」的设计公司——没有自己的工厂，每一颗芯片，都交给台积电这样的代工厂来造。谁也不会想到，十几年后，正是这家公司，会借着台积电的制程，长成 AI 时代的新王。而此刻，它只是一个陷入困境的、急得跳脚的客户。",
-        "en": "[Main narrator]",
-        "start": 223.27,
-        "end": 246.13
+        "start": 187.99,
+        "end": 195.26
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
+        "en": "[Main narrator]",
+        "start": 195.26,
+        "end": 197.23
+      },
+      {
+        "secZh": "第二幕 · 书房里的四十八小时",
+        "secEn": "Act Two · Forty-Eight Hours in a Study",
+        "speaker": "",
+        "zh": "那时的辉达，还是一家「不造芯片、只画图纸」的设计公司——没有自己的工厂，每一颗芯片，都交给台积电这样的代工厂来造。谁也不会想到，十几年后，正是这家公司，会借着台积电的制程，长成 AI 时代的新王。而此刻，它只是一个陷入困境的、急得跳脚的客户。",
         "en": "Back then, NVIDIA was still a \"fabless\" design house — a company that \"draws blueprints but builds no chips,\" with no factory of its own, every chip handed to a foundry like TSMC to manufacture. No one imagined that, a dozen years later, this very company would grow, on TSMC's processes, into the new king of the AI age. At this moment, though, it was just a distressed customer, hopping with anxiety.",
-        "start": 246.13,
-        "end": 263.13
+        "start": 197.23,
+        "end": 220.83
+      },
+      {
+        "secZh": "第二幕 · 书房里的四十八小时",
+        "secEn": "Act Two · Forty-Eight Hours in a Study",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
+        "en": "NVIDIA was a key partner and customer of TSMC's forty-nanometer node. TSMC's early production problems cost NVIDIA dearly — by public reports, the loss ran to over a hundred million dollars. The two companies had been arguing for more than a year, with no conclusion.",
+        "start": 220.83,
+        "end": 222.8
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "",
         "zh": "辉达，是台积电四十纳米制程的主要伙伴和客户。台积电在四十纳米初期的生产问题，让辉达蒙受了严重损失——据公开报道，损失高达上亿美元。两家公司为此争执了一年多，一直没有结论。",
-        "en": "NVIDIA was a key partner and customer of TSMC's forty-nanometer node. TSMC's early production problems cost NVIDIA dearly — by public reports, the loss ran to over a hundred million dollars. The two companies had been arguing for more than a year, with no conclusion.",
-        "start": 263.13,
-        "end": 279.18
+        "en": "In his first days back as CEO, Morris Chang spent almost all his time on the phone, telling key customers, one by one: I'm back. When he reached NVIDIA's CEO, Jensen Huang, the man made a point of reminding him: there is still an unresolved case between our two companies — please resolve it quickly.",
+        "start": 222.8,
+        "end": 240.13
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
-        "speaker": "",
+        "speaker": "Main narrator, slower",
         "zh": "张忠谋返任 CEO 的头几天，几乎把时间全花在了电话上，一个一个地告诉重要客户：我回来了。等他拨通辉达总裁黄仁勋的电话时，对方特别提醒了他一句：我们两家之间，还有一桩悬案，请尽快解决。",
-        "en": "In his first days back as CEO, Morris Chang spent almost all his time on the phone, telling key customers, one by one: I'm back. When he reached NVIDIA's CEO, Jensen Huang, the man made a point of reminding him: there is still an unresolved case between our two companies — please resolve it quickly.",
-        "start": 279.18,
-        "end": 296.56
+        "en": "[Main narrator, slower]",
+        "start": 240.13,
+        "end": 258.03
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator, slower]",
-        "start": 296.56,
-        "end": 298.64
+        "en": "Over the next three weeks, Morris Chang spent dozens of hours, going over the case thoroughly with his colleagues.",
+        "start": 258.03,
+        "end": 260.36
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
-        "speaker": "",
+        "speaker": "Main narrator",
         "zh": "此后的三个星期，张忠谋花了几十个小时，和公司里的同仁，把这个案子彻底捋了一遍。",
-        "en": "Over the next three weeks, Morris Chang spent dozens of hours, going over the case thoroughly with his colleagues.",
-        "start": 298.64,
-        "end": 306.01
+        "en": "[Main narrator]",
+        "start": 260.36,
+        "end": 268.07
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator]",
-        "start": 306.01,
-        "end": 307.14
+        "en": "In early July 2009, he felt he saw it clearly, and he had a solution. He emailed Jensen Huang a single line —",
+        "start": 268.07,
+        "end": 270.03
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "",
         "zh": "二○○九年七月初，他觉得自己看清楚了，也有了解决方案。他给黄仁勋发了一封电邮，只有一句话——",
-        "en": "In early July 2009, he felt he saw it clearly, and he had a solution. He emailed Jensen Huang a single line —",
-        "start": 307.14,
-        "end": 315.83
+        "en": "\"I'm coming to Silicon Valley next week, and plan to be at your house at six-thirty in the afternoon on July 15, to eat salad and pizza.\"",
+        "start": 270.03,
+        "end": 279.04
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "",
         "zh": "「我下星期来硅谷，拟于七月十五日下午六点半，到你家吃沙拉和披萨。」",
-        "en": "\"I'm coming to Silicon Valley next week, and plan to be at your house at six-thirty in the afternoon on July 15, to eat salad and pizza.\"",
-        "start": 315.83,
-        "end": 322.2
+        "en": "By then, he and Jensen had been old friends for more than a decade, and often ate salad and pizza at each other's homes. But this time, Jensen got the email and panicked: with such a serious dispute between our companies, how can you only be thinking about pizza? He wrote back: so when do we talk business?",
+        "start": 279.04,
+        "end": 285.22
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "",
         "zh": "那时候，他和黄仁勋已经是十几年的老友，常去对方家里吃沙拉和披萨。可这一回，黄仁勋接到电邮，急了：我们两家正有这么大的争论，你怎么只惦记着吃披萨？他回信问：那我们什么时候谈生意？",
-        "en": "By then, he and Jensen had been old friends for more than a decade, and often ate salad and pizza at each other's homes. But this time, Jensen got the email and panicked: with such a serious dispute between our companies, how can you only be thinking about pizza? He wrote back: so when do we talk business?",
-        "start": 322.2,
-        "end": 338.83
+        "en": "Morris Chang's reply was crisp: \"I'll be at your house at six-thirty, and first eat pizza with your family; at eight sharp, you and I will go to your study and talk business.\"",
+        "start": 285.22,
+        "end": 303.17
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
-        "speaker": "",
+        "speaker": "Main narrator, slower",
         "zh": "张忠谋回得干脆：「六点半到你家，先和你全家吃披萨；八点整，我和你到你的书房，谈生意。」",
-        "en": "Morris Chang's reply was crisp: \"I'll be at your house at six-thirty, and first eat pizza with your family; at eight sharp, you and I will go to your study and talk business.\"",
-        "start": 338.83,
-        "end": 346.95
+        "en": "[Main narrator, slower]",
+        "start": 303.17,
+        "end": 311.52
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator, slower]",
-        "start": 346.95,
-        "end": 349.03
+        "en": "On July 15, Morris Chang arrived at Jensen's home on time, and had a simple, pleasant pizza dinner with the family. At eight o'clock, he said: \"Let's go to your study.\"",
+        "start": 311.52,
+        "end": 313.85
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
-        "speaker": "",
+        "speaker": "Main narrator",
         "zh": "七月十五日，张忠谋准时到了黄仁勋家，和一家人吃了一顿简单而愉快的披萨晚餐。八点整，他开口：「我们去你书房吧。」",
-        "en": "On July 15, Morris Chang arrived at Jensen's home on time, and had a simple, pleasant pizza dinner with the family. At eight o'clock, he said: \"Let's go to your study.\"",
-        "start": 349.03,
-        "end": 359.42
+        "en": "[Main narrator]",
+        "start": 313.85,
+        "end": 324.69
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator]",
-        "start": 359.42,
-        "end": 360.55
+        "en": "The study door closed. Morris Chang laid out the settlement he and his TSMC colleagues had worked out over three weeks — compensation of over a hundred million dollars — and then made it hard: this is our only offer, and it is valid for only forty-eight hours. If you do not agree within forty-eight hours, we will have to go to arbitration.",
+        "start": 324.69,
+        "end": 326.66
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "",
         "zh": "书房的门关上了。张忠谋拿出他和台积电同仁研究了三周的和解方案——一笔上亿美元的赔偿金——然后，把话说得很硬：这是我们唯一的方案，它的有效期，只有四十八小时。如果四十八小时内你不同意，我们只能去找仲裁人了。",
-        "en": "The study door closed. Morris Chang laid out the settlement he and his TSMC colleagues had worked out over three weeks — compensation of over a hundred million dollars — and then made it hard: this is our only offer, and it is valid for only forty-eight hours. If you do not agree within forty-eight hours, we will have to go to arbitration.",
-        "start": 360.55,
-        "end": 379.82
+        "en": "Within two days, Jensen Huang agreed.",
+        "start": 326.66,
+        "end": 347.66
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
-        "speaker": "",
+        "speaker": "Main narrator, slower",
         "zh": "两天之内，黄仁勋同意了。",
-        "en": "Within two days, Jensen Huang agreed.",
-        "start": 379.82,
-        "end": 382.08
+        "en": "[Main narrator, slower]",
+        "start": 347.66,
+        "end": 350.32
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator, slower]",
-        "start": 382.08,
-        "end": 384.16
+        "en": "To this day, NVIDIA remains one of TSMC's largest customers, and Jensen and his wife Lori remain close friends of Morris Chang and his wife Sophie.",
+        "start": 350.32,
+        "end": 352.65
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
-        "speaker": "",
+        "speaker": "Main narrator",
         "zh": "直到今天，辉达仍是台积电最大的客户之一，而黄仁勋夫妇，也仍是张忠谋夫妇的好友。",
-        "en": "To this day, NVIDIA remains one of TSMC's largest customers, and Jensen and his wife Lori remain close friends of Morris Chang and his wife Sophie.",
-        "start": 384.16,
-        "end": 391.53
+        "en": "[Main narrator]",
+        "start": 352.65,
+        "end": 360.36
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator]",
-        "start": 391.53,
-        "end": 392.66
+        "en": "A dispute that had dragged on for a year was settled by a pizza dinner and a forty-eight-hour deadline.",
+        "start": 360.36,
+        "end": 362.32
       },
       {
         "secZh": "第二幕 · 书房里的四十八小时",
         "secEn": "Act Two · Forty-Eight Hours in a Study",
         "speaker": "",
         "zh": "一桩拖了一年的悬案，被一场披萨晚餐，和一条四十八小时的死线，了结了。",
-        "en": "A dispute that had dragged on for a year was settled by a pizza dinner and a forty-eight-hour deadline.",
-        "start": 392.66,
-        "end": 399.08
+        "en": "",
+        "start": 362.32,
+        "end": 369.13
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19885,8 +19884,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "生意上的难关，要一个一个地过；人才，也要一个一个地请回来。",
         "en": "The business problems had to be cleared one by one; the talent, too, had to be brought back one by one.",
-        "start": 399.08,
-        "end": 404.56
+        "start": 369.13,
+        "end": 376.27
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19894,8 +19893,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 404.56,
-        "end": 405.69
+        "start": 376.27,
+        "end": 378.24
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19903,8 +19902,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "蒋尚义，一九九七年加入台积电，是张忠谋第一个赋予「技术领先」使命的研发主管。可就在蔡力行担任 CEO 的那几年，他选择退休了。在张忠谋眼里，研发主管这个位置，不是谁都能坐的——它要的，是把「技术领先」当成信仰的人。",
         "en": "Chiang Shang-yi joined TSMC in 1997, and was the first R&D chief to whom Morris Chang entrusted the mission of \"technology leadership.\" But during the years when Rick Tsai was CEO, he chose to retire. In Morris Chang's eyes, the R&D chief's seat was not for just anyone — it demanded a person who treated \"technology leadership\" as a faith.",
-        "start": 405.69,
-        "end": 425.91
+        "start": 378.24,
+        "end": 398.62
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19912,8 +19911,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋认定，蒋尚义是不可多得的研发帅才。所以他一回任，就把人请到了自己在新竹的办公室——共进一顿牛肉面午餐。",
         "en": "Morris Chang was certain that Chiang Shang-yi was a rare general of R&D. So as soon as he was back, he invited him to his office in Hsinchu — for a lunch of beef noodles.",
-        "start": 425.91,
-        "end": 436.11
+        "start": 398.62,
+        "end": 409.76
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19921,8 +19920,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 436.11,
-        "end": 438.18
+        "start": 409.76,
+        "end": 412.09
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19930,8 +19929,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "面端上来，话也就说开了。张忠谋请他回来，重任研发主管。蒋尚义欣然答应，二○○九年十月初——张忠谋回任 CEO 还不到四个月——就重新坐上了研发资深副总的位置。",
         "en": "With the noodles served, the words flowed. Morris Chang asked him to come back and take charge of R&D again. Chiang agreed gladly, and in early October 2009 — less than four months after Morris Chang's return — he was back in the seat of senior VP of R&D.",
-        "start": 438.18,
-        "end": 453.11
+        "start": 412.09,
+        "end": 427.92
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19939,8 +19938,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 453.11,
-        "end": 454.24
+        "start": 427.92,
+        "end": 429.89
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19948,8 +19947,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "请回蒋尚义之后，张忠谋还想把一件事，变成一条铁律。",
         "en": "Having brought Chiang back, Morris Chang also wanted to turn one thing into an iron rule.",
-        "start": 454.24,
-        "end": 458.96
+        "start": 429.89,
+        "end": 434.98
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19957,8 +19956,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那些年，台积电的研发经费，一直占营收的百分之五到六。张忠谋心里始终记得一件旧事：当年在德仪，他想把半导体研发经费从营收的四点七，提到五点五，一次又一次，被拒绝。那种滋味，他记了几十年。",
         "en": "In those years, TSMC's R&D spending hovered around five to six percent of revenue. Morris Chang always carried one old memory: back at Texas Instruments, he had wanted to raise semiconductor R&D from four point seven percent of revenue to five point five — and had been refused, again and again. That taste, he had remembered for decades.",
-        "start": 458.96,
-        "end": 476.34
+        "start": 434.98,
+        "end": 453.62
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19966,8 +19965,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 476.34,
-        "end": 478.42
+        "start": 453.62,
+        "end": 455.95
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19975,8 +19974,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一○年，他随手写下一个数字：百分之八。就把它，定成了台积电研发经费占营收的「锚」。",
         "en": "In 2010, he casually wrote down a number: eight percent. And fixed it as the \"anchor\" for TSMC's R&D as a share of revenue.",
-        "start": 478.42,
-        "end": 486.54
+        "start": 455.95,
+        "end": 464.18
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19984,8 +19983,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 486.54,
-        "end": 487.67
+        "start": 464.18,
+        "end": 466.15
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -19993,8 +19992,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "果然，二○一一年以后，台积电几乎每年的研发经费，都是当年营收的百分之八左右。随着营收一路涨，研发经费也水涨船高——到二○二三年，已经达到五十六亿美元，折合新台币一千八百亿元，超过了麻省理工学院一整年的总经费。",
         "en": "Sure enough, from 2011 on, TSMC's R&D spending was almost always about eight percent of revenue, year after year. As revenue climbed, R&D climbed with it — by 2023, reaching five point six billion dollars, about one hundred eighty billion New Taiwan dollars, more than the entire annual budget of MIT.",
-        "start": 487.67,
-        "end": 507.32
+        "start": 466.15,
+        "end": 486.38
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -20002,8 +20001,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 507.32,
-        "end": 508.45
+        "start": 486.38,
+        "end": 488.35
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -20011,8 +20010,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "重掌帅印之后，他还顺手改掉了几件积弊。",
         "en": "After retaking the helm, he also quietly fixed a few longstanding ills.",
-        "start": 508.45,
-        "end": 512.04
+        "start": 488.35,
+        "end": 492.28
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -20020,8 +20019,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那几年，台积电除了两万两千名正职员工，还有三千两百名「派遣人力」。其中约两千七百人，干的活和正职员工一模一样——同工，却不同酬。张忠谋认定，这是个埋着雷的安排。二○一○年，他成立专案小组，把这批人里能干的两千四百位，转成了正职。结果呢？这两千四百人的生产力，跟原来两千七百人，一模一样——不用多添一个人。",
         "en": "In those years, alongside twenty-two thousand regular employees, TSMC had three thousand two hundred \"dispatch workers.\" Of them, about two thousand seven hundred did work identical to the regular staff — same work, unequal pay. Morris Chang judged this an arrangement with a buried fuse. In 2010, he formed a task force, and converted the two thousand four hundred most capable of them into regular staff. The result? The productivity of those two thousand four hundred equaled that of the original two thousand seven hundred — not a single extra hire needed.",
-        "start": 512.04,
-        "end": 540.75
+        "start": 492.28,
+        "end": 523.11
       },
       {
         "secZh": "第三幕 · 一碗牛肉面，一个百分之八",
@@ -20029,8 +20028,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "用他的话说：做对的事，常有好报。",
         "en": "In his words: do the right thing, and good will usually follow.",
-        "start": 540.75,
-        "end": 543.78
+        "start": 523.11,
+        "end": 526.69
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20038,8 +20037,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "最重的一锤，还在后面。",
         "en": "The heaviest hammer still lay ahead.",
-        "start": 543.78,
-        "end": 545.85
+        "start": 526.69,
+        "end": 530.41
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20047,8 +20046,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 545.85,
-        "end": 546.99
+        "start": 530.41,
+        "end": 532.38
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20056,8 +20055,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○八年的那场不景气，来得急，恢复得也快。台积电的营收，二○○九年第四季就几乎回到了危机前的水平——只用了四个季度；对比二○○一年那次，足足熬了十一个季度。",
         "en": "The 2008 downturn came on fast, and recovered fast. TSMC's revenue was back to near pre-crisis levels by the fourth quarter of 2009 — just four quarters. Compare 2001, when it had taken a full eleven quarters.",
-        "start": 546.99,
-        "end": 561.91
+        "start": 532.38,
+        "end": 547.2
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20065,8 +20064,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋看得分明：这一次，纯粹是金融危机，跟半导体本身的需求无关。而更好的消息是——研发单位报告，下一个关键节点，二十八纳米，进展神速。",
         "en": "Morris Chang saw it clearly: this time, it was purely a financial crisis, with nothing to do with the underlying demand for semiconductors. And the better news was that the R&D unit reported rapid progress on the next key node — twenty-eight nanometers.",
-        "start": 561.91,
-        "end": 574.56
+        "start": 547.2,
+        "end": 561.15
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20074,8 +20073,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 574.56,
-        "end": 576.64
+        "start": 561.15,
+        "end": 563.48
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20083,8 +20082,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二十八纳米，是打进智能手机世界的第一道门。如果两年内能量产，那正在爆发的智能手机里的半导体，就是台积电的天下。",
         "en": "Twenty-eight nanometers was the first door into the world of smartphones. If it could reach volume production within two years, then the semiconductors inside the exploding smartphone market would be TSMC's to own.",
-        "start": 576.64,
-        "end": 587.03
+        "start": 563.48,
+        "end": 574.48
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20092,8 +20091,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 587.03,
-        "end": 588.17
+        "start": 574.48,
+        "end": 576.45
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20101,8 +20100,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他想起莎士比亚的一句诗——世事的起伏本是波浪式的，人们要是能趁高潮一往直前，一定可以功成名就。这句诗的原文是——Which, taken at the flood, leads on to fortune：在涨潮时分，谁顺势扬帆，谁就驶向幸运。",
         "en": "He recalled a line of Shakespeare — the tides of the world rise and fall in waves, and whoever rides the high tide forward will win fame and fortune. The original reads: \"Which, taken at the flood, leads on to fortune\" — taken at the flood, whoever sets sail with the tide sails toward fortune.",
-        "start": 588.17,
-        "end": 611.21
+        "start": 576.45,
+        "end": 599.38
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20110,8 +20109,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "怎么跨上这个高潮？必须立刻，加倍投资四十和二十八纳米的产能。",
         "en": "How to climb onto that high tide? Capacity for forty and twenty-eight nanometers had to be doubled, immediately.",
-        "start": 611.21,
-        "end": 616.88
+        "start": 599.38,
+        "end": 605.7
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20119,8 +20118,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在此之前整整九年，台积电的资本投资一直相当克制，每年大约二十到二十五亿美元。到了二○一○年，张忠谋「发狠」了——把产能投资，一把加到了五十九亿美元，比二○○九年的两倍还多。",
         "en": "For nine years before this, TSMC's capital spending had been restrained, around two to two and a half billion dollars a year. In 2010, Morris Chang went \"all out\" — he pushed capacity investment to five point nine billion dollars, more than double the 2009 figure.",
-        "start": 616.88,
-        "end": 633.12
+        "start": 605.7,
+        "end": 621.79
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20128,8 +20127,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 633.12,
-        "end": 635.2
+        "start": 621.79,
+        "end": 624.12
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20137,8 +20136,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个数字，把董事们吓住了。",
         "en": "That number frightened the directors.",
-        "start": 635.2,
-        "end": 637.66
+        "start": 624.12,
+        "end": 626.96
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20146,8 +20145,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 637.66,
-        "end": 638.79
+        "start": 626.96,
+        "end": 628.93
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20155,8 +20154,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一○年一月二十六日晚上八点，台湾的夜里，美国的清晨，英国的下午——张忠谋和分处三地的三位独立董事，开了一场电话会议。他们一个接一个地质问：市场景气都还没完全恢复，凭什么投这么多产能？",
         "en": "On the evening of January 26, 2010, at eight o'clock — night in Taiwan, early morning in America, afternoon in Britain — Morris Chang held a conference call with three independent directors in three different places. One after another, they demanded: the market hasn't even fully recovered, why invest in so much capacity?",
-        "start": 638.79,
-        "end": 656.36
+        "start": 628.93,
+        "end": 647.21
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20164,8 +20163,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋把四十纳米、二十八纳米的机会，掰开揉碎了讲。董事们半信半疑。",
         "en": "Morris Chang laid out the opportunity of forty and twenty-eight nanometers, piece by piece. The directors were only half convinced.",
-        "start": 656.36,
-        "end": 662.59
+        "start": 647.21,
+        "end": 654.16
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20173,8 +20172,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "最后，他说了一句：",
         "en": "Finally, he said one thing:",
-        "start": 662.59,
-        "end": 664.29
+        "start": 654.16,
+        "end": 656.07
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20182,8 +20181,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 664.29,
-        "end": 666.37
+        "start": 656.07,
+        "end": 658.4
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20191,8 +20190,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「这件事让我做吧，毕竟，我是公司的负责人。」",
         "en": "\"Let me do this. After all, I am the one responsible for this company.\"",
-        "start": 666.37,
-        "end": 670.52
+        "start": 658.4,
+        "end": 662.59
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20200,8 +20199,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 670.52,
-        "end": 671.66
+        "start": 662.59,
+        "end": 664.55
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20209,8 +20208,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他们这才不反对了。",
         "en": "Only then did they stop objecting.",
-        "start": 671.66,
-        "end": 673.36
+        "start": 664.55,
+        "end": 666.59
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20218,8 +20217,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "后来的事，证明他赌对了。二○一○到二○一八年，台积电的资本投资，从五十九亿美元，一路涨到一百零五亿；营收从一百三十三亿，涨到三百四十二亿；获利，从五十一亿，涨到一百一十六亿。",
         "en": "The outcome proved him right. From 2010 to 2018, TSMC's capital spending grew from five point nine billion dollars to ten point five billion; revenue grew from thirteen point three billion to thirty-four point two billion; profit grew from five point one billion to eleven point six billion.",
-        "start": 673.36,
-        "end": 689.79
+        "start": 666.59,
+        "end": 683.33
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20227,8 +20226,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 689.79,
-        "end": 691.87
+        "start": 683.33,
+        "end": 685.66
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20236,8 +20235,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可二十八纳米的路上，还流着一把「汗与泪」。",
         "en": "But the road of twenty-eight nanometers was still soaked in \"sweat and tears.\"",
-        "start": 691.87,
-        "end": 695.83
+        "start": 685.66,
+        "end": 689.59
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20245,8 +20244,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 695.83,
-        "end": 696.97
+        "start": 689.59,
+        "end": 691.56
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20254,8 +20253,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电大胆投下去的二十八纳米产能，事后看，还嫌少了——而这里面，最大客户高通，也负着不小的责任。",
         "en": "The twenty-eight-nanometer capacity TSMC had boldly invested in looked, in hindsight, still too little — and here, the biggest customer, Qualcomm, bore no small responsibility.",
-        "start": 696.97,
-        "end": 706.03
+        "start": 691.56,
+        "end": 701.37
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20263,8 +20262,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "高通起初估计，自己二○一二年全年的需求，是四万片晶圆。几个月后，他们发现自己给客户的样品，受欢迎程度远超预期，就把需求改成了十二万片；再后来，一路涨到了三十万片。",
         "en": "Qualcomm initially estimated its full-year 2012 demand at forty thousand wafers. A few months later, finding its samples far more popular than expected, it revised the estimate to one hundred twenty thousand; later still, it climbed to three hundred thousand.",
-        "start": 706.03,
-        "end": 721.33
+        "start": 701.37,
+        "end": 717.23
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20272,8 +20271,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 721.33,
-        "end": 723.41
+        "start": 717.23,
+        "end": 719.56
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20281,8 +20280,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一二年二月九日，高通的董事长和总裁，联袂登门。开场白很直接：「我们只是要多点芯片，我们愿意付更高的价钱。」",
         "en": "On February 9, 2012, Qualcomm's chairman and president came together. Their opening words were blunt: \"We just want more chips. We are willing to pay a higher price.\"",
-        "start": 723.41,
-        "end": 733.8
+        "start": 719.56,
+        "end": 730.23
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20290,8 +20289,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 733.8,
-        "end": 734.94
+        "start": 730.23,
+        "end": 732.19
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20299,8 +20298,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋的回应是：涨价无补于事，我们也不会做；我们正在尽全力，增加产能和产量。",
         "en": "Morris Chang's reply: raising the price wouldn't help, and we wouldn't do it anyway; we are already doing everything we can to add capacity and output.",
-        "start": 734.94,
-        "end": 742.11
+        "start": 732.19,
+        "end": 739.92
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20308,8 +20307,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一小时后，两位客人悻悻而去，临走撂下一句狠话：为了对股东负责，他们必须再找一个供应来源。",
         "en": "An hour later, the two guests left in displeasure, dropping a hard line on the way out: to be accountable to their shareholders, they would have to find another source of supply.",
-        "start": 742.11,
-        "end": 750.42
+        "start": 739.92,
+        "end": 748.73
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20317,8 +20316,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋回答：等你们的新来源能供货时，我们也能满足你们的全部需求了。",
         "en": "Morris Chang answered: by the time your new source can supply, we will be able to meet your full demand.",
-        "start": 750.42,
-        "end": 756.66
+        "start": 748.73,
+        "end": 755.39
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20326,8 +20325,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "高通果然找了另一家——格罗方德。但张忠谋的预言，也果然应验了。二○一二年九月，他去高通位于圣地牙哥的总部，高通总裁轻轻叹了口气：「你说的话是对的——现在我们的新来源能供上边际需求了，你们也能供上了。」",
         "en": "Qualcomm did find another — GlobalFoundries. But Morris Chang's prediction came true all the same. In September 2012, visiting Qualcomm's headquarters in San Diego, he heard the Qualcomm president sigh softly: \"What you said was right — now our new source can cover our marginal needs, but so can you.\"",
-        "start": 756.66,
-        "end": 775.55
+        "start": 755.39,
+        "end": 775.48
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20335,8 +20334,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "代价是，二十八纳米一度「产能过剩」——连一位一向被视为忠诚伙伴的客户，也跑来要求减单，理由还很理直气壮：高通既然建立了这个新来源，你总不能说，我们不许用吧？张忠谋既惊讶，又有点失落。",
         "en": "The cost was that twenty-eight nanometers was briefly in \"oversupply\" — even a customer long regarded as a loyal partner came asking to cut orders, with a justification he found quite matter-of-fact: since Qualcomm built this new source, you can hardly say we're not allowed to use it. Morris Chang was both surprised, and a little let down.",
-        "start": 775.55,
-        "end": 792.74
+        "start": 775.48,
+        "end": 793.48
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20344,8 +20343,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 792.74,
-        "end": 794.81
+        "start": 793.48,
+        "end": 795.81
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20353,8 +20352,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二十八纳米的「产能过剩」，只是暂时的。从那以后，智能手机成了台积电最大的市场。",
         "en": "The \"oversupply\" of twenty-eight nanometers was only temporary. From then on, smartphones became TSMC's largest market.",
-        "start": 794.81,
-        "end": 802.18
+        "start": 795.81,
+        "end": 803.48
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20362,8 +20361,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 802.18,
-        "end": 803.31
+        "start": 803.48,
+        "end": 805.45
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20371,8 +20370,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "如果没有二十八纳米的成功，也就不会有，接下来的那一章。",
         "en": "Without the success of twenty-eight nanometers, there would be no next chapter.",
-        "start": 803.31,
-        "end": 808.41
+        "start": 805.45,
+        "end": 810.91
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20380,8 +20379,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "其实，除了技术上的翻身仗，张忠谋还悄悄做了一件更细的功夫——把「降价的节奏」，慢了下来。",
         "en": "And besides the technical comeback, Morris Chang had quietly done one finer piece of work — slowing down the pace of price cuts.",
-        "start": 808.41,
-        "end": 816.73
+        "start": 810.91,
+        "end": 819.55
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20389,8 +20388,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "前些年，台积电每年的降价幅度，一度超过了成本的降幅，把毛利率压得越来越薄，长期卡在四成到四成五之间。张忠谋回任后的首要工作之一，就是把每年的降价幅度，一点一点收窄——二○一○年，缩到二○○九年的三分之二；再后来，缩到一半。毛利率，也就一路爬到了四成五到五成。",
         "en": "In earlier years, TSMC's annual price cuts had at times outpaced the drop in costs, squeezing the gross margin thinner and thinner, stuck between forty and forty-five percent. One of his first jobs after returning was to narrow the annual price cut, bit by bit — in 2010, to two-thirds of the 2009 cut; later, to half. The gross margin climbed back to between forty-five and fifty percent.",
-        "start": 816.73,
-        "end": 841.09
+        "start": 819.55,
+        "end": 844.6
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20398,8 +20397,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他还重新理顺了组织。蔡力行任内把生产拆成「先进」和「主流」两个事业组织，本意是分忧、培养接班，结果两个目的都没达到，反而削弱了规模的优势。张忠谋把它们重新合回一个营运组织，再抽出一个新的「业务发展」单位——说白了，就是台积电的 Marketing，负责盯住市场、盯住前三十大客户。这个新单位交给谁？他先问了资历更深的刘德音，刘德音回绝了：「我手下一万多名员工，怎么要我接一个只有六七十人的位置？」张忠谋再问魏哲家，魏哲家却欣然接下了。",
         "en": "He also straightened out the organization. Under Rick Tsai, production had been split into an \"advanced\" and a \"mainstream\" business group, meant to share the CEO's load and groom successors — but neither aim was met, and the split instead weakened the advantage of scale. Morris Chang merged them back into a single operations organization, and carved out a new \"business development\" unit — in plain terms, TSMC's marketing, charged with watching the market and the top thirty customers. Who should lead it? He first asked the more senior Liu Deyin, who declined: \"I have more than ten thousand employees under me — how can you ask me to take a seat with only sixty or seventy?\" Morris Chang then asked C.C. Wei, who accepted gladly.",
-        "start": 841.09,
-        "end": 882.08
+        "start": 844.6,
+        "end": 886.17
       },
       {
         "secZh": "第四幕 · 这件事让我做",
@@ -20407,8 +20406,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "多年后回头看，这个「小位置」，恰恰是离客户最近的地方。",
         "en": "Years later, looking back, that \"small seat\" turned out to be the one closest to the customers.",
-        "start": 882.08,
-        "end": 887.18
+        "start": 886.17,
+        "end": 891.26
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20416,8 +20415,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "多年以后回头看，二○○九到二○一二年，是张忠谋一生中，成就最丰的一段岁月之一。",
         "en": "Years later, looking back, the span from 2009 to 2012 was one of the richest stretches of Morris Chang's life.",
-        "start": 887.18,
-        "end": 894.55
+        "start": 891.26,
+        "end": 899.67
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20425,8 +20424,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 894.55,
-        "end": 895.68
+        "start": 899.67,
+        "end": 901.64
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20434,8 +20433,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "七十八岁，本该是含饴弄孙的年纪。他却穿着衬衫，重新回到了最前线——解良率、平恩怨、请回老将、砸下重注。",
         "en": "Seventy-eight — an age meant for playing with grandchildren. Instead, he put on his shirt and returned to the front line — fixing yield, settling grudges, bringing back an old general, placing a heavy bet.",
-        "start": 895.68,
-        "end": 905.32
+        "start": 901.64,
+        "end": 912.49
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20443,8 +20442,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他记得自己年轻时，在德仪想加研发经费而屡屡被拒；也记得七十四岁那年，把 CEO 交出去时，以为人生的大事已经办完。谁料到，四年之后，他还会为了一个良率、一桩悬案、一个二十八纳米的机会，重新坐回这张最烫的椅子。",
         "en": "He remembered his youth, when he wanted to raise R&D spending at Texas Instruments and was refused time and again; and he remembered the year he was seventy-four, handing over the CEO role and thinking the great affairs of his life were done. Who could have guessed that four years later, he would sit back down in that hottest of chairs — for a yield rate, a dispute, and a twenty-eight-nanometer opportunity.",
-        "start": 905.32,
-        "end": 924.96
+        "start": 912.49,
+        "end": 932.49
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20452,8 +20451,8 @@ window.EPISODES_DATA = [
         "speaker": "平行时刻 · 时间胶囊",
         "zh": "【平行时刻 · 时间胶囊】",
         "en": "[Main narrator, time capsule]",
-        "start": 924.96,
-        "end": 927.42
+        "start": 932.49,
+        "end": 935.18
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20461,8 +20460,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他这一年：二○○九年，七十八岁重披战袍，解良率、平恩怨、请回老将、砸下重注。",
         "en": "His year: 2009 — at seventy-eight, he puts the armor back on: fixing yield, settling grudges, calling back an old general, betting big.",
-        "start": 927.42,
-        "end": 934.59
+        "start": 935.18,
+        "end": 942.71
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20470,8 +20469,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "世界这一年：智能手机浪潮来袭，四十纳米的良率危机，震动整个晶圆代工业。",
         "en": "The world's year: the smartphone wave arrives, and the forty-nanometer yield crisis shakes the entire foundry industry.",
-        "start": 934.59,
-        "end": 941.21
+        "start": 942.71,
+        "end": 949.81
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20479,8 +20478,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "同一条时间线——世界在等一部手机，他在等一个良率。",
         "en": "One timeline — the world was waiting for a phone; he was waiting for a yield rate.",
-        "start": 941.21,
-        "end": 945.93
+        "start": 949.81,
+        "end": 955.22
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20488,8 +20487,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 945.93,
-        "end": 948.01
+        "start": 955.22,
+        "end": 957.55
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20497,8 +20496,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "老骥伏枥，志在千里。年龄从来不决定一个人还能不能战斗，它只决定，那个人还敢不敢再上战场。",
         "en": "An old warhorse still aspires to a thousand leagues. Age never decides whether a person can still fight — only whether he dares to step back onto the battlefield.",
-        "start": 948.01,
-        "end": 956.32
+        "start": 957.55,
+        "end": 966.57
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20506,8 +20505,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 956.32,
-        "end": 957.45
+        "start": 966.57,
+        "end": 968.53
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20515,8 +20514,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "多年后，当那家曾经困在良率里、急得跳脚的设计公司，长成了 AI 时代的新王，人们再回头看那场披萨晚餐，才恍然明白：台积电最深的护城河，从来不是某一道制程，而是它在客户最难的时候，赢下的那一份信任。",
         "en": "Years later, when that design house once trapped in yield problems and hopping with anxiety grew into the new king of the AI age, people looked back at that pizza dinner and finally understood: TSMC's deepest moat was never any single process node — it was the trust it won from customers in their hardest hours.",
-        "start": 957.45,
-        "end": 975.96
+        "start": 968.53,
+        "end": 987.16
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20524,8 +20523,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而这场绚烂，才刚刚开始。因为很快，一位最挑剔的客人，就要来敲门了。",
         "en": "And the gilded years had only just begun. Because very soon, the most demanding guest of all would come knocking.",
-        "start": 975.96,
-        "end": 982.2
+        "start": 987.16,
+        "end": 994.19
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -20533,8 +20532,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，就是绚烂年代。",
         "en": "That is the gilded years.",
-        "start": 982.2,
-        "end": 983.9
+        "start": 994.19,
+        "end": 996.31
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -20542,8 +20541,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1. **40nm 良率危机（2009）**：台积电 40nm 制程初期良率低至 20–30%（2009 Q2），至 11 月回升至约 60%；辉达因缺货损失约 1 亿–1.5 亿美元。（英文：40nm yield crisis, NVIDIA shortage）",
         "en": "1. **The 40nm yield crisis (2009)**: TSMC's 40nm yield fell as low as 20–30% in Q2 2009, recovering to about 60% by November; NVIDIA lost roughly $100–150 million to the shortage.",
-        "start": 983.9,
-        "end": 1008.83
+        "start": 996.31,
+        "end": 1017.87
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -20551,8 +20550,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "2. **黄仁勋书房 48 小时死线**：张忠谋与黄仁勋是十几年老友，2009.7.15 披萨晚餐后书房谈判，上亿美元赔偿金 + 48 小时有效期，两天内和解。（英文：Jensen Huang, 48-hour deadline）",
         "en": "2. **Jensen Huang and the 48-hour deadline**: old friends for over a decade, Morris Chang and Jensen Huang settled the dispute in a study after a pizza dinner on July 15, 2009 — a compensation of over $100 million, valid for 48 hours, agreed within two days.",
-        "start": 1008.83,
-        "end": 1030.55
+        "start": 1017.87,
+        "end": 1038.15
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -20560,8 +20559,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "3. **研发经费定 8%**：2010 起台积电研发经费固定为营收约 8%，2023 年达 56 亿美元，超过 MIT 全年总经费。（英文：R&D at 8% of revenue）",
         "en": "3. **R&D fixed at 8%**: from 2010, TSMC's R&D was anchored at about 8% of revenue, reaching $5.6 billion in 2023 — more than MIT's entire annual budget.",
-        "start": 1030.55,
-        "end": 1047.93
+        "start": 1038.15,
+        "end": 1052.01
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -20569,8 +20568,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "4. **资本支出翻倍**：2010 台积电资本支出从 2009 年加至 59 亿美元（翻倍有余），为 40/28nm 智能手机浪潮下重注。（英文：capex doubled to $5.9B）",
         "en": "4. **Capex doubled**: TSMC's capital spending jumped from 2009 to $5.9 billion in 2010 — more than double — betting on the 40/28nm smartphone wave.",
-        "start": 1047.93,
-        "end": 1066.25
+        "start": 1052.01,
+        "end": 1067.46
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -20578,8 +20577,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "5. **28nm 高通「汗与泪」**：高通需求从 4 万片一路改到 30 万片，另寻格罗方德作第二来源；28nm 成为台积电打进智能手机世界的第一代技术。（英文：Qualcomm 28nm, GlobalFoundries）",
         "en": "5. **Qualcomm's 28nm \"sweat and tears\"**: Qualcomm's demand climbed from 40,000 to 300,000 wafers, and it sought GlobalFoundries as a second source; 28nm became TSMC's first-generation entry into the smartphone world.",
-        "start": 1066.25,
-        "end": 1087.6
+        "start": 1067.46,
+        "end": 1086.28
       },
       {
         "secZh": "下集预告",
@@ -20587,8 +20586,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "绚烂刚开场，一位最挑剔的客人，就敲响了门。",
         "en": "The gilded years had only just begun when the most demanding guest of all knocked on the door.",
-        "start": 1087.6,
-        "end": 1091.85
+        "start": 1086.28,
+        "end": 1091.89
       },
       {
         "secZh": "下集预告",
@@ -20596,8 +20595,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一○年十一月的一个周二晚上，鸿海创办人郭台铭，把苹果的营运长，带到了张忠谋家的晚餐桌上。",
         "en": "On a Tuesday evening in November 2010, Foxconn founder Terry Gou brought Apple's chief operating officer to the dinner table at Morris Chang's home.",
-        "start": 1091.85,
-        "end": 1100.54
+        "start": 1091.89,
+        "end": 1100.51
       },
       {
         "secZh": "下集预告",
@@ -20605,7 +20604,7 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "下一集，《苹果来敲门》。",
         "en": "Next episode: \"Apple Comes Knocking.\"",
-        "start": 1100.54,
+        "start": 1100.51,
         "end": 1102.8
       }
     ]
@@ -20617,8 +20616,8 @@ window.EPISODES_DATA = [
     "summary": "苹果来敲门 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第15期-苹果来敲门/中文音频.mp3",
     "audioEn": "./03-剧集/第15期-苹果来敲门/英文音频.mp3",
-    "durationZh": 1106.91,
-    "durationEn": 1196.91,
+    "durationZh": 1106.912,
+    "durationEn": 1196.912,
     "cues": [
       {
         "secZh": "开场",
@@ -20627,7 +20626,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：门铃声，在安静的夜里响起】",
         "en": "[SFX: a doorbell ringing in the quiet night]",
         "start": 0.0,
-        "end": 3.41
+        "end": 4.31
       },
       {
         "secZh": "开场",
@@ -20635,8 +20634,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一○年十一月九日，星期二，晚上六点半。",
         "en": "November 9, 2010. A Tuesday. Six-thirty in the evening.",
-        "start": 3.41,
-        "end": 7.63
+        "start": 4.31,
+        "end": 8.38
       },
       {
         "secZh": "开场",
@@ -20644,8 +20643,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 7.63,
-        "end": 8.83
+        "start": 8.38,
+        "end": 10.38
       },
       {
         "secZh": "开场",
@@ -20653,8 +20652,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋刚在台北办事处，开完了为期两天的第四季董事会，回到家里。夫人 Sophie 在家门口拦住了他，说了一句话：",
         "en": "Morris Chang had just finished a two-day fourth-quarter board meeting at TSMC's Taipei office and returned home. His wife Sophie stopped him at the door with a single sentence:",
-        "start": 8.83,
-        "end": 20.08
+        "start": 10.38,
+        "end": 21.17
       },
       {
         "secZh": "开场",
@@ -20662,8 +20661,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「郭台铭下午来了个电话，说他晚上带一个苹果的副总，到我们家吃饭，八点到。」",
         "en": "\"Terry Gou called this afternoon. He says he's bringing an Apple vice president to our house for dinner tonight, arriving at eight.\"",
-        "start": 20.08,
-        "end": 27.51
+        "start": 21.17,
+        "end": 28.27
       },
       {
         "secZh": "开场",
@@ -20671,8 +20670,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 27.51,
-        "end": 29.71
+        "start": 28.27,
+        "end": 30.64
       },
       {
         "secZh": "开场",
@@ -20680,8 +20679,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋一听就明白了对方的来意。这一夜，苹果来敲门了。",
         "en": "Morris Chang understood at once what the visitor wanted. That night, Apple came knocking.",
-        "start": 29.71,
-        "end": 34.93
+        "start": 30.64,
+        "end": 36.33
       },
       {
         "secZh": "开场",
@@ -20689,8 +20688,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "苹果那颗自研的芯片，是全世界最值钱的手机的心脏。谁拿到它的订单，谁就拿到了移动时代的船票。",
         "en": "That self-designed Apple chip was the heart of the most valuable phone on earth. Whoever won its orders won a ticket onto the ship of the mobile age.",
-        "start": 34.93,
-        "end": 43.97
+        "start": 36.33,
+        "end": 45.6
       },
       {
         "secZh": "开场",
@@ -20698,8 +20697,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一集，我们讲苹果来敲门。",
         "en": "This episode, we tell the story of Apple coming knocking.",
-        "start": 43.97,
-        "end": 46.58
+        "start": 45.6,
+        "end": 48.48
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20707,8 +20706,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "要听懂这一夜的分量，得先说清楚苹果是谁。",
         "en": "To grasp the weight of that night, you first have to know who Apple is.",
-        "start": 46.58,
-        "end": 50.59
+        "start": 48.48,
+        "end": 53.92
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20716,8 +20715,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 50.59,
-        "end": 51.8
+        "start": 53.92,
+        "end": 55.92
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20725,8 +20724,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "苹果，一九七六年成立，一直是科技界的一个传奇。一九八○年它在纽约上市，市值立刻超过了历史悠久、规模庞大的福特汽车。那年，张忠谋正访问台湾，跟李国鼎提起了这件事，李国鼎连连摇头：怎么会有这样的事？张忠谋回答：这就是现代科技公司的神妙。",
         "en": "Apple, founded in 1976, has always been a legend of the tech world. When it listed in New York in 1980, its market value immediately surpassed that of Ford, the century-old, enormous automaker. That year, Morris Chang was visiting Taiwan, and mentioned this to K.T. Li — who shook his head again and again: how could such a thing be? Morris Chang replied: this is the magic of a modern tech company.",
-        "start": 51.8,
-        "end": 75.09
+        "start": 55.92,
+        "end": 79.7
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20734,8 +20733,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 75.09,
-        "end": 77.3
+        "start": 79.7,
+        "end": 82.07
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20743,8 +20742,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这句话，四十几年后，依然用得上。",
         "en": "That sentence still holds true, forty-some years later.",
-        "start": 77.3,
-        "end": 80.51
+        "start": 82.07,
+        "end": 85.59
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20752,8 +20751,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator",
         "zh": "从一家刚上市的公司，到市值超过造了一百多年汽车的福特——那一年，许多人第一次领教到，科技公司的价值，不能用传统的尺子去量。",
         "en": "[Main narrator]",
-        "start": 80.51,
-        "end": 92.76
+        "start": 85.59,
+        "end": 97.96
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20761,8 +20760,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "From a freshly listed company to one worth more than an automaker that had built cars for over a hundred years — that was the year many people first learned that a tech company's value cannot be measured with a traditional ruler.",
-        "start": 92.76,
-        "end": 103.3
+        "start": 97.96,
+        "end": 99.96
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20770,8 +20769,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一九八五年，苹果创办人乔布斯，因公司内斗被迫离开；九十年代，苹果一度家道中落；一九九七年乔布斯回归，苹果复兴；二○○七年，它推出了智能手机，几乎人手一支，也改变了千千万万人的生活。",
         "en": "In 1985, Apple's founder Steve Jobs was forced out by corporate politics. In the nineties, Apple's fortunes waned; in 1997, Jobs returned, and Apple revived; in 2007, it launched the smartphone, and changed the habits of hundreds of millions of lives.",
-        "start": 103.3,
-        "end": 121.37
+        "start": 99.96,
+        "end": 117.38
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20779,8 +20778,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而智能手机，恰恰是个「半导体密集」的产品。所以台积电从二○○七年起，就把苹果视为潜在的大客户——只是苹果除了以创新闻名，还是个极度保密的公司。台积电只知道，它开始设计自用的芯片，而且找韩国的三星代工。",
         "en": "And the smartphone is precisely a \"semiconductor-dense\" product. So from 2007 on, TSMC had its eye on Apple as a potential mega-customer — except that Apple, beyond being famous for innovation, was also an extremely secretive company. All TSMC knew was that Apple had begun designing its own chips, and had gone to Korea's Samsung to have them made.",
-        "start": 121.37,
-        "end": 141.44
+        "start": 117.38,
+        "end": 137.1
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20788,8 +20787,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 141.44,
-        "end": 143.65
+        "start": 137.1,
+        "end": 139.46
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20797,8 +20796,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可偏偏，苹果打开智能手机市场没多久，雄心勃勃的三星会长李健熙，忽然宣布：三星，也要做智能手机了。",
         "en": "But no sooner had Apple opened up the smartphone market than Samsung's ambitious chairman, Lee Kun-hee, suddenly announced: Samsung, too, would make smartphones.",
-        "start": 143.65,
-        "end": 153.29
+        "start": 139.46,
+        "end": 149.24
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20806,8 +20805,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 153.29,
-        "end": 154.49
+        "start": 149.24,
+        "end": 151.24
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20815,8 +20814,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一夜之间，三星从苹果最主要的供应商，变成了苹果最主要的竞争者。",
         "en": "Overnight, Samsung went from being Apple's most important supplier to its most important competitor.",
-        "start": 154.49,
-        "end": 160.72
+        "start": 151.24,
+        "end": 157.52
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20824,8 +20823,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这背后，是移动时代最戏剧性的一次翻脸：三星一边给苹果代工芯片、供着屏幕和记忆体，一边用自己的手机，在全世界跟 iPhone 正面厮杀。换作任何一位苹果的掌舵人，大概都会有「是可忍，孰不可忍」的感觉。",
         "en": "Behind this lay the most dramatic reversal of the mobile age: Samsung was making Apple's chips, supplying its screens and memory, while fighting the iPhone head-on all over the world with its own phones. Any captain at Apple's helm would surely have felt: \"this is more than I can bear.\"",
-        "start": 160.72,
-        "end": 180.6
+        "start": 157.52,
+        "end": 176.51
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20833,8 +20832,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而台积电的机会，也就悄悄来了——只是，他们始终找不到，敲开苹果大门的那扇门。",
         "en": "And so TSMC's opportunity quietly arrived — except that they simply could not find the door into Apple.",
-        "start": 180.6,
-        "end": 188.22
+        "start": 176.51,
+        "end": 184.56
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20842,8 +20841,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "直到二○一○年十一月九日，那个周二晚上。",
         "en": "Until that Tuesday night, November 9, 2010.",
-        "start": 188.22,
-        "end": 192.24
+        "start": 184.56,
+        "end": 188.37
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20851,8 +20850,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 192.24,
-        "end": 193.44
+        "start": 188.37,
+        "end": 190.37
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20860,8 +20859,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "郭台铭是 Sophie 的表弟，两人常有亲戚间的往来。而他另一个身份，是鸿海集团的创办人和董事长——鸿海，正是苹果最主要的装配商，跟苹果关系极深。",
         "en": "Terry Gou is Sophie's cousin, and the two families keep in touch. His other identity is founder and chairman of Foxconn — and Foxconn was Apple's main assembler, deeply tied to Apple.",
-        "start": 193.44,
-        "end": 208.1
+        "start": 190.37,
+        "end": 204.99
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20869,8 +20868,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "八点，郭台铭带着客人到了。这位「苹果副总」，其实不只是副总——他是杰夫·威廉斯，苹果的营运长。",
         "en": "At eight o'clock, Terry Gou arrived with his guest. This \"Apple vice president\" was, in fact, more than a VP — he was Jeff Williams, Apple's chief operating officer.",
-        "start": 208.1,
-        "end": 217.54
+        "start": 204.99,
+        "end": 214.56
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20878,8 +20877,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "为了这两位不速之客，Sophie 又添了几道菜。",
         "en": "For these two uninvited guests, Sophie added a few more dishes.",
-        "start": 217.54,
-        "end": 222.36
+        "start": 214.56,
+        "end": 219.28
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20887,8 +20886,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 222.36,
-        "end": 224.56
+        "start": 219.28,
+        "end": 221.65
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20896,8 +20895,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "坐定之后，杰夫单刀直入：要台积电，替苹果生产苹果自己设计的逻辑芯片。",
         "en": "Once seated, Jeff got straight to the point: he wanted TSMC to manufacture the logic chips Apple had designed for itself.",
-        "start": 224.56,
-        "end": 231.39
+        "start": 221.65,
+        "end": 228.69
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20905,8 +20904,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 231.39,
-        "end": 232.6
+        "start": 228.69,
+        "end": 230.68
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20914,8 +20913,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他显然对台积电做过一番研究，知道台积电不是他习惯合作的那种「单位数毛利率」的组装厂。于是他补了一句，想先让主人安心：",
         "en": "He had clearly done his homework on TSMC, knowing it was not the kind of single-digit-margin assembly plant he was used to working with. So he added a line, to set his host at ease:",
-        "start": 232.6,
-        "end": 244.24
+        "start": 230.68,
+        "end": 241.76
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20923,8 +20922,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「我们会让你享有四成的毛利率。」",
         "en": "\"We'll let you enjoy a forty-percent gross margin.\"",
-        "start": 244.24,
-        "end": 247.45
+        "start": 241.76,
+        "end": 244.75
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20932,8 +20931,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋听了，心里反而一紧。台积电的毛利率，在他来之前，就已经在四成到四成五之间了，张忠谋还正打算把它推到五成。所以这句话，在客人是示好；在主人听来，却是提醒——在价格上，这位客人，不会很大方。",
         "en": "Morris Chang heard this and tensed up inside instead. TSMC's gross margin was already between forty and forty-five percent before Jeff arrived, and Morris Chang was trying to push it to fifty. So in the guest's mouth it was reassurance; in the host's ears, it was a reminder — on price, this guest would not be generous.",
-        "start": 247.45,
-        "end": 266.73
+        "start": 244.75,
+        "end": 264.79
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20941,8 +20940,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋当场没说什么。他问了一个问题：「是二十八纳米吗？」",
         "en": "Morris Chang said nothing for the moment. He asked one question: \"Is it twenty-eight nanometers?\"",
-        "start": 266.73,
-        "end": 272.35
+        "start": 264.79,
+        "end": 270.6
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20950,8 +20949,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 272.35,
-        "end": 274.56
+        "start": 270.6,
+        "end": 272.97
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20959,8 +20958,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "杰夫摇头：「不是，是二十纳米，而且，预备一年后开始量产。」",
         "en": "Jeff shook his head: \"No. It's twenty nanometers. And we intend to start volume production in a year.\"",
-        "start": 274.56,
-        "end": 280.38
+        "start": 272.97,
+        "end": 278.8
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20968,8 +20967,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 280.38,
-        "end": 281.58
+        "start": 278.8,
+        "end": 280.8
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20977,8 +20976,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋心里，开始嘀咕了。",
         "en": "Morris Chang's mind began to murmur.",
-        "start": 281.58,
-        "end": 283.99
+        "start": 280.8,
+        "end": 283.5
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20986,8 +20985,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二十纳米，在半导体行话里，只能算一个「半节点」。台积电手上正在爬的，是二十八纳米；下一个真正的大节点，是十六纳米。如果去给苹果做二十纳米，等于要绕一段远路。",
         "en": "Twenty nanometers, in the industry's jargon, was only a \"half-node.\" What TSMC was climbing right now was twenty-eight nanometers; the next true full node was sixteen. If they went to make twenty nanometers for Apple, it would mean a detour.",
-        "start": 283.99,
-        "end": 299.65
+        "start": 283.5,
+        "end": 299.21
       },
       {
         "secZh": "第一幕 · 晚餐桌上的不速之客",
@@ -20995,8 +20994,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可这一夜，不是谈价的场合。双方要谈的事情多得很，价格，尽可以留到最后。",
         "en": "But that night was not the time for pricing. There was far too much to discuss; price could be left for last.",
-        "start": 299.65,
-        "end": 306.68
+        "start": 299.21,
+        "end": 306.73
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21004,8 +21003,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "合作的火，点起来了。",
         "en": "The fire of cooperation had been lit.",
-        "start": 306.68,
-        "end": 308.69
+        "start": 306.73,
+        "end": 310.33
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21013,8 +21012,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 308.69,
-        "end": 309.89
+        "start": 310.33,
+        "end": 312.32
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21022,8 +21021,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "苹果提出，要台积电的高阶主管，次日就与杰夫开会；苹果的设计、技术、采购人员，也要尽快进驻新竹，开始密集沟通。",
         "en": "Apple proposed that TSMC's senior executives meet Jeff the very next day; Apple's design, technology, and procurement people would also move into Hsinchu soon, to begin intensive communication.",
-        "start": 309.89,
-        "end": 320.73
+        "start": 312.32,
+        "end": 323.25
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21031,8 +21030,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可正当双向沟通如火如荼的时候，意外来了。",
         "en": "But just as the two-way discussions were running hot, the unexpected came.",
-        "start": 320.73,
-        "end": 324.75
+        "start": 323.25,
+        "end": 327.42
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21040,8 +21039,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一一年三月三日，张忠谋接到杰夫·威廉斯的电话，话说得很突然：英特尔最高层，刚刚跟苹果总裁库克见了面，库克答应了——所以，我们之间的协商，要暂停两个月。",
         "en": "On March 3, 2011, Morris Chang got a call from Jeff Williams, and the words were sudden: Intel's highest level had just met with Apple president Tim Cook, and Cook had agreed — so, the negotiations between us must pause for two months.",
-        "start": 324.75,
-        "end": 340.21
+        "start": 327.42,
+        "end": 342.73
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21049,8 +21048,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 340.21,
-        "end": 342.42
+        "start": 342.73,
+        "end": 345.1
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21058,8 +21057,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "挂掉电话，张忠谋沉默了。",
         "en": "After hanging up, Morris Chang fell silent.",
-        "start": 342.42,
-        "end": 344.83
+        "start": 345.1,
+        "end": 347.8
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21067,8 +21066,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 344.83,
-        "end": 346.03
+        "start": 347.8,
+        "end": 349.8
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21076,8 +21075,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "但二○一一年的英特尔，早已没了上世纪末那种让人闻之肃然起敬的威风。它是 IDM 的老祖宗——从设计、制造到封测，一条龙全包。可正因为如此，它看不上「给别人代工」这门生意：既放不下身段，也学不会在客户的成本框架里，替客户精打细算。",
         "en": "But Intel in 2011 had long lost the aura of the late last century, when its very name inspired awe. It was the original IDM — design, manufacturing, packaging, and testing, all in one vertical. And precisely for that reason, it looked down on the business of \"making chips for others\": it could not bring itself to lower its posture, nor learn to squeeze costs on a customer's behalf, within the customer's cost framework.",
-        "start": 346.03,
-        "end": 368.92
+        "start": 349.8,
+        "end": 372.19
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21085,8 +21084,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋在心里，把台积电和英特尔比了比：技术上，我们并不输它——再过几年，他会认定台积电已经胜出；制造成本、客户服务，我们都胜过它。苹果没有理由，弃台积电而选英特尔。",
         "en": "Morris Chang ran the comparison in his mind: on technology, we do not lose to Intel — a few more years, and he would judge TSMC the winner; on manufacturing cost and customer service, we beat them. Apple had no reason to abandon TSMC for Intel.",
-        "start": 368.92,
-        "end": 385.38
+        "start": 372.19,
+        "end": 389.28
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21094,8 +21093,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "自信归自信，关切一下苹果，总不会错。四月，张忠谋去硅谷拜访客户，于四月五日，约访杰夫。杰夫回电：他那天不在办公室，但总裁库克在，已经安排好了。",
         "en": "Confident as he was, showing concern to Apple could do no harm. In April, on a trip to Silicon Valley to visit customers, he tried to book Jeff for April 5. Jeff replied: he would be out of the office that day, but president Tim Cook was in, and had already been arranged to see him.",
-        "start": 385.38,
-        "end": 399.64
+        "start": 389.28,
+        "end": 404.36
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21103,8 +21102,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 399.64,
-        "end": 401.85
+        "start": 404.36,
+        "end": 406.73
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21112,8 +21111,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "于是，张忠谋去了苹果总部，和库克共进午餐。",
         "en": "So Morris Chang went to Apple's headquarters and had lunch with Tim Cook.",
-        "start": 401.85,
-        "end": 406.06
+        "start": 406.73,
+        "end": 411.17
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21121,8 +21120,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 406.06,
-        "end": 407.27
+        "start": 411.17,
+        "end": 413.17
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21130,8 +21129,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "库克很热诚地接待了他。两人先去苹果的自助餐厅拿了食物，再回到库克的办公室用餐。那顿午餐吃得很轻松，几乎不像一场商业谈判。库克一开口，就叫张忠谋不必担心。他没提英特尔的技术，也没提制造成本，只淡淡地说了一句：",
         "en": "Cook received him warmly. The two first picked up food at Apple's cafeteria, then returned to Cook's office to eat. That lunch was easy, almost unlike a business negotiation. Cook opened by telling Morris Chang not to worry. He did not mention Intel's technology, nor its manufacturing cost — he said only one light sentence:",
-        "start": 407.27,
-        "end": 427.95
+        "start": 413.17,
+        "end": 434.38
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21139,8 +21138,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「他们不擅做代工。」",
         "en": "\"They don't know how to do foundry.\"",
-        "start": 427.95,
-        "end": 429.96
+        "start": 434.38,
+        "end": 436.26
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21148,8 +21147,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "五月五日，准准地在「暂停协商」电话的两个月后，杰夫来电：「恢复协商。」",
         "en": "On May 5, precisely two months after the \"pause\" call, Jeff called: \"Resume negotiations.\"",
-        "start": 429.96,
-        "end": 436.98
+        "start": 436.26,
+        "end": 442.74
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21157,8 +21156,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一场可能让两家公司擦肩而过的危机，就这样，被一句「他们不擅做代工」，轻轻化解了。",
         "en": "A crisis that could have made the two companies pass each other by was, just like that, gently dissolved by one line — \"they don't know how to do foundry.\"",
-        "start": 436.98,
-        "end": 445.01
+        "start": 442.74,
+        "end": 450.39
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21166,8 +21165,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 445.01,
-        "end": 447.22
+        "start": 450.39,
+        "end": 452.76
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21175,8 +21174,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "多年以后，英特尔的又一任总裁传出话来，说当年没接苹果生意，是一个大错误，只是原因，是嫌苹果出的价格太低。",
         "en": "Years later, another Intel CEO would let word out that declining Apple's business back then was a big mistake — though the reason given was that Apple's price was too low.",
-        "start": 447.22,
-        "end": 457.66
+        "start": 452.76,
+        "end": 463.15
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21184,8 +21183,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 457.66,
-        "end": 458.87
+        "start": 463.15,
+        "end": 465.15
       },
       {
         "secZh": "第二幕 · 暂停，与一顿午餐",
@@ -21193,8 +21192,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "听起来，这跟库克说的「不擅做代工」不太一样——可其实，是一回事。不肯接受客户能接受的价格，就等于「不擅做代工」。台积电的本事，恰恰是在客户能接受的价格里，赚出合理的利润。",
         "en": "It sounds different from Cook's \"they don't know how to do foundry\" — but really, it is the same thing. Refusing to accept the price a customer can accept is exactly \"not knowing how to do foundry.\" TSMC's skill, precisely, was earning a reasonable profit within the price a customer could accept.",
-        "start": 458.87,
-        "end": 475.93
+        "start": 465.15,
+        "end": 482.1
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21202,8 +21201,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "苹果这扇门，敲开了；可真正的考验，才开始。",
         "en": "The door into Apple had opened; the real test was only beginning.",
-        "start": 475.93,
-        "end": 480.15
+        "start": 482.1,
+        "end": 487.89
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21211,8 +21210,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 480.15,
-        "end": 481.35
+        "start": 487.89,
+        "end": 489.89
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21220,8 +21219,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一一年，苹果给了台积电一个相当高的、二○一四年的芯片需求估计。如果要把这个数字完全接住，台积电必须在未来几年，投资厂房和设备，大约两百亿美元。",
         "en": "In 2011, Apple gave TSMC a very high estimate of its 2014 chip demand. To fully meet that number, TSMC would have to invest about twenty billion dollars in plants and equipment over the coming years.",
-        "start": 481.35,
-        "end": 496.01
+        "start": 489.89,
+        "end": 504.19
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21229,8 +21228,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电的「市场预测」单位，早在九十年代就建起来了——它不但预测半导体市场，也预测使用半导体的主要电子产品，比如智能手机。",
         "en": "That already exceeded the range of the \"prudent\" financial planning Morris Chang had always maintained.",
-        "start": 496.01,
-        "end": 508.06
+        "start": 504.19,
+        "end": 515.92
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21238,8 +21237,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，已经超出了张忠谋一向保持的「审慎」财务规划的范围。",
         "en": "TSMC's \"market forecasting\" unit had been built back in the nineties — it forecast not only the semiconductor market, but also the main electronic products that use semiconductors, such as smartphones.",
-        "start": 508.06,
-        "end": 515.84
+        "start": 515.92,
+        "end": 521.01
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21247,8 +21246,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋心里清楚，客户不需要投资产能，所以天然倾向于高估自己的需求。如果台积电对所有客户的未来需求「照单全收」，再照着他们的估计去投产能，结果几乎一定是产能过剩。台积电赢取客户信任的办法，从来是另一条：对客户，许下一个他能够接受、我们尽力也能兑现的承诺，然后不计代价，兑现它。",
         "en": "Morris Chang knew full well that customers do not have to invest in capacity, so they naturally tend to overestimate their own demand. If TSMC \"accepted everything\" every customer projected, and then invested capacity to match those projections, the result would almost certainly be oversupply. TSMC's way of winning customer trust had always been different: make a customer a promise that he can accept and that we can, with full effort, deliver — then deliver it at any cost.",
-        "start": 515.84,
-        "end": 543.34
+        "start": 521.01,
+        "end": 548.02
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21256,8 +21255,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电面前，摆着四条路：第一，只承诺生产苹果估计需求的一部分；第二，停发或少发股利；第三，到股市现金增资；第四，举公司债。",
         "en": "Before TSMC lay four paths: first, commit to producing only part of Apple's estimated demand; second, stop or reduce dividends; third, raise cash by issuing new shares; fourth, issue corporate bonds.",
-        "start": 543.34,
-        "end": 555.59
+        "start": 548.02,
+        "end": 560.52
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21265,8 +21264,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 555.59,
-        "end": 557.8
+        "start": 560.52,
+        "end": 562.89
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21274,8 +21273,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋在几周内，和财务单位、市场预测单位、还有公司的高阶主管反复讨论，最后拍板：走第一条，加第四条。",
         "en": "Within a few weeks, after repeated discussion with the finance unit, the forecasting unit, and senior executives, Morris Chang made the call: take the first, plus the fourth.",
-        "start": 557.8,
-        "end": 567.84
+        "start": 562.89,
+        "end": 573.11
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21283,8 +21282,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 567.84,
-        "end": 569.04
+        "start": 573.11,
+        "end": 575.11
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21292,8 +21291,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "也就是——只承诺，苹果需求的一半。",
         "en": "In other words — commit to only half of Apple's demand.",
-        "start": 569.04,
-        "end": 572.45
+        "start": 575.11,
+        "end": 579.14
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21301,8 +21300,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "把这个消息告诉苹果的「荣誉」，落在了魏哲家头上——他上任业务发展主管才一年多。苹果那边的回应，很不客气：",
         "en": "The \"honor\" of telling Apple this fell to C.C. Wei, who had led business development for just over a year. Apple's response was blunt:",
-        "start": 572.45,
-        "end": 582.89
+        "start": 579.14,
+        "end": 589.52
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21310,8 +21309,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「你们疯啦？只接受我们给你们的、需求的一半？」",
         "en": "\"Are you crazy? You'll only accept half of the demand we're giving you?\"",
-        "start": 582.89,
-        "end": 587.51
+        "start": 589.52,
+        "end": 594.29
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21319,8 +21318,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 587.51,
-        "end": 588.72
+        "start": 594.29,
+        "end": 596.29
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21328,8 +21327,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电没有疯。这是他们做完审慎财务规划之后，才做出的决定。",
         "en": "TSMC was not crazy. This was the decision they made after prudent financial planning.",
-        "start": 588.72,
-        "end": 594.54
+        "start": 596.29,
+        "end": 602.53
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21337,8 +21336,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一一年六月，张忠谋亲自飞加州，拜访杰夫，把话又当面说了一遍。杰夫轻描淡写地回了一句：「其实你们可以暂时停发股利，我想你们的股东也会理解。」",
         "en": "In June 2011, Morris Chang flew to California himself to see Jeff and say it face to face. Jeff replied, lightly: \"Actually, you could temporarily stop paying dividends. I think your shareholders would understand.\"",
-        "start": 594.54,
-        "end": 608.79
+        "start": 602.53,
+        "end": 616.39
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21346,8 +21345,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋也轻描淡写：「我们的股东里，也有不少——事实上是三成左右——是很看重股利的。」",
         "en": "Morris Chang answered, just as lightly: \"A good number of our shareholders — about thirty percent, in fact — care a great deal about dividends.\"",
-        "start": 608.79,
-        "end": 617.23
+        "start": 616.39,
+        "end": 625.26
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21355,8 +21354,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "杰夫不再多说什么。",
         "en": "Jeff did not press further.",
-        "start": 617.23,
-        "end": 619.03
+        "start": 625.26,
+        "end": 627.32
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21364,8 +21363,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 619.03,
-        "end": 621.24
+        "start": 627.32,
+        "end": 629.69
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21373,8 +21372,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "即便数量砍掉一半，台积电要接住苹果，仍得举债七十一亿美元。",
         "en": "Even with the quantity cut in half, taking on Apple still meant TSMC had to borrow seven point one billion dollars.",
-        "start": 621.24,
-        "end": 627.06
+        "start": 629.69,
+        "end": 635.6
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21382,8 +21381,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 627.06,
-        "end": 628.27
+        "start": 635.6,
+        "end": 637.6
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21391,8 +21390,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "经过财务部门与高盛反复讨论，台积电决定：二○一一、二○一二、二○一三这三年，在台湾发行新台币一千六百六十二亿元的公司债；再加上二○一三年，在纽约发行十五亿美元的公司债。",
         "en": "After rounds of discussion between the finance department and Goldman Sachs, TSMC decided: over 2011, 2012, and 2013, issue one hundred sixty-six point two billion New Taiwan dollars in corporate bonds in Taiwan; and in 2013, issue one point five billion dollars in bonds in New York.",
-        "start": 628.27,
-        "end": 645.13
+        "start": 637.6,
+        "end": 653.43
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21400,8 +21399,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一一年九月十四日，杰夫亲自飞到新竹，谈晶圆的价格。双方把规格、成本、定价，反复横算竖算，最终数字相当接近，那天就议定了。当晚，张忠谋请杰夫到米其林三星的餐厅吃饭。杰夫开了个玩笑：",
         "en": "On September 14, 2011, Jeff flew to Hsinchu himself to settle the wafer price. Both sides went over the specifications, costs, and pricing, back and forth; in the end, their numbers were very close, and the price was settled that very day. That evening, Morris Chang took Jeff to a three-Michelin-star restaurant. Jeff cracked a joke:",
-        "start": 645.13,
-        "end": 663.4
+        "start": 653.43,
+        "end": 672.08
       },
       {
         "secZh": "第三幕 · 只承诺一半",
@@ -21409,8 +21408,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「啊，讲定了价。假如没讲定，我想你会请我们去吃麦当劳。」",
         "en": "\"Ah, we settled the price. If we hadn't, I think you'd have taken us to McDonald's.\"",
-        "start": 663.4,
-        "end": 669.03
+        "start": 672.08,
+        "end": 677.85
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21418,8 +21417,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "价格谈定了，可技术上的惊险，还在后头。",
         "en": "The price was settled; but the technical thrill was still ahead.",
-        "start": 669.03,
-        "end": 672.84
+        "start": 677.85,
+        "end": 683.19
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21427,8 +21426,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 672.84,
-        "end": 674.05
+        "start": 683.19,
+        "end": 685.19
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21436,8 +21435,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "苹果要的是二十纳米。在张忠谋心里，二十纳米只是「半节点」，真正的下一个大节点，是十六纳米。但既然苹果点了二十纳米的单，台积电别无选择——必须为苹果，先把二十纳米开发出来。",
         "en": "Apple wanted twenty nanometers. In Morris Chang's mind, twenty nanometers was only a \"half-node\"; the next true full node was sixteen. But since Apple had ordered twenty nanometers, TSMC had no choice — it had to develop twenty nanometers for Apple first.",
-        "start": 674.05,
-        "end": 691.11
+        "start": 685.19,
+        "end": 702.51
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21445,8 +21444,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二十纳米的开发，并非百分之百顺利。二○一二到二○一三年间，张忠谋一度尝试让蒋尚义、刘德音、魏哲家三位「共同营运长」轮流接管研发、生产、行销三大块业务，可一遇到二十纳米的开发问题，他就立刻把正在享受新工作的蒋尚义，重新调回研发。",
         "en": "The development of twenty nanometers did not go entirely smoothly. Across 2012 and 2013, Morris Chang had at one point tried having three \"co-COOs\" — Chiang Shang-yi, Liu Deyin, and C.C. Wei — rotate through the three big blocks of R&D, production, and marketing. But the moment problems arose in the twenty-nanometer development, he immediately pulled Chiang Shang-yi, who was enjoying his new role, back to R&D.",
-        "start": 691.11,
-        "end": 713.8
+        "start": 702.51,
+        "end": 724.13
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21454,8 +21453,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这三位共同营运长的轮调制，本是张忠谋为接班做的又一次布局——让三位大将轮流历练三大块业务。可二十纳米的坎，来得不是时候，他只得先把布局搁下，让最懂技术的蒋尚义，回到最要紧的研发一线。",
         "en": "This rotation of three co-COOs was meant as another succession arrangement — letting three generals take turns through the three big blocks of the business. But the twenty-nanometer hurdle arrived at the wrong time, so he had to set the arrangement aside, and send the one who knew technology best back to the R&D front line.",
-        "start": 713.8,
-        "end": 732.07
+        "start": 724.13,
+        "end": 742.51
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21463,8 +21462,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二十纳米，总算按苹果的要求开发了出来。可十六纳米的研发，却延宕了。",
         "en": "Twenty nanometers was finally developed to Apple's requirement. But the sixteen-nanometer R&D had fallen behind.",
-        "start": 732.07,
-        "end": 738.69
+        "start": 742.51,
+        "end": 749.57
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21472,8 +21471,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "半节点都如此费力，何况真正的大节点——制程的竞赛，从来是一步慢、步步慢。",
         "en": "Half-nodes were already this hard — how much harder a true full node. In the race of process nodes, one step slow means every step slow.",
-        "start": 738.69,
-        "end": 745.92
+        "start": 749.57,
+        "end": 757.25
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21481,8 +21480,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 745.92,
-        "end": 748.13
+        "start": 757.25,
+        "end": 759.62
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21490,8 +21489,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一三年七月，就在台积电准备量产二十纳米的时候，苹果那边忽然传来消息：苹果已经决定，十六纳米，向三星购买。",
         "en": "In July 2013, just as TSMC was preparing to mass-produce twenty nanometers, word suddenly came from Apple: Apple had decided to buy its sixteen nanometers from Samsung.",
-        "start": 748.13,
-        "end": 758.97
+        "start": 759.62,
+        "end": 770.31
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21499,8 +21498,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 758.97,
-        "end": 760.18
+        "start": 770.31,
+        "end": 772.31
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21508,8 +21507,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋急了。几年间，为了苹果，台积电投入了那么多人力、财力、物力——难道，只做一个节点、只做一两年的生意？",
         "en": "Morris Chang was alarmed. Over these years, for Apple, TSMC had poured in so much manpower, money, and material — could it be that they would make only one node, and do only a year or two of business?",
-        "start": 760.18,
-        "end": 770.82
+        "start": 772.31,
+        "end": 783.79
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21517,8 +21516,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他立刻发电邮给杰夫，话问得很直：",
         "en": "He emailed Jeff at once, in very direct terms:",
-        "start": 770.82,
-        "end": 774.03
+        "start": 783.79,
+        "end": 787.02
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21526,8 +21525,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「我们为了替苹果做二十纳米，投资了一百多亿美元的厂房设备。这些厂房和设备，大部分都能用在十六纳米上。现在，你不要我们的十六纳米，你要我们怎么办？」",
         "en": "\"We invested more than ten billion dollars in plants and equipment to make twenty nanometers for Apple. Most of those plants and equipment can be used for sixteen nanometers. Now, if you don't want our sixteen nanometers, what do you expect us to do?\"",
-        "start": 774.03,
-        "end": 788.69
+        "start": 787.02,
+        "end": 801.64
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21535,8 +21534,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这封电邮，字里行间都是急。可急归急，张忠谋没有失态——他把话说透了，把账摆明了，剩下的，交给对方的判断。",
         "en": "The email was urgent between the lines. But urgent as he was, Morris Chang did not lose his composure — he said it plainly, laid out the accounts, and left the rest to the other side's judgment.",
-        "start": 788.69,
-        "end": 799.13
+        "start": 801.64,
+        "end": 812.85
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21544,8 +21543,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 799.13,
-        "end": 801.34
+        "start": 812.85,
+        "end": 815.22
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21553,8 +21552,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "杰夫回电，让他放心。二○一三年八月二十七日，杰夫亲自飞到新竹解释：三星跳过二十纳米、直攻十六纳米，所以苹果先买他们的；但一旦台积电的十六纳米能顺利供应，苹果就会用台积电的。",
         "en": "Jeff called back to set his mind at ease. On August 27, 2013, Jeff flew to Hsinchu in person to explain: Samsung had skipped twenty nanometers and gone straight for sixteen, so Apple would buy from them first — but the moment TSMC's sixteen nanometers could supply smoothly, Apple would use TSMC's.",
-        "start": 801.34,
-        "end": 818.6
+        "start": 815.22,
+        "end": 832.37
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21562,8 +21561,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 818.6,
-        "end": 819.81
+        "start": 832.37,
+        "end": 834.37
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21571,8 +21570,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "后来的事，果然如此。台积电也从这一次经验里，长出一个新做法：从此以后，同时开发「下一个半节点」和「下一个真正的节点」——半节点卖给急于尝鲜的客户，大节点留给真正的主战场。",
         "en": "And that is exactly how it turned out. From this experience, TSMC also grew a new practice: from then on, develop \"the next half-node\" and \"the next true node\" simultaneously — the half-node for customers eager to taste the new, and the full node reserved for the real main battleground.",
-        "start": 819.81,
-        "end": 836.87
+        "start": 834.37,
+        "end": 851.03
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21580,8 +21579,8 @@ window.EPISODES_DATA = [
         "speaker": "平行时刻 · 时间胶囊",
         "zh": "【平行时刻 · 时间胶囊】",
         "en": "[Main narrator, time capsule]",
-        "start": 836.87,
-        "end": 839.48
+        "start": 851.03,
+        "end": 853.77
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21589,8 +21588,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他这一年：二○一○年，苹果来敲门，台积电迎来史上最挑剔的客户。",
         "en": "His year: 2010 — Apple comes knocking, and TSMC gains its most demanding customer in history.",
-        "start": 839.48,
-        "end": 845.71
+        "start": 853.77,
+        "end": 859.88
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21598,8 +21597,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "世界这一年：iPhone 引爆移动革命，苹果与三星，从盟友走向决裂。",
         "en": "The world's year: the iPhone ignites the mobile revolution, and Apple and Samsung go from allies to rivals.",
-        "start": 845.71,
-        "end": 852.53
+        "start": 859.88,
+        "end": 866.73
       },
       {
         "secZh": "第四幕 · 十六纳米的惊险",
@@ -21607,8 +21606,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "同一条时间线——世界在为一个手机厮杀，他在为一部手机建厂。",
         "en": "One timeline — the world was fighting over a phone; he was building factories for a phone.",
-        "start": 852.53,
-        "end": 858.35
+        "start": 866.73,
+        "end": 872.97
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21616,8 +21615,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○二四年二月，杰夫·威廉斯专程来看张忠谋。",
         "en": "In February 2024, Jeff Williams made a special trip to see Morris Chang.",
-        "start": 858.35,
-        "end": 862.77
+        "start": 872.97,
+        "end": 878.4
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21625,8 +21624,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 862.77,
-        "end": 863.98
+        "start": 878.4,
+        "end": 880.4
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21634,8 +21633,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "距离二○一○年他做张家的「不速之客」，已经过去十三年多了。两个人在张忠谋办公室楼上的餐厅，一起吃了顿广东点心。临别，杰夫说了一句让张忠谋窝心的话：",
         "en": "Thirteen years had passed since the night he had been the \"uninvited guest\" at the Chang home. The two men shared a meal of Cantonese dim sum at the restaurant upstairs from Morris Chang's office. As they parted, Jeff said something that warmed Morris Chang's heart:",
-        "start": 863.98,
-        "end": 878.63
+        "start": 880.4,
+        "end": 894.37
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21643,8 +21642,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「台积电，是苹果非常少数的、最好的伙伴之一。」",
         "en": "\"TSMC is one of the very few best partners Apple has.\"",
-        "start": 878.63,
-        "end": 883.25
+        "start": 894.37,
+        "end": 898.81
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21652,8 +21651,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这十几年间，苹果的 A8 芯片，在二○一四年，由台积电的二十纳米制程造了出来——那是台积电第一次，接过苹果处理器的大单，也从此取代三星，成了苹果芯片最主要的制造商。到了二○一六年以后，苹果更是把处理器，独家交给了台积电。",
         "en": "In those dozen-plus years, Apple's A8 chip was built in 2014 on TSMC's twenty-nanometer process — the first time TSMC took on Apple's processor orders, and from then on, TSMC replaced Samsung as the main manufacturer of Apple's chips. By 2016 and after, Apple went further and gave its processors to TSMC exclusively.",
-        "start": 883.25,
-        "end": 905.34
+        "start": 898.81,
+        "end": 920.19
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21661,8 +21660,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 905.34,
-        "end": 907.54
+        "start": 920.19,
+        "end": 922.56
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21670,8 +21669,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "从一扇敲不开的门，到「最好的伙伴」，中间隔着一次暂停、一顿午餐、一半的承诺，和一场十六纳米的惊险。",
         "en": "From a door that would not open, to \"one of the very few best partners\" — between them lay a pause, a lunch, a half-commitment, and a sixteen-nanometer thriller.",
-        "start": 907.54,
-        "end": 917.38
+        "start": 922.56,
+        "end": 932.03
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21679,8 +21678,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 917.38,
-        "end": 918.59
+        "start": 932.03,
+        "end": 934.03
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21688,8 +21687,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "苹果的挑剔，逼出了台积电没有的东西：同时推进半节点与大节点的能力，在客户能接受的价格里赚出利润的本事，还有那份「只承诺一半、却一定兑现」的信誉。",
         "en": "Apple's exacting demands forced out things TSMC had not had before: the ability to push a half-node and a full node forward at the same time; the skill of earning a profit within the price a customer can accept; and the reputation of \"committing to only half, but always delivering.\"",
-        "start": 918.59,
-        "end": 933.04
+        "start": 934.03,
+        "end": 947.85
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21697,8 +21696,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "有人说，苹果是最难伺候的客户。可张忠谋心里明白，正是这样的客户，才值得用整个公司去磨——它磨掉的，是台积电的侥幸；磨出来的，是别人偷不走的能力。",
         "en": "Some say Apple is the most difficult customer to serve. But Morris Chang knew in his heart that it is exactly such a customer that is worth grinding the whole company against — it grinds away TSMC's luck, and grinds out abilities no one else can steal.",
-        "start": 933.04,
-        "end": 947.5
+        "start": 947.85,
+        "end": 962.82
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21706,8 +21705,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "从那一夜门铃响起，到后来苹果把处理器独家交给台积电，中间隔了整整四年。这四年，台积电用二十纳米、十六纳米，一关一关地过，才把自己从「供应商」，磨成了「伙伴」。",
         "en": "From the night the doorbell rang to the day Apple gave its processors to TSMC exclusively, a full four years passed. In those four years, TSMC cleared one hurdle after another — twenty nanometers, sixteen nanometers — before it ground itself from a \"supplier\" into a \"partner.\"",
-        "start": 947.5,
-        "end": 963.36
+        "start": 962.82,
+        "end": 978.02
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21715,8 +21714,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 963.36,
-        "end": 965.57
+        "start": 978.02,
+        "end": 980.38
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21724,8 +21723,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "最挑剔的客户，是最好的磨刀石——它逼你，长出别人没有的能力。",
         "en": "The most demanding customer is the best whetstone — it forces you to grow abilities no one else has.",
-        "start": 965.57,
-        "end": 971.59
+        "start": 980.38,
+        "end": 986.89
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21733,8 +21732,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 971.59,
-        "end": 972.8
+        "start": 986.89,
+        "end": 988.88
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -21742,8 +21741,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，就是苹果来敲门。",
         "en": "That is Apple coming knocking.",
-        "start": 972.8,
-        "end": 974.8
+        "start": 988.88,
+        "end": 991.22
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -21751,8 +21750,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1. **苹果与三星的决裂**：苹果智能手机由三星代工逻辑芯片，但三星 2009 后宣布自做智能手机，从供应商变最大竞争者——这是台积电的机会窗口。（英文：Apple–Samsung split）",
         "en": "1. **The Apple–Samsung split**: Apple's smartphone chips were made by Samsung, but after 2009 Samsung announced it would make its own smartphones, turning from Apple's key supplier into its biggest rival — opening the window for TSMC.",
-        "start": 974.8,
-        "end": 994.48
+        "start": 991.22,
+        "end": 1010.28
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -21760,8 +21759,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "2. **20nm 与「半节点」**：半导体制程中 20nm 是 28nm 与 16nm 之间的「半节点」；苹果 2014 年 A8 芯片由台积电 20nm 代工，台积电从此取代三星成为苹果处理器制造商。（英文：20nm half-node, A8 chip）",
         "en": "2. **20nm and the \"half-node\"**: In semiconductor processes, 20nm is the \"half-node\" between 28nm and 16nm; Apple's A8 chip in 2014 was made by TSMC on 20nm, and TSMC replaced Samsung as Apple's processor maker.",
-        "start": 994.48,
-        "end": 1020.58
+        "start": 1010.28,
+        "end": 1030.9
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -21769,8 +21768,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "3. **「他们不擅做代工」**：2011 库克对张忠谋评价英特尔的原话，点出代工的本质——在客户能接受的价格里赚出合理利润。（英文：Tim Cook, \"they don't know how to do foundry\"）",
         "en": "3. **\"They don't know how to do foundry\"**: Tim Cook's words to Morris Chang about Intel in 2011, capturing the essence of foundry — earning a reasonable profit within the price a customer can accept.",
-        "start": 1020.58,
-        "end": 1043.27
+        "start": 1030.9,
+        "end": 1049.62
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -21778,8 +21777,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "4. **只承诺一半 + 举债 71 亿美元**：台积电对苹果需求只承诺约一半，仍须 2011–13 举债 71 亿美元（1662 亿新台币 + 15 亿美元）扩产。（英文：prudent capex, $7.1B debt）",
         "en": "4. **Half the commitment, $7.1B in debt**: TSMC committed to only about half of Apple's projected demand, and still had to raise $7.1 billion in debt across 2011–13 (NT$166.2B plus $1.5B) to expand capacity.",
-        "start": 1043.27,
-        "end": 1065.95
+        "start": 1049.62,
+        "end": 1067.06
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -21787,8 +21786,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "5. **16nm 的惊险**：2013 苹果一度决定 16nm 向三星购买，2013.8.27 杰夫亲来解释；台积电自此同时开发半节点与大节点。（英文：16nm, simultaneous half-node development）",
         "en": "5. **The 16nm thriller**: In 2013, Apple briefly decided to buy 16nm from Samsung; Jeff Williams flew to Hsinchu on August 27, 2013, to explain. TSMC has since developed half-nodes and full nodes simultaneously.",
-        "start": 1065.95,
-        "end": 1089.65
+        "start": 1067.06,
+        "end": 1088.51
       },
       {
         "secZh": "下集预告",
@@ -21796,8 +21795,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "苹果这扇门，敲开了台积电与全球最强消费电子帝国的结盟。",
         "en": "The door Apple opened brought TSMC into alliance with the world's most powerful consumer-electronics empire.",
-        "start": 1089.65,
-        "end": 1095.07
+        "start": 1088.51,
+        "end": 1095.24
       },
       {
         "secZh": "下集预告",
@@ -21805,8 +21804,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可全球的制程军备竞赛，才刚刚开始——十纳米、七纳米，还有那台价值连城的 EUV 光刻机。",
         "en": "But the global race of process nodes was only beginning — ten nanometers, seven nanometers, and that astronomically expensive EUV lithography machine.",
-        "start": 1095.07,
-        "end": 1103.9
+        "start": 1095.24,
+        "end": 1104.03
       },
       {
         "secZh": "下集预告",
@@ -21814,7 +21813,7 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "下一集，《摩尔定律的守卫者》。",
         "en": "Next episode: \"The Guardians of Moore's Law.\"",
-        "start": 1103.9,
+        "start": 1104.03,
         "end": 1106.91
       }
     ]
@@ -21826,8 +21825,8 @@ window.EPISODES_DATA = [
     "summary": "摩尔定律的守卫者 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第16期-摩尔定律的守卫者/中文音频.mp3",
     "audioEn": "./03-剧集/第16期-摩尔定律的守卫者/英文音频.mp3",
-    "durationZh": 1083.86,
-    "durationEn": 1124.22,
+    "durationZh": 1083.864,
+    "durationEn": 1124.224,
     "cues": [
       {
         "secZh": "开场",
@@ -21836,7 +21835,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：无尘室里，机械臂移动的嗡鸣声，细密而持续，像一首没有尽头的进行曲】",
         "en": "[SFX: the hum of robotic arms moving in a cleanroom, fine and unceasing, like a march that never ends]",
         "start": 0.0,
-        "end": 6.15
+        "end": 7.81
       },
       {
         "secZh": "开场",
@@ -21844,8 +21843,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一七年，台北，新竹科学园区。",
         "en": "The year 2017. Hsinchu Science Park, Taipei.",
-        "start": 6.15,
-        "end": 8.8
+        "start": 7.81,
+        "end": 11.01
       },
       {
         "secZh": "开场",
@@ -21853,8 +21852,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 8.8,
-        "end": 9.8
+        "start": 11.01,
+        "end": 12.93
       },
       {
         "secZh": "开场",
@@ -21862,8 +21861,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电的总部里，一份刚刚出炉的数据，让所有人屏住了呼吸。",
         "en": "Inside TSMC's headquarters, a freshly released set of numbers made everyone hold their breath.",
-        "start": 9.8,
-        "end": 14.45
+        "start": 12.93,
+        "end": 18.42
       },
       {
         "secZh": "开场",
@@ -21871,8 +21870,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一年，台积电的营收，逼近了新台币一兆元；营业净利，超过三千八百亿元。九年之间，它把营收，从三千亿，一路做到了接近一兆——翻了整整三倍多。",
         "en": "That year, TSMC's revenue approached one trillion New Taiwan dollars, and its operating profit exceeded three hundred and eighty billion. In nine years, it had taken its revenue from three hundred billion all the way up to nearly one trillion — more than triple.",
-        "start": 14.45,
-        "end": 25.91
+        "start": 18.42,
+        "end": 32.32
       },
       {
         "secZh": "开场",
@@ -21880,8 +21879,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 25.91,
-        "end": 27.74
+        "start": 32.32,
+        "end": 34.59
       },
       {
         "secZh": "开场",
@@ -21889,8 +21888,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而比数字更惊人的，是另一件事：它手里，已经握着下一代制程——七纳米——的钥匙。",
         "en": "And more astonishing than the numbers was something else: it already held the key to the next-generation process — seven nanometers.",
-        "start": 27.74,
-        "end": 34.22
+        "start": 34.59,
+        "end": 42.99
       },
       {
         "secZh": "开场",
@@ -21898,8 +21897,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 34.22,
-        "end": 35.22
+        "start": 42.99,
+        "end": 44.91
       },
       {
         "secZh": "开场",
@@ -21907,8 +21906,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "七纳米，是那一年，全世界最凶险、也最值钱的一道技术关隘。全世界的芯片厂，没有第二家，能在这个时间点，把它做成。",
         "en": "Seven nanometers. That year, it was the most dangerous and most valuable technical gate in the world. Not one other chipmaker on earth could pull it off at that moment.",
-        "start": 35.22,
-        "end": 44.35
+        "start": 44.91,
+        "end": 55.87
       },
       {
         "secZh": "开场",
@@ -21916,8 +21915,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "要听懂七纳米的分量，得先认识一条定律。",
         "en": "To understand the weight of seven nanometers, you first have to know a law.",
-        "start": 44.35,
-        "end": 47.51
+        "start": 55.87,
+        "end": 59.7
       },
       {
         "secZh": "开场",
@@ -21925,8 +21924,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 47.51,
-        "end": 49.33
+        "start": 59.7,
+        "end": 61.97
       },
       {
         "secZh": "开场",
@@ -21934,8 +21933,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一九六五年，英特尔的工程师戈登·摩尔，在一本杂志上写下一条观察：芯片上的晶体管数量，大约每两年，翻一番。",
         "en": "In 1965, an Intel engineer named Gordon Moore wrote down an observation in a magazine: the number of transistors on a chip doubles roughly every two years.",
-        "start": 49.33,
-        "end": 57.97
+        "start": 61.97,
+        "end": 71.86
       },
       {
         "secZh": "开场",
@@ -21943,8 +21942,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 57.97,
-        "end": 58.97
+        "start": 71.86,
+        "end": 73.78
       },
       {
         "secZh": "开场",
@@ -21952,8 +21951,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这条观察，后来有了一个名字——摩尔定律。",
         "en": "That observation later got a name — Moore's Law.",
-        "start": 58.97,
-        "end": 62.29
+        "start": 73.78,
+        "end": 78.17
       },
       {
         "secZh": "开场",
@@ -21961,8 +21960,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "它不是什么自然规律，它是一份约定——一份整个半导体行业，用五十年时间，共同兑现的约定。",
         "en": "It is not a law of nature. It is a promise — a promise that the entire semiconductor industry spent fifty years keeping together.",
-        "start": 62.29,
-        "end": 69.43
+        "start": 78.17,
+        "end": 86.77
       },
       {
         "secZh": "开场",
@@ -21970,8 +21969,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "为了兑现这份约定，台积电，已经追了整整十年。",
         "en": "To keep that promise, TSMC had been chasing for a full decade.",
-        "start": 69.43,
-        "end": 73.09
+        "start": 86.77,
+        "end": 91.2
       },
       {
         "secZh": "开场",
@@ -21979,8 +21978,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 73.09,
-        "end": 74.92
+        "start": 91.2,
+        "end": 93.47
       },
       {
         "secZh": "开场",
@@ -21988,8 +21987,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而驱动它一路狂奔的，正是这条，正在慢慢变老的定律。",
         "en": "And what drove it onward was exactly this law, slowly growing old.",
-        "start": 74.92,
-        "end": 79.07
+        "start": 93.47,
+        "end": 98.44
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -21997,8 +21996,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "要讲清楚这场追逐，得先从一个人说起。",
         "en": "To tell this chase properly, you have to begin with one person.",
-        "start": 79.07,
-        "end": 82.06
+        "start": 98.44,
+        "end": 103.3
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22006,8 +22005,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 82.06,
-        "end": 83.05
+        "start": 103.3,
+        "end": 105.21
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22015,8 +22014,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一三年十月三十一日，台积电的研发主将蒋尚义，正式退休。",
         "en": "On October 31, 2013, TSMC's R&D general Chiang Shang-yi formally retired.",
-        "start": 83.05,
-        "end": 87.87
+        "start": 105.21,
+        "end": 110.7
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22024,8 +22023,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个人，一九九七年加入台积电，一进来，就是台积电的研发主管——也是张忠谋授以「技术领先」使命的、第一任研发主管。",
         "en": "This man joined TSMC in 1997, and from day one he was TSMC's head of R&D — the first R&D chief to whom Morris Chang entrusted the mission of \"technology leadership.\"",
-        "start": 87.87,
-        "end": 97.17
+        "start": 110.7,
+        "end": 121.32
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22033,8 +22032,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 97.17,
-        "end": 99.0
+        "start": 121.32,
+        "end": 123.59
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22042,8 +22041,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○○六年，蔡力行接任 CEO 那年，蒋尚义选择退休离开；二○○九年，张忠谋重掌 CEO，又在一顿牛肉面里，亲自把他请了回来。",
         "en": "In 2006, the year Rick Tsai took over as CEO, Chiang Shang-yi chose to retire and leave. In 2009, when Morris Chang returned as CEO, he personally brought him back over a bowl of beef noodles.",
-        "start": 99.0,
-        "end": 109.47
+        "start": 123.59,
+        "end": 134.34
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22051,8 +22050,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 109.47,
-        "end": 110.46
+        "start": 134.34,
+        "end": 136.26
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22060,8 +22059,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那一顿牛肉面，吃的是情分，担的是责任。因为四十纳米的良率危机，正卡在台积电的喉咙上。",
         "en": "That bowl of beef noodles was about loyalty and about duty — because a forty-nanometer yield crisis was gripping TSMC's throat.",
-        "start": 110.46,
-        "end": 117.44
+        "start": 136.26,
+        "end": 144.69
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22069,8 +22068,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 117.44,
-        "end": 119.27
+        "start": 144.69,
+        "end": 146.96
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22078,8 +22077,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那场危机，说来凶险——二○○九年的夏天，台积电的四十纳米刚刚量产，良率却低得吓人，一度只有两三成。客户等米下锅，订单积压成山。",
         "en": "The crisis was fierce. In the summer of 2009, TSMC's forty nanometers had just entered mass production, but the yield was frighteningly low — at one point only twenty or thirty percent. Customers were waiting with empty hands, and orders piled into mountains.",
-        "start": 119.27,
-        "end": 129.73
+        "start": 146.96,
+        "end": 159.29
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22087,8 +22086,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 129.73,
-        "end": 130.73
+        "start": 159.29,
+        "end": 161.21
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22096,8 +22095,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "是蒋尚义回来，把一支队伍重新组织起来，日夜扑在产线上，才把良率，一点点拉了上来。",
         "en": "It was Chiang Shang-yi who came back, reorganized a team, and threw himself onto the production line day and night until the yield was pulled up, bit by bit.",
-        "start": 130.73,
-        "end": 137.37
+        "start": 161.21,
+        "end": 168.97
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22105,8 +22104,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二十八纳米那场仗，更是台积电真正把英特尔、三星甩开的分水岭——高通、英伟达、苹果，抢着要产能，而产能，只有台积电一家有。",
         "en": "The twenty-eight-nanometer battle was the true watershed that left Intel and Samsung behind — Qualcomm, Nvidia, and Apple all fought for capacity, and only TSMC had any to give.",
-        "start": 137.37,
-        "end": 147.34
+        "start": 168.97,
+        "end": 180.89
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22114,8 +22113,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 147.34,
-        "end": 149.17
+        "start": 180.89,
+        "end": 183.16
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22123,8 +22122,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可就在台积电正要向更深处进发的这一年，他到了台积电规定的退休年纪，六十七岁。",
         "en": "But just as TSMC was about to push still deeper, he reached the company's mandatory retirement age: sixty-seven.",
-        "start": 149.17,
-        "end": 155.48
+        "start": 183.16,
+        "end": 190.41
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22132,8 +22131,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 155.48,
-        "end": 156.48
+        "start": 190.41,
+        "end": 192.33
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22141,8 +22140,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那场退休晚会，办得很温馨。张忠谋亲手给了他一块牌子，上面写着四个字——「功在台积」。",
         "en": "The retirement dinner was warm. Morris Chang personally handed him a plaque bearing four characters — \"Merit to TSMC.\"",
-        "start": 156.48,
-        "end": 163.45
+        "start": 192.33,
+        "end": 200.72
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22150,8 +22149,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 163.45,
-        "end": 165.28
+        "start": 200.72,
+        "end": 202.99
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22159,8 +22158,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在张忠谋的记忆里，这四个字，是他给过的、唯一一块带有这样赞词的牌子。",
         "en": "In Morris Chang's memory, those four characters were the only plaque he ever gave with such praise.",
-        "start": 165.28,
-        "end": 170.93
+        "start": 202.99,
+        "end": 209.62
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22168,8 +22167,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 170.93,
-        "end": 171.92
+        "start": 209.62,
+        "end": 211.53
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22177,8 +22176,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "唯一，意味着什么？",
         "en": "The only one. What does that mean?",
-        "start": 171.92,
-        "end": 173.42
+        "start": 211.53,
+        "end": 213.59
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22186,8 +22185,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "意味着在他心里，台积电的技术江山，有一半，是这个人带着弟兄们，一寸一寸打出来的。蒋尚义是那种又聪明、又有技术方向感、又有领导力的研发人才——只是，他也极其敏感。张忠谋最敬重的，恰恰是这一点：一个懂技术的人，把技术的尊严，看得比什么都重。",
         "en": "It means that in his heart, half of TSMC's technical empire was carved out, inch by inch, by this man and his brothers. Chiang Shang-yi was the kind of R&D talent who was brilliant, with a strong sense of technical direction and real leadership — only, he was also extremely sensitive. And that was exactly what Morris Chang respected most: a man who understood technology, and held its dignity above all else.",
-        "start": 173.42,
-        "end": 193.02
+        "start": 213.59,
+        "end": 236.96
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22195,8 +22194,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "But a man may retire; the war goes on. Should TSMC keep chasing Moore's Law?",
-        "start": 193.02,
-        "end": 196.13
+        "start": 236.96,
+        "end": 239.23
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22204,8 +22203,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "可人退休了，仗还要打。",
         "en": "[Main narrator, slower]",
-        "start": 196.13,
-        "end": 197.96
+        "start": 239.23,
+        "end": 241.64
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22213,8 +22212,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电还要不要追摩尔定律？",
         "en": "Morris Chang did not hesitate.",
-        "start": 197.96,
-        "end": 200.12
+        "start": 241.64,
+        "end": 244.33
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
@@ -22222,1088 +22221,1070 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "Because the answer had been written on another piece of paper three years earlier.",
-        "start": 200.12,
-        "end": 203.03
+        "start": 244.33,
+        "end": 246.25
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
-        "secEn": "Act Two · Eight Percent for R&D",
+        "secEn": "Act One · A Retirement Plaque",
         "speaker": "",
         "zh": "张忠谋没有犹豫。",
-        "en": "That piece of paper held a number.",
-        "start": 203.03,
-        "end": 204.48
+        "en": "",
+        "start": 246.25,
+        "end": 248.05
       },
       {
         "secZh": "第一幕 · 一张退休的牌子",
-        "secEn": "Act Two · Eight Percent for R&D",
-        "speaker": "Main narrator",
+        "secEn": "Act One · A Retirement Plaque",
+        "speaker": "",
         "zh": "因为答案，早在三年前，就写在了另一张纸上。",
-        "en": "[Main narrator]",
-        "start": 204.48,
-        "end": 207.97
+        "en": "",
+        "start": 248.05,
+        "end": 252.31
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "那张纸，是一串数字。",
-        "en": "As early as 2010, Morris Chang laid down an iron rule: TSMC would put eight percent of its revenue into R&D every year.",
-        "start": 207.97,
-        "end": 212.74
+        "en": "That piece of paper held a number.",
+        "start": 252.31,
+        "end": 255.76
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "That number was something he had wanted — and failed to get — back in his Texas Instruments days.",
-        "start": 212.74,
-        "end": 216.69
+        "en": "[Main narrator]",
+        "start": 255.76,
+        "end": 257.68
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "早在二○一○年，张忠谋就定下一条铁律：台积电每年，要把营收的百分之八，投进研发。",
-        "en": "[Main narrator, slower]",
-        "start": 216.69,
-        "end": 223.33
+        "en": "As early as 2010, Morris Chang laid down an iron rule: TSMC would put eight percent of its revenue into R&D every year.",
+        "start": 257.68,
+        "end": 265.21
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "这个数字，是他年轻时在德州仪器，想做、却没做到的。",
-        "en": "He had proposed raising R&D spending from four point seven percent to five point five percent. His superiors rejected it, again and again, whittling it down.",
-        "start": 223.33,
-        "end": 228.73
+        "en": "That number was something he had wanted — and failed to get — back in his Texas Instruments days.",
+        "start": 265.21,
+        "end": 270.25
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 228.73,
-        "end": 230.56
+        "en": "[Main narrator, slower]",
+        "start": 270.25,
+        "end": 272.52
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "那时他提议，把研发经费，从百分之四点七，提到百分之五点五。结果，被上司一而再、再而三地，打了折扣。",
-        "en": "It was one of the most frustrating things of his younger years. Nothing torments an engineer-turned-manager more than watching money fail to flow into the place it most needs to go.",
-        "start": 230.56,
-        "end": 238.7
+        "en": "He had proposed raising R&D spending from four point seven percent to five point five percent. His superiors rejected it, again and again, whittling it down.",
+        "start": 272.52,
+        "end": 282.42
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Now, at TSMC, he had the final say. He wrote down eight percent, and no one dared cut it.",
-        "start": 238.7,
-        "end": 242.64
+        "en": "[Main narrator]",
+        "start": 282.42,
+        "end": 284.34
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "那是他年轻岁月里，最憋屈的几件事之一。一个工程师出身的经理人，最痛心的，就是看着钱，流不进最该流进去的地方。",
-        "en": "[Main narrator, slower]",
-        "start": 242.64,
-        "end": 251.61
+        "en": "It was one of the most frustrating things of his younger years. Nothing torments an engineer-turned-manager more than watching money fail to flow into the place it most needs to go.",
+        "start": 284.34,
+        "end": 294.97
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "如今，在台积电，他自己说了算。他随手写下百分之八，就再也没有人，敢打折扣。",
-        "en": "Eight percent. What does that even mean?",
-        "start": 251.61,
-        "end": 257.76
+        "en": "Now, at TSMC, he had the final say. He wrote down eight percent, and no one dared cut it.",
+        "start": 294.97,
+        "end": 302.6
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 257.76,
-        "end": 259.59
+        "en": "[Main narrator, slower]",
+        "start": 302.6,
+        "end": 304.87
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "百分之八，是个什么概念？",
-        "en": "By 2023, TSMC's annual R&D spending reached five point six billion US dollars — more than MIT's entire annual budget.",
-        "start": 259.59,
-        "end": 263.74
+        "en": "Eight percent. What does that even mean?",
+        "start": 304.87,
+        "end": 307.46
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Not one cent of that money went into anything \"visible.\" It went into lithography machines that cost an obscene fortune, and into process nodes that got harder to nudge forward by a single inch, generation after generation.",
-        "start": 263.74,
-        "end": 271.42
+        "en": "[Main narrator]",
+        "start": 307.46,
+        "end": 309.38
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "到了二○二三年，台积电一年的研发经费，是五十六亿美元——比麻省理工学院一整年的总经费，还要多。",
-        "en": "[Main narrator, slower]",
-        "start": 271.42,
-        "end": 279.23
+        "en": "By 2023, TSMC's annual R&D spending reached five point six billion US dollars — more than MIT's entire annual budget.",
+        "start": 309.38,
+        "end": 318.51
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "这笔钱，没有一分，是花在「看得见」的地方。它砸进去的，是一台台昂贵到离谱的光刻机，是一代又一代、越来越难往前挪一寸的制程。",
-        "en": "From forty nanometers, to twenty-eight, twenty, sixteen, twelve, ten — in nine years TSMC pushed them out, one generation after another.",
-        "start": 279.23,
-        "end": 289.36
+        "en": "Not one cent of that money went into anything \"visible.\" It went into lithography machines that cost an obscene fortune, and into process nodes that got harder to nudge forward by a single inch, generation after generation.",
+        "start": 318.51,
+        "end": 330.1
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 289.36,
-        "end": 291.19
+        "en": "[Main narrator, slower]",
+        "start": 330.1,
+        "end": 332.37
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "从四十纳米，到二十八、二十、十六、十二、十纳米——台积电在九年里，一代一代地推。",
-        "en": "How hard was the pushing? Morris Chang admitted it himself: the essence of developing new technology is that problems keep appearing, and you have to press them down, over and over.",
-        "start": 291.19,
-        "end": 297.83
+        "en": "From forty nanometers, to twenty-eight, twenty, sixteen, twelve, ten — in nine years TSMC pushed them out, one generation after another.",
+        "start": 332.37,
+        "end": 340.68
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "And if you can't press them down? Then you bring back the man who knows technology best, and let him press again.",
-        "start": 297.83,
-        "end": 302.4
+        "en": "[Main narrator]",
+        "start": 340.68,
+        "end": 342.6
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "推得有多难？张忠谋自己都承认：新技术的开发，本质，就是问题不断地出现，而你，必须一遍一遍地，把它摁下去。",
-        "en": "What did that eight percent actually buy?",
-        "start": 302.4,
-        "end": 311.04
+        "en": "How hard was the pushing? Morris Chang admitted it himself: the essence of developing new technology is that problems keep appearing, and you have to press them down, over and over.",
+        "start": 342.6,
+        "end": 353.15
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "摁不下去怎么办？那就把最懂技术的人，再请回来，再摁一次。",
-        "en": "[Main narrator, slower]",
-        "start": 311.04,
-        "end": 315.69
+        "en": "And if you can't press them down? Then you bring back the man who knows technology best, and let him press again.",
+        "start": 353.15,
+        "end": 359.03
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "这百分之八，到底买来了什么？",
-        "en": "In 2012, TSMC's twenty-eight nanometers had just entered mass production, and chip design companies around the world swarmed in at almost the same instant.",
-        "start": 315.69,
-        "end": 320.67
+        "en": "What did that eight percent actually buy?",
+        "start": 359.03,
+        "end": 361.98
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 320.67,
-        "end": 322.5
+        "en": "[Main narrator, slower]",
+        "start": 361.98,
+        "end": 364.25
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "二○一二年，台积电的二十八纳米刚刚量产，全球的芯片设计公司，几乎在同一时间，蜂拥而至。",
-        "en": "Qualcomm's orders went from forty thousand wafers a month, to a hundred and twenty thousand, then to three hundred thousand. Qualcomm's own chairman and president flew to Hsinchu in person to tell Morris Chang: we just want more chips, and we are willing to pay a higher price.",
-        "start": 322.5,
-        "end": 332.47
+        "en": "In 2012, TSMC's twenty-eight nanometers had just entered mass production, and chip design companies around the world swarmed in at almost the same instant.",
+        "start": 364.25,
+        "end": 372.37
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 332.47,
-        "end": 333.46
+        "en": "[Main narrator]",
+        "start": 372.37,
+        "end": 374.28
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "高通的订单，从一个月四万片，一路涨到十二万片，再涨到三十万片。高通自己的董事长和总裁，专程飞到新竹，对张忠谋说：我们只是要多点芯片，我们愿意付更高的价钱。",
-        "en": "That is the return on eight percent for R&D — when Moore's Law has pushed everyone to the edge of a cliff, only the one holding the latest process has the right to stand on that cliff and wait for customers to line up.",
-        "start": 333.46,
-        "end": 346.26
+        "en": "Qualcomm's orders went from forty thousand wafers a month, to a hundred and twenty thousand, then to three hundred thousand. Qualcomm's own chairman and president flew to Hsinchu in person to tell Morris Chang: we just want more chips, and we are willing to pay a higher price.",
+        "start": 374.28,
+        "end": 389.32
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 346.26,
-        "end": 348.08
+        "en": "[Main narrator, slower]",
+        "start": 389.32,
+        "end": 391.59
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
         "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "",
         "zh": "这就是研发百分之八的回报——当摩尔定律把所有人都逼到悬崖边上时，只有手里有最新制程的人，才有资格站在悬崖上，等客户排队。",
-        "en": "At the end of Moore's Law stands the one still willing to pay, and still willing to run.",
-        "start": 348.08,
-        "end": 358.05
+        "en": "That is the return on eight percent for R&D — when Moore's Law has pushed everyone to the edge of a cliff, only the one holding the latest process has the right to stand on that cliff and wait for customers to line up.",
+        "start": 391.59,
+        "end": 403.19
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
-        "secEn": "Act Three · A Costlier and Costlier Arms Race",
+        "secEn": "Act Two · Eight Percent for R&D",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "But not everyone was willing to keep paying.",
-        "start": 358.05,
-        "end": 359.71
+        "en": "[Main narrator]",
+        "start": 403.19,
+        "end": 405.1
       },
       {
         "secZh": "第二幕 · 研发的百分之八",
-        "secEn": "Act Three · A Costlier and Costlier Arms Race",
-        "speaker": "Main narrator",
+        "secEn": "Act Two · Eight Percent for R&D",
+        "speaker": "",
         "zh": "摩尔定律的尽头，站着的，是最后还愿意掏钱、愿意奔跑的人。",
-        "en": "[Main narrator]",
-        "start": 359.71,
-        "end": 364.36
+        "en": "At the end of Moore's Law stands the one still willing to pay, and still willing to run.",
+        "start": 405.1,
+        "end": 410.67
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "可这笔钱，不是谁都愿意继续掏。",
-        "en": "After 2010, the semiconductor industry entered a brutal arms race. Every step down the process ladder sent costs up another notch.",
-        "start": 364.36,
-        "end": 368.72
+        "en": "But not everyone was willing to keep paying.",
+        "start": 410.67,
+        "end": 415.01
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "The lithography machine was the most expensive ticket in this race.",
-        "start": 368.72,
-        "end": 371.01
+        "en": "[Main narrator]",
+        "start": 415.01,
+        "end": 416.92
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "二○一○年以后，半导体行业，进入了一场残酷的军备竞赛。制程每往下走一代，成本就往上翻一截。",
-        "en": "[Main narrator, slower]",
-        "start": 371.01,
-        "end": 378.48
+        "en": "After 2010, the semiconductor industry entered a brutal arms race. Every step down the process ladder sent costs up another notch.",
+        "start": 416.92,
+        "end": 425.53
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "光刻机，是这场竞赛里，最贵的那张门票。",
-        "en": "ASML of the Netherlands sells one of its most advanced EUV — extreme ultraviolet — machines for over a hundred million euros, and it weighs like a railway car. Moving one takes several containers and more than a dozen Boeing cargo flights, just to get it from Europe into a Hsinchu cleanroom.",
-        "start": 378.48,
-        "end": 389.28
+        "en": "The lithography machine was the most expensive ticket in this race.",
+        "start": 425.53,
+        "end": 429.44
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 389.28,
-        "end": 391.1
+        "en": "[Main narrator, slower]",
+        "start": 429.44,
+        "end": 431.71
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "荷兰的艾司摩尔，一台最先进的 EUV——极紫外光刻机——要卖上亿欧元，重得像一节火车头。运一趟，要动用好几个集装箱、十几架波音货机，才能把它从欧洲，搬到新竹的无尘室里。",
-        "en": "And yet you cannot do without it. Because by the seven-nanometer generation, the old way of lithography had hit a physical wall.",
-        "start": 391.1,
-        "end": 405.06
+        "en": "ASML of the Netherlands sells one of its most advanced EUV — extreme ultraviolet — machines for over a hundred million euros, and it weighs like a railway car. Moving one takes several containers and more than a dozen Boeing cargo flights, just to get it from Europe into a Hsinchu cleanroom.",
+        "start": 431.71,
+        "end": 448.38
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "So the rivals who once stood shoulder to shoulder began to drop out, one by one.",
-        "start": 405.06,
-        "end": 408.38
+        "en": "[Main narrator]",
+        "start": 448.38,
+        "end": 450.3
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "可这么贵的机器，你还不能不用。因为到了七纳米这个世代，旧的那套光刻办法，已经顶到物理的墙了。",
-        "en": "[Main narrator, slower]",
-        "start": 408.38,
-        "end": 416.02
+        "en": "And yet you cannot do without it. Because by the seven-nanometer generation, the old way of lithography had hit a physical wall.",
+        "start": 450.3,
+        "end": 459.44
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "于是，曾经并肩的对手，开始一个一个，掉队了。",
-        "en": "Listen first to Intel's voice.",
-        "start": 416.02,
-        "end": 419.68
+        "en": "So the rivals who once stood shoulder to shoulder began to drop out, one by one.",
+        "start": 459.44,
+        "end": 463.95
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 419.68,
-        "end": 421.5
+        "en": "[Main narrator, slower]",
+        "start": 463.95,
+        "end": 466.22
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "先听英特尔的声音。",
-        "en": "This company was once the king of semiconductors. But what it believed in was a single chain — design, manufacture, and test all under one roof. When the world outsourced its manufacturing, it refused. When its proudest node, ten nanometers, was delayed again and again, and in April 2018 it announced yet another postponement of mass production, it suddenly found: it had neither enough customers to share the cost of that astronomically expensive factory, nor enough orders to amortize a generation of process development. And the lithography route it insisted on left it a full generation late to EUV.",
-        "start": 421.5,
-        "end": 442.06
+        "en": "Listen first to Intel's voice.",
+        "start": 466.22,
+        "end": 468.2
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 442.06,
-        "end": 443.06
+        "en": "[Main narrator]",
+        "start": 468.2,
+        "end": 470.12
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "这家公司，曾是半导体业的王。可它信奉的，是「自己设计、自己制造、自己封测」的一条龙。当全世界都把制造外包出去时，它不肯；当它最得意的十纳米，一延再延，到了二○一八年四月，又宣布量产再推迟时，它忽然发现：自己既没有足够的客户，来分担那座天价工厂的成本，也没有足够多的订单，来摊薄一代制程的投入。而它坚持的那条光刻路线，又让它在 EUV 上，迟到了整整一个世代。",
-        "en": "One step slow, every step slow.",
-        "start": 443.06,
-        "end": 472.79
+        "en": "This company was once the king of semiconductors. But what it believed in was a single chain — design, manufacture, and test all under one roof. When the world outsourced its manufacturing, it refused. When its proudest node, ten nanometers, was delayed again and again, and in April 2018 it announced yet another postponement of mass production, it suddenly found: it had neither enough customers to share the cost of that astronomically expensive factory, nor enough orders to amortize a generation of process development. And the lithography route it insisted on left it a full generation late to EUV.",
+        "start": 470.12,
+        "end": 503.76
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 472.79,
-        "end": 474.62
+        "en": "[Main narrator, slower]",
+        "start": 503.76,
+        "end": 506.03
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "一步慢，步步慢。",
-        "en": "Now Samsung's voice.",
-        "start": 474.62,
-        "end": 475.95
+        "en": "One step slow, every step slow.",
+        "start": 506.03,
+        "end": 507.92
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Samsung had ambition, and it had money. It rushed to be the first to trial-produce seven nanometers with EUV, hoping one bold gamble would pull TSMC down. But extreme ultraviolet lithography is brutally hard — thirteen-point-five-nanometer light, passing through mirror after mirror; the slightest deviation, and the yield collapses. Samsung won the title of \"first to try,\" yet was stopped at the gate of mass production by yield. Sometimes the one who sprints first is not the one who reaches the finish line.",
-        "start": 475.95,
-        "end": 493.18
+        "en": "[Main narrator]",
+        "start": 507.92,
+        "end": 509.83
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "再听三星的声音。",
-        "en": "[Main narrator, slower]",
-        "start": 493.18,
-        "end": 494.51
+        "en": "Now Samsung's voice.",
+        "start": 509.83,
+        "end": 511.64
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "三星有野心，也有钱。它抢着第一个用 EUV 试产七纳米，想用一场豪赌，把台积电拉下马。可极紫外光刻太难了——十三点五纳米的光，要穿过一面又一面镜子，稍有偏差，良率就崩。三星抢到了「第一个尝试」的名头，却在量产的门槛前，被良率挡了回来。有时候，抢跑的人，不一定先到终点。",
-        "en": "Last, GlobalFoundries' voice.",
-        "start": 494.51,
-        "end": 516.77
+        "en": "Samsung had ambition, and it had money. It rushed to be the first to trial-produce seven nanometers with EUV, hoping one bold gamble would pull TSMC down. But extreme ultraviolet lithography is brutally hard — thirteen-point-five-nanometer light, passing through mirror after mirror; the slightest deviation, and the yield collapses. Samsung won the title of \"first to try,\" yet was stopped at the gate of mass production by yield. Sometimes the one who sprints first is not the one who reaches the finish line.",
+        "start": 511.64,
+        "end": 537.72
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 516.77,
-        "end": 518.59
+        "en": "[Main narrator, slower]",
+        "start": 537.72,
+        "end": 539.99
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "最后，是格罗方德的声音。",
-        "en": "It had neither Intel's accumulation nor Samsung's war chest. It had to fight three giants for the same customers, while answering to the patience of the money behind it. Seven-nanometer R&D was a bottomless pit — and its funds could not sustain an endless money-burning game.",
-        "start": 518.59,
-        "end": 528.14
+        "en": "Last, GlobalFoundries' voice.",
+        "start": 539.99,
+        "end": 542.58
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 528.14,
-        "end": 529.14
+        "en": "[Main narrator]",
+        "start": 542.58,
+        "end": 544.5
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "它没有英特尔的积淀，也没有三星的家底。它一边要跟三家巨头抢同一批客户，一边还要应付背后金主的耐心。七纳米的研发，是个无底洞——它的钱，撑不起一场无止境的烧钱游戏。",
-        "en": "Three rivals, three ways of dropping out.",
-        "start": 529.14,
-        "end": 542.6
+        "en": "It had neither Intel's accumulation nor Samsung's war chest. It had to fight three giants for the same customers, while answering to the patience of the money behind it. Seven-nanometer R&D was a bottomless pit — and its funds could not sustain an endless money-burning game.",
+        "start": 544.5,
+        "end": 560.67
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 542.6,
-        "end": 544.42
+        "en": "[Main narrator, slower]",
+        "start": 560.67,
+        "end": 562.94
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
         "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "",
         "zh": "三个对手，三种掉队的方式。",
-        "en": "And TSMC chose to keep doubling down.",
-        "start": 544.42,
-        "end": 546.58
+        "en": "Three rivals, three ways of dropping out.",
+        "start": 562.94,
+        "end": 565.71
       },
       {
         "secZh": "第三幕 · 一场越来越贵的军备竞赛",
-        "secEn": "Act Four · A Bet of Over Ten Billion",
-        "speaker": "",
-        "zh": "一场围绕摩尔定律的军备竞赛，打到这个时候，已经有人，开始掉队了。",
-        "en": "Doubling down means putting real money on the table.",
-        "start": 546.58,
-        "end": 551.9
-      },
-      {
-        "secZh": "第三幕 · 一场越来越贵的军备竞赛",
-        "secEn": "Act Four · A Bet of Over Ten Billion",
+        "secEn": "Act Three · A Costlier and Costlier Arms Race",
         "speaker": "Main narrator",
-        "zh": "而台积电，选择继续加码。",
+        "zh": "一场围绕摩尔定律的军备竞赛，打到这个时候，已经有人，开始掉队了。",
         "en": "[Main narrator]",
-        "start": 551.9,
-        "end": 553.89
+        "start": 565.71,
+        "end": 571.98
+      },
+      {
+        "secZh": "第三幕 · 一场越来越贵的军备竞赛",
+        "secEn": "Act Three · A Costlier and Costlier Arms Race",
+        "speaker": "",
+        "zh": "而台积电，选择继续加码。",
+        "en": "And TSMC chose to keep doubling down.",
+        "start": 571.98,
+        "end": 574.57
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "",
         "zh": "加码，是要拿真金白银说话的。",
-        "en": "A wafer fab is the most expensive factory on earth. A single state-of-the-art twelve-inch fab costs on the order of ten billion US dollars.",
-        "start": 553.89,
-        "end": 558.88
+        "en": "Doubling down means putting real money on the table.",
+        "start": 574.57,
+        "end": 578.73
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "TSMC's capital expenditure climbed steadily from five point nine billion dollars in 2010. By 2016, it crossed ten billion for the first time; in 2018, it was raised to somewhere between ten point five and eleven billion.",
-        "start": 558.88,
-        "end": 566.56
+        "en": "[Main narrator]",
+        "start": 578.73,
+        "end": 580.64
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "晶圆厂，是世界上最贵的工厂。一座最先进的十二吋厂，动辄要上百亿美元。",
-        "en": "[Main narrator, slower]",
-        "start": 566.56,
-        "end": 572.21
+        "en": "A wafer fab is the most expensive factory on earth. A single state-of-the-art twelve-inch fab costs on the order of ten billion US dollars.",
+        "start": 580.64,
+        "end": 587.59
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "",
         "zh": "台积电的资本支出，从二○一○年的五十九亿美元，一路往上加。到了二○一六年，它头一次，突破了百亿美元；二○一八年，更是调高到了大约一百零五亿到一百一十亿美元之间。",
-        "en": "Over ten billion dollars a year, for one goal alone: to make seven nanometers before anyone else.",
-        "start": 572.21,
-        "end": 585.49
+        "en": "TSMC's capital expenditure climbed steadily from five point nine billion dollars in 2010. By 2016, it crossed ten billion for the first time; in 2018, it was raised to somewhere between ten point five and eleven billion.",
+        "start": 587.59,
+        "end": 602.25
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 585.49,
-        "end": 587.32
+        "en": "[Main narrator, slower]",
+        "start": 602.25,
+        "end": 604.52
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "",
         "zh": "一年一百多亿美元，只为了一个目标：抢在所有人前面，把七纳米做出来。",
-        "en": "Seven nanometers was the most dangerous — and most valuable — gate Moore's Law had reached that year. Only three and a half companies on earth could still walk that road: TSMC, Samsung, Intel, and GlobalFoundries, struggling to keep up.",
-        "start": 587.32,
-        "end": 595.63
+        "en": "Over ten billion dollars a year, for one goal alone: to make seven nanometers before anyone else.",
+        "start": 604.52,
+        "end": 611.09
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Morris Chang's arithmetic was clear.",
-        "start": 595.63,
-        "end": 596.67
+        "en": "[Main narrator]",
+        "start": 611.09,
+        "end": 613.01
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "七纳米，是摩尔定律走到那一年，最凶险、也最值钱的一道关。全世界能往前走这条路的，只剩下了三家半：台积电、三星、英特尔，还有一家苦苦追赶的格罗方德。",
-        "en": "[Main narrator, slower]",
-        "start": 596.67,
-        "end": 608.79
+        "en": "Seven nanometers was the most dangerous — and most valuable — gate Moore's Law had reached that year. Only three and a half companies on earth could still walk that road: TSMC, Samsung, Intel, and GlobalFoundries, struggling to keep up.",
+        "start": 613.01,
+        "end": 627.42
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "",
         "zh": "张忠谋的账，算得很清楚。",
-        "en": "In technology, TSMC conceded nothing to anyone; in manufacturing cost, he was confident of beating Intel; in customer service, it was the very craft TSMC had built itself on.",
-        "start": 608.79,
-        "end": 614.81
+        "en": "Morris Chang's arithmetic was clear.",
+        "start": 627.42,
+        "end": 630.01
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 614.81,
-        "end": 616.64
+        "en": "[Main narrator, slower]",
+        "start": 630.01,
+        "end": 632.28
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "",
         "zh": "技术上，台积电不输给任何一家；制造成本上，他自信胜过英特尔；客户服务上，更是台积电起家的看家本领。",
-        "en": "So he made the call: keep chasing. Chase until only TSMC was left running.",
-        "start": 616.64,
-        "end": 624.78
+        "en": "In technology, TSMC conceded nothing to anyone; in manufacturing cost, he was confident of beating Intel; in customer service, it was the very craft TSMC had built itself on.",
+        "start": 632.28,
+        "end": 641.71
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "And along the way, there were two things he quietly buried as foreshadowing.",
-        "start": 624.78,
-        "end": 627.48
+        "en": "[Main narrator]",
+        "start": 641.71,
+        "end": 643.62
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "于是他拍板：继续追。追到，只剩下台积电一个人，还在跑。",
-        "en": "[Main narrator, slower]",
-        "start": 627.48,
-        "end": 631.96
+        "en": "So he made the call: keep chasing. Chase until only TSMC was left running.",
+        "start": 643.62,
+        "end": 649.53
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "",
         "zh": "而追的路上，还有两样东西，是他悄悄埋下的伏笔。",
-        "en": "One was called InFO, the other CoWoS. Two kinds of chip packaging.",
-        "start": 631.96,
-        "end": 635.78
+        "en": "And along the way, there were two things he quietly buried as foreshadowing.",
+        "start": 649.53,
+        "end": 654.14
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 635.78,
-        "end": 637.61
+        "en": "[Main narrator, slower]",
+        "start": 654.14,
+        "end": 656.41
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "",
         "zh": "一样叫 InFO，一样叫 CoWoS。这是两种晶片的封装技术。",
-        "en": "InFO was critical to smartphones; and CoWoS, in Morris Chang's own words — was critical to artificial intelligence.",
-        "start": 637.61,
-        "end": 642.76
+        "en": "One was called InFO, the other CoWoS. Two kinds of chip packaging.",
+        "start": 656.41,
+        "end": 662.39
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
         "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Note those words. In 2017, the vast majority of people could not yet see how big AI would grow. But this eighty-six-year-old man had already paved the road for it.",
-        "start": 642.76,
-        "end": 648.99
+        "en": "[Main narrator]",
+        "start": 662.39,
+        "end": 664.31
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "secEn": "Act Four · A Bet of Over Ten Billion",
         "speaker": "",
         "zh": "InFO，对智能手机至关重要；而 CoWoS，用张忠谋自己的话说——对人工智能，至关重要。",
-        "en": "In 2017, the answer came out.",
-        "start": 648.99,
-        "end": 656.46
+        "en": "InFO was critical to smartphones; and CoWoS, in Morris Chang's own words — was critical to artificial intelligence.",
+        "start": 664.31,
+        "end": 673.17
       },
       {
         "secZh": "第四幕 · 破百亿的赌注",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "Main narrator",
+        "secEn": "Act Four · A Bet of Over Ten Billion",
+        "speaker": "",
         "zh": "请注意这句话。在二○一七年，绝大多数人，还没看清人工智能能长多大。而这位八十六岁的老人，已经为它，铺好了路。",
-        "en": "[Main narrator]",
-        "start": 656.46,
-        "end": 665.43
+        "en": "Note those words. In 2017, the vast majority of people could not yet see how big AI would grow. But this eighty-six-year-old man had already paved the road for it.",
+        "start": 673.17,
+        "end": 684.02
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "二○一七年，答案揭晓了。",
-        "en": "That year, TSMC's revenue approached one trillion New Taiwan dollars, and its operating profit exceeded three hundred and eighty billion. And its seven nanometers was already ready in 2017, prepared for mass production the following year.",
-        "start": 665.43,
-        "end": 672.91
+        "en": "In 2017, the answer came out.",
+        "start": 684.02,
+        "end": 687.64
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "This was something no one else on earth had yet done.",
-        "start": 672.91,
-        "end": 675.19
+        "en": "[Main narrator]",
+        "start": 687.64,
+        "end": 689.56
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "这一年，台积电的营收逼近新台币一兆元，营业净利超过三千八百亿元。而它的七纳米，也已在二○一七年准备就绪，预备在次年，正式量产。",
-        "en": "[Main narrator, slower]",
-        "start": 675.19,
-        "end": 685.66
+        "en": "That year, TSMC's revenue approached one trillion New Taiwan dollars, and its operating profit exceeded three hundred and eighty billion. And its seven nanometers was already ready in 2017, prepared for mass production the following year.",
+        "start": 689.56,
+        "end": 701.68
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "这是全世界，还没有人做成的事。",
-        "en": "In May 2018, TSMC began mass-producing a chip called the A12 for Apple — the world's first smartphone processor made on seven nanometers.",
-        "start": 685.66,
-        "end": 690.43
+        "en": "This was something no one else on earth had yet done.",
+        "start": 701.68,
+        "end": 704.8
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 690.43,
-        "end": 692.26
+        "en": "[Main narrator, slower]",
+        "start": 704.8,
+        "end": 707.07
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "二○一八年五月，台积电开始为苹果，量产一颗叫 A12 的芯片——这是全球第一款，用七纳米做出来的、智能手机的处理器。",
-        "en": "Orders poured in like snow; capacity could not meet demand.",
-        "start": 692.26,
-        "end": 701.9
+        "en": "In May 2018, TSMC began mass-producing a chip called the A12 for Apple — the world's first smartphone processor made on seven nanometers.",
+        "start": 707.07,
+        "end": 717.86
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 701.9,
-        "end": 702.89
+        "en": "[Main narrator]",
+        "start": 717.86,
+        "end": 719.78
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "订单，像雪片一样飞来；产能，供不应求。",
-        "en": "That A12 was the \"heart\" Apple had prepared for the 2018 iPhones. It was not just a chip — it was the farthest boundary mobile computing could reach that year.",
-        "start": 702.89,
-        "end": 709.12
+        "en": "Orders poured in like snow; capacity could not meet demand.",
+        "start": 719.78,
+        "end": 723.76
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 709.12,
-        "end": 710.95
+        "en": "[Main narrator, slower]",
+        "start": 723.76,
+        "end": 726.03
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "这颗 A12，是苹果为二○一八年的 iPhone 准备的「心脏」。它不只是一颗芯片，它是那一年，移动计算能走到的、最远的边界。",
-        "en": "Apple placed its most expensive order on TSMC's seven nanometers — because apart from TSMC, there was no second company that could make seven nanometers on time, make it stable, and make it in volume.",
-        "start": 710.95,
-        "end": 721.41
+        "en": "That A12 was the \"heart\" Apple had prepared for the 2018 iPhones. It was not just a chip — it was the farthest boundary mobile computing could reach that year.",
+        "start": 726.03,
+        "end": 737.19
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "That year, TSMC's full-year revenue broke through one trillion thirty-one billion New Taiwan dollars, another record high; and its global foundry market share climbed to fifty-six percent. Its seven-nanometer capacity, by its own annual report, had doubled compared with 2017 — and was still climbing.",
-        "start": 721.41,
-        "end": 730.76
+        "en": "[Main narrator]",
+        "start": 737.19,
+        "end": 739.11
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "苹果把最贵的订单，押在了台积电的七纳米上——因为除了台积电，没有第二家，能准时把七纳米，做出来、做稳定、做够量。",
-        "en": "[Main narrator, slower]",
-        "start": 730.76,
-        "end": 740.06
+        "en": "Apple placed its most expensive order on TSMC's seven nanometers — because apart from TSMC, there was no second company that could make seven nanometers on time, make it stable, and make it in volume.",
+        "start": 739.11,
+        "end": 750.24
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "这一年，台积电的全年营收，突破新台币一万零三百一十四亿元，再创新高；它的全球晶圆代工市占，也站上了百分之五十六。而它的七纳米产能，据它自己的年报说——相比二○一七年，翻了一倍，而且，还在往上翻。",
-        "en": "Then, a heavy hammer fell.",
-        "start": 740.06,
-        "end": 756.17
+        "en": "That year, TSMC's full-year revenue broke through one trillion thirty-one billion New Taiwan dollars, another record high; and its global foundry market share climbed to fifty-six percent. Its seven-nanometer capacity, by its own annual report, had doubled compared with 2017 — and was still climbing.",
+        "start": 750.24,
+        "end": 769.06
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 756.17,
-        "end": 758.0
+        "en": "[Main narrator, slower]",
+        "start": 769.06,
+        "end": 771.33
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "紧接着，一记重锤，落了下来。",
-        "en": "On August 27, 2018, the struggling GlobalFoundries suddenly announced: it would indefinitely halt development of seven nanometers.",
-        "start": 758.0,
-        "end": 761.53
+        "en": "Then, a heavy hammer fell.",
+        "start": 771.33,
+        "end": 774.35
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "The moment the news broke, the whole industry understood what it meant. One analyst did the math on the spot: by the end of 2018, TSMC's share of seven nanometers would be — ninety-five percent.",
-        "start": 761.53,
-        "end": 768.8
-      },
-      {
-        "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "Main narrator, slower",
-        "zh": "二○一八年八月二十七日，苦苦追赶的格罗方德，突然宣布：无限期，停止七纳米的研发。",
-        "en": "[Main narrator, slower]",
-        "start": 768.8,
-        "end": 775.44
-      },
-      {
-        "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "Ninety-five percent. Not a lead. It was — the only one left.",
-        "start": 775.44,
-        "end": 777.93
-      },
-      {
-        "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "Main narrator",
-        "zh": "消息一出，整个行业都明白，这代表什么。有分析师当场算了一笔账：二○一八年结束时，台积电在七纳米上的市占，将会是——百分之九十五。",
         "en": "[Main narrator]",
-        "start": 777.93,
-        "end": 788.56
-      },
-      {
-        "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "主叙述者 · 放缓",
-        "zh": "【主叙述者 · 放缓】",
-        "en": "Morris Chang wrote that moment with extreme lightness, and extreme weight, in his memoir. He said TSMC had rolled out seven generations of process, leaving rivals far behind, and \"rivals began to announce that they would stop chasing.\"",
-        "start": 788.56,
-        "end": 796.45
-      },
-      {
-        "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "Main narrator, slower",
-        "zh": "百分之九十五。不是领先，是——只剩它一个。",
-        "en": "[Main narrator, slower]",
-        "start": 796.45,
-        "end": 799.94
-      },
-      {
-        "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "\"Stop chasing\" — those three words were the cruelest, and loudest, verdict at the end of Moore's Law.",
-        "start": 799.94,
-        "end": 803.68
-      },
-      {
-        "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "Main narrator, time capsule",
-        "zh": "张忠谋在自传里，把这一刻，写得极轻，也极重。他说：台积电相继推出了七代制程，竞争者望尘莫及，「开始有竞争者宣布，不再追了」。",
-        "en": "[Main narrator, time capsule]",
-        "start": 803.68,
-        "end": 813.98
-      },
-      {
-        "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
-        "speaker": "主叙述者 · 放缓",
-        "zh": "【主叙述者 · 放缓】",
-        "en": "His year: 2017 — seven nanometers leads the world alone, and rivals fall far behind.",
-        "start": 813.98,
-        "end": 817.09
+        "start": 774.35,
+        "end": 776.62
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
+        "zh": "二○一八年八月二十七日，苦苦追赶的格罗方德，突然宣布：无限期，停止七纳米的研发。",
+        "en": "On August 27, 2018, the struggling GlobalFoundries suddenly announced: it would indefinitely halt development of seven nanometers.",
+        "start": 776.62,
+        "end": 784.32
+      },
+      {
+        "secZh": "第五幕 · 七纳米的独家领先",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
+        "en": "The moment the news broke, the whole industry understood what it meant. One analyst did the math on the spot: by the end of 2018, TSMC's share of seven nanometers would be — ninety-five percent.",
+        "start": 784.32,
+        "end": 786.24
+      },
+      {
+        "secZh": "第五幕 · 七纳米的独家领先",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "Main narrator, slower",
+        "zh": "消息一出，整个行业都明白，这代表什么。有分析师当场算了一笔账：二○一八年结束时，台积电在七纳米上的市占，将会是——百分之九十五。",
+        "en": "[Main narrator, slower]",
+        "start": 786.24,
+        "end": 799.04
+      },
+      {
+        "secZh": "第五幕 · 七纳米的独家领先",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "主叙述者 · 放缓",
+        "zh": "【主叙述者 · 放缓】",
+        "en": "Ninety-five percent. Not a lead. It was — the only one left.",
+        "start": 799.04,
+        "end": 801.31
+      },
+      {
+        "secZh": "第五幕 · 七纳米的独家领先",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "Main narrator",
+        "zh": "百分之九十五。不是领先，是——只剩它一个。",
+        "en": "[Main narrator]",
+        "start": 801.31,
+        "end": 806.27
+      },
+      {
+        "secZh": "第五幕 · 七纳米的独家领先",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
+        "en": "Morris Chang wrote that moment with extreme lightness, and extreme weight, in his memoir. He said TSMC had rolled out seven generations of process, leaving rivals far behind, and \"rivals began to announce that they would stop chasing.\"",
+        "start": 806.27,
+        "end": 808.19
+      },
+      {
+        "secZh": "第五幕 · 七纳米的独家领先",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "Main narrator, slower",
+        "zh": "张忠谋在自传里，把这一刻，写得极轻，也极重。他说：台积电相继推出了七代制程，竞争者望尘莫及，「开始有竞争者宣布，不再追了」。",
+        "en": "[Main narrator, slower]",
+        "start": 808.19,
+        "end": 820.23
+      },
+      {
+        "secZh": "第五幕 · 七纳米的独家领先",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "主叙述者 · 放缓",
+        "zh": "【主叙述者 · 放缓】",
+        "en": "\"Stop chasing\" — those three words were the cruelest, and loudest, verdict at the end of Moore's Law.",
+        "start": 820.23,
+        "end": 822.5
+      },
+      {
+        "secZh": "第五幕 · 七纳米的独家领先",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "Main narrator, time capsule",
         "zh": "「不再追了」——这四个字，就是摩尔定律尽头，最残酷、也最响亮的判决。",
-        "en": "The world's year: Moore's Law grows old, and chip companies everywhere ask the same question — should we keep chasing?",
-        "start": 817.09,
-        "end": 822.74
+        "en": "[Main narrator, time capsule]",
+        "start": 822.5,
+        "end": 829.16
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
         "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "平行时刻 · 时间胶囊",
         "zh": "【平行时刻 · 时间胶囊】",
-        "en": "One timeline — the world was asking whether to chase; he was already at the end of the chase.",
-        "start": 822.74,
-        "end": 826.69
+        "en": "His year: 2017 — seven nanometers leads the world alone, and rivals fall far behind.",
+        "start": 829.16,
+        "end": 831.78
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Coda · A Parallel View",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "他这一年：二○一七年，七纳米独家领先世界，竞争者望尘莫及。",
-        "en": "Morris Chang chased for sixty years, and chased out an answer.",
-        "start": 826.69,
-        "end": 831.5
+        "en": "The world's year: Moore's Law grows old, and chip companies everywhere ask the same question — should we keep chasing?",
+        "start": 831.78,
+        "end": 837.47
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Coda · A Parallel View",
-        "speaker": "Main narrator",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
+        "speaker": "",
         "zh": "世界这一年：摩尔定律渐渐变老，全球的芯片公司，都在问同一句话——还要不要追？",
-        "en": "[Main narrator]",
-        "start": 831.5,
-        "end": 837.81
+        "en": "One timeline — the world was asking whether to chase; he was already at the end of the chase.",
+        "start": 837.47,
+        "end": 845.3
       },
       {
         "secZh": "第五幕 · 七纳米的独家领先",
-        "secEn": "Coda · A Parallel View",
+        "secEn": "Act Five · Seven Nanometers, Alone at the Front",
         "speaker": "",
         "zh": "同一条时间线——世界在问追不追，他已经在追的尽头。",
-        "en": "From entering Sylvania at twenty-four, to the year he was eighty-seven, still listening at TSMC board meetings to reports on seven-nanometer progress.",
-        "start": 837.81,
-        "end": 842.38
+        "en": "",
+        "start": 845.3,
+        "end": 850.57
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "张忠谋追了六十年，追出了一个答案。",
-        "en": "Sixty years, and he had seen too many people stop halfway.",
-        "start": 842.38,
-        "end": 845.21
+        "en": "Morris Chang chased for sixty years, and chased out an answer.",
+        "start": 850.57,
+        "end": 855.26
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 845.21,
-        "end": 846.2
+        "en": "[Main narrator]",
+        "start": 855.26,
+        "end": 857.17
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "从二十四岁进希凡尼亚，到八十七岁那年，他还在台积电的董事会上，听人报告七纳米的进展。",
-        "en": "Some charged too hard when the market was good, and died in the next winter. Some hesitated at a bend in the technology, and never caught up again. Others simply announced: we stop chasing.",
-        "start": 846.2,
-        "end": 853.26
+        "en": "From entering Sylvania at twenty-four, to the year he was eighty-seven, still listening at TSMC board meetings to reports on seven-nanometer progress.",
+        "start": 857.17,
+        "end": 865.21
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "六十年，他见过太多人在半路停下。",
-        "en": "[Main narrator]",
-        "start": 853.26,
-        "end": 855.92
+        "en": "Sixty years, and he had seen too many people stop halfway.",
+        "start": 865.21,
+        "end": 868.51
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "He, meanwhile, simply kept his head down and pushed Moore's Law forward, generation after generation. Until at last the whole world saw one thing clearly: whether this law can continue does not depend on physics — it depends on whether there is still anyone willing to run for it.",
-        "start": 855.92,
-        "end": 866.09
+        "en": "[Main narrator, slower]",
+        "start": 868.51,
+        "end": 870.78
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "有人在市场好的时候冲得太猛，死在下一轮寒冬；有人在技术拐弯的地方犹豫了一下，从此再没跟上；还有人，干脆宣布：不追了。",
-        "en": "Someone asked him: will Moore's Law have an end?",
-        "start": 866.09,
-        "end": 875.73
+        "en": "Some charged too hard when the market was good, and died in the next winter. Some hesitated at a bend in the technology, and never caught up again. Others simply announced: we stop chasing.",
+        "start": 870.78,
+        "end": 881.99
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 875.73,
-        "end": 876.73
+        "en": "[Main narrator]",
+        "start": 881.99,
+        "end": 883.9
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "而他，只是埋着头，一代一代地，把摩尔定律，往前推。推到后来，全世界都看清了一件事：这条定律还能不能继续，不取决于物理，而取决于——还有没有人，愿意为它奔跑。",
-        "en": "He had already answered with his own actions long ago: even if there is an end, the one standing at that end is the one still willing to run.",
-        "start": 876.73,
-        "end": 889.68
+        "en": "He, meanwhile, simply kept his head down and pushed Moore's Law forward, generation after generation. Until at last the whole world saw one thing clearly: whether this law can continue does not depend on physics — it depends on whether there is still anyone willing to run for it.",
+        "start": 883.9,
+        "end": 899.66
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "有人问他：摩尔定律，会不会有尽头？",
-        "en": "[Main narrator]",
-        "start": 889.68,
-        "end": 892.51
+        "en": "Someone asked him: will Moore's Law have an end?",
+        "start": 899.66,
+        "end": 903.33
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "And the seed he had planted for artificial intelligence — that CoWoS — was about to bloom a few years later.",
-        "start": 892.51,
-        "end": 896.87
+        "en": "[Main narrator, slower]",
+        "start": 903.33,
+        "end": 905.6
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "他其实早就用自己的行动回答了：就算有尽头，站在尽头的，也是最后还愿意奔跑的人。",
-        "en": "By then, a company that made no chips and only drew blueprints would rise quietly on TSMC's process, and become the new king of the AI age. Its name was Nvidia.",
-        "start": 896.87,
-        "end": 903.34
+        "en": "He had already answered with his own actions long ago: even if there is an end, the one standing at that end is the one still willing to run.",
+        "start": 905.6,
+        "end": 913.22
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 903.34,
-        "end": 904.34
+        "en": "[Main narrator]",
+        "start": 913.22,
+        "end": 915.14
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "而他为人工智能埋下的那颗 CoWoS 的种子，也即将在几年之后，开花结果。",
-        "en": "And the start of it all is hidden in this very episode — when the whole industry thought the story of the chip was nearing its end, Morris Chang and his TSMC, with an eight percent and a bet of over ten billion, stretched that law forward another ten years.",
-        "start": 904.34,
-        "end": 914.72
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Coda · A Parallel View",
-        "speaker": "Main narrator",
-        "zh": "那时候，一家不造芯片、只画图纸的公司，会靠着台积电的制程，悄然崛起，成为人工智能时代的新王。它叫英伟达。",
-        "en": "[Main narrator]",
-        "start": 914.72,
-        "end": 923.36
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Coda · A Parallel View",
-        "speaker": "主叙述者 · 放缓",
-        "zh": "【主叙述者 · 放缓】",
-        "en": "But that is a story for later.",
-        "start": 923.36,
-        "end": 925.19
+        "en": "And the seed he had planted for artificial intelligence — that CoWoS — was about to bloom a few years later.",
+        "start": 915.14,
+        "end": 921.86
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "",
-        "zh": "而这一切的起点，就藏在这一期里——当整个行业都以为，芯片的故事就要走到尽头时，张忠谋和他的台积电，用一个百分之八，和一场破百亿的豪赌，把这条定律，又往前，续了十年。",
-        "en": "First, in the next episode, we must send this old man down from the battlefield he has guarded for sixty years — and the last thing he has to do is hand the baton on.",
-        "start": 925.19,
-        "end": 938.81
+        "zh": "那时候，一家不造芯片、只画图纸的公司，会靠着台积电的制程，悄然崛起，成为人工智能时代的新王。它叫英伟达。",
+        "en": "By then, a company that made no chips and only drew blueprints would rise quietly on TSMC's process, and become the new king of the AI age. Its name was Nvidia.",
+        "start": 921.86,
+        "end": 932.22
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -23311,133 +23292,151 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 938.81,
-        "end": 940.64
+        "start": 932.22,
+        "end": 934.49
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Coda · A Parallel View",
+        "speaker": "",
+        "zh": "而这一切的起点，就藏在这一期里——当整个行业都以为，芯片的故事就要走到尽头时，张忠谋和他的台积电，用一个百分之八，和一场破百亿的豪赌，把这条定律，又往前，续了十年。",
+        "en": "And the start of it all is hidden in this very episode — when the whole industry thought the story of the chip was nearing its end, Morris Chang and his TSMC, with an eight percent and a bet of over ten billion, stretched that law forward another ten years.",
+        "start": 934.49,
+        "end": 950.36
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Coda · A Parallel View",
+        "speaker": "主叙述者 · 放缓",
+        "zh": "【主叙述者 · 放缓】",
+        "en": "[Main narrator]",
+        "start": 950.36,
+        "end": 952.63
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "不过，那是后话。",
-        "en": "What he handed over after sixty years on that battlefield was not just TSMC, but an answer: in this industry, the one who runs the longest is not the most gifted, but the one who never steps off the field midway.",
-        "start": 940.64,
-        "end": 949.15
+        "en": "But that is a story for later.",
+        "start": 952.63,
+        "end": 954.52
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "下一集，我们要先送这位老人，走下他守了六十年的战场——他要做的最后一件事，是把这场接力，交出去。",
-        "en": "[Main narrator]",
-        "start": 949.15,
-        "end": 957.12
+        "en": "First, in the next episode, we must send this old man down from the battlefield he has guarded for sixty years — and the last thing he has to do is hand the baton on.",
+        "start": 954.52,
+        "end": 964.08
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Coda · A Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "That is the Guardian of Moore's Law.",
-        "start": 957.12,
-        "end": 958.58
+        "en": "[Main narrator, slower]",
+        "start": 964.08,
+        "end": 966.0
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Extension · Historical Background Cards",
+        "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "守了六十年的战场，他交出的，不只是台积电，更是一个答案：在这个行业里，跑得最久的人，不是天赋最高的，而是那个，从不中途退场的人。",
-        "en": "1. **Moore's Law**: In 1965, Gordon Moore observed that transistor counts on a chip double roughly every two years — a fifty-year shared promise of the industry, not a law of physics.",
-        "start": 958.58,
-        "end": 969.21
+        "en": "What he handed over after sixty years on that battlefield was not just TSMC, but an answer: in this industry, the one who runs the longest is not the most gifted, but the one who never steps off the field midway.",
+        "start": 966.0,
+        "end": 978.43
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Extension · Historical Background Cards",
+        "secEn": "Coda · A Parallel View",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "2. **The process-node arms race**: By the late 2010s, 10nm/7nm became a life-or-death line for fabs; Intel's 10nm was delayed again and again, while Samsung bet on EUV but was held back by yield.",
-        "start": 969.21,
-        "end": 976.27
+        "en": "[Main narrator]",
+        "start": 978.43,
+        "end": 980.34
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Extension · Historical Background Cards",
+        "secEn": "Coda · A Parallel View",
         "speaker": "",
         "zh": "这，就是摩尔定律的守卫者。",
-        "en": "3. **Seven nanometers, alone at the front**: In May 2018 TSMC mass-produced the Apple A12 (the world's first 7nm smartphone chip); on August 27, 2018, GlobalFoundries announced it would halt 7nm, leaving TSMC with roughly 95% of 7nm share.",
-        "start": 976.27,
-        "end": 984.36
+        "en": "That is the Guardian of Moore's Law.",
+        "start": 980.34,
+        "end": 983.11
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "1. **摩尔定律**：1965 年戈登·摩尔观察芯片晶体管数每两年翻番，是行业五十年的共同约定，并非物理定律。（英文：Moore's Law）",
-        "en": "4. **Eight percent R&D and capex over ten billion**: TSMC set annual R&D at 8% of revenue (reaching $5.6B in 2023, more than MIT's entire budget); capex first crossed $10B in 2016 and reached $10.5–11B in 2018.",
-        "start": 984.36,
-        "end": 996.32
+        "en": "1. **Moore's Law**: In 1965, Gordon Moore observed that transistor counts on a chip double roughly every two years — a fifty-year shared promise of the industry, not a law of physics.",
+        "start": 983.11,
+        "end": 996.42
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "2. **制程军备竞赛**：2010s 末，10nm/7nm 成为晶圆厂生死线；英特尔 10nm 一再延迟，三星押注 EUV 却受良率所困。（英文：process node race）",
-        "en": "5. **InFO and CoWoS**: Two packaging technologies — the first vital to smartphones, the second critical to artificial intelligence — foreshadowing the coming AI wave.",
-        "start": 996.32,
-        "end": 1011.61
+        "en": "2. **The process-node arms race**: By the late 2010s, 10nm/7nm became a life-or-death line for fabs; Intel's 10nm was delayed again and again, while Samsung bet on EUV but was held back by yield.",
+        "start": 996.42,
+        "end": 1011.23
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "3. **七纳米独家领先**：2018.5 台积电量产 Apple A12（全球首个 7nm 手机芯片）；2018.8.27 格罗方德宣布停 7nm，台积电 7nm 市占约 95%。（英文：7nm, Apple A12, GlobalFoundries exit）",
-        "en": "A year after seven nanometers led the world alone, Morris Chang made one final decision in the boardroom.",
-        "start": 1011.61,
-        "end": 1033.53
+        "en": "3. **Seven nanometers, alone at the front**: In May 2018 TSMC mass-produced the Apple A12 (the world's first 7nm smartphone chip); on August 27, 2018, GlobalFoundries announced it would halt 7nm, leaving TSMC with roughly 95% of 7nm share.",
+        "start": 1011.23,
+        "end": 1032.95
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "4. **研发 8% 与资本支出破百亿**：台积电年研发投入定 8%（2023 达 56 亿美元，超 MIT 全年总经费）；资本支出 2016 首破百亿美元、2018 达 105–110 亿。（英文：8% R&D, capex over $10B）",
-        "en": "He laid a hand-written \"succession plan\" on the table before everyone — and then handed TSMC over to a system he had designed.",
-        "start": 1033.53,
-        "end": 1054.13
+        "en": "4. **Eight percent R&D and capex over ten billion**: TSMC set annual R&D at 8% of revenue (reaching $5.6B in 2023, more than MIT's entire budget); capex first crossed $10B in 2016 and reached $10.5–11B in 2018.",
+        "start": 1032.95,
+        "end": 1050.67
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "5. **InFO 与 CoWoS**：两种封装技术，前者关乎智能手机，后者对人工智能至关重要——为 AI 浪潮埋下的伏笔。（英文：InFO & CoWoS packaging）",
-        "en": "Next episode: \"The Handover & Retirement.\"",
-        "start": 1054.13,
-        "end": 1068.91
+        "en": "5. **InFO and CoWoS**: Two packaging technologies — the first vital to smartphones, the second critical to artificial intelligence — foreshadowing the coming AI wave.",
+        "start": 1050.67,
+        "end": 1065.44
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "七纳米独家领先的第二年，张忠谋在董事会里，做出了最后一个决定。",
-        "en": "",
-        "start": 1068.91,
-        "end": 1074.06
+        "en": "A year after seven nanometers led the world alone, Morris Chang made one final decision in the boardroom.",
+        "start": 1065.44,
+        "end": 1072.67
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "他把一份亲手写下的「交棒计划」，摊在了所有人面前——然后，把台积电，交给了一套他设计好的制度。",
-        "en": "",
-        "start": 1074.06,
-        "end": 1081.87
+        "en": "He laid a hand-written \"succession plan\" on the table before everyone — and then handed TSMC over to a system he had designed.",
+        "start": 1072.67,
+        "end": 1081.63
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "下一集，《交棒与退休》。",
-        "en": "",
-        "start": 1081.87,
+        "en": "Next episode: \"The Handover & Retirement.\"",
+        "start": 1081.63,
         "end": 1083.86
       }
     ]
@@ -23449,8 +23448,8 @@ window.EPISODES_DATA = [
     "summary": "交棒与退休 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第17期-交棒与退休/中文音频.mp3",
     "audioEn": "./03-剧集/第17期-交棒与退休/英文音频.mp3",
-    "durationZh": 1104.11,
-    "durationEn": 1170.71,
+    "durationZh": 1104.112,
+    "durationEn": 1170.712,
     "cues": [
       {
         "secZh": "开场",
@@ -23459,7 +23458,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：一段古典音乐的前奏，庄重而辽阔，随后缓缓隐去】",
         "en": "[SFX: the opening bars of a piece of classical music, solemn and vast, then slowly fading]",
         "start": 0.0,
-        "end": 5.33
+        "end": 5.98
       },
       {
         "secZh": "开场",
@@ -23467,8 +23466,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一三年，张忠谋问了一个问题。",
         "en": "In 2013, Morris Chang asked a question.",
-        "start": 5.33,
-        "end": 8.48
+        "start": 5.98,
+        "end": 9.1
       },
       {
         "secZh": "开场",
@@ -23476,8 +23475,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 8.48,
-        "end": 9.67
+        "start": 9.1,
+        "end": 11.02
       },
       {
         "secZh": "开场",
@@ -23485,8 +23484,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他问的对象，不是台积电的董事，也不是台积电的高管。而是一个，在台积电之外、他认识了十六七年的老朋友。",
         "en": "The person he asked was not a TSMC director, and not a TSMC executive. It was an old friend, outside TSMC, whom he had known for sixteen or seventeen years.",
-        "start": 9.67,
-        "end": 19.53
+        "start": 11.02,
+        "end": 20.96
       },
       {
         "secZh": "开场",
@@ -23494,8 +23493,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他花了大约十分钟，郑重地向对方解释，他对台积电的深切期望，也解释了这份工作的报酬——虽然没有台积电的股票，但固定的薪津，加上按公司每年净利而定的花红，一定比对方当时的收入更高。",
         "en": "He spent about ten minutes explaining, with great seriousness, his deep expectations for TSMC, and also explaining the compensation for the job — there would be no TSMC stock, but the fixed salary, plus the bonus based on the company's annual net profit, would certainly be higher than what the other man was earning then.",
-        "start": 19.53,
-        "end": 36.89
+        "start": 20.96,
+        "end": 37.76
       },
       {
         "secZh": "开场",
@@ -23503,8 +23502,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 36.89,
-        "end": 39.06
+        "start": 37.76,
+        "end": 40.03
       },
       {
         "secZh": "开场",
@@ -23512,8 +23511,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "对方很有耐心地听完了，没有问任何问题。等张忠谋讲完，他也没有直接拒绝，只是简单地回答了一句：",
         "en": "The man listened patiently, and asked no questions. When Morris Chang had finished, he did not refuse directly — he simply answered, in one sentence:",
-        "start": 39.06,
-        "end": 48.14
+        "start": 40.03,
+        "end": 48.98
       },
       {
         "secZh": "开场",
@@ -23521,8 +23520,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「我已有工作。」",
         "en": "\"I already have a job.\"",
-        "start": 48.14,
-        "end": 49.72
+        "start": 48.98,
+        "end": 50.44
       },
       {
         "secZh": "开场",
@@ -23530,8 +23529,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 49.72,
-        "end": 50.9
+        "start": 50.44,
+        "end": 52.36
       },
       {
         "secZh": "开场",
@@ -23539,8 +23538,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个回答的人，叫黄仁勋。",
         "en": "The man who gave that answer was named Jensen Huang.",
-        "start": 50.9,
-        "end": 53.37
+        "start": 52.36,
+        "end": 54.95
       },
       {
         "secZh": "开场",
@@ -23548,8 +23547,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个想交棒的人，是八十二岁的张忠谋。",
         "en": "The man who wanted to hand over the reins was Morris Chang, eighty-two years old.",
-        "start": 53.37,
-        "end": 57.07
+        "start": 54.95,
+        "end": 58.61
       },
       {
         "secZh": "开场",
@@ -23557,8 +23556,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一集，我们讲交棒与退休。",
         "en": "This episode, we tell the story of the handover and the retirement.",
-        "start": 57.07,
-        "end": 60.03
+        "start": 58.61,
+        "end": 61.38
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23566,8 +23565,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "交棒这件事，张忠谋其实早就开始想了。",
         "en": "The handover was something Morris Chang had begun thinking about long before.",
-        "start": 60.03,
-        "end": 63.58
+        "start": 61.38,
+        "end": 66.25
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23575,8 +23574,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 63.58,
-        "end": 64.76
+        "start": 66.25,
+        "end": 68.16
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23584,8 +23583,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "早在二○○五年，他就开始规划台积电董事长和 CEO 的交棒。那时的计划，是先释出 CEO 的位置给蔡力行，自己保留董事长。如果蔡力行接得顺利，几年之后，他就可以完全退休。",
         "en": "As early as 2005, he had started planning the succession of TSMC's chairman and CEO. The plan then was to release the CEO seat to Rick Tsai first, while keeping the chairman's seat for himself. If Rick Tsai took over smoothly, he could fully retire a few years later.",
-        "start": 64.76,
-        "end": 81.53
+        "start": 68.16,
+        "end": 83.7
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23593,8 +23592,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可接下来几年，台积电的业务和人事，并不顺利。二○○九年，他重新兼任 CEO，把交出去的权，又收了回来。",
         "en": "But in the years that followed, TSMC's business and its people did not go smoothly. In 2009, he took back the CEO role, and took back the power he had handed over.",
-        "start": 81.53,
-        "end": 91.59
+        "start": 83.7,
+        "end": 93.36
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23602,8 +23601,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 91.59,
-        "end": 93.76
+        "start": 93.36,
+        "end": 95.64
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23611,8 +23610,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "但即便收了回来，他也没有放弃蔡力行。他任命蔡力行做台积电新事业——太阳能和 LED——的总经理。",
         "en": "Yet even after taking it back, he had not given up on Rick Tsai. He appointed him general manager of TSMC's new businesses — solar energy and LEDs.",
-        "start": 93.76,
-        "end": 103.23
+        "start": 95.64,
+        "end": 105.58
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23620,8 +23619,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 103.23,
-        "end": 104.42
+        "start": 105.58,
+        "end": 107.5
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23629,8 +23628,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可惜，新事业也不成功。二○一四年，蔡力行辞职，出任中华电信董事长；二○一七年，又转任联发科共同执行长。他在联发科做得很好，后来一路做到副董事长暨执行长。",
         "en": "Unfortunately, the new businesses did not succeed either. In 2014, Rick Tsai resigned, and became chairman of Chunghwa Telecom; in 2017, he moved on to become co-CEO of MediaTek. He did very well there, and eventually rose to vice chairman and CEO.",
-        "start": 104.42,
-        "end": 119.41
+        "start": 107.5,
+        "end": 122.23
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23638,8 +23637,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第一人选，就这样，在岁月的流转里，走上了另一条路。",
         "en": "The first candidate, in the flow of the years, walked onto another road.",
-        "start": 119.41,
-        "end": 124.35
+        "start": 122.23,
+        "end": 127.28
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23647,8 +23646,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 124.35,
-        "end": 126.52
+        "start": 127.28,
+        "end": 129.55
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23656,8 +23655,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一二年，重兼 CEO 几年之后，张忠谋认为，台积电已经被他带回了康庄大道。接班人的考量，在他心里，重新萌发。",
         "en": "In 2012, a few years after returning as CEO, Morris Chang believed TSMC had been brought back to the broad road. The thought of a successor stirred in him again.",
-        "start": 126.52,
-        "end": 137.56
+        "start": 129.55,
+        "end": 140.1
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23665,8 +23664,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 137.56,
-        "end": 138.75
+        "start": 140.1,
+        "end": 142.02
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23674,8 +23673,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一年，公司内部最明显的领导人才，有三位——依姓氏笔画排列：蒋尚义，负责研究开发；刘德音，负责制造；魏哲家，负责业务发展。",
         "en": "That year, the most obvious leadership talent inside the company numbered three — in stroke order of their surnames: Chiang Shang-yi, in charge of R&D; Liu Deyin, in charge of manufacturing; and C.C. Wei, in charge of business development.",
-        "start": 138.75,
-        "end": 150.78
+        "start": 142.02,
+        "end": 154.33
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23683,8 +23682,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一二年三月，张忠谋把这三个人，一起提拔为「共同营运长」。",
         "en": "In March 2012, Morris Chang promoted all three together to \"co-COO.\"",
-        "start": 150.78,
-        "end": 156.7
+        "start": 154.33,
+        "end": 159.65
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23692,8 +23691,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "更重要的是，他告诉他们：你们三位，轮流负责公司的三个重要领域——研发、制造、还有业务发展。",
         "en": "More importantly, he told them: the three of you will take turns running the company's three key domains — R&D, manufacturing, and business development.",
-        "start": 156.7,
-        "end": 165.58
+        "start": 159.65,
+        "end": 168.89
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23701,8 +23700,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 165.58,
-        "end": 167.75
+        "start": 168.89,
+        "end": 171.16
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23710,8 +23709,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一开始，他就把蒋尚义调离研发，让他去管制造。",
         "en": "At the start, he moved Chiang Shang-yi out of R&D, and had him take charge of manufacturing.",
-        "start": 167.75,
-        "end": 172.09
+        "start": 171.16,
+        "end": 175.6
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23719,8 +23718,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 172.09,
-        "end": 173.27
+        "start": 175.6,
+        "end": 177.52
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23728,8 +23727,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "如果这个「三人轮调」的制度，真的能在二○一二年落实，也许六年之后——他退休的那一刻——台积电的接班，会是一个不一样的故事。",
         "en": "If this \"three-person rotation\" had truly been carried through in 2012, then perhaps six years later — at the moment of his retirement — TSMC's succession would have told a different story.",
-        "start": 173.27,
-        "end": 185.31
+        "start": 177.52,
+        "end": 189.17
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23737,8 +23736,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可是，世事难料。二○一二年，正值台积电研发部门，全力开发苹果要的第一个制程——二十纳米。而二十纳米，又是一个相当有挑战性的制程。",
         "en": "But the world is hard to predict. In 2012, TSMC's R&D department was throwing everything into developing the first process Apple needed — twenty nanometers. And twenty nanometers was a genuinely challenging process.",
-        "start": 185.31,
-        "end": 197.94
+        "start": 189.17,
+        "end": 202.19
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23746,8 +23745,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 197.94,
-        "end": 200.11
+        "start": 202.19,
+        "end": 204.47
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23755,8 +23754,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "把蒋尚义调离研发之后，二十纳米的研发问题，不断出现。",
         "en": "After moving Chiang Shang-yi out of R&D, problems in the twenty-nanometer development kept appearing.",
-        "start": 200.11,
-        "end": 205.24
+        "start": 204.47,
+        "end": 209.61
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23764,8 +23763,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 205.24,
-        "end": 206.42
+        "start": 209.61,
+        "end": 211.53
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23773,8 +23772,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋始终不放心。最后，他认了——还是把蒋尚义，送回研发吧。于是，蒋尚义回了原任；倒是刘德音和魏哲家互调了位置：刘德音去管行销与业务发展，魏哲家去管制造。",
         "en": "Morris Chang never stopped worrying. In the end, he conceded — send Chiang Shang-yi back to R&D. So Chiang Shang-yi returned to his old post; instead, Liu Deyin and C.C. Wei swapped: Liu Deyin went to run marketing and business development, and C.C. Wei went to run manufacturing.",
-        "start": 206.42,
-        "end": 221.61
+        "start": 211.53,
+        "end": 227.29
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23782,8 +23781,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一场精心设计的「轮调」，最终，没有按原计划落地。",
         "en": "A carefully designed \"rotation\" ultimately did not land as planned.",
-        "start": 221.61,
-        "end": 226.35
+        "start": 227.29,
+        "end": 231.73
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23791,8 +23790,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 226.35,
-        "end": 228.52
+        "start": 231.73,
+        "end": 234.01
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23800,8 +23799,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那，外面的世界，还有没有更合适的人？",
         "en": "So, was there anyone more suitable, out in the wider world?",
-        "start": 228.52,
-        "end": 232.07
+        "start": 234.01,
+        "end": 237.74
       },
       {
         "secZh": "第一幕 · 找一个接班人",
@@ -23809,8 +23808,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋想到了一个人。",
         "en": "Morris Chang thought of someone.",
-        "start": 232.07,
-        "end": 234.04
+        "start": 237.74,
+        "end": 239.9
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23818,8 +23817,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那个人，叫黄仁勋。",
         "en": "That man was Jensen Huang.",
-        "start": 234.04,
-        "end": 235.82
+        "start": 239.9,
+        "end": 243.18
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23827,8 +23826,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 235.82,
-        "end": 237.0
+        "start": 243.18,
+        "end": 245.1
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23836,8 +23835,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在公司内部，张忠谋当然熟悉每一位人才。但在公司之外，还有一个人，无论在品格、视野、半导体专业经验与知识上，都值得被考虑为台积电的接班人。",
         "en": "Within the company, Morris Chang of course knew every talent well. But outside the company, there was one person who, in character, in vision, in professional experience and knowledge of semiconductors, was worth considering as TSMC's successor.",
-        "start": 237.0,
-        "end": 250.42
+        "start": 245.1,
+        "end": 258.38
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23845,8 +23844,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 250.42,
-        "end": 252.59
+        "start": 258.38,
+        "end": 260.65
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23854,8 +23853,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一三年，张忠谋问他：对台积电 CEO 的职位，有没有兴趣？如果有兴趣，我们可以进一步讨论。",
         "en": "In 2013, Morris Chang asked him: would you be interested in the position of TSMC CEO? If so, we can discuss it further.",
-        "start": 252.59,
-        "end": 261.86
+        "start": 260.65,
+        "end": 269.64
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23863,8 +23862,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 261.86,
-        "end": 263.04
+        "start": 269.64,
+        "end": 271.56
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23872,8 +23871,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "黄仁勋听完了十分钟的解释，没有问问题，也没有直接拒绝。他只是淡淡地说了一句：",
         "en": "Jensen Huang listened to the ten-minute explanation, asked no questions, and did not directly refuse. He simply said, lightly:",
-        "start": 263.04,
-        "end": 270.54
+        "start": 271.56,
+        "end": 279.02
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23881,8 +23880,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「我已有工作。」",
         "en": "\"I already have a job.\"",
-        "start": 270.54,
-        "end": 272.12
+        "start": 279.02,
+        "end": 280.48
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23890,8 +23889,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "几个星期之后，张忠谋又打了一次电话，再问一次。",
         "en": "A few weeks later, Morris Chang called again, and asked again.",
-        "start": 272.12,
-        "end": 276.66
+        "start": 280.48,
+        "end": 285.09
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23899,8 +23898,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "答案，还是那四个字：「我已有工作。」",
         "en": "The answer was still the same four words: \"I already have a job.\"",
-        "start": 276.66,
-        "end": 280.21
+        "start": 285.09,
+        "end": 288.59
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23908,8 +23907,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 280.21,
-        "end": 282.38
+        "start": 288.59,
+        "end": 290.86
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23917,8 +23916,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "站在二○二四年的今天回头看，这一幕，几乎像一句预言。",
         "en": "Looking back from 2024, this scene almost reads like a prophecy.",
-        "start": 282.38,
-        "end": 287.51
+        "start": 290.86,
+        "end": 295.83
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23926,8 +23925,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 287.51,
-        "end": 288.69
+        "start": 295.83,
+        "end": 297.75
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23935,8 +23934,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "因为那时，黄仁勋创办的辉达，还只是一家市值九十亿美元的公司；而台积电的市值，已经是九百亿美元——辉达的整整十倍。黄仁勋的个人财富，也只是辉达市值的百分之几而已。",
         "en": "Because back then, the Nvidia Jensen Huang had founded was still a company worth only nine billion US dollars; TSMC's market value was already ninety billion — exactly ten times Nvidia. Jensen Huang's personal wealth was only a few percent of Nvidia's market value.",
-        "start": 288.69,
-        "end": 304.48
+        "start": 297.75,
+        "end": 313.45
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23944,8 +23943,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可就是这样一个「小公司」的创办人，用一句「我已有工作」，拒绝了一份天大的offer。",
         "en": "And yet the founder of such a \"small company\" turned down an enormous offer with a single sentence: \"I already have a job.\"",
-        "start": 304.48,
-        "end": 312.76
+        "start": 313.45,
+        "end": 320.71
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23953,8 +23952,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 312.76,
-        "end": 314.93
+        "start": 320.71,
+        "end": 322.99
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23962,8 +23961,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋后来回忆这件事，说：黄仁勋的回答，倒是诚实的。",
         "en": "Recalling it later, Morris Chang said: Jensen Huang's answer was, at least, an honest one.",
-        "start": 314.93,
-        "end": 320.06
+        "start": 322.99,
+        "end": 328.33
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23971,8 +23970,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 320.06,
-        "end": 321.25
+        "start": 328.33,
+        "end": 330.25
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23980,8 +23979,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他「已有工作」——他的工作，就是在十一年之后，把辉达，提升到今天的辉达。",
         "en": "He did \"already have a job\" — and that job was to raise Nvidia, eleven years later, to the Nvidia of today.",
-        "start": 321.25,
-        "end": 328.35
+        "start": 330.25,
+        "end": 337.27
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23989,8 +23988,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "命运给张忠谋开的这个玩笑，后来成了半导体史上，最妙的一个注脚：他看中的人，没有来；而他没料到的是，这个「没来的人」，日后会跟台积电，并肩站上世界之巅。",
         "en": "The joke fate played on Morris Chang became one of the finest footnotes in semiconductor history: the man he had wanted did not come; and what he had not foreseen was that this man who \"did not come\" would one day stand shoulder to shoulder with TSMC at the top of the world.",
-        "start": 328.35,
-        "end": 343.15
+        "start": 337.27,
+        "end": 351.31
       },
       {
         "secZh": "第二幕 · 「我已有工作」",
@@ -23998,8 +23997,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "交棒的接力棒，还得，传回公司内部。",
         "en": "The baton of succession still had to be passed back, inside the company.",
-        "start": 343.15,
-        "end": 346.5
+        "start": 351.31,
+        "end": 354.86
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24007,8 +24006,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一三年十月，蒋尚义退休。十一月十二日，张忠谋宣布：刘德音和魏哲家，出任台积电的共同 CEO。",
         "en": "In October 2013, Chiang Shang-yi retired. On November 12, Morris Chang announced: Liu Deyin and C.C. Wei would become TSMC's co-CEOs.",
-        "start": 346.5,
-        "end": 355.97
+        "start": 354.86,
+        "end": 365.43
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24016,8 +24015,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 355.97,
-        "end": 357.15
+        "start": 365.43,
+        "end": 367.34
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24025,8 +24024,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这两位，自二○○五年蔡力行任 CEO 时，就分别是先进技术事业组织、主流技术事业组织的资深副总，一路都是台积电最重要的经理人。",
         "en": "These two had been, since Rick Tsai's time as CEO in 2005, the senior vice presidents of the advanced technology organization and the mainstream technology organization respectively — all along, the most important managers at TSMC.",
-        "start": 357.15,
-        "end": 369.58
+        "start": 367.34,
+        "end": 378.47
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24034,8 +24033,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "但这个安排，还不是最终的答案。因为董事长，终究要退。",
         "en": "But this arrangement was still not the final answer. Because the chairman would eventually have to step down.",
-        "start": 369.58,
-        "end": 374.71
+        "start": 378.47,
+        "end": 384.02
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24043,8 +24042,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 374.71,
-        "end": 376.88
+        "start": 384.02,
+        "end": 386.29
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24052,8 +24051,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋开始琢磨，一个更根本的问题：退下来之后，台积电该怎么运转？",
         "en": "Morris Chang began to think about a more fundamental question: after he stepped down, how should TSMC run?",
-        "start": 376.88,
-        "end": 383.2
+        "start": 386.29,
+        "end": 392.69
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24061,8 +24060,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 383.2,
-        "end": 384.38
+        "start": 392.69,
+        "end": 394.61
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24070,8 +24069,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他想到的，是欧美许多大公司都采用的「双首长制」。",
         "en": "What he thought of was the \"dual leadership\" structure used by many large companies in Europe and America.",
-        "start": 384.38,
-        "end": 389.12
+        "start": 394.61,
+        "end": 398.97
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24079,8 +24078,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在这个制度里，总裁——也就是 CEO——是公司的领导人；而董事长，领导董事会，监督总裁。因为公司的重要决定，必须经过董事会通过，所以董事长，也成了公司决策的最后把关者。",
         "en": "In this structure, the president — the CEO — leads the company; while the chairman leads the board, supervises the president, and, because the company's major decisions must pass the board, the chairman becomes the final gatekeeper of decisions.",
-        "start": 389.12,
-        "end": 405.69
+        "start": 398.97,
+        "end": 415.75
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24088,8 +24087,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 405.69,
-        "end": 407.86
+        "start": 415.75,
+        "end": 418.02
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24097,8 +24096,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋想得很细。",
         "en": "Morris Chang thought it through in fine detail.",
-        "start": 407.86,
-        "end": 409.83
+        "start": 418.02,
+        "end": 419.83
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24106,8 +24105,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他给「董事长的任务」，写下了三条：第一，领导董事会；第二，公司对政府及社会的最高代表；第三，公司决策的最后把关者。而且，是「全时工作」。",
         "en": "For \"the chairman's duties,\" he wrote down three: first, to lead the board; second, to be the company's highest representative to government and society; third, to be the final gatekeeper of the company's decisions. And — it was a full-time job.",
-        "start": 409.83,
-        "end": 423.25
+        "start": 419.83,
+        "end": 432.67
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24115,8 +24114,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 423.25,
-        "end": 424.43
+        "start": 432.67,
+        "end": 434.59
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24124,8 +24123,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "为了做到这三点，他建议：董事长除了继续主持「资本投资」会议，还应该参加「订价会议」「行销周」「法说会」，并且，与总裁无缝双向沟通。",
         "en": "To do those three things, he suggested the chairman should continue to chair the \"capital investment\" meetings, and should also take part in the \"pricing meetings,\" the \"marketing week,\" and the \"earnings calls,\" and should communicate seamlessly, in both directions, with the president.",
-        "start": 424.43,
-        "end": 437.25
+        "start": 434.59,
+        "end": 445.56
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24133,8 +24132,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而「总裁的任务」，是：在董事会的指导方针下，领导经营公司；对董事会报告——注意，是对董事会报告，不是对董事长报告；全公司，对总裁报告。",
         "en": "And \"the president's duties\" were: to lead and run the company under the board's guidelines; to report to the board — note, to the board, not to the chairman; and the whole company reports to the president.",
-        "start": 437.25,
-        "end": 450.47
+        "start": 445.56,
+        "end": 458.58
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24142,8 +24141,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 450.47,
-        "end": 452.64
+        "start": 458.58,
+        "end": 460.85
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24151,8 +24150,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "为了强调「双首长制」不是「董事长制」，也不是「总裁制」，张忠谋刻意，把两个人的职阶和待遇，画上了等号。",
         "en": "To emphasize that \"dual leadership\" meant neither \"chairman-rule\" nor \"president-rule,\" Morris Chang deliberately drew an equal sign between the two men's rank and compensation.",
-        "start": 452.64,
-        "end": 462.71
+        "start": 460.85,
+        "end": 469.51
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24160,8 +24159,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 462.71,
-        "end": 463.89
+        "start": 469.51,
+        "end": 471.43
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24169,8 +24168,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这是一个极细、也极关键的设计。它要解决的，是一个传承里最危险的死结：两个接班人，如果一高一低，高的那个，终有一日会逼走低的那个。",
         "en": "It was an extremely fine — and extremely crucial — design. It was meant to solve the deadliest knot in any succession: if one successor ranked above the other, the higher one would one day drive the lower one out.",
-        "start": 463.89,
-        "end": 476.52
+        "start": 471.43,
+        "end": 484.11
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24178,8 +24177,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而张忠谋，一个都不想失去。",
         "en": "And Morris Chang did not want to lose either one.",
-        "start": 476.52,
-        "end": 479.08
+        "start": 484.11,
+        "end": 486.88
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24187,8 +24186,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 479.08,
-        "end": 481.25
+        "start": 486.88,
+        "end": 489.15
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24196,8 +24195,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "做这个决定之前，他唯一咨询的人，是副董事长曾繁城。而曾繁城，完全认同他的想法。",
         "en": "Before making this decision, the only person he consulted was vice chairman F.C. Tseng. And F.C. Tseng fully agreed with his thinking.",
-        "start": 481.25,
-        "end": 488.95
+        "start": 489.15,
+        "end": 497.07
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24205,8 +24204,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 488.95,
-        "end": 490.13
+        "start": 497.07,
+        "end": 498.99
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24214,8 +24213,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一七年七月二日，张忠谋把刘德音、魏哲家两个人，叫到一起，向他们出示了三份文件——「交棒计划」「董事长的任务」「总裁的任务」——并征求他们的同意。",
         "en": "On July 2, 2017, Morris Chang called Liu Deyin and C.C. Wei together, showed them three documents — \"the succession plan,\" \"the chairman's duties,\" and \"the president's duties\" — and asked for their agreement.",
-        "start": 490.13,
-        "end": 504.73
+        "start": 498.99,
+        "end": 512.31
       },
       {
         "secZh": "第三幕 · 双首长制",
@@ -24223,8 +24222,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "两个人，都很兴奋，也都没有意见，同意了。",
         "en": "Both were excited, and both agreed without objection.",
-        "start": 504.73,
-        "end": 508.68
+        "start": 512.31,
+        "end": 516.48
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24232,8 +24231,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一七年八月，董事会的第三季会期，张忠谋把「交棒计划」，正式摆上了桌面。",
         "en": "In August 2017, at the board's third-quarter session, Morris Chang formally laid the succession plan on the table.",
-        "start": 508.68,
-        "end": 515.98
+        "start": 516.48,
+        "end": 524.33
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24241,8 +24240,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 515.98,
-        "end": 517.16
+        "start": 524.33,
+        "end": 526.25
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24250,8 +24249,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "八月六日的晚上，是例行他与独立董事的会前晚餐。为了讨论交棒计划，他特地提前到下午四点，请独立董事们，先就「董事长的任务」「总裁的任务」，以书面提出意见。大家讨论得相当热烈。",
         "en": "On the evening of August 6, at his routine pre-meeting dinner with the independent directors, he deliberately moved the start earlier, to four in the afternoon, and asked the independent directors to give their written opinions on \"the chairman's duties\" and \"the president's duties.\" The discussion was quite heated.",
-        "start": 517.16,
-        "end": 534.13
+        "start": 526.25,
+        "end": 542.31
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24259,8 +24258,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他还亲自去了国发基金，向董事陈美伶说明，并得到了她的同意。",
         "en": "He also went in person to the National Development Fund to explain the plan to its director Chen Mei-ling, and won her agreement.",
-        "start": 534.13,
-        "end": 539.85
+        "start": 542.31,
+        "end": 547.99
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24268,8 +24267,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 539.85,
-        "end": 542.02
+        "start": 547.99,
+        "end": 550.26
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24277,8 +24276,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "换句话说，二○一八年六月的交棒计划，早在二○一七年九月，就已经获得了这届、以及下一届董事会的同意。",
         "en": "In other words, the succession plan for June 2018 had already won the agreement of this board and the next, as early as September 2017.",
-        "start": 542.02,
-        "end": 551.69
+        "start": 550.26,
+        "end": 559.27
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24286,8 +24285,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 551.69,
-        "end": 552.87
+        "start": 559.27,
+        "end": 561.19
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24295,8 +24294,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一切就绪。剩下的，是找一个合适的时机，向全世界宣布。",
         "en": "Everything was ready. What remained was to find the right moment to announce it to the world.",
-        "start": 552.87,
-        "end": 558.0
+        "start": 561.19,
+        "end": 566.73
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24304,8 +24303,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋把时机，定在了台积电三十周年的庆典之前。",
         "en": "Morris Chang chose to do it before TSMC's thirtieth-anniversary celebration.",
-        "start": 558.0,
-        "end": 562.54
+        "start": 566.73,
+        "end": 571.27
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24313,8 +24312,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 562.54,
-        "end": 564.71
+        "start": 571.27,
+        "end": 573.54
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24322,8 +24321,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一七年十月二日，下午两点，张忠谋首先对台积电内部宣布交棒计划；四点半，召开记者会，对外宣布。",
         "en": "On October 2, 2017, at two in the afternoon, he first announced the succession plan inside TSMC; at four-thirty, he held a press conference to announce it publicly.",
-        "start": 564.71,
-        "end": 574.18
+        "start": 573.54,
+        "end": 582.63
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24331,8 +24330,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 574.18,
-        "end": 575.36
+        "start": 582.63,
+        "end": 584.55
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24340,8 +24339,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "十月五、六两日，他又接连接受了包括日本《日经新闻》、美国彭博新闻社在内，七家国内外媒体的专访。",
         "en": "On October 5 and 6, he gave interviews, one after another, to seven media outlets at home and abroad, including Japan's Nikkei and America's Bloomberg News.",
-        "start": 575.36,
-        "end": 584.63
+        "start": 584.55,
+        "end": 593.21
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24349,8 +24348,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他为什么赶在庆典之前宣布？",
         "en": "Why announce it before the celebration?",
-        "start": 584.63,
-        "end": 587.2
+        "start": 593.21,
+        "end": 595.9
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24358,8 +24357,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 587.2,
-        "end": 589.37
+        "start": 595.9,
+        "end": 598.18
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24367,8 +24366,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他说：这样，可以提早让伙伴们，更深入地认识他的接班人；也可以避免，庆典之后才宣布的困扰——「怎么刚去过，他们一声不响，现在忽然来了个大变动？」",
         "en": "He said: this way, our partners could get to know my successors more deeply, earlier; and it would avoid the confusion of announcing it only after the celebration — \"we just went, they said nothing, and now suddenly this big change?\"",
-        "start": 589.37,
-        "end": 603.38
+        "start": 598.18,
+        "end": 611.81
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24376,8 +24375,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 603.38,
-        "end": 604.56
+        "start": 611.81,
+        "end": 613.73
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24385,8 +24384,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "十月二十三日，台积电三十周年庆，如约而至。",
         "en": "On October 23, TSMC's thirtieth anniversary arrived as planned.",
-        "start": 604.56,
-        "end": 608.7
+        "start": 613.73,
+        "end": 618.0
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24394,8 +24393,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一天的上午，张忠谋分别与几位大客户，谈合作。由于退休早已不是新闻，他们可以如常地，讨论当前的问题。他庆幸，自己提早宣布交棒，是对的。",
         "en": "That morning, Morris Chang met several major customers to discuss cooperation. Since his retirement was no longer news, they could discuss current issues as usual. He was glad he had announced the succession early — it had been the right call.",
-        "start": 608.7,
-        "end": 621.92
+        "start": 618.0,
+        "end": 631.49
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24403,8 +24402,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "下午，是一场座谈会。与谈的人，有辉达、高通、博通、艾司摩尔、亚德诺半导体、安谋的总裁，还有苹果的营运长。内容，相当精彩。",
         "en": "In the afternoon came a forum. On the panel were the presidents of Nvidia, Qualcomm, Broadcom, ASML, Analog Devices, and Arm, plus Apple's chief operating officer. The content was outstanding.",
-        "start": 621.92,
-        "end": 633.76
+        "start": 631.49,
+        "end": 643.99
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24412,8 +24411,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 633.76,
-        "end": 635.93
+        "start": 643.99,
+        "end": 646.26
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24421,8 +24420,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而真正让他动容的，是晚上的音乐会。",
         "en": "But what truly moved him was the evening concert.",
-        "start": 635.93,
-        "end": 639.29
+        "start": 646.26,
+        "end": 649.74
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24430,8 +24429,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 639.29,
-        "end": 640.47
+        "start": 649.74,
+        "end": 651.66
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24439,8 +24438,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电每逢十周年，都会订一天庆祝。一九九七年的十周年庆，台积电规模尚小，请的是国内的乐团。而二○○七、二○一七年，台积电已经是一家大公司，他们分别请来了国际著名的乐团，演奏同一首曲子——",
         "en": "Every tenth anniversary, TSMC would set aside a day to celebrate. For the tenth anniversary in 1997, when TSMC was still mid-sized, they invited a domestic orchestra. But for the twentieth and thirtieth anniversaries, in 2007 and 2017, TSMC was already a large company, and they invited internationally renowned orchestras to play the same piece —",
-        "start": 640.47,
-        "end": 658.82
+        "start": 651.66,
+        "end": 669.29
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24448,8 +24447,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "贝多芬的第九号交响曲，《合唱》。",
         "en": "Beethoven's Ninth Symphony, the \"Choral.\"",
-        "start": 658.82,
-        "end": 661.97
+        "start": 669.29,
+        "end": 672.23
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24457,8 +24456,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 661.97,
-        "end": 664.14
+        "start": 672.23,
+        "end": 674.51
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24466,8 +24465,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋爱这首曲子。因为它既美丽，又雄壮；因为它需要一个八十人以上的大交响乐团，和一个九十人以上的大合唱团，才能有好的演出。",
         "en": "Morris Chang loved this piece. Because it is both beautiful and majestic; because it needs an orchestra of more than eighty players, and a chorus of more than ninety singers, to be performed well.",
-        "start": 664.14,
-        "end": 676.18
+        "start": 674.51,
+        "end": 686.39
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24475,8 +24474,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 676.18,
-        "end": 677.36
+        "start": 686.39,
+        "end": 688.31
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24484,8 +24483,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "用这首曲子，为每一个十年收尾，正足以表达台积电的雄心壮志。",
         "en": "Ending each decade's celebration with this piece was exactly the way to express TSMC's ambition.",
-        "start": 677.36,
-        "end": 683.08
+        "start": 688.31,
+        "end": 693.98
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24493,8 +24492,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "那一天晚上，当乐队中场休息结束，贝多芬第九号交响曲即将开始的时候，张忠谋，破例地走上了舞台。",
         "en": "That night, when the orchestra's intermission ended and Beethoven's Ninth was about to begin, Morris Chang — against all convention — walked onto the stage.",
-        "start": 683.08,
-        "end": 692.16
+        "start": 693.98,
+        "end": 702.82
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24502,8 +24501,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 692.16,
-        "end": 694.33
+        "start": 702.82,
+        "end": 705.09
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24511,8 +24510,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他用英文，对来宾说了一段关于退休的、感情的话。",
         "en": "In English, he spoke to the guests, some words of feeling about retirement.",
-        "start": 694.33,
-        "end": 698.87
+        "start": 705.09,
+        "end": 709.71
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24520,8 +24519,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 698.87,
-        "end": 700.05
+        "start": 709.71,
+        "end": 711.63
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24529,8 +24528,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "说完之后，首先，是几位大客户的总裁，起立鼓掌；接着，全体来宾，都站了起来，掌声如雷。",
         "en": "When he finished, first the presidents of several major customers rose to applaud; then the entire audience rose to their feet, and the applause thundered.",
-        "start": 700.05,
-        "end": 708.34
+        "start": 711.63,
+        "end": 719.99
       },
       {
         "secZh": "第四幕 · 贝多芬第九",
@@ -24538,8 +24537,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "对一个整个事业生涯，都以客户为伙伴的人来说，这一刻的掌声，是莫大的回报。",
         "en": "For a man whose whole career had treated customers as partners, that applause was the greatest of rewards.",
-        "start": 708.34,
-        "end": 715.44
+        "start": 719.99,
+        "end": 726.98
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24547,8 +24546,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "宣布退休之后，张忠谋无论对内、对外，仍如常工作。",
         "en": "After announcing his retirement, Morris Chang kept working as usual, inside and out.",
-        "start": 715.44,
-        "end": 720.18
+        "start": 726.98,
+        "end": 733.07
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24556,8 +24555,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 720.18,
-        "end": 721.36
+        "start": 733.07,
+        "end": 734.99
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24565,8 +24564,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一八年的四、五月，公司内部，办了好几场大规模的惜别会：新竹、台南、台中，各办一场，每一场，都有数百到上千位同仁参加。行销单位的同仁，大部分来自国外，也趁他们四月在新竹季会的时机，为他办了一场惜别晚会。",
         "en": "In April and May of 2018, the company held several large-scale farewell gatherings: one each in Hsinchu, Tainan, and Taichung, each attended by hundreds to over a thousand colleagues. The marketing colleagues, most of them from abroad, also held a farewell evening for him during their quarterly meeting in Hsinchu in April.",
-        "start": 721.36,
-        "end": 741.48
+        "start": 734.99,
+        "end": 754.68
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24574,8 +24573,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 741.48,
-        "end": 743.65
+        "start": 754.68,
+        "end": 756.96
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24583,8 +24582,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一八年六月五日，股东大会，终于到来。",
         "en": "June 5, 2018 — the shareholders' meeting arrived at last.",
-        "start": 743.65,
-        "end": 747.6
+        "start": 756.96,
+        "end": 760.87
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24592,8 +24591,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 747.6,
-        "end": 748.78
+        "start": 760.87,
+        "end": 762.79
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24601,8 +24600,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋，如计划，在股东大会上，卸下董事长一职，退休。新一届的董事们，也如先前的计划，选出刘德音为董事长、魏哲家为总裁——台积电的「双首长制」，正式开始。",
         "en": "Morris Chang, as planned, stepped down as chairman at the shareholders' meeting, and retired. The newly elected board, also as planned, elected Liu Deyin as chairman and C.C. Wei as president — TSMC's \"dual leadership\" officially began.",
-        "start": 748.78,
-        "end": 763.78
+        "start": 762.79,
+        "end": 777.67
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24610,8 +24609,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 763.78,
-        "end": 765.95
+        "start": 777.67,
+        "end": 779.94
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24619,8 +24618,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "从二十四岁，到八十七岁，六十三年的事业生涯，就此结束。",
         "en": "From twenty-four to eighty-seven: a sixty-three-year career, now at an end.",
-        "start": 765.95,
-        "end": 771.28
+        "start": 779.94,
+        "end": 785.34
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24628,8 +24627,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 771.28,
-        "end": 772.46
+        "start": 785.34,
+        "end": 787.26
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24637,8 +24636,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "六十三年的职业生涯里，三年在希凡尼亚，二十五年在德州仪器，三十二年在台积电——这三十三年里，还包括了他筹备和募资的那两年。",
         "en": "In those sixty-three years: three at Sylvania, twenty-five at Texas Instruments, and thirty-two at TSMC — including the two years of planning and fundraising.",
-        "start": 772.46,
-        "end": 784.49
+        "start": 787.26,
+        "end": 799.13
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24646,8 +24645,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "六十三年，几乎全部，都泡在了半导体里。除了德州仪器后期的几年，也几乎全部，是积极的、前进的。",
         "en": "Sixty-three years, almost all of it soaked in semiconductors. Apart from his last few years at TI, almost all of it was active, and forward-moving.",
-        "start": 784.49,
-        "end": 793.57
+        "start": 799.13,
+        "end": 808.45
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24655,8 +24654,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 793.57,
-        "end": 795.74
+        "start": 808.45,
+        "end": 810.72
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24664,8 +24663,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他最成功的工作，明显是最后一个——台积电。",
         "en": "His most successful work was clearly his last one — TSMC.",
-        "start": 795.74,
-        "end": 799.88
+        "start": 810.72,
+        "end": 815.29
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24673,8 +24672,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 799.88,
-        "end": 801.07
+        "start": 815.29,
+        "end": 817.21
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24682,8 +24681,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他说，台积电现在，已经是世界「必需」的公司。而世界的「需要」，尤其在人工智能方面，正在快速地成长。",
         "en": "He said TSMC had become a company the world \"needs\" — and the world's need, especially in artificial intelligence, is growing fast.",
-        "start": 801.07,
-        "end": 810.73
+        "start": 817.21,
+        "end": 826.27
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24691,8 +24690,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电的责任，已经落在了接班人的肩膀上。",
         "en": "TSMC's responsibility had already landed on the shoulders of his successors.",
-        "start": 810.73,
-        "end": 814.68
+        "start": 826.27,
+        "end": 830.27
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24700,8 +24699,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他对他们，寄予深切的期待，和虔诚的祝福。",
         "en": "To them, he gave his deepest expectations, and his most sincere blessings.",
-        "start": 814.68,
-        "end": 818.63
+        "start": 830.27,
+        "end": 834.36
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24709,8 +24708,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 818.63,
-        "end": 820.8
+        "start": 834.36,
+        "end": 836.63
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24718,8 +24717,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而他自己，早在做退休决定时，就已经想好了，退休之后，要去做三件想了很久、却一直没时间做的事。",
         "en": "And for himself, back when he made the retirement decision, he had already decided on three things he had long wanted to do, but never had time for.",
-        "start": 820.8,
-        "end": 829.87
+        "start": 836.63,
+        "end": 845.55
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24727,8 +24726,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 829.87,
-        "end": 831.06
+        "start": 845.55,
+        "end": 847.47
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24736,8 +24735,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "第一件，是写《自传下册》；第二件，是带夫人 Sophie，重游他中年在德州仪器时期，常去、也最喜欢的那些地方——巴黎，法国里维埃拉，蒙地卡罗，还有瑞士、伦敦、意大利北部；第三件，是尽情满足他自大学时代就有的嗜好——专业之外的阅读、听古典音乐，还有，打一场竞争桥牌。",
         "en": "The first was to write the second volume of his autobiography. The second was to take his wife Sophie to revisit the places he had loved most, and visited most often, back in his Texas Instruments years — Paris, the French Riviera, Monte Carlo, and Switzerland, London, and northern Italy. The third was to fully indulge the hobbies he had had since university — reading beyond his profession, listening to classical music, and playing a game of competitive bridge.",
-        "start": 831.06,
-        "end": 857.1
+        "start": 847.47,
+        "end": 872.69
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24745,8 +24744,8 @@ window.EPISODES_DATA = [
         "speaker": "平行时刻 · 时间胶囊",
         "zh": "【平行时刻 · 时间胶囊】",
         "en": "[Main narrator, time capsule]",
-        "start": 857.1,
-        "end": 859.66
+        "start": 872.69,
+        "end": 875.31
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24754,8 +24753,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他这一年：二○一八年，八十七岁，把一手创立的台积电，交给了一套他亲手设计的制度。",
         "en": "His year: 2018 — at eighty-seven, he hands the TSMC he founded to a system he designed himself.",
-        "start": 859.66,
-        "end": 867.56
+        "start": 875.31,
+        "end": 883.03
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24763,8 +24762,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "世界这一年：这家公司，已经成了世界「必需」的公司，而人工智能的需求，正在地平线上快速升起。",
         "en": "The world's year: the company has become one the world \"needs,\" and the demand for artificial intelligence is rising fast on the horizon.",
-        "start": 867.56,
-        "end": 876.43
+        "start": 883.03,
+        "end": 891.45
       },
       {
         "secZh": "第五幕 · 六十三年，收鞘",
@@ -24772,8 +24771,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "同一条时间线——他走下战场的那一刻，世界，才刚刚开始需要他。",
         "en": "One timeline — the moment he steps off the battlefield, the world is only just beginning to need him.",
-        "start": 876.43,
-        "end": 882.35
+        "start": 891.45,
+        "end": 897.69
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24781,8 +24780,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋这一生，做过许多艰难的决定。",
         "en": "Morris Chang made many hard decisions in his life.",
-        "start": 882.35,
-        "end": 885.71
+        "start": 897.69,
+        "end": 902.38
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24790,8 +24789,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 885.71,
-        "end": 886.89
+        "start": 902.38,
+        "end": 904.3
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24799,8 +24798,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可最难的，或许不是创办台积电，不是赌上七纳米，而是——在最恰当的时候，把这一切，交出去。",
         "en": "But the hardest was perhaps not founding TSMC, nor betting on seven nanometers — but handing it all over, at exactly the right moment.",
-        "start": 886.89,
-        "end": 895.57
+        "start": 904.3,
+        "end": 913.25
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24808,8 +24807,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 895.57,
-        "end": 897.74
+        "start": 913.25,
+        "end": 915.52
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24817,8 +24816,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他没有把公司，交给一个「像自己」的人。他交给了两个人，和一套制度。",
         "en": "He did not hand the company to someone who \"resembled himself.\" He handed it to two people, and to a system.",
-        "start": 897.74,
-        "end": 904.25
+        "start": 915.52,
+        "end": 921.95
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24826,8 +24825,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 904.25,
-        "end": 905.44
+        "start": 921.95,
+        "end": 923.87
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24835,8 +24834,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这套制度的精巧，在于它承认一个朴素的道理：再伟大的人，也是会老的；而一家伟大的公司，不该依赖任何一个人，才能继续伟大。",
         "en": "The cleverness of that system lies in the plain truth it admits: even the greatest person grows old; and a great company should not depend on any single person to remain great.",
-        "start": 905.44,
-        "end": 917.08
+        "start": 923.87,
+        "end": 935.27
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24844,8 +24843,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "真正的传承，不是找一个像自己的人，而是把公司，交给一套比个人更持久的制度。",
         "en": "True succession is not finding someone who resembles you — it is handing the company to a system more lasting than any individual.",
-        "start": 917.08,
-        "end": 924.38
+        "start": 935.27,
+        "end": 942.44
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24853,8 +24852,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "很多年后，人们回头看这一幕，会心一笑。",
         "en": "Many years later, people look back on this scene and smile.",
-        "start": 924.38,
-        "end": 928.12
+        "start": 942.44,
+        "end": 946.35
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24862,8 +24861,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 928.12,
-        "end": 929.31
+        "start": 946.35,
+        "end": 948.27
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24871,8 +24870,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他当年想请来做接班人的那个人，没有来；可正是这个人，后来成了台积电最重要的客户之一。命运把两个人，从「我已有工作」的那通电话，一路送到了人工智能时代的正中央——一个负责造，一个负责想，共同撑起了这个时代的算力。",
         "en": "The man he had once wanted as his successor did not come; and yet that very man became one of TSMC's most important customers. Fate carried the two of them, from that \"I already have a job\" phone call, all the way to the center of the AI age — one building, one dreaming, together powering the era's computing.",
-        "start": 929.31,
-        "end": 950.02
+        "start": 948.27,
+        "end": 968.19
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24880,8 +24879,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 950.02,
-        "end": 952.19
+        "start": 968.19,
+        "end": 970.46
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24889,8 +24888,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "而张忠谋，早在退休之前，就已经预见到了这一天。他把 CoWoS 的伏笔埋下，把双首长的制度搭好，然后，从容地，退到了舞台之外。",
         "en": "And Morris Chang, before he even retired, had already foreseen that day. He planted the seed of CoWoS, built the frame of dual leadership, and then — calmly — stepped off the stage.",
-        "start": 952.19,
-        "end": 964.62
+        "start": 970.46,
+        "end": 982.5
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24898,8 +24897,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 964.62,
-        "end": 965.81
+        "start": 982.5,
+        "end": 984.42
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -24907,8 +24906,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，就是交棒与退休。",
         "en": "That is the handover and the retirement.",
-        "start": 965.81,
-        "end": 967.78
+        "start": 984.42,
+        "end": 986.66
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -24916,8 +24915,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "1. **双首长制（Dual Leadership）**：欧美企业常见治理结构——董事长领导董事会并作决策最后把关，总裁（CEO）负责经营并对董事会报告；张忠谋刻意将两人职阶待遇画等号，避免「一高一低」逼走一方。（英文：dual leadership / co-CEO structure）",
         "en": "1. **Dual leadership**: A governance structure common in Western companies — the chairman leads the board and is the final gatekeeper, while the president (CEO) runs the company and reports to the board; Morris Chang deliberately made the two equal in rank and pay to avoid one driving out the other.",
-        "start": 967.78,
-        "end": 996.39
+        "start": 986.66,
+        "end": 1012.12
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -24925,8 +24924,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "2. **「我已有工作」**：2013 年张忠谋征询黄仁勋对台积电 CEO 职的兴趣，黄仁勋两次回答「我已有工作」；当时辉达市值 90 亿美元、台积电 900 亿美元——十一年后辉达成全球市值最高公司之一。（英文：Jensen Huang, \"I already have a job\"）",
         "en": "2. **\"I already have a job\"**: In 2013 Morris Chang sounded out Jensen Huang about TSMC's CEO role, and Huang answered \"I already have a job\" twice; then Nvidia was worth $9B versus TSMC's $90B — eleven years later Nvidia became one of the world's most valuable companies.",
-        "start": 996.39,
-        "end": 1024.8
+        "start": 1012.12,
+        "end": 1034.84
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -24934,8 +24933,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "3. **贝多芬第九号交响曲**：台积电 1997 十周年请国内乐团、2007 与 2017 二十/三十周年请国际名团，皆以贝多芬第九《合唱》收尾——80 人以上乐团 + 90 人以上合唱团的雄壮编制。（英文：Beethoven's Ninth, TSMC 30th anniversary）",
         "en": "3. **Beethoven's Ninth**: TSMC's tenth anniversary in 1997 used a domestic orchestra; the twentieth and thirtieth anniversaries (2007, 2017) used internationally renowned orchestras, all closing with Beethoven's Ninth \"Choral\" — a piece needing an 80-plus orchestra and a 90-plus chorus.",
-        "start": 1024.8,
-        "end": 1053.6
+        "start": 1034.84,
+        "end": 1058.01
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -24943,8 +24942,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "4. **2018.6.5 退休**：张忠谋卸任董事长，刘德音接任董事长、魏哲家任总裁，台积电进入双首长时代；同年其 7nm 独家领先世界。（英文：June 5, 2018 retirement, Mark Liu & C.C. Wei）",
         "en": "4. **Retirement on June 5, 2018**: Morris Chang stepped down as chairman, Mark Liu became chairman and C.C. Wei became president, ushering in TSMC's dual-leadership era — the same year its 7nm led the world alone.",
-        "start": 1053.6,
-        "end": 1077.08
+        "start": 1058.01,
+        "end": 1078.91
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -24952,8 +24951,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "5. **六十三年生涯**：希凡尼亚 3 年、德州仪器 25 年、台积电 32 年（含筹备募资 2 年），几乎全部在半导体业。",
         "en": "5. **A sixty-three-year career**: three years at Sylvania, twenty-five at Texas Instruments, thirty-two at TSMC (including two years of planning and fundraising) — almost all of it in semiconductors.",
-        "start": 1077.08,
-        "end": 1089.51
+        "start": 1078.91,
+        "end": 1088.61
       },
       {
         "secZh": "下集预告",
@@ -24961,8 +24960,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋退休的那一年，没人能预料，这家公司会在几年之后，成为两个大国角力的焦点，和一座小岛的命运共同体。",
         "en": "The year Morris Chang retired, no one could have predicted that this company would, a few years later, become the focal point of a contest between two great powers, and the shared destiny of a small island.",
-        "start": 1089.51,
-        "end": 1099.57
+        "start": 1088.61,
+        "end": 1099.54
       },
       {
         "secZh": "下集预告",
@@ -24970,7 +24969,7 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "下一集，也是本系列的最后一集——《护国神山》。",
         "en": "Next episode — the final one of the series — \"The Mountain That Shields the Island.\"",
-        "start": 1099.57,
+        "start": 1099.54,
         "end": 1104.11
       }
     ]
@@ -24982,7 +24981,7 @@ window.EPISODES_DATA = [
     "summary": "护国神山 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第18期-护国神山/中文音频.mp3",
     "audioEn": "./03-剧集/第18期-护国神山/英文音频.mp3",
-    "durationZh": 1080.04,
+    "durationZh": 1080.044,
     "durationEn": 1082.42,
     "cues": [
       {
@@ -24992,7 +24991,7 @@ window.EPISODES_DATA = [
         "zh": "【音效：海浪拍打海岸，远处有货轮的汽笛声，低沉而悠长】",
         "en": "[SFX: waves against a shore, and in the distance the low, long blast of a freighter's horn]",
         "start": 0.0,
-        "end": 4.77
+        "end": 6.0
       },
       {
         "secZh": "开场",
@@ -25000,8 +24999,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "二○一八年六月五日，张忠谋退休了。",
         "en": "June 5, 2018. Morris Chang retired.",
-        "start": 4.77,
-        "end": 7.77
+        "start": 6.0,
+        "end": 9.31
       },
       {
         "secZh": "开场",
@@ -25009,8 +25008,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 7.77,
-        "end": 8.83
+        "start": 9.31,
+        "end": 11.24
       },
       {
         "secZh": "开场",
@@ -25018,8 +25017,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "他交出了董事长的位子，交出了他守了三十三年的台积电。那一天，全世界都以为，一个传奇，就此画上了句号。",
         "en": "He handed over the chairman's seat, and the TSMC he had guarded for thirty-three years. That day, the whole world thought a legend had reached its full stop.",
-        "start": 8.83,
-        "end": 17.65
+        "start": 11.24,
+        "end": 21.21
       },
       {
         "secZh": "开场",
@@ -25027,8 +25026,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 17.65,
-        "end": 19.59
+        "start": 21.21,
+        "end": 23.49
       },
       {
         "secZh": "开场",
@@ -25036,8 +25035,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可没有人能料到，故事非但没有结束，反而刚刚进入它最惊心动魄的一章。",
         "en": "But no one could foresee that the story had not ended — it had only just entered its most thrilling chapter.",
-        "start": 19.59,
-        "end": 25.42
+        "start": 23.49,
+        "end": 29.89
       },
       {
         "secZh": "开场",
@@ -25045,8 +25044,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 25.42,
-        "end": 26.48
+        "start": 29.89,
+        "end": 31.82
       },
       {
         "secZh": "开场",
@@ -25054,8 +25053,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "在台湾，人们给台积电起了一个绰号——「护国神山」。",
         "en": "In Taiwan, people gave TSMC a nickname — \"the sacred mountain that shields the nation.\"",
-        "start": 26.48,
-        "end": 30.89
+        "start": 31.82,
+        "end": 36.76
       },
       {
         "secZh": "开场",
@@ -25063,8 +25062,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这个名字，一半是骄傲，一半是敬畏。因为这座山，挡住的不是风雨，而是整整一个时代的惊涛骇浪。",
         "en": "Half of that name is pride, half is awe. Because what this mountain holds back is not wind and rain, but the storms of an entire era.",
-        "start": 30.89,
-        "end": 38.83
+        "start": 36.76,
+        "end": 45.84
       },
       {
         "secZh": "开场",
@@ -25072,8 +25071,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator",
         "zh": "这个名字的由来，很简单。",
         "en": "[Main narrator]",
-        "start": 38.83,
-        "end": 40.95
+        "start": 45.84,
+        "end": 48.45
       },
       {
         "secZh": "开场",
@@ -25081,8 +25080,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "Where did that name come from? It is simple.",
-        "start": 40.95,
-        "end": 42.94
+        "start": 48.45,
+        "end": 50.37
       },
       {
         "secZh": "开场",
@@ -25090,8 +25089,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "台积电，占着全球最先进芯片制造的大半壁江山。当整个世界，都为「缺芯片」而焦头烂额的时候，这家公司，成了各国政要、各国企业，排着队来求的「山」。",
         "en": "TSMC holds well over half of the world's most advanced chipmaking. When the whole world was frantic over \"chip shortages,\" this company became the mountain that governments and companies everywhere lined up to ask for help.",
-        "start": 42.94,
-        "end": 55.47
+        "start": 50.37,
+        "end": 63.51
       },
       {
         "secZh": "开场",
@@ -25099,8 +25098,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "德国要芯片，来台湾；日本要芯片，来台湾；美国要芯片，也来台湾。全世界的汽车、手机、电脑，都绕不开这座山。",
         "en": "[Main narrator, slower]",
-        "start": 55.47,
-        "end": 64.65
+        "start": 63.51,
+        "end": 74.16
       },
       {
         "secZh": "开场",
@@ -25108,998 +25107,998 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这一集，是十八期的最后一集。我们讲，护国神山。",
         "en": "Germany needed chips, and came to Taiwan. Japan needed chips, and came to Taiwan. America needed chips, and came to Taiwan too. The world's cars, phones, and computers all trace back, somewhere, to this mountain.",
-        "start": 64.65,
-        "end": 72.37
+        "start": 74.16,
+        "end": 79.19
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
-        "secEn": "Opening",
-        "speaker": "Main narrator",
+        "secEn": "Act One · A War Without Gunfire",
+        "speaker": "",
         "zh": "风暴，是从一场没有硝烟的战争开始的。",
-        "en": "[Main narrator]",
-        "start": 72.37,
-        "end": 75.55
+        "en": "The storm began with a war that had no gunfire.",
+        "start": 79.19,
+        "end": 84.07
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
-        "secEn": "Opening",
+        "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "This episode is the last of eighteen. We tell the story of the mountain that shields the island.",
-        "start": 75.55,
-        "end": 79.52
+        "en": "[Main narrator]",
+        "start": 84.07,
+        "end": 86.0
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "二○一九年五月，美国把华为，列入了出口管制的「实体清单」。",
-        "en": "The storm began with a war that had no gunfire.",
-        "start": 79.52,
-        "end": 84.64
+        "en": "In May 2019, the United States put Huawei on its export-control \"Entity List.\"",
+        "start": 86.0,
+        "end": 91.16
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "华为，是台积电的第二大客户。它的手机芯片，用的正是台积电最先进的制程。一家台湾的公司，忽然被夹在了两个大国之间。",
-        "en": "[Main narrator]",
-        "start": 84.64,
-        "end": 94.52
+        "en": "Huawei was TSMC's second-largest customer. Its phone chips were made on TSMC's most advanced process. A Taiwanese company was suddenly caught between two great powers.",
+        "start": 91.16,
+        "end": 102.51
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "In May 2019, the United States put Huawei on its export-control \"Entity List.\"",
-        "start": 94.52,
-        "end": 97.39
+        "en": "[Main narrator, slower]",
+        "start": 102.51,
+        "end": 104.79
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "二○二○年五月十五日，美国进一步升级管制。规则一宣布，台积电几乎没有选择的余地——它必须遵守，因为它生产芯片的每一道工序，几乎都离不开美国的设备和技术。",
-        "en": "Huawei was TSMC's second-largest customer. Its phone chips were made on TSMC's most advanced process. A Taiwanese company was suddenly caught between two great powers.",
-        "start": 97.39,
-        "end": 110.81
+        "en": "On May 15, 2020, the United States tightened the rules further. The moment they were announced, TSMC had almost no room to choose — it had to comply, because nearly every step of its chipmaking depended on American equipment and technology.",
+        "start": 104.79,
+        "end": 119.4
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 110.81,
-        "end": 111.87
+        "en": "[Main narrator]",
+        "start": 119.4,
+        "end": 121.33
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "就在同一天，台积电还宣布了另一件事：它要投资一百二十亿美元，在美国亚利桑那州，建一座先进的晶圆厂。",
-        "en": "On May 15, 2020, the United States tightened the rules further. The moment they were announced, TSMC had almost no room to choose — it had to comply, because nearly every step of its chipmaking depended on American equipment and technology.",
-        "start": 111.87,
-        "end": 120.91
+        "en": "On the very same day, TSMC announced something else: it would invest twelve billion dollars to build an advanced wafer fab in Arizona, in the United States.",
+        "start": 121.33,
+        "end": 130.84
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "这两个消息，在同一天落地，像是一枚硬币的两面：一边是断供，一边是建厂。台积电，被时代的洪流，推着往前走。",
-        "en": "[Main narrator]",
-        "start": 120.91,
-        "end": 130.09
+        "en": "Two pieces of news landed on the same day, like two faces of one coin: on one side, a cutoff; on the other, a new factory. TSMC was being pushed forward by the flood of the times.",
+        "start": 130.84,
+        "end": 141.44
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "On the very same day, TSMC announced something else: it would invest twelve billion dollars to build an advanced wafer fab in Arizona, in the United States.",
-        "start": 130.09,
-        "end": 136.05
+        "en": "[Main narrator, slower]",
+        "start": 141.44,
+        "end": 143.72
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "二○二○年五月十八日，台积电宣布：停止接受华为的新订单。已接的订单，必须在九月十四日之前，出货完毕。",
-        "en": "Two pieces of news landed on the same day, like two faces of one coin: on one side, a cutoff; on the other, a new factory. TSMC was being pushed forward by the flood of the times.",
-        "start": 136.05,
-        "end": 144.87
+        "en": "On May 18, 2020, TSMC announced: it would stop taking new orders from Huawei. Orders already taken had to be shipped out by September 14.",
+        "start": 143.72,
+        "end": 153.45
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 144.87,
-        "end": 145.93
+        "en": "[Main narrator]",
+        "start": 153.45,
+        "end": 155.37
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "那一天，台积电关上了一扇门。这扇门，曾经是它和第二大客户之间，最紧密的一条纽带。",
-        "en": "On May 18, 2020, TSMC announced: it would stop taking new orders from Huawei. Orders already taken had to be shipped out by September 14.",
-        "start": 145.93,
-        "end": 152.99
+        "en": "That day, TSMC closed a door — a door that had once been the tightest bond between it and its second-largest customer.",
+        "start": 155.37,
+        "end": 163.49
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 152.99,
-        "end": 154.94
+        "en": "[Main narrator, slower]",
+        "start": 163.49,
+        "end": 165.77
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "九月十四日，成了那一年，半导体行业最沉重的一个日期。",
-        "en": "That day, TSMC closed a door — a door that had once been the tightest bond between it and its second-largest customer.",
-        "start": 154.94,
-        "end": 159.79
+        "en": "September 14 became, that year, the heaviest date in the semiconductor industry.",
+        "start": 165.77,
+        "end": 170.94
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 159.79,
-        "end": 160.85
+        "en": "[Main narrator]",
+        "start": 170.94,
+        "end": 172.86
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "在那之前，台积电的产线，日夜不停，为华为赶工。那是一段与时间赛跑的日子——每一颗芯片，都要赶在截止日之前，走下产线，装上货机。",
-        "en": "September 14 became, that year, the heaviest date in the semiconductor industry.",
-        "start": 160.85,
-        "end": 171.97
+        "en": "Before that day, TSMC's production lines ran day and night, rushing for Huawei. It was a race against time — every chip had to come off the line and onto a cargo plane before the deadline.",
+        "start": 172.86,
+        "end": 185.68
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "当最后一批货，越过太平洋，那扇门，就永远地关上了。",
-        "en": "[Main narrator]",
-        "start": 171.97,
-        "end": 176.38
+        "en": "When the last shipment crossed the Pacific, the door closed for good.",
+        "start": 185.68,
+        "end": 190.75
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "台积电失去了它的第二大客户，而华为，也失去了它最锋利的那把刀。两家公司，都被迫转身，走向各自未知的前路。",
-        "en": "Before that day, TSMC's production lines ran day and night, rushing for Huawei. It was a race against time — every chip had to come off the line and onto a cargo plane before the deadline.",
-        "start": 176.38,
-        "end": 185.56
+        "en": "TSMC lost its second-largest customer, and Huawei lost its sharpest blade. Both companies were forced to turn around, and walk toward their own unknown roads.",
+        "start": 190.75,
+        "end": 201.07
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "而作为台积电的创办人，张忠谋，在退休之后，反而以另一种身份，站到了风口浪尖上。",
-        "en": "When the last shipment crossed the Pacific, the door closed for good.",
-        "start": 185.56,
-        "end": 192.44
+        "en": "And as TSMC's founder, Morris Chang, after retiring, stood on the wind's edge in a different role.",
+        "start": 201.07,
+        "end": 208.7
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "TSMC lost its second-largest customer, and Huawei lost its sharpest blade. Both companies were forced to turn around, and walk toward their own unknown roads.",
-        "start": 192.44,
-        "end": 197.96
+        "en": "[Main narrator, slower]",
+        "start": 208.7,
+        "end": 210.98
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "从二○一八年到二○二三年，他连续七次，以台湾「领袖代表」的身份，出席 APEC 经济领袖会议。",
-        "en": "And as TSMC's founder, Morris Chang, after retiring, stood on the wind's edge in a different role.",
-        "start": 197.96,
-        "end": 206.26
+        "en": "From 2018 to 2023, he served seven times as Taiwan's \"leader's representative\" at the APEC economic leaders' meetings.",
+        "start": 210.98,
+        "end": 218.88
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 206.26,
-        "end": 207.32
+        "en": "[Main narrator]",
+        "start": 218.88,
+        "end": 220.8
       },
       {
         "secZh": "第一幕 · 一场没有硝烟的战争",
         "secEn": "Act One · A War Without Gunfire",
         "speaker": "",
         "zh": "一个退休的老人，成了这座小岛与世界之间，最体面的一位使者。人们这才发现，护国神山的「山」，从来不只是那几座厂房——它还是一个人，用一生，铸成的分量。",
-        "en": "From 2018 to 2023, he served seven times as Taiwan's \"leader's representative\" at the APEC economic leaders' meetings.",
-        "start": 207.32,
-        "end": 220.38
+        "en": "A retired old man became the most dignified envoy between this small island and the world. People only then realized: the \"mountain\" was never just those factory buildings — it was also a man, and the weight cast by a whole life.",
+        "start": 220.8,
+        "end": 235.22
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
-        "secEn": "Act One · A War Without Gunfire",
-        "speaker": "Main narrator",
+        "secEn": "Act Two · Building Factories Beyond the Mountain",
+        "speaker": "",
         "zh": "而台积电自己，也在做一件它历史上从未做过的事：把厂，建到台湾之外。",
-        "en": "[Main narrator]",
-        "start": 220.38,
-        "end": 226.2
+        "en": "And TSMC itself was doing something it had never done in its history: building factories beyond Taiwan.",
+        "start": 235.22,
+        "end": 243.04
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
-        "secEn": "Act One · A War Without Gunfire",
+        "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "A retired old man became the most dignified envoy between this small island and the world. People only then realized: the \"mountain\" was never just those factory buildings — it was also a man, and the weight cast by a whole life.",
-        "start": 226.2,
-        "end": 235.47
+        "en": "[Main narrator]",
+        "start": 243.04,
+        "end": 244.96
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "二○二二年十二月六日，美国亚利桑那州，凤凰城。",
-        "en": "And TSMC itself was doing something it had never done in its history: building factories beyond Taiwan.",
-        "start": 235.47,
-        "end": 239.53
+        "en": "December 6, 2022. Phoenix, Arizona.",
+        "start": 244.96,
+        "end": 249.42
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "台积电亚利桑那厂，迎来了它的「首批设备进场」仪式。这一天，美国的总统拜登，亲自到场。",
-        "en": "[Main narrator]",
-        "start": 239.53,
-        "end": 246.94
+        "en": "TSMC's Arizona fab welcomed its \"first tool-in\" ceremony. That day, the President of the United States, Joe Biden, came in person.",
+        "start": 249.42,
+        "end": 257.54
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "December 6, 2022. Phoenix, Arizona.",
-        "start": 246.94,
-        "end": 248.88
+        "en": "[Main narrator, slower]",
+        "start": 257.54,
+        "end": 259.82
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "站在人群里的张忠谋，说了一段让全世界安静下来的话。他说：",
-        "en": "TSMC's Arizona fab welcomed its \"first tool-in\" ceremony. That day, the President of the United States, Joe Biden, came in person.",
-        "start": 248.88,
-        "end": 253.83
+        "en": "Standing in the crowd, Morris Chang said something that quieted the whole world. He said:",
+        "start": 259.82,
+        "end": 265.45
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "「全球化，几乎已经死了。自由贸易，几乎已经死了。很多人还希望它们会回来，但我想，它们不会回来了。」",
-        "en": "[Main narrator, slower]",
-        "start": 253.83,
-        "end": 262.48
+        "en": "\"Globalization is almost dead. Free trade is almost dead. A lot of people still wish they would come back, but I don't think they will.\"",
+        "start": 265.45,
+        "end": 275.28
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Standing in the crowd, Morris Chang said something that quieted the whole world. He said:",
-        "start": 262.48,
-        "end": 265.79
+        "en": "[Main narrator]",
+        "start": 275.28,
+        "end": 277.21
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "这句出自一位九十一岁老人之口的话，被全世界的媒体，反复引用。因为说这句话的人，恰恰是全球化最大的受益者之一。",
-        "en": "\"Globalization is almost dead. Free trade is almost dead. A lot of people still wish they would come back, but I don't think they will.\"",
-        "start": 265.79,
-        "end": 275.32
+        "en": "Those words, spoken by a ninety-one-year-old man, were quoted by media around the world. Because the man saying them was himself one of globalization's greatest beneficiaries.",
+        "start": 277.21,
+        "end": 287.81
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "就在这一天，台积电宣布，把在亚利桑那的投资，从一百二十亿美元，一口气加码到四百亿美元，建第二座厂。",
-        "en": "[Main narrator]",
-        "start": 275.32,
-        "end": 283.97
+        "en": "On that same day, TSMC announced it would more than triple its Arizona investment — from twelve billion dollars to forty billion — to build a second fab.",
+        "start": 287.81,
+        "end": 297.28
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Those words, spoken by a ninety-one-year-old man, were quoted by media around the world. Because the man saying them was himself one of globalization's greatest beneficiaries.",
-        "start": 283.97,
-        "end": 289.7
+        "en": "[Main narrator, slower]",
+        "start": 297.28,
+        "end": 299.21
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "那一天，站在台积电亚利桑那厂的无尘室前，张忠谋想起了很多年前的一个场景。",
-        "en": "On that same day, TSMC announced it would more than triple its Arizona investment — from twelve billion dollars to forty billion — to build a second fab.",
-        "start": 289.7,
-        "end": 296.06
+        "en": "Standing before the cleanroom of TSMC Arizona that day, Morris Chang remembered a scene from many years ago.",
+        "start": 299.21,
+        "end": 306.14
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator, slower]",
-        "start": 296.06,
-        "end": 298.0
+        "en": "[Main narrator]",
+        "start": 306.14,
+        "end": 308.42
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "一九八七年，他创办台积电的时候，手里只有一座还没有建成的厂房，和一群将信将疑的人。三十五年后，在这片沙漠里，美国的总统、苹果的总裁，以及整个半导体行业的巨头，都来见证，他当年那个「纯代工」的赌注，长成了什么。",
-        "en": "Standing before the cleanroom of TSMC Arizona that day, Morris Chang remembered a scene from many years ago.",
-        "start": 298.0,
-        "end": 316.36
+        "en": "In 1987, when he founded TSMC, he had in hand only a factory not yet built, and a group of people who were only half convinced. Thirty-five years later, here in this desert, the President of the United States, the CEO of Apple, and the giants of the entire semiconductor industry had all come to witness what his \"pure foundry\" bet had grown into.",
+        "start": 308.42,
+        "end": 328.08
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator]",
-        "start": 316.36,
-        "end": 317.42
+        "en": "[Main narrator, slower]",
+        "start": 328.08,
+        "end": 330.01
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "从一个无人看好的想法，到一个让美国总统亲自站台的公司——这中间，隔着的，是一代人的时间。",
-        "en": "In 1987, when he founded TSMC, he had in hand only a factory not yet built, and a group of people who were only half convinced. Thirty-five years later, here in this desert, the President of the United States, the CEO of Apple, and the giants of the entire semiconductor industry had all come to witness what his \"pure foundry\" bet had grown into.",
-        "start": 317.42,
-        "end": 331.54
+        "en": "From an idea nobody believed in, to a company the American president would stand for in person — between the two lay the time of a whole generation.",
+        "start": 330.01,
+        "end": 338.83
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator, slower]",
-        "start": 331.54,
-        "end": 333.48
+        "en": "[Main narrator]",
+        "start": 338.83,
+        "end": 341.11
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "两年后，二○二四年十一月，美国政府又给了台积电亚利桑那一笔六十六亿美元的补助——这是美国「芯片法案」的一部分，目的只有一个：把最先进的芯片制造，重新带回美国。",
-        "en": "From an idea nobody believed in, to a company the American president would stand for in person — between the two lay the time of a whole generation.",
-        "start": 333.48,
-        "end": 347.42
+        "en": "Two years later, in November 2024, the U.S. government gave TSMC Arizona a grant of six point six billion dollars — part of America's \"CHIPS Act,\" with a single purpose: to bring the most advanced chipmaking back to America.",
+        "start": 341.11,
+        "end": 355.87
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator]",
-        "start": 347.42,
-        "end": 348.48
+        "en": "Meanwhile, on the other side of the Pacific, another fab was rising.",
+        "start": 355.87,
+        "end": 357.8
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
-        "speaker": "",
+        "speaker": "Main narrator, slower",
         "zh": "与此同时，在太平洋的另一边，另一座厂，也在拔地而起。",
-        "en": "Two years later, in November 2024, the U.S. government gave TSMC Arizona a grant of six point six billion dollars — part of America's \"CHIPS Act,\" with a single purpose: to bring the most advanced chipmaking back to America.",
-        "start": 348.48,
-        "end": 357.09
+        "en": "[Main narrator, slower]",
+        "start": 357.8,
+        "end": 363.04
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "二○二一年十一月九日，台积电宣布，与索尼合资，在日本熊本，成立「日本先进半导体制造」——简称 JASM。股东里，还有汽车零件巨头电装，和丰田。",
-        "en": "Meanwhile, on the other side of the Pacific, another fab was rising.",
-        "start": 357.09,
-        "end": 369.62
+        "en": "On November 9, 2021, TSMC announced a joint venture with Sony, in Kumamoto, Japan — Japan Advanced Semiconductor Manufacturing, or JASM. Among its shareholders were the auto-parts giant DENSO, and Toyota.",
+        "start": 363.04,
+        "end": 376.57
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator, slower]",
-        "start": 369.62,
-        "end": 371.56
+        "en": "[Main narrator]",
+        "start": 376.57,
+        "end": 378.85
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "二○二四年二月二十四日，熊本厂开幕。这是台积电，在日本建起的第一座晶圆厂。",
-        "en": "On November 9, 2021, TSMC announced a joint venture with Sony, in Kumamoto, Japan — Japan Advanced Semiconductor Manufacturing, or JASM. Among its shareholders were the auto-parts giant DENSO, and Toyota.",
-        "start": 371.56,
-        "end": 378.4
+        "en": "On February 24, 2024, the Kumamoto fab opened — TSMC's first wafer fab in Japan.",
+        "start": 378.85,
+        "end": 386.18
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 378.4,
-        "end": 380.34
+        "en": "[Main narrator, slower]",
+        "start": 386.18,
+        "end": 388.46
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "开幕那天，日本首相岸田文雄，发来了祝贺的视频。而台积电的创办人张忠谋，已经九十二岁，没有亲临现场——但这座厂，处处都有他的影子。",
-        "en": "On February 24, 2024, the Kumamoto fab opened — TSMC's first wafer fab in Japan.",
-        "start": 380.34,
-        "end": 391.64
+        "en": "On opening day, Japan's Prime Minister Fumio Kishida sent a congratulatory video. TSMC's founder Morris Chang, now ninety-two, was not there in person — but the fab bore his shadow everywhere.",
+        "start": 388.46,
+        "end": 401.38
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator, slower]",
-        "start": 391.64,
-        "end": 392.7
+        "en": "[Main narrator]",
+        "start": 401.38,
+        "end": 403.31
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "因为三十多年前，台积电最早的订单里，就有一颗，来自日本的记忆体。三十多年后，台积电带着它最成熟的技术，回到了那个，曾经在半导体上，被它甩在身后的邻居。",
-        "en": "On opening day, Japan's Prime Minister Fumio Kishida sent a congratulatory video. TSMC's founder Morris Chang, now ninety-two, was not there in person — but the fab bore his shadow everywhere.",
-        "start": 392.7,
-        "end": 405.94
+        "en": "Because more than thirty years earlier, one of TSMC's very first orders had been a memory chip from Japan. Thirty-some years later, TSMC brought its most mature technology back to the neighbor it had once left behind in semiconductors.",
+        "start": 403.31,
+        "end": 417.95
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator]",
-        "start": 405.94,
-        "end": 407.0
+        "en": "From the desert of Arizona to the fields of Kumamoto, TSMC's factories crossed both shores of the Pacific for the first time.",
+        "start": 417.95,
+        "end": 419.87
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "",
         "zh": "从亚利桑那的沙漠，到熊本的农田，台积电的厂房，第一次，跨越了太平洋的两岸。",
-        "en": "Because more than thirty years earlier, one of TSMC's very first orders had been a memory chip from Japan. Thirty-some years later, TSMC brought its most mature technology back to the neighbor it had once left behind in semiconductors.",
-        "start": 407.0,
-        "end": 415.6
+        "en": "Some say it was TSMC protecting itself in an era of \"de-globalization\"; others say it was TSMC embedding itself into the chessboard of every major market on earth.",
+        "start": 419.87,
+        "end": 427.14
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
-        "speaker": "",
+        "speaker": "Main narrator, slower",
         "zh": "有人说，这是台积电在「去全球化」时代里的自保；也有人说，这是它把自己，嵌进了全球每一个重要市场的棋局。",
-        "en": "From the desert of Arizona to the fields of Kumamoto, TSMC's factories crossed both shores of the Pacific for the first time.",
-        "start": 415.6,
-        "end": 424.6
+        "en": "[Main narrator, slower]",
+        "start": 427.14,
+        "end": 436.54
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "Some say it was TSMC protecting itself in an era of \"de-globalization\"; others say it was TSMC embedding itself into the chessboard of every major market on earth.",
-        "start": 424.6,
-        "end": 430.78
+        "en": "Whichever it was, one fact grew ever clearer: this company had become too big for any nation to ignore.",
+        "start": 436.54,
+        "end": 438.82
       },
       {
         "secZh": "第二幕 · 把厂建到山之外",
         "secEn": "Act Two · Building Factories Beyond the Mountain",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "无论哪一种，有一个事实，越来越清晰：这家公司，已经大到了，任何一个国家，都不能忽视它的存在。",
-        "en": "[Main narrator, slower]",
-        "start": 430.78,
-        "end": 438.9
+        "en": "",
+        "start": 438.82,
+        "end": 447.96
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
-        "secEn": "Act Two · Building Factories Beyond the Mountain",
+        "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "",
         "zh": "而就在厂房一座座拔起的时候，一场更大的浪潮，汹涌而来。",
-        "en": "Whichever it was, one fact grew ever clearer: this company had become too big for any nation to ignore.",
-        "start": 438.9,
-        "end": 443.67
+        "en": "And just as the factories rose one by one, a far bigger wave came crashing in.",
+        "start": 447.96,
+        "end": 454.52
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "And just as the factories rose one by one, a far bigger wave came crashing in.",
-        "start": 443.67,
-        "end": 447.2
+        "en": "[Main narrator]",
+        "start": 454.52,
+        "end": 456.44
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "二○二三年，人工智能，突然爆发了。",
-        "en": "[Main narrator]",
-        "start": 447.2,
-        "end": 450.2
+        "en": "In 2023, artificial intelligence suddenly erupted.",
+        "start": 456.44,
+        "end": 459.83
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "In 2023, artificial intelligence suddenly erupted.",
-        "start": 450.2,
-        "end": 452.14
+        "en": "[Main narrator, slower]",
+        "start": 459.83,
+        "end": 462.11
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "引爆这一切的，是一年多前，一个叫 ChatGPT 的产品。它让全世界第一次见识到，机器，原来可以这样「说话」。",
-        "en": "[Main narrator, slower]",
-        "start": 452.14,
-        "end": 461.85
+        "en": "What lit the fuse was a product called ChatGPT, which had appeared a year earlier. It let the world see for the first time that a machine could \"speak\" like this.",
+        "start": 462.11,
+        "end": 472.26
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "What lit the fuse was a product called ChatGPT, which had appeared a year earlier. It let the world see for the first time that a machine could \"speak\" like this.",
-        "start": 461.85,
-        "end": 468.69
+        "en": "[Main narrator]",
+        "start": 472.26,
+        "end": 474.19
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "从那一天起，算力，成了这个时代最稀缺的资源。而算力的底座，就是台积电造出来的那一颗颗芯片。",
-        "en": "[Main narrator]",
-        "start": 468.69,
-        "end": 476.63
+        "en": "From that day on, computing power became the scarcest resource of the age. And the foundation of computing power was the chips TSMC made.",
+        "start": 474.19,
+        "end": 483.19
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "",
         "zh": "这一年，人们开始排队抢购一种叫 GPU 的芯片，用来训练大模型。而所有这些 GPU 的制造，几乎，都指向同一家公司——台积电。",
-        "en": "From that day on, computing power became the scarcest resource of the age. And the foundation of computing power was the chips TSMC made.",
-        "start": 476.63,
-        "end": 487.75
-      },
-      {
-        "secZh": "第三幕 · 人工智能的浪潮",
-        "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "主叙述者 · 放缓",
-        "zh": "【主叙述者 · 放缓】",
         "en": "That year, people lined up to buy a kind of chip called a GPU, to train large models. And the making of nearly all those GPUs pointed to one company — TSMC.",
-        "start": 487.75,
-        "end": 494.81
-      },
-      {
-        "secZh": "第三幕 · 人工智能的浪潮",
-        "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "Main narrator, slower",
-        "zh": "全世界最有价值的公司，从此，都开始围着台积电转。它们要的，不是别的，就是台积电那永远不够用的产能。",
-        "en": "[Main narrator, slower]",
-        "start": 494.81,
-        "end": 503.46
+        "start": 483.19,
+        "end": 495.15
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "The world's most valuable companies, from then on, began to revolve around TSMC. What they wanted was nothing else but TSMC's never-enough capacity.",
-        "start": 503.46,
-        "end": 508.54
+        "en": "[Main narrator, slower]",
+        "start": 495.15,
+        "end": 497.43
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "Main narrator",
-        "zh": "尤其是一种叫 CoWoS 的先进封装技术。",
+        "speaker": "",
+        "zh": "全世界最有价值的公司，从此，都开始围着台积电转。它们要的，不是别的，就是台积电那永远不够用的产能。",
+        "en": "The world's most valuable companies, from then on, began to revolve around TSMC. What they wanted was nothing else but TSMC's never-enough capacity.",
+        "start": 497.43,
+        "end": 507.22
+      },
+      {
+        "secZh": "第三幕 · 人工智能的浪潮",
+        "secEn": "Act Three · The Wave of Artificial Intelligence",
+        "speaker": "主叙述者 · 放缓",
+        "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator]",
-        "start": 508.54,
-        "end": 512.24
+        "start": 507.22,
+        "end": 509.5
+      },
+      {
+        "secZh": "第三幕 · 人工智能的浪潮",
+        "secEn": "Act Three · The Wave of Artificial Intelligence",
+        "speaker": "",
+        "zh": "尤其是一种叫 CoWoS 的先进封装技术。",
+        "en": "And at the center of it all was an advanced packaging technology called CoWoS.",
+        "start": 509.5,
+        "end": 513.26
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "And at the center of it all was an advanced packaging technology called CoWoS.",
-        "start": 512.24,
-        "end": 515.33
-      },
-      {
-        "secZh": "第三幕 · 人工智能的浪潮",
-        "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "Main narrator, slower",
-        "zh": "还记得吗？在第十六期里，我们讲过，张忠谋早在二○一七年，就悄悄埋下了两样伏笔：一样叫 InFO，对智能手机至关重要；另一样叫 CoWoS——用他自己的话说，对人工智能，至关重要。",
         "en": "[Main narrator, slower]",
-        "start": 515.33,
-        "end": 531.04
+        "start": 513.26,
+        "end": 515.19
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "",
-        "zh": "六年后，这颗种子，开花了。",
+        "zh": "还记得吗？在第十六期里，我们讲过，张忠谋早在二○一七年，就悄悄埋下了两样伏笔：一样叫 InFO，对智能手机至关重要；另一样叫 CoWoS——用他自己的话说，对人工智能，至关重要。",
         "en": "Remember? In Episode Sixteen, we told how Morris Chang had quietly buried two seeds back in 2017: one called InFO, critical to smartphones; the other called CoWoS — in his own words, critical to artificial intelligence.",
-        "start": 531.04,
-        "end": 538.98
+        "start": 515.19,
+        "end": 532.36
+      },
+      {
+        "secZh": "第三幕 · 人工智能的浪潮",
+        "secEn": "Act Three · The Wave of Artificial Intelligence",
+        "speaker": "Main narrator",
+        "zh": "六年后，这颗种子，开花了。",
+        "en": "[Main narrator]",
+        "start": 532.36,
+        "end": 535.22
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator]",
-        "start": 538.98,
-        "end": 540.93
+        "en": "Six years later, that seed bloomed.",
+        "start": 535.22,
+        "end": 537.5
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "",
         "zh": "二○二三年七月，台积电宣布，把 CoWoS 的产能，翻倍。可即便如此，还是供不应求。从英伟达的 H100、H200，到后来的 Blackwell，每一颗 AI 芯片，都要经过台积电的 CoWoS 封装，才能出厂。",
-        "en": "Six years later, that seed bloomed.",
-        "start": 540.93,
-        "end": 559.64
+        "en": "In July 2023, TSMC announced it would double its CoWoS capacity. And even then, it could not meet demand. From Nvidia's H100 and H200, to the later Blackwell, every AI chip had to pass through TSMC's CoWoS packaging before it could leave the factory.",
+        "start": 537.5,
+        "end": 556.59
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "In July 2023, TSMC announced it would double its CoWoS capacity. And even then, it could not meet demand. From Nvidia's H100 and H200, to the later Blackwell, every AI chip had to pass through TSMC's CoWoS packaging before it could leave the factory.",
-        "start": 559.64,
-        "end": 569.35
+        "en": "And the detonator of it all was a company that makes no chips and only draws blueprints.",
+        "start": 556.59,
+        "end": 558.52
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "",
         "zh": "而这一切的引爆点，是一家不造芯片、只画图纸的公司。",
-        "en": "And the detonator of it all was a company that makes no chips and only draws blueprints.",
-        "start": 569.35,
-        "end": 573.76
+        "en": "It has no factory and no production line, yet on TSMC's process it became the new king of the AI age.",
+        "start": 558.52,
+        "end": 563.5
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "",
         "zh": "它没有一座工厂，没有一条产线，却靠着台积电的制程，成了人工智能时代的新王。",
-        "en": "It has no factory and no production line, yet on TSMC's process it became the new king of the AI age.",
-        "start": 573.76,
-        "end": 580.29
+        "en": "Its name is Nvidia.",
+        "start": 563.5,
+        "end": 570.69
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "",
+        "speaker": "Main narrator, slower",
         "zh": "它的名字，叫英伟达。",
-        "en": "Its name is Nvidia.",
-        "start": 580.29,
-        "end": 582.05
+        "en": "[Main narrator, slower]",
+        "start": 570.69,
+        "end": 572.94
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator, slower]",
-        "start": 582.05,
-        "end": 584.0
+        "en": "The man who once turned down TSMC's CEO seat with \"I already have a job\" — Jensen Huang — is now TSMC's most important customer.",
+        "start": 572.94,
+        "end": 575.22
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "",
+        "speaker": "Main narrator",
         "zh": "当年，那个用一句「我已有工作」婉拒了台积电 CEO 之位的黄仁勋，如今，成了台积电最举足轻重的客户。",
-        "en": "The man who once turned down TSMC's CEO seat with \"I already have a job\" — Jensen Huang — is now TSMC's most important customer.",
-        "start": 584.0,
-        "end": 592.82
+        "en": "[Main narrator]",
+        "start": 575.22,
+        "end": 584.01
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[Main narrator]",
-        "start": 592.82,
-        "end": 593.88
-      },
-      {
-        "secZh": "第三幕 · 人工智能的浪潮",
-        "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "",
-        "zh": "命运，在绕了一个大圈之后，把这两个人、两家公司，又一次，紧紧地绑在了一起。一个负责造，一个负责想，共同撑起了这个时代，最汹涌的算力。",
         "en": "Fate, after a long circle, bound the two men and the two companies tightly together once more. One builds, one dreams; together they power the era's most surging computing.",
-        "start": 593.88,
-        "end": 605.53
+        "start": 584.01,
+        "end": 585.93
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "Main narrator, slower",
-        "zh": "它的来龙去脉，我们留到下一册，再慢慢讲。",
+        "zh": "命运，在绕了一个大圈之后，把这两个人、两家公司，又一次，紧紧地绑在了一起。一个负责造，一个负责想，共同撑起了这个时代，最汹涌的算力。",
         "en": "[Main narrator, slower]",
-        "start": 605.53,
-        "end": 609.06
+        "start": 585.93,
+        "end": 599.06
+      },
+      {
+        "secZh": "第三幕 · 人工智能的浪潮",
+        "secEn": "Act Three · The Wave of Artificial Intelligence",
+        "speaker": "",
+        "zh": "它的来龙去脉，我们留到下一册，再慢慢讲。",
+        "en": "For now, remember one thing: the young man whom Morris Chang had once wanted — and who had declined — now stands with this \"mountain,\" on the highest crest of the age.",
+        "start": 599.06,
+        "end": 603.16
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "For now, remember one thing: the young man whom Morris Chang had once wanted — and who had declined — now stands with this \"mountain,\" on the highest crest of the age.",
-        "start": 609.06,
-        "end": 616.12
+        "en": "[Main narrator]",
+        "start": 603.16,
+        "end": 605.44
       },
       {
         "secZh": "第三幕 · 人工智能的浪潮",
         "secEn": "Act Three · The Wave of Artificial Intelligence",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "而此刻，只需记住一件事：当年，那个被张忠谋看中、却婉拒了他的年轻人，和这座「护国神山」一起，站在了这个时代，最汹涌的浪尖上。",
-        "en": "[Main narrator]",
-        "start": 616.12,
-        "end": 627.07
+        "en": "Its full story, we leave for the next volume.",
+        "start": 605.44,
+        "end": 617.14
       },
       {
         "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Three · The Wave of Artificial Intelligence",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "",
         "zh": "二○二四年四月十九日，张忠谋，迎来了他一生中，最隆重的时刻之一。",
-        "en": "Its full story, we leave for the next volume.",
-        "start": 627.07,
-        "end": 632.71
-      },
-      {
-        "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
         "en": "April 19, 2024. Morris Chang welcomed one of the most solemn moments of his life.",
-        "start": 632.71,
-        "end": 636.02
-      },
-      {
-        "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "Main narrator",
-        "zh": "这一天，他获颁了台湾的最高荣誉——「中山勋章」。",
-        "en": "[Main narrator]",
-        "start": 636.02,
-        "end": 640.26
-      },
-      {
-        "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "主叙述者 · 放缓",
-        "zh": "【主叙述者 · 放缓】",
-        "en": "That day, he received Taiwan's highest honor — the Order of Dr. Sun Yat-sen.",
-        "start": 640.26,
-        "end": 643.35
-      },
-      {
-        "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "Main narrator, slower",
-        "zh": "中山勋章，以孙中山命名，是这片土地上，文职勋赏里最高的那一枚。",
-        "en": "[Main narrator, slower]",
-        "start": 643.35,
-        "end": 648.82
+        "start": 617.14,
+        "end": 624.48
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Named after Sun Yat-sen, it is the highest civil decoration of this land.",
-        "start": 648.82,
-        "end": 651.69
-      },
-      {
-        "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "Main narrator",
-        "zh": "授勋的人说，这是为了表彰他，把台积电从无到有，建成全球半导体业的顶峰。",
         "en": "[Main narrator]",
-        "start": 651.69,
-        "end": 657.87
-      },
-      {
-        "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "主叙述者 · 放缓",
-        "zh": "【主叙述者 · 放缓】",
-        "en": "Those bestowing it said it was to honor him for building TSMC from nothing into the summit of the global semiconductor industry.",
-        "start": 657.87,
-        "end": 662.72
-      },
-      {
-        "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "Main narrator, slower",
-        "zh": "这一年，距离他创办台积电，已经过去了整整三十七年。",
-        "en": "[Main narrator, slower]",
-        "start": 662.72,
-        "end": 667.13
+        "start": 624.48,
+        "end": 626.41
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "",
-        "zh": "这一年，张忠谋，九十三岁。",
-        "en": "That year, thirty-seven full years had passed since he founded TSMC.",
-        "start": 667.13,
-        "end": 669.56
-      },
-      {
-        "secZh": "第四幕 · 中山勋章",
-        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "Main narrator",
-        "zh": "从一九三一年出生，在战乱里逃难的孩子，到在麻省理工两次落第的年轻人；从德州仪器里那个想多要点研发经费的经理，到台湾工研院里，被质疑「纯代工能不能活」的创业者——他走过了将近一个世纪。",
-        "en": "[Main narrator]",
-        "start": 669.56,
-        "end": 685.62
+        "zh": "这一天，他获颁了台湾的最高荣誉——「中山勋章」。",
+        "en": "That day, he received Taiwan's highest honor — the Order of Dr. Sun Yat-sen.",
+        "start": 626.41,
+        "end": 631.17
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "That year, Morris Chang was ninety-three.",
-        "start": 685.62,
-        "end": 687.57
+        "en": "[Main narrator, slower]",
+        "start": 631.17,
+        "end": 633.45
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "Main narrator, slower",
-        "zh": "让我们把时间，倒回去，飞快地看一遍。",
-        "en": "[Main narrator, slower]",
-        "start": 687.57,
-        "end": 690.74
+        "speaker": "",
+        "zh": "中山勋章，以孙中山命名，是这片土地上，文职勋赏里最高的那一枚。",
+        "en": "Named after Sun Yat-sen, it is the highest civil decoration of this land.",
+        "start": 633.45,
+        "end": 639.58
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Let us run the time backward, and glance over it once, quickly.",
-        "start": 690.74,
-        "end": 693.39
+        "en": "[Main narrator]",
+        "start": 639.58,
+        "end": 641.51
+      },
+      {
+        "secZh": "第四幕 · 中山勋章",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
+        "speaker": "",
+        "zh": "授勋的人说，这是为了表彰他，把台积电从无到有，建成全球半导体业的顶峰。",
+        "en": "Those bestowing it said it was to honor him for building TSMC from nothing into the summit of the global semiconductor industry.",
+        "start": 641.51,
+        "end": 648.34
+      },
+      {
+        "secZh": "第四幕 · 中山勋章",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
+        "speaker": "主叙述者 · 放缓",
+        "zh": "【主叙述者 · 放缓】",
+        "en": "[Main narrator, slower]",
+        "start": 648.34,
+        "end": 650.62
+      },
+      {
+        "secZh": "第四幕 · 中山勋章",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
+        "speaker": "",
+        "zh": "这一年，距离他创办台积电，已经过去了整整三十七年。",
+        "en": "That year, thirty-seven full years had passed since he founded TSMC.",
+        "start": 650.62,
+        "end": 655.61
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "Main narrator",
-        "zh": "一九三七年，抗战爆发，六岁的他，跟着父母逃难，从南京到香港。那是「逃难的孩子」。",
+        "zh": "这一年，张忠谋，九十三岁。",
         "en": "[Main narrator]",
-        "start": 693.39,
-        "end": 700.45
+        "start": 655.61,
+        "end": 658.47
+      },
+      {
+        "secZh": "第四幕 · 中山勋章",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
+        "speaker": "",
+        "zh": "从一九三一年出生，在战乱里逃难的孩子，到在麻省理工两次落第的年轻人；从德州仪器里那个想多要点研发经费的经理，到台湾工研院里，被质疑「纯代工能不能活」的创业者——他走过了将近一个世纪。",
+        "en": "That year, Morris Chang was ninety-three.",
+        "start": 658.47,
+        "end": 675.42
+      },
+      {
+        "secZh": "第四幕 · 中山勋章",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
+        "speaker": "主叙述者 · 放缓",
+        "zh": "【主叙述者 · 放缓】",
+        "en": "[Main narrator, slower]",
+        "start": 675.42,
+        "end": 677.7
+      },
+      {
+        "secZh": "第四幕 · 中山勋章",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
+        "speaker": "",
+        "zh": "让我们把时间，倒回去，飞快地看一遍。",
+        "en": "Let us run the time backward, and glance over it once, quickly.",
+        "start": 677.7,
+        "end": 681.44
+      },
+      {
+        "secZh": "第四幕 · 中山勋章",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
+        "en": "[Main narrator]",
+        "start": 681.44,
+        "end": 683.37
+      },
+      {
+        "secZh": "第四幕 · 中山勋章",
+        "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
+        "speaker": "",
+        "zh": "一九三七年，抗战爆发，六岁的他，跟着父母逃难，从南京到香港。那是「逃难的孩子」。",
+        "en": "1937, the war against Japan broke out. At six, he fled with his parents, from Nanjing to Hong Kong. That was \"the child who fled.\"",
+        "start": 683.37,
+        "end": 691.21
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "",
         "zh": "一九四九年，他登上泛美的班机，去了美国。那是「从黄浦江到查尔斯河」。",
-        "en": "1937, the war against Japan broke out. At six, he fled with his parents, from Nanjing to Hong Kong. That was \"the child who fled.\"",
-        "start": 700.45,
-        "end": 706.45
+        "en": "1949, he boarded a Pan Am flight for America. That was \"from the Huangpu to the Charles River.\"",
+        "start": 691.21,
+        "end": 697.84
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "",
         "zh": "一九五四年，他两次博士落第，写了四十封求职信。那是「四十封求职信」。",
-        "en": "1949, he boarded a Pan Am flight for America. That was \"from the Huangpu to the Charles River.\"",
-        "start": 706.45,
-        "end": 712.45
+        "en": "1954, he failed his doctoral exams twice, and wrote forty job applications. That was \"the forty letters.\"",
+        "start": 697.84,
+        "end": 704.46
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "",
         "zh": "一九五八年，他进了德州仪器，一待二十五年。那是「德仪的太空竞赛岁月」，和「半导体之巅的十年」。",
-        "en": "1954, he failed his doctoral exams twice, and wrote forty job applications. That was \"the forty letters.\"",
-        "start": 712.45,
-        "end": 720.75
+        "en": "1958, he joined Texas Instruments, and stayed twenty-five years. Those were \"the space-race years\" and \"the decade at the summit of semiconductors.\"",
+        "start": 704.46,
+        "end": 713.11
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "",
         "zh": "一九八三年，他离开德州，两年后，回到台湾。那是「离开德州 & 受邀回台」。",
-        "en": "1958, he joined Texas Instruments, and stayed twenty-five years. Those were \"the space-race years\" and \"the decade at the summit of semiconductors.\"",
-        "start": 720.75,
-        "end": 727.28
+        "en": "1983, he left Texas; two years later, he returned to Taiwan. That was \"leaving Texas, and the invitation home.\"",
+        "start": 713.11,
+        "end": 719.81
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "",
         "zh": "一九八七年，他创办台积电。那是「纯代工的革命」。",
-        "en": "1983, he left Texas; two years later, he returned to Taiwan. That was \"leaving Texas, and the invitation home.\"",
-        "start": 727.28,
-        "end": 731.52
+        "en": "1987, he founded TSMC. That was \"the pure-foundry revolution.\"",
+        "start": 719.81,
+        "end": 724.58
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "1987, he founded TSMC. That was \"the pure-foundry revolution.\"",
-        "start": 731.52,
-        "end": 733.5
+        "en": "[Main narrator, slower]",
+        "start": 724.58,
+        "end": 726.87
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "然后，是记忆体的诱惑、逆周期的定力、交棒之痛、绚烂年代、苹果来敲门、摩尔定律的守卫者、交棒与退休……",
-        "en": "[Main narrator, slower]",
-        "start": 733.5,
-        "end": 742.33
+        "en": "Then came the temptation of memory, the steadiness of the counter-cycle, the pain of the handover, the gilded years, Apple coming knocking, the guardian of Moore's Law, the handover and retirement...",
+        "start": 726.87,
+        "end": 735.93
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Then came the temptation of memory, the steadiness of the counter-cycle, the pain of the handover, the gilded years, Apple coming knocking, the guardian of Moore's Law, the handover and retirement...",
-        "start": 742.33,
-        "end": 749.17
+        "en": "[Main narrator]",
+        "start": 735.93,
+        "end": 737.85
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "直到今天，护国神山。",
-        "en": "[Main narrator]",
-        "start": 749.17,
-        "end": 750.93
+        "en": "Until today — the mountain that shields the island.",
+        "start": 737.85,
+        "end": 740.1
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "Until today — the mountain that shields the island.",
-        "start": 750.93,
-        "end": 752.92
+        "en": "And the summit of it all is not that medal, but the mountain he built with his own hands.",
+        "start": 740.1,
+        "end": 742.38
       },
       {
         "secZh": "第四幕 · 中山勋章",
         "secEn": "Act Four · The Order of Dr. Sun Yat-sen",
         "speaker": "",
         "zh": "而这一切的顶点，不是那枚勋章，而是那座他亲手垒起来的山。",
-        "en": "And the summit of it all is not that medal, but the mountain he built with his own hands.",
-        "start": 752.92,
-        "end": 757.86
+        "en": "",
+        "start": 742.38,
+        "end": 747.9
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26107,8 +26106,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "回到那个问题：护国神山，是怎么来的？",
         "en": "Back to the question: how did this mountain come to be?",
-        "start": 757.86,
-        "end": 761.04
+        "start": 747.9,
+        "end": 752.98
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26116,8 +26115,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 761.04,
-        "end": 762.1
+        "start": 752.98,
+        "end": 754.9
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26125,8 +26124,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "有人说，是张忠谋一个人的功劳。",
         "en": "Some say it was Morris Chang's doing alone.",
-        "start": 762.1,
-        "end": 764.75
+        "start": 754.9,
+        "end": 758.04
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26134,8 +26133,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可张忠谋自己，在退休的时候，说过另一句话。他说，台积电，已经是世界「必需」的公司；而世界的需要，尤其在人工智能方面，正在快速地成长。",
         "en": "But Morris Chang himself, when he retired, said another thing. He said TSMC had become a company the world \"needs\" — and the world's need, especially in artificial intelligence, is growing fast.",
-        "start": 764.75,
-        "end": 776.4
+        "start": 758.04,
+        "end": 770.73
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26143,8 +26142,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 776.4,
-        "end": 778.34
+        "start": 770.73,
+        "end": 773.01
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26152,8 +26151,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "「必需」——这两个字，是全部答案的钥匙。",
         "en": "\"Needs\" — that word is the key to the whole answer.",
-        "start": 778.34,
-        "end": 781.87
+        "start": 773.01,
+        "end": 777.06
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26161,8 +26160,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 781.87,
-        "end": 782.93
+        "start": 777.06,
+        "end": 778.99
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26170,8 +26169,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一座山，之所以能成为「护国」的山，不是因为某一个人多伟大，而是因为，当时代的洪流席卷而来的时候，有整整一代人，做出了同样的选择。",
         "en": "A mountain becomes a \"shield\" not because any single person is great, but because, when the flood of the age came, an entire generation made the same choice.",
-        "start": 782.93,
-        "end": 794.22
+        "start": 778.99,
+        "end": 790.85
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26179,8 +26178,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋选择了纯代工，工程师们选择了日以继夜地打磨良率，客户们选择了把最贵的订单交出来，而这座小岛，选择了把所有的赌注，都押在了半导体上。",
         "en": "Morris Chang chose pure foundry; the engineers chose to polish yields day and night; the customers chose to hand over their most expensive orders; and this small island chose to stake its whole fortune on semiconductors.",
-        "start": 794.22,
-        "end": 806.23
+        "start": 790.85,
+        "end": 803.69
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26188,8 +26187,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 806.23,
-        "end": 808.17
+        "start": 803.69,
+        "end": 805.97
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26197,8 +26196,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一代人的选择，被时间，砌成了一座山。",
         "en": "A generation's choices, laid into a mountain by time.",
-        "start": 808.17,
-        "end": 811.35
+        "start": 805.97,
+        "end": 809.71
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26206,8 +26205,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 811.35,
-        "end": 812.4
+        "start": 809.71,
+        "end": 811.64
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26215,8 +26214,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "张忠谋说，他最成功的工作，是最后一个——台积电。",
         "en": "Morris Chang said his most successful work was the last one — TSMC.",
-        "start": 812.4,
-        "end": 816.64
+        "start": 811.64,
+        "end": 816.84
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26224,8 +26223,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "可台积电的成功，从来不是他一个人的。它属于那些在无尘室里站了一辈子的工程师，属于那些在最难时刻选择相信的客户，属于那些在风暴里坚持不裁员的决定，也属于这座小岛，敢把国运，押在一个「纯代工」的念头上的勇气。",
         "en": "But TSMC's success was never his alone. It belongs to the engineers who stood in cleanrooms for a lifetime, to the customers who chose to trust in the hardest moments, to the decision not to lay people off in the storm, and to the courage of this island in staking its destiny on the idea of \"pure foundry.\"",
-        "start": 816.64,
-        "end": 834.65
+        "start": 816.84,
+        "end": 835.82
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26233,8 +26232,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 834.65,
-        "end": 836.59
+        "start": 835.82,
+        "end": 838.1
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26242,8 +26241,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "所以，当人们问起，护国神山是谁建成的——",
         "en": "So when people ask who built this mountain —",
-        "start": 836.59,
-        "end": 840.12
+        "start": 838.1,
+        "end": 842.19
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26251,8 +26250,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "答案，是时间。",
         "en": "the answer is time.",
-        "start": 840.12,
-        "end": 841.35
+        "start": 842.19,
+        "end": 843.91
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26260,8 +26259,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 841.35,
-        "end": 842.41
+        "start": 843.91,
+        "end": 845.84
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26269,8 +26268,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "从一九三一年，到二○二四年。从逃难的孩子，到护国神山的缔造者。张忠谋这一生，用九十三年的时间，讲完了一个道理——",
         "en": "From 1931 to 2024. From a child who fled war, to the builder of the mountain that shields an island. Morris Chang spent ninety-three years telling one truth —",
-        "start": 842.41,
-        "end": 852.3
+        "start": 845.84,
+        "end": 857.08
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26278,8 +26277,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "真正的传奇，从来不是一个人的故事。它是无数个普通人，在同一个方向上，日复一日，垒出来的。",
         "en": "a true legend is never the story of one person. It is countless ordinary people, in the same direction, day after day, laying stone upon stone.",
-        "start": 852.3,
-        "end": 860.06
+        "start": 857.08,
+        "end": 865.99
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26287,8 +26286,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 860.06,
-        "end": 862.01
+        "start": 865.99,
+        "end": 868.27
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26296,8 +26295,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "一座「护国神山」，从来不是一个人搬上去的，而是一代人的选择，被时间砌成了山。",
         "en": "A \"sacred mountain\" is never carried up by one person — it is a generation's choices, laid into a mountain by time.",
-        "start": 862.01,
-        "end": 868.71
+        "start": 868.27,
+        "end": 875.28
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26305,8 +26304,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 868.71,
-        "end": 869.77
+        "start": 875.28,
+        "end": 877.21
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26314,8 +26313,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这，就是护国神山。",
         "en": "That is the mountain that shields the island.",
-        "start": 869.77,
-        "end": 871.54
+        "start": 877.21,
+        "end": 879.28
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26323,8 +26322,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "也是台积电张忠谋，传记时间线的平行世界，十八期的，最后一句。",
         "en": "And that is the final line of the eighteen episodes of Morris Chang's Parallel World.",
-        "start": 871.54,
-        "end": 876.83
+        "start": 879.28,
+        "end": 885.23
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26332,8 +26331,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 876.83,
-        "end": 878.77
+        "start": 885.23,
+        "end": 887.51
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26341,8 +26340,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "同一时间线，另一个视角。",
         "en": "One timeline, another perspective.",
-        "start": 878.77,
-        "end": 880.89
+        "start": 887.51,
+        "end": 890.12
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26350,8 +26349,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 880.89,
-        "end": 881.95
+        "start": 890.12,
+        "end": 892.04
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26359,8 +26358,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "这十八期，我们讲的，从来不只是张忠谋一个人。",
         "en": "In these eighteen episodes, what we told was never just Morris Chang alone.",
-        "start": 881.95,
-        "end": 885.83
+        "start": 892.04,
+        "end": 896.5
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26368,8 +26367,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "我们讲的是，一个逃难的孩子，如何在时代的洪流里站稳脚跟；一家公司，如何在一个小小的岛上，长成一座山；而一个行业，又如何改变了一整个世界的走向。",
         "en": "We told how a child who fled war found his footing in the flood of the age; how a company grew into a mountain on a small island; and how one industry changed the direction of the whole world.",
-        "start": 885.83,
-        "end": 898.37
+        "start": 896.5,
+        "end": 910.03
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26377,8 +26376,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 898.37,
-        "end": 900.31
+        "start": 910.03,
+        "end": 912.31
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26386,8 +26385,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "谢谢你，陪我们走完这一程。",
         "en": "Thank you for walking this road with us.",
-        "start": 900.31,
-        "end": 902.6
+        "start": 912.31,
+        "end": 915.09
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26395,8 +26394,8 @@ window.EPISODES_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 902.6,
-        "end": 903.66
+        "start": 915.09,
+        "end": 917.01
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26404,8 +26403,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "故事讲完了。而那座山，还在那里，一天一天，越来越高。",
         "en": "The story ends here. But the mountain is still there — higher, day by day.",
-        "start": 903.66,
-        "end": 908.25
+        "start": 917.01,
+        "end": 922.65
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26413,8 +26412,8 @@ window.EPISODES_DATA = [
         "speaker": "平行时刻 · 时间胶囊",
         "zh": "【平行时刻 · 时间胶囊】",
         "en": "And somewhere inside that mountain, a young engineer in a cleanroom is, right now, still pushing a process node forward — just as he did, sixty years ago.",
-        "start": 908.25,
-        "end": 914.43
+        "start": 922.65,
+        "end": 925.29
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26422,8 +26421,8 @@ window.EPISODES_DATA = [
         "speaker": "Main narrator, time capsule",
         "zh": "他这一年：二○二四年，九十三岁，获颁国家最高荣誉「中山勋章」。",
         "en": "[Main narrator, time capsule]",
-        "start": 914.43,
-        "end": 919.9
+        "start": 925.29,
+        "end": 931.0
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26431,8 +26430,8 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "世界这一年：台积电，成了两个大国角力的焦点；人工智能的浪潮，正席卷全球。",
         "en": "His year: 2024 — at ninety-three, he receives the nation's highest honor, the Order of Dr. Sun Yat-sen.",
-        "start": 919.9,
-        "end": 926.26
+        "start": 931.0,
+        "end": 938.21
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -26440,108 +26439,101 @@ window.EPISODES_DATA = [
         "speaker": "",
         "zh": "同一条时间线——他退休的那一年，没人能预料，这家公司，会成为一座小岛的命运共同体。",
         "en": "The world's year: TSMC has become the focal point of a contest between two great powers; the wave of artificial intelligence is sweeping the globe.",
-        "start": 926.26,
-        "end": 933.49
+        "start": 938.21,
+        "end": 946.5
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Coda · A Parallel View",
+        "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "1. **华为断供**：2019.5 美国将华为列入实体清单；2020.5.15 出口管制升级后，台积电 2020.5.18 停接华为新订单（华为为台积电第二大客户），9.14 前须出货完毕。（英文：Huawei Entity List, TSMC cutoff）",
-        "en": "One timeline — the year he retired, no one could foresee that this company would become the shared destiny of a small island.",
-        "start": 933.49,
-        "end": 956.79
+        "en": "1. **The Huawei cutoff**: In May 2019 the U.S. put Huawei on the Entity List; after export controls tightened on May 15, 2020, TSMC stopped new Huawei orders on May 18, 2020 (Huawei was its second-largest customer), with a September 14 shipping deadline.",
+        "start": 946.5,
+        "end": 971.8
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "2. **亚利桑那建厂**：2020.5.15 宣布投资 120 亿美元；2022.12.6 首批设备进场、拜登出席，加码至 400 亿美元；2024.11 获美国 CHIPS 法案 66 亿美元补助。（英文：TSMC Arizona, $40B, CHIPS Act）",
-        "en": "1. **The Huawei cutoff**: In May 2019 the U.S. put Huawei on the Entity List; after export controls tightened on May 15, 2020, TSMC stopped new Huawei orders on May 18, 2020 (Huawei was its second-largest customer), with a September 14 shipping deadline.",
-        "start": 956.79,
-        "end": 980.62
+        "en": "2. **Arizona fab**: Announced May 15, 2020 at $12B; on December 6, 2022 the first tool-in ceremony was held with President Biden, and TSMC raised the investment to $40B; in November 2024 it received a $6.6B grant under the U.S. CHIPS Act.",
+        "start": 971.8,
+        "end": 995.29
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "3. **熊本 JASM**：2021.11.9 与索尼合资成立（股东含电装、丰田）；2024.2.24 熊本厂开幕，台积电在日本的第一座晶圆厂。（英文：JASM Kumamoto）",
-        "en": "2. **Arizona fab**: Announced May 15, 2020 at $12B; on December 6, 2022 the first tool-in ceremony was held with President Biden, and TSMC raised the investment to $40B; in November 2024 it received a $6.6B grant under the U.S. CHIPS Act.",
-        "start": 980.62,
-        "end": 996.69
+        "en": "3. **Kumamoto JASM**: Announced November 9, 2021 as a joint venture with Sony (shareholders include DENSO and Toyota); the Kumamoto fab opened February 24, 2024 — TSMC's first fab in Japan.",
+        "start": 995.29,
+        "end": 1012.12
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "4. **AI 浪潮与 CoWoS**：2023 AI 爆发，英伟达 H100/H200/Blackwell 等 GPU 均需台积电 CoWoS 先进封装，2023.7 台积电宣布 CoWoS 产能翻倍仍供不应求。（英文：AI wave, CoWoS）",
-        "en": "3. **Kumamoto JASM**: Announced November 9, 2021 as a joint venture with Sony (shareholders include DENSO and Toyota); the Kumamoto fab opened February 24, 2024 — TSMC's first fab in Japan.",
-        "start": 996.69,
-        "end": 1018.93
+        "en": "4. **AI wave and CoWoS**: In 2023 AI erupted, and Nvidia's H100/H200/Blackwell GPUs all require TSMC's CoWoS advanced packaging; in July 2023 TSMC announced it would double CoWoS capacity and still fell short of demand.",
+        "start": 1012.12,
+        "end": 1032.01
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Extension · Historical Background Cards",
         "speaker": "",
         "zh": "5. **中山勋章与「全球化已死」**：2024.4.19 张忠谋获台湾最高荣誉中山勋章；2022.12.6 亚利桑那仪式上他说「全球化几乎已死、自由贸易几乎已死」。（英文：Order of Dr. Sun Yat-sen; \"globalization is almost dead\"）",
-        "en": "4. **AI wave and CoWoS**: In 2023 AI erupted, and Nvidia's H100/H200/Blackwell GPUs all require TSMC's CoWoS advanced packaging; in July 2023 TSMC announced it would double CoWoS capacity and still fell short of demand.",
-        "start": 1018.93,
-        "end": 1044.34
+        "en": "5. **Order of Dr. Sun Yat-sen and \"globalization is almost dead\"**: On April 19, 2024, Morris Chang received Taiwan's highest honor; on December 6, 2022, at the Arizona tool-in ceremony, he said \"globalization is almost dead and free trade is almost dead.\"",
+        "start": 1032.01,
+        "end": 1057.04
       },
       {
         "secZh": "全系列尾声",
-        "secEn": "Knowledge Extension · Historical Background Cards",
+        "secEn": "Series Finale",
         "speaker": "",
         "zh": "十八期，走完了。",
-        "en": "5. **Order of Dr. Sun Yat-sen and \"globalization is almost dead\"**: On April 19, 2024, Morris Chang received Taiwan's highest honor; on December 6, 2022, at the Arizona tool-in ceremony, he said \"globalization is almost dead and free trade is almost dead.\"",
-        "start": 1044.34,
-        "end": 1053.61
+        "en": "Eighteen episodes, done.",
+        "start": 1057.04,
+        "end": 1060.16
       },
       {
         "secZh": "全系列尾声",
         "secEn": "Series Finale",
         "speaker": "",
         "zh": "从一九三七年逃难的孩子，到二○二四年的护国神山；从张忠谋，到台积电，到这座小岛，再到整个世界。",
-        "en": "Eighteen episodes, done.",
-        "start": 1053.61,
-        "end": 1061.91
+        "en": "From the child who fled war in 1937, to the mountain that shields the island in 2024; from Morris Chang, to TSMC, to this small island, and to the whole world.",
+        "start": 1060.16,
+        "end": 1069.1
       },
       {
         "secZh": "全系列尾声",
         "secEn": "Series Finale",
         "speaker": "",
         "zh": "同一时间线，另一个视角。",
-        "en": "From the child who fled war in 1937, to the mountain that shields the island in 2024; from Morris Chang, to TSMC, to this small island, and to the whole world.",
-        "start": 1061.91,
-        "end": 1068.75
+        "en": "One timeline, another perspective.",
+        "start": 1069.1,
+        "end": 1071.7
       },
       {
         "secZh": "全系列尾声",
         "secEn": "Series Finale",
         "speaker": "",
         "zh": "而台积电与英伟达的相遇，只是这个故事的，另一个开始。它，留到下一册。",
-        "en": "One timeline, another perspective.",
-        "start": 1068.75,
-        "end": 1074.75
+        "en": "And the meeting of TSMC and Nvidia is only another beginning of this story. It waits for the next volume.",
+        "start": 1071.7,
+        "end": 1078.76
       },
       {
         "secZh": "全系列尾声",
         "secEn": "Series Finale",
         "speaker": "",
         "zh": "感谢收听。",
-        "en": "And the meeting of TSMC and Nvidia is only another beginning of this story. It waits for the next volume.",
-        "start": 1074.75,
-        "end": 1079.16
-      },
-      {
-        "secZh": "Series Finale",
-        "secEn": "Series Finale",
-        "speaker": "",
-        "zh": "",
         "en": "Thank you for listening.",
-        "start": 1079.16,
+        "start": 1078.76,
         "end": 1080.04
       }
     ]
   }
 ];
+
+if (typeof window !== "undefined") { window.EPISODES_DATA = window.AUDIO_DATA; }

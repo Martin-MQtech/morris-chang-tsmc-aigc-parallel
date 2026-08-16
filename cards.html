@@ -8,8 +8,8 @@
 :root { --ink:#1b1b1b; --sub:#7a746a; --accent:#9a6b2f; --paper:#fbf8f1;
         --card:#fffdf8; --line:#e8dfce; }
 * { box-sizing:border-box; }
-body { margin:0; background:var(--paper); color:var(--ink);
-  font-family:"Songti SC","Noto Serif SC","STSong",Georgia,serif; }
+body {  background:var(--paper); color:var(--ink);
+  font-family:"Songti SC","Noto Serif SC","STSong",Georgia,serif;    padding-top: 58px !important; margin: 0 !important; }
 .wrap { max-width:980px; margin:0 auto; padding:44px 22px 80px; }
 header { text-align:center; padding:10px 0 34px; }
 header h1 { font-size:27px; letter-spacing:5px; margin:0 0 8px; }
@@ -41,17 +41,23 @@ footer { text-align:center; color:var(--sub); padding:44px 0 20px; font-size:13p
 }
 
 /* Unified Global Top Navigation Bar */
+
+
 .unified-top-nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  background: rgba(8, 12, 20, 0.88);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  box-sizing: border-box;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 58px !important;
+  z-index: 9999 !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: rgba(8, 12, 20, 0.94) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: center !important;
 }
 .unified-nav-inner {
   max-width: 1280px;
