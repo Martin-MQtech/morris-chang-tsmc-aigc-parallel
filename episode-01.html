@@ -58,13 +58,21 @@
   .player-card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; margin: 24px 0 36px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); position: relative; overflow: hidden; }
   .player-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--amber), var(--blue)); }
   
-  .track-switcher { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 20px; border-bottom: 1px solid var(--line); padding-bottom: 16px; }
-  .track-btns { display: flex; gap: 10px; }
-  .btn-track { display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; border-radius: 999px; font-size: 13.5px; font-weight: 600; cursor: pointer; transition: all 0.25s ease; border: 1px solid var(--line); background: var(--bg2); color: var(--muted); }
-  .btn-track em { font-family: var(--en); font-style: italic; font-weight: 400; font-size: 12px; }
-  .btn-track.active { background: var(--amber); color: #000; border-color: var(--amber); box-shadow: 0 4px 18px rgba(245,158,11,0.35); }
+  .track-switcher { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; border-bottom: 1px solid var(--line); padding-bottom: 16px; }
+  .track-btns { display: flex; gap: 8px; align-items: center; }
+  .btn-track { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.25s ease; border: 1px solid var(--line); background: var(--bg2); color: var(--muted); }
+  .btn-track em { font-family: var(--en); font-style: italic; font-weight: 400; font-size: 11px; }
+  .btn-track.active { background: var(--amber); color: #000; border-color: var(--amber); box-shadow: 0 3px 12px rgba(245,158,11,0.3); }
   .btn-track.active em { color: #1a1205; }
   .btn-track:hover:not(.active) { border-color: var(--amber); color: var(--amber); transform: translateY(-1px); }
+
+  /* Top Share Group */
+  .top-share-group { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; background: rgba(255,255,255,0.03); border: 1px solid var(--line); padding: 4px 10px; border-radius: 999px; }
+  .share-label { font-size: 11px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 2px; }
+  .btn-share-icon { background: var(--card); border: 1px solid var(--line); color: var(--ink); padding: 4px 10px; border-radius: 999px; font-size: 11.5px; font-weight: 500; cursor: pointer; transition: all 0.2s ease; display: inline-flex; align-items: center; gap: 4px; }
+  .btn-share-icon:hover { border-color: var(--amber); color: var(--amber); transform: translateY(-1px); background: rgba(245,158,11,0.08); }
+  .btn-share-icon.copy { background: linear-gradient(135deg, rgba(245,158,11,0.12), rgba(56,189,248,0.12)); border-color: rgba(245,158,11,0.3); color: var(--amber); }
+  .btn-share-icon.copy:hover { border-color: var(--amber); box-shadow: 0 2px 10px rgba(245,158,11,0.25); }
 
   .player-state-pill { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; font-family: monospace; }
   .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #555; display: inline-block; }
@@ -193,6 +201,21 @@
   .golden-card .quote-en { font-family: var(--en); font-style: italic; font-size: 16px; color: var(--amber); margin-top: 8px; line-height: 1.6; }
   .golden-card .quote-author { font-size: 12px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; margin-top: 14px; }
 
+  /* Bottom Viral Share Card */
+  .bottom-share-card { background: linear-gradient(135deg, rgba(245,158,11,0.07), rgba(56,189,248,0.04)); border: 1px solid var(--line); border-radius: 16px; padding: 26px 28px; margin: 28px 0 24px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+  .bottom-share-title { font-family: var(--serif); font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 16px; letter-spacing: 0.3px; }
+  .bottom-share-title em { font-family: var(--en); font-style: italic; font-size: 13px; color: var(--amber); margin-left: 8px; font-weight: normal; }
+  .bottom-share-btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 12px; }
+  .btn-bottom-share { background: var(--bg2); border: 1px solid var(--line); color: var(--ink); padding: 9px 18px; border-radius: 999px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.25s ease; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-bottom-share:hover { border-color: var(--amber); color: var(--amber); transform: translateY(-2px); box-shadow: 0 4px 14px rgba(245,158,11,0.2); }
+  .btn-bottom-share.highlight { background: linear-gradient(135deg, rgba(245,158,11,0.2), rgba(56,189,248,0.15)); border-color: var(--amber); color: #FFFFFF; font-weight: 700; }
+  .btn-bottom-share.highlight:hover { background: var(--amber); color: #000; box-shadow: 0 4px 18px rgba(245,158,11,0.4); }
+  .bottom-share-sub { font-size: 12px; color: var(--muted); line-height: 1.6; margin-top: 8px; }
+  
+  /* Toast Notification */
+  .toast-notice { position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%) translateY(100px); background: #16161a; border: 1px solid var(--amber); color: #FFFFFF; padding: 12px 24px; border-radius: 999px; font-size: 13.5px; font-weight: 600; box-shadow: 0 10px 30px rgba(0,0,0,0.8), 0 0 15px rgba(245,158,11,0.3); z-index: 9999; opacity: 0; pointer-events: none; transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: flex; align-items: center; gap: 8px; }
+  .toast-notice.show { transform: translateX(-50%) translateY(0); opacity: 1; pointer-events: auto; }
+
   /* Episode Nav Footer */
   .ep-nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 32px 0 20px; border-top: 1px solid var(--line); margin-top: 48px; }
   .ep-nav-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 999px; background: var(--bg2); border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 13.5px; transition: all 0.2s; }
@@ -284,6 +307,17 @@
           <button id="btnZhTrack" class="btn-track active" onclick="switchAudioTrack('zh')">🇨🇳 中文原声 <em>Chinese Audio</em></button>
           <button id="btnEnTrack" class="btn-track" onclick="switchAudioTrack('en')">🇺🇸 English Audio <em>美式英语</em></button>
         </div>
+
+        <!-- Top Social Media Viral Share Bar -->
+        <div class="top-share-group share-matrix">
+          <span class="share-label">一键分享 SHARE:</span>
+          <button class="btn-share-icon" onclick="openWeChatShare()" title="微信分享">💬 微信</button>
+          <button class="btn-share-icon" onclick="shareToWeibo()" title="分享至微博">🔴 微博</button>
+          <button class="btn-share-icon" onclick="shareToX()" title="Share to X / Twitter">𝕏 Twitter</button>
+          <button class="btn-share-icon" onclick="shareToTelegram()" title="Share to Telegram">✈️ Telegram</button>
+          <button class="btn-share-icon copy" onclick="copyViralShare()" title="复制精选文案与链接">📋 复制文案</button>
+        </div>
+
         <div class="player-state-pill">
           <span id="statusDot" class="status-dot"></span>
           <span id="statusText">准备就绪 / READY</span>
@@ -2023,8 +2057,8 @@
     <section class="extension-zone article-wrap">
       
       <div class="extension-head">
-        <span class="ext-badge">HISTORICAL CONTEXT & ENGLISH STUDY</span>
-        <h2 class="serif">周边延伸解读与双语学习<span class="en">Historical Context & English Notes</span></h2>
+        <span class="ext-badge">KNOWLEDGE EXTENSION & BILINGUAL STUDY</span>
+        <h2 class="serif">知识扩展与双语学习<span class="en">Knowledge Extension & Bilingual Study</span></h2>
       </div>
 
       <div class="ext-grid">
@@ -2158,6 +2192,19 @@
         <div class="quote-zh">时代可以推着你走，但走成什么样，从来是你自己的事。</div>
         <div class="quote-en">"The era may push you — but what you become is always your own doing."</div>
         <div class="quote-author">— 第 01 期 · 尾声平行叙事金句</div>
+      </div>
+
+      <!-- Bottom Social Media Viral Share Bar -->
+      <div class="bottom-share-card">
+        <div class="bottom-share-title">🌟 觉得内容有价值？一键分享给好友与同行 <em>SHARE THIS EPISODE:</em></div>
+        <div class="bottom-share-btns">
+          <button class="btn-bottom-share" onclick="openWeChatShare()">💬 微信 / WeChat</button>
+          <button class="btn-bottom-share" onclick="shareToWeibo()">🔴 微博 / Weibo</button>
+          <button class="btn-bottom-share" onclick="shareToX()">𝕏 Twitter / X</button>
+          <button class="btn-bottom-share" onclick="shareToTelegram()">✈️ Telegram</button>
+          <button class="btn-bottom-share highlight" onclick="copyViralShare()">📋 复制推荐文案与专属链接 (Copy)</button>
+        </div>
+        <div class="bottom-share-sub">支持一键自动生成推荐文案与专属链接，助力半导体商业智慧与双语知识快速传播。</div>
       </div>
 
       <!-- Bottom Episode Navigation -->
@@ -2365,6 +2412,72 @@
 
     // Initialize highlight
     highlightCue(0, false);
+
+    // Viral Social Sharing & Toast System
+    const SHARE_URL = 'https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/episode-01.html';
+    const SHARE_TITLE = '《台积电张忠谋：逃难的孩子》（1937–1942）';
+    const SHARE_TEXT = `🎙️ 推荐一部震撼的双语有声平行传记《台积电张忠谋：逃难的孩子》（1937–1942）\n🔥 17分钟中英双语原声 + 128句实时同步字幕 + 商业深度复盘！\n🔗 立即在线体验：https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/episode-01.html`;
+
+    function showToast(msg) {
+      let toast = document.getElementById('shareToast');
+      if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'shareToast';
+        toast.className = 'toast-notice';
+        document.body.appendChild(toast);
+      }
+      toast.innerHTML = msg;
+      toast.classList.add('show');
+      clearTimeout(window.__toastTimer);
+      window.__toastTimer = setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3500);
+    }
+
+    function copyViralShare() {
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(SHARE_TEXT).then(() => {
+          showToast('✅ 已复制推荐文案与专属链接，可直接粘贴发给好友或朋友圈！');
+        }).catch(() => fallbackCopy(SHARE_TEXT));
+      } else {
+        fallbackCopy(SHARE_TEXT);
+      }
+    }
+
+    function fallbackCopy(text) {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.left = '-9999px';
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        showToast('✅ 已复制推荐文案与专属链接，可直接粘贴发给好友或朋友圈！');
+      } catch (err) {
+        showToast('⚠️ 请手动复制链接分享给好友');
+      }
+      document.body.removeChild(textarea);
+    }
+
+    function openWeChatShare() {
+      copyViralShare();
+    }
+
+    function shareToWeibo() {
+      const weiboUrl = `https://service.weibo.com/share/share.php?url=${encodeURIComponent(SHARE_URL)}&title=${encodeURIComponent(SHARE_TEXT)}`;
+      window.open(weiboUrl, '_blank', 'width=620,height=500,menubar=no,toolbar=no');
+    }
+
+    function shareToX() {
+      const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(SHARE_TEXT)}`;
+      window.open(xUrl, '_blank', 'width=600,height=480,menubar=no,toolbar=no');
+    }
+
+    function shareToTelegram() {
+      const tgUrl = `https://t.me/share/url?url=${encodeURIComponent(SHARE_URL)}&text=${encodeURIComponent(SHARE_TEXT)}`;
+      window.open(tgUrl, '_blank', 'width=600,height=480,menubar=no,toolbar=no');
+    }
   </script>
 </body>
 </html>
