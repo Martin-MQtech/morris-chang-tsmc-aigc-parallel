@@ -76,6 +76,12 @@
 
   /* Article Content */
   .article-body { padding: 40px 0; }
+  .lead-artwork-figure { margin: 0 0 44px 0; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: var(--card); box-shadow: 0 16px 48px rgba(0,0,0,0.5); }
+  .lead-artwork-img { width: 100%; height: auto; max-height: 480px; object-fit: cover; object-position: center 25%; display: block; transition: transform 0.35s ease; }
+  .lead-artwork-figure:hover .lead-artwork-img { transform: scale(1.02); }
+  .lead-artwork-caption { padding: 14px 20px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); background: rgba(17,17,19,0.85); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; }
+  .lead-artwork-caption .caption-zh { font-family: var(--serif); color: var(--ink); font-weight: 500; }
+  .lead-artwork-caption .caption-en { font-family: var(--en); font-style: italic; color: #888; font-size: 12px; }
   .act-block { margin-bottom: 48px; }
   .act-header { margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
   .act-header .act-tag { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--amber); }
@@ -210,7 +216,16 @@
     </section>
 
     <!-- Reading Article Body -->
-    <article class="article-body article-wrap">
+    <article class="article-body article-wrap" id="article-section">
+
+      <!-- Chapter Hero Artwork / Opening Lead Image -->
+      <figure class="lead-artwork-figure">
+        <img class="lead-artwork-img" src="./设计资产/插图/第01期-逃难的孩子.png" alt="第 01 期 概念插画 · 逃难的孩子 (1937–1942)" loading="lazy">
+        <figcaption class="lead-artwork-caption">
+          <span class="caption-zh">🎨 第 01 期 概念插画 · 广州至香港的童年逃难轨迹 (1937–1942)</span>
+          <span class="caption-en">Episode 01 Concept Artwork: A Child's Journey Through War</span>
+        </figcaption>
+      </figure>
 
       <!-- Act 1 -->
       <section class="act-block">
