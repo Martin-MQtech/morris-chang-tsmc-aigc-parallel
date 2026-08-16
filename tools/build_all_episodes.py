@@ -386,36 +386,69 @@ for ep in episodes_meta:
   .wrap {{ max-width: 1180px; margin: 0 auto; padding: 0 6vw; }}
   .article-wrap {{ max-width: 880px; margin: 0 auto; padding: 0 5vw; }}
 
-  /* Hero Section - 50/50 Split */
+  /* Hero Section - 50/50 Balanced Split */
   .hero-ep {{ padding: 36px 0 28px; border-bottom: 1px solid var(--line); background: radial-gradient(800px 400px at 80% -10%, rgba(245,158,11,0.08), transparent 60%), radial-gradient(700px 350px at 10% 110%, rgba(56,189,248,0.06), transparent 60%); }}
-  .hero-grid {{ display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 36px; align-items: center; }}
-  @media (max-width: 860px) {{
-    .hero-grid {{ grid-template-columns: 1fr; gap: 24px; }}
-  }}
   .eyebrow {{ font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--amber); display: block; margin-bottom: 12px; font-weight: 600; }}
   .eyebrow em {{ font-family: var(--en); font-style: italic; letter-spacing: 2px; margin-left: 8px; color: var(--blue); }}
   h1.serif {{ font-family: var(--serif); font-size: clamp(23px, 3.2vw, 32px); font-weight: 700; line-height: 1.25; color: var(--ink); margin-bottom: 10px; letter-spacing: 0.5px; }}
   h1.serif .en {{ display: block; font-family: var(--en); font-size: clamp(14px, 1.8vw, 17px); font-style: italic; font-weight: 400; color: var(--muted); margin-top: 6px; }}
   
-  .tagline-box {{ background: var(--bg2); border-left: 4px solid var(--amber); border-radius: 0 12px 12px 0; padding: 14px 20px; margin-top: 16px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }}
+  /* Hero Split Grid (50/50 Balanced Split) */
+  .hero-split-grid {{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    align-items: center;
+    margin-top: 18px;
+  }}
+  @media (max-width: 820px) {{
+    .hero-split-grid {{
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }}
+  }}
+  .hero-left-col {{
+    max-width: 480px;
+  }}
+  .hero-right-col {{
+    width: 100%;
+  }}
+  .lead-artwork-figure {{
+    margin: 0;
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--card);
+    box-shadow: 0 18px 48px rgba(0,0,0,0.55);
+  }}
+  .lead-artwork-img {{
+    width: 100%;
+    height: auto;
+    max-height: 290px;
+    object-fit: cover;
+    object-position: center 20%;
+    display: block;
+    transition: transform 0.5s ease;
+  }}
+  .lead-artwork-figure:hover .lead-artwork-img {{
+    transform: scale(1.03);
+  }}
+
+  .tagline-box {{ background: var(--bg2); border-left: 4px solid var(--amber); border-radius: 0 12px 12px 0; padding: 16px 20px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }}
   .tagline-zh {{ font-family: var(--serif); font-size: 15px; color: var(--ink); line-height: 1.65; }}
-  .tagline-en {{ font-family: var(--en); font-style: italic; color: var(--muted); font-size: 13.5px; margin-top: 4px; }}
+  .tagline-en {{ font-family: var(--en); font-style: italic; color: var(--muted); font-size: 13.5px; margin-top: 6px; }}
 
-  .hero-art-box {{ position: relative; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 16px 40px rgba(0,0,0,0.5); aspect-ratio: 16 / 10; background: var(--card); }}
-  .hero-art-img {{ width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }}
-  .hero-art-box:hover .hero-art-img {{ transform: scale(1.03); }}
-  .hero-art-caption {{ position: absolute; bottom: 0; left: 0; right: 0; padding: 8px 14px; background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, transparent 100%); font-size: 11.5px; color: var(--muted); display: flex; justify-content: space-between; }}
-
-  .meta-pills {{ display: flex; flex-wrap: nowrap; gap: 8px; margin-top: 14px; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }}
-  .meta-pills::-webkit-scrollbar {{ display: none; }}
-  .pill {{ font-size: 11px; color: var(--muted); background: var(--card); border: 1px solid var(--line); padding: 4px 10px; border-radius: 999px; display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; flex-shrink: 0; }}
+  /* Meta Pills below player */
+  .meta-pills {{ display: flex; flex-wrap: wrap; gap: 8px; margin: -16px 0 32px 0; }}
+  .pill {{ font-size: 11.5px; color: var(--muted); background: var(--card); border: 1px solid var(--line); padding: 5px 12px; border-radius: 999px; display: inline-flex; align-items: center; gap: 4px; }}
   .pill b {{ color: var(--ink); font-weight: 600; }}
 
   /* Audio Player Module */
-  .player-card {{ background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; margin: 28px 0 40px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); position: relative; overflow: hidden; }}
+  .player-card {{ background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; margin: 28px 0 32px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); position: relative; overflow: hidden; }}
   .player-card::before {{ content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--amber), var(--blue)); }}
   
-  /* EXACT Layout Architecture for .track-switcher from User Prompt */
+  /* Layout Architecture for .track-switcher */
   .track-switcher {{
     display: flex;
     align-items: center;
@@ -577,7 +610,7 @@ for ep in episodes_meta:
   /* Vocab flashcards */
   .vocab-list {{ display: flex; flex-direction: column; gap: 12px; }}
   .vocab-card {{ background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }}
-  .vocab-word-row {{ display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 3px; }}
+  .vocab-word-row {{ display: align-items: baseline; justify-content: space-between; margin-bottom: 3px; display: flex; }}
   .vocab-word {{ font-family: var(--en); font-weight: 700; font-size: 14px; color: var(--amber); }}
   .vocab-phonetic {{ font-size: 11px; color: var(--muted); font-family: var(--sans); }}
   .vocab-zh {{ font-size: 12.5px; color: var(--ink); font-weight: 500; margin-bottom: 3px; }}
@@ -643,32 +676,24 @@ for ep in episodes_meta:
     </div>
   </nav>
 
-  <!-- Hero Header (50/50 Split) -->
+  <!-- Hero Header (50/50 Balanced Split) -->
   <header class="hero-ep">
     <div class="wrap">
-      <div class="hero-grid">
-        <div class="hero-text-col">
-          <span class="eyebrow">{ep['act_tag']} <em>EPISODE {ep['id']}</em></span>
-          <h1 class="serif">{ep['title_zh']}<span class="en">{ep['title_en']}</span></h1>
-          
-          <div class="tagline-box">
+      <span class="eyebrow">{ep['act_tag']} <em>EPISODE {ep['id']}</em></span>
+      <h1 class="serif">{ep['title_zh']}<span class="en">{ep['title_en']}</span></h1>
+      
+      <div class="hero-split-grid">
+        <div class="hero-left-col">
+          <div class="tagline-box" style="margin-top: 0;">
             <div class="tagline-zh">“{ep['tagline_zh']}”</div>
             <div class="tagline-en">"{ep['tagline_en']}"</div>
           </div>
-
-          <div class="meta-pills">
-            {pills_html}
-          </div>
         </div>
 
-        <div class="hero-art-col">
-          <div class="hero-art-box">
-            <img src="{ep['image_path']}" alt="{ep['title_zh']} 插图" class="hero-art-img">
-            <div class="hero-art-caption">
-              <span>{ep['folder']} 官方概念插图</span>
-              <span>{ep['time_loc']}</span>
-            </div>
-          </div>
+        <div class="hero-right-col">
+          <figure class="lead-artwork-figure">
+            <img class="lead-artwork-img" src="{ep['image_path']}" alt="{ep['title_zh']} 概念插画" loading="lazy">
+          </figure>
         </div>
       </div>
     </div>
@@ -749,8 +774,13 @@ for ep in episodes_meta:
         </div>
       </div>
 
-      <!-- Native Audio Element (Hidden) -->
-      <audio id="main-audio" preload="metadata" src="./03-剧集/{ep['folder']}/中文音频.mp3"></audio>
+      <!-- Native Audio Element (Hidden) with clean audio/ path and fallback -->
+      <audio id="main-audio" preload="metadata" src="audio/ep{ep['id']}-zh.mp3"></audio>
+    </div>
+
+    <!-- Meta pills placed BELOW the audio player card -->
+    <div class="meta-pills">
+      {pills_html}
     </div>
 
     <!-- Dual Layout Body: 75% Pure Book + 25% Learning Sidebar -->
@@ -840,6 +870,7 @@ for ep in episodes_meta:
       titleZh: "{ep['title_zh']}",
       titleEn: "{ep['title_en']}",
       folder: "{ep['folder']}",
+      duration: "{ep['duration']}",
       quoteZh: "{ep['quote_zh']}",
       quoteEn: "{ep['quote_en']}"
     }};
@@ -876,21 +907,22 @@ for ep in episodes_meta:
     function switchTrack(lang) {{
       if (currentTrack === lang) return;
       currentTrack = lang;
+      audio.dataset.fallbackTried = "";
       const curTime = audio.currentTime;
       const wasPlaying = !audio.paused;
 
       if (lang === "zh") {{
-        audio.src = "./03-剧集/" + EP_DATA.folder + "/中文音频.mp3";
+        audio.src = "audio/ep" + EP_DATA.id + "-zh.mp3";
         trackBtnZh.classList.add("active");
         trackBtnEn.classList.remove("active");
         trackTitleDisplay.textContent = EP_DATA.titleZh + " · 中文广播级原声";
-        trackSubDisplay.textContent = EP_DATA.titleEn + " · Mandarin Master Audio";
+        trackSubDisplay.textContent = EP_DATA.titleEn + " · Mandarin Master Audio (" + EP_DATA.duration + ")";
       }} else {{
-        audio.src = "./03-剧集/" + EP_DATA.folder + "/英文音频.mp3";
+        audio.src = "audio/ep" + EP_DATA.id + "-en.mp3";
         trackBtnEn.classList.add("active");
         trackBtnZh.classList.remove("active");
         trackTitleDisplay.textContent = EP_DATA.titleEn + " · American English Master";
-        trackSubDisplay.textContent = EP_DATA.titleZh + " · 英文纯正沉浸配音";
+        trackSubDisplay.textContent = EP_DATA.titleZh + " · 英文纯正沉浸配音 (" + EP_DATA.duration + ")";
       }}
 
       audio.currentTime = curTime;
@@ -900,6 +932,22 @@ for ep in episodes_meta:
         audio.play().catch(e => console.log("Play interrupted", e));
       }}
     }}
+
+    // Audio fallback handler
+    audio.addEventListener("error", function(e) {{
+      console.warn("Audio primary path failed, attempting fallback...", e);
+      if (!audio.dataset.fallbackTried) {{
+        audio.dataset.fallbackTried = "true";
+        if (currentTrack === "zh") {{
+          audio.src = "./03-剧集/" + EP_DATA.folder + "/中文音频.mp3";
+        }} else {{
+          audio.src = "./03-剧集/" + EP_DATA.folder + "/英文音频.mp3";
+        }}
+        if (isPlaying) {{
+          audio.play().catch(err => console.log("Fallback play error:", err));
+        }}
+      }}
+    }});
 
     function togglePlay() {{
       if (audio.paused) {{
@@ -1030,39 +1078,39 @@ for ep in episodes_meta:
     function getShareData() {{
       const shareUrl = window.location.href;
       const title = document.title;
-      const summary = “【台积电张忠谋 · “ + EP_DATA.titleZh + “】\\n\\\”” + EP_DATA.quoteZh + “\\\”\\n中英双语原声电子书已上线，即刻收听与精读：”;
+      const summary = "【台积电张忠谋 · " + EP_DATA.titleZh + "】\\n“" + EP_DATA.quoteZh + "”\\n中英双语原声电子书已上线，即刻收听与精读：";
       return {{ shareUrl, title, summary }};
     }}
 
     function getShareCopyText() {{
       const data = getShareData();
-      return “【台积电张忠谋传记时间线的平行世界 · “ + EP_DATA.titleZh + “】\\n\\n“” + EP_DATA.quoteZh + “”\\n\\\”” + EP_DATA.quoteEn + “\\\”\\n\\n🎧 纯净中英双语原声 + 逐句高亮字幕提词器：\\n👉 “ + data.shareUrl;
+      return "【台积电张忠谋传记时间线的平行世界 · " + EP_DATA.titleZh + "】\\n\\n“" + EP_DATA.quoteZh + "”\\n\\\"" + EP_DATA.quoteEn + "\\\"\\n\\n🎧 纯净中英双语原声 + 逐句高亮字幕提词器：\\n👉 " + data.shareUrl;
     }}
 
     function showToast(msg) {{
-      const toast = document.getElementById(“toast-msg”);
+      const toast = document.getElementById("toast-msg");
       toast.textContent = msg;
-      toast.classList.add(“show”);
-      setTimeout(() => toast.classList.remove(“show”), 2800);
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2800);
     }}
 
     function openWeChatShare() {{
-      const modal = document.getElementById(“wechat-modal”);
-      const qrImg = document.getElementById(“wechat-qr-img”);
+      const modal = document.getElementById("wechat-modal");
+      const qrImg = document.getElementById("wechat-qr-img");
       const pageUrl = encodeURIComponent(window.location.href);
-      qrImg.src = “https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=” + pageUrl;
-      modal.classList.add(“active”);
+      qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + pageUrl;
+      modal.classList.add("active");
     }}
 
     function closeWeChatShare(e) {{
-      const modal = document.getElementById(“wechat-modal”);
-      modal.classList.remove(“active”);
+      const modal = document.getElementById("wechat-modal");
+      modal.classList.remove("active");
     }}
 
     function shareToWeibo() {{
       const data = getShareData();
-      const url = “https://service.weibo.com/share/share.php?url=” + encodeURIComponent(data.shareUrl) + “&title=” + encodeURIComponent(data.summary);
-      window.open(url, “_blank”, “width=600,height=500”);
+      const url = "https://service.weibo.com/share/share.php?url=" + encodeURIComponent(data.shareUrl) + "&title=" + encodeURIComponent(data.summary);
+      window.open(url, "_blank", "width=600,height=500");
     }}
 
     function shareToLinkedIn() {{
@@ -1073,28 +1121,28 @@ for ep in episodes_meta:
         fallbackCopy(text, false);
       }}
       showToast('📋 已自动复制文案！在领英发帖框直接粘贴即可');
-      const shareUrl = “https://www.linkedin.com/sharing/share-offsite/?url=” + encodeURIComponent(window.location.href);
-      window.open(shareUrl, “_blank”, “width=650,height=600”);
+      const shareUrl = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(window.location.href);
+      window.open(shareUrl, "_blank", "width=650,height=600");
     }}
 
     function shareToX() {{
       const data = getShareData();
-      const tweetText = data.summary + “\\n\\n#MorrisChang #TSMC #台积电 #张忠谋”;
-      const url = “https://twitter.com/intent/tweet?text=” + encodeURIComponent(tweetText) + “&url=” + encodeURIComponent(data.shareUrl);
-      window.open(url, “_blank”, “width=600,height=500”);
+      const tweetText = data.summary + "\\n\\n#MorrisChang #TSMC #台积电 #张忠谋";
+      const url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweetText) + "&url=" + encodeURIComponent(data.shareUrl);
+      window.open(url, "_blank", "width=600,height=500");
     }}
 
     function shareToWhatsApp() {{
       const data = getShareData();
-      const text = data.summary + “ “ + data.shareUrl;
-      const url = “https://api.whatsapp.com/send?text=” + encodeURIComponent(text);
-      window.open(url, “_blank”);
+      const text = data.summary + " " + data.shareUrl;
+      const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(text);
+      window.open(url, "_blank");
     }}
 
     function shareToTelegram() {{
       const data = getShareData();
-      const url = “https://t.me/share/url?url=” + encodeURIComponent(data.shareUrl) + “&text=” + encodeURIComponent(data.summary);
-      window.open(url, “_blank”);
+      const url = "https://t.me/share/url?url=" + encodeURIComponent(data.shareUrl) + "&text=" + encodeURIComponent(data.summary);
+      window.open(url, "_blank");
     }}
 
     function shareToFacebook() {{
@@ -1105,8 +1153,8 @@ for ep in episodes_meta:
         fallbackCopy(text, false);
       }}
       showToast('📋 已自动复制文案！在 Facebook 直接粘贴即可');
-      const shareUrl = “https://www.facebook.com/sharer/sharer.php?u=” + encodeURIComponent(window.location.href);
-      window.open(shareUrl, “_blank”, “width=650,height=600”);
+      const shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href);
+      window.open(shareUrl, "_blank", "width=650,height=600");
     }}
 
     function copyViralShare() {{
@@ -1114,7 +1162,7 @@ for ep in episodes_meta:
       
       if (navigator.clipboard && window.isSecureContext) {{
         navigator.clipboard.writeText(fullCopyText).then(() => {{
-          showToast(“📋 金句双语分享文案已复制！”);
+          showToast("📋 金句双语分享文案已复制！");
         }}).catch(err => fallbackCopy(fullCopyText, true));
       }} else {{
         fallbackCopy(fullCopyText, true);
@@ -1122,18 +1170,18 @@ for ep in episodes_meta:
     }}
 
     function fallbackCopy(text, notify = true) {{
-      const ta = document.createElement(“textarea”);
+      const ta = document.createElement("textarea");
       ta.value = text;
-      ta.style.position = “fixed”;
-      ta.style.left = “-9999px”;
+      ta.style.position = "fixed";
+      ta.style.left = "-9999px";
       document.body.appendChild(ta);
       ta.focus();
       ta.select();
       try {{
-        document.execCommand(“copy”);
-        if (notify) showToast(“📋 金句双语分享文案已复制！”);
+        document.execCommand("copy");
+        if (notify) showToast("📋 金句双语分享文案已复制！");
       }} catch (e) {{
-        if (notify) showToast(“请手动复制链接”);
+        if (notify) showToast("请手动复制链接");
       }}
       document.body.removeChild(ta);
     }}
