@@ -43,12 +43,15 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
              radial-gradient(900px 500px at 8% 110%, rgba(56,189,248,.10), transparent 60%), var(--bg); }
 .hero-content-col { text-align: center; }
 .card-link { text-decoration: none; color: inherit; display: block; height: 100%; }
-.hero-inner { display:grid; grid-template-columns:1.08fr .92fr; gap:56px; align-items:center;
-  max-width:1180px; margin:0 auto; padding:72px 6vw; }
-.eyebrow { font-size:12px; letter-spacing:5px; color:var(--amber); text-transform:uppercase; margin-bottom:22px; text-align:center; }
-.hero h1 { font-size:clamp(34px,5.2vw,60px); line-height:1.22; font-weight:600; letter-spacing:2px; text-align:center; }
-.hero h1 .thin { color:var(--muted); font-weight:400; }
-.hero .tagline { margin-top:22px; font-size:18px; color:var(--muted); letter-spacing:3px; text-align:center; }
+.hero-inner { display:grid; grid-template-columns:0.95fr 1.05fr; gap:48px; align-items:center;
+  max-width:1180px; margin:0 auto; padding:56px 6vw; }
+.eyebrow { font-size:11px; letter-spacing:4px; color:var(--amber); text-transform:uppercase; margin-bottom:16px; text-align:center; }
+.hero h1 { font-size:clamp(28px, 3.8vw, 44px); line-height:1.25; font-weight:600; letter-spacing:2px; text-align:center; }
+.hero h1 .thin { color:var(--muted); font-weight:400; font-size:clamp(15px, 1.8vw, 20px); display:block; margin-top:8px; }
+.en-main { font-size:clamp(16px, 1.8vw, 20px) !important; font-weight:500; color:#d4cfc7; letter-spacing:0.8px; margin-top:8px; line-height:1.35; display:block; }
+.en-sub { font-size:clamp(12.5px, 1.4vw, 15px) !important; font-style:italic; font-weight:400; color:var(--muted); margin-top:3px; line-height:1.4; display:block; }
+.hero .tagline { margin-top:16px; font-size:15px; color:var(--muted); letter-spacing:2px; text-align:center; }
+.hero .tagline .en { font-size:13px !important; margin-top:4px; }
 .hero .stats { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:12px; margin:32px auto 0 !important; width:fit-content; justify-content:center; }
 .hero .stat { display:inline-flex; align-items:center; justify-content:center; padding:10px 20px; border:1px solid var(--line); border-radius:100px;
   font-size:13px; color:var(--muted); letter-spacing:1px; white-space:nowrap; text-align:center; box-sizing:border-box; }
@@ -61,8 +64,8 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
 .btn.ghost { border:1px solid var(--line); color:var(--ink); }
 .btn.ghost:hover { border-color:var(--amber); color:var(--amber); }
 .hero-cover { justify-self:center; }
-.hero-cover img { width:min(90vw,560px); border-radius:10px;
-  box-shadow:0 30px 90px rgba(0,0,0,.6), 0 0 0 1px var(--line); }
+.hero-cover img { width:min(92vw, 580px); max-height:640px; object-fit:contain; border-radius:10px;
+  box-shadow:0 30px 90px rgba(0,0,0,0.65), 0 0 0 1px var(--line); }
 .hero-cover .glow { margin-top:-6px; height:2px; width:70%; margin-left:15%;
   background:linear-gradient(90deg,transparent,var(--amber),var(--blue),transparent); opacity:.7; }
 
@@ -184,8 +187,8 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
   <div class="hero-inner">
     <div class="hero-content-col" style="text-align: center;">
       <div class="eyebrow">AIGC 原创平行传记 · 中英双语有声 <em>Original Parallel Biography · Bilingual Audio</em></div>
-      <h1>台积电张忠谋<br><span class="thin" style="font-size: 0.55em; font-weight: 300; opacity: 0.75; display: block; margin-top: 10px;">传记时间线的平行世界</span><span class="en-main" style="display: block; font-size: 1.15em; font-weight: 500; color: var(--ink); letter-spacing: 0.5px; margin-top: 10px;">Morris Chang &amp; TSMC</span><span class="en-sub" style="display: block; font-size: 0.82em; font-weight: 400; font-style: italic; color: var(--muted); letter-spacing: 0.2px; margin-top: 4px;">— The Parallel Worlds of a Biography</span></h1>
-      <p class="tagline">同一时间线，另一个视角<br><span class="en" style="font-size: 0.85em; margin-top: 6px;">Same timeline, another view.</span></p>
+      <h1>台积电张忠谋<br><span class="thin">传记时间线的平行世界</span><span class="en-main">Morris Chang &amp; TSMC</span><span class="en-sub">— The Parallel Worlds of a Biography</span></h1>
+      <p class="tagline">同一时间线，另一个视角<br><span class="en">Same timeline, another view.</span></p>
       <div class="stats">
         <span class="stat"><b>18</b> 期 · 一册 <em>Episodes</em></span>
         <span class="stat"><b>1931</b> – 今天 <em>Today</em></span>
