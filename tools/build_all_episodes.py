@@ -26,7 +26,7 @@ episodes_meta = [
             ("有声轨", "中英双轨 7min 广播级剧场原声"),
             ("双语阅读", "75% 全册导言双语对齐 · 25% 时代与方法论解析")
         ],
-        "image_path": "./设计资产/封面/封面_上册_蓝图晶圆版.jpg",
+        "image_path": "./设计资产/封面/封面_排版版.jpg",
         "prev_link": "index.html",
         "prev_label": "← 回到总目录",
         "next_link": "episode-01.html",
@@ -570,6 +570,44 @@ for ep in episodes_meta:
         """)
     timeline_html = "\n".join(tl_items_html)
     
+    # Hero split grid customization
+    if ep_id == "00":
+        hero_grid_html = f'''      <div class="hero-split-grid">
+        <div class="hero-left-col">
+          <div class="tagline-box" style="margin-top: 0;">
+            <div class="tagline-zh">“{ep["tagline_zh"]}”</div>
+            <div class="tagline-en">"{ep["tagline_en"]}"</div>
+          </div>
+          <div class="attribution-box" style="margin-top: 14px; padding: 14px 16px; background: rgba(245, 158, 11, 0.05); border: 1px dashed rgba(245, 158, 11, 0.3); border-radius: 10px; font-size: 12.5px; line-height: 1.6; color: #d1cdc7;">
+            <div style="font-weight: 600; color: var(--amber); margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
+              <span>📚 致敬经典 · 支持正版</span>
+            </div>
+            <p style="margin-bottom: 6px;">本项目为 AIGC 原创平行叙事二创与研读作品，故事线索与事实脉络取材自张忠谋先生权威史料与自传母本。我们强烈推荐读者购买支持张忠谋先生正版传记图书《张忠谋自传》（天下文化 / 远见出版），获取详实完整的第一手时代细节。</p>
+            <p style="font-style: italic; font-size: 11.5px; color: var(--muted); font-family: var(--en);">Support Official Publication: This parallel biography is an original AIGC creative work inspired by historical records. We encourage readers to purchase the authentic authorized volumes.</p>
+          </div>
+        </div>
+
+        <div class="hero-right-col">
+          <figure class="lead-artwork-figure" style="background: transparent; border: none; box-shadow: none;">
+            <img class="lead-artwork-img" src="{ep["image_path"]}" alt="{ep["title_zh"]} 全册封面" style="object-fit: contain; max-height: 380px; width: 100%; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 0 1px var(--line);" loading="eager">
+          </figure>
+        </div>
+      </div>'''
+    else:
+        hero_grid_html = f'''      <div class="hero-split-grid">
+        <div class="hero-left-col">
+          <div class="tagline-box" style="margin-top: 0;">
+            <div class="tagline-zh">“{ep["tagline_zh"]}”</div>
+            <div class="tagline-en">"{ep["tagline_en"]}"</div>
+          </div>
+        </div>
+
+        <div class="hero-right-col">
+          <figure class="lead-artwork-figure">
+            <img class="lead-artwork-img" src="{ep["image_path"]}" alt="{ep["title_zh"]} 概念插画" loading="lazy">
+          </figure>
+        </div>
+      </div>'''
     html_template = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -923,20 +961,7 @@ for ep in episodes_meta:
       <span class="eyebrow">{ep["act_tag"]} <em>EPISODE {ep["id"]}</em></span>
       <h1 class="serif">{ep["title_zh"]}<span class="en">{ep["title_en"]}</span></h1>
       
-      <div class="hero-split-grid">
-        <div class="hero-left-col">
-          <div class="tagline-box" style="margin-top: 0;">
-            <div class="tagline-zh">“{ep["tagline_zh"]}”</div>
-            <div class="tagline-en">"{ep["tagline_en"]}"</div>
-          </div>
-        </div>
-
-        <div class="hero-right-col">
-          <figure class="lead-artwork-figure">
-            <img class="lead-artwork-img" src="{ep["image_path"]}" alt="{ep["title_zh"]} 概念插画" loading="lazy">
-          </figure>
-        </div>
-      </div>
+{hero_grid_html}
     </div>
   </header>
 
@@ -1237,6 +1262,39 @@ for ep in episodes_meta:
       }}
     }});
 
+    let isUserScrolling = false;
+    let userScrollTimer = null;
+
+    if (subtitlesViewport) {{
+      subtitlesViewport.addEventListener('wheel', () => {{
+        isUserScrolling = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(() => {{ isUserScrolling = false; }}, 2000);
+      }}, {{ passive: true }});
+
+      subtitlesViewport.addEventListener('touchmove', () => {{
+        isUserScrolling = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(() => {{ isUserScrolling = false; }}, 2000);
+      }}, {{ passive: true }});
+    }}
+
+    function scrollSubtitleToCenter(container, activeElement) {{
+      if (!container || !activeElement || !autoScroll || isUserScrolling) return;
+      
+      // Calculate relative position strictly INSIDE the container viewport
+      const containerRect = container.getBoundingClientRect();
+      const elementRect = activeElement.getBoundingClientRect();
+      
+      const elementRelativeTop = elementRect.top - containerRect.top + container.scrollTop;
+      const targetScrollTop = elementRelativeTop - (container.clientHeight / 2) + (elementRect.height / 2);
+      
+      container.scrollTo({{
+        top: Math.max(0, targetScrollTop),
+        behavior: 'smooth'
+      }});
+    }}
+
     function setActiveCue(index) {{
       if (index === activeCueIndex) return;
       
@@ -1253,13 +1311,7 @@ for ep in episodes_meta:
       if (activeRow) {{
         activeRow.classList.add('active');
         if (autoScroll && subtitlesViewport) {{
-          const rowTop = activeRow.offsetTop;
-          const rowHeight = activeRow.offsetHeight;
-          const containerHeight = subtitlesViewport.clientHeight;
-          subtitlesViewport.scrollTo({{
-            top: rowTop - (containerHeight / 2) + (rowHeight / 2),
-            behavior: 'smooth'
-          }});
+          scrollSubtitleToCenter(subtitlesViewport, activeRow);
         }}
       }}
 

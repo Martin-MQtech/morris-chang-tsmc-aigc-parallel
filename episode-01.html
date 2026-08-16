@@ -3043,6 +3043,39 @@
       }
     });
 
+    let isUserScrolling = false;
+    let userScrollTimer = null;
+
+    if (subtitlesViewport) {
+      subtitlesViewport.addEventListener('wheel', () => {
+        isUserScrolling = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(() => { isUserScrolling = false; }, 2000);
+      }, { passive: true });
+
+      subtitlesViewport.addEventListener('touchmove', () => {
+        isUserScrolling = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(() => { isUserScrolling = false; }, 2000);
+      }, { passive: true });
+    }
+
+    function scrollSubtitleToCenter(container, activeElement) {
+      if (!container || !activeElement || !autoScroll || isUserScrolling) return;
+      
+      // Calculate relative position strictly INSIDE the container viewport
+      const containerRect = container.getBoundingClientRect();
+      const elementRect = activeElement.getBoundingClientRect();
+      
+      const elementRelativeTop = elementRect.top - containerRect.top + container.scrollTop;
+      const targetScrollTop = elementRelativeTop - (container.clientHeight / 2) + (elementRect.height / 2);
+      
+      container.scrollTo({
+        top: Math.max(0, targetScrollTop),
+        behavior: 'smooth'
+      });
+    }
+
     function setActiveCue(index) {
       if (index === activeCueIndex) return;
       
@@ -3059,13 +3092,7 @@
       if (activeRow) {
         activeRow.classList.add('active');
         if (autoScroll && subtitlesViewport) {
-          const rowTop = activeRow.offsetTop;
-          const rowHeight = activeRow.offsetHeight;
-          const containerHeight = subtitlesViewport.clientHeight;
-          subtitlesViewport.scrollTo({
-            top: rowTop - (containerHeight / 2) + (rowHeight / 2),
-            behavior: 'smooth'
-          });
+          scrollSubtitleToCenter(subtitlesViewport, activeRow);
         }
       }
 
