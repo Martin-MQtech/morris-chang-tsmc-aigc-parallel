@@ -43,9 +43,111 @@ footer { text-align:center; color:var(--sub); padding:44px 0 20px; font-size:13p
   .cell.world { padding-top:16px; }
   .badge, .motto { grid-column:1; }
 }
+
+/* Unified Global Top Navigation Bar */
+.unified-top-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: rgba(8, 12, 20, 0.88);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+}
+.unified-nav-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.unified-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #f3f0e8;
+  font-weight: 600;
+  font-family: "Songti SC", "Noto Serif SC", serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.unified-brand:hover {
+  color: #d97706;
+}
+.unified-brand img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: block;
+}
+.unified-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.unified-nav-links a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #a29c90;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.unified-nav-links a:hover {
+  color: #f3f0e8;
+  background: rgba(255, 255, 255, 0.05);
+}
+.unified-nav-links a.active {
+  color: #d97706;
+  font-weight: 600;
+  background: rgba(217, 119, 6, 0.12);
+}
+.unified-nav-btn {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%) !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  padding: 6px 14px !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.3) !important;
+}
+.unified-nav-btn:hover {
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.5) !important;
+  transform: translateY(-1px);
+}
+
 </style>
 </head>
 <body>
+<nav class="unified-top-nav">
+  <div class="unified-nav-inner">
+    <a href="index.html" class="unified-brand">
+      <img src="assets/logo.svg" alt="Logo" onerror="this.style.display='none'">
+      <span>台积电张忠谋 · 传记时间线的平行世界</span>
+    </a>
+    <ul class="unified-nav-links">
+      <li><a href="index.html" class="">🏛️ 官网首页</a></li>
+      <li><a href="reader.html" class="">📖 全册电子书</a></li>
+      <li><a href="map.html" class="active">🗺️ 平行地图</a></li>
+      <li><a href="cards.html" class="">🎴 金句卡片</a></li>
+      <li><a href="audio.html" class="">🎧 双语剧场</a></li>
+      <li><a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="unified-nav-btn">🚀 ReadShift 主体工程</a></li>
+    </ul>
+  </div>
+</nav>
 <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 24px; border-bottom:1px solid rgba(255,255,255,0.08); background:rgba(8,12,20,0.85); backdrop-filter:blur(10px); position:sticky; top:0; z-index:100;">
   <a href="index.html" style="display:flex; align-items:center; gap:10px; text-decoration:none; color:#f1f5f9; font-weight:700; font-size:14px;">
     <img src="assets/logo.svg" alt="Logo" style="width:32px; height:32px; border-radius:50%; box-shadow:0 0 14px rgba(245,158,11,0.45); flex-shrink:0;">

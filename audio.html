@@ -531,7 +531,93 @@
       .subtitles-viewport { padding: 24px 20px 100px; }
       .nav-links { display: none; }
     }
-  </style>
+  
+/* Unified Global Top Navigation Bar */
+.unified-top-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: rgba(8, 12, 20, 0.88);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+}
+.unified-nav-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.unified-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #f3f0e8;
+  font-weight: 600;
+  font-family: "Songti SC", "Noto Serif SC", serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.unified-brand:hover {
+  color: #d97706;
+}
+.unified-brand img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: block;
+}
+.unified-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.unified-nav-links a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #a29c90;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.unified-nav-links a:hover {
+  color: #f3f0e8;
+  background: rgba(255, 255, 255, 0.05);
+}
+.unified-nav-links a.active {
+  color: #d97706;
+  font-weight: 600;
+  background: rgba(217, 119, 6, 0.12);
+}
+.unified-nav-btn {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%) !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  padding: 6px 14px !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.3) !important;
+}
+.unified-nav-btn:hover {
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.5) !important;
+  transform: translateY(-1px);
+}
+
+</style>
 <style>
     .brand-logo-img { width: 34px; height: 34px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); border: 1px solid #333; transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; }
     .brand-logo:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 16px rgba(255, 255, 255, 0.35); border-color: #555; }
@@ -540,25 +626,22 @@
 <body>
 
   <!-- Top Navbar -->
-  <header class="navbar">
-    <a href="index.html" class="brand-logo">
-      <img src="assets/logo.svg" alt="Morris Chang Logo" class="brand-logo-img">
-      <div class="brand-text">
-        <h1>台积电张忠谋 · 平行世界 <span class="brand-badge">双语音频剧场</span></h1>
-      </div>
+  <nav class="unified-top-nav">
+  <div class="unified-nav-inner">
+    <a href="index.html" class="unified-brand">
+      <img src="assets/logo.svg" alt="Logo" onerror="this.style.display='none'">
+      <span>台积电张忠谋 · 传记时间线的平行世界</span>
     </a>
-
-    <ul class="nav-links">
-      <li><a href="index.html">🏛️ 官网首页</a></li>
+    <ul class="unified-nav-links">
+      <li><a href="index.html" class="">🏛️ 官网首页</a></li>
+      <li><a href="reader.html" class="">📖 全册电子书</a></li>
+      <li><a href="map.html" class="">🗺️ 平行地图</a></li>
+      <li><a href="cards.html" class="">🎴 金句卡片</a></li>
       <li><a href="audio.html" class="active">🎧 双语剧场</a></li>
-      <li><a href="reader.html">📖 全册阅读</a></li>
-      <li><a href="map.html">🗺️ 平行地图</a></li>
-      <li><a href="cards.html">🎴 金句卡片</a></li>
-      <li><a href="https://github.com/Martin-MQtech/ReadShift" target="_blank">🚀 ReadShift 主体工程</a></li>
+      <li><a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="unified-nav-btn">🚀 ReadShift 主体工程</a></li>
     </ul>
-
-    <button class="menu-toggle" id="btnToggleSidebar">☰ 剧集目录</button>
-  </header>
+  </div>
+</nav>
 
   <!-- Theater Workspace -->
   <div class="theater-container">
