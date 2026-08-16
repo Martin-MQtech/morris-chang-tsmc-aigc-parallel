@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>双语音频剧场 | 台积电张忠谋 · 传记时间线的平行世界</title>
+  <meta name="description" content="台积电张忠谋传记时间线的平行世界 · 沉浸式双语音频剧场。提供逐句时间戳高亮对齐、中英双语切换、点击定点跳转与智能语音流播放。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <script src="audio_data.js"></script>
+  <style>
+    :root {
+      --bg-dark: #070b12;
+      --bg-surface: #0e1524;
+      --bg-panel: rgba(14, 21, 36, 0.85);
+      --bg-active: rgba(0, 240, 255, 0.12);
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-cyan: rgba(0, 240, 255, 0.3);
+      --border-gold: rgba(245, 158, 11, 0.35);
+      --cyan-tsmc: #00f0ff;
+      --cyan-glow: rgba(0, 240, 255, 0.35);
+      --gold-silicon: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.25);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --font-serif: "Noto Serif SC", "Songti SC", Georgia, serif;
+      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-display: "Cinzel", "Noto Serif SC", serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(0, 240, 255, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.04) 0%, transparent 40%),
+        linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+    }
+
+    /* Top Navbar */
+    .navbar {
+      height: 64px;
+      flex-shrink: 0;
+      background: rgba(7, 11, 18, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      z-index: 50;
+    }
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
+    .brand-wafer {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, var(--cyan-tsmc), var(--gold-silicon));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 16px var(--cyan-glow);
+    }
+    .brand-wafer-inner {
+      width: 26px;
+      height: 26px;
+      background: var(--bg-dark);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 900;
+      color: var(--cyan-tsmc);
+      font-family: var(--font-display);
+    }
+    .brand-text h1 {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .brand-badge {
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 10px;
+      background: rgba(0, 240, 255, 0.12);
+      color: var(--cyan-tsmc);
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      font-weight: 600;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--cyan-tsmc);
+    }
+
+    /* Main Theater Layout */
+    .theater-container {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Left Sidebar: Episode List */
+    .episode-sidebar {
+      width: 340px;
+      flex-shrink: 0;
+      background: var(--bg-panel);
+      backdrop-filter: blur(20px);
+      border-right: 1px solid var(--border-subtle);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 30;
+    }
+    .sidebar-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .sidebar-header h2 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--cyan-tsmc);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .episode-count-tag {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-muted);
+    }
+    .episode-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px 10px;
+      list-style: none;
+    }
+    .episode-list::-webkit-scrollbar { width: 5px; }
+    .episode-list::-webkit-scrollbar-track { background: transparent; }
+    .episode-list::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 3px; }
+
+    .ep-item {
+      padding: 12px 14px;
+      border-radius: 10px;
+      margin-bottom: 6px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+    .ep-item:hover {
+      background: rgba(255, 255, 255, 0.03);
+      border-color: rgba(255, 255, 255, 0.08);
+    }
+    .ep-item.active {
+      background: var(--bg-active);
+      border-color: var(--border-cyan);
+      box-shadow: 0 4px 16px -4px var(--cyan-glow);
+    }
+    .ep-badge-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    .ep-id {
+      font-size: 11px;
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--cyan-tsmc);
+    }
+    .ep-duration {
+      font-size: 10px;
+      color: var(--text-dim);
+    }
+    .ep-title-zh {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 2px;
+      line-height: 1.4;
+    }
+    .ep-title-en {
+      font-size: 11px;
+      color: var(--text-muted);
+      line-height: 1.3;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Main Theater Area */
+    .stage-main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+      background: radial-gradient(circle at 50% 10%, rgba(0, 240, 255, 0.03) 0%, transparent 60%);
+    }
+
+    /* Episode Banner Bar */
+    .stage-header {
+      padding: 16px 28px;
+      background: rgba(14, 21, 36, 0.6);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .current-meta h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .current-meta p {
+      font-size: 12px;
+      color: var(--cyan-tsmc);
+      margin-top: 2px;
+    }
+
+    .view-toggles {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 4px;
+      border-radius: 8px;
+      border: 1px solid var(--border-subtle);
+    }
+    .mode-btn {
+      padding: 5px 12px;
+      border-radius: 6px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .mode-btn:hover {
+      color: var(--text-main);
+    }
+    .mode-btn.active {
+      background: linear-gradient(135deg, rgba(0, 240, 255, 0.2), rgba(0, 240, 255, 0.05));
+      color: var(--cyan-tsmc);
+      border: 1px solid var(--border-cyan);
+    }
+
+    /* Subtitles Container */
+    .subtitles-viewport {
+      flex: 1;
+      overflow-y: auto;
+      padding: 40px 15% 120px;
+      scroll-behavior: smooth;
+    }
+    .subtitles-viewport::-webkit-scrollbar { width: 6px; }
+    .subtitles-viewport::-webkit-scrollbar-track { background: transparent; }
+    .subtitles-viewport::-webkit-scrollbar-thumb { background: rgba(0, 240, 255, 0.15); border-radius: 4px; }
+
+    .cue-group {
+      margin-bottom: 24px;
+      padding: 16px 20px;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+    .cue-group:hover {
+      background: rgba(255, 255, 255, 0.02);
+      border-color: rgba(255, 255, 255, 0.06);
+    }
+    .cue-group.active {
+      background: rgba(0, 240, 255, 0.06);
+      border-color: var(--border-cyan);
+      box-shadow: 0 8px 24px -6px var(--cyan-glow);
+      transform: scale(1.015);
+    }
+
+    .cue-tag {
+      font-size: 11px;
+      font-family: var(--font-display);
+      color: var(--gold-silicon);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 8px;
+      opacity: 0.85;
+    }
+    .cue-en {
+      font-size: 16px;
+      font-weight: 500;
+      color: #e2e8f0;
+      line-height: 1.6;
+      margin-bottom: 8px;
+      transition: color 0.2s;
+    }
+    .cue-group.active .cue-en {
+      color: var(--cyan-tsmc);
+      font-weight: 600;
+    }
+    .cue-zh {
+      font-size: 15px;
+      font-family: var(--font-serif);
+      color: #94a3b8;
+      line-height: 1.7;
+      transition: color 0.2s;
+    }
+    .cue-group.active .cue-zh {
+      color: #ffffff;
+    }
+
+    .hide-zh .cue-zh { display: none !important; }
+    .hide-en .cue-en { display: none !important; }
+
+    /* Bottom Control Bar */
+    .player-dock {
+      height: 96px;
+      flex-shrink: 0;
+      background: rgba(9, 13, 22, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 32px;
+      z-index: 40;
+      position: relative;
+    }
+
+    /* Progress Bar */
+    .timeline-container {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .time-lbl {
+      font-size: 11px;
+      font-family: var(--font-display);
+      color: var(--text-muted);
+      min-width: 44px;
+    }
+    .progress-track {
+      flex: 1;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 3px;
+      position: relative;
+      cursor: pointer;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--cyan-tsmc), var(--gold-silicon));
+      border-radius: 3px;
+      width: 0%;
+      position: relative;
+    }
+    .progress-fill::after {
+      content: '';
+      position: absolute;
+      right: -5px;
+      top: -3px;
+      width: 12px;
+      height: 12px;
+      background: #ffffff;
+      box-shadow: 0 0 8px var(--cyan-tsmc);
+      border-radius: 50%;
+    }
+
+    /* Action Controls Row */
+    .controls-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .track-toggle-grp {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .track-btn {
+      padding: 4px 12px;
+      font-size: 11px;
+      font-weight: 600;
+      border-radius: 14px;
+      border: 1px solid var(--border-subtle);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .track-btn.active {
+      background: rgba(0, 240, 255, 0.15);
+      border-color: var(--cyan-tsmc);
+      color: var(--cyan-tsmc);
+    }
+
+    .main-btns {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .ctrl-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-main);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+    .ctrl-btn:hover {
+      color: var(--cyan-tsmc);
+      transform: scale(1.1);
+    }
+    .btn-play-hero {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--cyan-tsmc), #00a8ff);
+      color: #070b12;
+      box-shadow: 0 0 16px var(--cyan-glow);
+    }
+    .btn-play-hero:hover {
+      background: linear-gradient(135deg, #38f9d7, var(--cyan-tsmc));
+      box-shadow: 0 0 24px var(--cyan-glow);
+      color: #000;
+      transform: scale(1.06);
+    }
+
+    .playback-opts {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .speed-select {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+    }
+    .vol-slider {
+      width: 80px;
+      accent-color: var(--cyan-tsmc);
+      cursor: pointer;
+    }
+
+    /* Mobile toggle for sidebar */
+    .menu-toggle {
+      display: none;
+      background: transparent;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-main);
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    @media (max-width: 900px) {
+      .episode-sidebar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateX(-100%);
+      }
+      .episode-sidebar.open {
+        transform: translateX(0);
+      }
+      .menu-toggle { display: block; }
+      .subtitles-viewport { padding: 24px 20px 100px; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <header class="navbar">
+    <a href="index.html" class="brand-logo">
+      <div class="brand-wafer">
+        <div class="brand-wafer-inner">MC</div>
+      </div>
+      <div class="brand-text">
+        <h1>台积电张忠谋 · 平行世界 <span class="brand-badge">双语音频剧场</span></h1>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html">🏛️ 官网首页</a></li>
+      <li><a href="audio.html" class="active">🎧 双语剧场</a></li>
+      <li><a href="reader.html">📖 全册阅读</a></li>
+      <li><a href="map.html">🗺️ 平行地图</a></li>
+      <li><a href="cards.html">🎴 金句卡片</a></li>
+      <li><a href="https://github.com/Martin-MQtech/ReadShift" target="_blank">🌱 ReadShift</a></li>
+    </ul>
+
+    <button class="menu-toggle" id="btnToggleSidebar">☰ 剧集目录</button>
+  </header>
+
+  <!-- Theater Workspace -->
+  <div class="theater-container">
+    
+    <!-- Sidebar: Episode List -->
+    <aside class="episode-sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2><span>⚡</span> 剧集与乐章目录</h2>
+        <span class="episode-count-tag" id="epTotalCount">19 集全收官</span>
+      </div>
+      <ul class="episode-list" id="episodeList">
+        <!-- Injected via JS -->
+      </ul>
+    </aside>
+
+    <!-- Center Stage: Subtitles Viewport -->
+    <main class="stage-main">
+      <div class="stage-header">
+        <div class="current-meta">
+          <h3 id="currentEpTitle">第00期 全册导读</h3>
+          <p id="currentEpEnTitle">Episode 00: A Guide to the Whole Volume</p>
+        </div>
+
+        <div class="view-toggles">
+          <button class="mode-btn active" data-mode="both">🌐 双语对照</button>
+          <button class="mode-btn" data-mode="zh">🇨🇳 仅中文</button>
+          <button class="mode-btn" data-mode="en">🇺🇸 仅英文</button>
+        </div>
+      </div>
+
+      <div class="subtitles-viewport" id="subtitlesContainer">
+        <!-- Subtitles Injected via JS -->
+      </div>
+    </main>
+  </div>
+
+  <!-- Bottom Player Dock -->
+  <footer class="player-dock">
+    <div class="timeline-container">
+      <span class="time-lbl" id="curTimeText">00:00</span>
+      <div class="progress-track" id="progressTrack">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <span class="time-lbl" id="totalTimeText">00:00</span>
+    </div>
+
+    <div class="controls-row">
+      <!-- Audio Track Language Toggle -->
+      <div class="track-toggle-grp">
+        <span style="font-size: 11px; color: var(--text-dim); margin-right: 4px;">音轨声道:</span>
+        <button class="track-btn active" id="btnTrackZh">🇨🇳 中文原声</button>
+        <button class="track-btn" id="btnTrackEn">🇺🇸 English Track</button>
+      </div>
+
+      <!-- Main Play / Pause Controls -->
+      <div class="main-btns">
+        <button class="ctrl-btn" id="btnPrev" title="上一集">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
+        </button>
+        <button class="ctrl-btn btn-play-hero" id="btnPlay" title="播放 / 暂停">
+          <svg width="22" height="22" fill="currentColor" id="playIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <button class="ctrl-btn" id="btnNext" title="下一集">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="m6 18 8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+        </button>
+      </div>
+
+      <!-- Playback Speed & Volume -->
+      <div class="playback-opts">
+        <select class="speed-select" id="speedSelect">
+          <option value="0.8">0.8x</option>
+          <option value="1.0" selected>1.0x</option>
+          <option value="1.25">1.25x</option>
+          <option value="1.5">1.5x</option>
+          <option value="2.0">2.0x</option>
+        </select>
+        <input type="range" class="vol-slider" id="volSlider" min="0" max="1" step="0.05" value="1" title="音量调节">
+      </div>
+    </div>
+  </footer>
+
+  <audio id="audioEl" preload="auto"></audio>
+
+  <script>
+    // State management
+    const state = {
+      episodes: window.EPISODES_DATA || [],
+      currentEpIndex: 0,
+      lang: 'zh', // 'zh' or 'en'
+      mode: 'both', // 'both', 'zh', 'en'
+      isPlaying: false,
+      currentTime: 0,
+      duration: 0,
+      speechSynthActive: false
+    };
+
+    const audioEl = document.getElementById('audioEl');
+    const episodeListEl = document.getElementById('episodeList');
+    const subtitlesContainer = document.getElementById('subtitlesContainer');
+    const currentEpTitle = document.getElementById('currentEpTitle');
+    const currentEpEnTitle = document.getElementById('currentEpEnTitle');
+    const curTimeText = document.getElementById('curTimeText');
+    const totalTimeText = document.getElementById('totalTimeText');
+    const progressTrack = document.getElementById('progressTrack');
+    const progressFill = document.getElementById('progressFill');
+    const btnPlay = document.getElementById('btnPlay');
+    const playIcon = document.getElementById('playIcon');
+    const btnPrev = document.getElementById('btnPrev');
+    const btnNext = document.getElementById('btnNext');
+    const btnTrackZh = document.getElementById('btnTrackZh');
+    const btnTrackEn = document.getElementById('btnTrackEn');
+    const speedSelect = document.getElementById('speedSelect');
+    const volSlider = document.getElementById('volSlider');
+    const btnToggleSidebar = document.getElementById('btnToggleSidebar');
+    const sidebar = document.getElementById('sidebar');
+
+    function formatTime(secs) {
+      if (isNaN(secs) || secs < 0) return '00:00';
+      const m = Math.floor(secs / 60);
+      const s = Math.floor(secs % 60);
+      return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    }
+
+    // Initialize episode list
+    function renderEpisodeList() {
+      episodeListEl.innerHTML = '';
+      state.episodes.forEach((ep, idx) => {
+        const li = document.createElement('li');
+        li.className = `ep-item ${idx === state.currentEpIndex ? 'active' : ''}`;
+        li.onclick = () => loadEpisode(idx);
+        li.innerHTML = `
+          <div class="ep-badge-row">
+            <span class="ep-id">EP.${ep.id}</span>
+            <span class="ep-duration">${formatTime(ep.durationZh || 360)}</span>
+          </div>
+          <div class="ep-title-zh">${ep.title}</div>
+          <div class="ep-title-en">${ep.enTitle || ''}</div>
+        `;
+        episodeListEl.appendChild(li);
+      });
+    }
+
+    // Load episode
+    function loadEpisode(index, autoPlay = false) {
+      state.currentEpIndex = index;
+      const ep = state.episodes[index];
+      if (!ep) return;
+
+      currentEpTitle.textContent = ep.title;
+      currentEpEnTitle.textContent = ep.enTitle;
+
+      // Update sidebar active class
+      document.querySelectorAll('.ep-item').forEach((item, idx) => {
+        item.classList.toggle('active', idx === index);
+      });
+
+      // Render subtitles
+      renderSubtitles(ep);
+
+      // Setup audio source
+      const audioSrc = state.lang === 'zh' ? (ep.audioZh || '') : (ep.audioEn || '');
+      audioEl.src = audioSrc;
+      audioEl.load();
+
+      audioEl.onloadedmetadata = () => {
+        state.duration = audioEl.duration || (state.lang === 'zh' ? ep.durationZh : ep.durationEn) || 300;
+        totalTimeText.textContent = formatTime(state.duration);
+        if (autoPlay) playAudio();
+      };
+
+      audioEl.onerror = () => {
+        // Fallback duration if audio file missing
+        state.duration = (state.lang === 'zh' ? ep.durationZh : ep.durationEn) || 300;
+        totalTimeText.textContent = formatTime(state.duration);
+        console.warn('Audio file not found or fallback enabled. Web speech synthesis / timer simulation active.');
+      };
+
+      // Reset progress
+      state.currentTime = 0;
+      updateTimelineUI(0);
+    }
+
+    // Render Subtitles
+    function renderSubtitles(ep) {
+      subtitlesContainer.innerHTML = '';
+      if (!ep.cues || ep.cues.length === 0) {
+        subtitlesContainer.innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-dim);">本章节暂无同步字幕数据</div>';
+        return;
+      }
+
+      ep.cues.forEach((cue, cIdx) => {
+        const div = document.createElement('div');
+        div.className = 'cue-group';
+        div.id = `cue-${cIdx}`;
+        div.dataset.start = cue.start;
+        div.dataset.end = cue.end;
+
+        div.onclick = () => {
+          seekTo(cue.start);
+          if (!state.isPlaying) playAudio();
+        };
+
+        const secTag = cue.secZh ? `<div class="cue-tag">⚡ ${cue.secZh} <span style="opacity:0.6; font-size:10px;">${formatTime(cue.start)}</span></div>` : '';
+        const enHtml = cue.en ? `<div class="cue-en">${cue.en}</div>` : '';
+        const zhHtml = cue.zh ? `<div class="cue-zh">${cue.zh}</div>` : '';
+
+        div.innerHTML = `${secTag}${enHtml}${zhHtml}`;
+        subtitlesContainer.appendChild(div);
+      });
+    }
+
+    // Subtitle synchronizer & auto-scroll
+    let currentActiveCue = -1;
+    function syncSubtitles(time) {
+      const ep = state.episodes[state.currentEpIndex];
+      if (!ep || !ep.cues) return;
+
+      let activeIdx = -1;
+      for (let i = 0; i < ep.cues.length; i++) {
+        if (time >= ep.cues[i].start && time <= ep.cues[i].end) {
+          activeIdx = i;
+          break;
+        }
+      }
+
+      if (activeIdx !== currentActiveCue) {
+        currentActiveCue = activeIdx;
+        document.querySelectorAll('.cue-group').forEach((el, idx) => {
+          if (idx === activeIdx) {
+            el.classList.add('active');
+            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          } else {
+            el.classList.remove('active');
+          }
+        });
+      }
+    }
+
+    function updateTimelineUI(time) {
+      curTimeText.textContent = formatTime(time);
+      const ratio = state.duration > 0 ? (time / state.duration) : 0;
+      progressFill.style.width = `${Math.min(100, Math.max(0, ratio * 100))}%`;
+    }
+
+    // Playback functions
+    let timerFallback = null;
+    function playAudio() {
+      state.isPlaying = true;
+      playIcon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+      
+      const playPromise = audioEl.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          // Timer-based speech / simulation fallback
+          startFallbackTimer();
+        });
+      }
+    }
+
+    function pauseAudio() {
+      state.isPlaying = false;
+      playIcon.innerHTML = '<path d="M8 5v14l11-7z"/>';
+      audioEl.pause();
+      if (timerFallback) clearInterval(timerFallback);
+    }
+
+    function togglePlay() {
+      if (state.isPlaying) pauseAudio();
+      else playAudio();
+    }
+
+    function seekTo(seconds) {
+      state.currentTime = seconds;
+      audioEl.currentTime = seconds;
+      updateTimelineUI(seconds);
+      syncSubtitles(seconds);
+    }
+
+    function startFallbackTimer() {
+      if (timerFallback) clearInterval(timerFallback);
+      timerFallback = setInterval(() => {
+        if (!state.isPlaying) return;
+        state.currentTime += 0.25 * audioEl.playbackRate;
+        if (state.currentTime >= state.duration) {
+          pauseAudio();
+          // Auto advance next
+          if (state.currentEpIndex < state.episodes.length - 1) {
+            loadEpisode(state.currentEpIndex + 1, true);
+          }
+          return;
+        }
+        updateTimelineUI(state.currentTime);
+        syncSubtitles(state.currentTime);
+      }, 250);
+    }
+
+    // Event Listeners
+    audioEl.ontimeupdate = () => {
+      state.currentTime = audioEl.currentTime;
+      updateTimelineUI(state.currentTime);
+      syncSubtitles(state.currentTime);
+    };
+
+    audioEl.onended = () => {
+      pauseAudio();
+      if (state.currentEpIndex < state.episodes.length - 1) {
+        loadEpisode(state.currentEpIndex + 1, true);
+      }
+    };
+
+    btnPlay.onclick = togglePlay;
+
+    btnPrev.onclick = () => {
+      if (state.currentEpIndex > 0) {
+        loadEpisode(state.currentEpIndex - 1, state.isPlaying);
+      }
+    };
+
+    btnNext.onclick = () => {
+      if (state.currentEpIndex < state.episodes.length - 1) {
+        loadEpisode(state.currentEpIndex + 1, state.isPlaying);
+      }
+    };
+
+    // Track Language Toggle
+    btnTrackZh.onclick = () => {
+      if (state.lang === 'zh') return;
+      state.lang = 'zh';
+      btnTrackZh.classList.add('active');
+      btnTrackEn.classList.remove('active');
+      const savedTime = state.currentTime;
+      const wasPlaying = state.isPlaying;
+      loadEpisode(state.currentEpIndex, false);
+      seekTo(savedTime);
+      if (wasPlaying) playAudio();
+    };
+
+    btnTrackEn.onclick = () => {
+      if (state.lang === 'en') return;
+      state.lang = 'en';
+      btnTrackEn.classList.add('active');
+      btnTrackZh.classList.remove('active');
+      const savedTime = state.currentTime;
+      const wasPlaying = state.isPlaying;
+      loadEpisode(state.currentEpIndex, false);
+      seekTo(savedTime);
+      if (wasPlaying) playAudio();
+    };
+
+    // Subtitle View Mode
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+      btn.onclick = () => {
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const mode = btn.dataset.mode;
+        state.mode = mode;
+        subtitlesContainer.className = 'subtitles-viewport';
+        if (mode === 'zh') subtitlesContainer.classList.add('hide-en');
+        if (mode === 'en') subtitlesContainer.classList.add('hide-zh');
+      };
+    });
+
+    // Speed & Volume
+    speedSelect.onchange = (e) => {
+      audioEl.playbackRate = parseFloat(e.target.value);
+    };
+
+    volSlider.oninput = (e) => {
+      audioEl.volume = parseFloat(e.target.value);
+    };
+
+    // Seek via Progress Track
+    progressTrack.onclick = (e) => {
+      const rect = progressTrack.getBoundingClientRect();
+      const clickRatio = (e.clientX - rect.left) / rect.width;
+      const targetSec = clickRatio * state.duration;
+      seekTo(targetSec);
+    };
+
+    // Mobile sidebar toggle
+    btnToggleSidebar.onclick = () => {
+      sidebar.classList.toggle('open');
+    };
+
+    // URL Query Parameter ?ep=01
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetEp = urlParams.get('ep');
+    let initIdx = 0;
+    if (targetEp) {
+      const foundIdx = state.episodes.findIndex(e => e.id === targetEp || e.id === String(targetEp).padStart(2, '0'));
+      if (foundIdx !== -1) initIdx = foundIdx;
+    }
+
+    // Boot
+    renderEpisodeList();
+    loadEpisode(initIdx, false);
+  </script>
+</body>
+</html>
