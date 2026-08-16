@@ -140,8 +140,8 @@ episodes_meta = [
         "image_path": "./设计资产/插图/第04期-四十封求职信.png",
         "prev_link": "episode-03.html",
         "prev_label": "← 上一期：第 03 期 从黄浦江到查尔斯河",
-        "next_link": "index.html",
-        "next_label": "回到全册总目录 (第 05 期 敬请期待) →",
+        "next_link": "episode-05.html",
+        "next_label": "下一期：第 05 期 隔岸观火的叛乱 →",
         "vocab": [
             ("Setback", "/ˈset.bæk/", "挫折，逆境", "A reversal or check in progress; the failure of MIT doctoral qualifying exams."),
             ("Semiconductor", "/ˌsem.i.kənˈdʌk.tər/", "半导体", "A solid substance with conductivity between insulator and conductor, altering world history."),
@@ -157,6 +157,524 @@ episodes_meta = [
         ],
         "quote_zh": "被拒绝不是终点，是命运在给你指另一条路——通向半导体的黄金时代。",
         "quote_en": "Rejection is not the end; it is destiny pointing to another road—leading toward the golden age of semiconductors."
+    },
+    {
+        "id": "05",
+        "file_name": "episode-05.html",
+        "folder": "第05期-隔岸观火的叛乱",
+        "act_tag": "ACT 05 · 1957–1968 · 达拉斯与硅谷",
+        "title_zh": "第 05 期：隔岸观火的叛乱",
+        "title_en": "Episode 05: The Rebellion Observed from Afar",
+        "time_loc": "1957–1968 · 达拉斯与硅谷",
+        "tagline_zh": "硅谷的起点不是技术，是八个人敢于离开的勇气。他隔着半个美国看这场叛乱，后来成了他自己的剧本。",
+        "tagline_en": "Silicon Valley's genesis was not technology, but the courage of eight to walk away. The rebellion he watched from afar would become his own playbook.",
+        "duration": "20:30",
+        "pills": [
+            ("历史坐标", "叛逆八帮 · 仙童半导体 · 创投起源 · 英特尔诞生"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第05期-隔岸观火的叛乱.png",
+        "prev_link": "episode-04.html",
+        "prev_label": "← 上一期：第 04 期 四十封求职信",
+        "next_link": "episode-06.html",
+        "next_label": "下一期：第 06 期 德仪的太空竞赛岁月 →",
+        "vocab": [
+            ("Traitorous Eight", "/ˈtreɪtərəs eɪt/", "叛逆八帮", "The eight engineers who left Shockley Semiconductor in 1957 to found Fairchild Semiconductor."),
+            ("Venture Capital", "/ˈven.tʃər ˈkæp.ɪ.təl/", "风险投资", "Capital invested in a project in which there is a substantial element of risk, pioneered by Arthur Rock."),
+            ("Equity", "/ˈek.wɪ.ti/", "股权，资产净值", "The value of the shares issued by a company, central to Silicon Valley's incentive revolution."),
+            ("Incubation", "/ˌɪŋ.kjʊˈbeɪ.ʃən/", "孵化，培育", "The process of nurturing and developing early-stage technology enterprises.")
+        ],
+        "timeline": [
+            ("1957 · 秋", "诺伊斯、摩尔等八名工程师离开肖克利实验室，在阿瑟·洛克牵线下创立仙童半导体。"),
+            ("1958 · 5月", "张忠谋加入德州仪器达拉斯总部，将IBM委托产线良率从近零拉升至20%以上。"),
+            ("1960年代初", "仙童发明硅平面工艺，成为硅谷半导体的「黄埔军校」。"),
+            ("1968 · 7月", "诺伊斯与摩尔脱离仙童创立英特尔（Intel），阿瑟·洛克担任董事长，开启股权激励革命。"),
+            ("1972", "张忠谋升任TI集团副总裁，在达拉斯隔空与硅谷英特尔展开长达十余年的巅峰正面对决。")
+        ],
+        "quote_zh": "硅谷的起点不是技术，是八个人敢于离开的勇气；他隔着半个美国看完的那场叛乱，后来成了他自己的剧本。",
+        "quote_en": "The genesis of Silicon Valley was not technology, but the courage of eight individuals to walk away; the rebellion he watched from halfway across America became his own playbook."
+    },
+    {
+        "id": "06",
+        "file_name": "episode-06.html",
+        "folder": "第06期-德仪的太空竞赛岁月",
+        "act_tag": "ACT 06 · 1958–1964 · 达拉斯至斯坦福",
+        "title_zh": "第 06 期：德仪的太空竞赛岁月",
+        "title_en": "Episode 06: TI's Space Race Years",
+        "time_loc": "1958–1964 · 达拉斯至斯坦福",
+        "tagline_zh": "他在一家赌上太空竞赛的公司里，学会了什么叫技术的信仰；真正的强者，敢于在上升期把自己清零。",
+        "tagline_en": "At a company wagering on the space race, he learned true technological faith; the truly formidable dare to reset themselves at their peak.",
+        "duration": "19:45",
+        "pills": [
+            ("历史坐标", "集成电路发明 · NASA阿波罗登月 · 斯坦福电机博士 · 归零再出发"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第06期-德仪的太空竞赛岁月.png",
+        "prev_link": "episode-05.html",
+        "prev_label": "← 上一期：第 05 期 隔岸观火的叛乱",
+        "next_link": "episode-07.html",
+        "next_label": "下一期：第 07 期 半导体之巅的十年 →",
+        "vocab": [
+            ("Integrated Circuit", "/ˈɪn.tɪ.ɡreɪ.tɪd ˈsɜː.kɪt/", "集成电路，芯片", "An electronic circuit formed on a small piece of semiconducting material, invented in 1958."),
+            ("Monolithic", "/ˌmɒn.əˈlɪθ.ɪk/", "单片集成的", "Formed of a single large block or crystal; integrated on a single semiconductor substrate."),
+            ("Space Race", "/ˈspeɪs reɪs/", "太空竞赛", "The 20th-century competition between cold war rivals for dominance in spaceflight capability."),
+            ("Zero-Base", "/ˈzɪə.rəʊ beɪs/", "归零重置", "Starting from an initial point of zero rather than building on previous momentum.")
+        ],
+        "timeline": [
+            ("1958 · 9月12日", "德州仪器新员工杰克·基尔比（Jack Kilby）在实验室成功演示人类首块集成电路。"),
+            ("1961 · 5月", "肯尼迪总统宣布阿波罗登月计划；TI集成电路进入民兵导弹与阿波罗导航计算机。"),
+            ("1961 · 秋", "张忠谋获TI全薪全额资助，赴斯坦福大学攻读电机工程博士学位。"),
+            ("1964 · 初", "以极高效率完成斯坦福博士论文，重返TI达拉斯总部，随即被任命为锗晶体管部总经理。"),
+            ("1964–1965", "以深厚半导体物理功底重组生产线，德仪确立全球半导体霸权。")
+        ],
+        "quote_zh": "他在一家赌上太空竞赛的公司里，学会了什么叫技术的信仰；真正的强者，敢于在上升期把自己清零。",
+        "quote_en": "At a company that bet its future on the space race, he learned faith in technology; the truly formidable dare to reset themselves to zero at the height of their ascent."
+    },
+    {
+        "id": "07",
+        "file_name": "episode-07.html",
+        "folder": "第07期-半导体之巅的十年",
+        "act_tag": "ACT 07 · 1964–1978 · 达拉斯德州仪器",
+        "title_zh": "第 07 期：半导体之巅的十年",
+        "title_en": "Episode 07: A Decade at the Semiconductor Zenith",
+        "time_loc": "1964–1978 · 达拉斯德州仪器",
+        "tagline_zh": "他赢下了几乎所有战役，却没赢下德仪内部的权力棋局。最难的仗，往往不在市场上，而在会议室里。",
+        "tagline_en": "He won almost every battle, yet lost the corporate power game inside TI. The hardest fights are rarely won in the marketplace, but in the boardroom.",
+        "duration": "20:25",
+        "pills": [
+            ("历史坐标", "学习曲线定价 · TI与Intel对垒 · 石油危机 · 权力棋局"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第07期-半导体之巅的十年.png",
+        "prev_link": "episode-06.html",
+        "prev_label": "← 上一期：第 06 期 德仪的太空竞赛岁月",
+        "next_link": "episode-08.html",
+        "next_label": "下一期：第 08 期 离开德州与受邀回台 →",
+        "vocab": [
+            ("Learning Curve", "/ˈlɜː.nɪŋ kɜːv/", "学习曲线，经验曲线", "The rate of a person's progress in gaining experience or a firm's reduction in costs as volume scales."),
+            ("Microprocessor", "/ˌmaɪ.krəʊˈprəʊ.ses.ər/", "微处理器，CPU", "An integrated circuit that contains all the functions of a central processing unit of a computer."),
+            ("Stagflation", "/stæɡˈfleɪ.ʃən/", "滞胀（停滞性通货膨胀）", "Persistent high inflation combined with high unemployment and stagnant demand."),
+            ("Meritocracy", "/ˌmer.ɪˈtɒk.rə.si/", "唯才是用制度", "A government or the holding of power by people selected on the basis of their ability.")
+        ],
+        "timeline": [
+            ("1967", "升任TI副总裁兼集成电路部总经理，首创运用BCG学习曲线进行每季度主动降价。"),
+            ("1971–1972", "英特尔发布4004微处理器；张忠谋升任TI集团副总裁兼半导体集团总经理，统领全球最大芯片业务。"),
+            ("1973", "第四次中东战争爆发与第一次石油危机，美国制造业陷入十年滞胀。"),
+            ("1977–1978", "因与公司最高层战略分歧，主动请求调任消费者产品集团，推出经典语音玩具Speak & Spell。"),
+            ("1981", "在TI内部权力斗争中被转任质量与生产力总监，陷入职业生涯至暗低谷。")
+        ],
+        "quote_zh": "他赢下了几乎所有战役，却没赢下德州仪器内部的权力棋局；最难的仗，往往不在市场上，而在会议室里。",
+        "quote_en": "He won almost every battle in the market, but not the political chess match within TI; the hardest struggles are rarely fought in the marketplace, but in conference rooms."
+    },
+    {
+        "id": "08",
+        "file_name": "episode-08.html",
+        "folder": "第08期-离开德州与受邀回台",
+        "act_tag": "ACT 08 · 1978–1987 · 达拉斯·纽约至新竹",
+        "title_zh": "第 08 期：离开德州与受邀回台",
+        "title_en": "Episode 08: Leaving Texas & The Homeland Calling",
+        "time_loc": "1978–1987 · 达拉斯·纽约至新竹",
+        "tagline_zh": "离开一个错误的位置，是人生最重要的一步棋；归乡者的赌注——他押上的不是自己的余生，是一个产业的未来。",
+        "tagline_en": "Leaving the wrong position is often life's most crucial move; the returnee's gamble—what he wagered was not merely the rest of his life, but the destiny of an entire industry.",
+        "duration": "20:10",
+        "pills": [
+            ("历史坐标", "辞职德仪 · 通用器材 · 李国鼎三顾 · 工研院 · 台积电诞生"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第08期-离开德州与受邀回台.png",
+        "prev_link": "episode-07.html",
+        "prev_label": "← 上一期：第 07 期 半导体之巅的十年",
+        "next_link": "episode-09.html",
+        "next_label": "下一期：第 09 期 纯代工的革命 →",
+        "vocab": [
+            ("Disillusionment", "/ˌdɪs.ɪˈluː.ʒən.mənt/", "幻灭，醒悟", "A feeling of disappointment resulting from the discovery that something is not as good as believed."),
+            ("Foundry", "/ˈfaʊn.dri/", "晶圆代工厂", "A factory where microchips are manufactured for other companies."),
+            ("Repatriation", "/ˌriː.pæt.riˈeɪ.ʃən/", "归国，重返故土", "The return of someone to their own country or cultural homeland."),
+            ("Pure-play", "/pjʊər pleɪ/", "专业专注的，纯粹经营的", "A company that focuses solely on one particular type of product or service.")
+        ],
+        "timeline": [
+            ("1983 · 底", "辞去效力25年的德州仪器职位，彻底切断与达拉斯老东家的关系。"),
+            ("1984–1985", "出任纽约通用器材（General Instrument）总裁兼COO，一年后因理念不合离任。"),
+            ("1985 · 夏", "应李国鼎、徐贤修、俞国华之邀赴台，出任工业技术研究院（ITRI）院长。"),
+            ("1986 · 春-冬", "针对台湾半导体无设计强项但制造良率高的现状，构思出纯晶圆代工模式并全力筹备。"),
+            ("1987 · 2月21日", "台湾积体电路制造股份有限公司（TSMC）在新竹科学园区正式创立，张忠谋任董事长。")
+        ],
+        "quote_zh": "有时候，离开一个错误的位置，是人生最重要的一步棋；归乡者的赌注——他押上的不是自己的余生，是一个产业的未来。",
+        "quote_en": "Sometimes, leaving the wrong position is the most decisive move in life; the returnee's wager—he bet not just the remainder of his life, but the future of an entire industry."
+    },
+    {
+        "id": "09",
+        "file_name": "episode-09.html",
+        "folder": "第09期-纯代工的革命",
+        "act_tag": "ACT 09 · 1987–1995 · 新竹科学园区",
+        "title_zh": "第 09 期：纯代工的革命",
+        "title_en": "Episode 09: The Pure Foundry Revolution",
+        "time_loc": "1987–1995 · 新竹科学园区",
+        "tagline_zh": "他不造自己的芯片，只造别人的芯片，却改写了整个行业。颠覆者不做主角，做平台，让所有人成为主角。",
+        "tagline_en": "He made no chips of his own—only fabricating for others, yet revolutionized the global industry. The true disruptor takes no center stage, but builds the platform where everyone else becomes the protagonist.",
+        "duration": "19:50",
+        "pills": [
+            ("历史坐标", "Fab 1改造 · 纯代工模式 · Fabless无厂浪潮 · 破10亿美元营收"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第09期-纯代工的革命.png",
+        "prev_link": "episode-08.html",
+        "prev_label": "← 上一期：第 08 期 离开德州与受邀回台",
+        "next_link": "episode-10.html",
+        "next_label": "下一期：第 10 期 从台湾到世界 →",
+        "vocab": [
+            ("Fabless", "/ˈfæb.ləs/", "无晶圆厂芯片设计公司", "A company that designs microchips but outsources their actual fabrication to a foundry."),
+            ("Yield Rate", "/jiːld reɪt/", "良率，合格品产出率", "The percentage of correctly operating chips on a manufactured semiconductor wafer."),
+            ("Ecosystem", "/ˈiː.kəʊˌsɪs.təm/", "商业生态系统", "A complex network of interconnected organizations including suppliers, customers, and partners."),
+            ("Disruption", "/dɪsˈrʌp.ʃən/", "颠覆性创新", "Disturbance or radical change in an industry caused by new business models.")
+        ],
+        "timeline": [
+            ("1987", "台积电租用工研院旧产线（Fab 1）上线运营，庄严确立「不与客户竞争」铁律。"),
+            ("1988–1990", "英特尔安迪·葛洛夫率队实地认证，促使台积电通过200多项品管严苛考验；建立全资Fab 2。"),
+            ("1993", "斥巨资投建台湾首座8吋晶圆厂（Fab 3），良率超越美日巨头。"),
+            ("1994 · 9月5日", "台积电在台湾证券交易所正式挂牌上市（股票代号 2330）。"),
+            ("1995", "年营收首度突破10亿美元大关，高通、英伟达等全球Fabless巨头生态成型。")
+        ],
+        "quote_zh": "颠覆者不做主角，做平台——让所有人成为主角；他不造自己的芯片，只造别人的芯片，却改写了整个行业。",
+        "quote_en": "Disruptors do not seek the spotlight; they build the platform, allowing everyone else to become the protagonist."
+    },
+    {
+        "id": "10",
+        "file_name": "episode-10.html",
+        "folder": "第10期-从台湾到世界",
+        "act_tag": "ACT 10 · 1995–1998 · 新竹至纽约",
+        "title_zh": "第 10 期：从台湾到世界",
+        "title_en": "Episode 10: From Taiwan to the World",
+        "time_loc": "1995–1998 · 新竹至纽约",
+        "tagline_zh": "当风暴来时，扎实的企业反而被看见。亚洲金融风暴里，一家台湾公司站上了世界舞台。",
+        "tagline_en": "When the storm hits, solid enterprises stand out all the clearer. Amidst the Asian Financial Crisis, a Taiwanese company rose to the world stage.",
+        "duration": "18:59",
+        "pills": [
+            ("历史坐标", "亚洲金融风暴 · 纽交所敲钟 · 商业周刊25最佳经理人 · 自传上册出版"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第10期-从台湾到世界.png",
+        "prev_link": "episode-09.html",
+        "prev_label": "← 上一期：第 09 期 纯代工的革命",
+        "next_link": "episode-11.html",
+        "next_label": "下一期：第 11 期 记忆体的诱惑 →",
+        "vocab": [
+            ("Depreciation", "/dɪˌpriː.ʃiˈeɪ.ʃən/", "贬值，折旧", "A reduction in the value of an asset or national currency over time."),
+            ("ADR", "/ˌeɪ.diːˈɑːr/", "美国存托凭证", "American Depositary Receipt, allowing US investors to trade foreign company shares."),
+            ("Tenacity", "/təˈnæs.ə.ti/", "坚忍，沉着定力", "The quality or fact of being able to grip something firmly; determination in crisis."),
+            ("Benchmark", "/ˈbentʃ.mɑːk/", "基准，行业标杆", "A standard or point of reference against which things may be compared or assessed.")
+        ],
+        "timeline": [
+            ("1997 · 7月", "泰国放弃固定汇率引发泰铢暴跌，亚洲金融风暴全面席卷东亚经济体。"),
+            ("1997 · 10月8日", "台积电赴纽约证券交易所挂牌发行ADR，成为首家在华尔街上市的中国台湾企业。"),
+            ("1998 · 1月", "美国《商业周刊》（BusinessWeek）评选张忠谋为全球年度最佳25位经理人之一。"),
+            ("1998 · 秋", "《张忠谋自传》上册出版，全景回顾1931–1964年传奇求学与德仪岁月。"),
+            ("1998 · 底", "台积电在全球代工市占率突破50%，成为世界半导体基础设施中不可或缺的基石。")
+        ],
+        "quote_zh": "当风暴来时，扎实的企业反而被看见；在动荡中保持定力，世界自会为你让路。",
+        "quote_en": "When the storm strikes, solid enterprises are seen most clearly; retain your composure in upheaval, and the world will make way."
+    },
+    {
+        "id": "11",
+        "file_name": "episode-11.html",
+        "folder": "第11期-记忆体的诱惑",
+        "act_tag": "ACT 11 · 1998–2000 · 新竹至首尔",
+        "title_zh": "第 11 期：记忆体的诱惑",
+        "title_en": "Episode 11: The Temptation of Memory",
+        "time_loc": "1998–2000 · 新竹至首尔",
+        "tagline_zh": "诱惑之所以是诱惑，是因为它长得像机会。真正的强者，是在狂欢里还能听见周期钟声的人。",
+        "tagline_en": "Temptation is seductive because it masquerades as opportunity. The truly formidable are those who can still hear the tolling bell of cycles amidst the revelry.",
+        "duration": "21:18",
+        "pills": [
+            ("历史坐标", "世界先进 · DRAM价格雪崩 · 三星记忆体霸权 · 德碁世大购并"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第11期-记忆体的诱惑.png",
+        "prev_link": "episode-10.html",
+        "prev_label": "← 上一期：第 10 期 从台湾到世界",
+        "next_link": "episode-12.html",
+        "next_label": "下一期：第 12 期 逆周期的定力 →",
+        "vocab": [
+            ("Commodity", "/kəˈmɒd.ə.ti/", "大宗标准商品", "A raw material or standard product that can be bought and sold with little qualitative difference."),
+            ("DRAM", "/ˈdiː.ræm/", "动态随机存取记忆体", "Dynamic Random-Access Memory, a type of semiconductor memory widely used in computers."),
+            ("Boom-Bust", "/buːm bʌst/", "繁荣与萧条交替的周期", "A process of economic expansion and contraction that occurs repeatedly."),
+            ("Divestiture", "/daɪˈves.tɪ.tʃər/", "剥离，断舍离退出", "The action or process of selling off subsidiary business interests or investments.")
+        ],
+        "timeline": [
+            ("1994", "工研院次微米计划衍生「世界先进」（VIS），台积电作为唯一投标人主导成立。"),
+            ("1996–1997", "DRAM价格雪崩跌去超80%，全球记忆体厂商陷入巨额亏损深渊。"),
+            ("1998", "三星李健熙早餐会展现记忆体规模杀伤力；张忠谋坚定反思记忆体业务重创教训。"),
+            ("1999–2000", "台积电购并德碁半导体与世大积体电路，蔡力行果断提议将产线全数转型代工。"),
+            ("2000 · 7月", "台积电创下1662亿新台币历史新高营收，但在狂欢之夜敏锐警惕周期下行乌云。")
+        ],
+        "quote_zh": "诱惑之所以是诱惑，是因为它长得像机会；真正的强者，是在狂欢里还能听见周期钟声的人。",
+        "quote_en": "Temptation is seductive because it masquerades as opportunity; the truly formidable are those who hear the bell of cycle inflection even at the height of celebration."
+    },
+    {
+        "id": "12",
+        "file_name": "episode-12.html",
+        "folder": "第12期-逆周期的定力",
+        "act_tag": "ACT 12 · 2001–2003 · 互联网泡沫破裂",
+        "title_zh": "第 12 期：逆周期的定力",
+        "title_en": "Episode 12: The Poise of Counter-Cyclicality",
+        "time_loc": "2001–2003 · 互联网泡沫破裂",
+        "tagline_zh": "周期不是用来恐惧的，是用来踩节奏的；定力，是一个领导者最昂贵的资产。",
+        "tagline_en": "Economic cycles are not meant to be feared, but to set your rhythm; steadfast poise is a leader's most priceless asset.",
+        "duration": "18:17",
+        "pills": [
+            ("历史坐标", "半导体史上最惨衰退 · 直线投资理念 · 绝不裁员承诺 · 0.13微米铜制程"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第12期-逆周期的定力.png",
+        "prev_link": "episode-11.html",
+        "prev_label": "← 上一期：第 11 期 记忆体的诱惑",
+        "next_link": "episode-13.html",
+        "next_label": "下一期：第 13 期 交棒之痛 →",
+        "vocab": [
+            ("Counter-Cyclical", "/ˌkaʊn.təˈsɪk.lɪ.kəl/", "逆周期的", "Moving in the opposite direction of the overall economic cycle or industry downturn."),
+            ("Downturn", "/ˈdaʊn.tɜːn/", "经济低迷期，衰退", "A decline in economic, business, or other activity."),
+            ("Straight-Line", "/streɪt laɪn/", "直线平准投资法", "Maintaining constant, measured capacity expansion regardless of short-term quarterly swings."),
+            ("Retention", "/rɪˈten.ʃən/", "人才留存，维系", "The continued possession, use, or control of key skilled engineering personnel.")
+        ],
+        "timeline": [
+            ("2000 · 末", "全球互联网泡沫破灭，半导体行业迎来1964年以来第七次、也是史上最惨烈衰退。"),
+            ("2001", "全球芯片市场暴跌32%，各大半导体厂商相继大规模裁员关厂。"),
+            ("2001–2002", "张忠谋在台积电全面贯彻「直线投资」理念：不裁员、不缩减核心研发，逆势投资建厂。"),
+            ("2003 · 初", "台积电率先突破0.13微米铜制程技术难关，良率大幅碾压主要竞争对手联电。"),
+            ("2003 · 底", "半导体市场全面复苏，台积电以充沛产能和领先工艺一举夺取全球代工过半份额。")
+        ],
+        "quote_zh": "周期不是用来恐惧的，是用来踩节奏的；定力，是一个领导者最昂贵的资产。",
+        "quote_en": "Economic cycles are not meant to be feared, but to calibrate your cadence; steadfast poise is a leader's most expensive asset."
+    },
+    {
+        "id": "13",
+        "file_name": "episode-13.html",
+        "folder": "第13期-交棒之痛",
+        "act_tag": "ACT 13 · 2003–2009 · 继承人与金融海啸",
+        "title_zh": "第 13 期：交棒之痛",
+        "title_en": "Episode 13: The Pain of Succession",
+        "time_loc": "2003–2009 · 继承人与金融海啸",
+        "tagline_zh": "把权力交出去需要勇气，把它拿回来需要更大的勇气——而两次，都是为了同一家公司。",
+        "tagline_en": "Surrendering power requires courage; taking it back requires even greater resolve—and both times, it was done for the very same enterprise.",
+        "duration": "19:46",
+        "pills": [
+            ("历史坐标", "交棒蔡力行 · 2008金融海啸 · 840人裁员风波 · 78岁重任CEO"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第13期-交棒之痛.png",
+        "prev_link": "episode-12.html",
+        "prev_label": "← 上一期：第 12 期 逆周期的定力",
+        "next_link": "episode-14.html",
+        "next_label": "下一期：第 14 期 绚烂年代 →",
+        "vocab": [
+            ("Succession", "/səkˈseʃ.ən/", "接班传承，继任", "The action or process of inheriting a title, office, or leadership position."),
+            ("Stewardship", "/ˈstjuː.əd.ʃɪp/", "掌舵责任，管家职守", "The job of supervising or taking care of something, such as an organization or company culture."),
+            ("Severance", "/ˈsev.ər.əns/", "遣散费，解雇补偿", "The state of being separated or pay given upon termination of employment."),
+            ("Reinstatement", "/ˌriː.ɪnˈsteɪt.mənt/", "复职，重新归位", "The action of giving someone back their former position, status, or job.")
+        ],
+        "timeline": [
+            ("2005 · 7月", "74岁的张忠谋卸下CEO职位，正式交棒给战将蔡力行，自己专任董事长。"),
+            ("2008 · 9月", "雷曼兄弟倒闭引爆全球金融海啸，半导体订单遭遇断崖式下滑。"),
+            ("2009 · 1月", "台积电以考核机制变相裁员840人，引发员工抗议与严重企业文化信任危机。"),
+            ("2009 · 5月", "张忠谋与离职员工代表直接对话，承诺全数迎回离职同仁并补足薪资。"),
+            ("2009 · 6月11日", "78岁高龄的张忠谋宣布重新兼任CEO，以铁腕和担当重整台积电军心。")
+        ],
+        "quote_zh": "把权力交出去需要勇气，把它拿回来需要更大的勇气——而两次，都是为了同一家公司。",
+        "quote_en": "Relinquishing power demands courage, but taking it back demands even greater fortitude—and both times, it was done for the selfsame company."
+    },
+    {
+        "id": "14",
+        "file_name": "episode-14.html",
+        "folder": "第14期-绚烂年代",
+        "act_tag": "ACT 14 · 2009–2012 · 78岁重披战袍",
+        "title_zh": "第 14 期：绚烂年代",
+        "title_en": "Episode 14: The Splendid Era",
+        "time_loc": "2009–2012 · 78岁重披战袍",
+        "tagline_zh": "老骥伏枥，志在千里。年龄从不决定一个人还能不能战斗，只决定他敢不敢再上战场。",
+        "tagline_en": "An old steed in the stable still aspires to gallop a thousand miles. Age never dictates whether a warrior can fight—only whether he dares return to the arena.",
+        "duration": "18:23",
+        "pills": [
+            ("历史坐标", "40纳米良率危机 · 黄仁勋书房48小时 · 研发定8% · 28纳米大包圆"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第14期-绚烂年代.png",
+        "prev_link": "episode-13.html",
+        "prev_label": "← 上一期：第 13 期 交棒之痛",
+        "next_link": "episode-15.html",
+        "next_label": "下一期：第 15 期 苹果来敲门 →",
+        "vocab": [
+            ("Resurgence", "/rɪˈsɜː.dʒəns/", "强势复兴，再现辉煌", "An increase or revival after a period of little activity, popularity, or occurrence."),
+            ("R&D Intensity", "/ɑːr en diː ɪnˈten.sə.ti/", "研发强度（营收占比）", "The ratio of research and development expenditure to total business revenue."),
+            ("Capex", "/ˈkæp.eks/", "资本支出", "Capital expenditure, money spent by a business on acquiring or maintaining fixed assets."),
+            ("Wager", "/ˈweɪ.dʒər/", "下注，重磅赌注", "More formal term for bet; a risk taken on a critical outcome.")
+        ],
+        "timeline": [
+            ("2009 · 6月", "回任CEO面对40纳米良率仅20–30%的严重卡壳危机，令刘德音每日直接报告进展。"),
+            ("2009 · 7月15日", "亲赴加州在黄仁勋书房展开披萨长谈，以48小时死线化解上亿美元辉达供货索赔案。"),
+            ("2009 · 秋", "在牛肉面馆亲自说服已退休的蒋尚义重回台积电掌管研发。"),
+            ("2010", "顶住董事会压力将研发支出永久锁定为营收的8%，并将资本支出翻倍至59亿美元。"),
+            ("2011–2012", "台积电28纳米制程大获全胜，独家包揽全球移动芯片市场绝大多数订单。")
+        ],
+        "quote_zh": "老骥伏枥，志在千里；年龄从不决定一个人还能不能战斗，只决定他敢不敢再上战场。",
+        "quote_en": "Age never determines whether one can still wage battle, only whether one possesses the fortitude to step onto the battlefield once more."
+    },
+    {
+        "id": "15",
+        "file_name": "episode-15.html",
+        "folder": "第15期-苹果来敲门",
+        "act_tag": "ACT 15 · 2010–2014 · 库克、郭台铭与iPhone之约",
+        "title_zh": "第 15 期：苹果来敲门",
+        "title_en": "Episode 15: Apple Comes Knocking",
+        "time_loc": "2010–2014 · 库克、郭台铭与iPhone之约",
+        "tagline_zh": "最挑剔的客户，是最好的磨刀石——它逼你长出别人没有的能力。",
+        "tagline_en": "The most demanding customer is the ultimate whetstone—forcing you to forge capabilities no competitor can match.",
+        "duration": "18:27",
+        "pills": [
+            ("历史坐标", "郭台铭引荐苹果高管 · 举债71亿美元 · 20纳米半节点 · 独家A8芯片"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第15期-苹果来敲门.png",
+        "prev_link": "episode-14.html",
+        "prev_label": "← 上一期：第 14 期 绚烂年代",
+        "next_link": "episode-16.html",
+        "next_label": "下一期：第 16 期 摩尔定律的守卫者 →",
+        "vocab": [
+            ("Whetstone", "/ˈwet.stəʊn/", "磨刀石，严苛考验", "A fine-grained stone used for sharpening cutting tools; a metaphor for demanding clients."),
+            ("Exclusivity", "/ˌek.skluːˈsɪv.ə.ti/", "独家性，专属性", "The practice of excluding all others; sole supplier relationship."),
+            ("Half-Node", "/hɑːf nəʊd/", "半代制程节点", "An intermediate semiconductor process node between two major standardized generations."),
+            ("Synergy", "/ˈsɪn.ə.dʒi/", "协同效应", "The interaction or cooperation of two organizations to produce a combined effect greater than the sum of separate effects.")
+        ],
+        "timeline": [
+            ("2010 · 11月9日", "郭台铭携苹果COO杰夫·威廉姆斯（Jeff Williams）夜访张忠谋台北家中，开启合作序幕。"),
+            ("2011 · 春", "苹果因三星自研Galaxy手机与其决裂，张忠谋飞赴库比蒂诺会见库克，敲定战略代工意向。"),
+            ("2011–2013", "台积电发行71亿美元公司债全力扩产建厂，但坚持「只承诺客户一半需求」的审慎原则。"),
+            ("2013", "在20纳米制程上实现良率惊险跨越，彻底甩开竞争对手。"),
+            ("2014 · 秋", "搭载台积电独家代工A8处理器的iPhone 6发布，全球狂销上亿台，开启十年苹果深度结盟。")
+        ],
+        "quote_zh": "最挑剔的客户，是最好的磨刀石——它逼你长出别人没有的能力。",
+        "quote_en": "The most exacting customer serves as the finest whetstone—compelling you to forge capabilities that none other possess."
+    },
+    {
+        "id": "16",
+        "file_name": "episode-16.html",
+        "folder": "第16期-摩尔定律的守卫者",
+        "act_tag": "ACT 16 · 2014–2018 · 7纳米与EUV终局之战",
+        "title_zh": "第 16 期：摩尔定律的守卫者",
+        "title_en": "Episode 16: Guardians of Moore's Law",
+        "time_loc": "2014–2018 · 7纳米与EUV终局之战",
+        "tagline_zh": "当摩尔定律开始变老，全世界都在问「还要不要追」——他用十年回答：追，而且要追到只剩你一个。",
+        "tagline_en": "When Moore's Law began to age and the world asked 'shall we still chase it?', he answered through a decade: chase it, until you are the last one standing.",
+        "duration": "18:04",
+        "pills": [
+            ("历史坐标", "摩尔定律极限 · 百亿美元年资本支出 · 7纳米独霸世界 · 格罗方德退赛"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第16期-摩尔定律的守卫者.png",
+        "prev_link": "episode-15.html",
+        "prev_label": "← 上一期：第 15 期 苹果来敲门",
+        "next_link": "episode-17.html",
+        "next_label": "下一期：第 17 期 交棒与退休 →",
+        "vocab": [
+            ("Moore's Law", "/mɔːz lɔː/", "摩尔定律", "The empirical observation that the number of transistors on a microchip doubles roughly every two years."),
+            ("Extreme Ultraviolet", "/ɪkˈstriːm ˌʌl.trəˈvaɪə.lət/", "极紫外光光刻（EUV）", "Photolithography technology using light with a wavelength of 13.5 nm to etch microscopic circuits."),
+            ("Packaging", "/ˈpæk.ɪ.dʒɪŋ/", "先进封装（InFO/CoWoS）", "The process of encasing discrete semiconductor chips together into a high-density unified system."),
+            ("Monopoly", "/məˈnɒp.əl.i/", "独占性技术领先", "The exclusive possession or control of the supply of or trade in a leading technological commodity.")
+        ],
+        "timeline": [
+            ("2014–2015", "全球晶圆厂在10/7纳米节点展开白热化军备竞赛，英特尔与三星遭遇良率瓶颈。"),
+            ("2016", "台积电年度资本支出首次突破100亿美元大关，率先引入InFO与CoWoS先进封装技术。"),
+            ("2017", "台积电年营收逼近1兆元新台币大关，提前锁定极紫外光（EUV）关键产能。"),
+            ("2018 · 5月", "台积电量产全球首颗7纳米移动芯片Apple A12，独家领先全行业。"),
+            ("2018 · 8月27日", "主要竞争对手格罗方德正式宣布无限期搁置7纳米研发，台积电在尖端制程独揽95%以上份额。")
+        ],
+        "quote_zh": "当摩尔定律开始变老，全世界都在问「还要不要追」——他用十年回答：追，而且要追到只剩你一个。",
+        "quote_en": "As Moore's Law aged, the world wavered on whether to pursue it; he spent a decade proving the answer: pursue it, until you stand alone at the pinnacle."
+    },
+    {
+        "id": "17",
+        "file_name": "episode-17.html",
+        "folder": "第17期-交棒与退休",
+        "act_tag": "ACT 17 · 2013–2018 · 双首长制与贝多芬第九",
+        "title_zh": "第 17 期：交棒与退休",
+        "title_en": "Episode 17: Passing the Torch and Retirement",
+        "time_loc": "2013–2018 · 双首长制与贝多芬第九",
+        "tagline_zh": "真正的传承，不是找一个像自己的人，而是把公司交给一套比个人更持久的制度。",
+        "tagline_en": "True institutional succession is not finding a replica of oneself, but entrusting the enterprise to an enduring system greater than any individual.",
+        "duration": "18:24",
+        "pills": [
+            ("历史坐标", "征询黄仁勋 · 双首长制架构 · 30周年贝多芬第九 · 2018正式退休"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第17期-交棒与退休.png",
+        "prev_link": "episode-16.html",
+        "prev_label": "← 上一期：第 16 期 摩尔定律的守卫者",
+        "next_link": "episode-18.html",
+        "next_label": "下一期：第 18 期 护国神山 →",
+        "vocab": [
+            ("Dual Leadership", "/ˈdjuː.əl ˈliː.də.ʃɪp/", "双首长治理体制", "A governance structure dividing authority between an Executive Chairman and a Chief Executive Officer."),
+            ("Institutionalization", "/ˌɪn.stɪˌtjuː.ʃən.əl.aɪˈzeɪ.ʃən/", "制度化建设", "The action of establishing something as a norm or institution rather than relying on personality."),
+            ("Ode to Joy", "/əʊd tuː dʒɔɪ/", "欢乐颂（贝多芬第九交响曲）", "The choral finale of Beethoven's Symphony No. 9, symbolizing triumph, unity, and humanity."),
+            ("Consummation", "/ˌkɒn.səˈmeɪ.ʃən/", "功德圆满，终局升华", "The point at which something is complete or finalized with supreme perfection.")
+        ],
+        "timeline": [
+            ("2013 · 初", "张忠谋向黄仁勋征询接任台积电CEO意向，黄仁勋回应「我已有工作（辉达）」。"),
+            ("2013 · 底", "张忠谋正式设计并落地「双首长制」：刘德音任董事长主外与董事会，魏哲家任总裁主内与运营。"),
+            ("2017 · 10月23日", "台积电举行30周年庆典，邀请国际交响乐团演出贝多芬第九《合唱》，随后正式宣布退休日程。"),
+            ("2018 · 6月5日", "主持最后一次股东常会后正式退休，结束长达63年的半导体职业传奇生涯。"),
+            ("2018 · 夏", "台积电在无创始人的常态下平稳过渡，制度与文化经受住了世界级检验。")
+        ],
+        "quote_zh": "真正的传承，不是找一个像自己的人，而是把公司交给一套比个人更持久的制度。",
+        "quote_en": "True succession does not consist of finding a clone of oneself, but in entrusting the company to a governance architecture more enduring than any single individual."
+    },
+    {
+        "id": "18",
+        "file_name": "episode-18.html",
+        "folder": "第18期-护国神山",
+        "act_tag": "ACT 18 · 2018–今天 · 地缘政治、AI革命与世纪收官",
+        "title_zh": "第 18 期：护国神山",
+        "title_en": "Episode 18: The Sacred Mountain of State",
+        "time_loc": "2018–今天 · 地缘政治、AI革命与世纪收官",
+        "tagline_zh": "一座「护国神山」，从来不是一个人搬上去的，而是一代人的选择，被时间砌成了山。",
+        "tagline_en": "A 'Sacred Mountain of State' is never hoisted by a single man; it is the shared choices of a whole generation, sculpted into bedrock by time.",
+        "duration": "18:00",
+        "pills": [
+            ("历史坐标", "中美科技博弈 · 亚利桑那与熊本建厂 · 生成式AI爆发 · 中山勋章全景收官"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第18期-护国神山.png",
+        "prev_link": "episode-17.html",
+        "prev_label": "← 上一期：第 17 期 交棒与退休",
+        "next_link": "index.html",
+        "next_label": "回到全册总目录 (18期全集收官) →",
+        "vocab": [
+            ("Chokepoint", "/ˈtʃəʊk.pɔɪnt/", "地缘战略咽喉", "A strategic narrow point of access or critical supply vulnerability in global tech geopolitics."),
+            ("Anchor", "/ˈæŋ.kər/", "定海神针，国家支柱", "A person or thing that provides strength and stability in times of storm."),
+            ("CoWoS", "/ˈkəʊ.wɒs/", "晶圆级芯片封装（先进封装）", "Chip-on-Wafer-on-Substrate, TSMC's proprietary 2.5D packaging essential for AI GPUs."),
+            ("Legacy", "/ˈleɡ.ə.si/", "历史遗产，精神长青", "Something that is passed down from predecessors, continuing to influence future generations.")
+        ],
+        "timeline": [
+            ("2018 · 6月", "张忠谋退休后，半导体地缘政治升温，台积电被外媒与社会公认为台湾「护国神山」。"),
+            ("2020 · 5月", "因应美国出口管制规则停止接纳华为新订单；同日宣布投资120亿美元于美国亚利桑那州建厂。"),
+            ("2021–2024", "台积电与索尼、丰田合资在日本熊本设立JASM晶圆厂，并于2024年2月正式落成投产。"),
+            ("2023–2024", "生成式AI（ChatGPT、英伟达GPU）席卷全球，台积电先进封装CoWoS产能成为算力基础设施最大瓶颈。"),
+            ("2024 · 4月", "张忠谋获颁象征崇高荣誉的「中山勋章」，全剧在此迎来历史收官与黄仁勋时代的宏大伏笔。")
+        ],
+        "quote_zh": "一座「护国神山」，从来不是一个人搬上去的，而是一代人的选择，被时间砌成了山。",
+        "quote_en": "A 'Sacred Mountain Protecting the Realm' is never carried up by a single man; it is the choices of an entire generation, cemented into bedrock across time."
     }
 ]
 
@@ -610,7 +1128,7 @@ for ep in episodes_meta:
   /* Vocab flashcards */
   .vocab-list {{ display: flex; flex-direction: column; gap: 12px; }}
   .vocab-card {{ background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }}
-  .vocab-word-row {{ display: align-items: baseline; justify-content: space-between; margin-bottom: 3px; display: flex; }}
+  .vocab-word-row {{ display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 3px; }}
   .vocab-word {{ font-family: var(--en); font-weight: 700; font-size: 14px; color: var(--amber); }}
   .vocab-phonetic {{ font-size: 11px; color: var(--muted); font-family: var(--sans); }}
   .vocab-zh {{ font-size: 12.5px; color: var(--ink); font-weight: 500; margin-bottom: 3px; }}
@@ -1109,67 +1627,57 @@ for ep in episodes_meta:
 
     function shareToWeibo() {{
       const data = getShareData();
-      const url = "https://service.weibo.com/share/share.php?url=" + encodeURIComponent(data.shareUrl) + "&title=" + encodeURIComponent(data.summary);
-      window.open(url, "_blank", "width=600,height=500");
+      const text = encodeURIComponent(data.summary);
+      const url = encodeURIComponent(data.shareUrl);
+      window.open("https://service.weibo.com/share/share.php?url=" + url + "&title=" + text, "_blank", "width=600,height=500");
     }}
 
     function shareToLinkedIn() {{
-      const text = getShareCopyText();
-      if (navigator.clipboard && window.isSecureContext) {{
-        navigator.clipboard.writeText(text).catch(() => {{}});
-      }} else {{
-        fallbackCopy(text, false);
-      }}
-      showToast('📋 已自动复制文案！在领英发帖框直接粘贴即可');
-      const shareUrl = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(window.location.href);
-      window.open(shareUrl, "_blank", "width=650,height=600");
+      const data = getShareData();
+      const url = encodeURIComponent(data.shareUrl);
+      window.open("https://www.linkedin.com/sharing/share-offsite/?url=" + url, "_blank", "width=600,height=500");
     }}
 
     function shareToX() {{
       const data = getShareData();
-      const tweetText = data.summary + "\\n\\n#MorrisChang #TSMC #台积电 #张忠谋";
-      const url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweetText) + "&url=" + encodeURIComponent(data.shareUrl);
-      window.open(url, "_blank", "width=600,height=500");
+      const text = encodeURIComponent("【台积电张忠谋 · " + EP_DATA.titleZh + "】 “" + EP_DATA.quoteZh + "” #TSMC #MorrisChang #Semiconductor");
+      const url = encodeURIComponent(data.shareUrl);
+      window.open("https://twitter.com/intent/tweet?text=" + text + "&url=" + url, "_blank", "width=600,height=500");
     }}
 
     function shareToWhatsApp() {{
       const data = getShareData();
-      const text = data.summary + " " + data.shareUrl;
-      const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(text);
-      window.open(url, "_blank");
+      const text = encodeURIComponent("【台积电张忠谋 · " + EP_DATA.titleZh + "】\\n“" + EP_DATA.quoteZh + "”\\n" + data.shareUrl);
+      window.open("https://api.whatsapp.com/send?text=" + text, "_blank");
     }}
 
     function shareToTelegram() {{
       const data = getShareData();
-      const url = "https://t.me/share/url?url=" + encodeURIComponent(data.shareUrl) + "&text=" + encodeURIComponent(data.summary);
-      window.open(url, "_blank");
+      const text = encodeURIComponent("【台积电张忠谋 · " + EP_DATA.titleZh + "】\\n“" + EP_DATA.quoteZh + "”");
+      const url = encodeURIComponent(data.shareUrl);
+      window.open("https://t.me/share/url?url=" + url + "&text=" + text, "_blank");
     }}
 
     function shareToFacebook() {{
-      const text = getShareCopyText();
-      if (navigator.clipboard && window.isSecureContext) {{
-        navigator.clipboard.writeText(text).catch(() => {{}});
-      }} else {{
-        fallbackCopy(text, false);
-      }}
-      showToast('📋 已自动复制文案！在 Facebook 直接粘贴即可');
-      const shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href);
-      window.open(shareUrl, "_blank", "width=650,height=600");
+      const data = getShareData();
+      const url = encodeURIComponent(data.shareUrl);
+      window.open("https://www.facebook.com/sharer/sharer.php?u=" + url, "_blank", "width=600,height=500");
     }}
 
     function copyViralShare() {{
-      const fullCopyText = getShareCopyText();
-      
+      const text = getShareCopyText();
       if (navigator.clipboard && window.isSecureContext) {{
-        navigator.clipboard.writeText(fullCopyText).then(() => {{
-          showToast("📋 金句双语分享文案已复制！");
-        }}).catch(err => fallbackCopy(fullCopyText, true));
+        navigator.clipboard.writeText(text).then(() => {{
+          showToast("✨ 双语金句精选分享文案已复制到剪贴板！");
+        }}).catch(() => {{
+          fallbackCopyText(text);
+        }});
       }} else {{
-        fallbackCopy(fullCopyText, true);
+        fallbackCopyText(text);
       }}
     }}
 
-    function fallbackCopy(text, notify = true) {{
+    function fallbackCopyText(text) {{
       const ta = document.createElement("textarea");
       ta.value = text;
       ta.style.position = "fixed";
@@ -1178,10 +1686,10 @@ for ep in episodes_meta:
       ta.focus();
       ta.select();
       try {{
-        document.execCommand("copy");
-        if (notify) showToast("📋 金句双语分享文案已复制！");
-      }} catch (e) {{
-        if (notify) showToast("请手动复制链接");
+        document.execCommand('copy');
+        showToast("✨ 双语金句精选分享文案已复制到剪贴板！");
+      }} catch (err) {{
+        prompt("请手动复制分享文案：", text);
       }}
       document.body.removeChild(ta);
     }}
@@ -1189,9 +1697,10 @@ for ep in episodes_meta:
 </body>
 </html>
 """
+    
     out_file = os.path.join(WORKSPACE, ep["file_name"])
-    with open(out_file, "w", encoding="utf-8") as f_out:
-        f_out.write(page_html.strip())
-    print(f"Successfully generated {ep['file_name']} (Size: {len(page_html)} bytes)")
+    with open(out_file, "w", encoding="utf-8") as f:
+        f.write(page_html)
+    print(f"Generated {ep['file_name']} (Total size: {len(page_html):,} bytes)")
 
-print("All 4 episode pages generated successfully!")
+print("\nAll 18 episodes generated successfully matching Master Standard!")

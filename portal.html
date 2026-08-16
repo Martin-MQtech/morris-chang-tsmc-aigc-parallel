@@ -230,6 +230,56 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
   font-weight: 600 !important;
 }
 
+/* ── Project-Level Social Share Card & Buttons ── */
+.project-share-card {
+  max-width: 920px;
+  margin: 48px auto 0;
+  padding: 28px 24px;
+  background: var(--bg2);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+}
+.share-matrix-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.btn-share-lg {
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.btn-share-lg:hover {
+  border-color: var(--amber);
+  color: var(--amber);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+.btn-share-lg.primary {
+  background: var(--amber);
+  color: #000;
+  border-color: var(--amber);
+  font-weight: 600;
+}
+.btn-share-lg.primary:hover {
+  background: #d97706;
+  border-color: #d97706;
+  color: #000;
+}
+
 </style>
 <style>
     .brand-logo-img { width: 32px; height: 32px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); border: 1px solid #333; transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; margin-right: 10px; }
@@ -587,6 +637,29 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
     <h2>从一个人的故事，读一个时代<span class="en">Read an era through one man’s story</span></h2>
     <p>同一时间线，另一个视角。<em>Same timeline, another view.</em></p>
     <a class="btn primary" href="全册电子书.html">打开典藏电子书 <em>Open the Ebook</em></a>
+
+    <!-- Project-Level 8-Channel Social Sharing Matrix -->
+    <div class="project-share-card" style="max-width: 920px; margin: 48px auto 0; padding: 28px 24px; background: var(--bg2); border: 1px solid var(--line); border-radius: 16px; text-align: center; box-shadow: 0 16px 40px rgba(0,0,0,0.5);">
+      <div style="font-size: 11.5px; letter-spacing: 3px; color: var(--amber); text-transform: uppercase; margin-bottom: 8px; font-weight: 600;">
+        🌟 觉得项目有价值？一键分享全系列给好友与同行 <em>SHARE THIS PROJECT:</em>
+      </div>
+      <div style="font-family: 'Songti SC', 'Noto Serif SC', serif; font-size: 19px; color: var(--ink); font-weight: 600; margin-bottom: 18px;">
+        传播半导体商业智慧 · 探索平行传记新范式
+      </div>
+      <div class="share-matrix-bottom" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 14px;">
+        <button onclick="openWeChatProjectShare()" class="btn-share-lg" title="分享到微信 / 朋友圈">💬 微信</button>
+        <button onclick="shareProjectToWeibo()" class="btn-share-lg" title="一键分享到新浪微博">🔴 微博</button>
+        <button onclick="shareProjectToLinkedIn()" class="btn-share-lg" title="分享到领英 LinkedIn">💼 领英 LinkedIn</button>
+        <button onclick="shareProjectToX()" class="btn-share-lg" title="Share to X (Twitter)">𝕏 Twitter</button>
+        <button onclick="shareProjectToWhatsApp()" class="btn-share-lg" title="Share to WhatsApp">📱 WhatsApp</button>
+        <button onclick="shareProjectToTelegram()" class="btn-share-lg" title="Share to Telegram">✈️ Telegram</button>
+        <button onclick="shareProjectToFacebook()" class="btn-share-lg" title="Share to Facebook">📘 Facebook</button>
+        <button onclick="copyProjectShare()" class="btn-share-lg primary" title="一键复制推荐文案与链接">📋 复制推荐文案</button>
+      </div>
+      <div style="font-size: 12px; color: var(--muted); line-height: 1.6;">
+        点击任意平台可直接调起分享窗口；点击“复制推荐文案”可将完整项目推荐语与官网链接直接复制到剪贴板。
+      </div>
+    </div>
   </div>
 </section>
 
@@ -794,6 +867,7 @@ https://martin-mqtech.github.io/ReadShift/20260816%20Morris%20Chang%20%26%20TSMC
       showToast('✨ 已复制项目典藏宣发文案！可直接粘贴至社交平台分享');
     }
   }
+  const copyProjectShare = copyViralShare;
 
   function openWeChatShare() {
     const modal = document.getElementById("wechat-modal");
@@ -802,6 +876,7 @@ https://martin-mqtech.github.io/ReadShift/20260816%20Morris%20Chang%20%26%20TSMC
     qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + pageUrl;
     modal.style.display = "flex";
   }
+  const openWeChatProjectShare = openWeChatShare;
 
   function closeWeChatShare() {
     const modal = document.getElementById("wechat-modal");
@@ -813,32 +888,38 @@ https://martin-mqtech.github.io/ReadShift/20260816%20Morris%20Chang%20%26%20TSMC
     const url = "https://service.weibo.com/share/share.php?url=" + encodeURIComponent(window.location.href) + "&title=" + encodeURIComponent(title);
     window.open(url, "_blank", "width=600,height=500");
   }
+  const shareProjectToWeibo = shareToWeibo;
 
   function shareToLinkedIn() {
     copyViralShare();
     const shareUrl = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(window.location.href);
     window.open(shareUrl, "_blank", "width=650,height=600");
   }
+  const shareProjectToLinkedIn = shareToLinkedIn;
 
   function shareToX() {
     const tweet = "Morris Chang & TSMC: The Parallel Worlds of a Biography · 4 Historic Turning Points, 4 Parallel Timelines & 4-Voice Studio Audio.\n\n#MorrisChang #TSMC #Semiconductor #ReadShift";
     const url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweet) + "&url=" + encodeURIComponent(window.location.href);
     window.open(url, "_blank", "width=600,height=500");
   }
+  const shareProjectToX = shareToX;
 
   function shareToWhatsApp() {
     const text = "【台积电张忠谋 · 传记时间线的平行世界】全册双语阅读与广播级原声已上线：\n" + window.location.href;
     window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(text), "_blank");
   }
+  const shareProjectToWhatsApp = shareToWhatsApp;
 
   function shareToTelegram() {
     const text = "《台积电张忠谋 · 传记时间线的平行世界》商业史双语深度互动全册：";
     window.open("https://t.me/share/url?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent(text), "_blank");
   }
+  const shareProjectToTelegram = shareToTelegram;
 
   function shareToFacebook() {
     window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href), "_blank", "width=600,height=500");
   }
+  const shareProjectToFacebook = shareToFacebook;
 
 </script>
 
