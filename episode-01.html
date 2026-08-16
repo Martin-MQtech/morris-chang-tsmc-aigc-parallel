@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>第 01 期：逃难的孩子 (1937–1942 · 广州至香港) | 台积电张忠谋 · 传记时间线的平行世界</title>
 <meta name="description" content="台积电张忠谋传记时间线的平行世界 · 第 01 期：逃难的孩子（1937–1942 · 广州至香港）。纯净双语典藏电子书，中英双语原声有声剧场，逐句同步高亮字幕，时代历史坐标与双语精读笔记。">
+
+<!-- Open Graph / Facebook / LinkedIn -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="《台积电张忠谋：第 01 期：逃难的孩子 (1937–1942 · 广州至香港)》· 传记时间线的平行世界">
+<meta property="og:description" content="17分钟双语原声TTS + 逐句同步字幕 + 商业深度复盘。同一时间线，另一个视角。">
+<meta property="og:image" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/设计资产/插图/第01期-逃难的孩子.png">
+<meta property="og:url" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/episode-01.html">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="《台积电张忠谋：第 01 期：逃难的孩子 (1937–1942 · 广州至香港)》· 传记时间线的平行世界">
+<meta name="twitter:description" content="17分钟双语原声TTS + 逐句同步字幕 + 商业深度复盘。同一时间线，另一个视角。">
+<meta name="twitter:image" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/设计资产/插图/第01期-逃难的孩子.png">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
@@ -2895,94 +2909,110 @@
     function getShareData() {
       const shareUrl = window.location.href;
       const title = document.title;
-      const summary = "【台积电张忠谋 · " + EP_DATA.titleZh + "】\n\"" + EP_DATA.quoteZh + "\"\n中英双语原声电子书已上线，即刻收听与精读：";
+      const summary = “【台积电张忠谋 · “ + EP_DATA.titleZh + “】\n\\”” + EP_DATA.quoteZh + “\\”\n中英双语原声电子书已上线，即刻收听与精读：”;
       return { shareUrl, title, summary };
     }
 
+    function getShareCopyText() {
+      const data = getShareData();
+      return “【台积电张忠谋传记时间线的平行世界 · “ + EP_DATA.titleZh + “】\n\n“” + EP_DATA.quoteZh + “”\n\\”” + EP_DATA.quoteEn + “\\”\n\n🎧 纯净中英双语原声 + 逐句高亮字幕提词器：\n👉 “ + data.shareUrl;
+    }
+
     function showToast(msg) {
-      const toast = document.getElementById("toast-msg");
+      const toast = document.getElementById(“toast-msg”);
       toast.textContent = msg;
-      toast.classList.add("show");
-      setTimeout(() => toast.classList.remove("show"), 2800);
+      toast.classList.add(“show”);
+      setTimeout(() => toast.classList.remove(“show”), 2800);
     }
 
     function openWeChatShare() {
-      const modal = document.getElementById("wechat-modal");
-      const qrImg = document.getElementById("wechat-qr-img");
+      const modal = document.getElementById(“wechat-modal”);
+      const qrImg = document.getElementById(“wechat-qr-img”);
       const pageUrl = encodeURIComponent(window.location.href);
-      qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + pageUrl;
-      modal.classList.add("active");
+      qrImg.src = “https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=” + pageUrl;
+      modal.classList.add(“active”);
     }
 
     function closeWeChatShare(e) {
-      const modal = document.getElementById("wechat-modal");
-      modal.classList.remove("active");
+      const modal = document.getElementById(“wechat-modal”);
+      modal.classList.remove(“active”);
     }
 
     function shareToWeibo() {
       const data = getShareData();
-      const url = "https://service.weibo.com/share/share.php?url=" + encodeURIComponent(data.shareUrl) + "&title=" + encodeURIComponent(data.summary);
-      window.open(url, "_blank", "width=600,height=500");
+      const url = “https://service.weibo.com/share/share.php?url=” + encodeURIComponent(data.shareUrl) + “&title=” + encodeURIComponent(data.summary);
+      window.open(url, “_blank”, “width=600,height=500”);
     }
 
     function shareToLinkedIn() {
-      const data = getShareData();
-      const url = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(data.shareUrl);
-      window.open(url, "_blank", "width=600,height=500");
+      const text = getShareCopyText();
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).catch(() => {});
+      } else {
+        fallbackCopy(text, false);
+      }
+      showToast('📋 已自动复制文案！在领英发帖框直接粘贴即可');
+      const shareUrl = “https://www.linkedin.com/sharing/share-offsite/?url=” + encodeURIComponent(window.location.href);
+      window.open(shareUrl, “_blank”, “width=650,height=600”);
     }
 
     function shareToX() {
       const data = getShareData();
-      const tweetText = data.summary + "\n\n#MorrisChang #TSMC #台积电 #张忠谋";
-      const url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweetText) + "&url=" + encodeURIComponent(data.shareUrl);
-      window.open(url, "_blank", "width=600,height=500");
+      const tweetText = data.summary + “\n\n#MorrisChang #TSMC #台积电 #张忠谋”;
+      const url = “https://twitter.com/intent/tweet?text=” + encodeURIComponent(tweetText) + “&url=” + encodeURIComponent(data.shareUrl);
+      window.open(url, “_blank”, “width=600,height=500”);
     }
 
     function shareToWhatsApp() {
       const data = getShareData();
-      const text = data.summary + " " + data.shareUrl;
-      const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(text);
-      window.open(url, "_blank");
+      const text = data.summary + “ “ + data.shareUrl;
+      const url = “https://api.whatsapp.com/send?text=” + encodeURIComponent(text);
+      window.open(url, “_blank”);
     }
 
     function shareToTelegram() {
       const data = getShareData();
-      const url = "https://t.me/share/url?url=" + encodeURIComponent(data.shareUrl) + "&text=" + encodeURIComponent(data.summary);
-      window.open(url, "_blank");
+      const url = “https://t.me/share/url?url=” + encodeURIComponent(data.shareUrl) + “&text=” + encodeURIComponent(data.summary);
+      window.open(url, “_blank”);
     }
 
     function shareToFacebook() {
-      const data = getShareData();
-      const url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(data.shareUrl);
-      window.open(url, "_blank", "width=600,height=500");
+      const text = getShareCopyText();
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).catch(() => {});
+      } else {
+        fallbackCopy(text, false);
+      }
+      showToast('📋 已自动复制文案！在 Facebook 直接粘贴即可');
+      const shareUrl = “https://www.facebook.com/sharer/sharer.php?u=” + encodeURIComponent(window.location.href);
+      window.open(shareUrl, “_blank”, “width=650,height=600”);
     }
 
     function copyViralShare() {
-      const data = getShareData();
-      const fullCopyText = "【台积电张忠谋传记时间线的平行世界 · " + EP_DATA.titleZh + "】\n\n“" + EP_DATA.quoteZh + "”\n\"" + EP_DATA.quoteEn + "\"\n\n🎧 纯净中英双语原声 + 逐句高亮字幕提词器：\n👉 " + data.shareUrl;
+      const fullCopyText = getShareCopyText();
       
       if (navigator.clipboard && window.isSecureContext) {
         navigator.clipboard.writeText(fullCopyText).then(() => {
-          showToast("📋 金句双语分享文案已复制！");
-        }).catch(err => fallbackCopy(fullCopyText));
+          showToast(“📋 金句双语分享文案已复制！”);
+        }).catch(err => fallbackCopy(fullCopyText, true));
       } else {
-        fallbackCopy(fullCopyText);
+        fallbackCopy(fullCopyText, true);
       }
     }
 
-    function fallbackCopy(text) {
-      const ta = document.createElement("textarea");
+    function fallbackCopy(text, notify = true) {
+      const ta = document.createElement(“textarea”);
       ta.value = text;
-      ta.style.position = "fixed";
-      ta.style.left = "-9999px";
+      ta.style.position = “fixed”;
+      ta.style.left = “-9999px”;
       document.body.appendChild(ta);
       ta.focus();
       ta.select();
       try {
-        document.execCommand("copy");
-        showToast("📋 金句双语分享文案已复制！");
+        document.execCommand(“copy”);
+        if (notify) showToast(“📋 金句双语分享文案已复制！”);
       } catch (e) {
-        showToast("请手动复制链接");
+        if (notify) showToast(“请手动复制链接”);
       }
       document.body.removeChild(ta);
     }
