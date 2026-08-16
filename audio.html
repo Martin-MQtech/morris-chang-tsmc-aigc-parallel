@@ -629,15 +629,15 @@
   <nav class="unified-top-nav">
   <div class="unified-nav-inner">
     <a href="index.html" class="unified-brand">
-      <img src="assets/logo.svg" alt="Logo" onerror="this.style.display='none'">
+      <img src="assets/logo.svg" alt="Logo" onerror="this.src='logo.svg'; this.onerror=null;">
       <span>台积电张忠谋 · 传记时间线的平行世界</span>
     </a>
     <ul class="unified-nav-links">
-      <li><a href="index.html" class="">🏛️ 官网首页</a></li>
-      <li><a href="reader.html" class="">📖 全册电子书</a></li>
-      <li><a href="map.html" class="">🗺️ 平行地图</a></li>
-      <li><a href="cards.html" class="">🎴 金句卡片</a></li>
-      <li><a href="audio.html" class="active">🎧 双语剧场</a></li>
+      <li><a href="index.html">🏠 官网首页</a></li>
+      <li><a href="reader.html">📖 全册电子书</a></li>
+      <li><a href="audio.html" class="active">🎙️ 双语剧场</a></li>
+      <li><a href="map.html">🗺️ 平行地图</a></li>
+      <li><a href="cards.html">🎴 金句卡片</a></li>
       <li><a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="unified-nav-btn">🚀 ReadShift 主体工程</a></li>
     </ul>
   </div>
@@ -802,7 +802,9 @@
       renderSubtitles(ep);
 
       // Setup audio source
-      const audioSrc = state.lang === 'zh' ? (ep.audioZh || '') : (ep.audioEn || '');
+      let audioSrc = state.lang === 'zh' ? (ep.audioZh || '') : (ep.audioEn || '');
+      // Fallback to audio/ directory if needed
+      const altSrc = state.lang === 'zh' ?  : ;
       audioEl.src = audioSrc;
       audioEl.load();
 
