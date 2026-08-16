@@ -3,698 +3,1118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Episode 01 - 逃难的孩子</title>
+    <title>第01期：逃难的孩子 (1937–1942) · 台积电张忠谋 · 平行世界</title>
+    <meta name="description" content="台积电张忠谋传记平行世界第一期：逃难的孩子。1937-1942年从广州到香港，乱世童年与双语沉浸有声读物。">
+    <!-- Google Fonts & Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,600;1,400;1,600&display=swap" rel="stylesheet">
     <style>
-        ::-webkit-scrollbar {
-            display: none;
+        :root {
+            --gold-primary: #f59e0b;
+            --gold-light: #fbbf24;
+            --gold-dark: #b45309;
+            --cyan-accent: #06b6d4;
+            --cyan-glow: rgba(6, 182, 212, 0.4);
+            --bg-dark: #090d16;
+            --bg-card: rgba(15, 23, 42, 0.75);
+            --border-glass: rgba(255, 255, 255, 0.08);
         }
+        
         body {
-            background-color: #121212;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            -ms-overflow-style: none; /* IE and Edge */
-            scrollbar-width: none; /* Firefox */
+            background-color: var(--bg-dark);
+            color: #f1f5f9;
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .font-serif-sc {
+            font-family: 'Noto Serif SC', "Songti SC", "STSong", Georgia, serif;
+        }
+
+        .font-serif-en {
+            font-family: 'Playfair Display', Georgia, serif;
+        }
+
+        .font-cinzel {
+            font-family: 'Cinzel', Georgia, serif;
+        }
+
+        /* Glassmorphism effects */
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-card {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(245, 158, 11, 0.35);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 15px 0 rgba(245, 158, 11, 0.15);
+            transform: translateY(-2px);
+        }
+
+        /* Custom Scrollbar for Subtitles */
+        .custom-scroll::-webkit-scrollbar {
+            width: 5px;
+        }
+        .custom-scroll::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background: rgba(245, 158, 11, 0.3);
+            border-radius: 4px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb:hover {
+            background: rgba(245, 158, 11, 0.6);
+        }
+
+        /* Active Subtitle Line Highlight */
+        .subtitle-line {
+            transition: all 0.35s ease;
+        }
+        .subtitle-line.active {
+            opacity: 1 !important;
+            transform: scale(1.02);
+            background: linear-gradient(90deg, rgba(245, 158, 11, 0.15), rgba(6, 182, 212, 0.12));
+            border-left: 4px solid #f59e0b;
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.15);
+        }
+        .subtitle-line.active .zh-text {
+            color: #fbbf24 !important;
+            text-shadow: 0 0 12px rgba(251, 191, 36, 0.3);
+        }
+        .subtitle-line.active .en-text {
+            color: #67e8f9 !important;
+        }
+
+        /* Audio slider styling */
+        input[type=range] {
+            -webkit-appearance: none;
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 8px;
+            height: 6px;
+            cursor: pointer;
+        }
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: #f59e0b;
+            box-shadow: 0 0 8px #f59e0b;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+        input[type=range]::-webkit-slider-thumb:hover {
+            transform: scale(1.25);
+        }
+
+        /* Flashcard 3D flip effect */
+        .flashcard-inner {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .flashcard.flipped .flashcard-inner {
+            transform: rotateY(180deg);
+        }
+        .flashcard-front, .flashcard-back {
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+        .flashcard-back {
+            transform: rotateY(180deg);
         }
     </style>
 </head>
-<body class="text-white h-screen flex flex-col items-center justify-center overflow-hidden">
-    
-    <div class="w-full max-w-4xl flex justify-between items-center px-8 py-6 bg-gradient-to-b from-black to-transparent z-10 absolute top-0">
-        <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-amber-300">
-            第01期：逃难的孩子 | Episode 01
-        </h1>
-        <div class="space-x-3">
-            <button id="btn-zh" class="px-4 py-2 bg-gray-800 text-amber-400 rounded-full hover:bg-gray-700 transition font-semibold text-sm">🇨🇳 中文原声</button>
-            <button id="btn-en" class="px-4 py-2 bg-gray-800 text-cyan-200 rounded-full hover:bg-gray-700 transition font-semibold text-sm">🇺🇸 English</button>
-        </div>
-    </div>
+<body class="min-h-screen bg-[#070a12] text-slate-200 antialiased selection:bg-amber-500/30 selection:text-amber-200">
 
-    <!-- Lyrics Container -->
-    <div id="lyrics-container" class="w-full max-w-4xl flex-1 overflow-y-auto scroll-smooth snap-y pt-[40vh] pb-[60vh] px-8 relative">
-        
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="0">
-            <div class="text-xl text-white font-bold"># 台积电张忠谋 · 传记时间线的平行世界 · 第 01 期：《逃难的孩子》</div>
-            <div class="text-lg text-cyan-200 mt-2"># Morris Chang&#x27;s Parallel World · Episode 01: &quot;The Refugee Child&quot;</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="1">
-            <div class="text-xl text-white font-bold">&gt; 栏目：台积电张忠谋 · 传记时间线的平行世界 —— 让 AI 为你重讲一段传奇</div>
-            <div class="text-lg text-cyan-200 mt-2">&gt; AIGC Parallel Biography — &quot;The Parallel World of the TSMC Founder&#x27;s Timeline&quot;</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="2">
-            <div class="text-xl text-white font-bold">&gt; 本期视角：**一个孩子的记忆里，战争不是历史，是一张张搬家的船票。**——时代推着人走，人在时代里长出自己的根。</div>
-            <div class="text-lg text-cyan-200 mt-2">&gt; This episode&#x27;s lens: **In a child&#x27;s memory, war is not history — it is a series of boat tickets.** The era pushes a person; the person grows roots of their own.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="3">
-            <div class="text-xl text-white font-bold">&gt; 目标时长：20 分钟（中文约 6000 字）</div>
-            <div class="text-lg text-cyan-200 mt-2">&gt; Target length: 20 minutes (English ~3,300 words)</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="4">
-            <div class="text-xl text-white font-bold">&gt; 素材边界：基于公开史实原创创作；不使用任何原书语句。</div>
-            <div class="text-lg text-cyan-200 mt-2">&gt; Original creative work based on public record; no text from any copyrighted book is reproduced.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="5">
-            <div class="text-xl text-white font-bold">&gt; 历史口径：以国际英文资料共识为准（Battle of Hong Kong / Canton Operation 等）。</div>
-            <div class="text-lg text-cyan-200 mt-2"></div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="6">
-            <div class="text-xl text-white font-bold">## 开场</div>
-            <div class="text-lg text-cyan-200 mt-2">## Opening</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="7">
-            <div class="text-xl text-white font-bold">【音效：远处传来低沉的防空警报，渐渐拉近，又渐渐远去】</div>
-            <div class="text-lg text-cyan-200 mt-2">[SFX: a low air-raid siren in the distance, drawing closer, then fading]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="8">
-            <div class="text-xl text-white font-bold">1937年，广州。</div>
-            <div class="text-lg text-cyan-200 mt-2">Guangzhou, 1937.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="9">
-            <div class="text-xl text-white font-bold">五岁的男孩被母亲紧紧牵着手，随着人流往码头跑。</div>
-            <div class="text-lg text-cyan-200 mt-2">A five-year-old boy, his hand tightly held by his mother, runs with the crowd toward the pier.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="10">
-            <div class="text-xl text-white font-bold">他不太明白发生了什么。他只知道，天上最近常常出现奇怪的声音——像一只巨大的铁鸟，在云层里嗡嗡作响。然后，是爆炸。</div>
-            <div class="text-lg text-cyan-200 mt-2">He doesn&#x27;t quite understand what is happening. He only knows that lately, strange sounds have been coming from the sky — like a giant iron bird, droning in the clouds. And then, explosions.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="11">
-            <div class="text-xl text-white font-bold">大人们说，那叫轰炸。</div>
-            <div class="text-lg text-cyan-200 mt-2">The adults call it bombing.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="12">
-            <div class="text-xl text-white font-bold">男孩回头看了一眼身后的城市，又看了一眼母亲。母亲没有说话，只是把他抱得更紧了些。</div>
-            <div class="text-lg text-cyan-200 mt-2">The boy glances back at the city, then up at his mother. She says nothing. She only holds him tighter.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="13">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="14">
-            <div class="text-xl text-white font-bold">很多年后，男孩长成了老人，执掌着全球最大的半导体公司。</div>
-            <div class="text-lg text-cyan-200 mt-2">Many years later, the boy is an old man, running the largest semiconductor company on earth.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="15">
-            <div class="text-xl text-white font-bold">他早已记不清那次离开的许多细节。但他记得，那天的码头上，到处都是和他一样被大人牵着走的孩子。</div>
-            <div class="text-lg text-cyan-200 mt-2">He no longer remembers many details of that departure. But he remembers this: that day at the pier, the docks were crowded with children just like him — led by the hand, heading for the boats.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="16">
-            <div class="text-xl text-white font-bold">他说，18岁以前，他逃了三次难，住过六个城市，换了十个学校。</div>
-            <div class="text-lg text-cyan-200 mt-2">He would later write that before he turned eighteen, he fled three times, lived in six cities, and changed ten schools.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="17">
-            <div class="text-xl text-white font-bold">而这一切的起点，就是1937年，广州，码头边，那个五岁孩子手里的那张船票。</div>
-            <div class="text-lg text-cyan-200 mt-2">And it all began here — 1937, Guangzhou, at the pier, with a boat ticket in the hand of a five-year-old.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="18">
-            <div class="text-xl text-white font-bold">## 第一幕 · 广州，半年</div>
-            <div class="text-lg text-cyan-200 mt-2">## Act One · Guangzhou, Six Months</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="19">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="20">
-            <div class="text-xl text-white font-bold">故事要从更早说起。</div>
-            <div class="text-lg text-cyan-200 mt-2">The story begins earlier.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="21">
-            <div class="text-xl text-white font-bold">1931年，男孩出生在浙江宁波。父亲在银行界做事——那是中国近代最有名的商帮之一，宁波帮，世代以经营钱庄、航运和实业闻名，足迹遍布上海、香港乃至海外。</div>
-            <div class="text-lg text-cyan-200 mt-2">In 1931, the boy was born in Ningbo, Zhejiang province. His father worked in banking — the family belonged to the Ningbo Guild, one of modern China&#x27;s most famous merchant clans, a people built for centuries on money shops, shipping, and enterprise, with networks stretching across Shanghai, Hong Kong, and overseas.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="22">
-            <div class="text-xl text-white font-bold">男孩五岁那年，父亲升职了，被派到广州做银行经理，全家便迁往广州。</div>
-            <div class="text-lg text-cyan-200 mt-2">When the boy was five, his father was promoted — sent to Guangzhou as a bank manager. The whole family moved south.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="23">
-            <div class="text-xl text-white font-bold">那时的广州，是南中国最繁华的港口城市。骑楼下人来人往，珠江上船帆相接，茶楼里一盅两件，从早到晚都有人声。男孩对这个城市的记忆很模糊——他太小了。他只记得，那是一个很热闹的地方。</div>
-            <div class="text-lg text-cyan-200 mt-2">Guangzhou in those years was the most bustling port city in southern China. Life moved under the arcaded shopfronts, junks crowded the Pearl River, and teahouses hummed from morning till night. The boy&#x27;s memories of the city are vague — he was very young. He only remembers that it was a very lively place.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="24">
-            <div class="text-xl text-white font-bold">但男孩在广州只住了半年。</div>
-            <div class="text-lg text-cyan-200 mt-2">But the boy lived in Guangzhou for only six months.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="25">
-            <div class="text-xl text-white font-bold">【主叙述者 · 放缓】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator, slower]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="26">
-            <div class="text-xl text-white font-bold">1937年7月，卢沟桥事变，全面抗战爆发。</div>
-            <div class="text-lg text-cyan-200 mt-2">In July 1937, the Marco Polo Bridge Incident ignited full-scale war between China and Japan.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="27">
-            <div class="text-xl text-white font-bold">战火一路向南蔓延。从这一年的10月起，日本飞机开始空袭广州——起初是试探性的，后来愈演愈烈。到1938年，轰炸几乎成了这座城市的日常。日机成群结队飞临城市上空，炸弹落进居民区、商业街、学校，整座城市在火光与浓烟中颤抖。</div>
-            <div class="text-lg text-cyan-200 mt-2">The flames rolled south. From October of that year, Japanese aircraft began raiding Guangzhou — tentatively at first, then with growing fury. By 1938, bombing had become part of the city&#x27;s daily rhythm. Waves of planes crossed the sky; bombs fell into residential districts, shopping streets, schools, and the city shuddered in fire and smoke.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="28">
-            <div class="text-xl text-white font-bold">美国国务院的历史档案里，记录着当时驻华外交官的报告：日军飞机连日空袭广州——中国人口最稠密的城市之一——蓄意轰炸并扫射平民。轰炸最烈时，一天之内，警报声可以响好几次，全城的人涌向防空洞，街道上只剩下空荡荡的骑楼。</div>
-            <div class="text-lg text-cyan-200 mt-2">In the archives of the U.S. State Department, the reports of American diplomats on the ground survive: Japanese planes raided Canton — one of the most populous cities in China — day after day, deliberately bombing and machine-gunning civilians. At the height of it, air-raid sirens could sound several times in a single day; the whole city poured into shelters, and the arcaded streets stood empty.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="29">
-            <div class="text-xl text-white font-bold">母亲和男孩，就是在这样的天空下，登上了开往香港的船。</div>
-            <div class="text-lg text-cyan-200 mt-2">Under that sky, the boy and his mother boarded a ship for Hong Kong.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="30">
-            <div class="text-xl text-white font-bold">广州，成了男孩记忆里第一个被迫离开的城市。</div>
-            <div class="text-lg text-cyan-200 mt-2">Guangzhou became the first city the boy was forced to leave.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="31">
-            <div class="text-xl text-white font-bold">他后来才明白，那半年，是他第一次见识什么叫「战争」。而「战争」这个词，在接下来的十几年里，会一次又一次地追上他。</div>
-            <div class="text-lg text-cyan-200 mt-2">Only later would he understand that those six months were his first encounter with something called &quot;war&quot; — and that the word would catch up with him, again and again, over the next fifteen years.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="32">
-            <div class="text-xl text-white font-bold">## 第二幕 · 世外桃源</div>
-            <div class="text-lg text-cyan-200 mt-2">## Act Two · The Haven</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="33">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="34">
-            <div class="text-xl text-white font-bold">香港。</div>
-            <div class="text-lg text-cyan-200 mt-2">Hong Kong.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="35">
-            <div class="text-xl text-white font-bold">对一个六岁的孩子来说，那是另一个世界。</div>
-            <div class="text-lg text-cyan-200 mt-2">To a six-year-old, it was another world.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="36">
-            <div class="text-xl text-white font-bold">那时的香港，人口还不到一百万——和今天比起来，小得不可思议。街道干净，电车叮叮当当地穿过中环，维多利亚港的碧波里，停着白色的邮轮。</div>
-            <div class="text-lg text-cyan-200 mt-2">Hong Kong in those days had a population of under a million — almost unimaginably small compared with today. The streets were clean. Trams clanged through Central. White ocean liners rode at anchor in the blue water of Victoria Harbour.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="37">
-            <div class="text-xl text-white font-bold">当国内战火蔓延、大片国土沦为沦陷区的时候，香港真是一个世外桃源。</div>
-            <div class="text-lg text-cyan-200 mt-2">While war consumed the mainland and province after province fell to occupation, Hong Kong was, for a time, a genuine haven.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="38">
-            <div class="text-xl text-white font-bold">男孩一家先住在香港，后来又迁到九龙，住进一间舒适的公寓。他在小学二年级到五年级，入读培英小学，六年级转入培正小学。两所学校离家都很近，他可以自己步行上学。</div>
-            <div class="text-lg text-cyan-200 mt-2">The family first settled on the island, then moved to Kowloon, into a comfortable apartment. From the second to the fifth grade, the boy attended Pui Ying Primary School; in the sixth grade, he transferred to Pui Ching. Both schools were close enough to walk to on his own.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="39">
-            <div class="text-xl text-white font-bold">【主叙述者 · 温暖】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator, warm]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="40">
-            <div class="text-xl text-white font-bold">星期天，全家常常郊游。</div>
-            <div class="text-lg text-cyan-200 mt-2">On Sundays, the family often went on outings.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="41">
-            <div class="text-xl text-white font-bold">男孩最喜欢两个地方：山顶，和浅水湾。</div>
-            <div class="text-lg text-cyan-200 mt-2">The boy had two favorite places: the Peak, and Repulse Bay.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="42">
-            <div class="text-xl text-white font-bold">站在太平山顶，整个香港尽收眼底——维多利亚港像一条银色的带子，两岸的楼宇清晰可数。而浅水湾的沙滩，那时的游客寥寥无几，沙子干净得发亮，海浪一卷一卷地涌上来，又退回去。</div>
-            <div class="text-lg text-cyan-200 mt-2">From the top of Victoria Peak, all of Hong Kong lay below — the harbour a silver ribbon, the buildings on both shores clear enough to count. And Repulse Bay&#x27;s beach, in those days, had few visitors. The sand gleamed, and the waves rolled in and slid back, over and over.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="43">
-            <div class="text-xl text-white font-bold">多年以后，男孩早已成了老人，再回浅水湾，只见人山人海、喧嚣一片，完全失去当年的情调了。他写下一句感慨：当年的香港，真是一个美丽的城市。</div>
-            <div class="text-lg text-cyan-200 mt-2">Decades later, when the boy was an old man, he returned to Repulse Bay to find it crowded and clamorous, the old charm gone entirely. He wrote, wistfully: the Hong Kong of those days was a truly beautiful city.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="44">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="45">
-            <div class="text-xl text-white font-bold">而在这座美丽城市的公寓里，藏着男孩另一个秘密世界。</div>
-            <div class="text-lg text-cyan-200 mt-2">And inside that beautiful city&#x27;s apartment lay another secret world.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="46">
-            <div class="text-xl text-white font-bold">他小时体质不好，没什么大病，却常感冒发烧。母亲为此担心了许多年，每天让他吃鱼肝油，又常炖鸡汤给他喝。</div>
-            <div class="text-lg text-cyan-200 mt-2">The boy had never been robust. No major illness, but constant colds and fevers. His mother worried for years — cod-liver oil every day, chicken soup whenever she could manage it.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="47">
-            <div class="text-xl text-white font-bold">因为身体弱，男孩不常和同学们在运动场上打球游戏，常常一个人待在家里。</div>
-            <div class="text-lg text-cyan-200 mt-2">Because he was frail, the boy rarely joined his classmates on the sports field. He spent much of his time alone at home.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="48">
-            <div class="text-xl text-white font-bold">母亲便买了很多书给他。商务印书馆出版过一套《儿童文库》，母亲买回来，摆满了一整个书架——里面有《水浒传》、《西游记》、《三国演义》……</div>
-            <div class="text-lg text-cyan-200 mt-2">So his mother bought him books. The Commercial Press published a set called the Children&#x27;s Library, and she filled an entire bookshelf with it — Water Margin, Journey to the West, Romance of the Three Kingdoms...</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="49">
-            <div class="text-xl text-white font-bold">男孩如饥似渴，一本接一本地读。到小学毕业前，他把整套《儿童文库》都读完了。</div>
-            <div class="text-lg text-cyan-200 mt-2">The boy read greedily, one volume after another. By the time he finished primary school, he had read the entire set.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="50">
-            <div class="text-xl text-white font-bold">【主叙述者 · 感慨】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator, with feeling]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="51">
-            <div class="text-xl text-white font-bold">一个身体孱弱、常常独处的孩子，在书架前找到了自己的世界。</div>
-            <div class="text-lg text-cyan-200 mt-2">A frail, solitary child found his world among the bookshelves.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="52">
-            <div class="text-xl text-white font-bold">这个从小就养成的阅读习惯，他保持了一生——几十年后，他执掌一家庞大的公司，办公室里依旧堆满书；他写自传，几百个小时，一个字一个字地写，靠的还是少年时练下的那点功夫。</div>
-            <div class="text-lg text-cyan-200 mt-2">That habit, formed in childhood, he kept for a lifetime — decades later, running a vast company, his office would still be stacked with books; and when he wrote his autobiography, hundreds of hours, word by word, it was the foundation laid in boyhood that carried him through.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="53">
-            <div class="text-xl text-white font-bold">而当年那个在浅水湾沙滩上奔跑、在书架前安静读书的男孩，不会知道：他人生中最安稳的这段童年，只剩最后一年了。</div>
-            <div class="text-lg text-cyan-200 mt-2">And the boy who ran on the sands of Repulse Bay and read quietly by the bookshelf had no idea that the most peaceful years of his childhood had only one year left.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="54">
-            <div class="text-xl text-white font-bold">他也不会知道，这五年在香港的日子——干净的街道、叮当的电车、山顶的风、浅水湾的浪——会成为他一生中反复回望的底色。多年以后，他写回忆录，用了很多笔墨写这段童年；一个在乱世里长大的孩子，把太平年月的样子，记得格外清楚。</div>
-            <div class="text-lg text-cyan-200 mt-2">Nor did he know that those five years in Hong Kong — the clean streets, the clanging trams, the wind on the Peak, the waves at Repulse Bay — would become the backdrop he would return to, again and again, for the rest of his life. Years later, writing his memoirs, he would devote many pages to this childhood. A child raised in chaos remembers the face of peace with unusual clarity.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="55">
-            <div class="text-xl text-white font-bold">## 第三幕 · 珍珠港事变的那天早上</div>
-            <div class="text-lg text-cyan-200 mt-2">## Act Three · The Morning Pearl Harbor Happened</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="56">
-            <div class="text-xl text-white font-bold">【音效：清晨的鸟鸣，忽然被远处沉闷的爆炸声打断】</div>
-            <div class="text-lg text-cyan-200 mt-2">[SFX: birdsong at dawn, broken by a distant, muffled explosion]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="57">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="58">
-            <div class="text-xl text-white font-bold">1941年12月8日，星期一，清晨。</div>
-            <div class="text-lg text-cyan-200 mt-2">Monday, December 8, 1941.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="59">
-            <div class="text-xl text-white font-bold">男孩十岁。那天早上学校有考试，他像往常一样，步行去上学。</div>
-            <div class="text-lg text-cyan-200 mt-2">The boy was ten. There was an exam at school that morning, so he walked to class as usual.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="60">
-            <div class="text-xl text-white font-bold">就在路上——或者更准确地说，就在那天的黎明时分——日本海军偷袭了美国珍珠港，太平洋战争爆发。</div>
-            <div class="text-lg text-cyan-200 mt-2">And somewhere along the way — or rather, in the first light of that dawn — the Japanese navy attacked Pearl Harbor. The Pacific War had begun.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="61">
-            <div class="text-xl text-white font-bold">而在偷袭珍珠港之后数小时，日军立即开始进攻香港。</div>
-            <div class="text-lg text-cyan-200 mt-2">Hours later, Japanese forces attacked Hong Kong.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="62">
-            <div class="text-xl text-white font-bold">男孩后来回忆说：那天早上，我在九龙，听到了炸弹声。</div>
-            <div class="text-lg text-cyan-200 mt-2">The boy would remember it this way: that morning, in Kowloon, he heard the bombs.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="63">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="64">
-            <div class="text-xl text-white font-bold">到了学校，他才开始了解情形——知道日本人已经在攻打九龙了。</div>
-            <div class="text-lg text-cyan-200 mt-2">At school, he began to understand — the Japanese were already attacking Kowloon.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="65">
-            <div class="text-xl text-white font-bold">考试取消了。课也没有了。大家赶快回家。</div>
-            <div class="text-lg text-cyan-200 mt-2">The exam was cancelled. Classes were dismissed. Everyone hurried home.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="66">
-            <div class="text-xl text-white font-bold">父亲以为，搬到旅馆里会比较安全。当天，全家三口人，带着一个女佣，搬进了九龙酒店——就在今天半岛酒店的后面。</div>
-            <div class="text-lg text-cyan-200 mt-2">His father decided they would be safer in a hotel. That day, the family of three, with one maid, moved into the Kowloon Hotel — just behind what is now the Peninsula.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="67">
-            <div class="text-xl text-white font-bold">三天后，九龙被日军占领。</div>
-            <div class="text-lg text-cyan-200 mt-2">Three days later, Kowloon fell.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="68">
-            <div class="text-xl text-white font-bold">香港本岛又守了十几天。但到了圣诞夜——12月24日——英军投降了。</div>
-            <div class="text-lg text-cyan-200 mt-2">The island of Hong Kong held out for a little over two weeks. But on Christmas Eve — December 24 — the British surrendered.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="69">
-            <div class="text-xl text-white font-bold">【主叙述者 · 安静】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator, quiet]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="70">
-            <div class="text-xl text-white font-bold">自日军12日开始攻击，到年底，男孩一家都躲在九龙酒店里。</div>
-            <div class="text-lg text-cyan-200 mt-2">From the Japanese attack on the 8th until the end of the year, the family stayed hidden in the Kowloon Hotel.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="71">
-            <div class="text-xl text-white font-bold">幸而大家都很安全，却也受到一些惊吓。</div>
-            <div class="text-lg text-cyan-200 mt-2">Fortunately, they were safe — but they were frightened.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="72">
-            <div class="text-xl text-white font-bold">起先是炸弹声。后来，常常听见街上的枪声。更常听见的，是日军隔海攻击香港的炮声——沉闷的、一声接一声的轰鸣。</div>
-            <div class="text-lg text-cyan-200 mt-2">First came the bombs. Then, often, gunfire in the streets. Most constant of all was the artillery — the dull, rhythmic thunder of Japanese guns shelling Hong Kong from across the harbour.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="73">
-            <div class="text-xl text-white font-bold">那几个星期，几乎全部都在戒严状态下。他们不能、也不想出旅馆。</div>
-            <div class="text-lg text-cyan-200 mt-2">For weeks, the colony was under near-total curfew. They could not leave the hotel; they did not want to.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="74">
-            <div class="text-xl text-white font-bold">旅馆里的食物渐渐吃尽，后来吃的都是罐头。到最后，罐头也几乎吃尽——幸而那时，已经开始解严了。</div>
-            <div class="text-lg text-cyan-200 mt-2">The hotel&#x27;s food ran low, then gave out. They ate canned food. When the cans ran low too — almost empty — the curfew was finally lifted.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="75">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="76">
-            <div class="text-xl text-white font-bold">解严后，父母亲回到家，发现房子并没有被战火损毁。</div>
-            <div class="text-lg text-cyan-200 mt-2">When it was lifted, the boy&#x27;s parents went home to find the house intact — untouched by the fighting.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="77">
-            <div class="text-xl text-white font-bold">但在英军已撤出、日军尚未入驻九龙的间隙，家中已被歹徒抢劫过了。寄居在家里的亲戚和留家的女佣，都饱受惊吓。</div>
-            <div class="text-lg text-cyan-200 mt-2">But in the gap between the British withdrawal and the Japanese occupation, thieves had broken in and ransacked it. The relatives lodging with them and the maid left at home had been badly frightened.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="78">
-            <div class="text-xl text-white font-bold">战争最狰狞的一面，往往不在战场上，而在这些无人看守的缝隙里。</div>
-            <div class="text-lg text-cyan-200 mt-2">War shows its ugliest face not always on the battlefield, but in the unguarded gaps.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="79">
-            <div class="text-xl text-white font-bold">【主叙述者 · 背景光】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator, background light]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="80">
-            <div class="text-xl text-white font-bold">那一年，香港这座不足百万人口的城市，几乎一夜之间被拖进了世界战争。日本在偷袭珍珠港的数小时内便进攻香港——太平洋战争的第一场战役，就发生在这座城市。加拿大派来了援军，与驻港英军并肩作战；他们坚守了十八天，终究敌不过压倒性的火力。</div>
-            <div class="text-lg text-cyan-200 mt-2">That year, this city of under a million people was dragged, almost overnight, into a world war. Within hours of the attack on Pearl Harbor, Japan struck Hong Kong — the first battle of the Pacific War was fought in this city. Canadian reinforcements had arrived to fight beside the British garrison; they held out for eighteen days, and were finally overwhelmed by overwhelming firepower.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="81">
-            <div class="text-xl text-white font-bold">十八天。对一个十岁的男孩来说，那是从考试被取消，到全家躲进旅馆，再到听见投降消息的十八天。</div>
-            <div class="text-lg text-cyan-200 mt-2">Eighteen days. To a ten-year-old boy, they were the eighteen days from a cancelled exam, to hiding in a hotel, to hearing of the surrender.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="82">
-            <div class="text-xl text-white font-bold">而对这座城市来说，那是自由时代的最后十八天。</div>
-            <div class="text-lg text-cyan-200 mt-2">To the city, they were the last eighteen days of an era of freedom.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="83">
-            <div class="text-xl text-white font-bold">## 第四幕 · 日据的一年，与小学毕业</div>
-            <div class="text-lg text-cyan-200 mt-2">## Act Four · The Year of Occupation, and Graduation</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="84">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="85">
-            <div class="text-xl text-white font-bold">香港，进入了日据时期。这一年，男孩十一岁。</div>
-            <div class="text-lg text-cyan-200 mt-2">Hong Kong entered the years of Japanese occupation. The boy was eleven.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="86">
-            <div class="text-xl text-white font-bold">市面渐渐恢复了一些，但占领的迹象到处皆是。市内重要地点，都有日本哨兵站岗，经过的路人，都要向他们鞠躬。</div>
-            <div class="text-lg text-cyan-200 mt-2">The streets slowly returned to something like business — but the signs of occupation were everywhere. At every important intersection stood Japanese sentries, and passersby were required to bow to them.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="87">
-            <div class="text-xl text-white font-bold">男孩就读的小学里，忽然多了好几位亲日的教师。他们一有机会，就对学生讲：英美兵如何只知道喝酒享受，一听见枪声就立刻向后逃。</div>
-            <div class="text-lg text-cyan-200 mt-2">At the boy&#x27;s school, several pro-Japanese teachers suddenly appeared. Whenever they had the chance, they told the students how the British and American soldiers only knew how to drink and enjoy themselves — how they turned and ran at the first sound of gunfire.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="88">
-            <div class="text-xl text-white font-bold">父亲在新政权的管制下继续工作，更有难言的感受——一个在银行界干了一辈子的宁波人，在占领军的眼皮底下维持一家生计，每一分体面，都是忍出来的。</div>
-            <div class="text-lg text-cyan-200 mt-2">His father continued working under the new regime — a Ningbo banker in his prime, holding the family together under the eyes of the occupying army. Every shred of dignity had to be endured, day by day.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="89">
-            <div class="text-xl text-white font-bold">【主叙述者 · 感慨】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator, with feeling]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="90">
-            <div class="text-xl text-white font-bold">就是在这样的一年里，男孩小学毕业了。</div>
-            <div class="text-lg text-cyan-200 mt-2">And in that year, the boy graduated from primary school.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="91">
-            <div class="text-xl text-white font-bold">毕业典礼上，他穿着干净的校服，和同学们站在一起。</div>
-            <div class="text-lg text-cyan-200 mt-2">He stood at the ceremony in a clean school uniform, with his classmates.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="92">
-            <div class="text-xl text-white font-bold">典礼之外的世界，是哨兵、是鞠躬、是亲日的教师、是满城压抑的气氛。但男孩在典礼上拿到的，是一张平平常常的小学毕业证书——那是一个孩子，在乱世里能够完成的最朴素、也最郑重的一件事。</div>
-            <div class="text-lg text-cyan-200 mt-2">Outside the ceremony hall: sentries, bowing, pro-Japanese teachers, the weight of an occupied city. But what the boy took home from that ceremony was an ordinary primary-school certificate — the simplest, most solemn thing a child could accomplish in a world turned upside down.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="93">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="94">
-            <div class="text-xl text-white font-bold">回想这五年香港生活，男孩记住了很多东西：</div>
-            <div class="text-lg text-cyan-200 mt-2">Looking back on those five years in Hong Kong, the boy kept many things:</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="95">
-            <div class="text-xl text-white font-bold">他记住了珠江边逃难的那个下午。他记住了山顶的风、浅水湾的浪。他记住了《儿童文库》里一百多个故事。他记住了九龙酒店里空掉的罐头。他记住了毕业典礼上，校长念到他名字时，母亲眼里亮了一下。</div>
-            <div class="text-lg text-cyan-200 mt-2">He remembered that afternoon of fleeing at the Pearl River docks. He remembered the wind on the Peak and the waves at Repulse Bay. He remembered the hundred-odd stories in the Children&#x27;s Library. He remembered the empty cans in the Kowloon Hotel. He remembered, at the graduation ceremony, the moment the headmaster read out his name — and the light that came into his mother&#x27;s eyes.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="96">
-            <div class="text-xl text-white font-bold">一个孩子在乱世里能记住的，往往不是历史的宏大叙事，而是这些具体的、细小的、属于他自己的瞬间。</div>
-            <div class="text-lg text-cyan-200 mt-2">What a child in a chaotic world remembers is rarely the grand narrative of history. It is these concrete, small, private moments.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="97">
-            <div class="text-xl text-white font-bold">而这些瞬间，后来都成了他生命里最坚固的地基。</div>
-            <div class="text-lg text-cyan-200 mt-2">And those moments later became the most solid foundation of his life.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="98">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="99">
-            <div class="text-xl text-white font-bold">1942年底，男孩全家乘船离开香港，前往上海。</div>
-            <div class="text-lg text-cyan-200 mt-2">At the end of 1942, the family boarded a ship and left Hong Kong for Shanghai.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="100">
-            <div class="text-xl text-white font-bold">在沦陷的香港住了五年多，他要离开了。</div>
-            <div class="text-lg text-cyan-200 mt-2">After more than five years in occupied Hong Kong, he was leaving.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="101">
-            <div class="text-xl text-white font-bold">临行前，他回头看了看这座城市。五年，他在这里读完了小学，读完了整架《儿童文库》，看遍了山顶和浅水湾的四季。这座世外桃源，终究还是被战争的潮水淹没了。</div>
-            <div class="text-lg text-cyan-200 mt-2">Before he went, he turned and looked back at the city. Five years — here he had finished primary school, read the whole shelf of the Children&#x27;s Library, and watched the four seasons pass over the Peak and Repulse Bay. The haven had been drowned, in the end, by the tide of war.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="102">
-            <div class="text-xl text-white font-bold">他后来把这段经历记了一辈子：一个孩子的记忆里，战争不是历史，是一张张搬家的船票。</div>
-            <div class="text-lg text-cyan-200 mt-2">He remembered this period his whole life: in a child&#x27;s memory, war is not history — it is a series of boat tickets.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="103">
-            <div class="text-xl text-white font-bold">广州，是第一次。香港，是第二次。</div>
-            <div class="text-lg text-cyan-200 mt-2">Guangzhou was the first. Hong Kong was the second.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="104">
-            <div class="text-xl text-white font-bold">而这张船票，只是整个时代的开始。</div>
-            <div class="text-lg text-cyan-200 mt-2">And this ticket was only the beginning of the era.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="105">
-            <div class="text-xl text-white font-bold">在船上，男孩不会想到，这趟去上海的路，会在他的记忆里留下一个悬念：上海只住了三个月，然后，父亲做了一个大胆的决定——穿越战线，西去重庆。那是一条要走五十多天的路，要穿过沦陷区与自由区的边界，每一步都有风险。</div>
-            <div class="text-lg text-cyan-200 mt-2">On board the ship, the boy could not have imagined that this journey to Shanghai would hold a surprise: Shanghai for only three months, and then his father would make a bold decision — cross the front lines, and head west to Chongqing. A journey of more than fifty days, across the boundary between occupied and free territory, every step a risk.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="106">
-            <div class="text-xl text-white font-bold">但那是下一个故事了。此刻，船正离开香港，男孩站在甲板上，看着这座城市在视野里慢慢变小。</div>
-            <div class="text-lg text-cyan-200 mt-2">But that is the next story. For now, the ship was leaving Hong Kong, and the boy stood on the deck, watching the city grow small in the distance.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="107">
-            <div class="text-xl text-white font-bold">## 尾声 · 平行视角</div>
-            <div class="text-lg text-cyan-200 mt-2">## Epilogue · A Parallel View</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="108">
-            <div class="text-xl text-white font-bold">【主叙述者 · 安静，放慢】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator, quiet, slower]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="109">
-            <div class="text-xl text-white font-bold">让我们停下来，看看这个孩子已经走过的路。</div>
-            <div class="text-lg text-cyan-200 mt-2">Let us pause, and look at what this child has already lived through.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="110">
-            <div class="text-xl text-white font-bold">五岁，广州。六岁到十一岁，香港。战争的巨轮碾过两个城市，每一次，都是大人牵着他的手，匆匆登船。</div>
-            <div class="text-lg text-cyan-200 mt-2">Age five, Guangzhou. Age six to eleven, Hong Kong. The wheels of war ground over two cities — and each time, it was adults taking him by the hand and hurrying onto a boat.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="111">
-            <div class="text-xl text-white font-bold">他什么都不能决定。他只是一个被时代推着走的孩子。</div>
-            <div class="text-lg text-cyan-200 mt-2">He could decide nothing. He was a child being pushed by the era.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="112">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="113">
-            <div class="text-xl text-white font-bold">但请注意——在这段被动的童年里，有三样东西，是他自己长出来的。</div>
-            <div class="text-lg text-cyan-200 mt-2">But notice — through all that passivity, three things grew of their own accord.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="114">
-            <div class="text-xl text-white font-bold">第一样，是书。身体弱，不能跑跳，他就读书。一套《儿童文库》，他读完了整个书架。没有人逼他，他是真的喜欢。这个习惯，跟他走了一生。</div>
-            <div class="text-lg text-cyan-200 mt-2">The first was books. Too frail to run and jump, he read. One set of the Children&#x27;s Library — he finished the whole shelf. Nobody forced him; he simply loved it. The habit walked with him all his life.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="115">
-            <div class="text-xl text-white font-bold">第二样，是观察。他见过广州的天空、香港的港口、浅水湾的沙滩，也见过戒严的旅馆、空空的罐头、被抢劫的家。他学会了在动荡里看，也学会了在动荡里记。</div>
-            <div class="text-lg text-cyan-200 mt-2">The second was observation. He had seen the sky over Guangzhou, the harbour of Hong Kong, the sands of Repulse Bay — and also the curfewed hotel, the empty cans, the ransacked house. He learned to look in turbulence, and to remember in turbulence.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="116">
-            <div class="text-xl text-white font-bold">第三样，是根。无论搬到哪个城市，他始终是一个读书的孩子，一个宁波商帮家庭的孩子。时代可以夺走他的家，夺不走他是谁。</div>
-            <div class="text-lg text-cyan-200 mt-2">The third was roots. Whatever city he landed in, he was still a reading child, the son of a Ningbo merchant family. The era could take his home. It could not take who he was.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="117">
-            <div class="text-xl text-white font-bold">【主叙述者 · 感慨】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator, with feeling]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="118">
-            <div class="text-xl text-white font-bold">多年以后，有人问他：你这一生最钦佩的品质是什么？</div>
-            <div class="text-lg text-cyan-200 mt-2">Years later, people asked him: what quality do you most admire?</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="119">
-            <div class="text-xl text-white font-bold">他谈过很多——诚信、坚持、创新。但如果我们回到1941年那个躲在九龙酒店里的十岁男孩，答案其实很早就写下了：</div>
-            <div class="text-lg text-cyan-200 mt-2">He spoke of many things — integrity, persistence, innovation. But if we go back to that ten-year-old hiding in the Kowloon Hotel in 1941, the answer was written long ago:</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="120">
-            <div class="text-xl text-white font-bold">**时代可以推着你走，但走成什么样，从来是你自己的事。**</div>
-            <div class="text-lg text-cyan-200 mt-2">**The era may push you — but what you become is always your own doing.**</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="121">
-            <div class="text-xl text-white font-bold">那个在轰炸里跟着母亲登船的孩子，后来成了全球半导体的教父。</div>
-            <div class="text-lg text-cyan-200 mt-2">The child who followed his mother onto a boat under the bombs became the godfather of the world&#x27;s semiconductors.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="122">
-            <div class="text-xl text-white font-bold">我们常说，时势造英雄。但时势只是把无数人推到同一个码头，登不登船、在船上读不读书、被时代推到异乡之后，是沉下去还是重新长出根来——这些，从来不是时代替他决定的。</div>
-            <div class="text-lg text-cyan-200 mt-2">We say that times make heroes. But the times only push countless people to the same pier. Whether to board the boat, whether to keep reading on it, whether — after being carried to a foreign land — to sink or to grow roots again — none of that is decided by the era.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="123">
-            <div class="text-xl text-white font-bold">五岁的他，被母亲牵着走上船，是时代的安排。</div>
-            <div class="text-lg text-cyan-200 mt-2">That a five-year-old was led by his mother onto a ship was the era&#x27;s arrangement.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="124">
-            <div class="text-xl text-white font-bold">而他在船上、在异乡、在每一次颠沛流离之后，继续读书、继续观察、继续往前走——那是他自己的选择。</div>
-            <div class="text-lg text-cyan-200 mt-2">That he kept reading, kept observing, kept walking, through every upheaval — that was his own choice.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="125">
-            <div class="text-xl text-white font-bold">他不是没有害怕过。他只是在每一次害怕之后，都继续往前走了。</div>
-            <div class="text-lg text-cyan-200 mt-2">He was not without fear. He simply kept walking, after every fear.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="126">
-            <div class="text-xl text-white font-bold">多年以后，他站在世界的舞台上，回望这一切，只淡淡地说了一句：那都是我的青春。</div>
-            <div class="text-lg text-cyan-200 mt-2">Years later, standing on the world&#x27;s stage, looking back on all of it, he would say only, quietly: that was my youth.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="127">
-            <div class="text-xl text-white font-bold">## 知识延伸 · 本期历史背景卡</div>
-            <div class="text-lg text-cyan-200 mt-2">## Knowledge Card · Historical Background of This Episode</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="128">
-            <div class="text-xl text-white font-bold">（以下为公开资料核实的史实，供听众参考）</div>
-            <div class="text-lg text-cyan-200 mt-2">(Verified public facts, for the listener&#x27;s reference)</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="129">
-            <div class="text-xl text-white font-bold">1. **广州大轰炸（1937–1938）**：1937 年 10 月起，日本飞机开始空袭广州；1938 年 5–6 月轰炸加剧，城市大片沦为废墟，平民伤亡惨重。</div>
-            <div class="text-lg text-cyan-200 mt-2">1. **The Bombing of Guangzhou (1937–1938)**: From October 1937, Japanese aircraft raided Guangzhou; bombing intensified from May–June 1938, reducing large parts of the city to ruins with heavy civilian casualties.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="130">
-            <div class="text-xl text-white font-bold">2. **广州沦陷**：1938 年 10 月，日军攻占广州。</div>
-            <div class="text-lg text-cyan-200 mt-2">2. **The Fall of Guangzhou**: Japanese forces captured Guangzhou in October 1938.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="131">
-            <div class="text-xl text-white font-bold">3. **珍珠港事变（1941.12.7）**：日本偷袭美国珍珠港，太平洋战争爆发，美国随后对日宣战。</div>
-            <div class="text-lg text-cyan-200 mt-2">3. **The Attack on Pearl Harbor (December 7, 1941)**: Japan&#x27;s surprise attack on the U.S. Pacific Fleet brought the United States into World War II.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="132">
-            <div class="text-xl text-white font-bold">4. **香港保卫战（1941.12.8–12.25）**：珍珠港事变数小时后，日军入侵香港；九龙于 12 月 12 日失守；12 月 25 日圣诞夜，港督杨慕琦宣布投降，香港进入日据时期（1941–1945）。</div>
-            <div class="text-lg text-cyan-200 mt-2">4. **The Battle of Hong Kong (December 8–25, 1941)**: Hours after Pearl Harbor, Japanese forces invaded Hong Kong. Kowloon fell on December 12; on Christmas Day, Governor Mark Young surrendered. Hong Kong was occupied until 1945.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="133">
-            <div class="text-xl text-white font-bold">5. **香港日据时期**：占领期间市民须向哨兵鞠躬；英军撤出至日军入驻的间隙，九龙等地一度治安失控、抢劫频发。</div>
-            <div class="text-lg text-cyan-200 mt-2">5. **The Japanese Occupation of Hong Kong**: Residents were required to bow to sentries; in the gap between British withdrawal and Japanese entry, Kowloon briefly saw looting and lawlessness.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="134">
-            <div class="text-xl text-white font-bold">6. **宁波帮**：中国近代最著名的商帮之一，以经营钱庄、航运和实业闻名，足迹遍布上海、香港及海外。</div>
-            <div class="text-lg text-cyan-200 mt-2">6. **The Ningbo Guild**: One of modern China&#x27;s most famous merchant groups, known for money shops, shipping, and industry, with networks across Shanghai, Hong Kong, and overseas.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="135">
-            <div class="text-xl text-white font-bold">7. **传主童年**：1936 迁广州、1937 迁香港、1941–42 经历香港保卫战与日据、1942 香港小学毕业（依据公开传记资料）。</div>
-            <div class="text-lg text-cyan-200 mt-2">7. **The Founder&#x27;s Childhood**: Moved to Guangzhou in 1936, to Hong Kong in 1937; experienced the Battle of Hong Kong and occupation in 1941–42; graduated primary school in Hong Kong in 1942 (per public biography).</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="136">
-            <div class="text-xl text-white font-bold">## 下期预告</div>
-            <div class="text-lg text-cyan-200 mt-2">## Next Episode Preview</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="137">
-            <div class="text-xl text-white font-bold">【主叙述者】</div>
-            <div class="text-lg text-cyan-200 mt-2">[Main narrator]</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="138">
-            <div class="text-xl text-white font-bold">1942年底，男孩到了上海。</div>
-            <div class="text-lg text-cyan-200 mt-2">At the end of 1942, the boy arrived in Shanghai.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="139">
-            <div class="text-xl text-white font-bold">他在上海只住了三个月，过完旧历年，又随父母踏上了西去重庆的旅程——那是一次穿越战线的冒险之旅，走了五十多天。</div>
-            <div class="text-lg text-cyan-200 mt-2">He stayed only three months — just long enough for the Lunar New Year with relatives — before setting out with his parents on the long road west to Chongqing. It was a journey across the front lines, more than fifty days on the road.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="140">
-            <div class="text-xl text-white font-bold">而重庆，等着他的，是一所叫南开的学校，和一句改变他一生的话。</div>
-            <div class="text-lg text-cyan-200 mt-2">And in Chongqing, waiting for him, were a school called Nankai — and a sentence that would change his life.</div>
-        </div>
-        <div class="lyric-line snap-center opacity-40 transition-all duration-500 cursor-pointer py-4" data-index="141">
-            <div class="text-xl text-white font-bold">下期，《考不进去的南开 &amp; 作家梦》：一个少年，如何在乱世里亲手推开人生的第一扇门。</div>
-            <div class="text-lg text-cyan-200 mt-2">Next episode, &quot;The School He Couldn&#x27;t Get Into, and the Dream That Couldn&#x27;t Feed Him&quot;: how a boy in a shattered world pushed open the first door of his life with his own hands.</div>
-        </div>
-    </div>
+    <!-- Global Sticky Glass Navbar -->
+    <header class="sticky top-0 z-50 w-full glass-panel border-b border-white/10 px-4 sm:px-8 py-3.5 flex items-center justify-between shadow-2xl">
+        <a href="index.html" class="flex items-center gap-3 group">
+            <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-500 via-amber-600 to-cyan-600 p-[1.5px] shadow-lg shadow-amber-500/20 group-hover:scale-105 transition">
+                <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+                    <span class="font-cinzel text-amber-400 font-bold text-base">TS</span>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="flex items-center gap-2">
+                    <span class="font-serif-sc font-bold text-sm sm:text-base text-slate-100 tracking-wide group-hover:text-amber-300 transition">台积电张忠谋</span>
+                    <span class="text-xs px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30 font-mono">平行世界</span>
+                </div>
+                <span class="text-[10px] text-slate-400 font-mono tracking-wider hidden sm:block">AIGC PARALLEL BIOGRAPHY · 18 EPISODES</span>
+            </div>
+        </a>
 
-    <!-- Audio Player -->
-    <div class="fixed bottom-0 w-full mb-8 flex justify-center pb-6 bg-gradient-to-t from-black to-transparent pt-12 pointer-events-none">
-        <audio id="player" controls class="w-full max-w-xl opacity-90 hover:opacity-100 transition shadow-2xl rounded-full pointer-events-auto">
-            <source src="./试听/01_逃难的孩子_中文.mp3" type="audio/mpeg">
-        </audio>
-    </div>
+        <!-- Middle Quick Anchor Links -->
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
+            <a href="#player-section" class="hover:text-amber-400 flex items-center gap-1.5 transition">
+                <span class="text-xs">🎧</span> 试听播放器
+            </a>
+            <a href="#article-section" class="hover:text-amber-400 flex items-center gap-1.5 transition">
+                <span class="text-xs">📖</span> 全文双语阅读
+            </a>
+            <a href="#cards-section" class="hover:text-amber-400 flex items-center gap-1.5 transition">
+                <span class="text-xs">🎴</span> 商业英语卡片
+            </a>
+            <a href="index.html#episodes" class="hover:text-cyan-400 flex items-center gap-1.5 transition">
+                <span class="text-xs">🗺️</span> 剧集总览
+            </a>
+        </nav>
 
+        <!-- Right Action Badge -->
+        <div class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-500/20 to-cyan-500/20 hover:from-amber-500/30 hover:to-cyan-500/30 border border-amber-400/40 text-amber-300 text-xs sm:text-sm font-medium transition shadow-sm hover:shadow-amber-500/20">
+                <span>🚀</span>
+                <span>ReadShift 母项目</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-16">
+
+        <!-- Hero Title & Cover Poster -->
+        <section class="relative rounded-3xl overflow-hidden glass-card p-6 sm:p-10 border border-amber-500/20 shadow-2xl">
+            <div class="absolute -right-20 -top-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -left-20 -bottom-20 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="relative z-10 flex flex-col md:flex-row gap-8 items-center justify-between">
+                <div class="space-y-4 max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-mono tracking-wider">
+                        <span>EPISODE 01 · 1937–1942 · 童年篇</span>
+                    </div>
+                    <h1 class="text-3xl sm:text-5xl font-serif-sc font-black text-slate-100 tracking-tight leading-tight">
+                        第 01 期：<span class="bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-amber-400 to-amber-100">逃难的孩子</span>
+                    </h1>
+                    <p class="font-serif-en italic text-cyan-300/90 text-lg sm:text-xl">
+                        The Child Who Fled (1937–1942)
+                    </p>
+                    <div class="p-4 rounded-xl bg-slate-900/80 border-l-4 border-amber-500 text-sm sm:text-base leading-relaxed space-y-1.5">
+                        <p class="font-serif-sc text-slate-200">
+                            一个孩子的记忆里，战争不是历史，是一张张搬家的船票。——时代推着人走，人在时代里长出自己的根。
+                        </p>
+                        <p class="font-serif-en italic text-xs sm:text-sm text-slate-400">
+                            "In a child's memory, war is not history — it is a series of boat tickets. The era pushes a person; the person grows roots of their own."
+                        </p>
+                    </div>
+                    <!-- Meta Chips -->
+                    <div class="flex flex-wrap gap-2.5 pt-2 text-xs text-slate-400 font-medium">
+                        <span class="px-3 py-1 rounded-lg bg-slate-800/80 border border-white/5 flex items-center gap-1.5">
+                            ⏱ 目标时长：20 分钟
+                        </span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800/80 border border-white/5 flex items-center gap-1.5 text-cyan-300">
+                            🎙️ 双语沉浸原声 (中 / 英)
+                        </span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800/80 border border-white/5 flex items-center gap-1.5 text-amber-300">
+                            📍 广州 ➔ 香港 ➔ 珠江码头
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Poster Artwork Card -->
+                <div class="w-full sm:w-64 h-80 rounded-2xl bg-gradient-to-b from-slate-800 to-slate-950 border border-amber-500/30 p-4 flex flex-col justify-between shadow-2xl relative overflow-hidden group">
+                    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/20 via-transparent to-transparent"></div>
+                    <div class="relative z-10 flex justify-between items-start">
+                        <span class="text-[11px] font-mono tracking-widest text-amber-400/80 uppercase">TSMC Parallel</span>
+                        <span class="text-[10px] px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-mono">1937-1942</span>
+                    </div>
+                    <div class="relative z-10 text-center my-auto space-y-2">
+                        <div class="w-16 h-16 mx-auto rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-2xl shadow-inner group-hover:scale-110 transition duration-500">
+                            🚢
+                        </div>
+                        <div class="font-serif-sc font-bold text-xl text-slate-100">广州 · 香港</div>
+                        <div class="font-serif-en italic text-xs text-amber-300/80">The Boat Ticket to Survival</div>
+                    </div>
+                    <div class="relative z-10 border-t border-white/10 pt-3 flex justify-between items-center text-[11px] text-slate-400">
+                        <span>第 01 期 / 共 18 期</span>
+                        <span class="text-emerald-400 flex items-center gap-1">● 可试听</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Area 1: 🎧 沉浸式双语字幕音频播放器 -->
+        <section id="player-section" class="glass-panel rounded-3xl p-6 sm:p-8 border border-amber-500/30 shadow-2xl space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 pb-5">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-lg text-amber-400">
+                        🎧
+                    </div>
+                    <div>
+                        <h2 class="text-xl sm:text-2xl font-serif-sc font-bold text-slate-100 flex items-center gap-2">
+                            沉浸式双语字幕音频播放器
+                        </h2>
+                        <p class="text-xs text-slate-400">Interactive Audio Player & Synced Subtitles Viewport</p>
+                    </div>
+                </div>
+
+                <!-- Audio Track Selector & Voice Toggle -->
+                <div class="flex flex-wrap items-center gap-2">
+                    <button id="track-zh-a" onclick="switchTrack('zh-a')" class="track-btn active px-3.5 py-1.5 rounded-full text-xs font-semibold bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20 transition flex items-center gap-1.5">
+                        <span>🇨🇳</span> 中文原声 (云健)
+                    </button>
+                    <button id="track-zh-b" onclick="switchTrack('zh-b')" class="track-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition flex items-center gap-1.5">
+                        <span>🇨🇳</span> 中文备选 (云希)
+                    </button>
+                    <button id="track-en-a" onclick="switchTrack('en-a')" class="track-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition flex items-center gap-1.5">
+                        <span>🇺🇸</span> English (Christopher)
+                    </button>
+                    <button id="track-en-b" onclick="switchTrack('en-b')" class="track-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition flex items-center gap-1.5">
+                        <span>🇺🇸</span> English (Aria)
+                    </button>
+                </div>
+            </div>
+
+            <!-- Main Audio Element (Hidden backend) -->
+            <audio id="audio-engine" preload="metadata">
+                <source id="audio-source" src="./试听/中文A_云健Yunjian.mp3" type="audio/mpeg">
+                您的浏览器不支持 HTML5 音频播放器。
+            </audio>
+
+            <!-- Subtitle Teleprompter Box -->
+            <div class="relative bg-slate-950/80 rounded-2xl border border-white/10 p-4 sm:p-6 overflow-hidden">
+                <div class="absolute top-3 right-3 text-[11px] font-mono text-slate-400 bg-slate-900/90 px-2.5 py-1 rounded-md border border-white/5 z-10 flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>双语实时同步 · 点击句子即时跳转</span>
+                </div>
+
+                <!-- Subtitles List -->
+                <div id="subtitles-container" class="custom-scroll max-h-72 overflow-y-auto space-y-3 pr-2 py-4 scroll-smooth">
+                    
+                    <!-- Sentence 1: 0s - 7s -->
+                    <div class="subtitle-line active p-4 rounded-xl cursor-pointer transition duration-300 border border-transparent hover:border-amber-500/30" data-start="0" data-end="7" onclick="seekAudio(0)">
+                        <div class="flex items-start justify-between gap-4">
+                            <div class="space-y-1">
+                                <p class="zh-text text-base sm:text-lg font-serif-sc font-bold text-amber-300">
+                                    一九九八年，亚洲金融风暴的余波未平，全球半导体业跌进近三十年最冷的冬天。
+                                </p>
+                                <p class="en-text text-xs sm:text-sm font-serif-en italic text-cyan-300/80">
+                                    In 1998, the aftershocks of the Asian financial crisis still lingered, and the global semiconductor industry had fallen into its coldest winter in nearly three decades.
+                                </p>
+                            </div>
+                            <span class="text-[11px] font-mono text-slate-400 shrink-0 mt-1">00:00</span>
+                        </div>
+                    </div>
+
+                    <!-- Sentence 2: 7s - 12s -->
+                    <div class="subtitle-line opacity-50 p-4 rounded-xl cursor-pointer transition duration-300 border border-transparent hover:border-amber-500/30" data-start="7" data-end="12" onclick="seekAudio(7)">
+                        <div class="flex items-start justify-between gap-4">
+                            <div class="space-y-1">
+                                <p class="zh-text text-base sm:text-lg font-serif-sc font-bold text-slate-200">
+                                    同行们忙着裁员、关厂、收缩战线。
+                                </p>
+                                <p class="en-text text-xs sm:text-sm font-serif-en italic text-slate-400">
+                                    Rivals were cutting staff, closing plants, retreating.
+                                </p>
+                            </div>
+                            <span class="text-[11px] font-mono text-slate-400 shrink-0 mt-1">00:07</span>
+                        </div>
+                    </div>
+
+                    <!-- Sentence 3: 12s - 19s -->
+                    <div class="subtitle-line opacity-50 p-4 rounded-xl cursor-pointer transition duration-300 border border-transparent hover:border-amber-500/30" data-start="12" data-end="19" onclick="seekAudio(12)">
+                        <div class="flex items-start justify-between gap-4">
+                            <div class="space-y-1">
+                                <p class="zh-text text-base sm:text-lg font-serif-sc font-bold text-slate-200">
+                                    只有一位七十岁的老人反其道而行——他加码研发，他逆势扩产。
+                                </p>
+                                <p class="en-text text-xs sm:text-sm font-serif-en italic text-slate-400">
+                                    One seventy-year-old man moved the other way. He doubled down on research. He expanded into the downturn.
+                                </p>
+                            </div>
+                            <span class="text-[11px] font-mono text-slate-400 shrink-0 mt-1">00:12</span>
+                        </div>
+                    </div>
+
+                    <!-- Sentence 4: 19s - 24s -->
+                    <div class="subtitle-line opacity-50 p-4 rounded-xl cursor-pointer transition duration-300 border border-transparent hover:border-amber-500/30" data-start="19" data-end="24" onclick="seekAudio(19)">
+                        <div class="flex items-start justify-between gap-4">
+                            <div class="space-y-1">
+                                <p class="zh-text text-base sm:text-lg font-serif-sc font-bold text-slate-200">
+                                    他说：不景气，是挖人才最好的时候。
+                                </p>
+                                <p class="en-text text-xs sm:text-sm font-serif-en italic text-slate-400">
+                                    "A recession," he said, "is the best time to hire talent."
+                                </p>
+                            </div>
+                            <span class="text-[11px] font-mono text-slate-400 shrink-0 mt-1">00:19</span>
+                        </div>
+                    </div>
+
+                    <!-- Sentence 5: 24s - 32s -->
+                    <div class="subtitle-line opacity-50 p-4 rounded-xl cursor-pointer transition duration-300 border border-transparent hover:border-amber-500/30" data-start="24" data-end="32" onclick="seekAudio(24)">
+                        <div class="flex items-start justify-between gap-4">
+                            <div class="space-y-1">
+                                <p class="zh-text text-base sm:text-lg font-serif-sc font-bold text-slate-200">
+                                    这个人叫张忠谋，这家公司，叫台积电。这是他的下半场。
+                                </p>
+                                <p class="en-text text-xs sm:text-sm font-serif-en italic text-slate-400">
+                                    His name is Morris Chang. His company is TSMC. This is the story of his second act.
+                                </p>
+                            </div>
+                            <span class="text-[11px] font-mono text-slate-400 shrink-0 mt-1">00:24</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Custom Player Control Bar -->
+            <div class="p-4 rounded-2xl bg-slate-900/90 border border-white/10 space-y-3">
+                <!-- Timeline & Progress Slider -->
+                <div class="space-y-1">
+                    <input type="range" id="seek-bar" value="0" max="32" step="0.1" class="w-full">
+                    <div class="flex justify-between text-xs font-mono text-slate-400 px-1">
+                        <span id="current-time-text">00:00</span>
+                        <span id="current-track-label" class="text-amber-400/90 font-sans font-medium">🇨🇳 中文原声 (云健)</span>
+                        <span id="total-duration-text">00:32</span>
+                    </div>
+                </div>
+
+                <!-- Buttons Row -->
+                <div class="flex flex-wrap items-center justify-between gap-4 pt-1">
+                    <!-- Left: Play/Pause and Seek Rewind/Forward -->
+                    <div class="flex items-center gap-3">
+                        <button onclick="skipTime(-5)" title="后退 5 秒" class="p-2 rounded-full hover:bg-slate-800 text-slate-300 hover:text-white transition">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.334 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z"></path></svg>
+                        </button>
+                        
+                        <button id="play-pause-btn" onclick="togglePlay()" class="w-12 h-12 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 flex items-center justify-center shadow-lg shadow-amber-500/30 hover:scale-105 active:scale-95 transition">
+                            <svg id="play-icon" class="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                            <svg id="pause-icon" class="w-6 h-6 hidden" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                        </button>
+
+                        <button onclick="skipTime(5)" title="前进 5 秒" class="p-2 rounded-full hover:bg-slate-800 text-slate-300 hover:text-white transition">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.934 12.8a1 1 0 000-1.6l-5.334-4A1 1 0 005 8v8a1 1 0 001.6.8l5.334-4zM19.934 12.8a1 1 0 000-1.6l-5.334-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.334-4z"></path></svg>
+                        </button>
+                    </div>
+
+                    <!-- Right Controls: Speed, Volume -->
+                    <div class="flex items-center gap-4">
+                        <!-- Playback Rate -->
+                        <div class="flex items-center gap-1 bg-slate-800/80 p-1 rounded-lg border border-white/5 text-xs">
+                            <button onclick="setSpeed(1.0)" class="speed-btn active px-2 py-0.5 rounded bg-amber-500 text-slate-950 font-bold">1.0x</button>
+                            <button onclick="setSpeed(1.25)" class="speed-btn px-2 py-0.5 rounded text-slate-300 hover:text-white">1.25x</button>
+                            <button onclick="setSpeed(1.5)" class="speed-btn px-2 py-0.5 rounded text-slate-300 hover:text-white">1.5x</button>
+                        </div>
+
+                        <!-- Volume -->
+                        <div class="hidden sm:flex items-center gap-2 text-slate-400">
+                            <button onclick="toggleMute()" id="mute-btn" class="hover:text-white">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                            </button>
+                            <input type="range" id="volume-bar" min="0" max="1" step="0.05" value="1" class="w-16">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Area 2: 📖 全篇图文沉浸阅读区 (Full Natural Scrolling Article) -->
+        <section id="article-section" class="space-y-12 pt-6 border-t border-white/10">
+            
+            <div class="text-center space-y-3">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono">
+                    <span>📖 FULL BILINGUAL SCRIPT</span>
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-serif-sc font-black text-slate-100">
+                    全篇图文沉浸阅读
+                </h2>
+                <p class="text-slate-400 text-sm max-w-xl mx-auto">
+                    基于公开史实原创重构 · 还原张忠谋从广州到香港的童年避难岁月
+                </p>
+            </div>
+
+            <!-- Article Content Articles -->
+            <article class="glass-card rounded-3xl p-6 sm:p-10 border border-white/10 space-y-10">
+
+                <!-- Section: Opening -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3 border-b border-amber-500/20 pb-3">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">00</span>
+                        <h3 class="text-2xl font-serif-sc font-bold text-slate-100">开场</h3>
+                        <span class="font-serif-en italic text-sm text-slate-400">Opening</span>
+                    </div>
+
+                    <!-- Sound Effect Note -->
+                    <div class="p-4 rounded-xl bg-slate-900/60 border border-cyan-500/30 text-cyan-300 text-xs sm:text-sm font-mono flex items-center gap-2">
+                        <span>🔊</span>
+                        <span>【音效：远处传来低沉的防空警报，渐渐拉近，又渐渐远去】</span>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                1937年，广州。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                Guangzhou, 1937.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                五岁的男孩被母亲紧紧牵着手，随着人流往码头跑。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                A five-year-old boy, his hand tightly held by his mother, runs with the crowd toward the pier.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                他不太明白发生了什么。他只知道，天上最近常常出现奇怪的声音——像一只巨大的铁鸟，在云层里嗡嗡作响。然后，是爆炸。大人们说，那叫轰炸。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                He doesn't quite understand what is happening. He only knows that lately, strange sounds have been coming from the sky — like a giant iron bird, droning in the clouds. And then, explosions. The adults call it bombing.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                男孩回头看了一眼身后的城市，又看了一眼母亲。母亲没有说话，只是把他抱得更紧了些。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                The boy glances back at the city, then up at his mother. She says nothing. She only holds him tighter.
+                            </p>
+                        </div>
+
+                        <!-- Narrator Quote Box -->
+                        <div class="p-5 rounded-2xl bg-gradient-to-r from-amber-500/10 via-slate-900 to-slate-900 border-l-4 border-amber-500 space-y-3">
+                            <div class="text-xs font-mono text-amber-400 font-bold uppercase tracking-wider">【主叙述者】</div>
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-100 leading-relaxed">
+                                很多年后，男孩长成了老人，执掌着全球最大的半导体公司。他早已记不清那次离开的许多细节。但他记得，那天的码头上，到处都是和他一样被大人牵着走的孩子。他说，18岁以前，他逃了三次难，住过六个城市，换了十个学校。而这一切的起点，就是1937年，广州，码头边，那个五岁孩子手里的那张船票。
+                            </p>
+                            <p class="font-serif-en italic text-xs sm:text-sm text-slate-400 leading-relaxed">
+                                Many years later, the boy is an old man, running the largest semiconductor company on earth. He no longer remembers many details of that departure. But he remembers this: that day at the pier, the docks were crowded with children just like him — led by the hand, heading for the boats. He would later write that before he turned eighteen, he fled three times, lived in six cities, and changed ten schools. And it all began here — 1937, Guangzhou, at the pier, with a boat ticket in the hand of a five-year-old.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Act 1 -->
+                <div class="space-y-6 pt-6 border-t border-white/10">
+                    <div class="flex items-center gap-3 border-b border-amber-500/20 pb-3">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">ACT 01</span>
+                        <h3 class="text-2xl font-serif-sc font-bold text-slate-100">第一幕 · 广州，半年</h3>
+                        <span class="font-serif-en italic text-sm text-slate-400">Guangzhou, Six Months</span>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                故事要从更早说起。1931年，男孩出生在浙江宁波。父亲在银行界做事——那是中国近代最有名的商帮之一，宁波帮，世代以经营钱庄、航运和实业闻名，足迹遍布上海、香港乃至海外。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                The story begins earlier. In 1931, the boy was born in Ningbo, Zhejiang province. His father worked in banking — the family belonged to the Ningbo Guild, one of modern China's most famous merchant clans, a people built for centuries on money shops, shipping, and enterprise, with networks stretching across Shanghai, Hong Kong, and overseas.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                男孩五岁那年，父亲升职了，被派到广州做银行经理，全家便迁往广州。那时的广州，是南中国最繁华的港口城市。骑楼下人来人往，珠江上船帆相接，茶楼里一盅两件，从早到晚都有人声。男孩对这个城市的记忆很模糊——他太小了。他只记得，那是一个很热闹的地方。但男孩在广州只住了半年。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                When the boy was five, his father was promoted — sent to Guangzhou as a bank manager. The whole family moved south. Guangzhou in those years was the most bustling port city in southern China. Life moved under the arcaded shopfronts, junks crowded the Pearl River, and teahouses hummed from morning till night. The boy's memories of the city are vague — he was very young. He only remembers that it was a very lively place. But the boy lived in Guangzhou for only six months.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                1937年7月，卢沟桥事变，全面抗战爆发。战火一路向南蔓延。从这一年的10月起，日本飞机开始空袭广州——起初是试探性的，后来愈演愈烈。到1938年，轰炸几乎成了这座城市的日常。日机成群结队飞临城市上空，炸弹落进居民区、商业街、学校，整座城市在火光与浓烟中颤抖。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                In July 1937, the Marco Polo Bridge Incident ignited full-scale war between China and Japan. The flames rolled south. From October of that year, Japanese aircraft began raiding Guangzhou — tentatively at first, then with growing fury. By 1938, bombing had become part of the city's daily rhythm. Waves of planes crossed the sky; bombs fell into residential districts, shopping streets, schools, and the city shuddered in fire and smoke.
+                            </p>
+                        </div>
+
+                        <!-- Historical Note Callout -->
+                        <div class="p-5 rounded-2xl bg-cyan-950/30 border border-cyan-500/30 space-y-2">
+                            <div class="flex items-center gap-2 text-xs font-mono text-cyan-400 font-bold">
+                                <span>📜</span>
+                                <span>历史档案记录 (U.S. State Department Archives)</span>
+                            </div>
+                            <p class="font-serif-sc text-sm sm:text-base text-slate-300 leading-relaxed">
+                                美国国务院的历史档案里，记录着当时驻华外交官的报告：日军飞机连日空袭广州——中国人口最稠密的城市之一——蓄意轰炸并扫射平民。轰炸最烈时，一天之内，警报声可以响好几次，全城的人涌向防空洞，街道上只剩下空荡荡的骑楼。母亲和男孩，就是在这样的天空下，登上了开往香港的船。
+                            </p>
+                            <p class="font-serif-en italic text-xs text-slate-400">
+                                In the archives of the U.S. State Department, the reports of American diplomats on the ground survive: Japanese planes raided Canton day after day, deliberately bombing and machine-gunning civilians. Under that sky, the boy and his mother boarded a ship for Hong Kong.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                广州，成了男孩记忆里第一个被迫离开的城市。他后来才明白，那半年，是他第一次见识什么叫「战争」。而「战争」这个词，在接下来的十几年里，会一次又一次地追上他。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                Guangzhou became the first city the boy was forced to leave. Only later would he understand that those six months were his first encounter with something called "war" — and that the word would catch up with him, again and again, over the next fifteen years.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Act 2 -->
+                <div class="space-y-6 pt-6 border-t border-white/10">
+                    <div class="flex items-center gap-3 border-b border-amber-500/20 pb-3">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">ACT 02</span>
+                        <h3 class="text-2xl font-serif-sc font-bold text-slate-100">第二幕 · 世外桃源</h3>
+                        <span class="font-serif-en italic text-sm text-slate-400">The Haven</span>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                香港。对一个六岁的孩子来说，那是另一个世界。那时的香港，人口还不到一百万——和今天比起来，小得不可思议。街道干净，电车叮叮当当地穿过中环，维多利亚港的碧波里，停着白色的邮轮。当国内战火蔓延、大片国土沦为沦陷区的时候，香港真是一个世外桃源。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                Hong Kong. To a six-year-old, it was another world. Hong Kong in those days had a population of under a million — almost unimaginably small compared with today. The streets were clean. Trams clanged through Central. White ocean liners rode at anchor in the blue water of Victoria Harbour. While war consumed the mainland, Hong Kong was, for a time, a genuine haven.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                男孩一家先住在香港，后来又迁到九龙，住进一间舒适的公寓。他在小学二年级到五年级，入读培英小学，六年级转入培正小学。两所学校离家都很近，他可以自己步行上学。星期天，全家常常郊游。男孩最喜欢两个地方：山顶，和浅水湾。站在太平山顶，整个香港尽收眼底；而浅水湾的沙滩，那时的游客寥寥无几，沙子干净得发亮。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                The family first settled on the island, then moved to Kowloon, into a comfortable apartment. From the second to the fifth grade, the boy attended Pui Ying Primary School; in the sixth grade, he transferred to Pui Ching. On Sundays, the family often went on outings: Victoria Peak and Repulse Bay.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                而在这座美丽城市的公寓里，藏着男孩另一个秘密世界。他小时体质不好，母亲便买了很多书给他。商务印书馆出版过一套《儿童文库》，摆满了一整个书架——里面有《水浒传》、《西游记》、《三国演义》…… 男孩如饥似渴，一本接一本地读。到小学毕业前，他把整套《儿童文库》都读完了。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                Inside that apartment lay another secret world. Because he was frail, his mother bought him books — an entire shelf of Commercial Press's "Children's Library" (Water Margin, Journey to the West, Three Kingdoms). The boy read greedily, finishing the whole set before primary graduation.
+                            </p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-gradient-to-r from-amber-500/10 via-slate-900 to-slate-900 border-l-4 border-amber-500 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-100 leading-relaxed">
+                                一个身体孱弱、常常独处的孩子，在书架前找到了自己的世界。这个从小就养成的阅读习惯，他保持了一生。多年以后，他写回忆录：当年的香港，真是一个美丽的城市。一个在乱世里长大的孩子，把太平年月的样子，记得格外清楚。
+                            </p>
+                            <p class="font-serif-en italic text-xs sm:text-sm text-slate-400 leading-relaxed">
+                                A frail, solitary child found his world among the bookshelves. That habit, formed in childhood, he kept for a lifetime. Years later, writing his memoirs, he reflected: Hong Kong back then was a truly beautiful city. A child raised in chaos remembers the face of peace with unusual clarity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Act 3 -->
+                <div class="space-y-6 pt-6 border-t border-white/10">
+                    <div class="flex items-center gap-3 border-b border-amber-500/20 pb-3">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">ACT 03</span>
+                        <h3 class="text-2xl font-serif-sc font-bold text-slate-100">第三幕 · 珍珠港事变的那天早上</h3>
+                        <span class="font-serif-en italic text-sm text-slate-400">The Morning Pearl Harbor Happened</span>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-900/60 border border-cyan-500/30 text-cyan-300 text-xs sm:text-sm font-mono flex items-center gap-2">
+                        <span>🔊</span>
+                        <span>【音效：清晨的鸟鸣，忽然被远处沉闷的爆炸声打断】</span>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                1941年12月8日，星期一，清晨。男孩十岁。那天早上学校有考试，他像往常一样，步行去上学。就在路上——或者更准确地说，就在那天的黎明时分——日本海军偷袭了美国珍珠港，太平洋战争爆发。而在偷袭珍珠港之后数小时，日军立即开始进攻香港。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                Monday, December 8, 1941. The boy was ten. There was an exam at school that morning, so he walked to class as usual. Hours after attacking Pearl Harbor, Japanese forces struck Hong Kong.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                男孩后来回忆说：那天早上，我在九龙，听到了炸弹声。到了学校，他才开始了解情形——考试取消了，课也没有了，大家赶快回家。父亲带着全家与女佣搬进九龙酒店避难。三天后，九龙沦陷。到了圣诞夜，英军宣布投降。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                The boy heard bombs in Kowloon. Classes were cancelled. The family moved into the Kowloon Hotel. Three days later, Kowloon fell; on Christmas Eve, British forces surrendered.
+                            </p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-cyan-950/30 border border-cyan-500/30 space-y-2">
+                            <div class="flex items-center gap-2 text-xs font-mono text-cyan-400 font-bold">
+                                <span>⚖️</span>
+                                <span>历史洞察 · 战争的缝隙</span>
+                            </div>
+                            <p class="font-serif-sc text-sm sm:text-base text-slate-200 leading-relaxed">
+                                解严后，父母亲回到家，发现房子并没有被战火损毁。但在英军已撤出、日军尚未入驻九龙的间隙，家中已被歹徒抢劫过了。战争最狰狞的一面，往往不在战场上，而在这些无人看守的缝隙里。
+                            </p>
+                            <p class="font-serif-en italic text-xs text-slate-400">
+                                War shows its ugliest face not always on the battlefield, but in the unguarded gaps between regimes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Act 4 -->
+                <div class="space-y-6 pt-6 border-t border-white/10">
+                    <div class="flex items-center gap-3 border-b border-amber-500/20 pb-3">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">ACT 04</span>
+                        <h3 class="text-2xl font-serif-sc font-bold text-slate-100">第四幕 · 日据的一年，与小学毕业</h3>
+                        <span class="font-serif-en italic text-sm text-slate-400">The Year of Occupation & Graduation</span>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                香港进入了日据时期。重要路口都有日本哨兵站岗，经过的路人都要向他们鞠躬。就是在这样的一年里，男孩小学毕业了。毕业典礼上，他穿着干净的校服，和同学们站在一起。他在典礼上拿到的，是一张平平常常的小学毕业证书——那是一个孩子，在乱世里能够完成的最朴素、也最郑重的一件事。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                In the occupied city where passersby had to bow to sentries, the boy graduated from primary school in a clean uniform. What he took home was an ordinary diploma — the simplest, most solemn achievement in a world upside down.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/40 border border-white/5 space-y-2">
+                            <p class="font-serif-sc text-base sm:text-lg text-slate-200 leading-relaxed font-medium">
+                                1942年底，男孩全家乘船离开香港前往上海。五年，他在这里读完了小学，读完了整架《儿童文库》，看遍了山顶和浅水湾的四季。这座世外桃源，终究还是被战争的潮水淹没了。他后来把这段经历记了一辈子：一个孩子的记忆里，战争不是历史，是一张张搬家的船票。
+                            </p>
+                            <p class="font-serif-en italic text-sm text-slate-400 leading-relaxed">
+                                At the end of 1942, they sailed for Shanghai. In a child's memory, war is not history — it is a series of boat tickets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Epilogue -->
+                <div class="space-y-6 pt-6 border-t border-white/10">
+                    <div class="flex items-center gap-3 border-b border-amber-500/20 pb-3">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">EPILOGUE</span>
+                        <h3 class="text-2xl font-serif-sc font-bold text-slate-100">尾声 · 平行视角</h3>
+                        <span class="font-serif-en italic text-sm text-slate-400">A Parallel View</span>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-gradient-to-br from-amber-500/15 via-slate-900 to-cyan-500/15 border border-amber-500/30 space-y-4">
+                        <div class="text-xs font-mono text-amber-400 font-bold uppercase tracking-wider">【主叙述者 · 安静，放慢】</div>
+                        <p class="font-serif-sc text-base sm:text-lg text-slate-100 leading-relaxed">
+                            让我们停下来，看看这个孩子已经走过的路。五岁，广州。六岁到十一岁，香港。战争的巨轮碾过两个城市，每一次，都是大人牵着他的手，匆匆登船。他什么都不能决定。他只是一个被时代推着走的孩子。
+                        </p>
+                        <p class="font-serif-sc text-base sm:text-lg text-slate-100 leading-relaxed">
+                            但在这段被动的童年里，有三样东西是他自己长出来的：第一样是<strong>书</strong>，在书架前找到自己的世界；第二样是<strong>观察</strong>，在动荡里看、在动荡里记；第三样是<strong>根</strong>，时代可以夺走他的家，夺不走他是谁。
+                        </p>
+                        <div class="border-t border-white/10 pt-3 space-y-2">
+                            <p class="font-serif-sc font-bold text-amber-300 text-lg sm:text-xl leading-relaxed">
+                                “时代可以推着你走，但走成什么样，从来是你自己的事。”
+                            </p>
+                            <p class="font-serif-en italic text-xs sm:text-sm text-slate-400">
+                                "The era may push you along, but what you become on that road has always been your own affair."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <!-- Area 3: 🎴 文末双语知识卡片与商业英语延伸 (Bilingual English Learning & Knowledge Cards) -->
+        <section id="cards-section" class="space-y-10 pt-6 border-t border-white/10">
+            
+            <div class="text-center space-y-3">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-mono">
+                    <span>🎴 BUSINESS ENGLISH & KNOWLEDGE CARDS</span>
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-serif-sc font-black text-slate-100">
+                    商业英语延伸与核心决策思考
+                </h2>
+                <p class="text-slate-400 text-sm max-w-xl mx-auto">
+                    半导体高频专业词汇 · 张忠谋经典逆周期决策复盘 · 传世名言卡片
+                </p>
+            </div>
+
+            <!-- Component 1: Vocabulary Flashcards Grid -->
+            <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-xl font-serif-sc font-bold text-slate-100 flex items-center gap-2">
+                        <span>📚</span> 半导体商业英语高频词汇卡片
+                    </h3>
+                    <span class="text-xs text-slate-400 font-mono">点击卡片可翻转查看解析</span>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    
+                    <!-- Flashcard 1: Aftershock -->
+                    <div class="flashcard h-56 rounded-2xl bg-slate-900/80 border border-white/10 p-5 cursor-pointer hover:border-amber-500/40 transition flex flex-col justify-between" onclick="this.classList.toggle('flipped')">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-[11px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">VOCAB 01</span>
+                                <span class="text-xs text-slate-500">🔄 翻转</span>
+                            </div>
+                            <div class="text-2xl font-serif-en font-bold text-amber-300">Aftershock</div>
+                            <div class="text-sm font-serif-sc text-slate-300">余波 / 震荡 / 后续影响</div>
+                        </div>
+                        <div class="text-xs text-slate-400 border-t border-white/10 pt-3 space-y-1">
+                            <div class="font-mono text-cyan-400">Context:</div>
+                            <div class="italic font-serif-en">"the aftershocks of the Asian financial crisis"</div>
+                        </div>
+                    </div>
+
+                    <!-- Flashcard 2: Move the other way / Counter-cyclical -->
+                    <div class="flashcard h-56 rounded-2xl bg-slate-900/80 border border-white/10 p-5 cursor-pointer hover:border-amber-500/40 transition flex flex-col justify-between" onclick="this.classList.toggle('flipped')">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-[11px] font-mono px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">VOCAB 02</span>
+                                <span class="text-xs text-slate-500">🔄 翻转</span>
+                            </div>
+                            <div class="text-2xl font-serif-en font-bold text-cyan-300">Counter-cyclical</div>
+                            <div class="text-sm font-serif-sc text-slate-300">逆周期操作 / 反其道而行</div>
+                        </div>
+                        <div class="text-xs text-slate-400 border-t border-white/10 pt-3 space-y-1">
+                            <div class="font-mono text-amber-400">Context:</div>
+                            <div class="italic font-serif-en">"One seventy-year-old man moved the other way."</div>
+                        </div>
+                    </div>
+
+                    <!-- Flashcard 3: Double down -->
+                    <div class="flashcard h-56 rounded-2xl bg-slate-900/80 border border-white/10 p-5 cursor-pointer hover:border-amber-500/40 transition flex flex-col justify-between" onclick="this.classList.toggle('flipped')">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-[11px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">VOCAB 03</span>
+                                <span class="text-xs text-slate-500">🔄 翻转</span>
+                            </div>
+                            <div class="text-2xl font-serif-en font-bold text-amber-300">Double Down</div>
+                            <div class="text-sm font-serif-sc text-slate-300">加码 / 加倍押注</div>
+                        </div>
+                        <div class="text-xs text-slate-400 border-t border-white/10 pt-3 space-y-1">
+                            <div class="font-mono text-cyan-400">Context:</div>
+                            <div class="italic font-serif-en">"He doubled down on research."</div>
+                        </div>
+                    </div>
+
+                    <!-- Flashcard 4: Pure-play Foundry -->
+                    <div class="flashcard h-56 rounded-2xl bg-slate-900/80 border border-white/10 p-5 cursor-pointer hover:border-amber-500/40 transition flex flex-col justify-between" onclick="this.classList.toggle('flipped')">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-[11px] font-mono px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">VOCAB 04</span>
+                                <span class="text-xs text-slate-500">🔄 翻转</span>
+                            </div>
+                            <div class="text-2xl font-serif-en font-bold text-cyan-300">Pure-play Foundry</div>
+                            <div class="text-sm font-serif-sc text-slate-300">纯晶圆代工模式</div>
+                        </div>
+                        <div class="text-xs text-slate-400 border-t border-white/10 pt-3 space-y-1">
+                            <div class="font-mono text-amber-400">Concept:</div>
+                            <div class="font-serif-sc">不与客户竞争芯片设计，专注专业制造</div>
+                        </div>
+                    </div>
+
+                    <!-- Flashcard 5: Recession -->
+                    <div class="flashcard h-56 rounded-2xl bg-slate-900/80 border border-white/10 p-5 cursor-pointer hover:border-amber-500/40 transition flex flex-col justify-between" onclick="this.classList.toggle('flipped')">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-[11px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30">VOCAB 05</span>
+                                <span class="text-xs text-slate-500">🔄 翻转</span>
+                            </div>
+                            <div class="text-2xl font-serif-en font-bold text-amber-300">Recession</div>
+                            <div class="text-sm font-serif-sc text-slate-300">经济衰退 / 景气低迷</div>
+                        </div>
+                        <div class="text-xs text-slate-400 border-t border-white/10 pt-3 space-y-1">
+                            <div class="font-mono text-cyan-400">Quote:</div>
+                            <div class="italic font-serif-en">"A recession is the best time to hire talent."</div>
+                        </div>
+                    </div>
+
+                    <!-- Flashcard 6: Second Act -->
+                    <div class="flashcard h-56 rounded-2xl bg-slate-900/80 border border-white/10 p-5 cursor-pointer hover:border-amber-500/40 transition flex flex-col justify-between" onclick="this.classList.toggle('flipped')">
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-[11px] font-mono px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">VOCAB 06</span>
+                                <span class="text-xs text-slate-500">🔄 翻转</span>
+                            </div>
+                            <div class="text-2xl font-serif-en font-bold text-cyan-300">Second Act</div>
+                            <div class="text-sm font-serif-sc text-slate-300">人生下半场 / 第二幕传奇</div>
+                        </div>
+                        <div class="text-xs text-slate-400 border-t border-white/10 pt-3 space-y-1">
+                            <div class="font-mono text-amber-400">Context:</div>
+                            <div class="italic font-serif-en">"This is the story of his second act."</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Component 2: 核心商业决策思考 (Strategic Takeaway) -->
+            <div class="p-6 sm:p-8 rounded-3xl bg-slate-900/90 border border-amber-500/30 space-y-6">
+                <div class="space-y-2">
+                    <div class="inline-flex items-center gap-2 text-xs font-mono text-amber-400 uppercase tracking-wider">
+                        <span>💡 STRATEGIC TAKEAWAY</span>
+                    </div>
+                    <h3 class="text-2xl font-serif-sc font-bold text-slate-100">
+                        商业决策深度解析：为什么张忠谋敢在1998年亚洲金融危机时逆势扩产并加码研发？
+                    </h3>
+                    <p class="font-serif-en italic text-sm text-cyan-300/90">
+                        Why did Morris Chang double down on R&D and expand TSMC's capacity during the 1998 Asian Financial Crisis?
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+                    <!-- Point 1 -->
+                    <div class="p-5 rounded-2xl bg-slate-950/60 border border-white/5 space-y-3">
+                        <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 font-mono font-bold flex items-center justify-center text-sm">
+                            01
+                        </div>
+                        <h4 class="font-serif-sc font-bold text-slate-200 text-base">资本开支与半导体周期错位</h4>
+                        <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                            晶圆厂从动工、装机到良率爬坡需要 2–3 年。如果在景气繁荣时建厂，投产时可能面临产能过剩；而在行业冰封期建厂，不仅设备议价空间大，更能在下一轮需求爆发时第一时间满载。
+                        </p>
+                        <p class="font-serif-en italic text-[11px] text-slate-500">
+                            Fab construction takes 2-3 years. Building in a downturn secures cheaper equipment and ensures full capacity precisely when market demand rebounds.
+                        </p>
+                    </div>
+
+                    <!-- Point 2 -->
+                    <div class="p-5 rounded-2xl bg-slate-950/60 border border-white/5 space-y-3">
+                        <div class="w-8 h-8 rounded-lg bg-cyan-500/20 text-cyan-400 font-mono font-bold flex items-center justify-center text-sm">
+                            02
+                        </div>
+                        <h4 class="font-serif-sc font-bold text-slate-200 text-base">逆周期引援顶尖工程师红利</h4>
+                        <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                            “不景气是挖人才最好的时候”。当欧美巨头裁员收缩时，台积电提供稳定的研发舞台与长期激励，吸纳了大批来自全球顶尖 IDM 巨头的资深半导体科学家与工艺工程师。
+                        </p>
+                        <p class="font-serif-en italic text-[11px] text-slate-500">
+                            "A recession is the best time to hire talent." TSMC scooped up elite semiconductor scientists and process engineers let go by retreating Western IDMs.
+                        </p>
+                    </div>
+
+                    <!-- Point 3 -->
+                    <div class="p-5 rounded-2xl bg-slate-950/60 border border-white/5 space-y-3">
+                        <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 font-mono font-bold flex items-center justify-center text-sm">
+                            03
+                        </div>
+                        <h4 class="font-serif-sc font-bold text-slate-200 text-base">纯代工模式建立的客户信任护城河</h4>
+                        <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                            当无晶圆厂设计公司（Fabless 如英伟达、高通）在危机中寻找最可靠的代工伙伴时，台积电逆势展现的技术领先度与产能保障，彻底锁定了客户的终身忠诚。
+                        </p>
+                        <p class="font-serif-en italic text-[11px] text-slate-500">
+                            As emerging Fabless design houses searched for trustworthy partners, TSMC's counter-cyclical reliability forged unbreakable customer lock-in.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Component 3: 张忠谋经典名言卡 (Golden Quote Card) -->
+            <div class="relative rounded-3xl overflow-hidden p-8 sm:p-12 bg-gradient-to-r from-amber-950/80 via-slate-900 to-cyan-950/80 border border-amber-500/40 shadow-2xl">
+                <div class="absolute right-0 top-0 translate-x-12 -translate-y-12 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="relative z-10 max-w-3xl space-y-4">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-mono">
+                        <span>⭐ GOLDEN QUOTE</span>
+                    </div>
+                    
+                    <blockquote class="text-2xl sm:text-4xl font-serif-en font-bold text-amber-300 leading-snug">
+                        “A recession is the best time to hire talent.”
+                    </blockquote>
+
+                    <p class="text-xl sm:text-2xl font-serif-sc font-bold text-slate-100">
+                        “不景气，是挖人才最好的时候。”
+                    </p>
+
+                    <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-white/10 text-xs text-slate-400 font-mono">
+                        <div>
+                            <span class="text-amber-400 font-semibold">— 张忠谋 (Morris Chang)</span> · 1998 亚洲金融风暴逆势扩张期
+                        </div>
+                        <button onclick="copyGoldenQuote()" id="copy-btn" class="self-start sm:self-auto px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-white/10 transition flex items-center gap-2">
+                            <span>📋</span> 复制金句卡片
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Episode Navigation Footer -->
+        <section class="border-t border-white/10 pt-10 pb-16 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <a href="index.html" class="px-5 py-2.5 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 text-sm font-medium transition flex items-center gap-2">
+                <span>←</span> 返回全册剧集地图
+            </a>
+
+            <div class="text-center">
+                <span class="text-xs font-mono text-slate-500 uppercase tracking-wider">Next Episode</span>
+                <a href="episode-02.html" class="block font-serif-sc font-bold text-slate-200 hover:text-amber-400 transition text-base sm:text-lg">
+                    第 02 期：考不进去的南开 & 作家梦 (1943–1948) →
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Copyright -->
+    <footer class="border-t border-white/5 py-8 text-center text-xs font-mono text-slate-500">
+        <p>台积电张忠谋 · 传记时间线的平行世界 · 18期全册 · ReadShift AIGC Parallel Series</p>
+    </footer>
+
+    <!-- Interactive Logic Script -->
     <script>
-        const player = document.getElementById('player');
-        const btnZh = document.getElementById('btn-zh');
-        const btnEn = document.getElementById('btn-en');
-        const container = document.getElementById('lyrics-container');
-        
-        let isEnglish = false;
+        const audio = document.getElementById('audio-engine');
+        const audioSource = document.getElementById('audio-source');
+        const playPauseBtn = document.getElementById('play-pause-btn');
+        const playIcon = document.getElementById('play-icon');
+        const pauseIcon = document.getElementById('pause-icon');
+        const seekBar = document.getElementById('seek-bar');
+        const currentTimeText = document.getElementById('current-time-text');
+        const totalDurationText = document.getElementById('total-duration-text');
+        const currentTrackLabel = document.getElementById('current-track-label');
+        const volumeBar = document.getElementById('volume-bar');
+        const subtitlesContainer = document.getElementById('subtitles-container');
+        const subtitleLines = document.querySelectorAll('.subtitle-line');
 
-        btnZh.addEventListener('click', () => {
-            if(!isEnglish) return;
-            isEnglish = false;
-            switchTrack('./试听/01_逃难的孩子_中文.mp3');
-        });
+        const tracks = {
+            'zh-a': { src: './试听/中文A_云健Yunjian.mp3', label: '🇨🇳 中文原声 (云健)' },
+            'zh-b': { src: './试听/中文B_云希Yunxi.mp3', label: '🇨🇳 中文备选 (云希)' },
+            'en-a': { src: './试听/英文A_Christopher.mp3', label: '🇺🇸 English (Christopher)' },
+            'en-b': { src: './试听/英文B_Aria.mp3', label: '🇺🇸 English (Aria)' }
+        };
 
-        btnEn.addEventListener('click', () => {
-            if(isEnglish) return;
-            isEnglish = true;
-            switchTrack('./试听/01_逃难的孩子_英文.mp3');
-        });
+        let currentTrackId = 'zh-a';
 
-        function switchTrack(src) {
-            const time = player.currentTime;
-            const isPaused = player.paused;
-            player.src = src;
-            player.currentTime = time;
-            if(!isPaused) {
-                player.play().catch(e => alert('该语种配音尚未上传或正在排队生成！'));
+        function switchTrack(trackId) {
+            if (!tracks[trackId]) return;
+            const wasPlaying = !audio.paused;
+            const curTime = audio.currentTime;
+
+            currentTrackId = trackId;
+            audioSource.src = tracks[trackId].src;
+            audio.load();
+            audio.currentTime = curTime;
+
+            // Update Track Label
+            currentTrackLabel.textContent = tracks[trackId].label;
+
+            // Update Button styling
+            document.querySelectorAll('.track-btn').forEach(btn => {
+                btn.classList.remove('active', 'bg-amber-500', 'text-slate-950');
+                btn.classList.add('bg-slate-800', 'text-slate-300');
+            });
+            const activeBtn = document.getElementById(`track-${trackId}`);
+            if (activeBtn) {
+                activeBtn.classList.add('active', 'bg-amber-500', 'text-slate-950');
+                activeBtn.classList.remove('bg-slate-800', 'text-slate-300');
+            }
+
+            if (wasPlaying) {
+                audio.play().catch(e => console.log('Audio switch play ignored'));
             }
         }
 
-        player.addEventListener('loadedmetadata', () => {
-            const duration = (player.duration && !isNaN(player.duration) && isFinite(player.duration)) ? player.duration : 1020;
-            const lines = document.querySelectorAll('.lyric-line');
-            
-            let totalChars = 0;
-            lines.forEach(l => totalChars += l.innerText.length);
-            
-            let cumulative = 0;
-            lines.forEach(l => {
-                const chars = l.innerText.length;
-                l.dataset.start = (cumulative / totalChars) * duration;
-                cumulative += chars;
-                l.dataset.end = (cumulative / totalChars) * duration;
-            });
-        });
-
-        player.addEventListener('timeupdate', () => {
-            const time = player.currentTime;
-            let activeLine = null;
-            
-            document.querySelectorAll('.lyric-line').forEach(line => {
-                line.classList.remove('opacity-100', 'scale-105');
-                line.classList.add('opacity-40');
-                
-                const zhText = line.querySelector('div:first-child');
-                if (zhText) {
-                    zhText.classList.remove('text-amber-400');
-                    zhText.classList.add('text-white');
-                }
-                
-                if (time >= parseFloat(line.dataset.start) && time < parseFloat(line.dataset.end)) {
-                    activeLine = line;
-                }
-            });
-            
-            if (activeLine) {
-                activeLine.classList.remove('opacity-40');
-                activeLine.classList.add('opacity-100', 'scale-105');
-                
-                const zhText = activeLine.querySelector('div:first-child');
-                if (zhText) {
-                    zhText.classList.remove('text-white');
-                    zhText.classList.add('text-amber-400');
-                }
-                
-                // Prevent aggressive scrolling if user is trying to scroll
-                activeLine.scrollIntoView({behavior: 'smooth', block: 'center'});
+        function togglePlay() {
+            if (audio.paused) {
+                audio.play().then(() => {
+                    playIcon.classList.add('hidden');
+                    pauseIcon.classList.remove('hidden');
+                }).catch(e => console.error("Playback error:", e));
+            } else {
+                audio.pause();
+                playIcon.classList.remove('hidden');
+                pauseIcon.classList.add('hidden');
             }
+        }
+
+        function seekAudio(time) {
+            audio.currentTime = time;
+            seekBar.value = time;
+            if (audio.paused) {
+                togglePlay();
+            }
+        }
+
+        function skipTime(delta) {
+            audio.currentTime = Math.max(0, Math.min(audio.duration || 32, audio.currentTime + delta));
+        }
+
+        function setSpeed(rate) {
+            audio.playbackRate = rate;
+            document.querySelectorAll('.speed-btn').forEach(btn => {
+                btn.classList.remove('active', 'bg-amber-500', 'text-slate-950', 'font-bold');
+                btn.classList.add('text-slate-300');
+            });
+            event.target.classList.add('active', 'bg-amber-500', 'text-slate-950', 'font-bold');
+            event.target.classList.remove('text-slate-300');
+        }
+
+        function toggleMute() {
+            audio.muted = !audio.muted;
+        }
+
+        // Format seconds to MM:SS
+        function formatTime(sec) {
+            if (isNaN(sec)) return "00:00";
+            const m = Math.floor(sec / 60);
+            const s = Math.floor(sec % 60);
+            return (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
+        }
+
+        // Time Update Event
+        audio.addEventListener('timeupdate', () => {
+            const cur = audio.currentTime;
+            const dur = audio.duration || 32;
+
+            seekBar.value = cur;
+            seekBar.max = dur;
+            currentTimeText.textContent = formatTime(cur);
+            totalDurationText.textContent = formatTime(dur);
+
+            // Sync Subtitles
+            subtitleLines.forEach((line) => {
+                const start = parseFloat(line.getAttribute('data-start'));
+                const end = parseFloat(line.getAttribute('data-end'));
+
+                if (cur >= start && cur < end) {
+                    if (!line.classList.contains('active')) {
+                        subtitleLines.forEach(l => l.classList.remove('active'));
+                        line.classList.add('active');
+                        line.classList.remove('opacity-50');
+                        
+                        // Auto scroll subtitle into view smoothly
+                        line.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                } else {
+                    if (line.classList.contains('active') && (cur < start || cur >= end)) {
+                        line.classList.remove('active');
+                        line.classList.add('opacity-50');
+                    }
+                }
+            });
         });
 
-        document.querySelectorAll('.lyric-line').forEach(l => {
-            l.onclick = () => { 
-                player.currentTime = parseFloat(l.dataset.start) + 0.1; 
-                player.play().catch(e => console.log('Autoplay prevented.')); 
-            };
+        audio.addEventListener('loadedmetadata', () => {
+            totalDurationText.textContent = formatTime(audio.duration);
+            seekBar.max = audio.duration;
         });
+
+        audio.addEventListener('ended', () => {
+            playIcon.classList.remove('hidden');
+            pauseIcon.classList.add('hidden');
+        });
+
+        seekBar.addEventListener('input', (e) => {
+            audio.currentTime = parseFloat(e.target.value);
+        });
+
+        if (volumeBar) {
+            volumeBar.addEventListener('input', (e) => {
+                audio.volume = parseFloat(e.target.value);
+            });
+        }
+
+        // Copy Golden Quote
+        function copyGoldenQuote() {
+            const text = '“A recession is the best time to hire talent.”（不景气，是挖人才最好的时候。）—— 张忠谋 (Morris Chang), 1998';
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = document.getElementById('copy-btn');
+                btn.innerHTML = '<span>✅</span> 已复制到剪贴板';
+                setTimeout(() => {
+                    btn.innerHTML = '<span>📋</span> 复制金句卡片';
+                }, 2000);
+            });
+        }
     </script>
 </body>
 </html>
