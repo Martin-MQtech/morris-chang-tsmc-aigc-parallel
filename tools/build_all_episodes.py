@@ -11,6 +11,49 @@ with open(os.path.join(WORKSPACE, "audio_data.js"), "r", encoding="utf-8") as f:
 
 episodes_meta = [
     {
+        "id": "00",
+        "file_name": "episode-00.html",
+        "folder": "第00期-全册导读",
+        "act_tag": "PRELUDE · 导读 · 一个人的平行世界",
+        "title_zh": "第 00 期：全册导读 · 一个人的平行世界",
+        "title_en": "Episode 00: A Guide to the Whole Volume — One Man's Parallel World",
+        "time_loc": "1931–2024 · 跨越近百年的时代坐标",
+        "tagline_zh": "历史没有如果，但思考有。在张忠谋走过的每一个路口，平行世界都在向我们招手。",
+        "tagline_en": "History has no 'what ifs,' but our contemplation does. At every crossroads Morris Chang walked, parallel worlds beckon.",
+        "duration": "06:45",
+        "pills": [
+            ("历史坐标", "1931–2024 · 宁波-香港-波士顿-达拉斯-新竹"),
+            ("有声轨", "中英双轨 7min 广播级剧场原声"),
+            ("双语阅读", "75% 全册导言双语对齐 · 25% 时代与方法论解析")
+        ],
+        "image_path": "./设计资产/封面/封面_上册_蓝图晶圆版.jpg",
+        "prev_link": "index.html",
+        "prev_label": "← 回到总目录",
+        "next_link": "episode-01.html",
+        "next_label": "下一期：第 01 期 逃难的孩子 →",
+        "vocab": [
+            ("Parallel World", "/ˈpær.ə.lel wɜːld/", "平行世界，平行时空", "A hypothetical self-contained reality co-existing with one's own, exploring alternative historical choices."),
+            ("Foundry Model", "/ˈfaʊn.dri ˈmɒd.əl/", "晶圆代工模式", "A business model pioneered by TSMC that exclusively manufactures semiconductor chips for fabless companies."),
+            ("Semiconductor", "/ˌsem.i.kənˈdʌk.tər/", "半导体", "A material whose electrical conductivity lies between a conductor and an insulator, powering the digital era."),
+            ("First Principles", "/fɜːst ˈprɪn.sə.pəlz/", "第一性原理", "The fundamental premise or proposition that cannot be deduced any further from any other proposition."),
+            ("Chronicle", "/ˈkrɒn.ɪ.kəl/", "编年史，传记纪事", "A factual written account of important or historical events in the order of their occurrence."),
+            ("Geopolitics", "/ˌdʒiː.əʊˈpɒl.ə.tɪks/", "地缘政治", "Politics, especially international relations, as influenced by geographical factors."),
+            ("Moore's Law", "/mɔːz lɔː/", "摩尔定律", "The observation that the number of transistors on a microchip doubles roughly every two years."),
+            ("Legacy", "/ˈleɡ.ə.si/", "历史遗产，精神传承", "An enduring impact or body of work left behind by a transformative leader.")
+        ],
+        "timeline": [
+            ("1931 · 7月", "张忠谋出生于浙江宁波，开启横跨动荡与变革的世纪人生。"),
+            ("1949 · 9月", "赴美求学，先后就读哈佛大学与麻省理工学院（MIT）。"),
+            ("1958 · 5月", "加入德州仪器（TI），二十五年间跃升全球半导体领军人物。"),
+            ("1985 · 8月", "应邀赴台出任工研院院长，擘画台湾半导体未来蓝图。"),
+            ("1987 · 2月", "创立台湾积体电路制造公司（TSMC），首创纯晶圆代工模式。"),
+            ("2018 · 6月", "台积电市值突破千亿美元，张忠谋正式退休，被尊为「护国神山」之父。"),
+            ("2024 · 至今", "台积电先进制程引领全球AI算力革命，纯代工传奇仍在续写。")
+        ],
+        "quote_zh": "历史没有如果，但思考有。在张忠谋走过的每一个路口，平行世界都在向我们招手。",
+        "quote_en": "History has no 'what ifs,' but our contemplation does. At every crossroads Morris Chang walked, parallel worlds beckon."
+    },
+    {
         "id": "01",
         "file_name": "episode-01.html",
         "folder": "第01期-逃难的孩子",
@@ -27,15 +70,19 @@ episodes_meta = [
             ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
         ],
         "image_path": "./设计资产/插图/第01期-逃难的孩子.png",
-        "prev_link": "index.html",
-        "prev_label": "← 回到总目录",
+        "prev_link": "episode-00.html",
+        "prev_label": "← 上一期：第 00 期 全册导读",
         "next_link": "episode-02.html",
         "next_label": "下一期：第 02 期 考不进去的南开与作家梦 →",
         "vocab": [
             ("Refugee", "/ˌref.jʊˈdʒiː/", "难民，逃难者", "A person who has been forced to leave their country in order to escape war, persecution, or natural disaster."),
             ("Sanctuary", "/ˈsæŋk.tʃʊə.ri/", "避难所，庇护所", "A place of safety or protection, as Hong Kong initially served before December 1941."),
             ("Displacement", "/dɪsˈpleɪs.mənt/", "流离失所，流徙", "The enforced departure of people from their homes, typical of wartime China."),
-            ("Resilience", "/rɪˈzɪl.jəns/", "坚韧，复原力", "The capacity to recover quickly from difficulties; toughness in character.")
+            ("Resilience", "/rɪˈzɪl.jəns/", "坚韧，复原力", "The capacity to recover quickly from difficulties; toughness in character."),
+            ("Turbulence", "/ˈtɜː.bjə.ləns/", "动荡，骚乱", "A state of conflict, confusion, or lack of order during wartime."),
+            ("Exile", "/ˈek.saɪl/", "流亡，离乡背井", "The state of being barred from one's native country, typically for political or wartime reasons."),
+            ("Perseverance", "/ˌpɜː.sɪˈvɪə.rəns/", "锲而不舍，坚持不懈", "Persistence in doing something despite difficulty or delay in achieving success."),
+            ("Destiny", "/ˈdes.tɪ.ni/", "命运，宿命", "The events that will necessarily happen to a particular person or thing in the future.")
         ],
         "timeline": [
             ("1931 · 7月", "张忠谋出生于浙江宁波，父张蔚观，母胡秉祥。"),
@@ -72,7 +119,11 @@ episodes_meta = [
             ("Detour", "/ˈdiː.tɔːr/", "弯路，绕行之路", "A long or roundabout course taken unexpectedly instead of the direct way."),
             ("Pragmatism", "/ˈpræɡ.mə.tɪ.zəm/", "实用主义，注重实效", "An approach that assesses the truth of meaning of theories or beliefs in terms of their practical application."),
             ("Inflation", "/ɪnˈfleɪ.ʃən/", "恶性通货膨胀", "A general increase in prices and fall in the purchasing value of money (e.g. Golden Yuan 1948)."),
-            ("Aspiration", "/ˌæs.pəˈreɪ.ʃən/", "志向，文学梦与追求", "A hope or ambition of achieving something, such as Morris Chang's early literary dream.")
+            ("Aspiration", "/ˌæs.pəˈreɪ.ʃən/", "志向，文学梦与追求", "A hope or ambition of achieving something, such as Morris Chang's early literary dream."),
+            ("Rigorous", "/ˈrɪɡ.ər.əs/", "严谨的，严格的", "Extremely thorough and accurate, as seen in Nankai Middle School's training."),
+            ("Humanities", "/hjuːˈmæn.ə.tiz/", "人文科学，博雅文史", "Academic disciplines that study human culture, including literature and history."),
+            ("Crossroads", "/ˈkrɒs.rəʊdz/", "抉择路口", "A crucial point of decision affecting one's entire future career."),
+            ("Versatility", "/ˌvɜː.səˈtɪl.ə.ti/", "通融多能，兼收并蓄", "Ability to adapt or be adapted to many different functions or activities.")
         ],
         "timeline": [
             ("1943 · 春", "全家历经五十天险阻穿越千里沦陷区，抵达战时陪都重庆。"),
@@ -109,7 +160,11 @@ episodes_meta = [
             ("Odyssey", "/ˈɒd.ɪ.si/", "漫长而充满冒险的史诗旅程", "A long and eventful or adventurous journey or transition."),
             ("Acculturation", "/əˌkʌl.tʃəˈreɪ.ʃən/", "文化适应，文化融合", "Assimilation to a different culture, typically the dominant one."),
             ("Liberal Arts", "/ˌlɪb.ər.əl ˈɑːts/", "博雅教育，通识人文", "Academic subjects such as literature, philosophy, and history rather than technical science."),
-            ("Pivot", "/ˈpɪv.ət/", "关键转折，战略转向", "A crucial turning point or shift in strategy and career direction.")
+            ("Pivot", "/ˈpɪv.ət/", "关键转折，战略转向", "A crucial turning point or shift in strategy and career direction."),
+            ("Cosmopolitan", "/ˌkɒz.məˈpɒl.ɪ.tən/", "世界主义的，开阔的", "Familiar with and at ease in many different countries and cultures."),
+            ("Assimilation", "/əˌsɪm.ɪˈleɪ.ʃən/", "同化与融入", "The process of taking in and fully understanding information or ideas from a culture."),
+            ("Orientation", "/ˌɔː.ri.enˈteɪ.ʃən/", "方向定位，价值取向", "The determination of the relative position of something or someone."),
+            ("Transformation", "/ˌtræns.fəˈmeɪ.ʃən/", "蜕变，深刻变革", "A marked change in form, nature, or appearance.")
         ],
         "timeline": [
             ("1949 · 2月-9月", "在香港暂居七个月，办理赴美留学签证与准备手续。"),
@@ -146,7 +201,11 @@ episodes_meta = [
             ("Setback", "/ˈset.bæk/", "挫折，逆境", "A reversal or check in progress; the failure of MIT doctoral qualifying exams."),
             ("Semiconductor", "/ˌsem.i.kənˈdʌk.tər/", "半导体", "A solid substance with conductivity between insulator and conductor, altering world history."),
             ("Transistor", "/trænˈzɪs.tər/", "晶体管", "A semiconductor device used to amplify or switch electrical signals and power."),
-            ("Fortitude", "/ˈfɔː.tɪ.tjuːd/", "刚毅，不屈不挠的勇气", "Courage in pain or adversity; the tenacity shown during the job hunt.")
+            ("Fortitude", "/ˈfɔː.tɪ.tjuːd/", "刚毅，不屈不挠的勇气", "Courage in pain or adversity; the tenacity shown during the job hunt."),
+            ("Negotiation", "/nɪˌɡəʊ.ʃiˈeɪ.ʃən/", "薪酬博弈与谈判", "Discussion aimed at reaching an agreement, famously demonstrated over the $1 pay gap."),
+            ("Germanium", "/dʒɜːˈmeɪ.ni.əm/", "锗（早期半导体材料）", "A chemical element widely used in early transistors before silicon became standard."),
+            ("Self-taught", "/ˌselfˈtɔːt/", "无师自通，自学成才", "Having acquired knowledge or skill on one's own initiative rather than through formal instruction."),
+            ("Opportunity", "/ˌɒp.əˈtjuː.nə.ti/", "时代机遇", "A set of circumstances that makes it possible to do something transformative.")
         ],
         "timeline": [
             ("1952–1953", "在MIT获得机械工程学士及硕士学位。"),
@@ -162,15 +221,15 @@ episodes_meta = [
         "id": "05",
         "file_name": "episode-05.html",
         "folder": "第05期-隔岸观火的叛乱",
-        "act_tag": "ACT 05 · 1957–1968 · 达拉斯与硅谷",
+        "act_tag": "ACT 05 · 1957–1958 · 硅谷初生与仙童叛乱",
         "title_zh": "第 05 期：隔岸观火的叛乱",
-        "title_en": "Episode 05: The Rebellion Observed from Afar",
-        "time_loc": "1957–1968 · 达拉斯与硅谷",
-        "tagline_zh": "硅谷的起点不是技术，是八个人敢于离开的勇气。他隔着半个美国看这场叛乱，后来成了他自己的剧本。",
-        "tagline_en": "Silicon Valley's genesis was not technology, but the courage of eight to walk away. The rebellion he watched from afar would become his own playbook.",
-        "duration": "20:30",
+        "title_en": "Episode 05: Watching the Rebellion from Afar",
+        "time_loc": "1957–1958 · 波士顿至达拉斯",
+        "tagline_zh": "当一群年轻人掀翻旧桌子时，远在东岸的他看懂了一件事：规则要由下场的人来定。",
+        "tagline_en": "When a group of young men overturned the old table, he understood from the East Coast: rules are written by those in the arena.",
+        "duration": "21:05",
         "pills": [
-            ("历史坐标", "叛逆八帮 · 仙童半导体 · 创投起源 · 英特尔诞生"),
+            ("历史坐标", "肖克利半导体 · 八叛逆与仙童成立 · 硅谷得名 · 德仪达拉斯邀约"),
             ("有声轨", "中英双轨 20min 广播级剧场原声"),
             ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
         ],
@@ -180,34 +239,38 @@ episodes_meta = [
         "next_link": "episode-06.html",
         "next_label": "下一期：第 06 期 德仪的太空竞赛岁月 →",
         "vocab": [
-            ("Traitorous Eight", "/ˈtreɪtərəs eɪt/", "叛逆八帮", "The eight engineers who left Shockley Semiconductor in 1957 to found Fairchild Semiconductor."),
-            ("Venture Capital", "/ˈven.tʃər ˈkæp.ɪ.təl/", "风险投资", "Capital invested in a project in which there is a substantial element of risk, pioneered by Arthur Rock."),
-            ("Equity", "/ˈek.wɪ.ti/", "股权，资产净值", "The value of the shares issued by a company, central to Silicon Valley's incentive revolution."),
-            ("Incubation", "/ˌɪŋ.kjʊˈbeɪ.ʃən/", "孵化，培育", "The process of nurturing and developing early-stage technology enterprises.")
+            ("Traitorous Eight", "/ˈtreɪ.tər.əs eɪt/", "八叛逆", "The group of eight employees who left Shockley Semiconductor in 1957 to co-found Fairchild Semiconductor."),
+            ("Disruption", "/dɪsˈrʌp.ʃən/", "颠覆式创新", "Radical change in an existing industry or market through technological innovation."),
+            ("Incubation", "/ˌɪŋ.kjʊˈbeɪ.ʃən/", "孵化，培育", "The development of nascent technology and venture startups in fertile ecosystems."),
+            ("Silicon Valley", "/ˈsɪl.ɪ.kən ˈvæl.i/", "硅谷", "The global epicenter of high-tech innovation in the southern San Francisco Bay Area."),
+            ("Venture Capital", "/ˈven.tʃər ˈkæp.ɪ.təl/", "风险投资", "Capital invested in a project in which there is a substantial element of risk, typically new businesses."),
+            ("Defection", "/dɪˈfek.ʃən/", "出走，离职叛逃", "The conscious abandonment of loyalty or allegiance to an established institution."),
+            ("Ecosystem", "/ˈiː.kəʊˌsɪs.təm/", "产业生态系统", "A complex network of interconnected companies, suppliers, and talents driving industry growth."),
+            ("Foresight", "/ˈfɔː.saɪt/", "远见卓识", "The ability to predict or the action of predicting what will happen or be needed in the future.")
         ],
         "timeline": [
-            ("1957 · 秋", "诺伊斯、摩尔等八名工程师离开肖克利实验室，在阿瑟·洛克牵线下创立仙童半导体。"),
-            ("1958 · 5月", "张忠谋加入德州仪器达拉斯总部，将IBM委托产线良率从近零拉升至20%以上。"),
-            ("1960年代初", "仙童发明硅平面工艺，成为硅谷半导体的「黄埔军校」。"),
-            ("1968 · 7月", "诺伊斯与摩尔脱离仙童创立英特尔（Intel），阿瑟·洛克担任董事长，开启股权激励革命。"),
-            ("1972", "张忠谋升任TI集团副总裁，在达拉斯隔空与硅谷英特尔展开长达十余年的巅峰正面对决。")
+            ("1956 · 11月", "威廉·肖克利因发明晶体管荣获诺贝尔物理学奖，在加州创立肖克利半导体。"),
+            ("1957 · 9月", "肖克利实验室八位核心科学家（八叛逆）集体辞职出走。"),
+            ("1957 · 10月", "在阿瑟·洛克引荐下获得谢尔曼·仙童资助，仙童半导体（Fairchild）正式成立。"),
+            ("1957–1958", "张忠谋在东岸希凡尼亚密切关注西岸晶体管技术革命与产业剧变。"),
+            ("1958 · 5月", "张忠谋离开希凡尼亚，接受德州仪器（TI）邀请迁往达拉斯。")
         ],
-        "quote_zh": "硅谷的起点不是技术，是八个人敢于离开的勇气；他隔着半个美国看完的那场叛乱，后来成了他自己的剧本。",
-        "quote_en": "The genesis of Silicon Valley was not technology, but the courage of eight individuals to walk away; the rebellion he watched from halfway across America became his own playbook."
+        "quote_zh": "当一群年轻人掀翻旧桌子时，远在东岸的他看懂了一件事：规则要由下场的人来定。",
+        "quote_en": "When a group of young men overturned the old table, he understood from the East Coast: rules are written by those in the arena."
     },
     {
         "id": "06",
         "file_name": "episode-06.html",
         "folder": "第06期-德仪的太空竞赛岁月",
-        "act_tag": "ACT 06 · 1958–1964 · 达拉斯至斯坦福",
+        "act_tag": "ACT 06 · 1958–1964 · 德仪与集成电路",
         "title_zh": "第 06 期：德仪的太空竞赛岁月",
-        "title_en": "Episode 06: TI's Space Race Years",
-        "time_loc": "1958–1964 · 达拉斯至斯坦福",
-        "tagline_zh": "他在一家赌上太空竞赛的公司里，学会了什么叫技术的信仰；真正的强者，敢于在上升期把自己清零。",
-        "tagline_en": "At a company wagering on the space race, he learned true technological faith; the truly formidable dare to reset themselves at their peak.",
-        "duration": "19:45",
+        "title_en": "Episode 06: The Space Race Years at Texas Instruments",
+        "time_loc": "1958–1964 · 达拉斯与斯坦福",
+        "tagline_zh": "冷战的火箭把人类送进太空，也把集成电路推上了历史的浪尖。他在达拉斯看到了未来。",
+        "tagline_en": "Cold War rockets thrust humanity into space and propelled the integrated circuit to the crest of history. In Dallas, he saw the future.",
+        "duration": "20:51",
         "pills": [
-            ("历史坐标", "集成电路发明 · NASA阿波罗登月 · 斯坦福电机博士 · 归零再出发"),
+            ("历史坐标", "基尔比集成电路 · 阿波罗登月计划 · 德仪资助斯坦福博士 · 良率突破"),
             ("有声轨", "中英双轨 20min 广播级剧场原声"),
             ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
         ],
@@ -217,34 +280,38 @@ episodes_meta = [
         "next_link": "episode-07.html",
         "next_label": "下一期：第 07 期 半导体之巅的十年 →",
         "vocab": [
-            ("Integrated Circuit", "/ˈɪn.tɪ.ɡreɪ.tɪd ˈsɜː.kɪt/", "集成电路，芯片", "An electronic circuit formed on a small piece of semiconducting material, invented in 1958."),
-            ("Monolithic", "/ˌmɒn.əˈlɪθ.ɪk/", "单片集成的", "Formed of a single large block or crystal; integrated on a single semiconductor substrate."),
-            ("Space Race", "/ˈspeɪs reɪs/", "太空竞赛", "The 20th-century competition between cold war rivals for dominance in spaceflight capability."),
-            ("Zero-Base", "/ˈzɪə.rəʊ beɪs/", "归零重置", "Starting from an initial point of zero rather than building on previous momentum.")
+            ("Integrated Circuit", "/ˈɪn.tɪ.ɡreɪ.tɪd ˈsɜː.kɪt/", "集成电路（IC）", "An electronic circuit formed on a small piece of semiconducting material, performing the same function as a larger circuit."),
+            ("Space Race", "/ˈspeɪs reɪs/", "太空竞赛", "The 20th-century competition between Cold War adversaries USSR and USA for dominance in spaceflight capability."),
+            ("Yield Rate", "/jiːld reɪt/", "良品率，晶圆良率", "The percentage of non-defective manufactured chips produced on a semiconductor wafer."),
+            ("Sponsorship", "/ˈspɒn.sə.ʃɪp/", "企业全额资助培养", "Financial support given by TI to send Morris Chang to Stanford for his Ph.D. in electrical engineering."),
+            ("Miniaturization", "/ˌmɪn.i.ə.tʃə.raɪˈzeɪ.ʃən/", "微型化", "The design and manufacture of ever smaller electrical components and chips."),
+            ("Aerospace", "/ˈeə.rəʊ.speɪs/", "航天航空工业", "The branch of technology and industry concerned with aviation and space flight."),
+            ("Breakthrough", "/ˈbreɪk.θruː/", "重大技术突破", "A sudden, dramatic, and important discovery or development."),
+            ("Tenacity", "/təˈnæs.ə.ti/", "坚毅与顽强", "The quality or fact of being very determined; determination.")
         ],
         "timeline": [
-            ("1958 · 9月12日", "德州仪器新员工杰克·基尔比（Jack Kilby）在实验室成功演示人类首块集成电路。"),
-            ("1961 · 5月", "肯尼迪总统宣布阿波罗登月计划；TI集成电路进入民兵导弹与阿波罗导航计算机。"),
-            ("1961 · 秋", "张忠谋获TI全薪全额资助，赴斯坦福大学攻读电机工程博士学位。"),
-            ("1964 · 初", "以极高效率完成斯坦福博士论文，重返TI达拉斯总部，随即被任命为锗晶体管部总经理。"),
-            ("1964–1965", "以深厚半导体物理功底重组生产线，德仪确立全球半导体霸权。")
+            ("1958 · 9月", "杰克·基尔比在德州仪器实验室成功发明世界上第一块集成电路（IC）。"),
+            ("1958–1961", "张忠谋在德仪大幅提升锗晶体管与硅晶体管良品率，获公司高层极度赏识。"),
+            ("1961 · 秋", "德仪全薪全额资助张忠谋前往斯坦福大学攻读电气工程博士学位。"),
+            ("1964 · 2月", "以两年半创纪录速度顺利通过斯坦福博士答辩，重返德州仪器达拉斯总部。"),
+            ("1964 · 夏", "升任德仪锗三极管研发及生产总经理，全面统领核心业务部门。")
         ],
-        "quote_zh": "他在一家赌上太空竞赛的公司里，学会了什么叫技术的信仰；真正的强者，敢于在上升期把自己清零。",
-        "quote_en": "At a company that bet its future on the space race, he learned faith in technology; the truly formidable dare to reset themselves to zero at the height of their ascent."
+        "quote_zh": "冷战的火箭把人类送进太空，也把集成电路推上了历史的浪尖。他在达拉斯看到了未来。",
+        "quote_en": "Cold War rockets thrust humanity into space and propelled the integrated circuit to the crest of history. In Dallas, he saw the future."
     },
     {
         "id": "07",
         "file_name": "episode-07.html",
         "folder": "第07期-半导体之巅的十年",
-        "act_tag": "ACT 07 · 1964–1978 · 达拉斯德州仪器",
+        "act_tag": "ACT 07 · 1964–1974 · 德仪全球副总裁",
         "title_zh": "第 07 期：半导体之巅的十年",
-        "title_en": "Episode 07: A Decade at the Semiconductor Zenith",
-        "time_loc": "1964–1978 · 达拉斯德州仪器",
-        "tagline_zh": "他赢下了几乎所有战役，却没赢下德仪内部的权力棋局。最难的仗，往往不在市场上，而在会议室里。",
-        "tagline_en": "He won almost every battle, yet lost the corporate power game inside TI. The hardest fights are rarely won in the marketplace, but in the boardroom.",
-        "duration": "20:25",
+        "title_en": "Episode 07: The Decade at the Summit of Semiconductors",
+        "time_loc": "1964–1974 · 达拉斯与全球扩张",
+        "tagline_zh": "坐在全球半导体的王座上，他发现决定胜负的不仅是技术，更是学习曲线上的疯狂下杀。",
+        "tagline_en": "Sitting atop the semiconductor throne, he discovered victory was decided not just by technology, but by ruthless learning curve pricing.",
+        "duration": "21:29",
         "pills": [
-            ("历史坐标", "学习曲线定价 · TI与Intel对垒 · 石油危机 · 权力棋局"),
+            ("历史坐标", "德仪全球副总裁 · 学习曲线定价策略 · 全球建厂 · 30000名跨国员工"),
             ("有声轨", "中英双轨 20min 广播级剧场原声"),
             ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
         ],
@@ -254,34 +321,38 @@ episodes_meta = [
         "next_link": "episode-08.html",
         "next_label": "下一期：第 08 期 离开德州与受邀回台 →",
         "vocab": [
-            ("Learning Curve", "/ˈlɜː.nɪŋ kɜːv/", "学习曲线，经验曲线", "The rate of a person's progress in gaining experience or a firm's reduction in costs as volume scales."),
-            ("Microprocessor", "/ˌmaɪ.krəʊˈprəʊ.ses.ər/", "微处理器，CPU", "An integrated circuit that contains all the functions of a central processing unit of a computer."),
-            ("Stagflation", "/stæɡˈfleɪ.ʃən/", "滞胀（停滞性通货膨胀）", "Persistent high inflation combined with high unemployment and stagnant demand."),
-            ("Meritocracy", "/ˌmer.ɪˈtɒk.rə.si/", "唯才是用制度", "A government or the holding of power by people selected on the basis of their ability.")
+            ("Learning Curve", "/ˈlɜː.nɪŋ kɜːv/", "学习曲线理论", "The concept that cumulative production volume reduces manufacturing cost by a predictable percentage."),
+            ("Aggressive Pricing", "/əˈɡres.ɪv ˈpraɪ.sɪŋ/", "进攻性定价策略", "Lowering prices in anticipation of future cost declines to deter competitors and gain dominant market share."),
+            ("Global Footprint", "/ˈɡləʊ.bəl ˈfʊt.prɪnt/", "全球制造足迹", "Establishing multi-national manufacturing and packaging facilities across Asia and Latin America."),
+            ("Vice President", "/vaɪs ˈprez.ɪ.dənt/", "全球副总裁兼总经理", "Executive corporate officer leading enterprise-scale business units and thousands of personnel."),
+            ("Scale Advantage", "/skeɪl ədˈvɑːn.tɪdʒ/", "规模优势", "Cost advantages that enterprises obtain due to their scale of operation."),
+            ("Execution", "/ˌek.sɪˈkjuː.ʃən/", "执行力", "The carrying out or putting into effect of a plan, order, or course of action."),
+            ("Dominance", "/ˈdɒm.ɪ.nəns/", "市场主导地位", "Power and influence over others in an industry segment."),
+            ("Consolidation", "/kənˌsɒl.ɪˈdeɪ.ʃən/", "行业整合", "The process of uniting separate parts into a single whole or dominant force.")
         ],
         "timeline": [
-            ("1967", "升任TI副总裁兼集成电路部总经理，首创运用BCG学习曲线进行每季度主动降价。"),
-            ("1971–1972", "英特尔发布4004微处理器；张忠谋升任TI集团副总裁兼半导体集团总经理，统领全球最大芯片业务。"),
-            ("1973", "第四次中东战争爆发与第一次石油危机，美国制造业陷入十年滞胀。"),
-            ("1977–1978", "因与公司最高层战略分歧，主动请求调任消费者产品集团，推出经典语音玩具Speak & Spell。"),
-            ("1981", "在TI内部权力斗争中被转任质量与生产力总监，陷入职业生涯至暗低谷。")
+            ("1967 · 10月", "升任德仪副总裁，掌管德仪全美及全球半导体元件业务。"),
+            ("1969 · 夏", "代表德仪赴台湾新竹与中坜考察并投资设立封测工厂。"),
+            ("1972 · 12月", "升任德仪全球集团副总裁（Group VP），统领半导体事业部（3万名员工）。"),
+            ("1973–1974", "推行激进的学习曲线定价战略，击溃多数竞争对手，确立德仪全球第一芯片霸主地位。"),
+            ("1974 · 冬", "德仪战略重心向消费类电子产品（计算器、电子表）转移，内部分歧初现。")
         ],
-        "quote_zh": "他赢下了几乎所有战役，却没赢下德州仪器内部的权力棋局；最难的仗，往往不在市场上，而在会议室里。",
-        "quote_en": "He won almost every battle in the market, but not the political chess match within TI; the hardest struggles are rarely fought in the marketplace, but in conference rooms."
+        "quote_zh": "坐在全球半导体的王座上，他发现决定胜负的不仅是技术，更是学习曲线上的疯狂下杀。",
+        "quote_en": "Sitting atop the semiconductor throne, he discovered victory was decided not just by technology, but by ruthless learning curve pricing."
     },
     {
         "id": "08",
         "file_name": "episode-08.html",
         "folder": "第08期-离开德州与受邀回台",
-        "act_tag": "ACT 08 · 1978–1987 · 达拉斯·纽约至新竹",
+        "act_tag": "ACT 08 · 1983–1985 · 离开德仪与跨海邀约",
         "title_zh": "第 08 期：离开德州与受邀回台",
-        "title_en": "Episode 08: Leaving Texas & The Homeland Calling",
-        "time_loc": "1978–1987 · 达拉斯·纽约至新竹",
-        "tagline_zh": "离开一个错误的位置，是人生最重要的一步棋；归乡者的赌注——他押上的不是自己的余生，是一个产业的未来。",
-        "tagline_en": "Leaving the wrong position is often life's most crucial move; the returnee's gamble—what he wagered was not merely the rest of his life, but the destiny of an entire industry.",
-        "duration": "20:10",
+        "title_en": "Episode 08: Leaving Texas & the Invitation Home",
+        "time_loc": "1983–1985 · 达拉斯-纽约-台北",
+        "tagline_zh": "五十四岁，有人准备退休，他却把前半生积攒的所有筹码，押上了一场无人看好的赌局。",
+        "tagline_en": "At age fifty-four, when others prepare for retirement, he staked all the chips gathered over a lifetime on a gamble no one believed in.",
+        "duration": "21:10",
         "pills": [
-            ("历史坐标", "辞职德仪 · 通用器材 · 李国鼎三顾 · 工研院 · 台积电诞生"),
+            ("历史坐标", "告别德州仪器 · 通用仪器总裁 · 孙运璿与李国鼎邀约 · 出任工研院院长"),
             ("有声轨", "中英双轨 20min 广播级剧场原声"),
             ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
         ],
@@ -291,390 +362,65 @@ episodes_meta = [
         "next_link": "episode-09.html",
         "next_label": "下一期：第 09 期 纯代工的革命 →",
         "vocab": [
-            ("Disillusionment", "/ˌdɪs.ɪˈluː.ʒən.mənt/", "幻灭，醒悟", "A feeling of disappointment resulting from the discovery that something is not as good as believed."),
-            ("Foundry", "/ˈfaʊn.dri/", "晶圆代工厂", "A factory where microchips are manufactured for other companies."),
-            ("Repatriation", "/ˌriː.pæt.riˈeɪ.ʃən/", "归国，重返故土", "The return of someone to their own country or cultural homeland."),
-            ("Pure-play", "/pjʊər pleɪ/", "专业专注的，纯粹经营的", "A company that focuses solely on one particular type of product or service.")
+            ("Crossroads", "/ˈkrɒs.rəʊdz/", "十字路口，人生命运转折点", "An intersection of two or more roads; a point at which a crucial decision must be made."),
+            ("Resignation", "/ˌrez.ɪɡˈneɪ.ʃən/", "辞职，告别旧舞台", "The act of giving up a position, office, or employment."),
+            ("Industrial Technology", "/ɪnˈdʌs.tri.əl tekˈnɒl.ə.dʒi/", "工业技术研究院（ITRI）", "A non-profit applied research institution established to spur industrial innovation in Taiwan."),
+            ("Entrepreneurship", "/ˌɒn.trə.prəˈnɜː.ʃɪp/", "二次创业精神", "The activity of setting up a business or taking on financial risks in the hope of profit at mature age."),
+            ("Mandate", "/ˈmæn.deɪt/", "使命，历史委托", "An official order or commission to do something; a historic authorization."),
+            ("Transition", "/trænˈzɪʃ.ən/", "转型期", "The process or a period of changing from one state or condition to another."),
+            ("Conviction", "/kənˈvɪk.ʃən/", "坚定信念", "A firmly held belief or opinion that guides difficult choices."),
+            ("Legacy Pivot", "/ˈleɡ.ə.si ˈpɪv.ət/", "生涯转型", "A high-stakes pivot in career aimed at leaving a lasting historical impact.")
         ],
         "timeline": [
-            ("1983 · 底", "辞去效力25年的德州仪器职位，彻底切断与达拉斯老东家的关系。"),
-            ("1984–1985", "出任纽约通用器材（General Instrument）总裁兼COO，一年后因理念不合离任。"),
-            ("1985 · 夏", "应李国鼎、徐贤修、俞国华之邀赴台，出任工业技术研究院（ITRI）院长。"),
-            ("1986 · 春-冬", "针对台湾半导体无设计强项但制造良率高的现状，构思出纯晶圆代工模式并全力筹备。"),
-            ("1987 · 2月21日", "台湾积体电路制造股份有限公司（TSMC）在新竹科学园区正式创立，张忠谋任董事长。")
+            ("1983 · 12月", "因对德仪战略转向消费电子无法苟同，正式辞去德州仪器副总裁职务。"),
+            ("1984 · 2月", "加入纽约通用仪器公司（General Instrument）担任总裁兼首席运营官。"),
+            ("1985 · 5月", "李国鼎与俞国华数次派员力邀张忠谋回台主持工业技术研究院（ITRI）。"),
+            ("1985 · 8月", "辞去通用仪器职位，正式抵达台北，就任工业技术研究院院长。"),
+            ("1985 · 冬", "对台湾半导体产业基础进行严密调研，提出颠覆性的「纯晶圆代工」商业构想。")
         ],
-        "quote_zh": "有时候，离开一个错误的位置，是人生最重要的一步棋；归乡者的赌注——他押上的不是自己的余生，是一个产业的未来。",
-        "quote_en": "Sometimes, leaving the wrong position is the most decisive move in life; the returnee's wager—he bet not just the remainder of his life, but the future of an entire industry."
+        "quote_zh": "五十四岁，有人准备退休，他却把前半生积攒的所有筹码，押上了一场无人看好的赌局。",
+        "quote_en": "At age fifty-four, when others prepare for retirement, he staked all the chips gathered over a lifetime on a gamble no one believed in."
     },
     {
         "id": "09",
         "file_name": "episode-09.html",
         "folder": "第09期-纯代工的革命",
-        "act_tag": "ACT 09 · 1987–1995 · 新竹科学园区",
+        "act_tag": "ACT 09 · 1986–1987 · 台积电诞生与纯代工",
         "title_zh": "第 09 期：纯代工的革命",
-        "title_en": "Episode 09: The Pure Foundry Revolution",
-        "time_loc": "1987–1995 · 新竹科学园区",
-        "tagline_zh": "他不造自己的芯片，只造别人的芯片，却改写了整个行业。颠覆者不做主角，做平台，让所有人成为主角。",
-        "tagline_en": "He made no chips of his own—only fabricating for others, yet revolutionized the global industry. The true disruptor takes no center stage, but builds the platform where everyone else becomes the protagonist.",
-        "duration": "19:50",
+        "title_en": "Episode 09: The Pure-Play Revolution",
+        "time_loc": "1986–1987 · 新竹科学园区",
+        "tagline_zh": "不和客户竞争，只做客户的制造后盾——看似退让的一步，改写了全球芯片工业的游戏规则。",
+        "tagline_en": "Do not compete with customers; be their manufacturing backbone. A seemingly humble retreat that rewrote the rules of the global semiconductor game.",
+        "duration": "21:00",
         "pills": [
-            ("历史坐标", "Fab 1改造 · 纯代工模式 · Fabless无厂浪潮 · 破10亿美元营收"),
+            ("历史坐标", "纯代工商业模式 (Pure-Play Foundry) · 飞利浦注资 · 1987新竹创立 · 无厂半导体诞生"),
             ("有声轨", "中英双轨 20min 广播级剧场原声"),
             ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
         ],
         "image_path": "./设计资产/插图/第09期-纯代工的革命.png",
         "prev_link": "episode-08.html",
         "prev_label": "← 上一期：第 08 期 离开德州与受邀回台",
-        "next_link": "episode-10.html",
-        "next_label": "下一期：第 10 期 从台湾到世界 →",
-        "vocab": [
-            ("Fabless", "/ˈfæb.ləs/", "无晶圆厂芯片设计公司", "A company that designs microchips but outsources their actual fabrication to a foundry."),
-            ("Yield Rate", "/jiːld reɪt/", "良率，合格品产出率", "The percentage of correctly operating chips on a manufactured semiconductor wafer."),
-            ("Ecosystem", "/ˈiː.kəʊˌsɪs.təm/", "商业生态系统", "A complex network of interconnected organizations including suppliers, customers, and partners."),
-            ("Disruption", "/dɪsˈrʌp.ʃən/", "颠覆性创新", "Disturbance or radical change in an industry caused by new business models.")
-        ],
-        "timeline": [
-            ("1987", "台积电租用工研院旧产线（Fab 1）上线运营，庄严确立「不与客户竞争」铁律。"),
-            ("1988–1990", "英特尔安迪·葛洛夫率队实地认证，促使台积电通过200多项品管严苛考验；建立全资Fab 2。"),
-            ("1993", "斥巨资投建台湾首座8吋晶圆厂（Fab 3），良率超越美日巨头。"),
-            ("1994 · 9月5日", "台积电在台湾证券交易所正式挂牌上市（股票代号 2330）。"),
-            ("1995", "年营收首度突破10亿美元大关，高通、英伟达等全球Fabless巨头生态成型。")
-        ],
-        "quote_zh": "颠覆者不做主角，做平台——让所有人成为主角；他不造自己的芯片，只造别人的芯片，却改写了整个行业。",
-        "quote_en": "Disruptors do not seek the spotlight; they build the platform, allowing everyone else to become the protagonist."
-    },
-    {
-        "id": "10",
-        "file_name": "episode-10.html",
-        "folder": "第10期-从台湾到世界",
-        "act_tag": "ACT 10 · 1995–1998 · 新竹至纽约",
-        "title_zh": "第 10 期：从台湾到世界",
-        "title_en": "Episode 10: From Taiwan to the World",
-        "time_loc": "1995–1998 · 新竹至纽约",
-        "tagline_zh": "当风暴来时，扎实的企业反而被看见。亚洲金融风暴里，一家台湾公司站上了世界舞台。",
-        "tagline_en": "When the storm hits, solid enterprises stand out all the clearer. Amidst the Asian Financial Crisis, a Taiwanese company rose to the world stage.",
-        "duration": "18:59",
-        "pills": [
-            ("历史坐标", "亚洲金融风暴 · 纽交所敲钟 · 商业周刊25最佳经理人 · 自传上册出版"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第10期-从台湾到世界.png",
-        "prev_link": "episode-09.html",
-        "prev_label": "← 上一期：第 09 期 纯代工的革命",
-        "next_link": "episode-11.html",
-        "next_label": "下一期：第 11 期 记忆体的诱惑 →",
-        "vocab": [
-            ("Depreciation", "/dɪˌpriː.ʃiˈeɪ.ʃən/", "贬值，折旧", "A reduction in the value of an asset or national currency over time."),
-            ("ADR", "/ˌeɪ.diːˈɑːr/", "美国存托凭证", "American Depositary Receipt, allowing US investors to trade foreign company shares."),
-            ("Tenacity", "/təˈnæs.ə.ti/", "坚忍，沉着定力", "The quality or fact of being able to grip something firmly; determination in crisis."),
-            ("Benchmark", "/ˈbentʃ.mɑːk/", "基准，行业标杆", "A standard or point of reference against which things may be compared or assessed.")
-        ],
-        "timeline": [
-            ("1997 · 7月", "泰国放弃固定汇率引发泰铢暴跌，亚洲金融风暴全面席卷东亚经济体。"),
-            ("1997 · 10月8日", "台积电赴纽约证券交易所挂牌发行ADR，成为首家在华尔街上市的中国台湾企业。"),
-            ("1998 · 1月", "美国《商业周刊》（BusinessWeek）评选张忠谋为全球年度最佳25位经理人之一。"),
-            ("1998 · 秋", "《张忠谋自传》上册出版，全景回顾1931–1964年传奇求学与德仪岁月。"),
-            ("1998 · 底", "台积电在全球代工市占率突破50%，成为世界半导体基础设施中不可或缺的基石。")
-        ],
-        "quote_zh": "当风暴来时，扎实的企业反而被看见；在动荡中保持定力，世界自会为你让路。",
-        "quote_en": "When the storm strikes, solid enterprises are seen most clearly; retain your composure in upheaval, and the world will make way."
-    },
-    {
-        "id": "11",
-        "file_name": "episode-11.html",
-        "folder": "第11期-记忆体的诱惑",
-        "act_tag": "ACT 11 · 1998–2000 · 新竹至首尔",
-        "title_zh": "第 11 期：记忆体的诱惑",
-        "title_en": "Episode 11: The Temptation of Memory",
-        "time_loc": "1998–2000 · 新竹至首尔",
-        "tagline_zh": "诱惑之所以是诱惑，是因为它长得像机会。真正的强者，是在狂欢里还能听见周期钟声的人。",
-        "tagline_en": "Temptation is seductive because it masquerades as opportunity. The truly formidable are those who can still hear the tolling bell of cycles amidst the revelry.",
-        "duration": "21:18",
-        "pills": [
-            ("历史坐标", "世界先进 · DRAM价格雪崩 · 三星记忆体霸权 · 德碁世大购并"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第11期-记忆体的诱惑.png",
-        "prev_link": "episode-10.html",
-        "prev_label": "← 上一期：第 10 期 从台湾到世界",
-        "next_link": "episode-12.html",
-        "next_label": "下一期：第 12 期 逆周期的定力 →",
-        "vocab": [
-            ("Commodity", "/kəˈmɒd.ə.ti/", "大宗标准商品", "A raw material or standard product that can be bought and sold with little qualitative difference."),
-            ("DRAM", "/ˈdiː.ræm/", "动态随机存取记忆体", "Dynamic Random-Access Memory, a type of semiconductor memory widely used in computers."),
-            ("Boom-Bust", "/buːm bʌst/", "繁荣与萧条交替的周期", "A process of economic expansion and contraction that occurs repeatedly."),
-            ("Divestiture", "/daɪˈves.tɪ.tʃər/", "剥离，断舍离退出", "The action or process of selling off subsidiary business interests or investments.")
-        ],
-        "timeline": [
-            ("1994", "工研院次微米计划衍生「世界先进」（VIS），台积电作为唯一投标人主导成立。"),
-            ("1996–1997", "DRAM价格雪崩跌去超80%，全球记忆体厂商陷入巨额亏损深渊。"),
-            ("1998", "三星李健熙早餐会展现记忆体规模杀伤力；张忠谋坚定反思记忆体业务重创教训。"),
-            ("1999–2000", "台积电购并德碁半导体与世大积体电路，蔡力行果断提议将产线全数转型代工。"),
-            ("2000 · 7月", "台积电创下1662亿新台币历史新高营收，但在狂欢之夜敏锐警惕周期下行乌云。")
-        ],
-        "quote_zh": "诱惑之所以是诱惑，是因为它长得像机会；真正的强者，是在狂欢里还能听见周期钟声的人。",
-        "quote_en": "Temptation is seductive because it masquerades as opportunity; the truly formidable are those who hear the bell of cycle inflection even at the height of celebration."
-    },
-    {
-        "id": "12",
-        "file_name": "episode-12.html",
-        "folder": "第12期-逆周期的定力",
-        "act_tag": "ACT 12 · 2001–2003 · 互联网泡沫破裂",
-        "title_zh": "第 12 期：逆周期的定力",
-        "title_en": "Episode 12: The Poise of Counter-Cyclicality",
-        "time_loc": "2001–2003 · 互联网泡沫破裂",
-        "tagline_zh": "周期不是用来恐惧的，是用来踩节奏的；定力，是一个领导者最昂贵的资产。",
-        "tagline_en": "Economic cycles are not meant to be feared, but to set your rhythm; steadfast poise is a leader's most priceless asset.",
-        "duration": "18:17",
-        "pills": [
-            ("历史坐标", "半导体史上最惨衰退 · 直线投资理念 · 绝不裁员承诺 · 0.13微米铜制程"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第12期-逆周期的定力.png",
-        "prev_link": "episode-11.html",
-        "prev_label": "← 上一期：第 11 期 记忆体的诱惑",
-        "next_link": "episode-13.html",
-        "next_label": "下一期：第 13 期 交棒之痛 →",
-        "vocab": [
-            ("Counter-Cyclical", "/ˌkaʊn.təˈsɪk.lɪ.kəl/", "逆周期的", "Moving in the opposite direction of the overall economic cycle or industry downturn."),
-            ("Downturn", "/ˈdaʊn.tɜːn/", "经济低迷期，衰退", "A decline in economic, business, or other activity."),
-            ("Straight-Line", "/streɪt laɪn/", "直线平准投资法", "Maintaining constant, measured capacity expansion regardless of short-term quarterly swings."),
-            ("Retention", "/rɪˈten.ʃən/", "人才留存，维系", "The continued possession, use, or control of key skilled engineering personnel.")
-        ],
-        "timeline": [
-            ("2000 · 末", "全球互联网泡沫破灭，半导体行业迎来1964年以来第七次、也是史上最惨烈衰退。"),
-            ("2001", "全球芯片市场暴跌32%，各大半导体厂商相继大规模裁员关厂。"),
-            ("2001–2002", "张忠谋在台积电全面贯彻「直线投资」理念：不裁员、不缩减核心研发，逆势投资建厂。"),
-            ("2003 · 初", "台积电率先突破0.13微米铜制程技术难关，良率大幅碾压主要竞争对手联电。"),
-            ("2003 · 底", "半导体市场全面复苏，台积电以充沛产能和领先工艺一举夺取全球代工过半份额。")
-        ],
-        "quote_zh": "周期不是用来恐惧的，是用来踩节奏的；定力，是一个领导者最昂贵的资产。",
-        "quote_en": "Economic cycles are not meant to be feared, but to calibrate your cadence; steadfast poise is a leader's most expensive asset."
-    },
-    {
-        "id": "13",
-        "file_name": "episode-13.html",
-        "folder": "第13期-交棒之痛",
-        "act_tag": "ACT 13 · 2003–2009 · 继承人与金融海啸",
-        "title_zh": "第 13 期：交棒之痛",
-        "title_en": "Episode 13: The Pain of Succession",
-        "time_loc": "2003–2009 · 继承人与金融海啸",
-        "tagline_zh": "把权力交出去需要勇气，把它拿回来需要更大的勇气——而两次，都是为了同一家公司。",
-        "tagline_en": "Surrendering power requires courage; taking it back requires even greater resolve—and both times, it was done for the very same enterprise.",
-        "duration": "19:46",
-        "pills": [
-            ("历史坐标", "交棒蔡力行 · 2008金融海啸 · 840人裁员风波 · 78岁重任CEO"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第13期-交棒之痛.png",
-        "prev_link": "episode-12.html",
-        "prev_label": "← 上一期：第 12 期 逆周期的定力",
-        "next_link": "episode-14.html",
-        "next_label": "下一期：第 14 期 绚烂年代 →",
-        "vocab": [
-            ("Succession", "/səkˈseʃ.ən/", "接班传承，继任", "The action or process of inheriting a title, office, or leadership position."),
-            ("Stewardship", "/ˈstjuː.əd.ʃɪp/", "掌舵责任，管家职守", "The job of supervising or taking care of something, such as an organization or company culture."),
-            ("Severance", "/ˈsev.ər.əns/", "遣散费，解雇补偿", "The state of being separated or pay given upon termination of employment."),
-            ("Reinstatement", "/ˌriː.ɪnˈsteɪt.mənt/", "复职，重新归位", "The action of giving someone back their former position, status, or job.")
-        ],
-        "timeline": [
-            ("2005 · 7月", "74岁的张忠谋卸下CEO职位，正式交棒给战将蔡力行，自己专任董事长。"),
-            ("2008 · 9月", "雷曼兄弟倒闭引爆全球金融海啸，半导体订单遭遇断崖式下滑。"),
-            ("2009 · 1月", "台积电以考核机制变相裁员840人，引发员工抗议与严重企业文化信任危机。"),
-            ("2009 · 5月", "张忠谋与离职员工代表直接对话，承诺全数迎回离职同仁并补足薪资。"),
-            ("2009 · 6月11日", "78岁高龄的张忠谋宣布重新兼任CEO，以铁腕和担当重整台积电军心。")
-        ],
-        "quote_zh": "把权力交出去需要勇气，把它拿回来需要更大的勇气——而两次，都是为了同一家公司。",
-        "quote_en": "Relinquishing power demands courage, but taking it back demands even greater fortitude—and both times, it was done for the selfsame company."
-    },
-    {
-        "id": "14",
-        "file_name": "episode-14.html",
-        "folder": "第14期-绚烂年代",
-        "act_tag": "ACT 14 · 2009–2012 · 78岁重披战袍",
-        "title_zh": "第 14 期：绚烂年代",
-        "title_en": "Episode 14: The Splendid Era",
-        "time_loc": "2009–2012 · 78岁重披战袍",
-        "tagline_zh": "老骥伏枥，志在千里。年龄从不决定一个人还能不能战斗，只决定他敢不敢再上战场。",
-        "tagline_en": "An old steed in the stable still aspires to gallop a thousand miles. Age never dictates whether a warrior can fight—only whether he dares return to the arena.",
-        "duration": "18:23",
-        "pills": [
-            ("历史坐标", "40纳米良率危机 · 黄仁勋书房48小时 · 研发定8% · 28纳米大包圆"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第14期-绚烂年代.png",
-        "prev_link": "episode-13.html",
-        "prev_label": "← 上一期：第 13 期 交棒之痛",
-        "next_link": "episode-15.html",
-        "next_label": "下一期：第 15 期 苹果来敲门 →",
-        "vocab": [
-            ("Resurgence", "/rɪˈsɜː.dʒəns/", "强势复兴，再现辉煌", "An increase or revival after a period of little activity, popularity, or occurrence."),
-            ("R&D Intensity", "/ɑːr en diː ɪnˈten.sə.ti/", "研发强度（营收占比）", "The ratio of research and development expenditure to total business revenue."),
-            ("Capex", "/ˈkæp.eks/", "资本支出", "Capital expenditure, money spent by a business on acquiring or maintaining fixed assets."),
-            ("Wager", "/ˈweɪ.dʒər/", "下注，重磅赌注", "More formal term for bet; a risk taken on a critical outcome.")
-        ],
-        "timeline": [
-            ("2009 · 6月", "回任CEO面对40纳米良率仅20–30%的严重卡壳危机，令刘德音每日直接报告进展。"),
-            ("2009 · 7月15日", "亲赴加州在黄仁勋书房展开披萨长谈，以48小时死线化解上亿美元辉达供货索赔案。"),
-            ("2009 · 秋", "在牛肉面馆亲自说服已退休的蒋尚义重回台积电掌管研发。"),
-            ("2010", "顶住董事会压力将研发支出永久锁定为营收的8%，并将资本支出翻倍至59亿美元。"),
-            ("2011–2012", "台积电28纳米制程大获全胜，独家包揽全球移动芯片市场绝大多数订单。")
-        ],
-        "quote_zh": "老骥伏枥，志在千里；年龄从不决定一个人还能不能战斗，只决定他敢不敢再上战场。",
-        "quote_en": "Age never determines whether one can still wage battle, only whether one possesses the fortitude to step onto the battlefield once more."
-    },
-    {
-        "id": "15",
-        "file_name": "episode-15.html",
-        "folder": "第15期-苹果来敲门",
-        "act_tag": "ACT 15 · 2010–2014 · 库克、郭台铭与iPhone之约",
-        "title_zh": "第 15 期：苹果来敲门",
-        "title_en": "Episode 15: Apple Comes Knocking",
-        "time_loc": "2010–2014 · 库克、郭台铭与iPhone之约",
-        "tagline_zh": "最挑剔的客户，是最好的磨刀石——它逼你长出别人没有的能力。",
-        "tagline_en": "The most demanding customer is the ultimate whetstone—forcing you to forge capabilities no competitor can match.",
-        "duration": "18:27",
-        "pills": [
-            ("历史坐标", "郭台铭引荐苹果高管 · 举债71亿美元 · 20纳米半节点 · 独家A8芯片"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第15期-苹果来敲门.png",
-        "prev_link": "episode-14.html",
-        "prev_label": "← 上一期：第 14 期 绚烂年代",
-        "next_link": "episode-16.html",
-        "next_label": "下一期：第 16 期 摩尔定律的守卫者 →",
-        "vocab": [
-            ("Whetstone", "/ˈwet.stəʊn/", "磨刀石，严苛考验", "A fine-grained stone used for sharpening cutting tools; a metaphor for demanding clients."),
-            ("Exclusivity", "/ˌek.skluːˈsɪv.ə.ti/", "独家性，专属性", "The practice of excluding all others; sole supplier relationship."),
-            ("Half-Node", "/hɑːf nəʊd/", "半代制程节点", "An intermediate semiconductor process node between two major standardized generations."),
-            ("Synergy", "/ˈsɪn.ə.dʒi/", "协同效应", "The interaction or cooperation of two organizations to produce a combined effect greater than the sum of separate effects.")
-        ],
-        "timeline": [
-            ("2010 · 11月9日", "郭台铭携苹果COO杰夫·威廉姆斯（Jeff Williams）夜访张忠谋台北家中，开启合作序幕。"),
-            ("2011 · 春", "苹果因三星自研Galaxy手机与其决裂，张忠谋飞赴库比蒂诺会见库克，敲定战略代工意向。"),
-            ("2011–2013", "台积电发行71亿美元公司债全力扩产建厂，但坚持「只承诺客户一半需求」的审慎原则。"),
-            ("2013", "在20纳米制程上实现良率惊险跨越，彻底甩开竞争对手。"),
-            ("2014 · 秋", "搭载台积电独家代工A8处理器的iPhone 6发布，全球狂销上亿台，开启十年苹果深度结盟。")
-        ],
-        "quote_zh": "最挑剔的客户，是最好的磨刀石——它逼你长出别人没有的能力。",
-        "quote_en": "The most exacting customer serves as the finest whetstone—compelling you to forge capabilities that none other possess."
-    },
-    {
-        "id": "16",
-        "file_name": "episode-16.html",
-        "folder": "第16期-摩尔定律的守卫者",
-        "act_tag": "ACT 16 · 2014–2018 · 7纳米与EUV终局之战",
-        "title_zh": "第 16 期：摩尔定律的守卫者",
-        "title_en": "Episode 16: Guardians of Moore's Law",
-        "time_loc": "2014–2018 · 7纳米与EUV终局之战",
-        "tagline_zh": "当摩尔定律开始变老，全世界都在问「还要不要追」——他用十年回答：追，而且要追到只剩你一个。",
-        "tagline_en": "When Moore's Law began to age and the world asked 'shall we still chase it?', he answered through a decade: chase it, until you are the last one standing.",
-        "duration": "18:04",
-        "pills": [
-            ("历史坐标", "摩尔定律极限 · 百亿美元年资本支出 · 7纳米独霸世界 · 格罗方德退赛"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第16期-摩尔定律的守卫者.png",
-        "prev_link": "episode-15.html",
-        "prev_label": "← 上一期：第 15 期 苹果来敲门",
-        "next_link": "episode-17.html",
-        "next_label": "下一期：第 17 期 交棒与退休 →",
-        "vocab": [
-            ("Moore's Law", "/mɔːz lɔː/", "摩尔定律", "The empirical observation that the number of transistors on a microchip doubles roughly every two years."),
-            ("Extreme Ultraviolet", "/ɪkˈstriːm ˌʌl.trəˈvaɪə.lət/", "极紫外光光刻（EUV）", "Photolithography technology using light with a wavelength of 13.5 nm to etch microscopic circuits."),
-            ("Packaging", "/ˈpæk.ɪ.dʒɪŋ/", "先进封装（InFO/CoWoS）", "The process of encasing discrete semiconductor chips together into a high-density unified system."),
-            ("Monopoly", "/məˈnɒp.əl.i/", "独占性技术领先", "The exclusive possession or control of the supply of or trade in a leading technological commodity.")
-        ],
-        "timeline": [
-            ("2014–2015", "全球晶圆厂在10/7纳米节点展开白热化军备竞赛，英特尔与三星遭遇良率瓶颈。"),
-            ("2016", "台积电年度资本支出首次突破100亿美元大关，率先引入InFO与CoWoS先进封装技术。"),
-            ("2017", "台积电年营收逼近1兆元新台币大关，提前锁定极紫外光（EUV）关键产能。"),
-            ("2018 · 5月", "台积电量产全球首颗7纳米移动芯片Apple A12，独家领先全行业。"),
-            ("2018 · 8月27日", "主要竞争对手格罗方德正式宣布无限期搁置7纳米研发，台积电在尖端制程独揽95%以上份额。")
-        ],
-        "quote_zh": "当摩尔定律开始变老，全世界都在问「还要不要追」——他用十年回答：追，而且要追到只剩你一个。",
-        "quote_en": "As Moore's Law aged, the world wavered on whether to pursue it; he spent a decade proving the answer: pursue it, until you stand alone at the pinnacle."
-    },
-    {
-        "id": "17",
-        "file_name": "episode-17.html",
-        "folder": "第17期-交棒与退休",
-        "act_tag": "ACT 17 · 2013–2018 · 双首长制与贝多芬第九",
-        "title_zh": "第 17 期：交棒与退休",
-        "title_en": "Episode 17: Passing the Torch and Retirement",
-        "time_loc": "2013–2018 · 双首长制与贝多芬第九",
-        "tagline_zh": "真正的传承，不是找一个像自己的人，而是把公司交给一套比个人更持久的制度。",
-        "tagline_en": "True institutional succession is not finding a replica of oneself, but entrusting the enterprise to an enduring system greater than any individual.",
-        "duration": "18:24",
-        "pills": [
-            ("历史坐标", "征询黄仁勋 · 双首长制架构 · 30周年贝多芬第九 · 2018正式退休"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第17期-交棒与退休.png",
-        "prev_link": "episode-16.html",
-        "prev_label": "← 上一期：第 16 期 摩尔定律的守卫者",
-        "next_link": "episode-18.html",
-        "next_label": "下一期：第 18 期 护国神山 →",
-        "vocab": [
-            ("Dual Leadership", "/ˈdjuː.əl ˈliː.də.ʃɪp/", "双首长治理体制", "A governance structure dividing authority between an Executive Chairman and a Chief Executive Officer."),
-            ("Institutionalization", "/ˌɪn.stɪˌtjuː.ʃən.əl.aɪˈzeɪ.ʃən/", "制度化建设", "The action of establishing something as a norm or institution rather than relying on personality."),
-            ("Ode to Joy", "/əʊd tuː dʒɔɪ/", "欢乐颂（贝多芬第九交响曲）", "The choral finale of Beethoven's Symphony No. 9, symbolizing triumph, unity, and humanity."),
-            ("Consummation", "/ˌkɒn.səˈmeɪ.ʃən/", "功德圆满，终局升华", "The point at which something is complete or finalized with supreme perfection.")
-        ],
-        "timeline": [
-            ("2013 · 初", "张忠谋向黄仁勋征询接任台积电CEO意向，黄仁勋回应「我已有工作（辉达）」。"),
-            ("2013 · 底", "张忠谋正式设计并落地「双首长制」：刘德音任董事长主外与董事会，魏哲家任总裁主内与运营。"),
-            ("2017 · 10月23日", "台积电举行30周年庆典，邀请国际交响乐团演出贝多芬第九《合唱》，随后正式宣布退休日程。"),
-            ("2018 · 6月5日", "主持最后一次股东常会后正式退休，结束长达63年的半导体职业传奇生涯。"),
-            ("2018 · 夏", "台积电在无创始人的常态下平稳过渡，制度与文化经受住了世界级检验。")
-        ],
-        "quote_zh": "真正的传承，不是找一个像自己的人，而是把公司交给一套比个人更持久的制度。",
-        "quote_en": "True succession does not consist of finding a clone of oneself, but in entrusting the company to a governance architecture more enduring than any single individual."
-    },
-    {
-        "id": "18",
-        "file_name": "episode-18.html",
-        "folder": "第18期-护国神山",
-        "act_tag": "ACT 18 · 2018–今天 · 地缘政治、AI革命与世纪收官",
-        "title_zh": "第 18 期：护国神山",
-        "title_en": "Episode 18: The Sacred Mountain of State",
-        "time_loc": "2018–今天 · 地缘政治、AI革命与世纪收官",
-        "tagline_zh": "一座「护国神山」，从来不是一个人搬上去的，而是一代人的选择，被时间砌成了山。",
-        "tagline_en": "A 'Sacred Mountain of State' is never hoisted by a single man; it is the shared choices of a whole generation, sculpted into bedrock by time.",
-        "duration": "18:00",
-        "pills": [
-            ("历史坐标", "中美科技博弈 · 亚利桑那与熊本建厂 · 生成式AI爆发 · 中山勋章全景收官"),
-            ("有声轨", "中英双轨 20min 广播级剧场原声"),
-            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
-        ],
-        "image_path": "./设计资产/插图/第18期-护国神山.png",
-        "prev_link": "episode-17.html",
-        "prev_label": "← 上一期：第 17 期 交棒与退休",
         "next_link": "index.html",
-        "next_label": "回到全册总目录 (18期全集收官) →",
+        "next_label": "回到全册总目录 (下册 第 10 期 敬请期待) →",
         "vocab": [
-            ("Chokepoint", "/ˈtʃəʊk.pɔɪnt/", "地缘战略咽喉", "A strategic narrow point of access or critical supply vulnerability in global tech geopolitics."),
-            ("Anchor", "/ˈæŋ.kər/", "定海神针，国家支柱", "A person or thing that provides strength and stability in times of storm."),
-            ("CoWoS", "/ˈkəʊ.wɒs/", "晶圆级芯片封装（先进封装）", "Chip-on-Wafer-on-Substrate, TSMC's proprietary 2.5D packaging essential for AI GPUs."),
-            ("Legacy", "/ˈleɡ.ə.si/", "历史遗产，精神长青", "Something that is passed down from predecessors, continuing to influence future generations.")
+            ("Pure-Play Foundry", "/pjʊər pleɪ ˈfaʊn.dri/", "纯晶圆代工", "A semiconductor company focused purely on manufacturing wafers for external designers without designing own products."),
+            ("Fabless", "/ˈfæb.ləs/", "无晶圆厂芯片设计公司", "Companies that design microchips but outsource hardware fabrication to pure foundry partners (e.g. Nvidia, Qualcomm)."),
+            ("IDM", "/ˌaɪ.diːˈem/", "整合元件制造商", "Integrated Device Manufacturer; a company that designs, manufactures, and sells integrated circuits in-house (e.g. Intel, TI)."),
+            ("Value Proposition", "/ˈvæl.juː ˌprɒp.əˈzɪʃ.ən/", "核心价值主张", "A statement of the unique value that a business brings to its clients, namely non-competition and absolute trust."),
+            ("Confidentiality", "/ˌkɒn.fɪˌden.ʃiˈæl.ə.ti/", "客户机密保护与信赖", "The state of keeping customer designs strictly secret, the cornerstone of TSMC's partnership ethos."),
+            ("Capital Intensity", "/ˈkæp.ɪ.təl ɪnˈten.sɪ.ti/", "资本密集型特性", "The amount of fixed capital required in relation to other factors of production in high-end wafer fabs."),
+            ("Paradigm Shift", "/ˈpær.ə.daɪm ʃɪft/", "范式转移", "A fundamental change in approach or underlying assumptions in global industrial division of labor."),
+            ("Foundational Trust", "/faʊnˈdeɪ.ʃən.əl trʌst/", "基石级客户信任", "The unshakeable commitment that TSMC will never compete with its customers.")
         ],
         "timeline": [
-            ("2018 · 6月", "张忠谋退休后，半导体地缘政治升温，台积电被外媒与社会公认为台湾「护国神山」。"),
-            ("2020 · 5月", "因应美国出口管制规则停止接纳华为新订单；同日宣布投资120亿美元于美国亚利桑那州建厂。"),
-            ("2021–2024", "台积电与索尼、丰田合资在日本熊本设立JASM晶圆厂，并于2024年2月正式落成投产。"),
-            ("2023–2024", "生成式AI（ChatGPT、英伟达GPU）席卷全球，台积电先进封装CoWoS产能成为算力基础设施最大瓶颈。"),
-            ("2024 · 4月", "张忠谋获颁象征崇高荣誉的「中山勋章」，全剧在此迎来历史收官与黄仁勋时代的宏大伏笔。")
+            ("1986 · 春", "张忠谋确立 TSMC 核心商业模式：纯晶圆代工（Pure-Play Foundry），绝不做自有品牌。"),
+            ("1986 · 下半年", "完成多方融资谈判，台湾行政院开发基金注资48.3%，荷兰飞利浦（Philips）注资27.5%，民间企业注资24.2%。"),
+            ("1987 · 2月21日", "台湾积体电路制造股份有限公司（TSMC）正式注册成立，张忠谋出任董事长。"),
+            ("1987 · 5月", "租用工研院实验厂启动量产，首开全球代工商业新范式。"),
+            ("1987 · 至今", "孵化全球数千家 Fabless 芯片设计巨头，掀起全球科技产业大分工浪潮。")
         ],
-        "quote_zh": "一座「护国神山」，从来不是一个人搬上去的，而是一代人的选择，被时间砌成了山。",
-        "quote_en": "A 'Sacred Mountain Protecting the Realm' is never carried up by a single man; it is the choices of an entire generation, cemented into bedrock across time."
+        "quote_zh": "不和客户竞争，只做客户的制造后盾——看似退让的一步，改写了全球芯片工业的游戏规则。",
+        "quote_en": "Do not compete with customers; be their manufacturing backbone. A seemingly humble retreat that rewrote the rules of the global semiconductor game."
     }
 ]
 
@@ -716,159 +462,134 @@ for ep in episodes_meta:
         cues = json.loads(m.group(1))
     else:
         cues = []
-        print(f"Warning: cues not found for {ep_id}")
         
-    cues_json_str = json.dumps(cues, ensure_ascii=False)
+    # Generate HTML content
+    pills_html = "".join([f'<span class="pill"><b>{k}：</b>{v}</span>' for k, v in ep["pills"]])
     
-    # Build Story HTML
-    story_html_parts = []
-    global_p_idx = 0
-    
-    # Filter out Knowledge Card and Next Episode Preview from core body
-    main_sec_count = 0
-    for s in zh_sections:
-        if "知识" in s[0] or "预告" in s[0] or "延伸" in s[0]:
-            break
-        main_sec_count += 1
+    # Cues HTML for teleprompter
+    cues_rows_html = []
+    for i, cue in enumerate(cues):
+        start_sec = cue.get("start", 0.0)
+        end_sec = cue.get("end", 0.0)
+        m_val = int(start_sec // 60)
+        s_val = int(start_sec % 60)
+        time_str = f"{m_val:02d}:{s_val:02d}"
         
-    for sec_i in range(main_sec_count):
-        z_title, z_paras = zh_sections[sec_i]
-        e_title, e_paras = en_sections[sec_i] if sec_i < len(en_sections) else ("", [])
+        zh_text = cue.get("zh", "")
+        en_text = cue.get("en", "")
         
-        sec_tag = f"ACT {sec_i:02d} · SECTION {sec_i+1}"
-        if "开场" in z_title:
-            sec_tag = "PROLOGUE · OPENING"
-        elif "第一幕" in z_title:
-            sec_tag = "ACT 01"
-        elif "第二幕" in z_title:
-            sec_tag = "ACT 02"
-        elif "第三幕" in z_title:
-            sec_tag = "ACT 03"
-        elif "第四幕" in z_title:
-            sec_tag = "ACT 04"
-        elif "第五幕" in z_title:
-            sec_tag = "ACT 05"
-        elif "第六幕" in z_title:
-            sec_tag = "ACT 06"
-        elif "尾声" in z_title:
-            sec_tag = "EPILOGUE · PARALLEL VIEW"
-            
-        part = f"""
-      <!-- Section: {z_title} -->
-      <section class="book-section" id="section-{sec_i}">
-        <div class="book-section-header">
-          <span class="section-tag">{sec_tag}</span>
-          <h2 class="serif">{z_title}<span class="en">{e_title}</span></h2>
-        </div>
-        <div class="book-section-body">
-        """
-        
-        max_p = max(len(z_paras), len(e_paras))
-        for p_i in range(max_p):
-            zp = z_paras[p_i] if p_i < len(z_paras) else ""
-            ep_text = e_paras[p_i] if p_i < len(e_paras) else ""
-            cue_idx = global_p_idx
-            start_t = cues[cue_idx]["start"] if cue_idx < len(cues) else 0.0
-            
-            is_sfx = "【音效" in zp or "[SFX" in ep_text or "【配乐" in zp
-            sfx_cls = " sfx-row" if is_sfx else ""
-            
-            # Format time
-            m_val = int(start_t // 60)
-            s_val = int(start_t % 60)
-            time_display = f"{m_val:02d}:{s_val:02d}"
-            
-            part += f"""
-          <div class="bilingual-para{sfx_cls}" id="p-{cue_idx}" data-time="{start_t:.2f}" onclick="seekAndPlay({start_t:.2f})">
-            <div class="para-time-badge" title="点击跳转至此段落音频">{time_display}</div>
-            <div class="para-content">
-              <p class="zh-para">{html.escape(zp)}</p>
-              <p class="en-para">{html.escape(ep_text)}</p>
-            </div>
-          </div>
-            """
-            global_p_idx += 1
-            
-        part += """
-        </div>
-      </section>
-        """
-        story_html_parts.append(part)
-        
-    story_html = "\n".join(story_html_parts)
-    
-    # Subtitles list
-    sub_items_html = []
-    for idx, c in enumerate(cues):
-        st = c["start"]
-        m_val = int(st // 60)
-        s_val = int(st % 60)
-        td = f"{m_val:02d}:{s_val:02d}"
-        zh_t = html.escape(c["zh"])
-        en_t = html.escape(c["en"])
-        sub_items_html.append(f"""
-          <div class="sub-row" id="sub-row-{idx}" data-index="{idx}" data-start="{st}" data-end="{c['end']}" onclick="seekAndPlay({st})">
-            <span class="sub-time-tag">{td}</span>
+        cues_rows_html.append(f"""
+          <div class="sub-row" id="sub-row-{i}" data-index="{i}" data-start="{start_sec:.2f}" data-end="{end_sec:.2f}" onclick="seekAndPlay({start_sec:.2f})">
+            <span class="sub-time-tag">{time_str}</span>
             <div class="sub-content">
-              <div class="sub-zh">{zh_t}</div>
-              <div class="sub-en">{en_t}</div>
+              <div class="sub-zh">{html.escape(zh_text)}</div>
+              <div class="sub-en">{html.escape(en_text)}</div>
             </div>
           </div>
         """)
-    subtitles_html = "\n".join(sub_items_html)
+    cues_scroll_html = "\n".join(cues_rows_html)
     
-    # Vocab cards
+    # Dual Book Sections HTML
+    book_sections_html = []
+    cue_idx = 0
+    
+    for s_idx, (sec_title, paras) in enumerate(zh_sections):
+        # find matching en section
+        en_sec_title = en_sections[s_idx][0] if s_idx < len(en_sections) else ""
+        en_paras = en_sections[s_idx][1] if s_idx < len(en_sections) else []
+        
+        sec_paras_html = []
+        for p_idx, p_zh in enumerate(paras):
+            p_en = en_paras[p_idx] if p_idx < len(en_paras) else ""
+            
+            # Match time tag with cue
+            time_tag = "00:00"
+            start_time = 0.0
+            if cue_idx < len(cues):
+                start_time = cues[cue_idx].get("start", 0.0)
+                m_val = int(start_time // 60)
+                s_val = int(start_time % 60)
+                time_tag = f"{m_val:02d}:{s_val:02d}"
+                c_idx = cue_idx
+                cue_idx += 1
+            else:
+                c_idx = max(0, len(cues) - 1)
+                
+            is_sfx = "【音效" in p_zh or "[SFX" in p_en or "【主叙述者】" in p_zh or "【Morris】" in p_zh
+            sfx_class = " sfx-row" if is_sfx else ""
+            
+            sec_paras_html.append(f"""
+              <div class="bilingual-para{sfx_class}" id="para-{c_idx}" onclick="seekAndPlay({start_time:.2f})">
+                <span class="para-time-badge">{time_tag}</span>
+                <div class="para-content">
+                  <p class="zh-para">{html.escape(p_zh)}</p>
+                  <p class="en-para">{html.escape(p_en)}</p>
+                </div>
+              </div>
+            """)
+            
+        sec_tag_num = f"ACT {s_idx + 1:02d}" if "幕" in sec_title or "Act" in sec_title else "SECTION"
+        book_sections_html.append(f"""
+          <section class="book-section">
+            <div class="book-section-header">
+              <span class="section-tag">{sec_tag_num}</span>
+              <h2 class="serif">{html.escape(sec_title)}<span class="en">{html.escape(en_sec_title)}</span></h2>
+            </div>
+            <div class="section-body">
+              {"".join(sec_paras_html)}
+            </div>
+          </section>
+        """)
+        
+    book_body_html = "\n".join(book_sections_html)
+    
+    # Vocab cards HTML
     vocab_cards_html = []
-    for w, pr, zh_def, en_def in ep["vocab"]:
+    for w, ph, zh_def, en_def in ep["vocab"]:
         vocab_cards_html.append(f"""
           <div class="vocab-card">
             <div class="vocab-word-row">
-              <span class="vocab-word">{w}</span>
-              <span class="vocab-phonetic">{pr}</span>
+              <span class="vocab-word">{html.escape(w)}</span>
+              <span class="vocab-phonetic">{html.escape(ph)}</span>
+              <button class="btn-pronounce" onclick="pronounceWord('{html.escape(w)}')" title="点击发音">🔊</button>
             </div>
-            <div class="vocab-zh">{zh_def}</div>
-            <div class="vocab-en">{en_def}</div>
+            <div class="vocab-zh">{html.escape(zh_def)}</div>
+            <div class="vocab-en">{html.escape(en_def)}</div>
           </div>
         """)
     vocab_html = "\n".join(vocab_cards_html)
     
-    # Timeline
-    timeline_html_list = []
+    # Timeline HTML
+    tl_items_html = []
     for yr, desc in ep["timeline"]:
-        timeline_html_list.append(f"""
+        tl_items_html.append(f"""
           <div class="tl-item">
-            <div class="tl-year">{yr}</div>
-            <div class="tl-desc">{desc}</div>
+            <div class="tl-year">{html.escape(yr)}</div>
+            <div class="tl-desc">{html.escape(desc)}</div>
           </div>
         """)
-    timeline_html = "\n".join(timeline_html_list)
+    timeline_html = "\n".join(tl_items_html)
     
-    # Pills HTML
-    pills_html_list = []
-    for pk, pv in ep["pills"]:
-        pills_html_list.append(f'<span class="pill"><b>{pk}</b> · {pv}</span>')
-    pills_html = "\n".join(pills_html_list)
-    
-    page_html = f"""<!DOCTYPE html>
+    html_template = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{ep['title_zh']} ({ep['time_loc']}) | 台积电张忠谋 · 传记时间线的平行世界</title>
-<meta name="description" content="台积电张忠谋传记时间线的平行世界 · {ep['title_zh']}（{ep['time_loc']}）。纯净双语典藏电子书，中英双语原声有声剧场，逐句同步高亮字幕，时代历史坐标与双语精读笔记。">
+<title>{ep["title_zh"]} ({ep["time_loc"]}) | 台积电张忠谋 · 传记时间线的平行世界</title>
+<meta name="description" content="台积电张忠谋传记时间线的平行世界 · {ep["title_zh"]}（{ep["time_loc"]}）。纯净双语典藏电子书，中英双语原声有声剧场，逐句同步高亮字幕，时代历史坐标与双语精读笔记。">
 
 <!-- Open Graph / Facebook / LinkedIn -->
 <meta property="og:type" content="article">
-<meta property="og:title" content="《台积电张忠谋：{ep['title_zh']} ({ep['time_loc']})》· 传记时间线的平行世界">
-<meta property="og:description" content="17分钟双语原声TTS + 逐句同步字幕 + 商业深度复盘。同一时间线，另一个视角。">
-<meta property="og:image" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/设计资产/插图/{ep['folder']}.png">
-<meta property="og:url" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/{ep['file_name']}">
+<meta property="og:title" content="《台积电张忠谋：{ep["title_zh"]} ({ep["time_loc"]})》· 传记时间线的平行世界">
+<meta property="og:description" content="{ep["duration"]}分钟双语原声TTS + 逐句同步字幕 + 商业深度复盘。同一时间线，另一个视角。">
+<meta property="og:image" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/{ep["image_path"].replace('./', '')}">
+<meta property="og:url" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/{ep["file_name"]}">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="《台积电张忠谋：{ep['title_zh']} ({ep['time_loc']})》· 传记时间线的平行世界">
-<meta name="twitter:description" content="17分钟双语原声TTS + 逐句同步字幕 + 商业深度复盘。同一时间线，另一个视角。">
-<meta name="twitter:image" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/设计资产/插图/{ep['folder']}.png">
+<meta name="twitter:title" content="《台积电张忠谋：{ep["title_zh"]} ({ep["time_loc"]})》· 传记时间线的平行世界">
+<meta name="twitter:description" content="{ep["duration"]}分钟双语原声TTS + 逐句同步字幕 + 商业深度复盘。同一时间线，另一个视角。">
+<meta name="twitter:image" content="https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/{ep["image_path"].replace('./', '')}">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1113,7 +834,7 @@ for ep in episodes_meta:
   
   .para-content {{ flex-grow: 1; }}
   .zh-para {{ font-family: var(--serif); font-size: 15.5px; line-height: 1.85; color: #f0ede6; text-align: justify; margin-bottom: 6px; }}
-  .en-para {{ font-family: var(--en); font-size: 13.5px; line-height: 1.7; color: #a8a398; font-style: italic; text-align: justify; }}
+  .en-para {{ font-family: var(--en); font-style: italic; font-size: 13.5px; line-height: 1.7; color: #a8a398; text-align: justify; }}
   
   .bilingual-para.sfx-row {{ background: rgba(56,189,248,0.04); border-radius: 8px; padding: 8px 14px; margin: 16px 0; border-left: 3px solid rgba(56,189,248,0.4); }}
   .bilingual-para.sfx-row .zh-para {{ font-size: 13px; color: var(--blue); font-family: var(--sans); }}
@@ -1128,9 +849,11 @@ for ep in episodes_meta:
   /* Vocab flashcards */
   .vocab-list {{ display: flex; flex-direction: column; gap: 12px; }}
   .vocab-card {{ background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }}
-  .vocab-word-row {{ display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 3px; }}
+  .vocab-word-row {{ display: flex; align-items: center; justify-content: space-between; margin-bottom: 3px; }}
   .vocab-word {{ font-family: var(--en); font-weight: 700; font-size: 14px; color: var(--amber); }}
-  .vocab-phonetic {{ font-size: 11px; color: var(--muted); font-family: var(--sans); }}
+  .vocab-phonetic {{ font-size: 11px; color: var(--muted); font-family: var(--sans); margin-left: auto; margin-right: 8px; }}
+  .btn-pronounce {{ background: none; border: none; font-size: 12px; cursor: pointer; color: var(--muted); transition: color 0.2s; }}
+  .btn-pronounce:hover {{ color: var(--amber); }}
   .vocab-zh {{ font-size: 12.5px; color: var(--ink); font-weight: 500; margin-bottom: 3px; }}
   .vocab-en {{ font-size: 11.5px; color: var(--muted); font-family: var(--en); font-style: italic; line-height: 1.4; }}
 
@@ -1197,20 +920,20 @@ for ep in episodes_meta:
   <!-- Hero Header (50/50 Balanced Split) -->
   <header class="hero-ep">
     <div class="wrap">
-      <span class="eyebrow">{ep['act_tag']} <em>EPISODE {ep['id']}</em></span>
-      <h1 class="serif">{ep['title_zh']}<span class="en">{ep['title_en']}</span></h1>
+      <span class="eyebrow">{ep["act_tag"]} <em>EPISODE {ep["id"]}</em></span>
+      <h1 class="serif">{ep["title_zh"]}<span class="en">{ep["title_en"]}</span></h1>
       
       <div class="hero-split-grid">
         <div class="hero-left-col">
           <div class="tagline-box" style="margin-top: 0;">
-            <div class="tagline-zh">“{ep['tagline_zh']}”</div>
-            <div class="tagline-en">"{ep['tagline_en']}"</div>
+            <div class="tagline-zh">“{ep["tagline_zh"]}”</div>
+            <div class="tagline-en">"{ep["tagline_en"]}"</div>
           </div>
         </div>
 
         <div class="hero-right-col">
           <figure class="lead-artwork-figure">
-            <img class="lead-artwork-img" src="{ep['image_path']}" alt="{ep['title_zh']} 概念插画" loading="lazy">
+            <img class="lead-artwork-img" src="{ep["image_path"]}" alt="{ep["title_zh"]} 概念插画" loading="lazy">
           </figure>
         </div>
       </div>
@@ -1253,15 +976,15 @@ for ep in episodes_meta:
         <div class="ctrl-left">
           <button class="play-btn" id="master-play-btn" onclick="togglePlay()" aria-label="播放/暂停">▶</button>
           <div class="track-meta">
-            <span class="track-meta-title" id="track-title-display">{ep['title_zh']} · 中文广播级原声</span>
-            <span class="track-meta-sub" id="track-sub-display">{ep['title_en']} · Mandarin Master Audio ({ep['duration']})</span>
+            <span class="track-meta-title" id="track-title-display">{ep["title_zh"]} · 中文广播级原声</span>
+            <span class="track-meta-sub" id="track-sub-display">{ep["title_en"]} · Mandarin Master Audio ({ep["duration"]})</span>
           </div>
         </div>
 
         <div class="progress-container">
           <span class="time-text" id="cur-time">00:00</span>
           <input type="range" class="seek-bar" id="seek-bar" min="0" max="100" value="0" step="0.1" oninput="onSeekInput(this.value)" onchange="onSeekChange(this.value)">
-          <span class="time-text" id="total-dur">{ep['duration']}</span>
+          <span class="time-text" id="total-dur">{ep["duration"]}</span>
         </div>
 
         <div class="playback-options">
@@ -1288,419 +1011,398 @@ for ep in episodes_meta:
         </div>
 
         <div class="subtitles-scroll" id="subtitles-viewport">
-          {subtitles_html}
+          {cues_scroll_html}
         </div>
       </div>
-
-      <!-- Native Audio Element (Hidden) with clean audio/ path and fallback -->
-      <audio id="main-audio" preload="metadata" src="audio/ep{ep['id']}-zh.mp3"></audio>
     </div>
 
-    <!-- Meta pills placed BELOW the audio player card -->
+    <!-- Meta Information Pills Below Audio Module -->
     <div class="meta-pills">
       {pills_html}
     </div>
 
-    <!-- Dual Layout Body: 75% Pure Book + 25% Learning Sidebar -->
+    <!-- Dual Layout Body: 75% Pure Book + 25% Learning/Notes -->
     <div class="content-grid">
-      <!-- 75% Pure Bilingual Book -->
-      <div class="book-main">
-        {story_html}
-
-        <!-- Bottom Share Card -->
-        <div class="share-bottom-card">
-          <div class="share-bottom-title">觉得本期有启发？一键分享给朋友</div>
-          <div class="share-bottom-sub">传递张忠谋与台积电的时代智慧与历史回响 · 支持 8 大主流社交渠道</div>
-          <div class="share-matrix-bottom">
-            <button class="btn-share-lg primary" onclick="copyViralShare()">📋 复制金句双语卡片</button>
-            <button class="btn-share-lg" onclick="openWeChatShare()">💬 微信</button>
-            <button class="btn-share-lg" onclick="shareToWeibo()">🔴 微博</button>
-            <button class="btn-share-lg" onclick="shareToLinkedIn()">💼 领英 LinkedIn</button>
-            <button class="btn-share-lg" onclick="shareToX()">𝕏 X (Twitter)</button>
-            <button class="btn-share-lg" onclick="shareToWhatsApp()">📱 WhatsApp</button>
-            <button class="btn-share-lg" onclick="shareToTelegram()">✈️ Telegram</button>
-            <button class="btn-share-lg" onclick="shareToFacebook()">📘 Facebook</button>
-          </div>
-        </div>
-
-        <!-- Episode Footer Navigation -->
-        <div class="ep-footer-nav">
-          <a href="{ep['prev_link']}" class="ep-nav-btn">{ep['prev_label']}</a>
-          <a href="{ep['next_link']}" class="ep-nav-btn primary">{ep['next_label']}</a>
-        </div>
-      </div>
+      <!-- 75% Pure Bilingual Book Area -->
+      <article class="book-main">
+        {book_body_html}
+      </article>
 
       <!-- 25% Learning & Knowledge Sidebar -->
       <aside class="learning-sidebar">
-        <!-- Golden Quote Card -->
-        <div class="quote-card">
-          <div class="quote-symbol">“</div>
-          <div class="quote-zh">{ep['quote_zh']}</div>
-          <div class="quote-en">"{ep['quote_en']}"</div>
-        </div>
-
-        <!-- Core Vocabulary Card -->
+        <!-- Vocab Widget -->
         <div class="side-widget">
-          <div class="widget-title">
-            <span class="icon">📖</span>
-            <span>本期核心词汇与表达</span>
-          </div>
+          <div class="widget-title"><span class="icon">📖</span> 核心商业/传记词汇</div>
           <div class="vocab-list">
             {vocab_html}
           </div>
         </div>
 
-        <!-- Historical Timeline Card -->
+        <!-- Historical Timeline Widget -->
         <div class="side-widget">
-          <div class="widget-title">
-            <span class="icon">⏳</span>
-            <span>时代历史坐标</span>
-          </div>
+          <div class="widget-title"><span class="icon">⏳</span> 时代历史坐标</div>
           <div class="timeline-list">
             {timeline_html}
           </div>
         </div>
+
+        <!-- Golden Quote Banner Widget -->
+        <div class="side-widget quote-card">
+          <div class="quote-symbol">“</div>
+          <div class="quote-zh">{ep["quote_zh"]}</div>
+          <div class="quote-en">{ep["quote_en"]}</div>
+        </div>
       </aside>
+    </div>
+
+    <!-- Bottom Social Share Card (8 Channels) -->
+    <div class="share-bottom-card">
+      <div class="share-bottom-title">觉得本期有启发？一键分享给更多创业者与思考者</div>
+      <div class="share-bottom-sub">《台积电张忠谋 · 传记时间线的平行世界》系列视听双语典藏</div>
+      <div class="share-matrix-bottom">
+        <button class="btn-share-lg primary" onclick="copyViralShare()">📋 复制金句分享文案</button>
+        <button class="btn-share-lg" onclick="openWeChatShare()">💬 微信朋友圈 / 好友</button>
+        <button class="btn-share-lg" onclick="shareToWeibo()">🔴 新浪微博</button>
+        <button class="btn-share-lg" onclick="shareToLinkedIn()">💼 LinkedIn 领英</button>
+        <button class="btn-share-lg" onclick="shareToX()">𝕏 X (Twitter)</button>
+        <button class="btn-share-lg" onclick="shareToWhatsApp()">📱 WhatsApp</button>
+        <button class="btn-share-lg" onclick="shareToTelegram()">✈️ Telegram</button>
+        <button class="btn-share-lg" onclick="shareToFacebook()">📘 Facebook</button>
+      </div>
+    </div>
+
+    <!-- Bottom Episode Navigation -->
+    <div class="ep-footer-nav">
+      <a href="{ep["prev_link"]}" class="ep-nav-btn">{ep["prev_label"]}</a>
+      <a href="{ep["next_link"]}" class="ep-nav-btn primary">{ep["next_label"]}</a>
     </div>
   </main>
 
+  <!-- Audio Element -->
+  <audio id="main-audio" preload="metadata">
+    <source id="audio-source" src="./audio/ep{ep["id"]}-zh.mp3" type="audio/mpeg">
+  </audio>
+
   <!-- WeChat Share Modal -->
-  <div class="modal-overlay" id="wechat-modal" onclick="closeWeChatShare(event)">
+  <div class="modal-overlay" id="wechat-modal" onclick="closeWeChatShare()">
     <div class="modal-card" onclick="event.stopPropagation()">
-      <button class="modal-close" onclick="closeWeChatShare()">&times;</button>
-      <h3 style="font-size: 16px; margin-bottom: 6px; color: var(--ink);">微信扫一扫分享</h3>
-      <p class="modal-text">使用微信「扫一扫」在手机端阅读与收听本期有声剧</p>
+      <button class="modal-close" onclick="closeWeChatShare()">✕</button>
+      <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--ink);">微信扫码或复制链接分享</h3>
       <div class="modal-qr-placeholder">
-        <img id="wechat-qr-img" class="modal-qr-img" src="" alt="WeChat QR Code">
+        <!-- Generates QR code via qrserver API dynamically -->
+        <img class="modal-qr-img" id="wechat-qr-img" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/{ep["file_name"]}" alt="WeChat QR Code">
       </div>
-      <p class="modal-text" style="font-size: 11.5px; opacity: 0.7;">扫码即可在微信内收藏或转发给好友 / 朋友圈</p>
+      <p class="modal-text">微信扫描上方二维码<br>或点击下方按钮复制完整双语金句卡片</p>
+      <button class="btn-share-lg primary" style="margin-top: 14px; width: 100%; justify-content: center;" onclick="copyViralShare()">复制分享链接及文案</button>
     </div>
   </div>
 
   <!-- Toast Element -->
-  <div class="toast" id="toast-msg">分享文案已复制到剪贴板！</div>
+  <div class="toast" id="toast-msg">已复制金句文案与链接到剪贴板！</div>
 
-  <!-- Client Script -->
+  <!-- Client JavaScript Logic -->
   <script>
-    const CUES_DATA = {cues_json_str};
-    const EP_DATA = {{
-      id: "{ep['id']}",
-      titleZh: "{ep['title_zh']}",
-      titleEn: "{ep['title_en']}",
-      folder: "{ep['folder']}",
-      duration: "{ep['duration']}",
-      quoteZh: "{ep['quote_zh']}",
-      quoteEn: "{ep['quote_en']}"
-    }};
-
-    let currentTrack = "zh";
+    const EPISODE_META = {json.dumps(ep, ensure_ascii=False)};
+    const EP_CUES = {json.dumps(cues, ensure_ascii=False)};
+    
+    let currentTrack = 'zh'; // 'zh' or 'en'
     let isPlaying = false;
     let autoScroll = true;
-    let currentCueIndex = -1;
-    let userSeeking = false;
+    let activeCueIndex = -1;
 
-    const audio = document.getElementById("main-audio");
-    const playBtn = document.getElementById("master-play-btn");
-    const seekBar = document.getElementById("seek-bar");
-    const curTimeEl = document.getElementById("cur-time");
-    const totalDurEl = document.getElementById("total-dur");
-    const speedSelect = document.getElementById("speed-select");
-    const subViewport = document.getElementById("subtitles-viewport");
-    const btnAutoScroll = document.getElementById("btn-auto-scroll");
-    const trackBtnZh = document.getElementById("track-btn-zh");
-    const trackBtnEn = document.getElementById("track-btn-en");
-    const trackTitleDisplay = document.getElementById("track-title-display");
-    const trackSubDisplay = document.getElementById("track-sub-display");
+    const audioEl = document.getElementById('main-audio');
+    const audioSource = document.getElementById('audio-source');
+    const playBtn = document.getElementById('master-play-btn');
+    const curTimeDisplay = document.getElementById('cur-time');
+    const totalDurDisplay = document.getElementById('total-dur');
+    const seekBar = document.getElementById('seek-bar');
+    const trackTitleDisplay = document.getElementById('track-title-display');
+    const trackSubDisplay = document.getElementById('track-sub-display');
+    const btnTrackZh = document.getElementById('track-btn-zh');
+    const btnTrackEn = document.getElementById('track-btn-en');
+    const subtitlesViewport = document.getElementById('subtitles-viewport');
+    const btnAutoScroll = document.getElementById('btn-auto-scroll');
 
-    // Single Audio Playback Guarantee
-    function ensureSingleAudioPlayback() {{
-      const allAudios = document.querySelectorAll("audio");
-      allAudios.forEach(a => {{
-        if (a !== audio && !a.paused) {{
-          a.pause();
+    // Master Single Audio Enforcement
+    function ensureSingleAudioPlayback(activeAudio) {{
+      document.querySelectorAll('audio').forEach(el => {{
+        if (el !== activeAudio && !el.paused) {{
+          el.pause();
         }}
       }});
+      if (window.speechSynthesis && window.speechSynthesis.speaking) {{
+        window.speechSynthesis.cancel();
+      }}
     }}
 
-    function switchTrack(lang) {{
-      if (currentTrack === lang) return;
-      currentTrack = lang;
-      audio.dataset.fallbackTried = "";
-      const curTime = audio.currentTime;
-      const wasPlaying = !audio.paused;
+    // Switch Audio Track (zh / en)
+    function switchTrack(track) {{
+      if (currentTrack === track) return;
+      
+      const prevTime = audioEl.currentTime || 0;
+      const prevRatio = audioEl.duration ? (prevTime / audioEl.duration) : 0;
+      const wasPlaying = !audioEl.paused;
 
-      if (lang === "zh") {{
-        audio.src = "audio/ep" + EP_DATA.id + "-zh.mp3";
-        trackBtnZh.classList.add("active");
-        trackBtnEn.classList.remove("active");
-        trackTitleDisplay.textContent = EP_DATA.titleZh + " · 中文广播级原声";
-        trackSubDisplay.textContent = EP_DATA.titleEn + " · Mandarin Master Audio (" + EP_DATA.duration + ")";
+      currentTrack = track;
+      ensureSingleAudioPlayback(audioEl);
+
+      if (track === 'zh') {{
+        btnTrackZh.classList.add('active');
+        btnTrackEn.classList.remove('active');
+        audioSource.src = './audio/ep' + EPISODE_META.id + '-zh.mp3';
+        trackTitleDisplay.textContent = EPISODE_META.title_zh + ' · 中文广播级原声';
+        trackSubDisplay.textContent = EPISODE_META.title_en + ' · Mandarin Master Audio (' + EPISODE_META.duration + ')';
       }} else {{
-        audio.src = "audio/ep" + EP_DATA.id + "-en.mp3";
-        trackBtnEn.classList.add("active");
-        trackBtnZh.classList.remove("active");
-        trackTitleDisplay.textContent = EP_DATA.titleEn + " · American English Master";
-        trackSubDisplay.textContent = EP_DATA.titleZh + " · 英文纯正沉浸配音 (" + EP_DATA.duration + ")";
+        btnTrackEn.classList.add('active');
+        btnTrackZh.classList.remove('active');
+        audioSource.src = './audio/ep' + EPISODE_META.id + '-en.mp3';
+        trackTitleDisplay.textContent = EPISODE_META.title_en + ' · American English Audio';
+        trackSubDisplay.textContent = EPISODE_META.title_zh + ' · US English Narration (' + EPISODE_META.duration + ')';
       }}
 
-      audio.currentTime = curTime;
-      audio.playbackRate = parseFloat(speedSelect.value);
-      if (wasPlaying) {{
-        ensureSingleAudioPlayback();
-        audio.play().catch(e => console.log("Play interrupted", e));
+      audioEl.load();
+      audioEl.onloadedmetadata = function() {{
+        if (audioEl.duration && prevRatio > 0) {{
+          audioEl.currentTime = prevRatio * audioEl.duration;
+        }}
+        if (wasPlaying) {{
+          audioEl.play().catch(e => console.log('Autoplay prevented:', e));
+        }}
+      }};
+      showToast(track === 'zh' ? '已切换至中文广播级原声轨' : 'Switched to American English Audio track');
+    }}
+
+    // Toggle Play / Pause
+    function togglePlay() {{
+      if (audioEl.paused) {{
+        ensureSingleAudioPlayback(audioEl);
+        audioEl.play().then(() => {{
+          isPlaying = true;
+          playBtn.textContent = '❚❚';
+        }}).catch(e => {{
+          console.error('Play failed:', e);
+        }});
+      }} else {{
+        audioEl.pause();
+        isPlaying = false;
+        playBtn.textContent = '▶';
       }}
     }}
 
-    // Audio fallback handler
-    audio.addEventListener("error", function(e) {{
-      console.warn("Audio primary path failed, attempting fallback...", e);
-      if (!audio.dataset.fallbackTried) {{
-        audio.dataset.fallbackTried = "true";
-        if (currentTrack === "zh") {{
-          audio.src = "./03-剧集/" + EP_DATA.folder + "/中文音频.mp3";
-        }} else {{
-          audio.src = "./03-剧集/" + EP_DATA.folder + "/英文音频.mp3";
+    audioEl.addEventListener('play', () => {{
+      ensureSingleAudioPlayback(audioEl);
+      isPlaying = true;
+      playBtn.textContent = '❚❚';
+    }});
+
+    audioEl.addEventListener('pause', () => {{
+      isPlaying = false;
+      playBtn.textContent = '▶';
+    }});
+
+    audioEl.addEventListener('timeupdate', () => {{
+      if (!audioEl.duration) return;
+      const cur = audioEl.currentTime;
+      const dur = audioEl.duration;
+      
+      // Update progress bar
+      const pct = (cur / dur) * 100;
+      seekBar.value = pct;
+      curTimeDisplay.textContent = formatTime(cur);
+      totalDurDisplay.textContent = formatTime(dur);
+
+      // Match Cues with 0.15s advance offset for instant sync
+      const syncTime = cur + 0.15;
+      let matchedIdx = -1;
+      
+      for (let i = 0; i < EP_CUES.length; i++) {{
+        const c = EP_CUES[i];
+        if (syncTime >= c.start && syncTime <= c.end) {{
+          matchedIdx = i;
+          break;
         }}
-        if (isPlaying) {{
-          audio.play().catch(err => console.log("Fallback play error:", err));
+        if (syncTime < c.start && i > 0 && syncTime >= EP_CUES[i-1].end) {{
+          matchedIdx = i - 1;
+          break;
         }}
+      }}
+      if (matchedIdx === -1 && EP_CUES.length > 0) {{
+        if (syncTime >= EP_CUES[EP_CUES.length - 1].end) {{
+          matchedIdx = EP_CUES.length - 1;
+        }}
+      }}
+
+      if (matchedIdx !== -1 && matchedIdx !== activeCueIndex) {{
+        setActiveCue(matchedIdx);
       }}
     }});
 
-    function togglePlay() {{
-      if (audio.paused) {{
-        ensureSingleAudioPlayback();
-        audio.play().then(() => {{
-          playBtn.textContent = "⏸";
-          isPlaying = true;
-        }}).catch(err => console.log("Play error:", err));
-      }} else {{
-        audio.pause();
-        playBtn.textContent = "▶";
-        isPlaying = false;
+    function setActiveCue(index) {{
+      if (index === activeCueIndex) return;
+      
+      // Remove previous active classes
+      if (activeCueIndex !== -1) {{
+        const prevRow = document.getElementById('sub-row-' + activeCueIndex);
+        if (prevRow) prevRow.classList.remove('active');
+        const prevPara = document.getElementById('para-' + activeCueIndex);
+        if (prevPara) prevPara.classList.remove('current-reading');
+      }}
+
+      activeCueIndex = index;
+      const activeRow = document.getElementById('sub-row-' + index);
+      if (activeRow) {{
+        activeRow.classList.add('active');
+        if (autoScroll && subtitlesViewport) {{
+          const rowTop = activeRow.offsetTop;
+          const rowHeight = activeRow.offsetHeight;
+          const containerHeight = subtitlesViewport.clientHeight;
+          subtitlesViewport.scrollTo({{
+            top: rowTop - (containerHeight / 2) + (rowHeight / 2),
+            behavior: 'smooth'
+          }});
+        }}
+      }}
+
+      const activePara = document.getElementById('para-' + index);
+      if (activePara) {{
+        activePara.classList.add('current-reading');
       }}
     }}
 
     function seekAndPlay(timeSec) {{
-      audio.currentTime = timeSec;
-      if (audio.paused) {{
-        ensureSingleAudioPlayback();
-        audio.play().then(() => {{
-          playBtn.textContent = "⏸";
-          isPlaying = true;
-        }}).catch(e => console.log(e));
+      ensureSingleAudioPlayback(audioEl);
+      audioEl.currentTime = timeSec;
+      if (audioEl.paused) {{
+        audioEl.play().catch(e => console.log(e));
       }}
     }}
 
     function onSeekInput(val) {{
-      userSeeking = true;
-      if (audio.duration) {{
-        const targetTime = (val / 100) * audio.duration;
-        curTimeEl.textContent = formatTime(targetTime);
-      }}
+      if (!audioEl.duration) return;
+      const targetTime = (val / 100) * audioEl.duration;
+      curTimeDisplay.textContent = formatTime(targetTime);
     }}
 
     function onSeekChange(val) {{
-      if (audio.duration) {{
-        audio.currentTime = (val / 100) * audio.duration;
-      }}
-      userSeeking = false;
+      if (!audioEl.duration) return;
+      audioEl.currentTime = (val / 100) * audioEl.duration;
     }}
 
-    function changeSpeed(val) {{
-      audio.playbackRate = parseFloat(val);
+    function changeSpeed(spd) {{
+      audioEl.playbackRate = parseFloat(spd);
+      showToast('播放倍速已设为 ' + spd + 'x');
     }}
 
     function toggleAutoScroll() {{
       autoScroll = !autoScroll;
-      btnAutoScroll.classList.toggle("active", autoScroll);
-      btnAutoScroll.textContent = "自动滚动: " + (autoScroll ? "开" : "关");
+      btnAutoScroll.textContent = '自动滚动: ' + (autoScroll ? '开' : '关');
+      btnAutoScroll.classList.toggle('active', autoScroll);
+      showToast(autoScroll ? '字幕已开启自动跟随滚动' : '字幕自动滚动已关闭');
     }}
 
     function formatTime(sec) {{
-      if (isNaN(sec)) return "00:00";
+      if (isNaN(sec) || sec < 0) return '00:00';
       const m = Math.floor(sec / 60);
       const s = Math.floor(sec % 60);
-      return (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s);
+      return (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
     }}
 
-    // Audio Event Handlers
-    audio.addEventListener("loadedmetadata", () => {{
-      totalDurEl.textContent = formatTime(audio.duration);
-    }});
-
-    audio.addEventListener("timeupdate", () => {{
-      const ct = audio.currentTime;
-      if (!userSeeking && audio.duration) {{
-        curTimeEl.textContent = formatTime(ct);
-        seekBar.value = (ct / audio.duration) * 100;
+    // Pronounce single vocabulary word via Web Speech API
+    function pronounceWord(word) {{
+      ensureSingleAudioPlayback(null);
+      if ('speechSynthesis' in window) {{
+        window.speechSynthesis.cancel();
+        const utter = new SpeechSynthesisUtterance(word);
+        utter.lang = 'en-US';
+        utter.rate = 0.9;
+        window.speechSynthesis.speak(utter);
+      }} else {{
+        showToast('当前浏览器不支持语音发音功能');
       }}
-
-      // Find active cue
-      let activeIdx = -1;
-      for (let i = 0; i < CUES_DATA.length; i++) {{
-        if (ct >= CUES_DATA[i].start && ct < CUES_DATA[i].end) {{
-          activeIdx = i;
-          break;
-        }}
-      }}
-
-      if (activeIdx !== currentCueIndex) {{
-        if (currentCueIndex !== -1) {{
-          const oldSub = document.getElementById("sub-row-" + currentCueIndex);
-          if (oldSub) oldSub.classList.remove("active");
-          const oldPara = document.getElementById("p-" + currentCueIndex);
-          if (oldPara) oldPara.classList.remove("current-reading");
-        }}
-
-        currentCueIndex = activeIdx;
-
-        if (currentCueIndex !== -1) {{
-          const newSub = document.getElementById("sub-row-" + currentCueIndex);
-          if (newSub) {{
-            newSub.classList.add("active");
-            if (autoScroll) {{
-              const containerTop = subViewport.offsetTop;
-              const targetTop = newSub.offsetTop;
-              subViewport.scrollTo({{
-                top: targetTop - containerTop - 70,
-                behavior: "smooth"
-              }});
-            }}
-          }}
-          const newPara = document.getElementById("p-" + currentCueIndex);
-          if (newPara) {{
-            newPara.classList.add("current-reading");
-          }}
-        }}
-      }}
-    }});
-
-    audio.addEventListener("play", () => {{
-      playBtn.textContent = "⏸";
-      isPlaying = true;
-      ensureSingleAudioPlayback();
-    }});
-
-    audio.addEventListener("pause", () => {{
-      playBtn.textContent = "▶";
-      isPlaying = false;
-    }});
-
-    audio.addEventListener("ended", () => {{
-      playBtn.textContent = "▶";
-      isPlaying = false;
-    }});
-
-    // 8-Channel Social Sharing Functions
-    function getShareData() {{
-      const shareUrl = window.location.href;
-      const title = document.title;
-      const summary = "【台积电张忠谋 · " + EP_DATA.titleZh + "】\\n“" + EP_DATA.quoteZh + "”\\n中英双语原声电子书已上线，即刻收听与精读：";
-      return {{ shareUrl, title, summary }};
     }}
 
-    function getShareCopyText() {{
-      const data = getShareData();
-      return "【台积电张忠谋传记时间线的平行世界 · " + EP_DATA.titleZh + "】\\n\\n“" + EP_DATA.quoteZh + "”\\n\\\"" + EP_DATA.quoteEn + "\\\"\\n\\n🎧 纯净中英双语原声 + 逐句高亮字幕提词器：\\n👉 " + data.shareUrl;
-    }}
-
+    // Toast Notification helper
     function showToast(msg) {{
-      const toast = document.getElementById("toast-msg");
-      toast.textContent = msg;
-      toast.classList.add("show");
-      setTimeout(() => toast.classList.remove("show"), 2800);
+      const t = document.getElementById('toast-msg');
+      t.textContent = msg;
+      t.classList.add('show');
+      setTimeout(() => {{
+        t.classList.remove('show');
+      }}, 2600);
     }}
+
+    // 8-Channel Social Share Suite
+    const pageUrl = window.location.href;
+    const shareTitle = document.title;
+    const viralQuote = '“' + EPISODE_META.tagline_zh + '” —— 聆听《台积电张忠谋 · 传记时间线的平行世界》' + EPISODE_META.title_zh;
 
     function openWeChatShare() {{
-      const modal = document.getElementById("wechat-modal");
-      const qrImg = document.getElementById("wechat-qr-img");
-      const pageUrl = encodeURIComponent(window.location.href);
-      qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + pageUrl;
-      modal.classList.add("active");
+      document.getElementById('wechat-modal').classList.add('active');
     }}
 
-    function closeWeChatShare(e) {{
-      const modal = document.getElementById("wechat-modal");
-      modal.classList.remove("active");
+    function closeWeChatShare() {{
+      document.getElementById('wechat-modal').classList.remove('active');
     }}
 
     function shareToWeibo() {{
-      const data = getShareData();
-      const text = encodeURIComponent(data.summary);
-      const url = encodeURIComponent(data.shareUrl);
-      window.open("https://service.weibo.com/share/share.php?url=" + url + "&title=" + text, "_blank", "width=600,height=500");
+      const url = 'https://service.weibo.com/share/share.php?url=' + encodeURIComponent(pageUrl) + '&title=' + encodeURIComponent(viralQuote + ' ' + pageUrl);
+      window.open(url, '_blank', 'width=620,height=500');
     }}
 
     function shareToLinkedIn() {{
-      const data = getShareData();
-      const url = encodeURIComponent(data.shareUrl);
-      window.open("https://www.linkedin.com/sharing/share-offsite/?url=" + url, "_blank", "width=600,height=500");
+      const url = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(pageUrl);
+      window.open(url, '_blank', 'width=620,height=500');
     }}
 
     function shareToX() {{
-      const data = getShareData();
-      const text = encodeURIComponent("【台积电张忠谋 · " + EP_DATA.titleZh + "】 “" + EP_DATA.quoteZh + "” #TSMC #MorrisChang #Semiconductor");
-      const url = encodeURIComponent(data.shareUrl);
-      window.open("https://twitter.com/intent/tweet?text=" + text + "&url=" + url, "_blank", "width=600,height=500");
+      const tweet = viralQuote + '\\n\\n' + pageUrl;
+      const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet);
+      window.open(url, '_blank', 'width=620,height=500');
     }}
 
     function shareToWhatsApp() {{
-      const data = getShareData();
-      const text = encodeURIComponent("【台积电张忠谋 · " + EP_DATA.titleZh + "】\\n“" + EP_DATA.quoteZh + "”\\n" + data.shareUrl);
-      window.open("https://api.whatsapp.com/send?text=" + text, "_blank");
+      const url = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(viralQuote + '\\n' + pageUrl);
+      window.open(url, '_blank');
     }}
 
     function shareToTelegram() {{
-      const data = getShareData();
-      const text = encodeURIComponent("【台积电张忠谋 · " + EP_DATA.titleZh + "】\\n“" + EP_DATA.quoteZh + "”");
-      const url = encodeURIComponent(data.shareUrl);
-      window.open("https://t.me/share/url?url=" + url + "&text=" + text, "_blank");
+      const url = 'https://t.me/share/url?url=' + encodeURIComponent(pageUrl) + '&text=' + encodeURIComponent(viralQuote);
+      window.open(url, '_blank');
     }}
 
     function shareToFacebook() {{
-      const data = getShareData();
-      const url = encodeURIComponent(data.shareUrl);
-      window.open("https://www.facebook.com/sharer/sharer.php?u=" + url, "_blank", "width=600,height=500");
+      const url = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl);
+      window.open(url, '_blank', 'width=620,height=500');
     }}
 
     function copyViralShare() {{
-      const text = getShareCopyText();
-      if (navigator.clipboard && window.isSecureContext) {{
-        navigator.clipboard.writeText(text).then(() => {{
-          showToast("✨ 双语金句精选分享文案已复制到剪贴板！");
+      const textToCopy = '🎙️【双语原声剧场 & 商业典藏】' + EPISODE_META.title_zh + '\\n' +
+                         '“' + EPISODE_META.tagline_zh + '”\\n\\n' +
+                         '中英双语原声 · 逐句同步字幕 · 75%原著精排 · 25%认知精读\\n' +
+                         '立即阅读与收听：' + pageUrl;
+      
+      if (navigator.clipboard && navigator.clipboard.writeText) {{
+        navigator.clipboard.writeText(textToCopy).then(() => {{
+          showToast('已复制金句文案与完整链接到剪贴板！');
         }}).catch(() => {{
-          fallbackCopyText(text);
+          promptCopy(textToCopy);
         }});
       }} else {{
-        fallbackCopyText(text);
+        promptCopy(textToCopy);
       }}
     }}
 
-    function fallbackCopyText(text) {{
-      const ta = document.createElement("textarea");
-      ta.value = text;
-      ta.style.position = "fixed";
-      ta.style.left = "-9999px";
-      document.body.appendChild(ta);
-      ta.focus();
-      ta.select();
-      try {{
-        document.execCommand('copy');
-        showToast("✨ 双语金句精选分享文案已复制到剪贴板！");
-      }} catch (err) {{
-        prompt("请手动复制分享文案：", text);
-      }}
-      document.body.removeChild(ta);
+    function promptCopy(text) {{
+      window.prompt('请按 Ctrl+C / Cmd+C 复制分享内容：', text);
     }}
   </script>
 </body>
 </html>
 """
     
-    out_file = os.path.join(WORKSPACE, ep["file_name"])
-    with open(out_file, "w", encoding="utf-8") as f:
-        f.write(page_html)
-    print(f"Generated {ep['file_name']} (Total size: {len(page_html):,} bytes)")
+    out_path = os.path.join(WORKSPACE, ep["file_name"])
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(html_template)
+    print(f"Generated {ep['file_name']} successfully ({len(html_template)} bytes, {len(cues)} cues, {len(zh_sections)} sections).")
 
-print("\nAll 18 episodes generated successfully matching Master Standard!")
+print("All episodes (00-09) built successfully!")
