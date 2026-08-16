@@ -1,15 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
-  <!-- Pure Black Flat Disc Background -->
-  <circle cx="50" cy="50" r="48" fill="#050505" stroke="#333333" stroke-width="1.5" />
+  <!-- Deep Solid Black Circular Emblem -->
+  <circle cx="50" cy="50" r="48" fill="#000000" stroke="#333333" stroke-width="2" />
   
-  <!-- Subtle Precision Architectural Ring -->
+  <!-- Minimalist Inner Framing Circle -->
   <circle cx="50" cy="50" r="44" fill="none" stroke="#222222" stroke-width="1" />
 
-  <!-- Razor-Sharp Minimalist White "MC" Monogram (Morris Chang & Martin Chen) -->
-  <g fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Bold, Razor-Sharp Pure White Geometric "MC" Monogram -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
     <!-- Geometric M -->
-    <path d="M 24 71 L 24 29 L 40 51 L 56 29 L 56 71" />
-    <!-- Concentric Interlocking C -->
-    <path d="M 74 34.5 A 21 21 0 1 0 74 65.5" />
+    <path d="M 23 72 L 23 28 L 39 51 L 55 28 L 55 72" />
+    <!-- Concentric Clean C -->
+    <path d="M 76 34 A 20 20 0 1 0 76 66" />
   </g>
+
+  <!-- Accent Precision Node (Gold micro-dot symbolizing Silicon / Semiconductor Focus) -->
+  <circle cx="39" cy="51" r="2.5" fill="#F59E0B" />
 </svg>

@@ -31,10 +31,10 @@ jobs:
         run: |
           set -e
           mkdir -p _site
-          # Root website files: nojekyll marker, HTML pages, JS data, markdown docs, EPUB
-          cp .nojekyll *.html *.js *.md *.epub _site/ 2>/dev/null || true
+          # Root website files: nojekyll marker, HTML pages, JS data, markdown docs, EPUB, SVG
+          cp .nojekyll *.html *.js *.md *.epub *.svg _site/ 2>/dev/null || true
           # Episode assets, audio, design assets, and generator tools
-          cp -r 03-剧集 tools 试听 设计资产 audio _site/ 2>/dev/null || true
+          cp -r 03-剧集 tools 试听 设计资产 audio assets _site/ 2>/dev/null || true
           ls -la _site/
 
       - name: Upload artifact
