@@ -386,46 +386,26 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
 body { padding-top: 58px !important; margin: 0; }</style>
 </head>
 <body>
-<!-- Unified Locked Top Navigation Bar -->
-<nav class="unified-top-nav">
-  <div class="unified-nav-inner">
-    <a href="index.html" class="unified-brand">
-      <img src="assets/logo.svg" alt="Logo" onerror="this.src='logo.svg'; this.onerror=null;">
-      <span>台积电张忠谋 · 传记时间线的平行世界</span>
-    </a>
-    <ul class="unified-nav-links">
-      <li><a href="index.html" class="active">🏠 官网首页</a></li>
-      <li><a href="reader.html">📖 全册电子书</a></li>
-      <li><a href="audio.html">🎙️ 双语剧场</a></li>
-      <li><a href="map.html">🗺️ 平行地图</a></li>
-      <li><a href="cards.html">🎴 金句卡片</a></li>
-      <li><a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="unified-nav-btn">🚀 ReadShift 主体工程</a></li>
-    </ul>
+
+<nav class="nav" style="position: fixed; top: 0; left: 0; right: 0; height: 58px; z-index: 9999; background: rgba(8,12,20,0.95); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--line, #26262b); display: flex; align-items: center; justify-content: space-between; padding: 0 24px; box-sizing: border-box;">
+  <a href="index.html" class="brand" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #ece9e2; font-weight: 700; font-size: 14.5px;">
+    <img src="logo.svg" alt="MC Logo" style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid #333; display: block;">
+    <span>台积电张忠谋 · 传记时间线的平行世界</span>
+  </a>
+  <div class="nav-links" style="display: flex; align-items: center; gap: 18px;">
+    <a href="index.html" style="color: #a29c90; text-decoration: none; font-size: 13px;">🏠 官网首页</a>
+    <a href="reader.html" style="color: #a29c90; text-decoration: none; font-size: 13px;">📖 全册电子书</a>
+    <a href="audio.html" style="color: #F59E0B; text-decoration: none; font-size: 13px; font-weight: 600;">🎙️ 双语剧场</a>
+    <a href="map.html" style="color: #a29c90; text-decoration: none; font-size: 13px;">🗺️ 平行地图</a>
+    <a href="cards.html" style="color: #a29c90; text-decoration: none; font-size: 13px;">🎴 金句卡片</a>
+    <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" style="background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); color: #F59E0B; font-size: 11px; padding: 4px 10px; border-radius: 999px; font-weight: 600; text-decoration: none;">🚀 ReadShift 主体工程</a>
   </div>
 </nav>
 
-<nav style="position: sticky; top: 0; left: 0; width: 100%; z-index: 9999; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); background: rgba(8,12,20,0.92); border-bottom: 1px solid rgba(255,255,255,0.08); box-sizing: border-box;">
-  <div style="max-width: 1280px; margin: 0 auto; padding: 0.75rem 1.5rem; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: nowrap;">
-    <a href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #ece9e2; flex-shrink: 0;">
-      <img src="logo.svg" alt="MC Logo" class="brand-logo-img" style="width: 32px; height: 32px; border-radius: 50%; display: block; border: 1px solid #333;">
-      <div style="display: flex; flex-direction: column;">
-        <span style="font-weight: 600; font-family: 'Songti SC', 'Noto Serif SC', serif; font-size: 14.5px; color: #ece9e2; letter-spacing: 0.5px;">台积电张忠谋 · 传记时间线的平行世界</span>
-        <span style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 11px; color: #a29c90; letter-spacing: 0.3px; margin-top: 1px;">Morris Chang &amp; TSMC — The Parallel Worlds of a Biography</span>
-      </div>
-    </a>
-    <div style="display: flex; align-items: center; gap: 16px; font-size: 13px; color: #a29c90; flex-wrap: wrap;">
-      <a href="reader.html" style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: color 0.2s;">📖 全册电子书</a>
-      <a href="audio.html" style="color: #F59E0B; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; transition: color 0.2s;">🎙️ 双语剧场</a>
-      <a href="map.html" style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: color 0.2s;">🗺️ 平行地图</a>
-      <a href="cards.html" style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: color 0.2s;">🎴 金句卡片</a>
-      <a href="#episodes" style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: color 0.2s;">📜 十八期正片</a>
-      <a href="#samples" style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: color 0.2s;">🎧 音色演示</a>
-      <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" style="color: #ece9e2; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; padding: 5px 12px; border-radius: 999px; background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.35); transition: all 0.2s; margin-left: 6px;">
-        <span>🚀</span> ReadShift 主体工程
-      </a>
-    </div>
-  </div>
-</nav>
+<!-- Unified Locked Top Navigation Bar -->
+
+
+
 
 <header class="hero">
   <div class="hero-inner">

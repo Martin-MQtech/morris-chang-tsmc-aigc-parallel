@@ -594,6 +594,31 @@ for ep in episodes_meta:
         </div>
       </div>'''
     else:
+        hero_grid_html = f'''{hero_grid_html}'''
+    # Hero split grid customization
+    if ep_id == "00":
+        hero_grid_html = f'''      <div class="hero-split-grid">
+        <div class="hero-left-col">
+          <div class="tagline-box" style="margin-top: 0;">
+            <div class="tagline-zh">“{ep["tagline_zh"]}”</div>
+            <div class="tagline-en">"{ep["tagline_en"]}"</div>
+          </div>
+          <div class="attribution-box" style="margin-top: 14px; padding: 14px 16px; background: rgba(245, 158, 11, 0.05); border: 1px dashed rgba(245, 158, 11, 0.3); border-radius: 10px; font-size: 12.5px; line-height: 1.6; color: #d1cdc7;">
+            <div style="font-weight: 600; color: var(--amber); margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
+              <span>📚 致敬经典 · 支持正版</span>
+            </div>
+            <p style="margin-bottom: 6px;">本项目为 AIGC 原创平行叙事二创与研读作品，故事线索与事实脉络取材自张忠谋先生权威史料与自传母本。我们强烈推荐读者购买支持张忠谋先生正版传记图书《张忠谋自传》（天下文化 / 远见出版），获取详实完整的第一手时代细节。</p>
+            <p style="font-style: italic; font-size: 11.5px; color: var(--muted); font-family: var(--en);">Support Official Publication: This parallel biography is an original AIGC creative work inspired by historical records. We encourage readers to purchase the authentic authorized volumes.</p>
+          </div>
+        </div>
+
+        <div class="hero-right-col">
+          <figure class="lead-artwork-figure" style="background: transparent; border: none; box-shadow: none;">
+            <img class="lead-artwork-img" src="{ep["image_path"]}" alt="{ep["title_zh"]} 全册封面" style="object-fit: contain; max-height: 380px; width: 100%; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 0 1px var(--line);" loading="eager">
+          </figure>
+        </div>
+      </div>'''
+    else:
         hero_grid_html = f'''      <div class="hero-split-grid">
         <div class="hero-left-col">
           <div class="tagline-box" style="margin-top: 0;">

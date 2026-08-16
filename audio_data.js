@@ -7,7 +7,7 @@ window.AUDIO_DATA = [
     "audioZh": "./03-剧集/第00期-全册导读/中文音频.mp3",
     "audioEn": "./03-剧集/第00期-全册导读/英文音频.mp3",
     "durationZh": 379.56,
-    "durationEn": 414.43,
+    "durationEn": 414.432,
     "cues": [
       {
         "secZh": "开场",
@@ -16,7 +16,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：轻轻的弦乐，像翻动旧书页的声音，渐渐压低】",
         "en": "[SFX: soft strings, like the turning of old book pages, fading down]",
         "start": 0.0,
-        "end": 5.2
+        "end": 6.01
       },
       {
         "secZh": "开场",
@@ -24,8 +24,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在正式开始之前，请你先记住一句话：",
         "en": "Before we begin, please hold on to one sentence:",
-        "start": 5.2,
-        "end": 8.73
+        "start": 6.01,
+        "end": 9.51
       },
       {
         "secZh": "开场",
@@ -33,8 +33,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "你即将听到的，不是十段彼此独立的故事，而是一部传记的十个乐章。",
         "en": "What you are about to hear is not ten separate stories. It is a biography in ten movements.",
-        "start": 8.73,
-        "end": 15.17
+        "start": 9.51,
+        "end": 15.95
       },
       {
         "secZh": "开场",
@@ -42,8 +42,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 15.17,
-        "end": 16.42
+        "start": 15.95,
+        "end": 18.0
       },
       {
         "secZh": "开场",
@@ -51,8 +51,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这部传记的主人公，叫张忠谋。",
         "en": "The subject of this biography is Morris Chang.",
-        "start": 16.42,
-        "end": 19.33
+        "start": 18.0,
+        "end": 21.15
       },
       {
         "secZh": "开场",
@@ -60,8 +60,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可严格来说，他并不是「主角」。他更像是一根线——一根穿过战火、穿过大洋、穿过半个世纪半导体风云的线。",
         "en": "And yet, strictly speaking, he is not the \"hero.\" He is more like a thread — a thread that runs through war, through oceans, through half a century of semiconductors.",
-        "start": 19.33,
-        "end": 29.72
+        "start": 21.15,
+        "end": 31.72
       },
       {
         "secZh": "开场",
@@ -69,8 +69,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而我们要做的，是跟着这根线，走进他身边那些更大的世界。",
         "en": "Our job is to follow that thread, and to walk into the larger worlds that surrounded him.",
-        "start": 29.72,
-        "end": 35.33
+        "start": 31.72,
+        "end": 37.41
       },
       {
         "secZh": "开场",
@@ -78,8 +78,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 35.33,
-        "end": 37.61
+        "start": 37.41,
+        "end": 39.84
       },
       {
         "secZh": "开场",
@@ -87,8 +87,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "所以这个栏目，叫「传记时间线的平行世界」。",
         "en": "That is why this series is called \"The Parallel World of a Biography's Timeline.\"",
-        "start": 37.61,
-        "end": 41.98
+        "start": 39.84,
+        "end": 43.93
       },
       {
         "secZh": "开场",
@@ -96,8 +96,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它的信条，只有一句话：**同一时间线，另一个视角。**",
         "en": "Its creed is one sentence: **one timeline, another point of view.**",
-        "start": 41.98,
-        "end": 47.59
+        "start": 43.93,
+        "end": 49.07
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -105,8 +105,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 47.59,
-        "end": 48.83
+        "start": 49.07,
+        "end": 51.12
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -114,8 +114,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "故事，从一场战争开始。",
         "en": "The story begins with a war.",
-        "start": 48.83,
-        "end": 51.12
+        "start": 51.12,
+        "end": 53.7
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -123,8 +123,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1931 年，一个男孩出生在中国的战乱年代。他的童年记忆，不是宏大叙事，而是一次又一次的搬家。",
         "en": "In 1931, a boy was born into an age of conflict in China. His childhood was not made of grand narratives, but of moving house, again and again.",
-        "start": 51.12,
-        "end": 60.89
+        "start": 53.7,
+        "end": 63.48
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -132,8 +132,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "广州的轰炸，香港的沦陷，重庆的陪都岁月——一个孩子学会的第一件事，是收拾行李。",
         "en": "The bombing of Guangzhou, the fall of Hong Kong, the wartime capital of Chongqing — the first thing a child learns is how to pack his bags.",
-        "start": 60.89,
-        "end": 68.99
+        "start": 63.48,
+        "end": 71.93
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -141,8 +141,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 68.99,
-        "end": 71.28
+        "start": 71.93,
+        "end": 74.36
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -150,8 +150,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "再后来，是上海的课桌，和一本叫《风萧萧》的小说。那个少年想当作家，却被父亲一句「写作会饿肚子」，按下了这个梦。",
         "en": "Then came a school desk in Shanghai, and a novel called The Wind Soughs. The boy wanted to be a writer, until his father pressed the dream down with one sentence: \"Writing will make you starve.\"",
-        "start": 71.28,
-        "end": 82.71
+        "start": 74.36,
+        "end": 85.16
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -159,8 +159,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "时代，用一场金圆券的通胀，替他改写了职业志愿。",
         "en": "The era — through the runaway inflation of the gold yuan — rewrote his career for him.",
-        "start": 82.71,
-        "end": 87.49
+        "start": 85.16,
+        "end": 90.1
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -168,8 +168,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 87.49,
-        "end": 88.73
+        "start": 90.1,
+        "end": 92.15
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -177,8 +177,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1949 年，十八岁的他登上了去美国的船。他以为，这只是又一次「暂时离开」。",
         "en": "In 1949, at eighteen, he boarded a ship for America. He thought it was just another \"temporary departure.\"",
-        "start": 88.73,
-        "end": 96.63
+        "start": 92.15,
+        "end": 99.76
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -186,8 +186,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他不知道，这一走，就走出了一条不归路。",
         "en": "He did not know that this departure would become a road of no return.",
-        "start": 96.63,
-        "end": 100.58
+        "start": 99.76,
+        "end": 103.94
       },
       {
         "secZh": "第一乐章 · 出走",
@@ -195,8 +195,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在哈佛的一年，在麻省理工的三年——一个东方少年，就这样，走进了西方的课堂。",
         "en": "A year at Harvard, three years at MIT — and so a boy of the East walked into the classrooms of the West.",
-        "start": 100.58,
-        "end": 108.27
+        "start": 103.94,
+        "end": 112.01
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -204,8 +204,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 108.27,
-        "end": 109.51
+        "start": 112.01,
+        "end": 114.07
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -213,8 +213,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第二段乐章，属于半导体。",
         "en": "The second movement belongs to semiconductors.",
-        "start": 109.51,
-        "end": 112.01
+        "start": 114.07,
+        "end": 116.84
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -222,8 +222,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "两次博士落第之后，他寄出了几十封求职信，回音寥寥。可命运，用一美元的差价，把他推进了一家叫希凡尼亚的公司——从此，他再也没有离开过芯片。",
         "en": "After failing the doctoral exam twice, he sent out dozens of job applications and heard back from almost no one. But fate, through a difference of one dollar, pushed him into a company called Sylvania — and from that day on, he never left chips.",
-        "start": 112.01,
-        "end": 126.14
+        "start": 116.84,
+        "end": 131.35
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -231,8 +231,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 126.14,
-        "end": 128.42
+        "start": 131.35,
+        "end": 133.78
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -240,8 +240,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1958 年，他加入德州仪器。那一年，这家公司的实验室里，基尔比刚刚点亮了人类第一块集成电路。",
         "en": "In 1958, he joined Texas Instruments. That very year, in that company's labs, Jack Kilby had just lit up the first integrated circuit in human history.",
-        "start": 128.42,
-        "end": 138.19
+        "start": 133.78,
+        "end": 143.56
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -249,8 +249,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "此后的二十五年，他从良率做起，一路升到全球最大半导体生意的掌舵人。他发明了「学习曲线定价」，他把德州仪器的集成电路，做到了世界第一。",
         "en": "Over the next twenty-five years, he rose from fixing yields all the way to running the largest semiconductor business in the world. He invented \"learning-curve pricing,\" and he made Texas Instruments' integrated-circuit business number one on earth.",
-        "start": 138.19,
-        "end": 151.91
+        "start": 143.56,
+        "end": 156.81
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -258,8 +258,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 151.91,
-        "end": 153.15
+        "start": 156.81,
+        "end": 158.87
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -267,8 +267,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可命运，偏偏让他在最得意的时候，输在了别处。",
         "en": "And yet fate chose to let him lose elsewhere, just when he was at his proudest.",
-        "start": 153.15,
-        "end": 157.73
+        "start": 158.87,
+        "end": 163.61
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -276,8 +276,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他赢了市场，却输了会议室。他隔着半个美国，看完了硅谷那场叛逆八帮的叛乱——却不知道，那个剧本，日后会成为他自己的。",
         "en": "He won the market, but he lost the boardroom. From across half of America, he watched the Traitorous Eight's rebellion in Silicon Valley — not knowing that their script would one day become his own.",
-        "start": 157.73,
-        "end": 169.57
+        "start": 163.61,
+        "end": 175.96
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -285,8 +285,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 169.57,
-        "end": 171.86
+        "start": 175.96,
+        "end": 178.39
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -294,8 +294,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "最难的仗，往往不在市场上，而在会议室里。",
         "en": "The hardest battles are not fought in the market, but in the boardroom.",
-        "start": 171.86,
-        "end": 176.01
+        "start": 178.39,
+        "end": 182.76
       },
       {
         "secZh": "第二乐章 · 闯荡",
@@ -303,8 +303,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而他，恰恰是在这场输掉的仗里，学会了他后来最重要的东西。",
         "en": "And it was in this very defeat that he learned the most important things he would later carry with him.",
-        "start": 176.01,
-        "end": 181.83
+        "start": 182.76,
+        "end": 188.63
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -312,8 +312,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 181.83,
-        "end": 183.08
+        "start": 188.63,
+        "end": 190.68
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -321,8 +321,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第三段乐章，是一趟归程。",
         "en": "The third movement is a journey home.",
-        "start": 183.08,
-        "end": 185.57
+        "start": 190.68,
+        "end": 193.45
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -330,8 +330,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1983 年，他辞去了效力二十五年的德州仪器。五十四岁那年，他漂洋过海，回到台湾。",
         "en": "In 1983, he resigned from Texas Instruments, the company he had served for twenty-five years. At fifty-four, he crossed the ocean again and returned to Taiwan.",
-        "start": 185.57,
-        "end": 194.09
+        "start": 193.45,
+        "end": 202.1
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -339,8 +339,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 194.09,
-        "end": 196.38
+        "start": 202.1,
+        "end": 204.53
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -348,8 +348,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "有时候，离开一个错误的位置，是人生最重要的一步棋。",
         "en": "Sometimes, leaving the wrong position is the most important move in life.",
-        "start": 196.38,
-        "end": 201.57
+        "start": 204.53,
+        "end": 209.84
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -357,8 +357,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1987 年，五十六岁的他，创办了一家没有人看好的公司——台积电。",
         "en": "In 1987, at fifty-six, he founded a company that nobody believed in — TSMC.",
-        "start": 201.57,
-        "end": 208.43
+        "start": 209.84,
+        "end": 216.88
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -366,8 +366,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这家公司，不设计芯片，只替别人造芯片。整个行业，都在等着看它的笑话。",
         "en": "This company designed no chips. It only made other people's chips. The whole industry was waiting to see it fail.",
-        "start": 208.43,
-        "end": 215.5
+        "start": 216.88,
+        "end": 224.4
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -375,8 +375,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 215.5,
-        "end": 216.74
+        "start": 224.4,
+        "end": 226.45
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -384,8 +384,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可就是这样一个「代工」的念头，让设计芯片的人，第一次可以没有工厂；让一个只会做塑料玩具和廉价跑鞋的小岛，第一次站上了世界科技之巅。",
         "en": "And yet it was this very idea of \"the foundry\" that let chip designers, for the first time, live without a factory — and that let an island known only for plastic toys and cheap running shoes climb, for the first time, to the summit of world technology.",
-        "start": 216.74,
-        "end": 230.25
+        "start": 226.45,
+        "end": 239.09
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -393,8 +393,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "颠覆者不做主角，做平台——让所有人，成为主角。",
         "en": "The disruptor does not play the hero. He builds the platform — and lets everyone else become the hero.",
-        "start": 230.25,
-        "end": 235.19
+        "start": 239.09,
+        "end": 244.44
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -402,8 +402,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 235.19,
-        "end": 237.47
+        "start": 244.44,
+        "end": 246.87
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -411,8 +411,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1997 年，亚洲金融风暴席卷而来。而台积电，恰恰在这场风暴里，登上了纽约证券交易所。",
         "en": "In 1997, the Asian financial crisis swept across the region. And it was in the middle of that very storm that TSMC listed on the New York Stock Exchange.",
-        "start": 237.47,
-        "end": 246.41
+        "start": 246.87,
+        "end": 255.89
       },
       {
         "secZh": "第三乐章 · 归乡",
@@ -420,8 +420,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "当风暴来时，扎实的企业，反而被看见。",
         "en": "When the storm comes, it is the solid company that gets seen.",
-        "start": 246.41,
-        "end": 250.15
+        "start": 255.89,
+        "end": 259.88
       },
       {
         "secZh": "尾声",
@@ -429,8 +429,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静，放慢",
         "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 250.15,
-        "end": 253.06
+        "start": 259.88,
+        "end": 262.96
       },
       {
         "secZh": "尾声",
@@ -438,8 +438,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从 1931 年到 1998 年，六十七年。",
         "en": "From 1931 to 1998 — sixty-seven years.",
-        "start": 253.06,
-        "end": 257.63
+        "start": 262.96,
+        "end": 266.86
       },
       {
         "secZh": "尾声",
@@ -447,8 +447,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个人的一生，两次跨过文明：年轻时，从东向西；年过半百，从西向东。",
         "en": "One man crossed between civilizations twice in his life: in his youth, from East to West; past fifty, from West back to East.",
-        "start": 257.63,
-        "end": 264.49
+        "start": 266.86,
+        "end": 274.06
       },
       {
         "secZh": "尾声",
@@ -456,8 +456,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "每一次跨越，他都没有空手而归。",
         "en": "And in neither crossing did he return empty-handed.",
-        "start": 264.49,
-        "end": 267.6
+        "start": 274.06,
+        "end": 277.4
       },
       {
         "secZh": "尾声",
@@ -465,8 +465,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 267.6,
-        "end": 269.89
+        "start": 277.4,
+        "end": 279.82
       },
       {
         "secZh": "尾声",
@@ -474,8 +474,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "现在，请戴上耳机，或者坐下来，翻开这一册。",
         "en": "Now, put on your headphones, or settle into a chair, and open this volume.",
-        "start": 269.89,
-        "end": 274.25
+        "start": 279.82,
+        "end": 284.46
       },
       {
         "secZh": "尾声",
@@ -483,8 +483,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "十期，二十个世界，平行地铺展在你面前。",
         "en": "Ten episodes. Twenty worlds. Laid out in parallel before you.",
-        "start": 274.25,
-        "end": 278.2
+        "start": 284.46,
+        "end": 288.64
       },
       {
         "secZh": "尾声",
@@ -492,8 +492,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们一起，走进一个人的命运，也走进一个时代的平行世界。",
         "en": "Let us walk together into one man's fate — and into the parallel world of an era.",
-        "start": 278.2,
-        "end": 284.02
+        "start": 288.64,
+        "end": 294.51
       },
       {
         "secZh": "尾声",
@@ -501,8 +501,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 284.02,
-        "end": 286.31
+        "start": 294.51,
+        "end": 296.94
       },
       {
         "secZh": "尾声",
@@ -510,8 +510,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "上册的故事，从 1931 年开始。",
         "en": "The story of our first volume begins in 1931.",
-        "start": 286.31,
-        "end": 289.84
+        "start": 296.94,
+        "end": 300.28
       },
       {
         "secZh": "尾声",
@@ -519,8 +519,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而那座被称作「护国神山」的传奇，才刚刚，露出它的轮廓。",
         "en": "And the legend they call the \"sacred mountain that shields the nation\" — that legend has only just begun to show its outline.",
-        "start": 289.84,
-        "end": 295.81
+        "start": 300.28,
+        "end": 305.59
       },
       {
         "secZh": "附 · 十期一览",
@@ -528,8 +528,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "（以下为本导读对应的十个乐章，供你按图索骥）",
         "en": "(The ten chapters this guide corresponds to, for easy navigation)",
-        "start": 295.81,
-        "end": 300.39
+        "start": 305.59,
+        "end": 310.74
       },
       {
         "secZh": "附 · 十期一览",
@@ -537,8 +537,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1. 逃难的孩子（1937–42）· 一个孩子的记忆里，战争是一张张搬家的船票。",
         "en": "1. The Refugee Child (1937–42) · In a child's memory, war is a stack of moving tickets.",
-        "start": 300.39,
-        "end": 308.7
+        "start": 310.74,
+        "end": 318.09
       },
       {
         "secZh": "附 · 十期一览",
@@ -546,8 +546,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "2. 考不进去的南开 & 作家梦（1943–48）· 关系给你门票，实力让你留场。",
         "en": "2. Failing Nankai & the Writer's Dream (1943–48) · Connections get you a ticket; only ability keeps you in the game.",
-        "start": 308.7,
-        "end": 317.22
+        "start": 318.09,
+        "end": 325.06
       },
       {
         "secZh": "附 · 十期一览",
@@ -555,8 +555,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "3. 从黄浦江到查尔斯河（1949–50）· 他以为的暂时离开，成了不归路。",
         "en": "3. From the Huangpu to the Charles (1949–50) · What he thought was temporary became a road of no return.",
-        "start": 317.22,
-        "end": 325.11
+        "start": 325.06,
+        "end": 332.02
       },
       {
         "secZh": "附 · 十期一览",
@@ -564,8 +564,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "4. 四十封求职信（1954–58）· 被拒绝不是终点，是命运在指路。",
         "en": "4. Forty Job Applications (1954–58) · Rejection is not the end; it is fate pointing the way.",
-        "start": 325.11,
-        "end": 332.39
+        "start": 332.02,
+        "end": 338.42
       },
       {
         "secZh": "附 · 十期一览",
@@ -573,8 +573,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "5. 隔岸观火的叛乱（1957–68）· 别人的剧本，后来成了他自己的。",
         "en": "5. Watching the Rebellion from Afar (1957–68) · Another man's script later became his own.",
-        "start": 332.39,
-        "end": 339.87
+        "start": 338.42,
+        "end": 345.01
       },
       {
         "secZh": "附 · 十期一览",
@@ -582,8 +582,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "6. 德仪的太空竞赛岁月（1958–64）· 最强的强者，敢在上升期归零。",
         "en": "6. TI's Space-Race Years (1958–64) · The strongest reset themselves at the peak.",
-        "start": 339.87,
-        "end": 347.56
+        "start": 345.01,
+        "end": 351.79
       },
       {
         "secZh": "附 · 十期一览",
@@ -591,8 +591,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "7. 半导体之巅的十年（1964–78）· 最难的仗，不在市场，在会议室。",
         "en": "7. The Decade at the Summit (1964–78) · The hardest battles are fought in the boardroom.",
-        "start": 347.56,
-        "end": 355.25
+        "start": 351.79,
+        "end": 358.66
       },
       {
         "secZh": "附 · 十期一览",
@@ -600,8 +600,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "8. 离开德州 & 受邀回台（1978–87）· 离开错误的位置，是最重要的一步棋。",
         "en": "8. Leaving Texas & the Invitation Home (1978–87) · Leaving the wrong position is the most important move.",
-        "start": 355.25,
-        "end": 363.97
+        "start": 358.66,
+        "end": 365.81
       },
       {
         "secZh": "附 · 十期一览",
@@ -609,8 +609,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "9. 纯代工的革命（1987–95）· 不做主角，做让所有人成为主角的平台。",
         "en": "9. The Pure-Play Revolution (1987–95) · Don't be the hero; be the platform that makes everyone the hero.",
-        "start": 363.97,
-        "end": 371.87
+        "start": 365.81,
+        "end": 372.78
       },
       {
         "secZh": "附 · 十期一览",
@@ -618,7 +618,7 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "10. 从台湾到世界（1995–98）· 风暴来时，扎实的企业反而被看见。",
         "en": "10. From Taiwan to the World (1995–98) · When the storm comes, the solid company gets seen.",
-        "start": 371.87,
+        "start": 372.78,
         "end": 379.56
       }
     ]
@@ -630,8 +630,8 @@ window.AUDIO_DATA = [
     "summary": "逃难的孩子 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第01期-逃难的孩子/中文音频.mp3",
     "audioEn": "./03-剧集/第01期-逃难的孩子/英文音频.mp3",
-    "durationZh": 1047.35,
-    "durationEn": 1113.62,
+    "durationZh": 1047.352,
+    "durationEn": 1113.616,
     "cues": [
       {
         "secZh": "开场",
@@ -640,7 +640,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：远处传来低沉的防空警报，渐渐拉近，又渐渐远去】",
         "en": "[SFX: a low air-raid siren in the distance, drawing closer, then fading]",
         "start": 0.0,
-        "end": 5.92
+        "end": 6.6
       },
       {
         "secZh": "开场",
@@ -648,8 +648,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1937年，广州。",
         "en": "Guangzhou, 1937.",
-        "start": 5.92,
-        "end": 7.9
+        "start": 6.6,
+        "end": 8.88
       },
       {
         "secZh": "开场",
@@ -657,8 +657,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "五岁的男孩被母亲紧紧牵着手，随着人流往码头跑。",
         "en": "A five-year-old boy, his hand tightly held by his mother, runs with the crowd toward the pier.",
-        "start": 7.9,
-        "end": 12.94
+        "start": 8.88,
+        "end": 13.88
       },
       {
         "secZh": "开场",
@@ -666,8 +666,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他不太明白发生了什么。他只知道，天上最近常常出现奇怪的声音——像一只巨大的铁鸟，在云层里嗡嗡作响。然后，是爆炸。",
         "en": "He doesn't quite understand what is happening. He only knows that lately, strange sounds have been coming from the sky — like a giant iron bird, droning in the clouds. And then, explosions.",
-        "start": 12.94,
-        "end": 25.23
+        "start": 13.88,
+        "end": 26.8
       },
       {
         "secZh": "开场",
@@ -675,8 +675,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "大人们说，那叫轰炸。",
         "en": "The adults call it bombing.",
-        "start": 25.23,
-        "end": 27.42
+        "start": 26.8,
+        "end": 29.27
       },
       {
         "secZh": "开场",
@@ -684,8 +684,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "男孩回头看了一眼身后的城市，又看了一眼母亲。母亲没有说话，只是把他抱得更紧了些。",
         "en": "The boy glances back at the city, then up at his mother. She says nothing. She only holds him tighter.",
-        "start": 27.42,
-        "end": 36.2
+        "start": 29.27,
+        "end": 38.11
       },
       {
         "secZh": "开场",
@@ -693,8 +693,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 36.2,
-        "end": 37.51
+        "start": 38.11,
+        "end": 40.23
       },
       {
         "secZh": "开场",
@@ -702,8 +702,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "很多年后，男孩长成了老人，执掌着全球最大的半导体公司。",
         "en": "Many years later, the boy is an old man, running the largest semiconductor company on earth.",
-        "start": 37.51,
-        "end": 43.44
+        "start": 40.23,
+        "end": 46.1
       },
       {
         "secZh": "开场",
@@ -711,8 +711,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他早已记不清那次离开的许多细节。但他记得，那天的码头上，到处都是和他一样被大人牵着走的孩子。",
         "en": "He no longer remembers many details of that departure. But he remembers this: that day at the pier, the docks were crowded with children just like him — led by the hand, heading for the boats.",
-        "start": 43.44,
-        "end": 53.53
+        "start": 46.1,
+        "end": 56.11
       },
       {
         "secZh": "开场",
@@ -720,8 +720,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他说，18岁以前，他逃了三次难，住过六个城市，换了十个学校。",
         "en": "He would later write that before he turned eighteen, he fled three times, lived in six cities, and changed ten schools.",
-        "start": 53.53,
-        "end": 60.11
+        "start": 56.11,
+        "end": 62.75
       },
       {
         "secZh": "开场",
@@ -729,8 +729,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而这一切的起点，就是1937年，广州，码头边，那个五岁孩子手里的那张船票。",
         "en": "And it all began here — 1937, Guangzhou, at the pier, with a boat ticket in the hand of a five-year-old.",
-        "start": 60.11,
-        "end": 68.22
+        "start": 62.75,
+        "end": 70.74
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -738,8 +738,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 68.22,
-        "end": 69.54
+        "start": 70.74,
+        "end": 72.86
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -747,8 +747,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "故事要从更早说起。",
         "en": "The story begins earlier.",
-        "start": 69.54,
-        "end": 71.51
+        "start": 72.86,
+        "end": 75.05
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -756,8 +756,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1931年，男孩出生在浙江宁波。父亲在银行界做事——那是中国近代最有名的商帮之一，宁波帮，世代以经营钱庄、航运和实业闻名，足迹遍布上海、香港乃至海外。",
         "en": "In 1931, the boy was born in Ningbo, Zhejiang province. His father worked in banking — the family belonged to the Ningbo Guild, one of modern China's most famous merchant clans, a people built for centuries on money shops, shipping, and enterprise, with networks stretching across Shanghai, Hong Kong, and overseas.",
-        "start": 71.51,
-        "end": 87.97
+        "start": 75.05,
+        "end": 91.49
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -765,8 +765,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "男孩五岁那年，父亲升职了，被派到广州做银行经理，全家便迁往广州。",
         "en": "When the boy was five, his father was promoted — sent to Guangzhou as a bank manager. The whole family moved south.",
-        "start": 87.97,
-        "end": 94.99
+        "start": 91.49,
+        "end": 98.43
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -774,8 +774,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那时的广州，是南中国最繁华的港口城市。骑楼下人来人往，珠江上船帆相接，茶楼里一盅两件，从早到晚都有人声。男孩对这个城市的记忆很模糊——他太小了。他只记得，那是一个很热闹的地方。",
         "en": "Guangzhou in those years was the most bustling port city in southern China. Life moved under the arcaded shopfronts, junks crowded the Pearl River, and teahouses hummed from morning till night. The boy's memories of the city are vague — he was very young. He only remembers that it was a very lively place.",
-        "start": 94.99,
-        "end": 114.29
+        "start": 98.43,
+        "end": 118.19
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -783,8 +783,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但男孩在广州只住了半年。",
         "en": "But the boy lived in Guangzhou for only six months.",
-        "start": 114.29,
-        "end": 117.03
+        "start": 118.19,
+        "end": 120.96
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -792,8 +792,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 117.03,
-        "end": 119.45
+        "start": 120.96,
+        "end": 123.47
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -801,8 +801,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1937年7月，卢沟桥事变，全面抗战爆发。",
         "en": "In July 1937, the Marco Polo Bridge Incident ignited full-scale war between China and Japan.",
-        "start": 119.45,
-        "end": 124.05
+        "start": 123.47,
+        "end": 128.17
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -810,8 +810,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "战火一路向南蔓延。从这一年的10月起，日本飞机开始空袭广州——起初是试探性的，后来愈演愈烈。到1938年，轰炸几乎成了这座城市的日常。日机成群结队飞临城市上空，炸弹落进居民区、商业街、学校，整座城市在火光与浓烟中颤抖。",
         "en": "The flames rolled south. From October of that year, Japanese aircraft began raiding Guangzhou — tentatively at first, then with growing fury. By 1938, bombing had become part of the city's daily rhythm. Waves of planes crossed the sky; bombs fell into residential districts, shopping streets, schools, and the city shuddered in fire and smoke.",
-        "start": 124.05,
-        "end": 147.96
+        "start": 128.17,
+        "end": 152.2
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -819,8 +819,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "美国国务院的历史档案里，记录着当时驻华外交官的报告：日军飞机连日空袭广州——中国人口最稠密的城市之一——蓄意轰炸并扫射平民。轰炸最烈时，一天之内，警报声可以响好几次，全城的人涌向防空洞，街道上只剩下空荡荡的骑楼。",
         "en": "In the archives of the U.S. State Department, the reports of American diplomats on the ground survive: Japanese planes raided Canton — one of the most populous cities in China — day after day, deliberately bombing and machine-gunning civilians. At the height of it, air-raid sirens could sound several times in a single day; the whole city poured into shelters, and the arcaded streets stood empty.",
-        "start": 147.96,
-        "end": 171.22
+        "start": 152.2,
+        "end": 175.23
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -828,8 +828,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "母亲和男孩，就是在这样的天空下，登上了开往香港的船。",
         "en": "Under that sky, the boy and his mother boarded a ship for Hong Kong.",
-        "start": 171.22,
-        "end": 176.92
+        "start": 175.23,
+        "end": 180.91
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -837,8 +837,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "广州，成了男孩记忆里第一个被迫离开的城市。",
         "en": "Guangzhou became the first city the boy was forced to leave.",
-        "start": 176.92,
-        "end": 181.53
+        "start": 180.91,
+        "end": 185.53
       },
       {
         "secZh": "第一幕 · 广州，半年",
@@ -846,8 +846,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他后来才明白，那半年，是他第一次见识什么叫「战争」。而「战争」这个词，在接下来的十几年里，会一次又一次地追上他。",
         "en": "Only later would he understand that those six months were his first encounter with something called \"war\" — and that the word would catch up with him, again and again, over the next fifteen years.",
-        "start": 181.53,
-        "end": 193.81
+        "start": 185.53,
+        "end": 196.88
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -855,8 +855,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 193.81,
-        "end": 195.13
+        "start": 196.88,
+        "end": 199.0
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -864,8 +864,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "香港。",
         "en": "Hong Kong.",
-        "start": 195.13,
-        "end": 195.81
+        "start": 199.0,
+        "end": 200.02
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -873,8 +873,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "对一个六岁的孩子来说，那是另一个世界。",
         "en": "To a six-year-old, it was another world.",
-        "start": 195.81,
-        "end": 199.98
+        "start": 200.02,
+        "end": 204.25
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -882,8 +882,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那时的香港，人口还不到一百万——和今天比起来，小得不可思议。街道干净，电车叮叮当当地穿过中环，维多利亚港的碧波里，停着白色的邮轮。",
         "en": "Hong Kong in those days had a population of under a million — almost unimaginably small compared with today. The streets were clean. Trams clanged through Central. White ocean liners rode at anchor in the blue water of Victoria Harbour.",
-        "start": 199.98,
-        "end": 214.24
+        "start": 204.25,
+        "end": 218.65
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -891,8 +891,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "当国内战火蔓延、大片国土沦为沦陷区的时候，香港真是一个世外桃源。",
         "en": "While war consumed the mainland and province after province fell to occupation, Hong Kong was, for a time, a genuine haven.",
-        "start": 214.24,
-        "end": 221.26
+        "start": 218.65,
+        "end": 225.5
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -900,8 +900,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "男孩一家先住在香港，后来又迁到九龙，住进一间舒适的公寓。他在小学二年级到五年级，入读培英小学，六年级转入培正小学。两所学校离家都很近，他可以自己步行上学。",
         "en": "The family first settled on the island, then moved to Kowloon, into a comfortable apartment. From the second to the fifth grade, the boy attended Pui Ying Primary School; in the sixth grade, he transferred to Pui Ching. Both schools were close enough to walk to on his own.",
-        "start": 221.26,
-        "end": 238.15
+        "start": 225.5,
+        "end": 242.25
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -909,8 +909,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 温暖",
         "zh": "【主叙述者 · 温暖】",
         "en": "[Main narrator, warm]",
-        "start": 238.15,
-        "end": 240.57
+        "start": 242.25,
+        "end": 244.76
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -918,8 +918,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "星期天，全家常常郊游。",
         "en": "On Sundays, the family often went on outings.",
-        "start": 240.57,
-        "end": 242.98
+        "start": 244.76,
+        "end": 247.43
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -927,8 +927,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "男孩最喜欢两个地方：山顶，和浅水湾。",
         "en": "The boy had two favorite places: the Peak, and Repulse Bay.",
-        "start": 242.98,
-        "end": 246.93
+        "start": 247.43,
+        "end": 251.67
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -936,8 +936,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "站在太平山顶，整个香港尽收眼底——维多利亚港像一条银色的带子，两岸的楼宇清晰可数。而浅水湾的沙滩，那时的游客寥寥无几，沙子干净得发亮，海浪一卷一卷地涌上来，又退回去。",
         "en": "From the top of Victoria Peak, all of Hong Kong lay below — the harbour a silver ribbon, the buildings on both shores clear enough to count. And Repulse Bay's beach, in those days, had few visitors. The sand gleamed, and the waves rolled in and slid back, over and over.",
-        "start": 246.93,
-        "end": 265.14
+        "start": 251.67,
+        "end": 269.67
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -945,8 +945,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "多年以后，男孩早已成了老人，再回浅水湾，只见人山人海、喧嚣一片，完全失去当年的情调了。他写下一句感慨：当年的香港，真是一个美丽的城市。",
         "en": "Decades later, when the boy was an old man, he returned to Repulse Bay to find it crowded and clamorous, the old charm gone entirely. He wrote, wistfully: the Hong Kong of those days was a truly beautiful city.",
-        "start": 265.14,
-        "end": 279.83
+        "start": 269.67,
+        "end": 284.34
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -954,8 +954,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 279.83,
-        "end": 281.15
+        "start": 284.34,
+        "end": 286.46
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -963,8 +963,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而在这座美丽城市的公寓里，藏着男孩另一个秘密世界。",
         "en": "And inside that beautiful city's apartment lay another secret world.",
-        "start": 281.15,
-        "end": 286.63
+        "start": 286.46,
+        "end": 291.85
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -972,8 +972,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他小时体质不好，没什么大病，却常感冒发烧。母亲为此担心了许多年，每天让他吃鱼肝油，又常炖鸡汤给他喝。",
         "en": "The boy had never been robust. No major illness, but constant colds and fevers. His mother worried for years — cod-liver oil every day, chicken soup whenever she could manage it.",
-        "start": 286.63,
-        "end": 297.6
+        "start": 291.85,
+        "end": 302.82
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -981,8 +981,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "因为身体弱，男孩不常和同学们在运动场上打球游戏，常常一个人待在家里。",
         "en": "Because he was frail, the boy rarely joined his classmates on the sports field. He spent much of his time alone at home.",
-        "start": 297.6,
-        "end": 305.06
+        "start": 302.82,
+        "end": 310.06
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -990,8 +990,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "母亲便买了很多书给他。商务印书馆出版过一套《儿童文库》，母亲买回来，摆满了一整个书架——里面有《水浒传》、《西游记》、《三国演义》……",
         "en": "So his mother bought him books. The Commercial Press published a set called the Children's Library, and she filled an entire bookshelf with it — Water Margin, Journey to the West, Romance of the Three Kingdoms...",
-        "start": 305.06,
-        "end": 319.76
+        "start": 310.06,
+        "end": 322.38
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -999,8 +999,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "男孩如饥似渴，一本接一本地读。到小学毕业前，他把整套《儿童文库》都读完了。",
         "en": "The boy read greedily, one volume after another. By the time he finished primary school, he had read the entire set.",
-        "start": 319.76,
-        "end": 327.88
+        "start": 322.38,
+        "end": 330.24
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -1008,8 +1008,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 327.88,
-        "end": 330.29
+        "start": 330.24,
+        "end": 332.75
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -1017,8 +1017,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个身体孱弱、常常独处的孩子，在书架前找到了自己的世界。",
         "en": "A frail, solitary child found his world among the bookshelves.",
-        "start": 330.29,
-        "end": 336.43
+        "start": 332.75,
+        "end": 338.82
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -1026,8 +1026,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这个从小就养成的阅读习惯，他保持了一生——几十年后，他执掌一家庞大的公司，办公室里依旧堆满书；他写自传，几百个小时，一个字一个字地写，靠的还是少年时练下的那点功夫。",
         "en": "That habit, formed in childhood, he kept for a lifetime — decades later, running a vast company, his office would still be stacked with books; and when he wrote his autobiography, hundreds of hours, word by word, it was the foundation laid in boyhood that carried him through.",
-        "start": 336.43,
-        "end": 354.42
+        "start": 338.82,
+        "end": 356.27
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -1035,8 +1035,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而当年那个在浅水湾沙滩上奔跑、在书架前安静读书的男孩，不会知道：他人生中最安稳的这段童年，只剩最后一年了。",
         "en": "And the boy who ran on the sands of Repulse Bay and read quietly by the bookshelf had no idea that the most peaceful years of his childhood had only one year left.",
-        "start": 354.42,
-        "end": 366.05
+        "start": 356.27,
+        "end": 367.51
       },
       {
         "secZh": "第二幕 · 世外桃源",
@@ -1044,8 +1044,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他也不会知道，这五年在香港的日子——干净的街道、叮当的电车、山顶的风、浅水湾的浪——会成为他一生中反复回望的底色。多年以后，他写回忆录，用了很多笔墨写这段童年；一个在乱世里长大的孩子，把太平年月的样子，记得格外清楚。",
         "en": "Nor did he know that those five years in Hong Kong — the clean streets, the clanging trams, the wind on the Peak, the waves at Repulse Bay — would become the backdrop he would return to, again and again, for the rest of his life. Years later, writing his memoirs, he would devote many pages to this childhood. A child raised in chaos remembers the face of peace with unusual clarity.",
-        "start": 366.05,
-        "end": 389.74
+        "start": 367.51,
+        "end": 391.07
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1053,8 +1053,8 @@ window.AUDIO_DATA = [
         "speaker": "音效：清晨的鸟鸣，忽然被远处沉闷的爆炸声打断",
         "zh": "【音效：清晨的鸟鸣，忽然被远处沉闷的爆炸声打断】",
         "en": "[SFX: birdsong at dawn, broken by a distant, muffled explosion]",
-        "start": 389.74,
-        "end": 395.0
+        "start": 391.07,
+        "end": 397.0
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1062,8 +1062,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 395.0,
-        "end": 396.32
+        "start": 397.0,
+        "end": 399.12
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1071,8 +1071,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1941年12月8日，星期一，清晨。",
         "en": "Monday, December 8, 1941.",
-        "start": 396.32,
-        "end": 400.27
+        "start": 399.12,
+        "end": 403.24
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1080,8 +1080,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "男孩十岁。那天早上学校有考试，他像往常一样，步行去上学。",
         "en": "The boy was ten. There was an exam at school that morning, so he walked to class as usual.",
-        "start": 400.27,
-        "end": 406.41
+        "start": 403.24,
+        "end": 409.74
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1089,8 +1089,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "就在路上——或者更准确地说，就在那天的黎明时分——日本海军偷袭了美国珍珠港，太平洋战争爆发。",
         "en": "And somewhere along the way — or rather, in the first light of that dawn — the Japanese navy attacked Pearl Harbor. The Pacific War had begun.",
-        "start": 406.41,
-        "end": 416.5
+        "start": 409.74,
+        "end": 420.17
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1098,8 +1098,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而在偷袭珍珠港之后数小时，日军立即开始进攻香港。",
         "en": "Hours later, Japanese forces attacked Hong Kong.",
-        "start": 416.5,
-        "end": 421.77
+        "start": 420.17,
+        "end": 425.37
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1107,8 +1107,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "男孩后来回忆说：那天早上，我在九龙，听到了炸弹声。",
         "en": "The boy would remember it this way: that morning, in Kowloon, he heard the bombs.",
-        "start": 421.77,
-        "end": 427.25
+        "start": 425.37,
+        "end": 431.07
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1116,8 +1116,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 427.25,
-        "end": 428.57
+        "start": 431.07,
+        "end": 433.19
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1125,8 +1125,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "到了学校，他才开始了解情形——知道日本人已经在攻打九龙了。",
         "en": "At school, he began to understand — the Japanese were already attacking Kowloon.",
-        "start": 428.57,
-        "end": 434.93
+        "start": 433.19,
+        "end": 439.79
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1134,8 +1134,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "考试取消了。课也没有了。大家赶快回家。",
         "en": "The exam was cancelled. Classes were dismissed. Everyone hurried home.",
-        "start": 434.93,
-        "end": 439.1
+        "start": 439.79,
+        "end": 444.81
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1143,8 +1143,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "父亲以为，搬到旅馆里会比较安全。当天，全家三口人，带着一个女佣，搬进了九龙酒店——就在今天半岛酒店的后面。",
         "en": "His father decided they would be safer in a hotel. That day, the family of three, with one maid, moved into the Kowloon Hotel — just behind what is now the Peninsula.",
-        "start": 439.1,
-        "end": 450.72
+        "start": 444.81,
+        "end": 456.79
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1152,8 +1152,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "三天后，九龙被日军占领。",
         "en": "Three days later, Kowloon fell.",
-        "start": 450.72,
-        "end": 453.35
+        "start": 456.79,
+        "end": 459.65
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1161,8 +1161,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "香港本岛又守了十几天。但到了圣诞夜——12月24日——英军投降了。",
         "en": "The island of Hong Kong held out for a little over two weeks. But on Christmas Eve — December 24 — the British surrendered.",
-        "start": 453.35,
-        "end": 460.59
+        "start": 459.65,
+        "end": 467.81
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1170,8 +1170,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 460.59,
-        "end": 463.01
+        "start": 467.81,
+        "end": 470.32
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1179,8 +1179,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "自日军12日开始攻击，到年底，男孩一家都躲在九龙酒店里。",
         "en": "From the Japanese attack on the 8th until the end of the year, the family stayed hidden in the Kowloon Hotel.",
-        "start": 463.01,
-        "end": 469.15
+        "start": 470.32,
+        "end": 476.39
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1188,8 +1188,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "幸而大家都很安全，却也受到一些惊吓。",
         "en": "Fortunately, they were safe — but they were frightened.",
-        "start": 469.15,
-        "end": 473.1
+        "start": 476.39,
+        "end": 480.42
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1197,8 +1197,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "起先是炸弹声。后来，常常听见街上的枪声。更常听见的，是日军隔海攻击香港的炮声——沉闷的、一声接一声的轰鸣。",
         "en": "First came the bombs. Then, often, gunfire in the streets. Most constant of all was the artillery — the dull, rhythmic thunder of Japanese guns shelling Hong Kong from across the harbour.",
-        "start": 473.1,
-        "end": 484.72
+        "start": 480.42,
+        "end": 492.75
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1206,8 +1206,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那几个星期，几乎全部都在戒严状态下。他们不能、也不想出旅馆。",
         "en": "For weeks, the colony was under near-total curfew. They could not leave the hotel; they did not want to.",
-        "start": 484.72,
-        "end": 491.31
+        "start": 492.75,
+        "end": 499.64
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1215,8 +1215,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "旅馆里的食物渐渐吃尽，后来吃的都是罐头。到最后，罐头也几乎吃尽——幸而那时，已经开始解严了。",
         "en": "The hotel's food ran low, then gave out. They ate canned food. When the cans ran low too — almost empty — the curfew was finally lifted.",
-        "start": 491.31,
-        "end": 501.4
+        "start": 499.64,
+        "end": 510.17
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1224,8 +1224,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 501.4,
-        "end": 502.71
+        "start": 510.17,
+        "end": 512.29
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1233,8 +1233,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "解严后，父母亲回到家，发现房子并没有被战火损毁。",
         "en": "When it was lifted, the boy's parents went home to find the house intact — untouched by the fighting.",
-        "start": 502.71,
-        "end": 507.98
+        "start": 512.29,
+        "end": 517.58
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1242,8 +1242,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但在英军已撤出、日军尚未入驻九龙的间隙，家中已被歹徒抢劫过了。寄居在家里的亲戚和留家的女佣，都饱受惊吓。",
         "en": "But in the gap between the British withdrawal and the Japanese occupation, thieves had broken in and ransacked it. The relatives lodging with them and the maid left at home had been badly frightened.",
-        "start": 507.98,
-        "end": 519.38
+        "start": 517.58,
+        "end": 528.84
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1251,8 +1251,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "战争最狰狞的一面，往往不在战场上，而在这些无人看守的缝隙里。",
         "en": "War shows its ugliest face not always on the battlefield, but in the unguarded gaps.",
-        "start": 519.38,
-        "end": 525.97
+        "start": 528.84,
+        "end": 535.3
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1260,8 +1260,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 背景光",
         "zh": "【主叙述者 · 背景光】",
         "en": "[Main narrator, background light]",
-        "start": 525.97,
-        "end": 528.6
+        "start": 535.3,
+        "end": 538.0
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1269,8 +1269,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，香港这座不足百万人口的城市，几乎一夜之间被拖进了世界战争。日本在偷袭珍珠港的数小时内便进攻香港——太平洋战争的第一场战役，就发生在这座城市。加拿大派来了援军，与驻港英军并肩作战；他们坚守了十八天，终究敌不过压倒性的火力。",
         "en": "That year, this city of under a million people was dragged, almost overnight, into a world war. Within hours of the attack on Pearl Harbor, Japan struck Hong Kong — the first battle of the Pacific War was fought in this city. Canadian reinforcements had arrived to fight beside the British garrison; they held out for eighteen days, and were finally overwhelmed by overwhelming firepower.",
-        "start": 528.6,
-        "end": 553.61
+        "start": 538.0,
+        "end": 562.48
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1278,8 +1278,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "十八天。对一个十岁的男孩来说，那是从考试被取消，到全家躲进旅馆，再到听见投降消息的十八天。",
         "en": "Eighteen days. To a ten-year-old boy, they were the eighteen days from a cancelled exam, to hiding in a hotel, to hearing of the surrender.",
-        "start": 553.61,
-        "end": 563.48
+        "start": 562.48,
+        "end": 572.38
       },
       {
         "secZh": "第三幕 · 珍珠港事变的那天早上",
@@ -1287,8 +1287,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而对这座城市来说，那是自由时代的最后十八天。",
         "en": "To the city, they were the last eighteen days of an era of freedom.",
-        "start": 563.48,
-        "end": 568.3
+        "start": 572.38,
+        "end": 577.19
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1296,8 +1296,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 568.3,
-        "end": 569.62
+        "start": 577.19,
+        "end": 579.31
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1305,8 +1305,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "香港，进入了日据时期。这一年，男孩十一岁。",
         "en": "Hong Kong entered the years of Japanese occupation. The boy was eleven.",
-        "start": 569.62,
-        "end": 574.23
+        "start": 579.31,
+        "end": 584.45
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1314,8 +1314,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "市面渐渐恢复了一些，但占领的迹象到处皆是。市内重要地点，都有日本哨兵站岗，经过的路人，都要向他们鞠躬。",
         "en": "The streets slowly returned to something like business — but the signs of occupation were everywhere. At every important intersection stood Japanese sentries, and passersby were required to bow to them.",
-        "start": 574.23,
-        "end": 585.41
+        "start": 584.45,
+        "end": 595.61
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1323,8 +1323,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "男孩就读的小学里，忽然多了好几位亲日的教师。他们一有机会，就对学生讲：英美兵如何只知道喝酒享受，一听见枪声就立刻向后逃。",
         "en": "At the boy's school, several pro-Japanese teachers suddenly appeared. Whenever they had the chance, they told the students how the British and American soldiers only knew how to drink and enjoy themselves — how they turned and ran at the first sound of gunfire.",
-        "start": 585.41,
-        "end": 598.58
+        "start": 595.61,
+        "end": 608.65
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1332,8 +1332,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "父亲在新政权的管制下继续工作，更有难言的感受——一个在银行界干了一辈子的宁波人，在占领军的眼皮底下维持一家生计，每一分体面，都是忍出来的。",
         "en": "His father continued working under the new regime — a Ningbo banker in his prime, holding the family together under the eyes of the occupying army. Every shred of dignity had to be endured, day by day.",
-        "start": 598.58,
-        "end": 613.71
+        "start": 608.65,
+        "end": 623.31
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1341,8 +1341,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 613.71,
-        "end": 616.13
+        "start": 623.31,
+        "end": 625.82
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1350,8 +1350,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "就是在这样的一年里，男孩小学毕业了。",
         "en": "And in that year, the boy graduated from primary school.",
-        "start": 616.13,
-        "end": 620.08
+        "start": 625.82,
+        "end": 629.85
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1359,8 +1359,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "毕业典礼上，他穿着干净的校服，和同学们站在一起。",
         "en": "He stood at the ceremony in a clean school uniform, with his classmates.",
-        "start": 620.08,
-        "end": 625.34
+        "start": 629.85,
+        "end": 635.14
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1368,8 +1368,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "典礼之外的世界，是哨兵、是鞠躬、是亲日的教师、是满城压抑的气氛。但男孩在典礼上拿到的，是一张平平常常的小学毕业证书——那是一个孩子，在乱世里能够完成的最朴素、也最郑重的一件事。",
         "en": "Outside the ceremony hall: sentries, bowing, pro-Japanese teachers, the weight of an occupied city. But what the boy took home from that ceremony was an ordinary primary-school certificate — the simplest, most solemn thing a child could accomplish in a world turned upside down.",
-        "start": 625.34,
-        "end": 644.64
+        "start": 635.14,
+        "end": 654.2
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1377,8 +1377,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 644.64,
-        "end": 645.96
+        "start": 654.2,
+        "end": 656.32
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1386,8 +1386,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "回想这五年香港生活，男孩记住了很多东西：",
         "en": "Looking back on those five years in Hong Kong, the boy kept many things:",
-        "start": 645.96,
-        "end": 650.35
+        "start": 656.32,
+        "end": 660.52
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1395,8 +1395,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他记住了珠江边逃难的那个下午。他记住了山顶的风、浅水湾的浪。他记住了《儿童文库》里一百多个故事。他记住了九龙酒店里空掉的罐头。他记住了毕业典礼上，校长念到他名字时，母亲眼里亮了一下。",
         "en": "He remembered that afternoon of fleeing at the Pearl River docks. He remembered the wind on the Peak and the waves at Repulse Bay. He remembered the hundred-odd stories in the Children's Library. He remembered the empty cans in the Kowloon Hotel. He remembered, at the graduation ceremony, the moment the headmaster read out his name — and the light that came into his mother's eyes.",
-        "start": 650.35,
-        "end": 670.31
+        "start": 660.52,
+        "end": 680.3
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1404,8 +1404,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个孩子在乱世里能记住的，往往不是历史的宏大叙事，而是这些具体的、细小的、属于他自己的瞬间。",
         "en": "What a child in a chaotic world remembers is rarely the grand narrative of history. It is these concrete, small, private moments.",
-        "start": 670.31,
-        "end": 680.4
+        "start": 680.3,
+        "end": 690.05
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1413,8 +1413,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而这些瞬间，后来都成了他生命里最坚固的地基。",
         "en": "And those moments later became the most solid foundation of his life.",
-        "start": 680.4,
-        "end": 685.23
+        "start": 690.05,
+        "end": 694.86
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1422,8 +1422,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 685.23,
-        "end": 686.54
+        "start": 694.86,
+        "end": 696.98
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1431,8 +1431,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1942年底，男孩全家乘船离开香港，前往上海。",
         "en": "At the end of 1942, the family boarded a ship and left Hong Kong for Shanghai.",
-        "start": 686.54,
-        "end": 691.59
+        "start": 696.98,
+        "end": 702.07
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1440,8 +1440,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在沦陷的香港住了五年多，他要离开了。",
         "en": "After more than five years in occupied Hong Kong, he was leaving.",
-        "start": 691.59,
-        "end": 695.54
+        "start": 702.07,
+        "end": 706.11
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1449,8 +1449,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "临行前，他回头看了看这座城市。五年，他在这里读完了小学，读完了整架《儿童文库》，看遍了山顶和浅水湾的四季。这座世外桃源，终究还是被战争的潮水淹没了。",
         "en": "Before he went, he turned and looked back at the city. Five years — here he had finished primary school, read the whole shelf of the Children's Library, and watched the four seasons pass over the Peak and Repulse Bay. The haven had been drowned, in the end, by the tide of war.",
-        "start": 695.54,
-        "end": 711.77
+        "start": 706.11,
+        "end": 721.88
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1458,8 +1458,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他后来把这段经历记了一辈子：一个孩子的记忆里，战争不是历史，是一张张搬家的船票。",
         "en": "He remembered this period his whole life: in a child's memory, war is not history — it is a series of boat tickets.",
-        "start": 711.77,
-        "end": 720.55
+        "start": 721.88,
+        "end": 730.5
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1467,8 +1467,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "广州，是第一次。香港，是第二次。",
         "en": "Guangzhou was the first. Hong Kong was the second.",
-        "start": 720.55,
-        "end": 724.06
+        "start": 730.5,
+        "end": 734.67
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1476,8 +1476,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而这张船票，只是整个时代的开始。",
         "en": "And this ticket was only the beginning of the era.",
-        "start": 724.06,
-        "end": 727.57
+        "start": 734.67,
+        "end": 738.31
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1485,8 +1485,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在船上，男孩不会想到，这趟去上海的路，会在他的记忆里留下一个悬念：上海只住了三个月，然后，父亲做了一个大胆的决定——穿越战线，西去重庆。那是一条要走五十多天的路，要穿过沦陷区与自由区的边界，每一步都有风险。",
         "en": "On board the ship, the boy could not have imagined that this journey to Shanghai would hold a surprise: Shanghai for only three months, and then his father would make a bold decision — cross the front lines, and head west to Chongqing. A journey of more than fifty days, across the boundary between occupied and free territory, every step a risk.",
-        "start": 727.57,
-        "end": 750.16
+        "start": 738.31,
+        "end": 760.6
       },
       {
         "secZh": "第四幕 · 日据的一年，与小学毕业",
@@ -1494,8 +1494,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但那是下一个故事了。此刻，船正离开香港，男孩站在甲板上，看着这座城市在视野里慢慢变小。",
         "en": "But that is the next story. For now, the ship was leaving Hong Kong, and the boy stood on the deck, watching the city grow small in the distance.",
-        "start": 750.16,
-        "end": 759.59
+        "start": 760.6,
+        "end": 770.11
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1503,8 +1503,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静，放慢",
         "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 759.59,
-        "end": 762.67
+        "start": 770.11,
+        "end": 773.29
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1512,8 +1512,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们停下来，看看这个孩子已经走过的路。",
         "en": "Let us pause, and look at what this child has already lived through.",
-        "start": 762.67,
-        "end": 767.05
+        "start": 773.29,
+        "end": 777.71
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1521,8 +1521,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "五岁，广州。六岁到十一岁，香港。战争的巨轮碾过两个城市，每一次，都是大人牵着他的手，匆匆登船。",
         "en": "Age five, Guangzhou. Age six to eleven, Hong Kong. The wheels of war ground over two cities — and each time, it was adults taking him by the hand and hurrying onto a boat.",
-        "start": 767.05,
-        "end": 777.36
+        "start": 777.71,
+        "end": 788.62
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1530,8 +1530,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他什么都不能决定。他只是一个被时代推着走的孩子。",
         "en": "He could decide nothing. He was a child being pushed by the era.",
-        "start": 777.36,
-        "end": 782.63
+        "start": 788.62,
+        "end": 794.17
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1539,8 +1539,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 782.63,
-        "end": 783.94
+        "start": 794.17,
+        "end": 796.29
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1548,8 +1548,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但请注意——在这段被动的童年里，有三样东西，是他自己长出来的。",
         "en": "But notice — through all that passivity, three things grew of their own accord.",
-        "start": 783.94,
-        "end": 790.74
+        "start": 796.29,
+        "end": 803.37
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1557,8 +1557,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第一样，是书。身体弱，不能跑跳，他就读书。一套《儿童文库》，他读完了整个书架。没有人逼他，他是真的喜欢。这个习惯，跟他走了一生。",
         "en": "The first was books. Too frail to run and jump, he read. One set of the Children's Library — he finished the whole shelf. Nobody forced him; he simply loved it. The habit walked with him all his life.",
-        "start": 790.74,
-        "end": 804.78
+        "start": 803.37,
+        "end": 818.16
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1566,8 +1566,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第二样，是观察。他见过广州的天空、香港的港口、浅水湾的沙滩，也见过戒严的旅馆、空空的罐头、被抢劫的家。他学会了在动荡里看，也学会了在动荡里记。",
         "en": "The second was observation. He had seen the sky over Guangzhou, the harbour of Hong Kong, the sands of Repulse Bay — and also the curfewed hotel, the empty cans, the ransacked house. He learned to look in turbulence, and to remember in turbulence.",
-        "start": 804.78,
-        "end": 820.36
+        "start": 818.16,
+        "end": 833.92
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1575,8 +1575,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第三样，是根。无论搬到哪个城市，他始终是一个读书的孩子，一个宁波商帮家庭的孩子。时代可以夺走他的家，夺不走他是谁。",
         "en": "The third was roots. Whatever city he landed in, he was still a reading child, the son of a Ningbo merchant family. The era could take his home. It could not take who he was.",
-        "start": 820.36,
-        "end": 832.86
+        "start": 833.92,
+        "end": 846.69
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1584,8 +1584,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 832.86,
-        "end": 835.28
+        "start": 846.69,
+        "end": 849.19
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1593,8 +1593,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "多年以后，有人问他：你这一生最钦佩的品质是什么？",
         "en": "Years later, people asked him: what quality do you most admire?",
-        "start": 835.28,
-        "end": 840.54
+        "start": 849.19,
+        "end": 854.61
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1602,8 +1602,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他谈过很多——诚信、坚持、创新。但如果我们回到1941年那个躲在九龙酒店里的十岁男孩，答案其实很早就写下了：",
         "en": "He spoke of many things — integrity, persistence, innovation. But if we go back to that ten-year-old hiding in the Kowloon Hotel in 1941, the answer was written long ago:",
-        "start": 840.54,
-        "end": 852.39
+        "start": 854.61,
+        "end": 866.47
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1611,8 +1611,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "**时代可以推着你走，但走成什么样，从来是你自己的事。**",
         "en": "**The era may push you — but what you become is always your own doing.**",
-        "start": 852.39,
-        "end": 858.75
+        "start": 866.47,
+        "end": 871.95
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1620,8 +1620,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那个在轰炸里跟着母亲登船的孩子，后来成了全球半导体的教父。",
         "en": "The child who followed his mother onto a boat under the bombs became the godfather of the world's semiconductors.",
-        "start": 858.75,
-        "end": 865.11
+        "start": 871.95,
+        "end": 878.13
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1629,8 +1629,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "我们常说，时势造英雄。但时势只是把无数人推到同一个码头，登不登船、在船上读不读书、被时代推到异乡之后，是沉下去还是重新长出根来——这些，从来不是时代替他决定的。",
         "en": "We say that times make heroes. But the times only push countless people to the same pier. Whether to board the boat, whether to keep reading on it, whether — after being carried to a foreign land — to sink or to grow roots again — none of that is decided by the era.",
-        "start": 865.11,
-        "end": 882.66
+        "start": 878.13,
+        "end": 895.54
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1638,8 +1638,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "五岁的他，被母亲牵着走上船，是时代的安排。",
         "en": "That a five-year-old was led by his mother onto a ship was the era's arrangement.",
-        "start": 882.66,
-        "end": 887.27
+        "start": 895.54,
+        "end": 900.25
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1647,8 +1647,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而他在船上、在异乡、在每一次颠沛流离之后，继续读书、继续观察、继续往前走——那是他自己的选择。",
         "en": "That he kept reading, kept observing, kept walking, through every upheaval — that was his own choice.",
-        "start": 887.27,
-        "end": 897.58
+        "start": 900.25,
+        "end": 910.71
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1656,8 +1656,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他不是没有害怕过。他只是在每一次害怕之后，都继续往前走了。",
         "en": "He was not without fear. He simply kept walking, after every fear.",
-        "start": 897.58,
-        "end": 903.94
+        "start": 910.71,
+        "end": 917.32
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -1665,8 +1665,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "多年以后，他站在世界的舞台上，回望这一切，只淡淡地说了一句：那都是我的青春。",
         "en": "Years later, standing on the world's stage, looking back on all of it, he would say only, quietly: that was my youth.",
-        "start": 903.94,
-        "end": 912.28
+        "start": 917.32,
+        "end": 925.64
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -1674,8 +1674,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
         "en": "(Verified public facts, for the listener's reference)",
-        "start": 912.28,
-        "end": 916.66
+        "start": 925.64,
+        "end": 930.57
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -1683,8 +1683,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1. **广州大轰炸（1937–1938）**：1937 年 10 月起，日本飞机开始空袭广州；1938 年 5–6 月轰炸加剧，城市大片沦为废墟，平民伤亡惨重。",
         "en": "1. **The Bombing of Guangzhou (1937–1938)**: From October 1937, Japanese aircraft raided Guangzhou; bombing intensified from May–June 1938, reducing large parts of the city to ruins with heavy civilian casualties.",
-        "start": 916.66,
-        "end": 934.43
+        "start": 930.57,
+        "end": 944.87
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -1692,8 +1692,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "2. **广州沦陷**：1938 年 10 月，日军攻占广州。",
         "en": "2. **The Fall of Guangzhou**: Japanese forces captured Guangzhou in October 1938.",
-        "start": 934.43,
-        "end": 941.23
+        "start": 944.87,
+        "end": 950.52
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -1701,8 +1701,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "3. **珍珠港事变（1941.12.7）**：日本偷袭美国珍珠港，太平洋战争爆发，美国随后对日宣战。",
         "en": "3. **The Attack on Pearl Harbor (December 7, 1941)**: Japan's surprise attack on the U.S. Pacific Fleet brought the United States into World War II.",
-        "start": 941.23,
-        "end": 952.42
+        "start": 950.52,
+        "end": 961.24
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -1710,8 +1710,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "4. **香港保卫战（1941.12.8–12.25）**：珍珠港事变数小时后，日军入侵香港；九龙于 12 月 12 日失守；12 月 25 日圣诞夜，港督杨慕琦宣布投降，香港进入日据时期（1941–1945）。",
         "en": "4. **The Battle of Hong Kong (December 8–25, 1941)**: Hours after Pearl Harbor, Japanese forces invaded Hong Kong. Kowloon fell on December 12; on Christmas Day, Governor Mark Young surrendered. Hong Kong was occupied until 1945.",
-        "start": 952.42,
-        "end": 975.67
+        "start": 961.24,
+        "end": 981.22
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -1719,8 +1719,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "5. **香港日据时期**：占领期间市民须向哨兵鞠躬；英军撤出至日军入驻的间隙，九龙等地一度治安失控、抢劫频发。",
         "en": "5. **The Japanese Occupation of Hong Kong**: Residents were required to bow to sentries; in the gap between British withdrawal and Japanese entry, Kowloon briefly saw looting and lawlessness.",
-        "start": 975.67,
-        "end": 987.96
+        "start": 981.22,
+        "end": 992.51
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -1728,8 +1728,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "6. **宁波帮**：中国近代最著名的商帮之一，以经营钱庄、航运和实业闻名，足迹遍布上海、香港及海外。",
         "en": "6. **The Ningbo Guild**: One of modern China's most famous merchant groups, known for money shops, shipping, and industry, with networks across Shanghai, Hong Kong, and overseas.",
-        "start": 987.96,
-        "end": 999.15
+        "start": 992.51,
+        "end": 1002.91
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -1737,8 +1737,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "7. **传主童年**：1936 迁广州、1937 迁香港、1941–42 经历香港保卫战与日据、1942 香港小学毕业（依据公开传记资料）。",
         "en": "7. **The Founder's Childhood**: Moved to Guangzhou in 1936, to Hong Kong in 1937; experienced the Battle of Hong Kong and occupation in 1941–42; graduated primary school in Hong Kong in 1942 (per public biography).",
-        "start": 999.15,
-        "end": 1014.72
+        "start": 1002.91,
+        "end": 1015.75
       },
       {
         "secZh": "下期预告",
@@ -1746,8 +1746,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1014.72,
-        "end": 1016.04
+        "start": 1015.75,
+        "end": 1017.87
       },
       {
         "secZh": "下期预告",
@@ -1755,8 +1755,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1942年底，男孩到了上海。",
         "en": "At the end of 1942, the boy arrived in Shanghai.",
-        "start": 1016.04,
-        "end": 1019.11
+        "start": 1017.87,
+        "end": 1021.12
       },
       {
         "secZh": "下期预告",
@@ -1764,8 +1764,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他在上海只住了三个月，过完旧历年，又随父母踏上了西去重庆的旅程——那是一次穿越战线的冒险之旅，走了五十多天。",
         "en": "He stayed only three months — just long enough for the Lunar New Year with relatives — before setting out with his parents on the long road west to Chongqing. It was a journey across the front lines, more than fifty days on the road.",
-        "start": 1019.11,
-        "end": 1031.45
+        "start": 1021.12,
+        "end": 1032.77
       },
       {
         "secZh": "下期预告",
@@ -1773,8 +1773,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而重庆，等着他的，是一所叫南开的学校，和一句改变他一生的话。",
         "en": "And in Chongqing, waiting for him, were a school called Nankai — and a sentence that would change his life.",
-        "start": 1031.45,
-        "end": 1038.03
+        "start": 1032.77,
+        "end": 1039.32
       },
       {
         "secZh": "下期预告",
@@ -1782,7 +1782,7 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "下期，《考不进去的南开 & 作家梦》：一个少年，如何在乱世里亲手推开人生的第一扇门。",
         "en": "Next episode, \"The School He Couldn't Get Into, and the Dream That Couldn't Feed Him\": how a boy in a shattered world pushed open the first door of his life with his own hands.",
-        "start": 1038.03,
+        "start": 1039.32,
         "end": 1047.35
       }
     ]
@@ -1794,8 +1794,8 @@ window.AUDIO_DATA = [
     "summary": "考不进去的南开与作家梦 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第02期-考不进去的南开与作家梦/中文音频.mp3",
     "audioEn": "./03-剧集/第02期-考不进去的南开与作家梦/英文音频.mp3",
-    "durationZh": 1082.72,
-    "durationEn": 1139.87,
+    "durationZh": 1082.716,
+    "durationEn": 1139.868,
     "cues": [
       {
         "secZh": "开场",
@@ -1804,7 +1804,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：麻将牌碰撞声，女人的笑声，渐渐压低】",
         "en": "[SFX: the clatter of mahjong tiles, women's laughter, fading to a hush]",
         "start": 0.0,
-        "end": 4.0
+        "end": 5.66
       },
       {
         "secZh": "开场",
@@ -1812,8 +1812,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1943年，重庆。一间客厅里，几位太太正在打牌。",
         "en": "Chongqing, 1943. In a living room, a group of ladies are playing mahjong.",
-        "start": 4.0,
-        "end": 8.37
+        "start": 5.66,
+        "end": 11.43
       },
       {
         "secZh": "开场",
@@ -1821,8 +1821,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一位少年，站在不远处的门边，无意间听到了母亲与一位官太太的对话。",
         "en": "A boy stands near the doorway, out of sight, and overhears his mother talking with the wife of a government official.",
-        "start": 8.37,
-        "end": 14.19
+        "start": 11.43,
+        "end": 18.32
       },
       {
         "secZh": "开场",
@@ -1830,8 +1830,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "官太太问起少年的学业。母亲说，他想考重庆最好的中学——南开。",
         "en": "The lady asks about the boy's schooling. His mother says he wants to sit the entrance exam for the best middle school in Chongqing — Nankai.",
-        "start": 14.19,
-        "end": 20.1
+        "start": 18.32,
+        "end": 25.61
       },
       {
         "secZh": "开场",
@@ -1839,8 +1839,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "官太太放下牌，看了母亲一眼，很直率地说了一句：",
         "en": "The lady sets down her tiles, glances at his mother, and says it plainly:",
-        "start": 20.1,
-        "end": 24.29
+        "start": 25.61,
+        "end": 30.51
       },
       {
         "secZh": "开场",
@@ -1848,8 +1848,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「考不进去的。还是赶紧找关系、托人情吧。」",
         "en": "\"He won't get in. You'd better start pulling strings, calling in favors.\"",
-        "start": 24.29,
-        "end": 28.11
+        "start": 30.51,
+        "end": 35.21
       },
       {
         "secZh": "开场",
@@ -1857,8 +1857,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 28.11,
-        "end": 29.2
+        "start": 35.21,
+        "end": 37.34
       },
       {
         "secZh": "开场",
@@ -1866,8 +1866,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这句话，像一盆冷水。",
         "en": "Those words hit him like a bucket of cold water.",
-        "start": 29.2,
-        "end": 31.47
+        "start": 37.34,
+        "end": 39.83
       },
       {
         "secZh": "开场",
@@ -1875,8 +1875,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "少年太清楚自家的底细了——他们家，是逃难到重庆的外乡人，人生地不熟，哪来的关系可托？",
         "en": "The boy knew exactly what his family was: refugees from out of town, no roots in Chongqing, no connections to call on, no favors owed.",
-        "start": 31.47,
-        "end": 39.11
+        "start": 39.83,
+        "end": 49.2
       },
       {
         "secZh": "开场",
@@ -1884,8 +1884,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一刻，他站在门边，心里凉了半截。",
         "en": "Standing there by the door, his heart sank.",
-        "start": 39.11,
-        "end": 42.2
+        "start": 49.2,
+        "end": 53.16
       },
       {
         "secZh": "开场",
@@ -1893,8 +1893,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他后来的人生里，还有一句话，会以另一种方式，轻轻落在他的心上。那时候他在上海，十七岁，告诉父亲他想当作家。父亲放下碗，带着一点微笑，说：",
         "en": "But there was another sentence waiting for him in the years ahead — one that would land on him just as softly. Shanghai, 1948. He was seventeen, and he had just told his father he wanted to be a writer. His father set down his chopsticks, almost smiling, and said:",
-        "start": 42.2,
-        "end": 54.57
+        "start": 53.16,
+        "end": 68.21
       },
       {
         "secZh": "开场",
@@ -1902,8 +1902,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「写作是一个不易谋生的职业。你做作家，可能会饿肚子。」",
         "en": "\"Writing is a difficult way to make a living. If you become a writer, you may go hungry.\"",
-        "start": 54.57,
-        "end": 59.49
+        "start": 68.21,
+        "end": 74.08
       },
       {
         "secZh": "开场",
@@ -1911,8 +1911,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 59.49,
-        "end": 60.58
+        "start": 74.08,
+        "end": 76.21
       },
       {
         "secZh": "开场",
@@ -1920,8 +1920,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一句「考不进去的」，一句「会饿肚子」——这是同一个少年，在同一个大时代里，先后听到的两句话。",
         "en": "\"Won't get in.\" \"May go hungry.\"",
-        "start": 60.58,
-        "end": 68.95
+        "start": 76.21,
+        "end": 85.59
       },
       {
         "secZh": "开场",
@@ -1929,8 +1929,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第一句，逼他打了一场翻身仗；第二句，按灭了他一个梦。",
         "en": "Two sentences, heard by the same boy, in the same storm of an era.",
-        "start": 68.95,
-        "end": 73.68
+        "start": 85.59,
+        "end": 91.39
       },
       {
         "secZh": "开场",
@@ -1938,1087 +1938,1069 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "今天，我们就从这两句话讲起：看一个少年，如何在乱世里，亲手推开一扇扇门；又如何被时代，轻轻关上一扇窗。",
         "en": "The first one forced him to fight his way through a door. The second quietly closed the door on a dream.",
-        "start": 73.68,
-        "end": 82.95
-      },
-      {
-        "secZh": "第一幕 · 山城里的难题",
-        "secEn": "Opening",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "This is the story of those two sentences — and of a boy who, in a world turned upside down, learned to open doors with nothing but his own hands, and to let one window close without letting its light go out.",
-        "start": 82.95,
-        "end": 92.5
+        "start": 91.39,
+        "end": 102.49
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
-        "speaker": "Main narrator",
-        "zh": "1943年的重庆，是中国的大后方，也是战时的陪都。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 92.5,
-        "end": 97.05
+        "start": 102.49,
+        "end": 104.63
+      },
+      {
+        "secZh": "第一幕 · 山城里的难题",
+        "secEn": "Act One · The Problem in the Mountain City",
+        "speaker": "",
+        "zh": "1943年的重庆，是中国的大后方，也是战时的陪都。",
+        "en": "In 1943, Chongqing was China's wartime capital — the great rear base of a nation at war.",
+        "start": 104.63,
+        "end": 110.15
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "",
         "zh": "一座原本不到四十万人口的山城，涌进了成千上万的机关、工厂、学校和难民。沙坪坝那一带，学校扎堆，成了著名的战时「文化区」。而其中名声最响的，就是南开中学。",
-        "en": "In 1943, Chongqing was China's wartime capital — the great rear base of a nation at war.",
-        "start": 97.05,
-        "end": 110.88
+        "en": "Into a mountain city of barely four hundred thousand people poured thousands of government offices, factories, schools, and refugees. Around Shapingba, schools clustered so thickly that the district became known as the wartime \"cultural zone.\" And the most famous school of them all was Nankai.",
+        "start": 110.15,
+        "end": 126.51
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "",
         "zh": "南开，是著名教育家张伯苓创办的。抗战爆发前，他在天津办学；天津沦陷，南开大学被迫内迁，与北大、清华在昆明合组西南联大。而张伯苓本人，又在重庆沙坪坝重新办起了一所南开中学，1936年正式开学。",
-        "en": "Into a mountain city of barely four hundred thousand people poured thousands of government offices, factories, schools, and refugees. Around Shapingba, schools clustered so thickly that the district became known as the wartime \"cultural zone.\" And the most famous school of them all was Nankai.",
-        "start": 110.88,
-        "end": 128.16
+        "en": "Nankai had been founded by Zhang Boling, one of China's greatest educators. Before the war he had built his schools in Tianjin. When the city fell, Nankai University was forced to move west and join Peking University and Tsinghua in Kunming to form the celebrated National Southwestern Associated University. Meanwhile Zhang Boling himself came to Chongqing, and in 1936 opened a new Nankai middle school at Shapingba.",
+        "start": 126.51,
+        "end": 147.17
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "",
         "zh": "这所学校有多难进？",
-        "en": "Nankai had been founded by Zhang Boling, one of China's greatest educators. Before the war he had built his schools in Tianjin. When the city fell, Nankai University was forced to move west and join Peking University and Tsinghua in Kunming to form the celebrated National Southwestern Associated University. Meanwhile Zhang Boling himself came to Chongqing, and in 1936 opened a new Nankai middle school at Shapingba.",
-        "start": 128.16,
-        "end": 143.39
+        "en": "How hard was it to get in?",
+        "start": 147.17,
+        "end": 149.38
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "",
         "zh": "每年入学考试，名额有限，报考的人却挤破了门槛。一个逃难来的外乡少年，人生地不熟，没有背景，没有门路——想考进去，几乎等于痴人说梦。",
-        "en": "How hard was it to get in?",
-        "start": 143.39,
-        "end": 155.22
+        "en": "Every year, the entrance exam had a fixed number of places — and a crush of applicants. A refugee boy, a stranger in town, with no background and no connections, dreaming of Nankai: by the logic of the era, it was almost absurd.",
+        "start": 149.38,
+        "end": 163.97
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "",
         "zh": "那位官太太的话，不是刻薄，而是那个年代最现实的判断。",
-        "en": "Every year, the entrance exam had a fixed number of places — and a crush of applicants. A refugee boy, a stranger in town, with no background and no connections, dreaming of Nankai: by the logic of the era, it was almost absurd.",
-        "start": 155.22,
-        "end": 165.0
+        "en": "The official's wife wasn't being cruel. She was being realistic.",
+        "start": 163.97,
+        "end": 169.69
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "The official's wife wasn't being cruel. She was being realistic.",
-        "start": 165.0,
-        "end": 167.27
+        "en": "[Main narrator, slower]",
+        "start": 169.69,
+        "end": 172.21
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "但少年的母亲，没有放弃。",
-        "en": "[Main narrator, slower]",
-        "start": 167.27,
-        "end": 169.45
+        "en": "But the boy's mother did not give up.",
+        "start": 172.21,
+        "end": 175.1
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "",
         "zh": "她打听到，南开每年夏天办暑期班。成绩优异的学生，有机会被保送入学。",
-        "en": "But the boy's mother did not give up.",
-        "start": 169.45,
-        "end": 175.46
+        "en": "She had heard that every summer, Nankai ran a summer school — and that the best students could be admitted directly, without sitting the exam.",
+        "start": 175.1,
+        "end": 182.63
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "",
         "zh": "于是，母亲做了个决定：让少年去读暑期班。",
-        "en": "She had heard that every summer, Nankai ran a summer school — and that the best students could be admitted directly, without sitting the exam.",
-        "start": 175.46,
-        "end": 181.14
+        "en": "So she made a decision: send the boy to the summer school.",
+        "start": 182.63,
+        "end": 187.29
       },
       {
         "secZh": "第一幕 · 山城里的难题",
         "secEn": "Act One · The Problem in the Mountain City",
         "speaker": "",
         "zh": "一来温习功课，二来——赌一把。",
-        "en": "So she made a decision: send the boy to the summer school.",
-        "start": 181.14,
-        "end": 183.87
-      },
-      {
-        "secZh": "第二幕 · 暑期班与一场翻身仗",
-        "secEn": "Act One · The Problem in the Mountain City",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
         "en": "It would brush up his studies. And — it was a gamble.",
-        "start": 183.87,
-        "end": 186.6
+        "start": 187.29,
+        "end": 191.2
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
-        "speaker": "Main narrator",
-        "zh": "少年自己也清楚，这是唯一的机会。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 186.6,
-        "end": 189.51
+        "start": 191.2,
+        "end": 193.33
+      },
+      {
+        "secZh": "第二幕 · 暑期班与一场翻身仗",
+        "secEn": "Act Two · The Summer School and the Comeback",
+        "speaker": "",
+        "zh": "少年自己也清楚，这是唯一的机会。",
+        "en": "The boy knew this was his only chance.",
+        "start": 193.33,
+        "end": 197.0
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "",
         "zh": "在沦陷的香港，他只读了半个学期的初一。战乱荒废了大半年，如今要插班进初二——跟那些一直在读书的同龄人比，他的底子，是吃亏的。",
-        "en": "The boy knew this was his only chance.",
-        "start": 189.51,
-        "end": 200.79
+        "en": "In occupied Hong Kong, he had managed only half a semester of middle school. The chaos of war had swallowed most of a year. Now he would have to enter the second year of middle school as a transfer student — competing with boys who had never stopped studying. On paper, he was behind.",
+        "start": 197.0,
+        "end": 210.82
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "",
         "zh": "但少年有个别人没有的东西：他真的想读。",
-        "en": "In occupied Hong Kong, he had managed only half a semester of middle school. The chaos of war had swallowed most of a year. Now he would have to enter the second year of middle school as a transfer student — competing with boys who had never stopped studying. On paper, he was behind.",
-        "start": 200.79,
-        "end": 213.07
+        "en": "But the boy had something the others didn't: he genuinely wanted to learn.",
+        "start": 210.82,
+        "end": 215.2
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "",
         "zh": "暑期班里，他拼了命地学。白天上课，晚上温习，把落下的功课一点点补回来。",
-        "en": "But the boy had something the others didn't: he genuinely wanted to learn.",
-        "start": 213.07,
-        "end": 219.44
+        "en": "At the summer school, he threw himself into it. Lessons by day, review by night, clawing back every subject he had lost.",
+        "start": 215.2,
+        "end": 223.22
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "At the summer school, he threw himself into it. Lessons by day, review by night, clawing back every subject he had lost.",
-        "start": 219.44,
-        "end": 224.44
+        "en": "[Main narrator]",
+        "start": 223.22,
+        "end": 225.35
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "结果，连他自己都没想到——",
-        "en": "[Main narrator]",
-        "start": 224.44,
-        "end": 226.8
+        "en": "And then came the result that surprised even him.",
+        "start": 225.35,
+        "end": 228.42
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "",
         "zh": "暑期班结束，他的成绩好得出奇。学校直接保送他，成为初二的正式学生。",
-        "en": "And then came the result that surprised even him.",
-        "start": 226.8,
-        "end": 232.81
+        "en": "When the summer school ended, his grades were extraordinary. The school admitted him directly — as a full, regular student.",
+        "start": 228.42,
+        "end": 235.95
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "",
         "zh": "消息传回家，父母高兴坏了。尤其是母亲——在那个讲究面子的年代，她终于可以在牌友面前，抬起头来。",
-        "en": "When the summer school ended, his grades were extraordinary. The school admitted him directly — as a full, regular student.",
-        "start": 232.81,
-        "end": 241.36
+        "en": "Word reached home, and his parents were overjoyed. His mother especially: in a culture where face mattered, she could finally hold her head up among her mahjong friends.",
+        "start": 235.95,
+        "end": 246.74
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "",
         "zh": "那位官太太大概不会想到，那句「考不进去的」，成了少年最好的激励。",
-        "en": "Word reached home, and his parents were overjoyed. His mother especially: in a culture where face mattered, she could finally hold her head up among her mahjong friends.",
-        "start": 241.36,
-        "end": 247.72
+        "en": "The official's wife never knew it, but her careless sentence had become the boy's best motivation.",
+        "start": 246.74,
+        "end": 253.24
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "The official's wife never knew it, but her careless sentence had become the boy's best motivation.",
-        "start": 247.72,
-        "end": 251.36
+        "en": "[Main narrator]",
+        "start": 253.24,
+        "end": 255.38
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "而多年以后，人们才发现，这几乎成了他一生的预言式的开场：",
-        "en": "[Main narrator]",
-        "start": 251.36,
-        "end": 256.46
+        "en": "And looking back, it reads almost like a prophecy of his whole life:",
+        "start": 255.38,
+        "end": 261.26
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "",
         "zh": "在这个世界里，没有门路的人，只能靠本事开门。",
-        "en": "And looking back, it reads almost like a prophecy of his whole life:",
-        "start": 256.46,
-        "end": 260.46
+        "en": "In this world, a boy with no connections opens doors with ability.",
+        "start": 261.26,
+        "end": 266.19
       },
       {
         "secZh": "第二幕 · 暑期班与一场翻身仗",
         "secEn": "Act Two · The Summer School and the Comeback",
         "speaker": "",
         "zh": "少年用成绩推开了南开那扇门。多年后，他会用另一种方式，推开更多扇门——包括一扇全世界都没有人见过的门。",
-        "en": "In this world, a boy with no connections opens doors with ability.",
-        "start": 260.46,
-        "end": 269.74
-      },
-      {
-        "secZh": "第三幕 · 沙坪坝的日与夜",
-        "secEn": "Act Two · The Summer School and the Comeback",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
         "en": "He pushed open the door of Nankai with his grades. Decades later, he would push open other doors — including one no one in the world had ever seen before.",
-        "start": 269.74,
-        "end": 276.56
+        "start": 266.19,
+        "end": 277.69
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
-        "speaker": "Main narrator",
-        "zh": "进了南开，日子并不轻松。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 276.56,
-        "end": 278.74
+        "start": 277.69,
+        "end": 279.82
+      },
+      {
+        "secZh": "第三幕 · 沙坪坝的日与夜",
+        "secEn": "Act Three · Days and Nights at Shapingba",
+        "speaker": "",
+        "zh": "进了南开，日子并不轻松。",
+        "en": "Life at Nankai was not easy.",
+        "start": 279.82,
+        "end": 282.7
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "学校规定，学生必须住校。宿舍是一间大统间，长长一条走廊，两边排满了双层的木床。八张床围成一个小隔间，隔间与走廊之间，连隔板都没有。",
-        "en": "Life at Nankai was not easy.",
-        "start": 278.74,
-        "end": 290.56
+        "en": "The school required all students to board. The dormitory was one long hall, lined with double-decker wooden beds. Eight beds formed a cubicle; between cubicle and corridor there wasn't even a partition.",
+        "start": 282.7,
+        "end": 297.21
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "宿舍里最出名的居民，是臭虫。干净的铺盖搬进去没几天，就开始爬满这些小家伙。刚被咬的时候，整夜睡不着；久而久之，倒也习惯了——第二天早上身上几处红点，晚上照样酣睡。",
-        "en": "The school required all students to board. The dormitory was one long hall, lined with double-decker wooden beds. Eight beds formed a cubicle; between cubicle and corridor there wasn't even a partition.",
-        "start": 290.56,
-        "end": 305.3
+        "en": "The dormitory's most famous residents were bedbugs. Fresh bedding became infested within days. The first nights were sleepless; in time, you simply got used to it — a few red marks by morning, and by night you slept like a log.",
+        "start": 297.21,
+        "end": 315.38
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "伙食更不用提。战时的重庆，吃的多是粗糙的黄米。饭菜以素为主，一个星期才开一次「牙祭」，桌上才见得到一道红烧肉。四川的榨菜倒是管够，几乎每餐都有。有时候菜吃完了肚子还没饱，就舀一勺酱油，拌着米饭吃下去。",
-        "en": "The dormitory's most famous residents were bedbugs. Fresh bedding became infested within days. The first nights were sleepless; in time, you simply got used to it — a few red marks by morning, and by night you slept like a log.",
-        "start": 305.3,
-        "end": 323.49
+        "en": "The food was worse. Wartime Chongqing meant coarse yellow rice, meals mostly vegetarian, with a piece of red-braised pork appearing maybe once a week at the famous \"meat day.\" Sichuan pickled vegetables were plentiful, almost every meal. When the food ran out before the hunger did, boys would spoon soy sauce over their rice and eat it that way.",
+        "start": 315.38,
+        "end": 337.34
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "The food was worse. Wartime Chongqing meant coarse yellow rice, meals mostly vegetarian, with a piece of red-braised pork appearing maybe once a week at the famous \"meat day.\" Sichuan pickled vegetables were plentiful, almost every meal. When the food ran out before the hunger did, boys would spoon soy sauce over their rice and eat it that way.",
-        "start": 323.49,
-        "end": 336.91
+        "en": "[Main narrator]",
+        "start": 337.34,
+        "end": 339.47
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "可苦归苦，少年的心里，却一直是兴奋的。",
-        "en": "[Main narrator]",
-        "start": 336.91,
-        "end": 340.36
+        "en": "But hard as it was, the boy was thrilled.",
+        "start": 339.47,
+        "end": 343.81
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "这是他第一次住校，第一次过集体生活，第一次离开父母的庇护。学校作息极严：早上六点吹号起床，八点上课，晚上七点到九点必须进教室晚自习，九点半熄灯。考试前，总有胆大的同学偷偷点蜡烛「开夜车」——那是违规的，被抓到要记过。",
-        "en": "But hard as it was, the boy was thrilled.",
-        "start": 340.36,
-        "end": 360.01
+        "en": "It was his first time boarding, his first taste of communal life, his first time outside his parents' care. The school ran on a strict clock: reveille at six, classes at eight, mandatory evening study from seven to nine, lights out at nine-thirty. Before exams, daring students would sneak candles for all-nighters — strictly forbidden, punished with demerits if caught.",
+        "start": 343.81,
+        "end": 367.19
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "他后来回忆说，整个求学经历里，学得最快、最开心、朋友最多的日子，恰恰都是在宿舍里度过的那些年。",
-        "en": "It was his first time boarding, his first taste of communal life, his first time outside his parents' care. The school ran on a strict clock: reveille at six, classes at eight, mandatory evening study from seven to nine, lights out at nine-thirty. Before exams, daring students would sneak candles for all-nighters — strictly forbidden, punished with demerits if caught.",
-        "start": 360.01,
-        "end": 373.65
+        "en": "Years later he would say that the happiest, fastest, most friendship-filled years of his education were the ones he spent in that dormitory.",
+        "start": 367.19,
+        "end": 377.29
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Years later he would say that the happiest, fastest, most friendship-filled years of his education were the ones he spent in that dormitory.",
-        "start": 373.65,
-        "end": 378.88
+        "en": "[Main narrator]",
+        "start": 377.29,
+        "end": 379.42
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "也是在这里，文学的种子，悄悄落进了土里。",
-        "en": "[Main narrator]",
-        "start": 378.88,
-        "end": 382.52
+        "en": "And it was here, too, that a seed was planted — the seed of literature.",
+        "start": 379.42,
+        "end": 383.96
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "少年从小身体不好，不善运动，常常独自在家，读一套叫《儿童文库》的书。而南开的国文老师，引导他读文言文、读白话文学。他写壁报，投稿，越写越爱。",
-        "en": "And it was here, too, that a seed was planted — the seed of literature.",
-        "start": 382.52,
-        "end": 395.26
+        "en": "As a child, the boy had been sickly, no good at sports, often alone at home with a set of children's encyclopedias called the Children's Library. At Nankai, his Chinese teacher guided him into classical prose and modern literature. He wrote for wall newspapers, submitted pieces, and the more he wrote, the more he loved it.",
+        "start": 383.96,
+        "end": 399.24
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "初三那年，他和几个同学办了一份壁报，取名「健报」——出自《周易》那句「天行健，君子以自强不息」。他负责文艺栏，每周自己还要写一篇稿子。",
-        "en": "As a child, the boy had been sickly, no good at sports, often alone at home with a set of children's encyclopedias called the Children's Library. At Nankai, his Chinese teacher guided him into classical prose and modern literature. He wrote for wall newspapers, submitted pieces, and the more he wrote, the more he loved it.",
-        "start": 395.26,
-        "end": 407.99
+        "en": "In his third year, he and some classmates started a wall newspaper called the \"Jian Bao\" — from the ancient Book of Changes: \"As Heaven maintains vigor through movement, a gentleman should constantly strive for self-improvement.\" He ran the literature page and wrote an essay every week.",
+        "start": 399.24,
+        "end": 412.87
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "为了办报，他两次登门拜访校长张伯苓。",
-        "en": "In his third year, he and some classmates started a wall newspaper called the \"Jian Bao\" — from the ancient Book of Changes: \"As Heaven maintains vigor through movement, a gentleman should constantly strive for self-improvement.\" He ran the literature page and wrote an essay every week.",
-        "start": 407.99,
-        "end": 418.68
+        "en": "To launch the paper, he twice went to call on the school's principal, Zhang Boling.",
+        "start": 412.87,
+        "end": 416.93
       },
       {
         "secZh": "第三幕 · 沙坪坝的日与夜",
         "secEn": "Act Three · Days and Nights at Shapingba",
         "speaker": "",
         "zh": "那是位六十多岁的老人，创办南开系列学校的大教育家，国民参政会主席，连蒋介石见了他都要礼让三分。可面对一个十几岁的毛头小子，他一点架子都没有，谆谆教导，耐心得像个爷爷。",
-        "en": "To launch the paper, he twice went to call on the school's principal, Zhang Boling.",
-        "start": 418.68,
-        "end": 433.78
+        "en": "The old man was in his sixties, the founder of the Nankai schools, chairman of the National Political Council — a man before whom even Chiang Kai-shek showed deference. Yet to a teenager, he showed no airs at all. He taught gently, patiently, like a grandfather.",
+        "start": 416.93,
+        "end": 434.62
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
-        "secEn": "Act Three · Days and Nights at Shapingba",
+        "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "音效：黄浦江的汽笛声，远处的报童叫卖声，渐渐压低",
         "zh": "【音效：黄浦江的汽笛声，远处的报童叫卖声，渐渐压低】",
-        "en": "The old man was in his sixties, the founder of the Nankai schools, chairman of the National Political Council — a man before whom even Chiang Kai-shek showed deference. Yet to a teenager, he showed no airs at all. He taught gently, patiently, like a grandfather.",
-        "start": 433.78,
-        "end": 444.24
+        "en": "[SFX: the horn of a Huangpu River ferry; a newsboy's cry in the distance, fading]",
+        "start": 434.62,
+        "end": 441.07
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "[SFX: the horn of a Huangpu River ferry; a newsboy's cry in the distance, fading]",
-        "start": 444.24,
-        "end": 447.65
+        "en": "[Main narrator]",
+        "start": 441.07,
+        "end": 443.2
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "1947年，少年随父母来到上海。",
-        "en": "[Main narrator]",
-        "start": 447.65,
-        "end": 450.56
+        "en": "In 1947, the boy moved with his family to Shanghai.",
+        "start": 443.2,
+        "end": 446.87
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "战局在变，家也在变。学年中，他暂入圣约翰大学附中读书——圣约翰附中与圣约翰大学同址，在兆丰公园后面，风景优美。半年后，他考入南洋模范中学，在高二插班。",
-        "en": "In 1947, the boy moved with his family to Shanghai.",
-        "start": 450.56,
-        "end": 464.2
+        "en": "The war was changing; so was his family's address. Midway through the school year, he entered the attached middle school of St. John's University — a leafy campus behind Jessfield Park. Half a year later, he sat the exam for Nanyang Model High School, entering the second year as a transfer student.",
+        "start": 446.87,
+        "end": 463.86
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "南模是上海数一数二的中学，尤其以数理见长。它的毕业生大多考入交通大学——那所在当时有「中国之麻省理工学院」之誉的学校。所以常有人戏称南模为「交大附中」，南模师生也不以为忤。",
-        "en": "The war was changing; so was his family's address. Midway through the school year, he entered the attached middle school of St. John's University — a leafy campus behind Jessfield Park. Half a year later, he sat the exam for Nanyang Model High School, entering the second year as a transfer student.",
-        "start": 464.2,
-        "end": 479.85
+        "en": "Nanyang Model was one of Shanghai's finest schools, famous above all for mathematics and science. Most of its graduates went on to Jiaotong University — a school so strong in engineering it was called \"China's MIT.\" People joked that Nanyang Model was really \"Jiaotong's prep school,\" and the school didn't mind at all.",
+        "start": 463.86,
+        "end": 481.87
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "可这样一个数理强校里的少年，心里装的，却全是文学。",
-        "en": "Nanyang Model was one of Shanghai's finest schools, famous above all for mathematics and science. Most of its graduates went on to Jiaotong University — a school so strong in engineering it was called \"China's MIT.\" People joked that Nanyang Model was really \"Jiaotong's prep school,\" and the school didn't mind at all.",
-        "start": 479.85,
-        "end": 491.9
+        "en": "But the boy inside this temple of mathematics carried a head full of literature.",
+        "start": 481.87,
+        "end": 487.39
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "他一边似懂非懂地啃老子、韩非子、荀子、《诗经》、《史记》这些古文，一边如饥似渴地读现代作家的小说、剧本、散文：鲁迅、胡适、徐志摩、茅盾、巴金、冰心、曹禺……还有徐訏。",
-        "en": "But the boy inside this temple of mathematics carried a head full of literature.",
-        "start": 491.9,
-        "end": 507.0
+        "en": "He wrestled, half-understanding, through Laozi, Han Feizi, Xunzi, the Book of Songs, the Records of the Grand Historian — and devoured modern writers: Lu Xun, Hu Shih, Xu Zhimo, Mao Dun, Ba Jin, Bing Xin, Cao Yu... and Xu Xu.",
+        "start": 487.39,
+        "end": 504.3
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "他尤其喜欢徐訏，喜欢他小说里那种「轻轻的忧郁、淡淡的哀愁」的情调。",
-        "en": "He wrestled, half-understanding, through Laozi, Han Feizi, Xunzi, the Book of Songs, the Records of the Grand Historian — and devoured modern writers: Lu Xun, Hu Shih, Xu Zhimo, Mao Dun, Ba Jin, Bing Xin, Cao Yu... and Xu Xu.",
-        "start": 507.0,
-        "end": 516.09
+        "en": "Xu Xu was his favorite. He loved the \"light melancholy, the faint sorrow\" of his fiction.",
+        "start": 504.3,
+        "end": 511.0
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "那一年，《风萧萧》问世不久。这部小说，他至少读了三遍。",
-        "en": "Xu Xu was his favorite. He loved the \"light melancholy, the faint sorrow\" of his fiction.",
-        "start": 516.09,
-        "end": 521.01
+        "en": "That year, a novel called \"Wind and Rain\" had recently appeared. The boy read it at least three times.",
+        "start": 511.0,
+        "end": 516.96
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "That year, a novel called \"Wind and Rain\" had recently appeared. The boy read it at least three times.",
-        "start": 521.01,
-        "end": 525.33
+        "en": "[Main narrator, slower]",
+        "start": 516.96,
+        "end": 519.49
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "一个十七岁的少年，在数理见长的名校里，偷偷喜欢着一位以情调著称的小说家，把一本《风萧萧》读了三遍——文学，在他心里已经长成了一棵树。",
-        "en": "[Main narrator, slower]",
-        "start": 525.33,
-        "end": 537.33
+        "en": "A seventeen-year-old, in a school famous for math, secretly in love with a novelist known for atmosphere, rereading one book three times — literature had grown into a tree inside him.",
+        "start": 519.49,
+        "end": 533.26
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "十六七岁的少年，读了几年书，写了几篇给中学生看的文章，就认真地想：我以后，能不能当一个作家？",
-        "en": "A seventeen-year-old, in a school famous for math, secretly in love with a novelist known for atmosphere, rereading one book three times — literature had grown into a tree inside him.",
-        "start": 537.33,
-        "end": 545.7
+        "en": "He had read a few books now, published a few essays for middle-school readers, and he began to think, seriously: could he become a writer?",
+        "start": 533.26,
+        "end": 543.29
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "现在想来，这真是个幼稚的念头——他才读了几本书？可在那时的少年心里，这却是一个诚挚得近乎天真的愿望。",
-        "en": "He had read a few books now, published a few essays for middle-school readers, and he began to think, seriously: could he become a writer?",
-        "start": 545.7,
-        "end": 554.8
+        "en": "Looking back, it was a naive wish — he had read so little. But to the boy, it was as sincere as a wish can be.",
+        "start": 543.29,
+        "end": 554.59
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "主叙述者 · 对话",
         "zh": "【主叙述者 · 对话】",
-        "en": "Looking back, it was a naive wish — he had read so little. But to the boy, it was as sincere as a wish can be.",
-        "start": 554.8,
-        "end": 560.71
+        "en": "[Main narrator, dialogue]",
+        "start": 554.59,
+        "end": 557.12
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
-        "speaker": "Main narrator, dialogue",
+        "speaker": "",
         "zh": "幸而，父亲很快、也很技巧地，把他从梦里唤醒了。",
-        "en": "[Main narrator, dialogue]",
-        "start": 560.71,
-        "end": 564.89
+        "en": "Fortunately, his father woke him from the dream — quickly, and with skill.",
+        "start": 557.12,
+        "end": 562.33
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "父亲当然知道，儿子不识天高地厚，离一个真正的作家还差得太远。但他没有从那个角度说，没有打击，没有教训。他只是很世故地、轻描淡写地，带着微笑说：",
-        "en": "Fortunately, his father woke him from the dream — quickly, and with skill.",
-        "start": 564.89,
-        "end": 577.81
+        "en": "The father knew perfectly well that his son had no idea how far a real writer stood from him. But he didn't say that. He didn't scold, didn't lecture. He simply remarked, worldly-wise, with a smile:",
+        "start": 562.33,
+        "end": 577.88
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "「写作是一个不易谋生的职业。你做作家，可能会饿肚子。」",
-        "en": "The father knew perfectly well that his son had no idea how far a real writer stood from him. But he didn't say that. He didn't scold, didn't lecture. He simply remarked, worldly-wise, with a smile:",
-        "start": 577.81,
-        "end": 586.0
+        "en": "\"Writing is a difficult way to make a living. If you become a writer, you may go hungry.\"",
+        "start": 577.88,
+        "end": 583.76
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "\"Writing is a difficult way to make a living. If you become a writer, you may go hungry.\"",
-        "start": 586.0,
-        "end": 590.09
+        "en": "[Main narrator]",
+        "start": 583.76,
+        "end": 585.89
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "当时的少年，对父亲的人生经验有绝对的尊敬。",
-        "en": "[Main narrator]",
-        "start": 590.09,
-        "end": 593.91
+        "en": "And the boy had absolute respect for his father's judgment.",
+        "start": 585.89,
+        "end": 590.54
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "父亲是宁波人，在银行界打拼多年，亲眼见过太多东西。他知道写作养活不了人——那不是偏见，那是他那个时代，用现实教给每一个成年人的经验。",
-        "en": "And the boy had absolute respect for his father's judgment.",
-        "start": 593.91,
-        "end": 605.92
+        "en": "His father was a Ningbo man who had spent his career in banking, who had seen too much. He knew that writing could not feed a family — not out of prejudice, but out of the hard schooling of his generation.",
+        "start": 590.54,
+        "end": 605.15
       },
       {
         "secZh": "第四幕 · 上海滩的文学少年",
         "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
         "speaker": "",
         "zh": "听了这句话，少年没有争辩，没有反抗。他只是渐渐打消了成为作家的野心。",
-        "en": "His father was a Ningbo man who had spent his career in banking, who had seen too much. He knew that writing could not feed a family — not out of prejudice, but out of the hard schooling of his generation.",
-        "start": 605.92,
-        "end": 615.24
-      },
-      {
-        "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
-        "secEn": "Act Four · The Literary Boy of the Shanghai Bund",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
         "en": "The boy did not argue, did not resist. He simply let the ambition fade.",
-        "start": 615.24,
-        "end": 618.42
+        "start": 605.15,
+        "end": 612.87
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
-        "speaker": "Main narrator",
-        "zh": "而父亲那句话背后的分量，少年很快就亲眼看到了。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 618.42,
-        "end": 622.61
+        "start": 612.87,
+        "end": 615.01
+      },
+      {
+        "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
+        "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
+        "speaker": "",
+        "zh": "而父亲那句话背后的分量，少年很快就亲眼看到了。",
+        "en": "How heavy those words were, the boy soon saw with his own eyes.",
+        "start": 615.01,
+        "end": 620.05
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "",
         "zh": "1948年下半年，战局急转直下。国内的恶性通货膨胀，已经是多年的积弊——随着战局恶化，物价上涨到了让人绝望的地步。",
-        "en": "How heavy those words were, the boy soon saw with his own eyes.",
-        "start": 622.61,
-        "end": 632.98
+        "en": "In the second half of 1948, the war situation collapsed. Hyperinflation had been poisoning the economy for years; now, as the war turned, prices climbed to desperate heights.",
+        "start": 620.05,
+        "end": 632.8
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "",
         "zh": "那年夏天，政府改革币制，把法币换成金圆券，同时严禁人民持有黄金或美钞，民众手上的金银外币，都必须在限期内兑换成金圆券。",
-        "en": "In the second half of 1948, the war situation collapsed. Hyperinflation had been poisoning the economy for years; now, as the war turned, prices climbed to desperate heights.",
-        "start": 632.98,
-        "end": 643.71
+        "en": "That summer, the government reformed the currency, replacing the fabi with the \"gold yuan\" notes, and forbidding people from holding gold or dollars. Everyone's gold and foreign currency had to be exchanged for the new notes within a strict deadline.",
+        "start": 632.8,
+        "end": 645.26
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "",
         "zh": "大家对金圆券没有信心。手里的钱，一夜之间可能变成废纸——那怎么办？只能买东西。于是上海人涌向房地产，上海房地产的价格，一夕之间上涨了好几倍！",
-        "en": "That summer, the government reformed the currency, replacing the fabi with the \"gold yuan\" notes, and forbidding people from holding gold or dollars. Everyone's gold and foreign currency had to be exchanged for the new notes within a strict deadline.",
-        "start": 643.71,
-        "end": 656.44
+        "en": "Nobody trusted the gold yuan. Money could become wastepaper overnight — so what do you do? You buy things. Shanghai poured into real estate, and property prices doubled, tripled, in a single breath.",
+        "start": 645.26,
+        "end": 661.45
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "Nobody trusted the gold yuan. Money could become wastepaper overnight — so what do you do? You buy things. Shanghai poured into real estate, and property prices doubled, tripled, in a single breath.",
-        "start": 656.44,
-        "end": 663.95
+        "en": "[Main narrator, with feeling]",
+        "start": 661.45,
+        "end": 663.97
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "可这疯狂的一切，只维持了短短两个多月。",
-        "en": "[Main narrator, with feeling]",
-        "start": 663.95,
-        "end": 667.4
+        "en": "The frenzy lasted barely two months.",
+        "start": 663.97,
+        "end": 668.23
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "",
         "zh": "战局进一步恶化，大军逼近徐州，徐蚌会战一触即发。上海人心极度紧张。几个月前一夕暴涨的房地产价格，一下子跌回原价以下。",
-        "en": "The frenzy lasted barely two months.",
-        "start": 667.4,
-        "end": 677.95
+        "en": "The war worsened. Armies pressed toward Xuzhou; the decisive Huaihai Campaign was about to begin. Panic seized Shanghai. Property prices, which had soared overnight, crashed below their original levels just as fast.",
+        "start": 668.23,
+        "end": 681.19
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "",
         "zh": "那个极富讽刺意味的悲剧，让多少人倾家荡产。",
-        "en": "The war worsened. Armies pressed toward Xuzhou; the decisive Huaihai Campaign was about to begin. Panic seized Shanghai. Property prices, which had soared overnight, crashed below their original levels just as fast.",
-        "start": 677.95,
-        "end": 685.23
+        "en": "The irony was a tragedy that ruined countless families.",
+        "start": 681.19,
+        "end": 685.84
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
-        "en": "The irony was a tragedy that ruined countless families.",
-        "start": 685.23,
-        "end": 687.28
+        "en": "[Main narrator, quiet]",
+        "start": 685.84,
+        "end": 688.36
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
-        "speaker": "Main narrator, quiet",
+        "speaker": "",
         "zh": "现在，让我们再回头看饭桌上那一幕。",
-        "en": "[Main narrator, quiet]",
-        "start": 687.28,
-        "end": 690.37
+        "en": "Now look back at that dinner table.",
+        "start": 688.36,
+        "end": 692.22
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "",
         "zh": "父亲说「会饿肚子」，就在这场疯狂的前夜。",
-        "en": "Now look back at that dinner table.",
-        "start": 690.37,
-        "end": 694.01
+        "en": "The father said \"you may go hungry\" on the eve of that madness.",
+        "start": 692.22,
+        "end": 696.28
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "",
         "zh": "一个在银行界摸爬滚打了一辈子的父亲，亲眼看着自己的同行、朋友、邻居，在通货膨胀里一夜破产；他比谁都清楚，在这个时代，一个靠写字为生的年轻人，会面对什么。",
-        "en": "The father said \"you may go hungry\" on the eve of that madness.",
-        "start": 694.01,
-        "end": 707.83
+        "en": "A banker who had spent a lifetime watching his colleagues, his friends, his neighbors go bankrupt in inflation — no one knew better what a young man who lived by his pen would face in such an age.",
+        "start": 696.28,
+        "end": 712.34
       },
       {
         "secZh": "第五幕 · 金圆券：时代的「会饿肚子」",
         "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
         "speaker": "",
         "zh": "——「会饿肚子」四个字，不是保守，不是打击。那是时代用最残酷的方式，教给一个父亲的血泪经验。",
-        "en": "A banker who had spent a lifetime watching his colleagues, his friends, his neighbors go bankrupt in inflation — no one knew better what a young man who lived by his pen would face in such an age.",
-        "start": 707.83,
-        "end": 716.47
-      },
-      {
-        "secZh": "第六幕 · 多年后，两扇门都开了",
-        "secEn": "Act Five · The Golden Yuan: The Era's \"You May Go Hungry\"",
-        "speaker": "主叙述者 · 感慨，放慢",
-        "zh": "【主叙述者 · 感慨，放慢】",
         "en": "\"May go hungry\" was not conservatism. It was not discouragement. It was the blood-and-tears wisdom an era had taught a father.",
-        "start": 716.47,
-        "end": 721.25
+        "start": 712.34,
+        "end": 722.54
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
-        "speaker": "Main narrator, with feeling, slower",
-        "zh": "少年后来离开上海，去了香港，又登上一艘开往美国的船。",
+        "speaker": "主叙述者 · 感慨，放慢",
+        "zh": "【主叙述者 · 感慨，放慢】",
         "en": "[Main narrator, with feeling, slower]",
-        "start": 721.25,
-        "end": 725.98
+        "start": 722.54,
+        "end": 725.75
+      },
+      {
+        "secZh": "第六幕 · 多年后，两扇门都开了",
+        "secEn": "Act Six · Years Later, Two Doors Both Opened",
+        "speaker": "",
+        "zh": "少年后来离开上海，去了香港，又登上一艘开往美国的船。",
+        "en": "The boy left Shanghai for Hong Kong, and from there boarded a ship for America.",
+        "start": 725.75,
+        "end": 731.46
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "",
         "zh": "他成了工程师，成了经理人，最后，在年过半百之后，回到台湾，创办了一家世界上从来没有人办过的公司。",
-        "en": "The boy left Shanghai for Hong Kong, and from there boarded a ship for America.",
-        "start": 725.98,
-        "end": 734.71
+        "en": "He became an engineer, then a manager, and finally — past fifty — he returned to Taiwan and founded a company the world had never seen before.",
+        "start": 731.46,
+        "end": 741.76
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "",
         "zh": "很多年后，少年已经成了老人，执掌着全球最大的半导体公司。",
-        "en": "He became an engineer, then a manager, and finally — past fifty — he returned to Taiwan and founded a company the world had never seen before.",
-        "start": 734.71,
-        "end": 740.85
+        "en": "Years later, the boy was an old man, running the largest semiconductor company on earth.",
+        "start": 741.76,
+        "end": 747.87
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "",
         "zh": "有一天，他为公司写经营理念，苦思了好几天，写了十条，自以为是几十年的心血结晶。可当他偶然再看到南开的校训——「允公允能，日新月异」八个字时，猛然愣住了。",
-        "en": "Years later, the boy was an old man, running the largest semiconductor company on earth.",
-        "start": 740.85,
-        "end": 754.68
+        "en": "One day, drafting the company's operating philosophy, he struggled for days and produced ten principles, proud of what he thought was a lifetime's distilled wisdom. Then he happened to see, again, the eight characters of the Nankai motto — \"Yun Gong Yun Neng, Ri Xin Yue Yi\": be public-spirited, be capable; renew yourself every day.",
+        "start": 747.87,
+        "end": 764.22
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "",
         "zh": "他那十条引以为傲的经营理念，说到底，竟没有超出这八个字。",
-        "en": "One day, drafting the company's operating philosophy, he struggled for days and produced ten principles, proud of what he thought was a lifetime's distilled wisdom. Then he happened to see, again, the eight characters of the Nankai motto — \"Yun Gong Yun Neng, Ri Xin Yue Yi\": be public-spirited, be capable; renew yourself every day.",
-        "start": 754.68,
-        "end": 767.18
+        "en": "He was stunned.",
+        "start": 764.22,
+        "end": 770.33
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "He was stunned.",
-        "start": 767.18,
-        "end": 768.27
-      },
-      {
-        "secZh": "第六幕 · 多年后，两扇门都开了",
-        "secEn": "Act Six · Years Later, Two Doors Both Opened",
-        "speaker": "",
-        "zh": "而那个被按下去的作家梦呢？",
         "en": "His ten proud principles, in the end, had not gone beyond those eight characters.",
-        "start": 768.27,
-        "end": 771.46
+        "start": 770.33,
+        "end": 772.47
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "Main narrator",
-        "zh": "老人后来写道，他少年时的作家梦，只成了回忆。他问自己：我还能写长篇中文吗？",
+        "zh": "而那个被按下去的作家梦呢？",
         "en": "[Main narrator]",
-        "start": 771.46,
-        "end": 778.19
+        "start": 772.47,
+        "end": 775.46
+      },
+      {
+        "secZh": "第六幕 · 多年后，两扇门都开了",
+        "secEn": "Act Six · Years Later, Two Doors Both Opened",
+        "speaker": "",
+        "zh": "老人后来写道，他少年时的作家梦，只成了回忆。他问自己：我还能写长篇中文吗？",
+        "en": "And the dream that had been pressed down?",
+        "start": 775.46,
+        "end": 783.99
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "",
         "zh": "然后，他用了两年，几百个小时，一个字一个字地，写出了几十万字的自传。",
-        "en": "And the dream that had been pressed down?",
-        "start": 778.19,
-        "end": 784.37
+        "en": "The old man wrote later that his boyhood dream of being a writer had become only a memory. He asked himself: can I still write long-form Chinese?",
+        "start": 783.99,
+        "end": 791.45
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "",
         "zh": "——那个在饭桌上被按下去的梦，在他年过花甲的时候，自己醒了过来。",
-        "en": "The old man wrote later that his boyhood dream of being a writer had become only a memory. He asked himself: can I still write long-form Chinese?",
-        "start": 784.37,
-        "end": 790.51
+        "en": "And then he spent two years, and hundreds of hours, writing — word by word — an autobiography of several hundred thousand characters.",
+        "start": 791.45,
+        "end": 798.77
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "And then he spent two years, and hundreds of hours, writing — word by word — an autobiography of several hundred thousand characters.",
-        "start": 790.51,
-        "end": 795.74
-      },
-      {
-        "secZh": "第六幕 · 多年后，两扇门都开了",
-        "secEn": "Act Six · Years Later, Two Doors Both Opened",
-        "speaker": "",
-        "zh": "还有一件事。",
         "en": "The dream that had been pressed down at the dinner table woke up on its own, after he passed sixty.",
-        "start": 795.74,
-        "end": 800.29
+        "start": 798.77,
+        "end": 801.3
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "Main narrator, with feeling",
-        "zh": "几十年后，他在台湾中部的一个小城，偶然路过一家旧书店，竟然在书架上，看见了一本《风萧萧》。",
+        "zh": "还有一件事。",
         "en": "[Main narrator, with feeling]",
-        "start": 800.29,
-        "end": 808.48
+        "start": 801.3,
+        "end": 802.92
+      },
+      {
+        "secZh": "第六幕 · 多年后，两扇门都开了",
+        "secEn": "Act Six · Years Later, Two Doors Both Opened",
+        "speaker": "",
+        "zh": "几十年后，他在台湾中部的一个小城，偶然路过一家旧书店，竟然在书架上，看见了一本《风萧萧》。",
+        "en": "One more thing.",
+        "start": 802.92,
+        "end": 812.14
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "",
         "zh": "他立刻买了下来，带回旅舍，连夜翻阅，重温少年时读这本书的滋味。",
-        "en": "One more thing.",
-        "start": 808.48,
-        "end": 814.12
+        "en": "Decades later, in a small town in central Taiwan, he happened to pass a secondhand bookstore — and there on the shelf, he saw a copy of \"Wind and Rain.\"",
+        "start": 812.14,
+        "end": 818.93
       },
       {
         "secZh": "第六幕 · 多年后，两扇门都开了",
         "secEn": "Act Six · Years Later, Two Doors Both Opened",
         "speaker": "",
         "zh": "徐訏早已去世。他死后，声名渐渐衰落。老人至今仍然觉得：他应该是更受重视的现代作家。",
-        "en": "Decades later, in a small town in central Taiwan, he happened to pass a secondhand bookstore — and there on the shelf, he saw a copy of \"Wind and Rain.\"",
-        "start": 814.12,
-        "end": 821.58
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Act Six · Years Later, Two Doors Both Opened",
-        "speaker": "主叙述者 · 安静，放慢",
-        "zh": "【主叙述者 · 安静，放慢】",
         "en": "He bought it at once, carried it back to his hotel, and stayed up the night rereading it, savoring the taste of his boyhood.",
-        "start": 821.58,
-        "end": 827.03
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Act Six · Years Later, Two Doors Both Opened",
-        "speaker": "",
-        "zh": "让我们回到那两句话。",
-        "en": "Xu Xu had long since died. His reputation had faded after his death. The old man still believed, to this day, that Xu Xu should be remembered as a far greater writer than he was.",
-        "start": 827.03,
-        "end": 834.99
+        "start": 818.93,
+        "end": 828.6
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "Main narrator, quiet, slower",
-        "zh": "「考不进去的。」——官太太的世界观里，门，要靠关系打开。",
+        "speaker": "主叙述者 · 安静，放慢",
+        "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 834.99,
-        "end": 840.09
+        "start": 828.6,
+        "end": 831.8
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "让我们回到那两句话。",
+        "en": "Let us go back to those two sentences.",
+        "start": 831.8,
+        "end": 834.2
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "「考不进去的。」——官太太的世界观里，门，要靠关系打开。",
+        "en": "\"Won't get in.\" — In the official's wife's world, doors open with connections.",
+        "start": 834.2,
+        "end": 840.79
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "「会饿肚子。」——父亲的世界观里，路，要选稳当的走。",
-        "en": "Let us go back to those two sentences.",
-        "start": 840.09,
-        "end": 844.82
+        "en": "\"May go hungry.\" — In the father's world, you choose the safe road.",
+        "start": 840.79,
+        "end": 846.99
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "而少年用一生回答了这两句话：",
-        "en": "\"Won't get in.\" — In the official's wife's world, doors open with connections.",
-        "start": 844.82,
-        "end": 847.77
+        "en": "The boy answered both with his life.",
+        "start": 846.99,
+        "end": 849.95
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "官太太说错了一半。门，是可以靠本事打开的——他在暑期班里，用成绩推开了南开那扇门。几十年后，他又用实力，推开了一扇全世界都没有人见过的门。",
-        "en": "\"May go hungry.\" — In the father's world, you choose the safe road.",
-        "start": 847.77,
-        "end": 860.32
+        "en": "The lady was half wrong. Doors can be opened with ability — he pushed open the door of Nankai with his grades in that summer school. Decades later, he pushed open a door no one in the world had ever seen, with the same strength.",
+        "start": 849.95,
+        "end": 865.59
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "父亲说对了，也说错了。写作确实不易谋生——少年没有成为作家。但那个被按下去的梦，从未真正熄灭：它化作了日后他演讲里的文采，化作了自传里的深情，化作了一个老人对中文、对文学的终生眷恋。",
-        "en": "The boy answered both with his life.",
-        "start": 860.32,
-        "end": 876.88
+        "en": "The father was right, and wrong. Writing indeed could not feed a family — the boy never became a writer. But the dream never really went out: it became the eloquence of his speeches, the depth of his autobiography, an old man's lifelong devotion to Chinese letters.",
+        "start": 865.59,
+        "end": 885.85
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "The lady was half wrong. Doors can be opened with ability — he pushed open the door of Nankai with his grades in that summer school. Decades later, he pushed open a door no one in the world had ever seen, with the same strength.",
-        "start": 876.88,
-        "end": 887.11
+        "en": "[Main narrator, with feeling]",
+        "start": 885.85,
+        "end": 888.37
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "他创办台积电时，为这家公司立下的核心价值，是四个词：诚信正直、承诺、创新、客户信任。外界把它简称为「ICIC」。",
-        "en": "The father was right, and wrong. Writing indeed could not feed a family — the boy never became a writer. But the dream never really went out: it became the eloquence of his speeches, the depth of his autobiography, an old man's lifelong devotion to Chinese letters.",
-        "start": 887.11,
-        "end": 897.8
+        "en": "When he founded TSMC, he gave the company four core values: Integrity, Commitment, Innovation, and Customer Trust — known, in short, as \"ICIC.\"",
+        "start": 888.37,
+        "end": 900.5
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "「允公允能」的「公」，是诚信，是责任，是对客户与社会的承诺。「日新月异」的「新」，是创新，是永不停步。",
-        "en": "[Main narrator, with feeling]",
-        "start": 897.8,
-        "end": 907.08
+        "en": "The \"Gong\" of Nankai — public-spiritedness — became integrity, responsibility, a promise to customers and society. The \"Xin\" — renewal — became innovation, never standing still.",
+        "start": 900.5,
+        "end": 910.26
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "一个逃难少年在南开宿舍里用酱油拌饭学会的东西，最后长成了一家改变世界的公司。",
-        "en": "When he founded TSMC, he gave the company four core values: Integrity, Commitment, Innovation, and Customer Trust — known, in short, as \"ICIC.\"",
-        "start": 907.08,
-        "end": 913.99
+        "en": "What a refugee boy learned in a Nankai dormitory, eating rice with soy sauce, grew at last into a company that changed the world.",
+        "start": 910.26,
+        "end": 918.24
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "这就是这个少年的成人礼：",
-        "en": "The \"Gong\" of Nankai — public-spiritedness — became integrity, responsibility, a promise to customers and society. The \"Xin\" — renewal — became innovation, never standing still.",
-        "start": 913.99,
-        "end": 919.9
+        "en": "This was the boy's coming-of-age:",
+        "start": 918.24,
+        "end": 920.81
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "**关系可以给你一张门票，但只有实力，能让你一直坐在场上；而那个被按下去的梦，教会你如何记得自己是谁。**",
-        "en": "What a refugee boy learned in a Nankai dormitory, eating rice with soy sauce, grew at last into a company that changed the world.",
-        "start": 919.9,
-        "end": 929.54
+        "en": "**Connections may hand you a ticket, but only ability keeps you in your seat. And the dream that was pressed down — it is what teaches you to remember who you are.**",
+        "start": 920.81,
+        "end": 931.21
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Epilogue · A Parallel View",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
-        "en": "This was the boy's coming-of-age:",
-        "start": 929.54,
-        "end": 933.18
+        "en": "(Verified public facts, for the listener's reference)",
+        "start": 931.21,
+        "end": 936.18
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Epilogue · A Parallel View",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "1. **重庆南开中学**：1936 年由张伯苓创办于重庆沙坪坝，是南开系列学校之一。抗战期间，沙坪坝一带学校云集，成为著名的战时「文化区」。",
-        "en": "**Connections may hand you a ticket, but only ability keeps you in your seat. And the dream that was pressed down — it is what teaches you to remember who you are.**",
-        "start": 933.18,
-        "end": 946.1
+        "en": "1. **Nankai Middle School, Chongqing**: Founded in 1936 by Zhang Boling at Shapingba, part of the Nankai school system. During the war, Shapingba became a famous \"cultural zone\" of schools.",
+        "start": 936.18,
+        "end": 950.34
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "2. **张伯苓（1876–1951）**：南开系列学校创办人。抗战期间，南开大学与北大、清华在昆明合组西南联大；张伯苓在重庆续办南开中学。校训「允公允能，日新月异」。",
-        "en": "(Verified public facts, for the listener's reference)",
-        "start": 946.1,
-        "end": 961.38
+        "en": "2. **Zhang Boling (1876–1951)**: Founder of the Nankai schools. During the war, Nankai University joined Peking University and Tsinghua in Kunming to form the National Southwestern Associated University. Nankai's motto: \"Yun Gong Yun Neng, Ri Xin Yue Yi.\"",
+        "start": 950.34,
+        "end": 967.18
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "3. **南洋模范中学**：上海名校，历史可溯至 1901 年，与南洋公学、交通大学渊源深厚，以数理见长。张忠谋 1948 年于此高二插班就读。",
-        "en": "1. **Nankai Middle School, Chongqing**: Founded in 1936 by Zhang Boling at Shapingba, part of the Nankai school system. During the war, Shapingba became a famous \"cultural zone\" of schools.",
-        "start": 961.38,
-        "end": 974.48
+        "en": "3. **Nanyang Model High School**: A prestigious Shanghai school tracing its roots to 1901, closely linked to Nanyang Public School and Jiaotong University, renowned for mathematics and science.",
+        "start": 967.18,
+        "end": 981.43
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "4. **徐訏（1908–1980）**：中国现代作家，长篇小说《风萧萧》1943 年出版，是抗战时期最畅销的小说之一，以「轻轻的忧郁、淡淡的哀愁」的情调著称。",
-        "en": "2. **Zhang Boling (1876–1951)**: Founder of the Nankai schools. During the war, Nankai University joined Peking University and Tsinghua in Kunming to form the National Southwestern Associated University. Nankai's motto: \"Yun Gong Yun Neng, Ri Xin Yue Yi.\"",
-        "start": 974.48,
-        "end": 989.03
+        "en": "4. **Xu Xu (1908–1980)**: Modern Chinese writer; his novel \"Wind and Rain\" (Feng Xiao Xiao), published in 1943, was one of the best-selling novels of the war years, famed for its \"light melancholy, faint sorrow.\"",
+        "start": 981.43,
+        "end": 996.02
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "5. **1948 年金圆券改革**：1948 年 8 月，国民政府以金圆券取代法币，强制收兑民间黄金、外币；因缺乏储备与超发，数月内急剧贬值，城市中产阶级积蓄一空，成为民国末期经济崩溃的核心转折点。",
-        "en": "3. **Nanyang Model High School**: A prestigious Shanghai school tracing its roots to 1901, closely linked to Nanyang Public School and Jiaotong University, renowned for mathematics and science.",
-        "start": 989.03,
-        "end": 1007.22
+        "en": "5. **The 1948 Gold Yuan Reform**: In August 1948 the Nationalist government replaced the fabi currency with gold yuan notes and forced the conversion of private gold and foreign currency. With no reserves behind it and massive overprinting, the currency collapsed within months, wiping out the savings of the urban middle class — a turning point in the era's economic collapse.",
+        "start": 996.02,
+        "end": 1015.58
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "6. **徐蚌会战（淮海战役）**：1948 年 11 月 6 日至 1949 年 1 月 10 日，国共内战决定性战役之一，战线横跨徐州、蚌埠一带。",
-        "en": "4. **Xu Xu (1908–1980)**: Modern Chinese writer; his novel \"Wind and Rain\" (Feng Xiao Xiao), published in 1943, was one of the best-selling novels of the war years, famed for its \"light melancholy, faint sorrow.\"",
-        "start": 1007.22,
-        "end": 1020.86
+        "en": "6. **The Huaihai Campaign**: November 6, 1948 – January 10, 1949, one of the decisive battles of the Chinese Civil War, fought across the Xuzhou–Bengbu region.",
+        "start": 1015.58,
+        "end": 1028.12
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "7. **台积电核心价值 ICIC**：诚信正直（Integrity）、承诺（Commitment）、创新（Innovation）、客户信任（Customer Trust）。据公开报道，这是张忠谋为台积电确立的核心价值观。",
-        "en": "5. **The 1948 Gold Yuan Reform**: In August 1948 the Nationalist government replaced the fabi currency with gold yuan notes and forced the conversion of private gold and foreign currency. With no reserves behind it and massive overprinting, the currency collapsed within months, wiping out the savings of the urban middle class — a turning point in the era's economic collapse.",
-        "start": 1020.86,
-        "end": 1041.06
-      },
-      {
-        "secZh": "下集预告",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "6. **The Huaihai Campaign**: November 6, 1948 – January 10, 1949, one of the decisive battles of the Chinese Civil War, fought across the Xuzhou–Bengbu region.",
-        "start": 1041.06,
-        "end": 1046.97
-      },
-      {
-        "secZh": "下集预告",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
-        "speaker": "",
-        "zh": "1948 年底，少年随父母离开上海，迁往香港。第二年，他登上了一艘开往美国的船。",
         "en": "7. **TSMC Core Values (ICIC)**: Integrity, Commitment, Innovation, Customer Trust — the values Morris Chang established for TSMC, per public reporting.",
-        "start": 1046.97,
-        "end": 1054.25
+        "start": 1028.12,
+        "end": 1048.84
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
-        "speaker": "Main narrator",
-        "zh": "从黄浦江到查尔斯河——一个十八岁的少年，即将走进一个完全不同的文明。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1054.25,
-        "end": 1060.43
+        "start": 1048.84,
+        "end": 1050.98
+      },
+      {
+        "secZh": "下集预告",
+        "secEn": "Next Episode Preview",
+        "speaker": "",
+        "zh": "1948 年底，少年随父母离开上海，迁往香港。第二年，他登上了一艘开往美国的船。",
+        "en": "At the end of 1948, the boy left Shanghai with his family for Hong Kong. The following year, he boarded a ship for America.",
+        "start": 1050.98,
+        "end": 1059.77
+      },
+      {
+        "secZh": "下集预告",
+        "secEn": "Next Episode Preview",
+        "speaker": "",
+        "zh": "从黄浦江到查尔斯河——一个十八岁的少年，即将走进一个完全不同的文明。",
+        "en": "From the Huangpu River to the Charles — an eighteen-year-old about to enter a completely different civilization.",
+        "start": 1059.77,
+        "end": 1067.4
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "他以为这只是又一次搬家，像逃难时那样。他不知道，这一次，他再也没能回来生活。",
-        "en": "At the end of 1948, the boy left Shanghai with his family for Hong Kong. The following year, he boarded a ship for America.",
-        "start": 1060.43,
-        "end": 1067.34
+        "en": "He thought it was just another move, like the refugee years. He did not know that this time, he would never come back to live.",
+        "start": 1067.4,
+        "end": 1076.0
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "下集，《从黄浦江到查尔斯河》：离开，是他这一生最重要的一次出发。",
-        "en": "From the Huangpu River to the Charles — an eighteen-year-old about to enter a completely different civilization.",
-        "start": 1067.34,
-        "end": 1073.17
-      },
-      {
-        "secZh": "Next Episode Preview",
-        "secEn": "Next Episode Preview",
-        "speaker": "",
-        "zh": "",
-        "en": "He thought it was just another move, like the refugee years. He did not know that this time, he would never come back to live.",
-        "start": 1073.17,
-        "end": 1078.85
-      },
-      {
-        "secZh": "Next Episode Preview",
-        "secEn": "Next Episode Preview",
-        "speaker": "",
-        "zh": "",
         "en": "Next episode, \"From the Huangpu to the Charles\": Leaving was the most important departure of his life.",
-        "start": 1078.85,
+        "start": 1076.0,
         "end": 1082.72
       }
     ]
@@ -3030,8 +3012,8 @@ window.AUDIO_DATA = [
     "summary": "从黄浦江到查尔斯河 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第03期-从黄浦江到查尔斯河/中文音频.mp3",
     "audioEn": "./03-剧集/第03期-从黄浦江到查尔斯河/英文音频.mp3",
-    "durationZh": 1234.1,
-    "durationEn": 1296.73,
+    "durationZh": 1234.104,
+    "durationEn": 1296.732,
     "cues": [
       {
         "secZh": "开场",
@@ -3040,7 +3022,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：海浪声、轮船汽笛声，渐渐压低】",
         "en": "[SFX: the sound of waves, a ship's horn, fading to a hush]",
         "start": 0.0,
-        "end": 3.52
+        "end": 4.99
       },
       {
         "secZh": "开场",
@@ -3048,8 +3030,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1949 年的夏天，上海黄浦江边。",
         "en": "Shanghai, summer 1949. The Bund, on the Huangpu River.",
-        "start": 3.52,
-        "end": 6.66
+        "start": 4.99,
+        "end": 8.59
       },
       {
         "secZh": "开场",
@@ -3057,8 +3039,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个十八岁的少年，站在码头的人群里。身边是父母，身后是这座他出生、长大、又两次逃难离开的城市。",
         "en": "An eighteen-year-old boy stands in the crowd on the dock. His parents are beside him; behind him lies the city where he was born, where he grew up, and which he has already fled twice.",
-        "start": 6.66,
-        "end": 15.37
+        "start": 8.59,
+        "end": 18.86
       },
       {
         "secZh": "开场",
@@ -3066,8 +3048,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他要走了。去美国，去读大学。",
         "en": "He is leaving. For America. For college.",
-        "start": 15.37,
-        "end": 17.96
+        "start": 18.86,
+        "end": 22.51
       },
       {
         "secZh": "开场",
@@ -3075,8 +3057,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这一走，是他人生里第无数次搬家——逃过难的孩子，早已习惯了告别。五岁那年从广州搬到香港，十一岁那年穿过战线去重庆，十七岁那年又从上海逃回香港。每一次离开，都意味着动荡、意味着不确定。",
         "en": "This departure was, by his count, the latest in a long line of moves — a boy who had fled war had long since learned how to say goodbye. At five, he moved from Canton to Hong Kong. At eleven, he crossed the front lines to Chongqing. At seventeen, he fled Shanghai back to Hong Kong. Every departure meant upheaval, meant uncertainty.",
-        "start": 17.96,
-        "end": 34.8
+        "start": 22.51,
+        "end": 42.28
       },
       {
         "secZh": "开场",
@@ -3084,8 +3066,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "所以这一次，他也没有多想。",
         "en": "So this time, he did not think too hard about it.",
-        "start": 34.8,
-        "end": 37.35
+        "start": 42.28,
+        "end": 45.31
       },
       {
         "secZh": "开场",
@@ -3093,8 +3075,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他只是觉得，这大概又是一次暂时的离开——像前几次一样。过两年，等时局安定了，他就回来。",
         "en": "He simply assumed this was another temporary leave — like all the others. In a year or two, when things settled down, he would come home.",
-        "start": 37.35,
-        "end": 45.31
+        "start": 45.31,
+        "end": 55.14
       },
       {
         "secZh": "开场",
@@ -3102,8 +3084,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 45.31,
-        "end": 46.42
+        "start": 55.14,
+        "end": 57.24
       },
       {
         "secZh": "开场",
@@ -3111,8 +3093,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他不知道。",
         "en": "He did not know.",
-        "start": 46.42,
-        "end": 47.35
+        "start": 57.24,
+        "end": 58.64
       },
       {
         "secZh": "开场",
@@ -3120,8 +3102,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他不知道，这一走，他和那个时代成千上万的知识分子一样，把「暂时」当成了归期，却走出了一条不归路。",
         "en": "He did not know that he, like tens of thousands of intellectuals of his generation, was treating \"temporary\" as a return date — and walking a road with no return.",
-        "start": 47.35,
-        "end": 56.23
+        "start": 58.64,
+        "end": 68.28
       },
       {
         "secZh": "开场",
@@ -3129,8 +3111,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "码头上，母亲大概又说了那句老话：到了那边，写信回来。父亲没说什么，只是帮他把行李往舷梯上递。",
         "en": "On the dock, his mother probably said the old words once more: write to us when you get there. His father said little, only helped hand his luggage up the gangway.",
-        "start": 56.23,
-        "end": 64.75
+        "start": 68.28,
+        "end": 78.48
       },
       {
         "secZh": "开场",
@@ -3138,8 +3120,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "少年挥了挥手。",
         "en": "The boy waved.",
-        "start": 64.75,
-        "end": 66.04
+        "start": 78.48,
+        "end": 80.26
       },
       {
         "secZh": "开场",
@@ -3147,8 +3129,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他后来回忆，那是他人生里，最后一次真正意义上的「搬家式告别」——之后所有的离开，都带着不归的性质，只是当时的他还不知道。",
         "en": "Years later, he would recall that this was the last true \"moving-house goodbye\" of his life — every departure after it carried a quality of permanence, though he did not know it at the time.",
-        "start": 66.04,
-        "end": 77.15
+        "start": 80.26,
+        "end": 92.64
       },
       {
         "secZh": "开场",
@@ -3156,8 +3138,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "今天这一期，我们就从这次告别讲起：一个十八岁的少年，如何离开黄浦江，抵达查尔斯河畔的哈佛；又如何在一年的光阴里，做出一个改变一生的选择。",
         "en": "This episode begins with that farewell: how an eighteen-year-old left the Huangpu River, arrived at Harvard on the banks of the Charles, and, in the space of a single year, made a choice that changed everything.",
-        "start": 77.15,
-        "end": 89.74
+        "start": 92.64,
+        "end": 106.82
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3165,8 +3147,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 89.74,
-        "end": 90.85
+        "start": 106.82,
+        "end": 108.92
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3174,8 +3156,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们把时间倒回一年前。",
         "en": "Let us rewind a year.",
-        "start": 90.85,
-        "end": 93.07
+        "start": 108.92,
+        "end": 111.66
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3183,8 +3165,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1948 年底，淮海战役的炮声逼近上海。那场被史书称为徐蚌会战的战役，是内战决定性的一战。上海人心惶惶，少年全家，第三次踏上了逃难的路——这次的目的地，是香港。",
         "en": "In late 1948, the thunder of the Huaihai Campaign — one of the decisive battles of the civil war — rolled toward Shanghai. Panic gripped the city. For the third time, the boy's family took to the road. Their destination: Hong Kong.",
-        "start": 93.07,
-        "end": 107.88
+        "start": 111.66,
+        "end": 129.04
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3192,8 +3174,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "又是香港。五岁逃难，第一站是香港；如今十七岁，逃难的最后一站，还是香港。",
         "en": "Hong Kong again. At five, fleeing war, his first stop had been Hong Kong. Now, at seventeen, the last stop of his flight was Hong Kong once more.",
-        "start": 107.88,
-        "end": 114.55
+        "start": 129.04,
+        "end": 137.19
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3201,8 +3183,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 114.55,
-        "end": 116.58
+        "start": 137.19,
+        "end": 139.67
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3210,8 +3192,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1949 年 1 月，父亲辗转抵达香港，全家团聚。",
         "en": "In January 1949, his father finally made it to Hong Kong, and the family was reunited.",
-        "start": 116.58,
-        "end": 121.21
+        "start": 139.67,
+        "end": 144.52
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3219,8 +3201,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "接下来的七个月，是这个家庭在香港度过的、相对平静的一段时光。战后的香港正在膨胀——成千上万的难民从大陆涌来，把这座小岛挤得满满当当。少年一边在私人书院补习功课，一边做一件当时许多人都在做的事——办护照，办签证，申请美国的大学。",
         "en": "The next seven months were a comparatively calm stretch for the family. Postwar Hong Kong was swelling — tens of thousands of refugees were pouring in from the mainland, packing the little island to bursting. The boy studied at a private academy by day, and did what countless families were doing: applied for passports, applied for visas, applied to American universities. Every line at the consulate told the same story: a city of people buying one-way tickets out of history.",
-        "start": 121.21,
-        "end": 142.13
+        "start": 144.52,
+        "end": 168.96
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3228,8 +3210,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "为什么要去美国？",
         "en": "Why America?",
-        "start": 142.13,
-        "end": 143.61
+        "start": 168.96,
+        "end": 170.93
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3237,8 +3219,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "原因很现实。战局已经明朗，大陆的学府在动荡中，香港的大学寥寥无几。而美国，是当时无数中国家庭眼里的避难所、也是新大陆。",
         "en": "The reason was brutally practical. The war situation was clear; the universities on the mainland were in turmoil, and Hong Kong had almost none. America, to countless Chinese families, was both a refuge and a new world.",
-        "start": 143.61,
-        "end": 154.53
+        "start": 170.93,
+        "end": 183.94
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3246,8 +3228,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "申请哪一所呢？少年自己没有主意。这时候，一个人的建议起了决定性作用——他的三叔，张思侯。",
         "en": "Which school, then? The boy had no idea. That was when one man's advice proved decisive — his uncle, Zhang Sihou.",
-        "start": 154.53,
-        "end": 162.68
+        "start": 183.94,
+        "end": 194.32
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3255,8 +3237,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 162.68,
-        "end": 163.79
+        "start": 194.32,
+        "end": 196.41
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3264,8 +3246,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这位三叔，是少年父亲那一辈里最有学问的人。",
         "en": "This uncle was the most learned man of his father's generation.",
-        "start": 163.79,
-        "end": 167.68
+        "start": 196.41,
+        "end": 200.98
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3273,8 +3255,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他是哈佛电子工程的博士，在波士顿的东北大学做教授。几十年后回头看，这位三叔，几乎是以一己之力，为侄子规划了通往美国的路径。",
         "en": "He held a doctorate in electrical engineering from Harvard, and taught as a professor at Northeastern University in Boston. Looking back decades later, this uncle almost single-handedly mapped the boy's route to America.",
-        "start": 167.68,
-        "end": 178.97
+        "start": 200.98,
+        "end": 213.94
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3282,8 +3264,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "三叔的建议，出人意料——他没有推荐少年去读工程，去读自己擅长的理工科；他推荐了哈佛，而且是哈佛的本科一年级。",
         "en": "And his advice was unexpected. He did not steer the boy toward engineering, toward his own field. He recommended Harvard — Harvard's undergraduate program, first year.",
-        "start": 178.97,
-        "end": 188.97
+        "start": 213.94,
+        "end": 225.55
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3291,8 +3273,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "理由呢？",
         "en": "Why?",
-        "start": 188.97,
-        "end": 189.71
+        "start": 225.55,
+        "end": 226.76
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3300,8 +3282,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 对话",
         "zh": "【主叙述者 · 对话】",
         "en": "[Main narrator, dialogue]",
-        "start": 189.71,
-        "end": 191.74
+        "start": 226.76,
+        "end": 229.24
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3309,8 +3291,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "很多年后，三叔的想法才被后人知晓。他说，MIT 是一所特殊的学校，而他这个侄子，还是个没定性的孩子——",
         "en": "It took many years for the uncle's reasoning to become known. He said that MIT was a special school, and that his nephew was still an unsettled kid —",
-        "start": 191.74,
-        "end": 201.18
+        "start": 229.24,
+        "end": 240.08
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3318,8 +3300,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「先花一年，弄清楚自己想做什么。」",
         "en": "\"Spend one year figuring out what you want to do.\"",
-        "start": 201.18,
-        "end": 204.33
+        "start": 240.08,
+        "end": 243.49
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3327,8 +3309,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 204.33,
-        "end": 205.44
+        "start": 243.49,
+        "end": 245.58
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3336,8 +3318,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这句话，是那个时代少有的耐心。",
         "en": "That sentence was a rare kind of patience for the era.",
-        "start": 205.44,
-        "end": 208.22
+        "start": 245.58,
+        "end": 248.99
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3345,8 +3327,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1949 年 7 月，一切就绪。少年在香港启德机场，登上了泛美航空飞往旧金山的班机。",
         "en": "In July 1949, everything was ready. At Kai Tak Airport in Hong Kong, the boy boarded a Pan American flight bound for San Francisco.",
-        "start": 208.22,
-        "end": 215.99
+        "start": 248.99,
+        "end": 257.54
       },
       {
         "secZh": "第一幕 · 香港的七个月",
@@ -3354,8 +3336,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那是他人生的分界点。",
         "en": "It was the dividing line of his life.",
-        "start": 215.99,
-        "end": 217.84
+        "start": 257.54,
+        "end": 259.9
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3363,8 +3345,8 @@ window.AUDIO_DATA = [
         "speaker": "音效：飞机引擎声，由近渐远，转为安静",
         "zh": "【音效：飞机引擎声，由近渐远，转为安静】",
         "en": "[SFX: aircraft engines, rising then fading into quiet]",
-        "start": 217.84,
-        "end": 221.55
+        "start": 259.9,
+        "end": 265.08
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3372,8 +3354,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 221.55,
-        "end": 222.66
+        "start": 265.08,
+        "end": 267.18
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3381,8 +3363,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从香港到旧金山，横跨整个太平洋。",
         "en": "From Hong Kong to San Francisco, across the entire Pacific Ocean.",
-        "start": 222.66,
-        "end": 225.62
+        "start": 267.18,
+        "end": 270.78
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3390,8 +3372,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "今天的我们，很难想象 1949 年的越洋飞行意味着什么。那是螺旋桨客机的年代，没有喷气式，没有直飞，飞机要在中途的岛屿停靠加油，飞上几十个小时，才能横渡大洋。",
         "en": "Today, it is hard to imagine what transpacific flight meant in 1949. These were the years of propeller airliners — no jets, no nonstop routes. Planes stopped at island outposts to refuel, flying for dozens of hours to cross the ocean.",
-        "start": 225.62,
-        "end": 240.24
+        "start": 270.78,
+        "end": 287.0
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3399,8 +3381,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个十八岁的少年，第一次坐飞机，第一次离开亚洲，第一次踏上他只在书本里读过的土地。",
         "en": "An eighteen-year-old boy, on his first flight, leaving Asia for the first time, heading for a country he had only read about.",
-        "start": 240.24,
-        "end": 247.83
+        "start": 287.0,
+        "end": 295.6
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3408,8 +3390,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 247.83,
-        "end": 249.87
+        "start": 295.6,
+        "end": 298.08
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3417,8 +3399,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "飞机在旧金山落地时，他大概不会想到——",
         "en": "When the plane touched down in San Francisco, he could hardly have imagined —",
-        "start": 249.87,
-        "end": 253.39
+        "start": 298.08,
+        "end": 302.25
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3426,8 +3408,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这座城市，四年后会成为他和一个女孩共度余生的起点；而这个国家，会成为他此后一生的舞台。",
         "en": "that this city would become, four years later, the starting point of a life shared with a young woman; that this country would become the stage of his entire career.",
-        "start": 253.39,
-        "end": 261.35
+        "start": 302.25,
+        "end": 311.23
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3435,8 +3417,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他只是跟着人流，办理入境，转乘横贯大陆的列车，一路向东。",
         "en": "He simply followed the crowd, cleared immigration, and boarded a cross-continental train heading east.",
-        "start": 261.35,
-        "end": 266.53
+        "start": 311.23,
+        "end": 317.31
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3444,8 +3426,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "车窗外的美国，和书里读到的很像，又很不一样：辽阔的中西部平原，烟囱林立的工业城市，高速公路上奔跑的汽车——一个战后正以惊人速度繁荣起来的国家。",
         "en": "Out the window, America looked both familiar and strange: vast midwestern plains, industrial cities bristling with smokestacks, cars streaming along the new highways — a nation booming at a speed that startled the world. He watched the landscape roll past for days, and filed it all away, wordless.",
-        "start": 266.53,
-        "end": 279.68
+        "start": 317.31,
+        "end": 332.41
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3453,8 +3435,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "目的地：马萨诸塞州，剑桥镇，查尔斯河畔。",
         "en": "Destination: Cambridge, Massachusetts. The banks of the Charles River.",
-        "start": 279.68,
-        "end": 283.38
+        "start": 332.41,
+        "end": 337.08
       },
       {
         "secZh": "第二幕 · 太平洋上空",
@@ -3462,8 +3444,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "哈佛。",
         "en": "Harvard.",
-        "start": 283.38,
-        "end": 283.96
+        "start": 337.08,
+        "end": 338.09
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3471,8 +3453,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 283.96,
-        "end": 285.07
+        "start": 338.09,
+        "end": 340.19
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3480,8 +3462,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1949 年秋天，少年在哈佛报到，成为一年级新生。",
         "en": "In the fall of 1949, the boy reported to Harvard as a freshman.",
-        "start": 285.07,
-        "end": 289.7
+        "start": 340.19,
+        "end": 345.42
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3489,8 +3471,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "哈佛给他上的第一课，不是课业，是生活。",
         "en": "Harvard's first lesson was not academic. It was life.",
-        "start": 289.7,
-        "end": 293.21
+        "start": 345.42,
+        "end": 349.69
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3498,8 +3480,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "宿舍在哈佛园里，是三层的老楼，浴室在地下室。室友是个美国学生，叫辛克莱。晚餐在食堂里吃，秩序井然——同桌吃饭，还要穿西装、打领带。",
         "en": "His dormitory stood in Harvard Yard, an old three-story building with the bathrooms in the basement. His roommate was an American student named Sinclair. Meals were served in the dining halls, in orderly fashion — and at dinner, you wore a jacket and tie.",
-        "start": 293.21,
-        "end": 305.25
+        "start": 349.69,
+        "end": 364.46
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3507,8 +3489,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 305.25,
-        "end": 307.28
+        "start": 364.46,
+        "end": 366.94
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3516,8 +3498,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而真正让他震撼的，是这里的同龄人。",
         "en": "What truly stunned him were the people his own age.",
-        "start": 307.28,
-        "end": 310.43
+        "start": 366.94,
+        "end": 370.73
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3525,8 +3507,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在他逃难的少年时代，身边的同学各有各的苦——战乱、迁徙、失学。可哈佛的学生不一样。他的室友们，有人练钢琴、有人学建筑、有人研究政治学，还有人讨论「共产主义中国会走向何方」。",
         "en": "In his refugee boyhood, his classmates had all carried their own burdens — war, displacement, lost schooling. Harvard's students were different. His dorm-mates included a pianist, an architecture student, a political science major — one who loved to debate where Communist China was heading.",
-        "start": 310.43,
-        "end": 326.35
+        "start": 370.73,
+        "end": 389.25
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3534,8 +3516,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "哈佛的宿舍，简直像一个小宇宙。",
         "en": "The Harvard dormitory was like a small universe.",
-        "start": 326.35,
-        "end": 329.13
+        "start": 389.25,
+        "end": 392.66
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3543,8 +3525,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 329.13,
-        "end": 330.24
+        "start": 392.66,
+        "end": 394.75
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3552,8 +3534,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "音乐，是这一年的另一个主角。",
         "en": "Music was the other protagonist of that year.",
-        "start": 330.24,
-        "end": 332.83
+        "start": 394.75,
+        "end": 397.97
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3561,8 +3543,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "少年买了一张波士顿交响乐团的季票，每周听一场世界级的演出。钢琴家鲁宾斯坦、霍洛维茨，小提琴家海菲兹，男高音尼尔森·艾迪——这些他当年在上海只能听唱片的名字，如今活生生地站在他面前，近得能看清他们额头的汗珠。",
         "en": "The boy bought a season ticket to the Boston Symphony Orchestra, and heard a world-class performance every week. Pianists Arthur Rubinstein and Vladimir Horowitz, violinist Jascha Heifetz, tenor Nelson Eddy — names he had only heard on records in Shanghai, now standing before him, close enough to see the sweat on their foreheads.",
-        "start": 332.83,
-        "end": 351.9
+        "start": 397.97,
+        "end": 419.43
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3570,8 +3552,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "波士顿是座文化之都，名流往来不绝。他也去看芭蕾，看话剧，慢慢养出了一副挑剔的耳朵。多年后他执掌台积电，办公室的音响里放着的，依然是巴赫到马勒的那个世界。",
         "en": "Boston was a cultural capital, and he drank it in. He went to ballet, to the theater, and slowly developed a discerning ear. He had grown up with classical music — a gramophone in Shanghai, records carried through the refugee years. Now the same music was live before him. Decades later, running TSMC, the speakers in his office would still be playing the world from Bach to Mahler.",
-        "start": 351.9,
-        "end": 367.63
+        "start": 419.43,
+        "end": 435.81
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3579,8 +3561,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "戏剧也是。有一出戏，让他许多天都缓不过来——《推销员之死》。主人公的悲剧命运，和造就他的社会力量，压得他喘不过气。还有萧伯纳的《人与超人》，四位名演员穿着正装读台词，剧场里座无虚席。",
         "en": "The theater moved him, too. One play haunted him for days — \"Death of a Salesman.\" The tragic fate of its hero, and the social forces that shaped him, weighed on the boy's chest. Then there was Shaw's \"Man and Superman\": four famous actors in formal dress, reading their lines, in a packed hall.",
-        "start": 367.63,
-        "end": 384.48
+        "start": 435.81,
+        "end": 455.16
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3588,8 +3570,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 384.48,
-        "end": 386.52
+        "start": 455.16,
+        "end": 457.64
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3597,8 +3579,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这一年，哈佛还给了他一个意外的挑战——游泳。",
         "en": "That year, Harvard also handed him an unexpected challenge — swimming.",
-        "start": 386.52,
-        "end": 390.59
+        "start": 457.64,
+        "end": 462.82
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3606,8 +3588,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "哈佛规定，每个新生都要掌握一项运动技能，并通过游泳测试。他不会游泳，只好每周六去游泳池，上一小时课。",
         "en": "Harvard required every freshman to master at least one athletic skill and pass a swimming test. He did not know how to swim, so every Saturday he reported to the pool for an hour's lesson.",
-        "start": 390.59,
-        "end": 399.84
+        "start": 462.82,
+        "end": 473.67
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3615,8 +3597,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "同学一个接一个地学会了，游过了，去玩别的项目了。他却笨拙得让人着急。教练的耐心一点点耗尽。",
         "en": "One by one, his classmates learned, passed, and moved on to sports they actually liked. He, clumsy as ever, struggled. The coach's patience wore thin.",
-        "start": 399.84,
-        "end": 408.17
+        "start": 473.67,
+        "end": 483.81
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3624,8 +3606,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "最后，他游过了那一百米。教练长舒一口气，向他道贺。游泳池里，只剩下最后一个同学，还在水里奋力扑腾。",
         "en": "Finally, he swam the hundred meters. The coach exhaled in relief and congratulated him. In the pool, only one classmate remained — still flailing in the water, fighting on.",
-        "start": 408.17,
-        "end": 417.25
+        "start": 483.81,
+        "end": 494.9
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3633,8 +3615,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 417.25,
-        "end": 419.28
+        "start": 494.9,
+        "end": 497.38
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3642,8 +3624,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "学年结束，他的成绩单是：物理、数学、英语，A；化学、人文，B。",
         "en": "At the end of the year, his report card read: A in physics, mathematics, and English; B in chemistry and humanities.",
-        "start": 419.28,
-        "end": 425.02
+        "start": 497.38,
+        "end": 504.61
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3651,8 +3633,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "哈佛的评分标准极严，全班大约只有一成的人能拿到 A。他拿着三 A 两 B 的成绩，站在了全班前 10% 的位置上。",
         "en": "Harvard graded on a strict curve — roughly one student in ten earned an A. With three A's and two B's, he stood in the top ten percent of his class.",
-        "start": 425.02,
-        "end": 435.57
+        "start": 504.61,
+        "end": 515.09
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3660,8 +3642,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个连游泳都学不会的笨拙少年，在学业上，却意外地游刃有余。也许这就是命运给他的暗示：你不擅长的事，可以慢慢学；你擅长的事，早就写在了天赋里。",
         "en": "A boy too clumsy to learn to swim had, in his studies, turned out to be effortlessly good. Perhaps it was fate's hint: the things you are bad at, you can learn slowly; the things you are good at, were already written in your nature.",
-        "start": 435.57,
-        "end": 448.53
+        "start": 515.09,
+        "end": 530.09
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3669,8 +3651,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "In a country rebuilding itself on science and engineering, a young man who could master physics, mathematics, and English was holding keys to the future — even if he did not yet know which door they opened.",
-        "start": 448.53,
-        "end": 457.09
+        "start": 530.09,
+        "end": 532.57
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3678,8 +3660,8 @@ window.AUDIO_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "很多年后，少年已经成了老人，他在自传里回忆这一年，借用了海明威形容巴黎的那句话——",
         "en": "[Main narrator, slower]",
-        "start": 457.09,
-        "end": 464.68
+        "start": 532.57,
+        "end": 541.15
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3687,8 +3669,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「流动的盛宴」。",
         "en": "Many years later, the boy was an old man, and in his autobiography he borrowed Hemingway's phrase for Paris —",
-        "start": 464.68,
-        "end": 469.31
+        "start": 541.15,
+        "end": 542.74
       },
       {
         "secZh": "第三幕 · 流动的盛宴",
@@ -3696,781 +3678,754 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他说，无论后来走到哪里——MIT，斯坦福，德州仪器，还是回到台湾——他的心里，始终背着这一场盛宴。",
         "en": "\"A moveable feast.\"",
-        "start": 469.31,
-        "end": 478.38
-      },
-      {
-        "secZh": "第四幕 · 时代在远处翻页",
-        "secEn": "Act Three · A Moveable Feast",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "Wherever he went afterward — MIT, Stanford, Texas Instruments, or back to Taiwan — he said, he carried that feast with him, always.",
-        "start": 478.38,
-        "end": 483.71
+        "start": 542.74,
+        "end": 553.9
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
-        "speaker": "Main narrator",
-        "zh": "盛宴再美，也有落幕的时候。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 483.71,
-        "end": 486.11
+        "start": 553.9,
+        "end": 555.99
+      },
+      {
+        "secZh": "第四幕 · 时代在远处翻页",
+        "secEn": "Act Four · The World Turns a Page, Far Away",
+        "speaker": "",
+        "zh": "盛宴再美，也有落幕的时候。",
+        "en": "Even the most beautiful feast must end.",
+        "start": 555.99,
+        "end": 559.02
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "就在少年在查尔斯河畔听交响乐、读莎士比亚的同时，太平洋的那一头，时代正在翻页。",
-        "en": "Even the most beautiful feast must end.",
-        "start": 486.11,
-        "end": 493.33
+        "en": "While the boy listened to symphonies and read Shakespeare on the banks of the Charles, the world on the other side of the Pacific was turning a page.",
+        "start": 559.02,
+        "end": 567.22
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "1949 年 10 月 1 日，中华人民共和国成立。",
-        "en": "While the boy listened to symphonies and read Shakespeare on the banks of the Charles, the world on the other side of the Pacific was turning a page.",
-        "start": 493.33,
-        "end": 499.81
+        "en": "On October 1, 1949, the People's Republic of China was proclaimed.",
+        "start": 567.22,
+        "end": 571.79
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "10 月，广州、厦门易手；11 月，重庆易手；12 月，成都易手。同月，国民政府南迁台北。",
-        "en": "On October 1, 1949, the People's Republic of China was proclaimed.",
-        "start": 499.81,
-        "end": 508.14
+        "en": "In October, Canton and Xiamen fell; in November, Chongqing; in December, Chengdu. That same month, the Nationalist government moved its capital to Taipei.",
+        "start": 571.79,
+        "end": 581.36
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "In October, Canton and Xiamen fell; in November, Chongqing; in December, Chengdu. That same month, the Nationalist government moved its capital to Taipei.",
-        "start": 508.14,
-        "end": 513.46
+        "en": "[Main narrator, with feeling]",
+        "start": 581.36,
+        "end": 583.84
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "那个少年曾经笃信的「暂时离开」，正在变得不那么暂时。",
-        "en": "[Main narrator, with feeling]",
-        "start": 513.46,
-        "end": 518.28
+        "en": "The \"temporary leave\" the boy had believed in was becoming less temporary by the day.",
+        "start": 583.84,
+        "end": 588.98
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "香港人心浮动。许多人担心，下一个轮到的就是香港。家里每个月来信，语气里的不安越来越重。",
-        "en": "The \"temporary leave\" the boy had believed in was becoming less temporary by the day.",
-        "start": 518.28,
-        "end": 526.24
+        "en": "Hong Kong was uneasy. Many feared that it would be next. Letters from home grew heavier with worry each month.",
+        "start": 588.98,
+        "end": 598.74
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "少年心里，那一点「学成归国」的念想，像一盏灯，在太平洋的风里，越吹越暗。",
-        "en": "Hong Kong was uneasy. Many feared that it would be next. Letters from home grew heavier with worry each month.",
-        "start": 526.24,
-        "end": 532.9
+        "en": "The boy's hope of \"returning home after studies\" guttered like a lamp in the Pacific wind.",
+        "start": 598.74,
+        "end": 606.07
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "The boy's hope of \"returning home after studies\" guttered like a lamp in the Pacific wind.",
-        "start": 532.9,
-        "end": 536.6
+        "en": "[Main narrator]",
+        "start": 606.07,
+        "end": 608.16
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "而与此同时，他身处的这个世界，也在剧烈地重组。",
-        "en": "[Main narrator]",
-        "start": 536.6,
-        "end": 540.86
+        "en": "And the world around him was being remade, too.",
+        "start": 608.16,
+        "end": 613.2
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "1947 年夏天，一位美国国务卿在哈佛的毕业典礼上，宣布了一项援助欧洲的计划——后来它以他的名字命名，叫马歇尔计划。一百二十多亿美元，越过重洋，去扶起一片废墟上的大陆。",
-        "en": "And the world around him was being remade, too.",
-        "start": 540.86,
-        "end": 556.41
+        "en": "In the summer of 1947, a U.S. Secretary of State had announced, at a Harvard commencement, a plan to rebuild Europe — a plan that would carry his name: the Marshall Plan. More than twelve billion dollars, crossing the ocean to lift a continent out of ruins.",
+        "start": 613.2,
+        "end": 630.92
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "少年后来会不会想起，自己初来乍到的第一年，恰好撞上了这个时代最宏大的几件事？",
-        "en": "In the summer of 1947, a U.S. Secretary of State had announced, at a Harvard commencement, a plan to rebuild Europe — a plan that would carry his name: the Marshall Plan. More than twelve billion dollars, crossing the ocean to lift a continent out of ruins.",
-        "start": 556.41,
-        "end": 567.29
+        "en": "Would the boy, years later, remember that his first year in America had coincided with some of the most consequential events of the century? At eighteen, most of it passed over his head — he was too busy with symphonies, swimming lessons, and report cards. But history, indifferent to attention, kept turning anyway.",
+        "start": 630.92,
+        "end": 638.85
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "在他赴美三年前，1946 年 3 月，丘吉尔在密苏里州富尔顿发表演讲，说出那句传世的话——「一道铁幕，已经降落在欧洲大陆上」。冷战，开始了。",
-        "en": "Would the boy, years later, remember that his first year in America had coincided with some of the most consequential events of the century? At eighteen, most of it passed over his head — he was too busy with symphonies, swimming lessons, and report cards. But history, indifferent to attention, kept turning anyway.",
-        "start": 567.29,
-        "end": 580.25
+        "en": "Three years before he arrived, in March 1946, Churchill had spoken in Fulton, Missouri, and delivered the line that would define an era — \"an iron curtain has descended across the Continent of Europe.\" The Cold War had begun.",
+        "start": 638.85,
+        "end": 653.09
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "美国正以一种前所未有的姿态，成为自由世界的中心。马歇尔计划启动，超过一百二十亿美元的援助流向战后的西欧；G.I. 法案让数百万退伍军人走进大学，催生了人类历史上最庞大的中产阶级。",
-        "en": "Three years before he arrived, in March 1946, Churchill had spoken in Fulton, Missouri, and delivered the line that would define an era — \"an iron curtain has descended across the Continent of Europe.\" The Cold War had begun.",
-        "start": 580.25,
-        "end": 596.72
+        "en": "America was becoming, at an unprecedented pace, the center of the free world. The Marshall Plan poured aid into Western Europe. The G.I. Bill sent millions of veterans to college, and helped create the largest middle class in human history.",
+        "start": 653.09,
+        "end": 672.13
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "America was becoming, at an unprecedented pace, the center of the free world. The Marshall Plan poured aid into Western Europe. The G.I. Bill sent millions of veterans to college, and helped create the largest middle class in human history.",
-        "start": 596.72,
-        "end": 605.98
+        "en": "[Main narrator, slower]",
+        "start": 672.13,
+        "end": 674.61
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "这是一个充满矛盾的时代：东方在分裂，西方在重建；有人在大洋彼岸逃难，有人在高速公路边的郊区里装修新家。",
-        "en": "[Main narrator, slower]",
-        "start": 605.98,
-        "end": 615.42
+        "en": "It was an age of contradictions: the East was dividing, the West was rebuilding; people fled across one ocean, while families decorated new homes in the suburbs along the highways.",
+        "start": 674.61,
+        "end": 685.34
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "而站在这个时代中央的，是一个十八岁的中国少年。他手里握着一张哈佛的成绩单，心里装着一场「流动的盛宴」，面前摆着一个问题——",
-        "en": "It was an age of contradictions: the East was dividing, the West was rebuilding; people fled across one ocean, while families decorated new homes in the suburbs along the highways.",
-        "start": 615.42,
-        "end": 626.71
+        "en": "And standing at the center of it all was an eighteen-year-old Chinese boy. In his hand, a Harvard report card. In his heart, a \"moveable feast.\" Before him, one question —",
+        "start": 685.34,
+        "end": 697.83
       },
       {
         "secZh": "第四幕 · 时代在远处翻页",
         "secEn": "Act Four · The World Turns a Page, Far Away",
         "speaker": "",
         "zh": "接下来，往哪走？",
-        "en": "And standing at the center of it all was an eighteen-year-old Chinese boy. In his hand, a Harvard report card. In his heart, a \"moveable feast.\" Before him, one question —",
-        "start": 626.71,
-        "end": 633.89
-      },
-      {
-        "secZh": "第五幕 · 转学的选择",
-        "secEn": "Act Four · The World Turns a Page, Far Away",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
         "en": "Where do I go from here?",
-        "start": 633.89,
-        "end": 635.28
+        "start": 697.83,
+        "end": 699.89
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
-        "speaker": "Main narrator",
-        "zh": "父亲的信，先一步到了。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 635.28,
-        "end": 637.31
+        "start": 699.89,
+        "end": 701.98
+      },
+      {
+        "secZh": "第五幕 · 转学的选择",
+        "secEn": "Act Five · The Choice to Transfer",
+        "speaker": "",
+        "zh": "父亲的信，先一步到了。",
+        "en": "His father's letter arrived first.",
+        "start": 701.98,
+        "end": 704.62
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "父亲是银行家出身，一生务实。他的意思很明确：学文学、学历史，在这个时代养不活自己；工程，才有前途。",
-        "en": "His father's letter arrived first.",
-        "start": 637.31,
-        "end": 646.38
+        "en": "The father was a banker, a practical man his whole life. His meaning was clear: literature and history cannot feed you in this era; engineering is the future.",
+        "start": 704.62,
+        "end": 715.57
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "父亲不是要否定那一年的盛宴。他是要告诉儿子：盛宴结束了，该想想生计了。",
-        "en": "The father was a banker, a practical man his whole life. His meaning was clear: literature and history cannot feed you in this era; engineering is the future.",
-        "start": 646.38,
-        "end": 652.86
+        "en": "He was not rejecting the feast. He was telling his son: the feast is over. Now think about making a living.",
+        "start": 715.57,
+        "end": 723.48
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "He was not rejecting the feast. He was telling his son: the feast is over. Now think about making a living.",
-        "start": 652.86,
-        "end": 657.72
+        "en": "[Main narrator]",
+        "start": 723.48,
+        "end": 725.58
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "少年自己也在想。",
-        "en": "[Main narrator]",
-        "start": 657.72,
-        "end": 659.2
+        "en": "The boy had been thinking, too.",
+        "start": 725.58,
+        "end": 727.55
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "哈佛这一年，他像海绵一样吸收西方文化——文学、艺术、思想，交了无数美国朋友，觉得自己融入了这个社会。但说到将来要赖以为生的本事，他心里其实明白：工程，他还没认真学过。",
-        "en": "The boy had been thinking, too.",
-        "start": 659.2,
-        "end": 674.57
+        "en": "In that Harvard year, he had absorbed Western culture like a sponge — literature, art, ideas — made countless American friends, and felt himself part of American society. But when it came to a skill that could support a life, he knew the truth: he had not seriously studied engineering.",
+        "start": 727.55,
+        "end": 745.65
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "而三叔当初的建议，也到了该兑现的时候——「先花一年，弄清楚自己想做什么。」",
-        "en": "In that Harvard year, he had absorbed Western culture like a sponge — literature, art, ideas — made countless American friends, and felt himself part of American society. But when it came to a skill that could support a life, he knew the truth: he had not seriously studied engineering.",
-        "start": 674.57,
-        "end": 686.14
+        "en": "And the uncle's original advice had come due — \"spend one year figuring out what you want to do.\"",
+        "start": 745.65,
+        "end": 753.43
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "一年到了。",
-        "en": "And the uncle's original advice had come due — \"spend one year figuring out what you want to do.\"",
-        "start": 686.14,
-        "end": 690.53
+        "en": "The year was up.",
+        "start": 753.43,
+        "end": 754.82
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "主叙述者 · 对话",
         "zh": "【主叙述者 · 对话】",
-        "en": "The year was up.",
-        "start": 690.53,
-        "end": 692.57
+        "en": "[Main narrator, dialogue]",
+        "start": 754.82,
+        "end": 757.31
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
-        "speaker": "Main narrator, dialogue",
+        "speaker": "",
         "zh": "三叔是教育上的自由派，主张年轻人自己选路。少年问他：机械工程怎么样？",
-        "en": "[Main narrator, dialogue]",
-        "start": 692.57,
-        "end": 698.87
+        "en": "The uncle was a liberal in education, believing young people should choose their own paths. The boy asked him: what about mechanical engineering?",
+        "start": 757.31,
+        "end": 765.02
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "三叔说：很好。",
-        "en": "The uncle was a liberal in education, believing young people should choose their own paths. The boy asked him: what about mechanical engineering?",
-        "start": 698.87,
-        "end": 704.19
+        "en": "The uncle said: Excellent.",
+        "start": 765.02,
+        "end": 767.01
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "The uncle said: Excellent.",
-        "start": 704.19,
-        "end": 705.3
+        "en": "[Main narrator]",
+        "start": 767.01,
+        "end": 769.11
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "就这么定了。",
-        "en": "[Main narrator]",
-        "start": 705.3,
-        "end": 706.41
+        "en": "And that was that.",
+        "start": 769.11,
+        "end": 770.7
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "1950 年春天，还在哈佛第二学期的少年，申请转学 MIT——麻省理工学院——的二年级，机械工程系。",
-        "en": "And that was that.",
-        "start": 706.41,
-        "end": 715.67
+        "en": "In the spring of 1950, while still in his second semester at Harvard, the boy applied to transfer to MIT — the Massachusetts Institute of Technology — as a sophomore, in mechanical engineering.",
+        "start": 770.7,
+        "end": 781.49
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "至于为什么是机械工程？他自己后来承认，那时候他对各个工程门类几乎一无所知。他只是隐约觉得：工程，大概就是机器吧；那么机械工程，应该涵盖得最广。",
-        "en": "In the spring of 1950, while still in his second semester at Harvard, the boy applied to transfer to MIT — the Massachusetts Institute of Technology — as a sophomore, in mechanical engineering.",
-        "start": 715.67,
-        "end": 728.81
+        "en": "Why mechanical engineering? He admitted later that he knew almost nothing about the different branches of engineering. He simply had a vague idea that engineering meant machines — and surely mechanical engineering covered the broadest ground.",
+        "start": 781.49,
+        "end": 797.03
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "1950 年夏天，父母也来到了美国。香港风声太紧，他们担心被卷入时局，索性举家赴美团聚。这是他们第一次出国。",
-        "en": "Why mechanical engineering? He admitted later that he knew almost nothing about the different branches of engineering. He simply had a vague idea that engineering meant machines — and surely mechanical engineering covered the broadest ground.",
-        "start": 728.81,
-        "end": 738.81
+        "en": "In the summer of 1950, his parents came to America, too. Hong Kong felt too risky; they feared being caught up in the turmoil, so the whole family moved. It was their first time abroad.",
+        "start": 797.03,
+        "end": 808.8
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "1950 年 9 月，少年到 MIT 报到，成为机械工程系的二年级学生。",
-        "en": "In the summer of 1950, his parents came to America, too. Hong Kong felt too risky; they feared being caught up in the turmoil, so the whole family moved. It was their first time abroad.",
-        "start": 738.81,
-        "end": 746.9
+        "en": "In September 1950, the boy reported to MIT as a sophomore in mechanical engineering.",
+        "start": 808.8,
+        "end": 815.38
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "In September 1950, the boy reported to MIT as a sophomore in mechanical engineering.",
-        "start": 746.9,
-        "end": 750.14
+        "en": "[Main narrator, with feeling]",
+        "start": 815.38,
+        "end": 817.86
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "他大概还不知道，自己走进的这所学校，是一个怎样的存在。",
-        "en": "[Main narrator, with feeling]",
-        "start": 750.14,
-        "end": 755.14
+        "en": "He could hardly have known what kind of institution he was walking into.",
+        "start": 817.86,
+        "end": 823.67
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "MIT 创办于 1861 年，是美国首屈一指的理工学院。第二次世界大战期间，这里的辐射实验室为美军研发雷达——那场战争里美军部署的雷达，将近一半出自这个实验室。",
-        "en": "He could hardly have known what kind of institution he was walking into.",
-        "start": 755.14,
-        "end": 769.95
+        "en": "MIT was founded in 1861, long recognized as America's preeminent institute of technology. During World War II, its Radiation Laboratory developed radar for the U.S. military — nearly half of all radar deployed by American forces in that war came out of this one laboratory.",
+        "start": 823.67,
+        "end": 840.05
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "战后数十年，是 MIT 影响力的巅峰。它的一位位校长，同时是白宫的科技顾问。",
-        "en": "MIT was founded in 1861, long recognized as America's preeminent institute of technology. During World War II, its Radiation Laboratory developed radar for the U.S. military — nearly half of all radar deployed by American forces in that war came out of this one laboratory.",
-        "start": 769.95,
-        "end": 780.37
+        "en": "The postwar decades were the zenith of MIT's influence. Its presidents served, formally or informally, as science advisers to presidents of the United States.",
+        "start": 840.05,
+        "end": 848.03
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "1950 年的 MIT，在校学生大约七八千人，一半本科、一半研究生；外国学生约占一成；女生呢？只有百分之一——整个校园里，只有几十个。",
-        "en": "The postwar decades were the zenith of MIT's influence. Its presidents served, formally or informally, as science advisers to presidents of the United States.",
-        "start": 780.37,
-        "end": 792.77
+        "en": "In 1950, MIT enrolled some seven or eight thousand students — half undergraduate, half graduate; about ten percent foreign students. Women? About one percent. A few dozen, in the entire campus.",
+        "start": 848.03,
+        "end": 862.36
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "In 1950, MIT enrolled some seven or eight thousand students — half undergraduate, half graduate; about ten percent foreign students. Women? About one percent. A few dozen, in the entire campus.",
-        "start": 792.77,
-        "end": 799.94
+        "en": "[Main narrator, slower]",
+        "start": 862.36,
+        "end": 864.84
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "跟哈佛相比，MIT 的学生更勤奋，也更内敛。",
-        "en": "[Main narrator, slower]",
-        "start": 799.94,
-        "end": 804.02
+        "en": "Compared with Harvard, MIT's students were harder-working and more reserved.",
+        "start": 864.84,
+        "end": 869.5
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "他们不像哈佛的同学那样光芒四射，聊起天来没那么有趣；但他们「活在工程里」——吃饭、走路、聊天，三句话不离本行。课程也更重：哈佛一学期四门课，MIT 要五六门。",
-        "en": "Compared with Harvard, MIT's students were harder-working and more reserved.",
-        "start": 804.02,
-        "end": 818.64
+        "en": "They were not as dazzling as his Harvard classmates; conversation with them was less sparkling. But they \"lived and breathed engineering\" — eating, walking, talking, three sentences out of five about their field. The course load was heavier, too: Harvard averaged four courses a semester; MIT required five or six.",
+        "start": 869.5,
+        "end": 886.16
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "而讲台上的，是一批真正的大师：讲应用力学的登·哈尔托赫，讲流体力学的夏皮罗，讲热力学的基南——个个都是能把最艰深的东西讲得清清楚楚的人。学生问的问题，再刁钻，他们也从不敷衍；一时答不上来的，会说一句「让我想想，下堂课告诉你」——而他们从来没有食言过。",
-        "en": "They were not as dazzling as his Harvard classmates; conversation with them was less sparkling. But they \"lived and breathed engineering\" — eating, walking, talking, three sentences out of five about their field. The course load was heavier, too: Harvard averaged four courses a semester; MIT required five or six.",
-        "start": 818.64,
-        "end": 841.78
+        "en": "And at the lectern stood true masters: Den Hartog in applied mechanics, Shapiro in fluid mechanics, Keenan in thermodynamics — men who could make the hardest material perfectly clear. No question was too trivial for them to answer; if one stumped them, they would say, \"Let me think it over and tell you next class\" — and they never once failed to return with an answer.",
+        "start": 886.16,
+        "end": 912.29
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "少年在心里跟自己说：在哈佛，我吸收的是文化；在工程上，我还没有认真下过功夫。现在，该补上了。",
-        "en": "And at the lectern stood true masters: Den Hartog in applied mechanics, Shapiro in fluid mechanics, Keenan in thermodynamics — men who could make the hardest material perfectly clear. No question was too trivial for them to answer; if one stumped them, they would say, \"Let me think it over and tell you next class\" — and they never once failed to return with an answer.",
-        "start": 841.78,
-        "end": 857.05
+        "en": "Money was tight, too. His mother had warned him before he left: his father could cover the first year, and after that he would need scholarships and part-time work. At MIT he had a scholarship, but it was not enough. He typed papers for other students — he had learned to type as a child, in the months when occupied Hong Kong had kept him out of school. He did calculation work for professors, hour after hour at a mechanical calculator, for ninety cents an hour.",
+        "start": 912.29,
+        "end": 922.58
       },
       {
         "secZh": "第五幕 · 转学的选择",
         "secEn": "Act Five · The Choice to Transfer",
         "speaker": "",
         "zh": "十九岁，他真正开始了在工程上的苦读。",
-        "en": "Money was tight, too. His mother had warned him before he left: his father could cover the first year, and after that he would need scholarships and part-time work. At MIT he had a scholarship, but it was not enough. He typed papers for other students — he had learned to type as a child, in the months when occupied Hong Kong had kept him out of school. He did calculation work for professors, hour after hour at a mechanical calculator, for ninety cents an hour.",
-        "start": 857.05,
-        "end": 876.95
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Act Five · The Choice to Transfer",
-        "speaker": "主叙述者 · 安静，放慢",
-        "zh": "【主叙述者 · 安静，放慢】",
         "en": "It was not glamorous. But it was real, and it was his own. The boy told himself: at Harvard, I absorbed culture; in engineering, I have not yet done serious work. Now it is time to make up for it.",
-        "start": 876.95,
-        "end": 886.21
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Act Five · The Choice to Transfer",
-        "speaker": "",
-        "zh": "让我们把镜头拉远，再看一眼这三年。",
-        "en": "At nineteen, he truly began his grind in engineering.",
-        "start": 886.21,
-        "end": 889.36
+        "start": 922.58,
+        "end": 926.56
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "Main narrator, quiet, slower",
-        "zh": "1948 年，十七岁，他在黄浦江边告别上海；1949 年，十八岁，他在启德机场告别香港；1950 年，十九岁，他在查尔斯河畔告别哈佛。",
+        "speaker": "主叙述者 · 安静，放慢",
+        "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 889.36,
-        "end": 901.76
+        "start": 926.56,
+        "end": 929.71
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "让我们把镜头拉远，再看一眼这三年。",
+        "en": "Let us pull the camera back and look at these three years once more.",
+        "start": 929.71,
+        "end": 933.51
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "1948 年，十七岁，他在黄浦江边告别上海；1949 年，十八岁，他在启德机场告别香港；1950 年，十九岁，他在查尔斯河畔告别哈佛。",
+        "en": "In 1948, at seventeen, he said goodbye to Shanghai on the banks of the Huangpu. In 1949, at eighteen, he said goodbye to Hong Kong at Kai Tak. In 1950, at nineteen, he said goodbye to Harvard on the banks of the Charles.",
+        "start": 933.51,
+        "end": 946.96
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "每一次告别，他都以为是暂时的。",
-        "en": "Let us pull the camera back and look at these three years once more.",
-        "start": 901.76,
-        "end": 905.0
+        "en": "Every goodbye, he thought, was temporary.",
+        "start": 946.96,
+        "end": 950.37
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "可那个时代，正在把无数个「暂时」，变成「永远」。",
-        "en": "In 1948, at seventeen, he said goodbye to Shanghai on the banks of the Huangpu. In 1949, at eighteen, he said goodbye to Hong Kong at Kai Tak. In 1950, at nineteen, he said goodbye to Harvard on the banks of the Charles.",
-        "start": 905.0,
-        "end": 914.95
+        "en": "But the era was turning countless \"temporaries\" into \"forevers.\"",
+        "start": 950.37,
+        "end": 954.83
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "Every goodbye, he thought, was temporary.",
-        "start": 914.95,
-        "end": 916.99
+        "en": "[Main narrator, with feeling]",
+        "start": 954.83,
+        "end": 957.31
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "1949 年前后，大批知识分子做出了各自的抉择：有人留在大陆，有人渡海去台，有人像他一样，远渡重洋。",
-        "en": "But the era was turning countless \"temporaries\" into \"forevers.\"",
-        "start": 916.99,
-        "end": 926.24
+        "en": "Around 1949, a vast diaspora of intellectuals made their choices: some stayed on the mainland, some crossed the strait to Taiwan, and some — like him — crossed the ocean.",
+        "start": 957.31,
+        "end": 967.75
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "史书上把这一幕称为知识分子的离散。而在他身上，它还有一个更日常的名字——搬家。",
-        "en": "[Main narrator, with feeling]",
-        "start": 926.24,
-        "end": 933.46
+        "en": "History books call it the dispersal of the intelligentsia. In his own life, it had a more ordinary name: moving house.",
+        "start": 967.75,
+        "end": 976.64
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "只是这一次，搬家的目的地，不再是中国的某个城市。",
-        "en": "Around 1949, a vast diaspora of intellectuals made their choices: some stayed on the mainland, some crossed the strait to Taiwan, and some — like him — crossed the ocean.",
-        "start": 933.46,
-        "end": 940.41
+        "en": "Only this time, the destination was no longer a city in China.",
+        "start": 976.64,
+        "end": 981.87
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "他此后的人生，还会经过德州仪器、斯坦福、回到台湾。但真正的分水岭，是在这三年里画下的：他离开了那个让他长大的文明，走进了另一个文明，并且，再也没有真正回去生活过。",
-        "en": "History books call it the dispersal of the intelligentsia. In his own life, it had a more ordinary name: moving house.",
-        "start": 940.41,
-        "end": 955.4
+        "en": "His life would still pass through Texas Instruments, Stanford, and back to Taiwan. But the true watershed was drawn in these three years: he left the civilization that raised him, entered another — and never truly went back to live.",
+        "start": 981.87,
+        "end": 999.16
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "多年以后，他功成名就，偶尔回到大陆的故地。山河依旧，故人凋零。他站在黄浦江边想：如果 1949 年没有走，自己的人生会是另一副样子吗？",
-        "en": "Only this time, the destination was no longer a city in China.",
-        "start": 955.4,
-        "end": 967.8
+        "en": "Years later, a man of great achievement, he occasionally returned to the old places on the mainland. The rivers and mountains were the same; the old friends were gone. Standing by the Huangpu, he wondered: if he had not left in 1949, would his life have been another story?",
+        "start": 999.16,
+        "end": 1013.54
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "这个问题，没有人能回答。历史没有如果，只有选择——以及选择之后的，漫长的承担。",
-        "en": "His life would still pass through Texas Instruments, Stanford, and back to Taiwan. But the true watershed was drawn in these three years: he left the civilization that raised him, entered another — and never truly went back to live.",
-        "start": 967.8,
-        "end": 977.06
+        "en": "No one can answer that question. History has no ifs — only choices, and the long bearing of their consequences.",
+        "start": 1013.54,
+        "end": 1022.61
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
-        "en": "Years later, a man of great achievement, he occasionally returned to the old places on the mainland. The rivers and mountains were the same; the old friends were gone. Standing by the Huangpu, he wondered: if he had not left in 1949, would his life have been another story?",
-        "start": 977.06,
-        "end": 988.4
+        "en": "And yet the boy who left was still there, in the old man: the one who had learned, across every move, that the world could be re-learned — that a new language, a new craft, a new civilization were all just another set of lessons, if you were willing to start from zero. That lesson, polished in a Harvard dormitory and sharpened in an MIT classroom, was in the end the only luggage he carried home.",
+        "start": 1022.61,
+        "end": 1025.09
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "",
+        "speaker": "Main narrator, quiet",
         "zh": "从黄浦江到查尔斯河，不是一段航程，是一道分界。",
-        "en": "No one can answer that question. History has no ifs — only choices, and the long bearing of their consequences.",
-        "start": 988.4,
-        "end": 993.03
+        "en": "[Main narrator, quiet]",
+        "start": 1025.09,
+        "end": 1030.13
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "他后来一手创办的那家公司，会把「从东方到西方、从战乱到和平、从理想到现实」的整个历程，浓缩成一种商业精神——在一个陌生的世界里，从头学习、自我重建的能力。",
-        "en": "And yet the boy who left was still there, in the old man: the one who had learned, across every move, that the world could be re-learned — that a new language, a new craft, a new civilization were all just another set of lessons, if you were willing to start from zero. That lesson, polished in a Harvard dormitory and sharpened in an MIT classroom, was in the end the only luggage he carried home.",
-        "start": 993.03,
-        "end": 1010.61
+        "en": "From the Huangpu to the Charles is not a journey. It is a dividing line.",
+        "start": 1030.13,
+        "end": 1045.96
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "[Main narrator, quiet]",
-        "start": 1010.61,
-        "end": 1012.65
+        "en": "The company he would one day found distilled the whole passage — from East to West, from war to peace, from idealism to pragmatism — into a single kind of commercial spirit: the ability to start over in a strange world, to learn from zero, and to rebuild oneself.",
+        "start": 1045.96,
+        "end": 1048.44
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "",
+        "speaker": "Main narrator, with feeling",
         "zh": "而这一切的起点，是 1949 年夏天，黄浦江边，一个十八岁的少年，向父母挥手。",
-        "en": "From the Huangpu to the Charles is not a journey. It is a dividing line.",
-        "start": 1012.65,
-        "end": 1019.87
+        "en": "[Main narrator, with feeling]",
+        "start": 1048.44,
+        "end": 1056.35
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "他以为那只是一次搬家。",
-        "en": "The company he would one day found distilled the whole passage — from East to West, from war to peace, from idealism to pragmatism — into a single kind of commercial spirit: the ability to start over in a strange world, to learn from zero, and to rebuild oneself.",
-        "start": 1019.87,
-        "end": 1031.21
+        "en": "And the starting point of it all was that day in the summer of 1949, on the banks of the Huangpu, an eighteen-year-old boy waving goodbye to his parents.",
+        "start": 1056.35,
+        "end": 1058.9
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "他不知道，这一走，他和那个时代许多知识分子一样，把离开当成了暂时，却走出了一条不归路。",
-        "en": "[Main narrator, with feeling]",
-        "start": 1031.21,
-        "end": 1039.17
+        "en": "He thought it was just a move.",
+        "start": 1058.9,
+        "end": 1067.96
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "**他不知道，那天的码头，是他和旧世界的最后一次合影。**",
-        "en": "And the starting point of it all was that day in the summer of 1949, on the banks of the Huangpu, an eighteen-year-old boy waving goodbye to his parents.",
-        "start": 1039.17,
-        "end": 1045.88
+        "en": "He did not know that he, like so many intellectuals of his generation, treated leaving as temporary — and walked a road with no return.",
+        "start": 1067.96,
+        "end": 1073.39
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Epilogue · A Parallel View",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
-        "en": "He thought it was just a move.",
-        "start": 1045.88,
-        "end": 1049.58
+        "en": "(Verified public facts, for the listener's reference)",
+        "start": 1073.39,
+        "end": 1078.27
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Epilogue · A Parallel View",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "1. **1949 年中国政局剧变**：1949 年 10 月 1 日，中华人民共和国成立；同年 10–12 月，广州、厦门、重庆、成都先后易手，国民政府于 12 月南迁台北。（据国际英文资料共识：美国国务院历史学家办公室、英文维基百科）",
-        "en": "He did not know that he, like so many intellectuals of his generation, treated leaving as temporary — and walked a road with no return.",
-        "start": 1049.58,
-        "end": 1071.61
+        "en": "1. **China in 1949**: The People's Republic of China was proclaimed on October 1, 1949; Canton, Xiamen, Chongqing, and Chengdu changed hands between October and December, and the Nationalist government moved its capital to Taipei that December. (Per international English-language consensus: U.S. State Department Office of the Historian, English Wikipedia.)",
+        "start": 1078.27,
+        "end": 1099.71
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Epilogue · A Parallel View",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "2. **铁幕演说**：1946 年 3 月 5 日，丘吉尔在美国密苏里州富尔顿发表《和平砥柱》演讲，称「一道铁幕已降落在欧洲大陆」，被视为冷战开启的标志之一。",
-        "en": "**He did not know that the dock that day was his last photograph with the old world.**",
-        "start": 1071.61,
-        "end": 1086.42
+        "en": "2. **The Iron Curtain Speech**: On March 5, 1946, Winston Churchill spoke at Fulton, Missouri, declaring that \"an iron curtain has descended across the Continent of Europe\" — widely seen as a marker of the start of the Cold War.",
+        "start": 1099.71,
+        "end": 1113.77
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "3. **马歇尔计划**：1947 年提出、1948 年生效的欧洲复兴计划，至 1951 年向西欧提供逾 120 亿美元援助，深刻塑造了战后欧洲与美国经济。",
-        "en": "(Verified public facts, for the listener's reference)",
-        "start": 1086.42,
-        "end": 1100.86
+        "en": "3. **The Marshall Plan**: Announced in 1947 and enacted in 1948 as the European Recovery Program, it delivered more than $12 billion in aid to Western Europe by 1951, profoundly shaping the postwar economies of Europe and America.",
+        "start": 1113.77,
+        "end": 1128.01
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "4. **G.I. 法案（1944）**：美国《军人复员法案》，为退伍军人提供大学学费、低息住房贷款与失业救济，催生了战后中产阶级的扩张与消费繁荣。",
-        "en": "1. **China in 1949**: The People's Republic of China was proclaimed on October 1, 1949; Canton, Xiamen, Chongqing, and Chengdu changed hands between October and December, and the Nationalist government moved its capital to Taipei that December. (Per international English-language consensus: U.S. State Department Office of the Historian, English Wikipedia.)",
-        "start": 1100.86,
-        "end": 1114.56
+        "en": "4. **The G.I. Bill (1944)**: The U.S. Servicemen's Readjustment Act, which funded college tuition, low-interest home loans, and unemployment relief for veterans — a key engine of postwar middle-class expansion and consumer prosperity.",
+        "start": 1128.01,
+        "end": 1142.55
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "5. **哈佛红皮书（1945）**：哈佛大学《自由社会中的通识教育》报告，由校长科南特推动，奠定了哈佛通识教育（liberal arts）的课程理念——正是张忠谋在哈佛一年级所接受的教育的理论底色。",
-        "en": "2. **The Iron Curtain Speech**: On March 5, 1946, Winston Churchill spoke at Fulton, Missouri, declaring that \"an iron curtain has descended across the Continent of Europe\" — widely seen as a marker of the start of the Cold War.",
-        "start": 1114.56,
-        "end": 1133.07
+        "en": "5. **The Harvard Redbook (1945)**: \"General Education in a Free Society,\" the Harvard report championed by President James B. Conant, which laid the intellectual foundation of Harvard's liberal arts curriculum — the very education Morris Chang received in his freshman year.",
+        "start": 1142.55,
+        "end": 1161.18
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "6. **MIT 辐射实验室（1940–45）**：二战期间美军部署雷达的近一半由其研制，开发了 100 余种雷达系统，总价值约 15 亿美元；奠定了 MIT 战后科技巅峰的地位。",
-        "en": "3. **The Marshall Plan**: Announced in 1947 and enacted in 1948 as the European Recovery Program, it delivered more than $12 billion in aid to Western Europe by 1951, profoundly shaping the postwar economies of Europe and America.",
-        "start": 1133.07,
-        "end": 1149.73
+        "en": "6. **MIT's Radiation Laboratory (1940–45)**: The wartime lab that built nearly half of all U.S. military radar, developed more than 100 radar systems worth some $1.5 billion, and helped establish MIT's postwar ascendancy in science and technology.",
+        "start": 1161.18,
+        "end": 1176.97
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "7. **泛美航空越洋航线**：1949 年从香港启德机场飞往旧金山需跨太平洋多次经停，历时数十小时；张忠谋于 1949 年 7 月搭乘该航线赴美。",
-        "en": "4. **The G.I. Bill (1944)**: The U.S. Servicemen's Readjustment Act, which funded college tuition, low-interest home loans, and unemployment relief for veterans — a key engine of postwar middle-class expansion and consumer prosperity.",
-        "start": 1149.73,
-        "end": 1163.43
-      },
-      {
-        "secZh": "下集预告",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "5. **The Harvard Redbook (1945)**: \"General Education in a Free Society,\" the Harvard report championed by President James B. Conant, which laid the intellectual foundation of Harvard's liberal arts curriculum — the very education Morris Chang received in his freshman year.",
-        "start": 1163.43,
-        "end": 1172.92
-      },
-      {
-        "secZh": "下集预告",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
-        "speaker": "",
-        "zh": "少年在 MIT 埋头苦读，顺利拿到学士、硕士学位。",
-        "en": "6. **MIT's Radiation Laboratory (1940–45)**: The wartime lab that built nearly half of all U.S. military radar, developed more than 100 radar systems worth some $1.5 billion, and helped establish MIT's postwar ascendancy in science and technology.",
-        "start": 1172.92,
-        "end": 1181.48
-      },
-      {
-        "secZh": "下集预告",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
-        "speaker": "",
-        "zh": "然后，他面临毕业。",
         "en": "7. **Pan American's transpacific route in 1949**: Flying from Kai Tak, Hong Kong to San Francisco required multiple stops and dozens of hours in the air; Morris Chang took this route to America in July 1949.",
-        "start": 1181.48,
-        "end": 1189.81
+        "start": 1176.97,
+        "end": 1190.55
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
-        "speaker": "Main narrator",
-        "zh": "他寄出了四十多封求职信，只收到两三封回音；他去福特汽车面试，面试官当着他的面念出结论——他们只要一个博士。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1189.81,
-        "end": 1199.62
+        "start": 1190.55,
+        "end": 1192.64
+      },
+      {
+        "secZh": "下集预告",
+        "secEn": "Next Episode Preview",
+        "speaker": "",
+        "zh": "少年在 MIT 埋头苦读，顺利拿到学士、硕士学位。",
+        "en": "The boy studied hard at MIT, earning his bachelor's and master's degrees.",
+        "start": 1192.64,
+        "end": 1197.68
+      },
+      {
+        "secZh": "下集预告",
+        "secEn": "Next Episode Preview",
+        "speaker": "",
+        "zh": "然后，他面临毕业。",
+        "en": "Then came graduation.",
+        "start": 1197.68,
+        "end": 1199.94
+      },
+      {
+        "secZh": "下集预告",
+        "secEn": "Next Episode Preview",
+        "speaker": "",
+        "zh": "他寄出了四十多封求职信，只收到两三封回音；他去福特汽车面试，面试官当着他的面念出结论——他们只要一个博士。",
+        "en": "He mailed more than forty job applications and received two or three replies. At a Ford Motor interview, the interviewer read the verdict out loud, in front of him — they wanted a Ph.D.",
+        "start": 1199.94,
+        "end": 1211.26
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "他阴差阳错，走进了一家叫 Sylvania 的公司的半导体部门。",
-        "en": "The boy studied hard at MIT, earning his bachelor's and master's degrees.",
-        "start": 1199.62,
-        "end": 1205.55
+        "en": "By accident, he walked into the semiconductor division of a company called Sylvania.",
+        "start": 1211.26,
+        "end": 1217.56
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "那一年是 1955 年。晶体管革命的前夜，他浑然不知。",
-        "en": "Then came graduation.",
-        "start": 1205.55,
-        "end": 1210.55
+        "en": "The year was 1955. The eve of the transistor revolution — and he had no idea.",
+        "start": 1217.56,
+        "end": 1223.33
       },
       {
         "secZh": "下集预告",
         "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "下集，《四十封求职信》：被拒绝不是终点，是命运在给你指另一条路——只是当时没人知道，这条路通向半导体。",
-        "en": "He mailed more than forty job applications and received two or three replies. At a Ford Motor interview, the interviewer read the verdict out loud, in front of him — they wanted a Ph.D.",
-        "start": 1210.55,
-        "end": 1219.99
-      },
-      {
-        "secZh": "Next Episode Preview",
-        "secEn": "Next Episode Preview",
-        "speaker": "",
-        "zh": "",
-        "en": "By accident, he walked into the semiconductor division of a company called Sylvania.",
-        "start": 1219.99,
-        "end": 1223.0
-      },
-      {
-        "secZh": "Next Episode Preview",
-        "secEn": "Next Episode Preview",
-        "speaker": "",
-        "zh": "",
-        "en": "The year was 1955. The eve of the transistor revolution — and he had no idea.",
-        "start": 1223.0,
-        "end": 1226.7
-      },
-      {
-        "secZh": "Next Episode Preview",
-        "secEn": "Next Episode Preview",
-        "speaker": "",
-        "zh": "",
         "en": "Next episode, \"Forty Job Applications\": Rejection is not the end. It is fate pointing you down another road — and no one knew, at the time, that the road led to semiconductors.",
-        "start": 1226.7,
+        "start": 1223.33,
         "end": 1234.1
       }
     ]
@@ -4482,8 +4437,8 @@ window.AUDIO_DATA = [
     "summary": "四十封求职信 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第04期-四十封求职信/中文音频.mp3",
     "audioEn": "./03-剧集/第04期-四十封求职信/英文音频.mp3",
-    "durationZh": 1250.79,
-    "durationEn": 1281.56,
+    "durationZh": 1250.788,
+    "durationEn": 1281.556,
     "cues": [
       {
         "secZh": "开场",
@@ -4492,7 +4447,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：打字机键声，一封封信封落下的声音，渐渐压低】",
         "en": "[SFX: the clatter of a typewriter, the soft thud of envelopes, fading to a hush]",
         "start": 0.0,
-        "end": 5.06
+        "end": 6.29
       },
       {
         "secZh": "开场",
@@ -4500,8 +4455,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1955 年春，美国马萨诸塞州，剑桥镇。",
         "en": "Cambridge, Massachusetts. Spring, 1955.",
-        "start": 5.06,
-        "end": 8.95
+        "start": 6.29,
+        "end": 10.53
       },
       {
         "secZh": "开场",
@@ -4509,8 +4464,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "查尔斯河畔的 MIT 校园里，一个二十四岁的年轻人，正对着打字机，敲出又一封求职信。",
         "en": "On the MIT campus beside the Charles River, a twenty-four-year-old man sits at a typewriter, hammering out yet another job application.",
-        "start": 8.95,
-        "end": 17.12
+        "start": 10.53,
+        "end": 18.87
       },
       {
         "secZh": "开场",
@@ -4518,8 +4473,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他叫张忠谋。MIT 机械工程的硕士，刚毕业。",
         "en": "His name is Morris Chang. He has just earned a master's degree in mechanical engineering from MIT.",
-        "start": 17.12,
-        "end": 21.4
+        "start": 18.87,
+        "end": 23.84
       },
       {
         "secZh": "开场",
@@ -4527,8 +4482,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "打字机是老式的，字母键敲下去，嗒嗒作响。他从小就会打字——那是香港沦陷、失学在家的日子里，父亲让他练的：学一门手艺，将来总能谋生。没想到，这门手艺，如今成了他谋生的敲门砖。",
         "en": "The typewriter is an old one; the keys clack as they strike. He had learned to type as a boy — during the months when occupied Hong Kong had kept him out of school, his father made him practice: learn a trade, and you will always be able to earn a living. That childhood skill had turned out to be his calling card.",
-        "start": 21.4,
-        "end": 38.14
+        "start": 23.84,
+        "end": 42.82
       },
       {
         "secZh": "开场",
@@ -4536,8 +4491,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "信纸上的措辞，他斟酌了一遍又一遍：尊敬的先生，我毕业于麻省理工学院机械工程系……",
         "en": "He weighs every sentence: Dear Sir, I am a graduate of the Massachusetts Institute of Technology, Department of Mechanical Engineering...",
-        "start": 38.14,
-        "end": 45.92
+        "start": 42.82,
+        "end": 50.47
       },
       {
         "secZh": "开场",
@@ -4545,8 +4500,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这一封，是第几封了？他自己也记不清了。三十封？四十封？",
         "en": "Which letter is this? He has lost count. Thirty? Forty?",
-        "start": 45.92,
-        "end": 51.17
+        "start": 50.47,
+        "end": 57.44
       },
       {
         "secZh": "开场",
@@ -4554,8 +4509,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在 MIT 的这五年，他过得并不轻松。从哈佛转来之后，他把自己埋进了工程里：学士，硕士，一路读下来，还想继续读博士。",
         "en": "The five years at MIT had not been easy. After transferring from Harvard, he had buried himself in engineering: bachelor's, master's, and then he wanted to go on for a doctorate.",
-        "start": 51.17,
-        "end": 62.46
+        "start": 57.44,
+        "end": 69.66
       },
       {
         "secZh": "开场",
@@ -4563,8 +4518,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可是，博士资格考试，他考了两次，都没过。",
         "en": "But he had failed the doctoral qualifying examination. Twice.",
-        "start": 62.46,
-        "end": 66.35
+        "start": 69.66,
+        "end": 74.18
       },
       {
         "secZh": "开场",
@@ -4572,8 +4527,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 66.35,
-        "end": 67.52
+        "start": 74.18,
+        "end": 76.26
       },
       {
         "secZh": "开场",
@@ -4581,8 +4536,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "没办法。他只好把目光转向产业界——找工作。",
         "en": "So he turned to industry — he looked for a job.",
-        "start": 67.52,
-        "end": 71.6
+        "start": 76.26,
+        "end": 81.56
       },
       {
         "secZh": "开场",
@@ -4590,8 +4545,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，他坐下来，开始写信。",
         "en": "He sat down and began writing letters.",
-        "start": 71.6,
-        "end": 74.13
+        "start": 81.56,
+        "end": 84.65
       },
       {
         "secZh": "开场",
@@ -4599,8 +4554,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一封，两封，三封……他给美国大大小小的公司寄出了四十多封求职信。",
         "en": "One, two, three... He mailed more than forty applications to companies large and small across America.",
-        "start": 74.13,
-        "end": 80.36
+        "start": 84.65,
+        "end": 90.99
       },
       {
         "secZh": "开场",
@@ -4608,8 +4563,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他后来回忆说，回音，寥寥无几。",
         "en": "The replies, he would recall later, were almost nonexistent.",
-        "start": 80.36,
-        "end": 83.28
+        "start": 90.99,
+        "end": 94.46
       },
       {
         "secZh": "开场",
@@ -4617,8 +4572,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 83.28,
-        "end": 85.42
+        "start": 94.46,
+        "end": 96.93
       },
       {
         "secZh": "开场",
@@ -4626,8 +4581,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "四十多封信，只回来两三封。",
         "en": "Forty letters. Two or three replies.",
-        "start": 85.42,
-        "end": 87.95
+        "start": 96.93,
+        "end": 99.93
       },
       {
         "secZh": "开场",
@@ -4635,8 +4590,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那是 1955 年的美国。战后经济繁荣，工作机会并不少；但一个中国移民工程师，要在美国产业界找到一个位置，远没有想象中那么容易。没有博士头衔，没有行业人脉，没有本土背景——他有的，只有一纸 MIT 的文凭，和一份不肯服输的倔强。",
         "en": "This was America in 1955. The postwar economy was booming; jobs were not scarce. But for a Chinese immigrant engineer, finding a place in American industry was far harder than it looked. No doctorate, no connections, no homegrown background — all he had was an MIT diploma and a stubborn refusal to give up.",
-        "start": 87.95,
-        "end": 110.13
+        "start": 99.93,
+        "end": 123.38
       },
       {
         "secZh": "开场",
@@ -4644,8 +4599,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "就在这四十多封信里，有两封回音，改变了他的一生。",
         "en": "And in those forty letters, two replies changed his life.",
-        "start": 110.13,
-        "end": 114.8
+        "start": 123.38,
+        "end": 128.57
       },
       {
         "secZh": "开场",
@@ -4653,8 +4608,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一封来自福特汽车。另一封，来自一家叫 Sylvania 的公司。",
         "en": "One came from the Ford Motor Company. The other came from a company called Sylvania.",
-        "start": 114.8,
-        "end": 121.02
+        "start": 128.57,
+        "end": 135.26
       },
       {
         "secZh": "开场",
@@ -4662,8 +4617,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他不知道，此刻他正在敲下的这个决定，将在四十年后，改写整个世界的芯片版图。",
         "en": "He had no idea that the decision he was typing out at this very moment would, forty years later, redraw the map of the world's chip industry.",
-        "start": 121.02,
-        "end": 128.22
+        "start": 135.26,
+        "end": 143.03
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4671,8 +4626,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 128.22,
-        "end": 129.39
+        "start": 143.03,
+        "end": 145.11
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4680,8 +4635,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们先把镜头拉回五年前。",
         "en": "Let us rewind five years.",
-        "start": 129.39,
-        "end": 131.92
+        "start": 145.11,
+        "end": 148.03
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4689,8 +4644,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1950 年秋天，张忠谋从哈佛转学 MIT，成为机械工程系的二年级学生。",
         "en": "In the fall of 1950, Morris Chang transferred from Harvard to MIT as a sophomore in mechanical engineering.",
-        "start": 131.92,
-        "end": 138.92
+        "start": 148.03,
+        "end": 155.14
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4698,8 +4653,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在哈佛，他像海绵一样吸收西方文化——文学、艺术、音乐，那是一年「流动的盛宴」。可父亲的话一直在他耳边：工程，才有前途。",
         "en": "At Harvard, he had absorbed Western culture like a sponge — literature, art, music: a year of \"moveable feast.\" But his father's words rang in his ears: engineering is the future.",
-        "start": 138.92,
-        "end": 150.4
+        "start": 155.14,
+        "end": 167.97
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4707,8 +4662,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "到了 MIT，他真正开始了苦读。",
         "en": "At MIT, the real grind began.",
-        "start": 150.4,
-        "end": 153.52
+        "start": 167.97,
+        "end": 171.35
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4716,8 +4671,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 153.52,
-        "end": 155.66
+        "start": 171.35,
+        "end": 173.82
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4725,8 +4680,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "MIT 的课程比哈佛重得多。哈佛一学期四门课，MIT 要五六门。学生普遍每周学习五十个小时以上。",
         "en": "MIT's course load was far heavier than Harvard's. Harvard averaged four courses a semester; MIT required five or six. Students typically studied fifty hours a week or more.",
-        "start": 155.66,
-        "end": 164.99
+        "start": 173.82,
+        "end": 183.99
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4734,8 +4689,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而且，经济压力如影随形。父亲只能负担他第一年的费用，之后全靠他自己。他做奖学金、替人打字、为教授做计算——一小时九十美分，一页页地敲出密密麻麻的数字表格。",
         "en": "And money was always tight. His father could cover only the first year; after that, he was on his own. He lived on scholarships, typed papers for other students, and did calculation work for professors — ninety cents an hour, hour after hour at a mechanical calculator, filling page after page of dense numerical tables.",
-        "start": 164.99,
-        "end": 179.98
+        "start": 183.99,
+        "end": 200.87
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4743,8 +4698,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可这些苦，他甘之如饴。",
         "en": "But he thrived on the hardship.",
-        "start": 179.98,
-        "end": 182.12
+        "start": 200.87,
+        "end": 203.49
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4752,8 +4707,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 182.12,
-        "end": 184.26
+        "start": 203.49,
+        "end": 205.95
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4761,8 +4716,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "MIT 的校园生活，是另一种光景。",
         "en": "MIT was a different world from Harvard.",
-        "start": 184.26,
-        "end": 187.56
+        "start": 205.95,
+        "end": 209.53
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4770,8 +4725,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这里的同学，不像哈佛那样光芒四射。他们更沉默，更专注——吃饭、走路、聊天，三句话不离工程。教授们倒是真正的大师：讲应用力学的登·哈尔托赫，讲流体力学的夏皮罗，讲热力学的基南——个个能把最艰深的东西讲得清清楚楚。学生问的问题再刁钻，他们也不敷衍；一时答不上来的，会说「让我想想，下堂课告诉你」——而他们从来没有食言过。",
         "en": "The students were not as dazzling; they were quieter, more focused — eating, walking, talking, three sentences out of five about engineering. But the professors were true masters: Den Hartog in applied mechanics, Shapiro in fluid mechanics, Keenan in thermodynamics — men who could make the hardest material perfectly clear. No question was too trivial; if one stumped them, they would say, \"Let me think it over and tell you next class\" — and they never failed to return with an answer.",
-        "start": 187.56,
-        "end": 218.31
+        "start": 209.53,
+        "end": 243.33
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4779,8 +4734,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋在这里如鱼得水。他本就数理见长，MIT 的课程虽重，他却越学越有滋味。",
         "en": "Chang was in his element. He had always been strong in mathematics and science, and though the work was heavy, he found it increasingly rewarding.",
-        "start": 218.31,
-        "end": 225.7
+        "start": 243.33,
+        "end": 251.45
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4788,8 +4743,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 225.7,
-        "end": 226.87
+        "start": 251.45,
+        "end": 253.53
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4797,8 +4752,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1952 年，他拿到机械工程学士；1953 年，又拿到硕士。",
         "en": "In 1952, he earned his bachelor's degree in mechanical engineering. In 1953, his master's.",
-        "start": 226.87,
-        "end": 232.7
+        "start": 253.53,
+        "end": 259.57
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4806,8 +4761,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "照理说，硕士毕业，出路已经不错了。可他心里想的是：继续读博士。",
         "en": "A master's degree was already a good ticket. In the 1950s, an MIT engineering degree opened doors across American industry. But he wanted more — he wanted the doctorate.",
-        "start": 232.7,
-        "end": 239.76
+        "start": 259.57,
+        "end": 266.75
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4815,8 +4770,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那个年代的 MIT 学生，流行一条路——学士、硕士、博士，一口气读到底。张忠谋也不例外。他报考了博士，准备沿着这条路一直走下去。",
         "en": "In those days, MIT students followed a familiar path: bachelor's, master's, doctorate, in one straight run. Chang joined the line. He sat for the doctoral qualifying examination, ready to follow the road to the end.",
-        "start": 239.76,
-        "end": 252.21
+        "start": 266.75,
+        "end": 280.75
       },
       {
         "secZh": "第一幕 · 查尔斯河畔的五年",
@@ -4824,422 +4779,422 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "然后，他遇到了人生里第一次真正的「考不进去」。",
         "en": "He had always been a good student — top of his class at Harvard, strong at MIT. Failure was not something he had much experience with. The refugee boy who had crossed front lines and survived three wars had learned to expect that the world would be hard. But he had also learned, again and again, that if he worked hard enough, he could win.",
-        "start": 252.21,
-        "end": 268.02
-      },
-      {
-        "secZh": "第二幕 · 两次落第",
-        "secEn": "Act One · Five Years by the Charles",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "And then he met the first door of his life that would not open.",
-        "start": 268.02,
-        "end": 271.42
+        "start": 280.75,
+        "end": 285.29
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
-        "speaker": "Main narrator",
-        "zh": "博士资格考试，是读博路上的第一道关口。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 271.42,
-        "end": 275.12
+        "start": 285.29,
+        "end": 287.37
+      },
+      {
+        "secZh": "第二幕 · 两次落第",
+        "secEn": "Act Two · Twice Rejected",
+        "speaker": "",
+        "zh": "博士资格考试，是读博路上的第一道关口。",
+        "en": "The qualifying examination is the first gate on the road to a doctorate.",
+        "start": 287.37,
+        "end": 291.52
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "它不考你学过的知识，而是考察你有没有做研究的潜力——难度极高，淘汰率也高。",
-        "en": "The qualifying examination is the first gate on the road to a doctorate.",
-        "start": 275.12,
-        "end": 282.32
+        "en": "It does not test what you have learned. It tests whether you have the potential to do research — it is brutally hard, and the failure rate is high.",
+        "start": 291.52,
+        "end": 299.62
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "张忠谋考了。",
-        "en": "It does not test what you have learned. It tests whether you have the potential to do research — it is brutally hard, and the failure rate is high.",
-        "start": 282.32,
-        "end": 289.37
+        "en": "Chang sat for it.",
+        "start": 299.62,
+        "end": 301.2
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "没过。",
-        "en": "Chang sat for it.",
-        "start": 289.37,
-        "end": 290.35
+        "en": "He failed.",
+        "start": 301.2,
+        "end": 302.21
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "He failed.",
-        "start": 290.35,
-        "end": 292.49
+        "en": "[Main narrator, slower]",
+        "start": 302.21,
+        "end": 304.67
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "他后来自己总结原因，说得很坦诚：没有好好准备。",
-        "en": "[Main narrator, slower]",
-        "start": 292.49,
-        "end": 296.96
+        "en": "He would later explain the reason with characteristic honesty: he had not prepared properly.",
+        "start": 304.67,
+        "end": 309.8
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "他以为凭自己的聪明和 MIT 的训练，可以轻松过关。但那个年代的资格考试，拼的是真正的研究潜力，考的是你在未知面前能不能自己走下去——容不得半点侥幸。",
-        "en": "He would later explain the reason with characteristic honesty: he had not prepared properly.",
-        "start": 296.96,
-        "end": 311.55
+        "en": "He had assumed that his intelligence and his MIT training would carry him through. But the qualifying exam tests genuine research potential; there is no room for luck.",
+        "start": 309.8,
+        "end": 325.31
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "他不甘心，又考了一次。",
-        "en": "He had assumed that his intelligence and his MIT training would carry him through. But the qualifying exam tests genuine research potential; there is no room for luck.",
-        "start": 311.55,
-        "end": 318.36
+        "en": "He was not willing to give up. He tried again.",
+        "start": 325.31,
+        "end": 327.93
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "还是没过。",
-        "en": "He was not willing to give up. He tried again.",
-        "start": 318.36,
-        "end": 320.8
-      },
-      {
-        "secZh": "第二幕 · 两次落第",
-        "secEn": "Act Two · Twice Rejected",
-        "speaker": "",
-        "zh": "消息传回家里，父母大概很失望。这个从小被寄予厚望的儿子，哈佛一年，MIT 五年，到头来连个博士都读不成？",
         "en": "He failed again.",
-        "start": 320.8,
-        "end": 330.91
+        "start": 327.93,
+        "end": 329.31
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "Main narrator",
-        "zh": "张忠谋自己，反倒没有天塌下来的感觉。他后来回忆，那两年里，他看到了身边很多同学的命运——有人一鼓作气读下去，有人中途转行，有人像他一样，被一扇门挡在外面。",
+        "zh": "消息传回家里，父母大概很失望。这个从小被寄予厚望的儿子，哈佛一年，MIT 五年，到头来连个博士都读不成？",
         "en": "[Main narrator]",
-        "start": 330.91,
-        "end": 345.9
+        "start": 329.31,
+        "end": 340.28
+      },
+      {
+        "secZh": "第二幕 · 两次落第",
+        "secEn": "Act Two · Twice Rejected",
+        "speaker": "",
+        "zh": "张忠谋自己，反倒没有天塌下来的感觉。他后来回忆，那两年里，他看到了身边很多同学的命运——有人一鼓作气读下去，有人中途转行，有人像他一样，被一扇门挡在外面。",
+        "en": "Twice rejected, the door to the doctorate closed.",
+        "start": 340.28,
+        "end": 356.81
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "他只是在心里跟自己说：门关了，就换一扇。",
-        "en": "Twice rejected, the door to the doctorate closed.",
-        "start": 345.9,
-        "end": 349.79
+        "en": "Looking back years later, this failure became almost a metaphor for his whole life: his most important turning points nearly always came when his plans were broken.",
+        "start": 356.81,
+        "end": 361.36
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Looking back years later, this failure became almost a metaphor for his whole life: his most important turning points nearly always came when his plans were broken.",
-        "start": 349.79,
-        "end": 356.35
+        "en": "In 1955, at twenty-four, he had no doctorate, no adviser, no way forward.",
+        "start": 361.36,
+        "end": 363.44
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "两次落第，博士这条路，断了。",
-        "en": "In 1955, at twenty-four, he had no doctorate, no adviser, no way forward.",
-        "start": 356.35,
-        "end": 359.52
+        "en": "His parents, by then, were living in America too — they had come over in 1950. They did not pressure him. They had seen too much of the world to believe that a failed exam was a tragedy. His father, the practical banker, probably said nothing more than: find a way to make a living.",
+        "start": 363.44,
+        "end": 366.73
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "很多年后回望，这件事几乎成了他一生的隐喻：他人生里那些最重大的转折，几乎都发生在他「计划被打破」的时刻。",
-        "en": "His parents, by then, were living in America too — they had come over in 1950. They did not pressure him. They had seen too much of the world to believe that a failed exam was a tragedy. His father, the practical banker, probably said nothing more than: find a way to make a living.",
-        "start": 359.52,
-        "end": 372.89
+        "en": "He had one choice: find a job.",
+        "start": 366.73,
+        "end": 377.11
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "1955 年，二十四岁，他没有博士头衔，没有导师，没有退路。",
-        "en": "He had one choice: find a job.",
-        "start": 372.89,
-        "end": 378.73
+        "en": "And so — the forty letters.",
+        "start": 377.11,
+        "end": 383.43
       },
       {
         "secZh": "第二幕 · 两次落第",
         "secEn": "Act Two · Twice Rejected",
         "speaker": "",
         "zh": "他只有一个选择：找工作。",
-        "en": "And so — the forty letters.",
-        "start": 378.73,
-        "end": 381.06
+        "en": "",
+        "start": 383.43,
+        "end": 386.37
       },
       {
         "secZh": "第二幕 · 两次落第",
-        "secEn": "Act Three · The One-Dollar Fork in the Road",
-        "speaker": "Main narrator, slower",
+        "secEn": "Act Two · Twice Rejected",
+        "speaker": "",
         "zh": "于是，就有了那四十多封信。",
-        "en": "[Main narrator, slower]",
-        "start": 381.06,
-        "end": 383.59
+        "en": "",
+        "start": 386.37,
+        "end": 389.37
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "Of the forty letters, two replies were actual offers.",
-        "start": 383.59,
-        "end": 385.78
+        "en": "[Main narrator, slower]",
+        "start": 389.37,
+        "end": 391.45
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "四十多封求职信，回音寥寥。",
-        "en": "The first came from Ford Motor Company.",
-        "start": 385.78,
-        "end": 388.31
+        "en": "Of the forty letters, two replies were actual offers.",
+        "start": 391.45,
+        "end": 394.45
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "但有两封回音，是实打实的 offer——录用通知。",
-        "en": "Ford in 1955 was the symbol of American industry — the giant of Detroit. Cars rolled off its assembly lines one after another; millions of American families dreamed of owning a Ford. For a mechanical engineering master's, Ford was almost the standard answer — perfectly matched specialty, enormous platform, respectable and secure.",
-        "start": 388.31,
-        "end": 400.96
+        "en": "The first came from Ford Motor Company.",
+        "start": 394.45,
+        "end": 399.98
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "第一封，来自福特汽车。",
-        "en": "Chang went to Detroit for the interview and toured the vast factory. Ford's cars — he had seen them in magazines and movies since childhood in Shanghai. Now he had a chance to help build them.",
-        "start": 400.96,
-        "end": 409.71
+        "en": "Ford in 1955 was the symbol of American industry — the giant of Detroit. Cars rolled off its assembly lines one after another; millions of American families dreamed of owning a Ford. For a mechanical engineering master's, Ford was almost the standard answer — perfectly matched specialty, enormous platform, respectable and secure.",
+        "start": 399.98,
+        "end": 402.61
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "那是 1955 年的福特：美国工业的象征，底特律的巨人。流水线上的汽车一辆接一辆，全美无数家庭以拥有一辆福特为荣。对一个机械工程硕士来说，进福特，几乎是标准答案——专业对口，平台巨大，体面又安稳。",
-        "en": "Detroit in the 1950s was the motor city of the world. The assembly lines moved in precise, hypnotic rhythm; the air smelled of steel, rubber, and gasoline. It was the very heart of the American dream, and it was offering him a place inside.",
-        "start": 409.71,
-        "end": 428.78
+        "en": "Chang went to Detroit for the interview and toured the vast factory. Ford's cars — he had seen them in magazines and movies since childhood in Shanghai. Now he had a chance to help build them.",
+        "start": 402.61,
+        "end": 423.41
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "张忠谋去底特律面试，参观了那庞大的工厂。福特的汽车，他从小就在上海的杂志和电影里见过。如今，他有机会亲手参与制造它们。",
-        "en": "Ford's offer: $479 a month.",
-        "start": 428.78,
-        "end": 440.26
+        "en": "Detroit in the 1950s was the motor city of the world. The assembly lines moved in precise, hypnotic rhythm; the air smelled of steel, rubber, and gasoline. It was the very heart of the American dream, and it was offering him a place inside.",
+        "start": 423.41,
+        "end": 436.25
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "福特开出的月薪是：479 美元。",
-        "en": "In 1955 America, that was a respectable salary — enough for a young man to live a comfortable middle-class life.",
-        "start": 440.26,
-        "end": 445.13
+        "en": "Ford's offer: $479 a month.",
+        "start": 436.25,
+        "end": 439.76
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "这在 1955 年的美国，是一份体面的薪水——足以让一个年轻人过上安稳的中产生活。",
-        "en": "[Main narrator, slower]",
-        "start": 445.13,
-        "end": 453.1
+        "en": "In 1955 America, that was a respectable salary — enough for a young man to live a comfortable middle-class life.",
+        "start": 439.76,
+        "end": 448.16
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "The second offer came from Sylvania Electric Products.",
-        "start": 453.1,
-        "end": 455.24
+        "en": "[Main narrator, slower]",
+        "start": 448.16,
+        "end": 450.63
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "第二封，来自 Sylvania 电气产品公司。",
-        "en": "Sylvania was an old American maker of vacuum tubes — the glass tubes inside radios and televisions. It had just started a tiny semiconductor division, so small it was almost comical.",
-        "start": 455.24,
-        "end": 462.78
+        "en": "The second offer came from Sylvania Electric Products.",
+        "start": 450.63,
+        "end": 455.16
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "Sylvania，是美国老牌的电子管制造商——就是收音机、电视机里那种玻璃管。它刚刚成立了一个小小的半导体部门，规模小得可怜。",
-        "en": "Sylvania's offer: $480 a month.",
-        "start": 462.78,
-        "end": 475.04
+        "en": "Sylvania was an old American maker of vacuum tubes — the glass tubes inside radios and televisions. It had just started a tiny semiconductor division, so small it was almost comical.",
+        "start": 455.16,
+        "end": 468.75
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "Sylvania 开出的月薪是：480 美元。",
-        "en": "One dollar more than Ford.",
-        "start": 475.04,
-        "end": 479.52
+        "en": "Sylvania's offer: $480 a month.",
+        "start": 468.75,
+        "end": 473.41
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "比福特，多一美元。",
-        "en": "[Main narrator]",
-        "start": 479.52,
-        "end": 481.27
+        "en": "One dollar more than Ford.",
+        "start": 473.41,
+        "end": 475.65
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "One dollar.",
-        "start": 481.27,
-        "end": 482.43
+        "en": "[Main narrator]",
+        "start": 475.65,
+        "end": 477.73
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "一美元。",
-        "en": "Chang, of course, was not making a decision for one dollar. He valued Ford's platform far more — it was the \"right path\" he had dreamed of.",
-        "start": 482.43,
-        "end": 489.0
+        "en": "One dollar.",
+        "start": 477.73,
+        "end": 478.93
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "张忠谋当然不是为了一美元做决定。他更看重福特的平台——那是他向往的「正路」。",
-        "en": "So he called Ford: would they raise the salary to 480, to match Sylvania?",
-        "start": 489.0,
-        "end": 496.39
+        "en": "Chang, of course, was not making a decision for one dollar. He valued Ford's platform far more — it was the \"right path\" he had dreamed of.",
+        "start": 478.93,
+        "end": 487.1
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "于是，他给福特打了个电话：能不能把薪水提高到 480，跟 Sylvania 一样？",
-        "en": "Ford said no.",
-        "start": 496.39,
-        "end": 504.37
+        "en": "So he called Ford: would they raise the salary to 480, to match Sylvania?",
+        "start": 487.1,
+        "end": 495.18
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "福特说：不能。",
-        "en": "[Main narrator, with feeling]",
-        "start": 504.37,
-        "end": 505.73
+        "en": "Ford said no.",
+        "start": 495.18,
+        "end": 497.16
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "Years later, people love to tell this story as a legend of \"the one dollar that changed a life.\"",
-        "start": 505.73,
-        "end": 510.35
+        "en": "[Main narrator, with feeling]",
+        "start": 497.16,
+        "end": 499.62
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "很多年后，人们喜欢讲这个故事，把它讲成一个「一美元改变命运」的传奇。",
-        "en": "But what changed his life was never the dollar.",
-        "start": 510.35,
-        "end": 516.97
+        "en": "Years later, people love to tell this story as a legend of \"the one dollar that changed a life.\"",
+        "start": 499.62,
+        "end": 506.35
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "但真正改变命运的，从来不是那一美元。",
-        "en": "It was that he followed that dollar through a door he knew nothing about.",
-        "start": 516.97,
-        "end": 520.47
+        "en": "But what changed his life was never the dollar.",
+        "start": 506.35,
+        "end": 510.31
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "而是——他顺着那一美元，走进了一扇他完全不了解的门。",
-        "en": "Behind that door was a company called Sylvania. And the division was called semiconductors.",
-        "start": 520.47,
-        "end": 525.53
+        "en": "It was that he followed that dollar through a door he knew nothing about.",
+        "start": 510.31,
+        "end": 516.22
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "那扇门后面，是一家叫 Sylvania 的公司；那个部门，叫半导体。",
-        "en": "In 1955, \"semiconductor\" was a word almost nobody knew how to pronounce.",
-        "start": 525.53,
-        "end": 532.15
+        "en": "Behind that door was a company called Sylvania. And the division was called semiconductors.",
+        "start": 516.22,
+        "end": 523.03
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "1955 年，半导体，是一个几乎没有人知道该读成什么的词。",
-        "en": "In the years that followed, people asked Chang again and again: why did you choose Sylvania instead of Ford?",
-        "start": 532.15,
-        "end": 537.79
+        "en": "In 1955, \"semiconductor\" was a word almost nobody knew how to pronounce.",
+        "start": 523.03,
+        "end": 528.99
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "后来的岁月里，人们无数次追问张忠谋：你当年为什么选了 Sylvania，而不是福特？",
-        "en": "His answer was always honest: I had no idea what it meant. I just needed a job.",
-        "start": 537.79,
-        "end": 545.96
+        "en": "In the years that followed, people asked Chang again and again: why did you choose Sylvania instead of Ford?",
+        "start": 528.99,
+        "end": 537.65
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "他每次的回答都很诚实：我不知道那意味着什么。我只是需要一份工作。",
-        "en": "— Fate's specialty is making your most important decisions while you are not looking.",
-        "start": 545.96,
-        "end": 552.19
+        "en": "His answer was always honest: I had no idea what it meant. I just needed a job.",
+        "start": 537.65,
+        "end": 544.85
       },
       {
         "secZh": "第三幕 · 一美元的分岔",
         "secEn": "Act Three · The One-Dollar Fork in the Road",
         "speaker": "",
         "zh": "——命运最擅长的，就是在你一无所知的时候，替你做了最重要的决定。",
-        "en": "One more thing about that call to Ford. Chang made it himself, young and earnest, believing that a reasonable request would get a reasonable answer. Ford's flat refusal was a small lesson in the way the world worked: companies do not negotiate with twenty-four-year-olds who have nothing to bargain with. He never forgot it. Decades later, when he ran TSMC, he would remember what it felt like to be the one with no leverage — and he would build a company that treated its customers, however small, with a respect he had once been denied.",
-        "start": 552.19,
-        "end": 575.29
+        "en": "— Fate's specialty is making your most important decisions while you are not looking.",
+        "start": 544.85,
+        "end": 551.99
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5247,8 +5202,8 @@ window.AUDIO_DATA = [
         "speaker": "音效：老式收音机的电流声，远处玻璃管微微发亮",
         "zh": "【音效：老式收音机的电流声，远处玻璃管微微发亮】",
         "en": "[SFX: the hum of an old radio, a glass tube glowing faintly in the distance]",
-        "start": 575.29,
-        "end": 579.96
+        "start": 551.99,
+        "end": 557.82
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5256,8 +5211,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 579.96,
-        "end": 581.13
+        "start": 557.82,
+        "end": 559.9
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5265,8 +5220,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "要理解张忠谋走进了一个怎样的世界，我们要回到八年前。",
         "en": "To understand what kind of world Chang had walked into, we must go back eight years.",
-        "start": 581.13,
-        "end": 586.19
+        "start": 559.9,
+        "end": 565.39
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5274,8 +5229,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1947 年 12 月，美国新泽西州，贝尔实验室。",
         "en": "December 1947. Bell Laboratories, New Jersey.",
-        "start": 586.19,
-        "end": 591.05
+        "start": 565.39,
+        "end": 570.2
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5283,8 +5238,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "三位物理学家——巴丁、布拉顿、肖克利——做出了人类历史上第一只晶体管。",
         "en": "Three physicists — Bardeen, Brattain, and Shockley — built the first transistor in human history.",
-        "start": 591.05,
-        "end": 597.86
+        "start": 570.2,
+        "end": 578.34
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5292,8 +5247,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那是一只只有指甲盖大小的东西，用一小片锗制成，却能放大电信号。它要取代的，是那些笨重、发热、动不动就烧坏的真空电子管。",
         "en": "It was a device the size of a fingernail, made from a sliver of germanium, that could amplify an electrical signal. It was meant to replace the clumsy, hot, unreliable vacuum tubes of the day. Those tubes had powered radios and televisions and early computers — but they burned out, wasted energy, and filled whole rooms with heat. A device that could do the same job in a sliver of material was more than an invention; it was a revolution waiting to happen.",
-        "start": 597.86,
-        "end": 618.05
+        "start": 578.34,
+        "end": 590.92
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5301,8 +5256,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 618.05,
-        "end": 620.19
+        "start": 590.92,
+        "end": 593.39
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5310,8 +5265,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "晶体管诞生后的头几年，它还是个实验室里的稀罕物。",
         "en": "In its first few years, the transistor was a laboratory curiosity.",
-        "start": 620.19,
-        "end": 624.86
+        "start": 593.39,
+        "end": 598.49
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5319,8 +5274,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "直到 1952 年，贝尔实验室做了一件震惊业界的事：它把自己的晶体管专利，向全美公司开放授权。",
         "en": "Then, in 1952, Bell Labs did something that shocked the industry: it opened its transistor patents to companies across America.",
-        "start": 624.86,
-        "end": 634.0
+        "start": 598.49,
+        "end": 607.92
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5328,8 +5283,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "四十家公司，每家支付两万五千美元的许可费，派代表参加了一场为期九天的晶体管技术研讨会。Sylvania，就在这四十家名单里。",
         "en": "Forty companies each paid a $25,000 license fee and sent representatives to a nine-day transistor technology symposium. Sylvania was on that list of forty.",
-        "start": 634.0,
-        "end": 646.07
+        "start": 607.92,
+        "end": 620.9
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5337,8 +5292,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从那时起，晶体管才真正从实验室走向工厂。而美国那些老牌的电子管巨头——RCA、通用电气、Sylvania——都开始抢着转型，生怕错过下一个时代。",
         "en": "From that moment, the transistor moved from the laboratory to the factory floor. And America's old vacuum-tube giants — RCA, General Electric, Sylvania — rushed to transform themselves, terrified of betting on the wrong side of the technological shift.",
-        "start": 646.07,
-        "end": 660.08
+        "start": 620.9,
+        "end": 636.72
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5346,8 +5301,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这些公司，都是在真空管时代称霸的老牌劲旅。它们太清楚一个道理了：技术换代的时候，站错队，就是死路一条。",
         "en": "These were companies that had ruled the vacuum-tube age. They knew one truth too well: when technology changes generations, betting wrong means death.",
-        "start": 660.08,
-        "end": 670.0
+        "start": 636.72,
+        "end": 647.81
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5355,8 +5310,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "Sylvania 的半导体部门，就是在这样的背景下成立的。它没有独立的办公楼，没有明星科学家，只有一群从电子管车间里转行过来的工程师，和一间小小的实验室。",
         "en": "Sylvania's semiconductor division was born in that climate. It had no separate headquarters, no star scientists — just a group of engineers transferred from the tube workshops, and a small laboratory.",
-        "start": 670.0,
-        "end": 684.98
+        "start": 647.81,
+        "end": 663.56
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5364,8 +5319,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "——但就是这样的地方，向一个机械工程的硕士，伸出了手。",
         "en": "— But it was a place like this that reached out to a master's in mechanical engineering.",
-        "start": 684.98,
-        "end": 690.23
+        "start": 663.56,
+        "end": 669.75
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5373,8 +5328,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 690.23,
-        "end": 691.4
+        "start": 669.75,
+        "end": 671.83
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5382,8 +5337,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1955 年，张忠谋入职 Sylvania 的半导体部门。",
         "en": "In 1955, Chang joined Sylvania's semiconductor division.",
-        "start": 691.4,
-        "end": 697.04
+        "start": 671.83,
+        "end": 677.32
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5391,8 +5346,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他后来回忆说，他当时根本不知道半导体是什么，不知道晶体管是什么，更不知道这个决定将通向哪里。",
         "en": "He would recall later that he had no idea what semiconductors were, what transistors were, or where this decision would lead.",
-        "start": 697.04,
-        "end": 705.99
+        "start": 677.32,
+        "end": 686.81
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5400,8 +5355,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他只是觉得，Sylvania 听起来是一家正经公司，480 美元的月薪，也足够他在美国立足。",
         "en": "He only thought: Sylvania sounded like a proper company, and $480 a month was enough to get by in America.",
-        "start": 705.99,
-        "end": 714.94
+        "start": 686.81,
+        "end": 695.92
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5409,8 +5364,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 714.94,
-        "end": 717.08
+        "start": 695.92,
+        "end": 698.38
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5418,8 +5373,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "入职第一天，他大概是一脸懵懂地走进那间小办公室的。",
         "en": "On his first day, he probably walked into that small office looking utterly lost.",
-        "start": 717.08,
-        "end": 721.95
+        "start": 698.38,
+        "end": 703.68
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5427,8 +5382,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他分到的工作，是锗晶体管的良率改进。",
         "en": "His assignment: improving the yield of germanium transistors.",
-        "start": 721.95,
-        "end": 725.45
+        "start": 703.68,
+        "end": 707.64
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5436,8 +5391,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "良率——就是生产出来的晶体管里，能用的占多少。那时的良率低得吓人，一大半产品都是废品。而这背后，是一个个具体的、机械工程式的问题：怎么把金属丝焊到晶体管上，才不会把晶体管烫坏？",
         "en": "Yield — the share of transistors that come out usable. In those days, yields were appallingly low; more than half the products were rejects. And behind that number were concrete, mechanical-engineering problems: how do you solder a wire onto a transistor without the heat destroying the device?",
-        "start": 725.45,
-        "end": 742.57
+        "start": 707.64,
+        "end": 726.83
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5445,8 +5400,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "生产线上，技术员拿着一把烙铁，把细细的金属丝焊到晶体管上。焊点一热，热量顺着金属丝传下去，常常把脆弱的晶体管烧坏。",
         "en": "On the production line, a technician held a soldering iron and attached a fine wire to each transistor. The heat traveled down the wire and often burned out the delicate device.",
-        "start": 742.57,
-        "end": 753.66
+        "start": 726.83,
+        "end": 738.95
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5454,8 +5409,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个 MIT 的机械工程硕士，被派去解决焊接问题。",
         "en": "An MIT mechanical engineering master's, assigned to a soldering problem.",
-        "start": 753.66,
-        "end": 758.53
+        "start": 738.95,
+        "end": 743.86
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5463,8 +5418,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "听起来大材小用，是不是？",
         "en": "Overqualified, isn't it?",
-        "start": 758.53,
-        "end": 760.86
+        "start": 743.86,
+        "end": 746.68
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5472,8 +5427,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可张忠谋没有挑活。他蹲在生产线上，盯着那些被焊坏的晶体管，想出了一个办法：用间接加热的方式连接金属丝，而不是直接焊接——热量不再烧坏晶体管。",
         "en": "But Chang did not pick and choose his work. He crouched over the production line, stared at the ruined transistors, and devised a solution: attach the wire using indirect heat, instead of direct soldering — the heat no longer destroyed the transistor.",
-        "start": 760.86,
-        "end": 774.48
+        "start": 746.68,
+        "end": 761.82
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5481,8 +5436,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "良率，上去了。",
         "en": "The yield went up — not dramatically, not overnight, but steadily, because the underlying problem had been solved. It was a small victory, the kind nobody writes into history books. But it taught the young engineer a lesson he would carry for a lifetime: manufacturing is not glamorous, but it is where the value is made.",
-        "start": 774.48,
-        "end": 788.1
+        "start": 761.82,
+        "end": 763.68
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5490,8 +5445,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 788.1,
-        "end": 790.24
+        "start": 763.68,
+        "end": 766.14
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5499,8 +5454,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这件事，值得停下来想一想。",
         "en": "This is worth pausing over.",
-        "start": 790.24,
-        "end": 792.77
+        "start": 766.14,
+        "end": 769.14
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5508,8 +5463,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋后来在半导体业闯荡几十年，他反复说一句话：技术没有贵贱，问题不分大小。",
         "en": "Chang would spend decades in the semiconductor industry, and he repeated one idea over and over: technology has no rank; problems have no size.",
-        "start": 792.77,
-        "end": 800.17
+        "start": 769.14,
+        "end": 777.23
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5517,8 +5472,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个看似微不足道的焊接问题，背后是温度、材料、工艺的复杂平衡——这和他后来在德州仪器解决良率难题、再后来在台积电把制造做到极致，用的是同一种思维：",
         "en": "A seemingly trivial soldering problem hid a delicate balance of temperature, materials, and process — the same kind of thinking he would later apply to solving yield problems at Texas Instruments, and later still to perfecting manufacturing at TSMC:",
-        "start": 800.17,
-        "end": 814.37
+        "start": 777.23,
+        "end": 792.26
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5526,8 +5481,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "不放过任何一个细节。",
         "en": "Never let a single detail pass.",
-        "start": 814.37,
-        "end": 816.32
+        "start": 792.26,
+        "end": 794.6
       },
       {
         "secZh": "第四幕 · 晶体管革命的前夜",
@@ -5535,8 +5490,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他人生里第一个「制造奇迹」，不是在大公司、大项目里诞生的，而是在一条小小的晶体管生产线上，从一个焊接问题开始的。",
         "en": "His first \"manufacturing miracle\" was not born in a big company or a grand project. It was born on a small transistor production line, starting from a soldering problem.",
-        "start": 816.32,
-        "end": 827.21
+        "start": 794.6,
+        "end": 805.71
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5544,8 +5499,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 827.21,
-        "end": 828.38
+        "start": 805.71,
+        "end": 807.79
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5553,8 +5508,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "焊接问题解决了，可张忠谋心里清楚：这只是治标。",
         "en": "The soldering problem was solved. But Chang knew it was only a patch.",
-        "start": 828.38,
-        "end": 832.85
+        "start": 807.79,
+        "end": 812.92
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5562,8 +5517,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "真正的半导体理论，他一窍不通。他不知道电子和空穴是什么，不知道为什么一片锗能放大信号。",
         "en": "The real semiconductor theory — he knew nothing. He did not know what electrons and holes were, or why a sliver of germanium could amplify a signal.",
-        "start": 832.85,
-        "end": 841.22
+        "start": 812.92,
+        "end": 822.18
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5571,8 +5526,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，他开始自学。",
         "en": "So he began to teach himself.",
-        "start": 841.22,
-        "end": 842.97
+        "start": 822.18,
+        "end": 824.42
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5580,8 +5535,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他找来一本书——肖克利写的《半导体中的电子与空穴》。肖克利，就是发明晶体管的那三位物理学家之一，这本书是当时半导体领域的圣经。",
         "en": "He found a book — \"Electrons and Holes in Semiconductors,\" written by William Shockley, one of the three inventors of the transistor. It was the bible of the semiconductor field.",
-        "start": 842.97,
-        "end": 855.23
+        "start": 824.42,
+        "end": 837.54
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5589,8 +5544,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 855.23,
-        "end": 857.37
+        "start": 837.54,
+        "end": 840.01
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5598,8 +5553,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可这本书，太难了。",
         "en": "The book was too hard.",
-        "start": 857.37,
-        "end": 859.12
+        "start": 840.01,
+        "end": 842.24
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5607,8 +5562,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他后来承认，书里有一半的内容，他看不懂。那些关于能带、载流子、空穴的概念，像一堵墙，横在他面前。",
         "en": "He admitted later that half of it baffled him. The concepts of energy bands, carriers, holes — they stood before him like a wall.",
-        "start": 859.12,
-        "end": 868.46
+        "start": 842.24,
+        "end": 852.81
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5616,8 +5571,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他完全可以不学。他只是个做焊接改进的机械工程师，良率已经上去了，没人要求他懂理论。",
         "en": "He could have stopped. He was just a mechanical engineer improving soldering; the yield was already up; nobody required him to understand theory.",
-        "start": 868.46,
-        "end": 876.44
+        "start": 852.81,
+        "end": 861.68
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5625,8 +5580,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但张忠谋的字典里，没有「够用就好」这四个字。",
         "en": "But \"good enough\" was not in Chang's vocabulary.",
-        "start": 876.44,
-        "end": 880.72
+        "start": 861.68,
+        "end": 866.03
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5634,8 +5589,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "就在这时，一个偶然的机会出现了。",
         "en": "Then a lucky accident appeared.",
-        "start": 880.72,
-        "end": 883.83
+        "start": 866.03,
+        "end": 869.6
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5643,8 +5598,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他发现，Sylvania 有一位资深工程师，每天傍晚都在他住的旅馆酒吧里喝酒，一喝就是几个小时。",
         "en": "He discovered that a senior engineer at Sylvania spent every evening drinking at the bar of the hotel where Chang was staying, for hours at a time.",
-        "start": 883.83,
-        "end": 893.17
+        "start": 869.6,
+        "end": 879.29
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5652,8 +5607,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，张忠谋的夜晚，有了固定的节奏——",
         "en": "And so Chang's evenings took on a fixed rhythm —",
-        "start": 893.17,
-        "end": 896.87
+        "start": 879.29,
+        "end": 883.52
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5661,8 +5616,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "白天上班，晚上回旅馆，把自己关在房间里，对着肖克利的书苦读几个小时，把不懂的问题一个个记下来。然后，拿着问题下楼，到酒吧里找那位工程师。",
         "en": "By day, work. By night, back at the hotel, shut in his room, poring over Shockley's book for hours, writing down every problem he could not solve. Then he took his questions downstairs, to the bar, to the engineer.",
-        "start": 896.87,
-        "end": 910.1
+        "start": 883.52,
+        "end": 897.91
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5670,8 +5625,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 对话",
         "zh": "【主叙述者 · 对话】",
         "en": "[Main narrator, dialogue]",
-        "start": 910.1,
-        "end": 912.24
+        "start": 897.91,
+        "end": 900.37
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5679,8 +5634,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「他没解决我所有的问题，但他解决了足够多的，让我能继续往前走。他是我主要的老师。」——很多年后，张忠谋这样回忆。",
         "en": "\"He didn't solve all my problems, but he solved enough so I could move ahead. He was my main teacher,\" Chang would recall, many years later.",
-        "start": 912.24,
-        "end": 923.13
+        "start": 900.37,
+        "end": 912.67
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5688,8 +5643,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 923.13,
-        "end": 924.3
+        "start": 912.67,
+        "end": 914.75
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5697,8 +5652,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个中国年轻人，一间旅馆的小房间，一本读不懂的书，和一位在酒吧里喝酒的工程师。",
         "en": "A young Chinese man, a small hotel room, an unreadable book, and an engineer drinking at a bar.",
-        "start": 924.3,
-        "end": 931.89
+        "start": 914.75,
+        "end": 922.9
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5706,8 +5661,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这就是晶体管时代，一个工程师的夜校。",
         "en": "That was the night school of an engineer in the transistor age.",
-        "start": 931.89,
-        "end": 935.39
+        "start": 922.9,
+        "end": 926.86
       },
       {
         "secZh": "第五幕 · 酒吧里的老师",
@@ -5715,8 +5670,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "没有课堂，没有学费，没有文凭。只有一个年轻人，愿意在别人喝酒的夜晚，用问题换答案。",
         "en": "No classroom, no tuition, no diploma. Just a young man willing, on evenings when others were drinking, to trade his questions for answers.",
-        "start": 935.39,
-        "end": 943.37
+        "start": 926.86,
+        "end": 935.91
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5724,8 +5679,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静，放慢",
         "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 943.37,
-        "end": 946.09
+        "start": 935.91,
+        "end": 939.04
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5733,8 +5688,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1958 年，张忠谋在 Sylvania 待了三年，决定离开。",
         "en": "In 1958, after three years at Sylvania, Chang decided to leave.",
-        "start": 946.09,
-        "end": 952.12
+        "start": 939.04,
+        "end": 945.0
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5742,8 +5697,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他看得很清楚：这家公司，在半导体上「不会有大作为」。它的工程师大多是五六十岁的电子管老人，公司也缺乏营销的本事——造得出好晶体管，却卖不出去。",
         "en": "He saw it clearly: this company \"wasn't going anywhere\" in semiconductors. Its engineers were mostly men in their fifties who had come over from vacuum tubes, and the company had little talent for marketing — it could build good transistors but could not sell them.",
-        "start": 952.12,
-        "end": 965.94
+        "start": 945.0,
+        "end": 959.95
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5751,8 +5706,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他接受了德州仪器的邀请，去了达拉斯。",
         "en": "He accepted an invitation from Texas Instruments and moved to Dallas.",
-        "start": 965.94,
-        "end": 969.44
+        "start": 959.95,
+        "end": 963.91
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5760,8 +5715,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，他二十七岁。",
         "en": "He was twenty-seven years old.",
-        "start": 969.44,
-        "end": 971.39
+        "start": 963.91,
+        "end": 966.34
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5769,8 +5724,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 971.39,
-        "end": 973.53
+        "start": 966.34,
+        "end": 968.81
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5778,8 +5733,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而他不知道的是，他离开的这一年，正是半导体史上风起云涌的一年。",
         "en": "What he did not know was that the year he left was one of the most turbulent in semiconductor history.",
-        "start": 973.53,
-        "end": 979.56
+        "start": 968.81,
+        "end": 975.34
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5787,8 +5742,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1957 年 10 月，苏联发射了人类第一颗人造卫星——斯普特尼克。整个美国为之震动：美国人第一次意识到，自己在科技竞赛中可能落后了。",
         "en": "In October 1957, the Soviet Union had launched Sputnik — the first artificial satellite in human history. America was shaken: for the first time, Americans realized they might be falling behind in the race of science and technology.",
-        "start": 979.56,
-        "end": 992.59
+        "start": 975.34,
+        "end": 989.25
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5796,8 +5751,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「斯普特尼克时刻」，改变了一个时代。美国开始疯狂投入科学、工程、太空——而那些掌握半导体技术的人，一夜之间成了国家最需要的人才。",
         "en": "The \"Sputnik moment\" changed an era. America poured money into science, engineering, and space — and the people who knew semiconductors suddenly became the most wanted talent in the country.",
-        "start": 992.59,
-        "end": 1005.05
+        "start": 989.25,
+        "end": 1002.74
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5805,8 +5760,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋自己，大概也没想到：他在 Sylvania 那间小实验室里、那个旅馆房间里自学的那点半导体知识，会让他成为这个新时代最抢手的人。",
         "en": "Chang himself probably did not realize: the little bit of semiconductor knowledge he had taught himself in that small Sylvania laboratory, in that hotel room — it was about to make him one of the most sought-after men of the new age.",
-        "start": 1005.05,
-        "end": 1018.08
+        "start": 1002.74,
+        "end": 1016.08
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5814,8 +5769,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 1018.08,
-        "end": 1020.22
+        "start": 1016.08,
+        "end": 1018.54
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5823,8 +5778,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们再回头看 1955 年那个春天。",
         "en": "Let us look back at that spring of 1955.",
-        "start": 1020.22,
-        "end": 1023.92
+        "start": 1018.54,
+        "end": 1022.22
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5832,8 +5787,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个 MIT 的硕士，博士考了两次没过，寄出四十多封信，回音寥寥。福特的 offer，因为一美元之差，没有谈成。他阴差阳错，走进了一家他连名字都念不准的公司的半导体部门。",
         "en": "An MIT master's, twice rejected by the doctoral exam, had mailed forty letters and heard back from almost no one. Ford's offer had fallen through over one dollar. He had stumbled, by accident, into the semiconductor division of a company he could barely pronounce.",
-        "start": 1023.92,
-        "end": 1040.46
+        "start": 1022.22,
+        "end": 1039.72
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5841,8 +5796,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他以为那只是找不到更好工作的无奈之选。",
         "en": "He thought it was the choice of a man who could not find anything better.",
-        "start": 1040.46,
-        "end": 1044.16
+        "start": 1039.72,
+        "end": 1043.78
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5850,8 +5805,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他不知道，那扇门后面，是一个即将改变全世界的产业；而他，恰好站在了这个产业的门槛上。",
         "en": "He did not know that behind that door was an industry about to change the world — and that he was standing, at exactly the right moment, on its threshold.",
-        "start": 1044.16,
-        "end": 1052.33
+        "start": 1043.78,
+        "end": 1052.6
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5859,8 +5814,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 1052.33,
-        "end": 1054.47
+        "start": 1052.6,
+        "end": 1055.06
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5868,8 +5823,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "被拒绝，从来不是终点。",
         "en": "Rejection is never the end.",
-        "start": 1054.47,
-        "end": 1056.61
+        "start": 1055.06,
+        "end": 1057.68
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5877,8 +5832,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "福特拒绝的那一美元，Sylvania 收留了他的那一天，酒吧里那位工程师的每一个夜晚——命运用这些看似微不足道的碎片，悄悄为他拼出了一条路。",
         "en": "The dollar Ford refused, the day Sylvania took him in, the evenings with the engineer at the bar — fate used these tiny, seemingly meaningless fragments to quietly assemble a road for him.",
-        "start": 1056.61,
-        "end": 1070.23
+        "start": 1057.68,
+        "end": 1071.99
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5886,8 +5841,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这条路，当时没人知道它通向哪里。",
         "en": "No one knew, at the time, where that road led.",
-        "start": 1070.23,
-        "end": 1073.34
+        "start": 1071.99,
+        "end": 1075.57
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5895,8 +5850,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它通向半导体。通向德州仪器。通向台积电。通向一个后来被称为「半导体教父」的老人。",
         "en": "It led to semiconductors. To Texas Instruments. To TSMC. To an old man who would one day be called the \"father of the semiconductor industry.\"",
-        "start": 1073.34,
-        "end": 1081.12
+        "start": 1075.57,
+        "end": 1084.56
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -5904,8 +5859,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "**被拒绝不是终点，是命运在给你指另一条路——只是当时没人知道，这条路通向半导体。**",
         "en": "**Rejection is not the end. It is fate pointing you down another road — and no one knew, at the time, that the road led to semiconductors.**",
-        "start": 1081.12,
-        "end": 1089.49
+        "start": 1084.56,
+        "end": 1093.05
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -5913,8 +5868,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
         "en": "(Verified public facts, for the listener's reference)",
-        "start": 1089.49,
-        "end": 1093.38
+        "start": 1093.05,
+        "end": 1097.89
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -5922,8 +5877,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1. **晶体管发明（1947）**：1947 年 12 月，贝尔实验室的巴丁、布拉顿、肖克利发明人类第一只点接触晶体管；1956 年三人共同获得诺贝尔物理学奖。",
         "en": "1. **The Invention of the Transistor (1947)**: In December 1947, John Bardeen, Walter Brattain, and William Shockley of Bell Labs built the first point-contact transistor; the three shared the 1956 Nobel Prize in Physics.",
-        "start": 1093.38,
-        "end": 1109.14
+        "start": 1097.89,
+        "end": 1112.7
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -5931,8 +5886,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "2. **1952 年晶体管技术授权**：1952 年 4 月，贝尔实验室向 40 家公司开放晶体管专利授权，每家支付 2.5 万美元许可费，并举办为期九天的技术研讨会——Sylvania 是授权厂商之一，此举让晶体管从实验室走向量产。",
         "en": "2. **The 1952 Transistor Licensing**: In April 1952, Bell Labs opened its transistor patents to 40 companies at $25,000 each and held a nine-day technology symposium — Sylvania was among the licensees. This moved the transistor from lab to factory.",
-        "start": 1109.14,
-        "end": 1132.1
+        "start": 1112.7,
+        "end": 1134.87
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -5940,8 +5895,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "3. **Sylvania 半导体部**：美国老牌电子管制造商 Sylvania Electric Products 于 1950 年代初成立半导体部门（总部在麻省 Ipswich/Woburn 一带），张忠谋 1955 年入职，从事锗晶体管良率改进与器件开发。",
         "en": "3. **Sylvania's Semiconductor Division**: The old vacuum-tube maker Sylvania Electric Products started a small semiconductor division in the early 1950s (based around Ipswich/Woburn, Massachusetts). Morris Chang joined in 1955 to work on germanium transistor yield improvement.",
-        "start": 1132.1,
-        "end": 1157.59
+        "start": 1134.87,
+        "end": 1157.54
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -5949,8 +5904,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "4. **福特 offer 的一美元之差**：1955 年福特开价月薪 $479，Sylvania 开价 $480；张忠谋请福特加薪匹配被拒，遂入职 Sylvania（据 IEEE Spectrum 专访，张忠谋自述）。",
         "en": "4. **The One-Dollar Fork**: In 1955 Ford offered $479/month; Sylvania offered $480. Chang asked Ford to match, Ford refused, and he joined Sylvania (per IEEE Spectrum interview with Chang).",
-        "start": 1157.59,
-        "end": 1178.99
+        "start": 1157.54,
+        "end": 1176.37
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -5958,8 +5913,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "5. **斯普特尼克时刻（1957）**：1957 年 10 月 4 日苏联发射人类首颗人造卫星斯普特尼克一号，美国举国震动，加速太空与科技投入，被视为冷战科技竞赛的标志性事件。",
         "en": "5. **The Sputnik Moment (1957)**: On October 4, 1957, the Soviet Union launched Sputnik 1, the first artificial satellite. America's shock accelerated its investment in space and technology — a defining moment of the Cold War's technology race.",
-        "start": 1178.99,
-        "end": 1196.31
+        "start": 1176.37,
+        "end": 1192.43
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -5967,8 +5922,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "6. **艾森豪威尔时代（1953–1961）**：战后经济繁荣、中产阶级扩张、冷战对峙——美国科技与产业在政府投入与民间活力双重推动下高速发展。",
         "en": "6. **The Eisenhower Era (1953–1961)**: Postwar prosperity, a booming middle class, and Cold War rivalry drove rapid growth in American science, industry, and technology.",
-        "start": 1196.31,
-        "end": 1210.51
+        "start": 1192.43,
+        "end": 1206.53
       },
       {
         "secZh": "下集预告",
@@ -5976,8 +5931,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1210.51,
-        "end": 1211.68
+        "start": 1206.53,
+        "end": 1208.62
       },
       {
         "secZh": "下集预告",
@@ -5985,8 +5940,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1958 年，张忠谋二十七岁，来到达拉斯，走进德州仪器。",
         "en": "In 1958, at twenty-seven, Morris Chang arrived in Dallas and walked into Texas Instruments.",
-        "start": 1211.68,
-        "end": 1217.13
+        "start": 1208.62,
+        "end": 1214.47
       },
       {
         "secZh": "下集预告",
@@ -5994,8 +5949,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他接手的，是一条为 IBM 生产晶体管的产线——良率几乎为零。",
         "en": "The production line he took over — making transistors for IBM — had a yield of almost zero.",
-        "start": 1217.13,
-        "end": 1223.16
+        "start": 1214.47,
+        "end": 1220.96
       },
       {
         "secZh": "下集预告",
@@ -6003,8 +5958,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "三个月后，良率冲到了百分之二十五。",
         "en": "Three months later, the yield hit twenty-five percent.",
-        "start": 1223.16,
-        "end": 1226.47
+        "start": 1220.96,
+        "end": 1224.73
       },
       {
         "secZh": "下集预告",
@@ -6012,8 +5967,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从德州仪器开始，他的职业生涯像坐了火箭：斯坦福博士、集成电路部总经理、半导体集团副总裁……",
         "en": "From Texas Instruments, his career took off like a rocket: a Stanford doctorate, general manager of the integrated circuits division, group vice president of the semiconductor business...",
-        "start": 1226.47,
-        "end": 1235.22
+        "start": 1224.73,
+        "end": 1233.42
       },
       {
         "secZh": "下集预告",
@@ -6021,8 +5976,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可他一直记得，自己是从哪里起步的。",
         "en": "But he never forgot where he started.",
-        "start": 1235.22,
-        "end": 1238.53
+        "start": 1233.42,
+        "end": 1237.19
       },
       {
         "secZh": "下集预告",
@@ -6030,8 +5985,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "隔着半个美国，硅谷正在酝酿一场叛乱——八个人，即将离开他们的老板，改写整个产业。",
         "en": "Half a continent away, in Silicon Valley, a rebellion was brewing — eight men were about to leave their boss and rewrite the entire industry.",
-        "start": 1238.53,
-        "end": 1246.31
+        "start": 1237.19,
+        "end": 1245.96
       },
       {
         "secZh": "下集预告",
@@ -6039,7 +5994,7 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "下集，《隔岸观火的叛乱》：一场叛乱，两种结局。",
         "en": "Next episode, \"Watching the Rebellion from Afar\": one rebellion, two outcomes.",
-        "start": 1246.31,
+        "start": 1245.96,
         "end": 1250.79
       }
     ]
@@ -6051,8 +6006,8 @@ window.AUDIO_DATA = [
     "summary": "隔岸观火的叛乱 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第05期-隔岸观火的叛乱/中文音频.mp3",
     "audioEn": "./03-剧集/第05期-隔岸观火的叛乱/英文音频.mp3",
-    "durationZh": 1194.28,
-    "durationEn": 1292.63,
+    "durationZh": 1194.276,
+    "durationEn": 1292.628,
     "cues": [
       {
         "secZh": "开场",
@@ -6061,7 +6016,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：旧式打字机与电话铃声交叠，远处传来人群的脚步声，渐渐压低】",
         "en": "[SFX: an old typewriter clattering, a telephone ringing in the distance, footsteps fading]",
         "start": 0.0,
-        "end": 6.31
+        "end": 7.92
       },
       {
         "secZh": "开场",
@@ -6069,8 +6024,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1957 年秋天，美国西海岸，帕洛阿尔托。",
         "en": "Palo Alto, California. Autumn, 1957.",
-        "start": 6.31,
-        "end": 10.32
+        "start": 7.92,
+        "end": 12.51
       },
       {
         "secZh": "开场",
@@ -6078,8 +6033,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一家半导体实验室的门口，八个年轻人，抱着纸箱，走出了大门。",
         "en": "Outside a semiconductor laboratory, eight young men walk out the door, carrying cardboard boxes.",
-        "start": 10.32,
-        "end": 15.87
+        "start": 12.51,
+        "end": 18.98
       },
       {
         "secZh": "开场",
@@ -6087,8 +6042,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他们的老板，是威廉·肖克利——诺贝尔奖得主，晶体管的三位发明人之一。几个月前，他还被当作圣人一样供着，被视为半导体界最有名望的人。",
         "en": "Their boss is William Shockley — a Nobel laureate, one of the three inventors of the transistor. Months earlier, he had been treated like a saint, the most celebrated figure in the semiconductor world.",
-        "start": 15.87,
-        "end": 28.29
+        "start": 18.98,
+        "end": 33.38
       },
       {
         "secZh": "开场",
@@ -6096,8 +6051,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而这八个人，此刻正在做一件在当时看来大逆不道的事：",
         "en": "And these eight men are doing something that, at the time, looked like sheer ingratitude:",
-        "start": 28.29,
-        "end": 33.07
+        "start": 33.38,
+        "end": 38.65
       },
       {
         "secZh": "开场",
@@ -6105,8 +6060,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "集体辞职。",
         "en": "They are resigning. Together.",
-        "start": 33.07,
-        "end": 34.03
+        "start": 38.65,
+        "end": 40.09
       },
       {
         "secZh": "开场",
@@ -6114,8 +6069,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 34.03,
-        "end": 35.17
+        "start": 40.09,
+        "end": 42.25
       },
       {
         "secZh": "开场",
@@ -6123,8 +6078,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "消息传开，业界一片哗然。",
         "en": "The news rippled through the industry.",
-        "start": 35.17,
-        "end": 37.47
+        "start": 42.25,
+        "end": 45.17
       },
       {
         "secZh": "开场",
@@ -6132,8 +6087,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "有人骂他们不知感恩，有人笑他们自寻死路。一家媒体的标题，给这八个人起了一个充满讽刺意味的名字——",
         "en": "Some called them ungrateful. Some laughed at them for throwing away their futures. One headline gave the eight men a name dripping with sarcasm —",
-        "start": 37.47,
-        "end": 46.64
+        "start": 45.17,
+        "end": 55.76
       },
       {
         "secZh": "开场",
@@ -6141,8 +6096,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「叛逆八帮」。",
         "en": "\"The Traitorous Eight.\"",
-        "start": 46.64,
-        "end": 47.98
+        "start": 55.76,
+        "end": 57.2
       },
       {
         "secZh": "开场",
@@ -6150,8 +6105,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从此，硅谷的故事，有了它真正的第一章。",
         "en": "From that moment, Silicon Valley had its true first chapter.",
-        "start": 47.98,
-        "end": 51.61
+        "start": 57.2,
+        "end": 61.59
       },
       {
         "secZh": "开场",
@@ -6159,8 +6114,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而在三千公里外的达拉斯，有一个二十六岁的年轻人，刚刚走进一家叫德州仪器的公司。",
         "en": "Three thousand kilometers away, in Dallas, a twenty-six-year-old man had just walked into a company called Texas Instruments.",
-        "start": 51.61,
-        "end": 59.07
+        "start": 61.59,
+        "end": 69.96
       },
       {
         "secZh": "开场",
@@ -6168,8 +6123,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他叫张忠谋。",
         "en": "His name is Morris Chang.",
-        "start": 59.07,
-        "end": 60.26
+        "start": 69.96,
+        "end": 71.6
       },
       {
         "secZh": "开场",
@@ -6177,8 +6132,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他大概不会想到，这场三千公里外的「叛乱」，会成为他日后职业生涯里，最重要的参照物之一。",
         "en": "He could not have known that this rebellion, three thousand kilometers away, would become one of the most important reference points of his entire career.",
-        "start": 60.26,
-        "end": 68.48
+        "start": 71.6,
+        "end": 80.45
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6186,8 +6141,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 68.48,
-        "end": 69.63
+        "start": 80.45,
+        "end": 82.61
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6195,8 +6150,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "要讲清楚这场叛乱，得先从叛乱的源头说起。",
         "en": "To understand the rebellion, we must start with the man it rebelled against.",
-        "start": 69.63,
-        "end": 73.45
+        "start": 82.61,
+        "end": 87.12
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6204,8 +6159,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "威廉·肖克利，是二十世纪最伟大的物理学家之一。1947 年，他在贝尔实验室与巴丁、布拉顿共同发明了晶体管；1956 年，他获得了诺贝尔物理学奖。",
         "en": "William Shockley was one of the greatest physicists of the twentieth century. In 1947, at Bell Labs, he and Bardeen and Brattain had invented the transistor; in 1956, he won the Nobel Prize in Physics.",
-        "start": 73.45,
-        "end": 87.22
+        "start": 87.12,
+        "end": 102.16
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6213,8 +6168,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "功成名就之后，肖克利做出了一个大胆的决定：离开贝尔实验室，回到家乡加州，创办自己的半导体公司。",
         "en": "At the height of his fame, Shockley made a bold decision: leave Bell Labs, return to his native California, and start his own semiconductor company.",
-        "start": 87.22,
-        "end": 96.2
+        "start": 102.16,
+        "end": 112.42
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6222,8 +6177,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他要做的，是硅，是未来。",
         "en": "He was going to build the future. Silicon.",
-        "start": 96.2,
-        "end": 98.5
+        "start": 112.42,
+        "end": 115.43
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6231,8 +6186,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 98.5,
-        "end": 100.6
+        "start": 115.43,
+        "end": 117.98
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6240,8 +6195,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "肖克利不缺天才，他缺的是别的。",
         "en": "Shockley did not lack genius. He lacked something else.",
-        "start": 100.6,
-        "end": 103.47
+        "start": 117.98,
+        "end": 121.5
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6249,8 +6204,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他招募了一批全美最优秀的年轻博士——其中包括两位日后改变世界的人物：罗伯特·诺伊斯，和戈登·摩尔。",
         "en": "He recruited some of the best young Ph.D.s in America — among them two men who would one day change the world: Robert Noyce, and Gordon Moore.",
-        "start": 103.47,
-        "end": 112.83
+        "start": 121.5,
+        "end": 132.02
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6258,8 +6213,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那是一个半导体业刚刚萌芽的年代。晶体管发明不过十年，硅，即将取代锗，成为新的材料之王。肖克利实验室，一度被看作全美最有希望的地方。",
         "en": "It was an era when the semiconductor industry was just being born. The transistor was barely ten years old; silicon was about to replace germanium as the new king of materials. Shockley Laboratories was regarded as one of the most promising places in America.",
-        "start": 112.83,
-        "end": 125.26
+        "start": 132.02,
+        "end": 146.62
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6267,8 +6222,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可肖克利，是个糟糕的老板。",
         "en": "But Shockley was a terrible boss.",
-        "start": 125.26,
-        "end": 127.74
+        "start": 146.62,
+        "end": 149.74
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6276,8 +6231,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他天才，但也傲慢；他聪明，但也偏执。他怀疑同事偷他的研究，要求员工做测谎，常常为了一点小事大发雷霆。有一回，他因为一个无关紧要的小问题，在全体会议上当众羞辱了一位工程师。实验室里最有才能的人，一个个心灰意冷。",
         "en": "He was brilliant, and arrogant; clever, and paranoid. He suspected his colleagues of stealing his research. He demanded lie-detector tests. He flew into rages over trivialities. Once, over a trivial issue, he humiliated an engineer in front of the whole staff. The most talented people in the lab grew more and more disheartened.",
-        "start": 127.74,
-        "end": 147.62
+        "start": 149.74,
+        "end": 172.88
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6285,8 +6240,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "年轻人聚在一起，私下里讨论得越来越多：我们为什么要留在这里？我们为什么不能自己干？",
         "en": "The young men gathered privately, more and more often, and asked each other the same questions: Why are we staying? Why can't we do it ourselves?",
-        "start": 147.62,
-        "end": 155.46
+        "start": 172.88,
+        "end": 182.22
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6294,8 +6249,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "It was the oldest story in the world — genius at the top, frustration at the bottom. But this time, the frustrated men at the bottom were, in their own right, among the most gifted engineers of their generation. They were not ordinary employees. They were future founders.",
-        "start": 155.46,
-        "end": 166.93
+        "start": 182.22,
+        "end": 184.38
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6303,8 +6258,8 @@ window.AUDIO_DATA = [
         "speaker": "Main narrator",
         "zh": "终于，1957 年，忍耐到了极限。",
         "en": "[Main narrator]",
-        "start": 166.93,
-        "end": 170.18
+        "start": 184.38,
+        "end": 188.18
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6312,8 +6267,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "八个年轻人——诺伊斯、摩尔，还有另外六位工程师——决定离开。",
         "en": "Finally, in 1957, patience ran out.",
-        "start": 170.18,
-        "end": 175.92
+        "start": 188.18,
+        "end": 195.64
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6321,8 +6276,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他们有一个更疯狂的想法：不找别的公司，自己干。",
         "en": "Eight young men — Noyce, Moore, and six other engineers — decided to leave.",
-        "start": 175.92,
-        "end": 180.31
+        "start": 195.64,
+        "end": 200.96
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6330,8 +6285,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可创业，需要钱。而他们，大多是口袋里没几个钱的年轻工程师。",
         "en": "And they had an even crazier idea: not to join another company, but to start their own.",
-        "start": 180.31,
-        "end": 185.86
+        "start": 200.96,
+        "end": 207.79
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6339,8 +6294,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "就在这时，一个年轻人出现了。他叫阿瑟·洛克，在纽约一家投行工作，做的是证券分析。",
         "en": "But starting a company takes money. And they were mostly young engineers with little in their pockets.",
-        "start": 185.86,
-        "end": 193.5
+        "start": 207.79,
+        "end": 216.69
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6348,8 +6303,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "洛克听了他们的想法，觉得有戏。他带着这八个人的商业计划书，跑遍了纽约的大小公司。",
         "en": "Just then, a young man appeared. His name was Arthur Rock, a securities analyst at an investment bank in New York.",
-        "start": 193.5,
-        "end": 201.15
+        "start": 216.69,
+        "end": 225.7
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6357,8 +6312,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "到处碰壁。",
         "en": "Rock heard their plan and thought it had promise. He carried their business plan around New York, knocking on the doors of company after company.",
-        "start": 201.15,
-        "end": 207.12
+        "start": 225.7,
+        "end": 227.14
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6366,8 +6321,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那是 1957 年。在华尔街，还没有「风险投资」这个概念。没有人愿意把钱押在一群刚辞职的年轻工程师身上，押在一个连产品都还没有的新行业上。",
         "en": "He was turned away everywhere.",
-        "start": 207.12,
-        "end": 220.31
+        "start": 227.14,
+        "end": 241.56
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6375,8 +6330,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "洛克后来回忆说，那段时间，他几乎要被这些公司赶出门外。",
         "en": "That was 1957. On Wall Street, the concept of \"venture capital\" did not yet exist. Nobody wanted to bet money on a group of recently-resigned young engineers, in an industry that did not even have a product yet. The transistor was real, but the market for it was still a guess.",
-        "start": 220.31,
-        "end": 232.5
+        "start": 241.56,
+        "end": 247.55
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6384,8 +6339,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "Rock later recalled that he was nearly thrown out of some of those offices.",
-        "start": 232.5,
-        "end": 235.84
+        "start": 247.55,
+        "end": 250.11
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6393,8 +6348,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "最后，洛克找到了一位关键人物——谢尔曼·费尔柴尔德。",
         "en": "But he kept going. He believed in the men more than in the product — a conviction that would define his entire career.",
-        "start": 235.84,
-        "end": 241.34
+        "start": 250.11,
+        "end": 256.04
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6402,8 +6357,8 @@ window.AUDIO_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "这是一位富有的实业家，他父亲创办的费尔柴尔德相机与仪器公司，是航空业的巨头。",
         "en": "[Main narrator, slower]",
-        "start": 241.34,
-        "end": 248.6
+        "start": 256.04,
+        "end": 264.21
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6411,8 +6366,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "费尔柴尔德听了洛克的讲述，做了一个改变历史的决定：出资一百五十万美元，资助这八个年轻人，成立一家全新的半导体公司。",
         "en": "Finally, Rock found a key figure — Sherman Fairchild.",
-        "start": 248.6,
-        "end": 259.5
+        "start": 264.21,
+        "end": 276.46
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6420,8 +6375,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "作为交换，他的公司与投行海登斯通，获得了新公司一部分股份——其中海登斯通，拿了两成。",
         "en": "Fairchild was a wealthy industrialist. The camera-and-instrument company his father had founded was a giant of the aviation industry.",
-        "start": 259.5,
-        "end": 267.53
+        "start": 276.46,
+        "end": 285.95
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6429,8 +6384,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "Fairchild listened to Rock's pitch and made a decision that changed history: invest one and a half million dollars to back these eight young men in a brand-new semiconductor company.",
-        "start": 267.53,
-        "end": 274.7
+        "start": 285.95,
+        "end": 288.51
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6438,8 +6393,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "请记住这个日期：1957 年。",
         "en": "In exchange, his company and the investment bank Hayden Stone received a share of the new firm — Hayden Stone took twenty percent.",
-        "start": 274.7,
-        "end": 280.19
+        "start": 288.51,
+        "end": 291.95
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6447,8 +6402,8 @@ window.AUDIO_DATA = [
         "speaker": "Main narrator, with feeling",
         "zh": "在此之前，硅谷还只是一片种满果园的土地，以杏树和樱桃树闻名；在此之后，全世界的科技地图，将围绕一个叫「仙童」的名字重新绘制。",
         "en": "[Main narrator, with feeling]",
-        "start": 280.19,
-        "end": 292.05
+        "start": 291.95,
+        "end": 304.76
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6456,8 +6411,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而那八个人，从此有了一个响亮的外号——",
         "en": "Remember this date: 1957.",
-        "start": 292.05,
-        "end": 295.68
+        "start": 304.76,
+        "end": 309.05
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6465,8 +6420,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「叛逆八帮」。",
         "en": "Before it, Silicon Valley was still a land of orchards, famous for its apricot and cherry trees. After it, the world's technology map would be redrawn around a name — Fairchild.",
-        "start": 295.68,
-        "end": 303.09
+        "start": 309.05,
+        "end": 310.49
       },
       {
         "secZh": "第一幕 · 一个天才的傲慢",
@@ -6474,926 +6429,926 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这个外号带着讽刺，却也被他们坦然接受。多年后，诺伊斯回忆往事时说：我们不是叛逆，我们只是不想再浪费自己的才华。",
         "en": "And the eight men had earned themselves a nickname that stuck:",
-        "start": 303.09,
-        "end": 313.6
-      },
-      {
-        "secZh": "第二幕 · 硅谷的第一声啼哭",
-        "secEn": "Act One · The Arrogance of a Genius",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "\"The Traitorous Eight.\"",
-        "start": 313.6,
-        "end": 314.75
-      },
-      {
-        "secZh": "第二幕 · 硅谷的第一声啼哭",
-        "secEn": "Act One · The Arrogance of a Genius",
-        "speaker": "",
-        "zh": "仙童半导体，诞生在帕洛阿尔托，距离肖克利的实验室，只有十二条街。",
-        "en": "It was meant as an insult, and they wore it without shame. Years later, Noyce would recall: we were not traitors. We simply did not want to waste our talents anymore.",
-        "start": 314.75,
-        "end": 322.15
+        "start": 310.49,
+        "end": 322.79
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
-        "speaker": "Main narrator",
-        "zh": "两个老东家，隔街相望，一个在左，一个在右。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 322.15,
-        "end": 326.17
+        "start": 322.79,
+        "end": 324.95
+      },
+      {
+        "secZh": "第二幕 · 硅谷的第一声啼哭",
+        "secEn": "Act Two · The First Cry of Silicon Valley",
+        "speaker": "",
+        "zh": "仙童半导体，诞生在帕洛阿尔托，距离肖克利的实验室，只有十二条街。",
+        "en": "Fairchild Semiconductor was born in Palo Alto, just twelve blocks from Shockley's laboratory.",
+        "start": 324.95,
+        "end": 332.02
+      },
+      {
+        "secZh": "第二幕 · 硅谷的第一声啼哭",
+        "secEn": "Act Two · The First Cry of Silicon Valley",
+        "speaker": "",
+        "zh": "两个老东家，隔街相望，一个在左，一个在右。",
+        "en": "Two former workplaces, facing each other across the street. One on the left, one on the right.",
+        "start": 332.02,
+        "end": 336.9
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "",
         "zh": "仙童的起点，寒酸得可怜。没有像样的办公楼，没有豪华的设备，有的只是一群年轻人，和一股憋了很久的劲。",
-        "en": "Fairchild Semiconductor was born in Palo Alto, just twelve blocks from Shockley's laboratory.",
-        "start": 326.17,
-        "end": 335.53
+        "en": "Fairchild's beginnings were humble. No proper office building, no luxurious equipment — just a group of young men and a storehouse of pent-up energy. They rented space and set to work with their own hands, building their own furnaces, improvising their own equipment.",
+        "start": 336.9,
+        "end": 347.88
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "Two former workplaces, facing each other across the street. One on the left, one on the right.",
-        "start": 335.53,
-        "end": 339.6
+        "en": "It did not look like the birth of an empire. It looked like a garage project. But empires, in that era, often began in garages.",
+        "start": 347.88,
+        "end": 350.44
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
-        "speaker": "",
+        "speaker": "Main narrator, slower",
         "zh": "可就是这群年轻人，在短短几年里，做出了一件又一件改变世界的事。",
-        "en": "Fairchild's beginnings were humble. No proper office building, no luxurious equipment — just a group of young men and a storehouse of pent-up energy. They rented space and set to work with their own hands, building their own furnaces, improvising their own equipment.",
-        "start": 339.6,
-        "end": 349.87
+        "en": "[Main narrator, slower]",
+        "start": 350.44,
+        "end": 357.22
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "",
         "zh": "诺伊斯，这个被同事称为「天生领袖」的人，带着仙童做出了硅基集成电路——那是后来几乎所有芯片的祖先。",
-        "en": "It did not look like the birth of an empire. It looked like a garage project. But empires, in that era, often began in garages.",
-        "start": 349.87,
-        "end": 359.24
+        "en": "But in just a few years, that group of young men did one world-changing thing after another.",
+        "start": 357.22,
+        "end": 367.61
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "此前一年，德州仪器的基尔比已经用锗做出了人类第一块集成电路，但它是混合式的，零件要靠细金丝手工连接，既不结实，也不适合量产。",
-        "en": "[Main narrator, slower]",
-        "start": 359.24,
-        "end": 371.09
+        "en": "Noyce — called \"the natural leader\" by his colleagues — led Fairchild to build the silicon integrated circuit: the ancestor of nearly every chip that followed.",
+        "start": 367.61,
+        "end": 380.81
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "",
         "zh": "诺伊斯的方案不一样：他把整个电路，做在一块硅片里，用一种叫「平面工艺」的方法，把晶体管、电阻、导线，一次成型地刻在同一块硅上。",
-        "en": "But in just a few years, that group of young men did one world-changing thing after another.",
-        "start": 371.09,
-        "end": 383.13
+        "en": "A year earlier, Jack Kilby at Texas Instruments had already built the first integrated circuit out of germanium — but it was a hybrid, with tiny gold wires connecting the parts by hand. Fragile. Hard to mass-produce.",
+        "start": 380.81,
+        "end": 394.12
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "",
         "zh": "——这才是真正可以大规模生产的芯片。",
-        "en": "Noyce — called \"the natural leader\" by his colleagues — led Fairchild to build the silicon integrated circuit: the ancestor of nearly every chip that followed.",
-        "start": 383.13,
-        "end": 389.35
+        "en": "Noyce's approach was different: he put the entire circuit inside a single piece of silicon. Using a method called the planar process, he etched transistors, resistors, and wires onto the same chip, all in one step.",
+        "start": 394.12,
+        "end": 398.58
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "",
         "zh": "仙童发明了平面工艺，发明了集成电路的商业化道路，它成了整个半导体行业的「黄埔军校」。",
-        "en": "A year earlier, Jack Kilby at Texas Instruments had already built the first integrated circuit out of germanium — but it was a hybrid, with tiny gold wires connecting the parts by hand. Fragile. Hard to mass-produce.",
-        "start": 389.35,
-        "end": 398.19
+        "en": "— That was the chip that could actually be mass-produced.",
+        "start": 398.58,
+        "end": 407.15
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "Noyce's approach was different: he put the entire circuit inside a single piece of silicon. Using a method called the planar process, he etched transistors, resistors, and wires onto the same chip, all in one step.",
-        "start": 398.19,
-        "end": 406.79
+        "en": "Fairchild invented the planar process, invented the path to commercializing the integrated circuit, and became the \"West Point\" of the semiconductor industry.",
+        "start": 407.15,
+        "end": 409.7
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
-        "speaker": "",
+        "speaker": "Main narrator, with feeling",
         "zh": "这里有一个数据，足以说明仙童的地位：",
-        "en": "— That was the chip that could actually be mass-produced.",
-        "start": 406.79,
-        "end": 410.23
+        "en": "[Main narrator, with feeling]",
+        "start": 409.7,
+        "end": 413.58
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "",
         "zh": "后来硅谷几乎所有著名的半导体公司——英特尔、AMD、国家半导体……它们的创始人，要么出自仙童，要么与仙童有着千丝万缕的血缘。",
-        "en": "Fairchild invented the planar process, invented the path to commercializing the integrated circuit, and became the \"West Point\" of the semiconductor industry.",
-        "start": 410.23,
-        "end": 422.08
+        "en": "Here is a statistic that shows Fairchild's status:",
+        "start": 413.58,
+        "end": 426.74
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "人们给这群人起了一个名字：仙童之子。",
-        "en": "[Main narrator, with feeling]",
-        "start": 422.08,
-        "end": 425.52
+        "en": "Nearly every famous semiconductor company that followed in Silicon Valley — Intel, AMD, National Semiconductor — was founded by men who came from Fairchild, or were connected to it by blood and by memory.",
+        "start": 426.74,
+        "end": 430.97
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "",
         "zh": "而这一切，都源于 1957 年，那八个敢于离开的年轻人。",
-        "en": "Here is a statistic that shows Fairchild's status:",
-        "start": 425.52,
-        "end": 430.88
+        "en": "People gave these men a name: the \"Fairchildren.\"",
+        "start": 430.97,
+        "end": 436.76
       },
       {
         "secZh": "第二幕 · 硅谷的第一声啼哭",
         "secEn": "Act Two · The First Cry of Silicon Valley",
         "speaker": "",
         "zh": "很多年后，人们给仙童写了一句话：仙童半导体，是硅谷的种子公司。它散出去的不是种子，是一代又一代改变世界的人。",
-        "en": "Nearly every famous semiconductor company that followed in Silicon Valley — Intel, AMD, National Semiconductor — was founded by men who came from Fairchild, or were connected to it by blood and by memory.",
-        "start": 430.88,
-        "end": 441.2
-      },
-      {
-        "secZh": "第三幕 · 达拉斯的旁观者",
-        "secEn": "Act Two · The First Cry of Silicon Valley",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "People gave these men a name: the \"Fairchildren.\"",
-        "start": 441.2,
-        "end": 443.11
-      },
-      {
-        "secZh": "第三幕 · 达拉斯的旁观者",
-        "secEn": "Act Two · The First Cry of Silicon Valley",
-        "speaker": "",
-        "zh": "现在，让我们把镜头，切回三千公里外的达拉斯。",
         "en": "And all of it traces back to 1957 — to eight men who dared to leave.",
-        "start": 443.11,
-        "end": 447.32
-      },
-      {
-        "secZh": "第三幕 · 达拉斯的旁观者",
-        "secEn": "Act Two · The First Cry of Silicon Valley",
-        "speaker": "",
-        "zh": "1958 年，张忠谋离开 Sylvania，加入了德州仪器。",
-        "en": "Years later, someone wrote of Fairchild: it was the seed company of Silicon Valley. What it scattered was not seeds, but generation after generation of people who changed the world.",
-        "start": 447.32,
-        "end": 454.48
+        "start": 436.76,
+        "end": 448.86
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
-        "speaker": "Main narrator",
-        "zh": "这是一家什么样的公司呢？",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 454.48,
-        "end": 456.78
+        "start": 448.86,
+        "end": 451.02
+      },
+      {
+        "secZh": "第三幕 · 达拉斯的旁观者",
+        "secEn": "Act Three · The Observer in Dallas",
+        "speaker": "",
+        "zh": "现在，让我们把镜头，切回三千公里外的达拉斯。",
+        "en": "Now let us cut to Dallas, three thousand kilometers away.",
+        "start": 451.02,
+        "end": 456.01
+      },
+      {
+        "secZh": "第三幕 · 达拉斯的旁观者",
+        "secEn": "Act Three · The Observer in Dallas",
+        "speaker": "",
+        "zh": "1958 年，张忠谋离开 Sylvania，加入了德州仪器。",
+        "en": "In 1958, Morris Chang left Sylvania and joined Texas Instruments.",
+        "start": 456.01,
+        "end": 462.2
+      },
+      {
+        "secZh": "第三幕 · 达拉斯的旁观者",
+        "secEn": "Act Three · The Observer in Dallas",
+        "speaker": "",
+        "zh": "这是一家什么样的公司呢？",
+        "en": "What kind of company was it?",
+        "start": 462.2,
+        "end": 465.03
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "如果用一句话形容：它是一家「赌上太空竞赛」的公司。",
-        "en": "Now let us cut to Dallas, three thousand kilometers away.",
-        "start": 456.78,
-        "end": 461.56
+        "en": "If you had to sum it up in one phrase: a company that bet everything on the space race.",
+        "start": 465.03,
+        "end": 470.26
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "1958 年 9 月，就在张忠谋入职后不久，德州仪器的工程师基尔比，在实验室里做出了人类第一块集成电路。一年后，麻省理工学院的诺伊斯，用硅基平面工艺做出了改进版。",
-        "en": "In 1958, Morris Chang left Sylvania and joined Texas Instruments.",
-        "start": 461.56,
-        "end": 477.04
+        "en": "In September 1958, shortly after Chang joined, a TI engineer named Jack Kilby built the first integrated circuit in history in the company's laboratory. A year later, Robert Noyce at Fairchild produced an improved version using the silicon planar process.",
+        "start": 470.26,
+        "end": 487.08
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "集成电路的发明权之争，一度闹得沸沸扬扬。但无论如何，德州仪器，站在了这场技术革命的最前沿。",
-        "en": "What kind of company was it?",
-        "start": 477.04,
-        "end": 485.64
+        "en": "The fight over who invented the integrated circuit would rage for years. But either way, Texas Instruments stood at the very front of the revolution.",
+        "start": 487.08,
+        "end": 497.18
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "If you had to sum it up in one phrase: a company that bet everything on the space race.",
-        "start": 485.64,
-        "end": 490.18
+        "en": "[Main narrator, slower]",
+        "start": 497.18,
+        "end": 499.73
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "而张忠谋，正处在这场革命的风暴眼。",
-        "en": "In September 1958, shortly after Chang joined, a TI engineer named Jack Kilby built the first integrated circuit in history in the company's laboratory. A year later, Robert Noyce at Fairchild produced an improved version using the silicon planar process.",
-        "start": 490.18,
-        "end": 499.74
+        "en": "And Chang stood at the eye of the storm.",
+        "start": 499.73,
+        "end": 503.64
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "1958 年的达拉斯，和加州完全是两个世界。硅谷在造反，德州仪器在扩张；那里没有果园，只有一望无际的平原，和一家野心勃勃的公司。",
-        "en": "The fight over who invented the integrated circuit would rage for years. But either way, Texas Instruments stood at the very front of the revolution.",
-        "start": 499.74,
-        "end": 511.98
+        "en": "Dallas in 1958 was a different world from California. Silicon Valley was rebelling; Texas Instruments was expanding. No orchards here — just endless plains, and a company with boundless ambition.",
+        "start": 503.64,
+        "end": 517.49
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "他接手的，是一条为 IBM 生产晶体管的产线。良率，几乎为零。",
-        "en": "[Main narrator, slower]",
-        "start": 511.98,
-        "end": 517.9
+        "en": "He took over a production line making transistors for IBM. The yield was almost zero.",
+        "start": 517.49,
+        "end": 524.32
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "同一条产线，IBM 自己在一条试产线上，最好的成绩是百分之十。德州仪器这边，几乎全是废品。主管担心，操作员担心，所有人都担心。",
-        "en": "And Chang stood at the eye of the storm.",
-        "start": 517.9,
-        "end": 529.95
+        "en": "It was the most primitive era of the semiconductor industry. No precision equipment, no automated lines — everything depended on an engineer's experience and intuition, on \"guessing\" — guessing the temperature, the time, the materials. At IBM, the best they could manage on a pilot line was a ten percent yield. At TI, Chang's line was producing almost nothing but rejects.",
+        "start": 524.32,
+        "end": 538.41
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "张忠谋自己，反倒不慌。他心里清楚：百分之十是能做到的，那他就一定能做到比百分之十更好。",
-        "en": "Dallas in 1958 was a different world from California. Silicon Valley was rebelling; Texas Instruments was expanding. No orchards here — just endless plains, and a company with boundless ambition.",
-        "start": 529.95,
-        "end": 538.16
+        "en": "The supervisor was worried. The operators were worried. Everybody was worried. But Chang was not, because he knew that ten percent was at least possible.",
+        "start": 538.41,
+        "end": 548.24
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "那是半导体业最原始的时代。没有精密的设备，没有自动化的产线，一切都要靠工程师的经验和直觉去「猜」——猜温度、猜时间、猜材料。",
-        "en": "He took over a production line making transistors for IBM. The yield was almost zero.",
-        "start": 538.16,
-        "end": 550.02
+        "en": "He put every bit of semiconductor knowledge he had taught himself over three years at Sylvania to work. He adjusted the process parameters again and again — temperature, time, alloys, diffusion materials — and after about four months, the yield climbed from near zero to more than twenty percent.",
+        "start": 548.24,
+        "end": 561.84
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "张忠谋把在 Sylvania 三年自学的半导体知识，全部用上了。他一遍遍调整工艺参数——温度、时间、合金、扩散材料——大约四个月后，良率从近乎零，一路冲上了百分之二十以上。",
-        "en": "It was the most primitive era of the semiconductor industry. No precision equipment, no automated lines — everything depended on an engineer's experience and intuition, on \"guessing\" — guessing the temperature, the time, the materials. At IBM, the best they could manage on a pilot line was a ten percent yield. At TI, Chang's line was producing almost nothing but rejects.",
-        "start": 550.02,
-        "end": 566.46
+        "en": "That night, he was too excited to sleep.",
+        "start": 561.84,
+        "end": 580.82
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "那晚，他激动得睡不着觉。",
-        "en": "The supervisor was worried. The operators were worried. Everybody was worried. But Chang was not, because he knew that ten percent was at least possible.",
-        "start": 566.46,
-        "end": 572.43
+        "en": "IBM thought he had been lucky. But when IBM engineers came to talk to him, he explained the theories behind his experiments, and why his process worked. There was no luck in it. There was knowledge.",
+        "start": 580.82,
+        "end": 583.74
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "这一下，连德州仪器的总裁，都记住了他的名字。",
-        "en": "He put every bit of semiconductor knowledge he had taught himself over three years at Sylvania to work. He adjusted the process parameters again and again — temperature, time, alloys, diffusion materials — and after about four months, the yield climbed from near zero to more than twenty percent.",
-        "start": 572.43,
-        "end": 584.14
+        "en": "Suddenly, even the president of Texas Instruments knew his name.",
+        "start": 583.74,
+        "end": 588.73
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "That night, he was too excited to sleep.",
-        "start": 584.14,
-        "end": 586.24
+        "en": "[Main narrator, with feeling]",
+        "start": 588.73,
+        "end": 591.29
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "这个故事，值得我们多想一步。",
-        "en": "IBM thought he had been lucky. But when IBM engineers came to talk to him, he explained the theories behind his experiments, and why his process worked. There was no luck in it. There was knowledge.",
-        "start": 586.24,
-        "end": 594.84
+        "en": "This story deserves a moment's thought.",
+        "start": 591.29,
+        "end": 594.6
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "张忠谋后来在半导体业纵横几十年，他反复讲一个词：良率。",
-        "en": "Suddenly, even the president of Texas Instruments knew his name.",
-        "start": 594.84,
-        "end": 600.01
+        "en": "Chang would spend decades in the semiconductor industry, and he repeated one word over and over: yield.",
+        "start": 594.6,
+        "end": 600.71
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "良率，就是生产一百个芯片，能用几个。",
-        "en": "[Main narrator, with feeling]",
-        "start": 600.01,
-        "end": 603.45
+        "en": "Yield — out of a hundred chips you make, how many actually work.",
+        "start": 600.71,
+        "end": 604.91
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "大约四个月后，良率突破百分之二十的那天，IBM 的人来了。他们以为张忠谋只是运气好。可当 IBM 的工程师当面提问，张忠谋把每个工艺参数背后的理论，一条条讲给他们听——为什么这样改温度，为什么那样换材料。",
-        "en": "This story deserves a moment's thought.",
-        "start": 603.45,
-        "end": 622.94
+        "en": "To others, it was the most unglamorous metric in the factory. But Chang understood from day one: the battle in manufacturing is never decided in the laboratory. It is decided on the production line.",
+        "start": 604.91,
+        "end": 626.79
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "没有运气。只有知识。",
-        "en": "Chang would spend decades in the semiconductor industry, and he repeated one word over and over: yield.",
-        "start": 622.94,
-        "end": 627.01
+        "en": "At Texas Instruments, Kilby invented the integrated circuit in the lab and won the Nobel Prize. Chang solved the yield problem on the production line — and won the market.",
+        "start": 626.79,
+        "end": 629.67
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "在别人眼里，这是工厂里最不起眼的指标；可张忠谋从第一天起就明白：制造业的胜负，从来不写在实验室里，而写在生产线上。",
-        "en": "Yield — out of a hundred chips you make, how many actually work.",
-        "start": 627.01,
-        "end": 637.9
+        "en": "There is only one Nobel Prize. But the market feeds an entire industry.",
+        "start": 629.67,
+        "end": 642.01
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "同在德州仪器，基尔比在实验室里发明了集成电路，赢得了诺贝尔奖；而张忠谋在生产线旁解决良率问题，赢得了市场。",
-        "en": "To others, it was the most unglamorous metric in the factory. But Chang understood from day one: the battle in manufacturing is never decided in the laboratory. It is decided on the production line.",
-        "start": 637.9,
-        "end": 648.03
+        "en": "Kilby's achievement made him a legend. Chang's achievement made him a manager — it was his first step onto the management track, and it propelled him, twenty-plus engineers in his department, toward the executive suite.",
+        "start": 642.01,
+        "end": 653.33
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "诺贝尔奖只有一个，市场却养活了一个行业。",
-        "en": "At Texas Instruments, Kilby invented the integrated circuit in the lab and won the Nobel Prize. Chang solved the yield problem on the production line — and won the market.",
-        "start": 648.03,
-        "end": 655.2
+        "en": "That plain conviction — that the battle is won on the production line — thirty years later, would become the soul of TSMC.",
+        "start": 653.33,
+        "end": 657.84
       },
       {
         "secZh": "第三幕 · 达拉斯的旁观者",
         "secEn": "Act Three · The Observer in Dallas",
         "speaker": "",
         "zh": "这个朴素的信念，三十年后，会变成台积电的灵魂。",
-        "en": "There is only one Nobel Prize. But the market feeds an entire industry.",
-        "start": 655.2,
-        "end": 659.6
-      },
-      {
-        "secZh": "第四幕 · 第二次叛乱",
-        "secEn": "Act Three · The Observer in Dallas",
-        "speaker": "主叙述者",
-        "zh": "【主叙述者】",
-        "en": "Kilby's achievement made him a legend. Chang's achievement made him a manager — it was his first step onto the management track, and it propelled him, twenty-plus engineers in his department, toward the executive suite.",
-        "start": 659.6,
-        "end": 667.96
-      },
-      {
-        "secZh": "第四幕 · 第二次叛乱",
-        "secEn": "Act Three · The Observer in Dallas",
-        "speaker": "",
-        "zh": "让我们回到西海岸。",
-        "en": "That plain conviction — that the battle is won on the production line — thirty years later, would become the soul of TSMC.",
-        "start": 667.96,
-        "end": 673.46
+        "en": "",
+        "start": 657.84,
+        "end": 663.03
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
-        "speaker": "Main narrator",
-        "zh": "仙童半导体，起飞得很快，可它也有自己的问题。",
+        "speaker": "主叙述者",
+        "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 673.46,
-        "end": 677.66
+        "start": 663.03,
+        "end": 665.19
+      },
+      {
+        "secZh": "第四幕 · 第二次叛乱",
+        "secEn": "Act Four · The Second Rebellion",
+        "speaker": "",
+        "zh": "让我们回到西海岸。",
+        "en": "Back to the West Coast.",
+        "start": 665.19,
+        "end": 667.42
+      },
+      {
+        "secZh": "第四幕 · 第二次叛乱",
+        "secEn": "Act Four · The Second Rebellion",
+        "speaker": "",
+        "zh": "仙童半导体，起飞得很快，可它也有自己的问题。",
+        "en": "Fairchild Semiconductor took off fast. But it had problems of its own.",
+        "start": 667.42,
+        "end": 672.42
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "它的母公司费尔柴尔德，是一家老派的实业公司。母公司把仙童当作一个利润奶牛，不断抽走利润；而仙童的创始人，虽然是技术天才，却几乎没有公司的股权。",
-        "en": "Back to the West Coast.",
-        "start": 677.66,
-        "end": 691.24
+        "en": "Its parent company, Fairchild Camera and Instrument, was an old-style industrial firm. It treated the semiconductor division like a cash cow, siphoning off the profits. And the founders — brilliant as they were — owned almost no stock in the company they had built.",
+        "start": 672.42,
+        "end": 687.85
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "才华横溢的人，发现自己只是在为别人打工。",
-        "en": "Fairchild Semiconductor took off fast. But it had problems of its own.",
-        "start": 691.24,
-        "end": 695.06
+        "en": "Gifted men discovered they were working for someone else.",
+        "start": 687.85,
+        "end": 692.36
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "Its parent company, Fairchild Camera and Instrument, was an old-style industrial firm. It treated the semiconductor division like a cash cow, siphoning off the profits. And the founders — brilliant as they were — owned almost no stock in the company they had built.",
-        "start": 695.06,
-        "end": 705.57
+        "en": "[Main narrator, slower]",
+        "start": 692.36,
+        "end": 694.91
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "历史，开始重演。",
-        "en": "Gifted men discovered they were working for someone else.",
-        "start": 705.57,
-        "end": 707.72
+        "en": "History began to repeat itself.",
+        "start": 694.91,
+        "end": 697.04
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
-        "speaker": "Main narrator, slower",
+        "speaker": "",
         "zh": "1968 年，诺伊斯和摩尔——叛逆八帮里的两位核心人物——决定再次离开。",
-        "en": "[Main narrator, slower]",
-        "start": 707.72,
-        "end": 714.61
+        "en": "In 1968, Noyce and Moore — two of the original Traitorous Eight — decided to leave again.",
+        "start": 697.04,
+        "end": 705.39
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "仙童给他们带来了名望，却没有带来财富。他们没有多少公司的股权，母公司还不断抽走利润，把最有前途的项目一个个拿走。",
-        "en": "History began to repeat itself.",
-        "start": 714.61,
-        "end": 725.31
+        "en": "Fairchild had brought them fame, but not fortune. They had little equity, and the parent company kept taking their best projects away.",
+        "start": 705.39,
+        "end": 717.67
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "他们受够了。",
-        "en": "In 1968, Noyce and Moore — two of the original Traitorous Eight — decided to leave again.",
-        "start": 725.31,
-        "end": 729.37
+        "en": "They had had enough.",
+        "start": 717.67,
+        "end": 719.31
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "他们又要创业了。",
-        "en": "Fairchild had brought them fame, but not fortune. They had little equity, and the parent company kept taking their best projects away.",
-        "start": 729.37,
-        "end": 734.63
+        "en": "They were going to start another company.",
+        "start": 719.31,
+        "end": 721.34
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "这一次，他们找到了同一个人：阿瑟·洛克。",
-        "en": "They had had enough.",
-        "start": 734.63,
-        "end": 738.45
+        "en": "This time, they went to the same man: Arthur Rock.",
+        "start": 721.34,
+        "end": 725.87
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "此时的洛克，已经是美国风险投资的开创者之一。十年前，是他把叛逆八帮推上了创业之路；十年后，他要再推一把。",
-        "en": "They were going to start another company.",
-        "start": 738.45,
-        "end": 748.39
+        "en": "By then, Rock was already one of the pioneers of American venture capital. Ten years earlier, he had pushed the Traitorous Eight onto the road of entrepreneurship. Ten years later, he would push again.",
+        "start": 725.87,
+        "end": 737.44
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "诺伊斯给洛克打了一个电话。他说：我们想再干一次。",
-        "en": "This time, they went to the same man: Arthur Rock.",
-        "start": 748.39,
-        "end": 752.98
+        "en": "Noyce called Rock. He said: we want to do it again.",
+        "start": 737.44,
+        "end": 743.32
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "By then, Rock was already one of the pioneers of American venture capital. Ten years earlier, he had pushed the Traitorous Eight onto the road of entrepreneurship. Ten years later, he would push again.",
-        "start": 752.98,
-        "end": 761.11
+        "en": "[Main narrator]",
+        "start": 743.32,
+        "end": 745.48
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "1968 年 7 月 18 日，英特尔公司成立。",
-        "en": "Noyce called Rock. He said: we want to do it again.",
-        "start": 761.11,
-        "end": 765.69
+        "en": "On July 18, 1968, Intel Corporation was founded.",
+        "start": 745.48,
+        "end": 749.79
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
-        "speaker": "Main narrator",
+        "speaker": "",
         "zh": "诺伊斯和摩尔，各自拿出了大约二十五万美元的自有资金；洛克担任董事长，通过发行可转换债券，从私人投资者手中募集了二百五十万美元。",
-        "en": "[Main narrator]",
-        "start": 765.69,
-        "end": 777.74
+        "en": "Noyce and Moore each put in roughly $250,000 of their own money. Rock became chairman and raised $2.5 million in convertible debentures from private investors.",
+        "start": 749.79,
+        "end": 763.1
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "英特尔，这个后来统治计算机芯片世界的名字，就这样诞生了。",
-        "en": "On July 18, 1968, Intel Corporation was founded.",
-        "start": 777.74,
-        "end": 783.09
+        "en": "Intel — the name that would one day rule the world of computer chips — was born.",
+        "start": 763.1,
+        "end": 769.28
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "它的第一代员工里，还有一位匈牙利裔的年轻人——安迪·葛洛夫。此后的几十年里，诺伊斯、摩尔、葛洛夫，被称为英特尔的「三驾马车」。",
-        "en": "Noyce and Moore each put in roughly $250,000 of their own money. Rock became chairman and raised $2.5 million in convertible debentures from private investors.",
-        "start": 783.09,
-        "end": 795.13
+        "en": "Among its first employees was a young Hungarian-American engineer named Andy Grove. For decades to come, Noyce, Moore, and Grove would be known as Intel's \"three musketeers.\"",
+        "start": 769.28,
+        "end": 782.97
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "Intel — the name that would one day rule the world of computer chips — was born.",
-        "start": 795.13,
-        "end": 799.19
+        "en": "Noyce provided the vision and the charisma. Moore provided the science — including, in 1965, a famous observation about how the number of transistors on a chip doubles every couple of years, which the world would come to know as Moore's Law. Grove provided the relentless operational drive.",
+        "start": 782.97,
+        "end": 785.53
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "而这一次创业，和前一次，有一个本质的区别：",
-        "en": "Among its first employees was a young Hungarian-American engineer named Andy Grove. For decades to come, Noyce, Moore, and Grove would be known as Intel's \"three musketeers.\"",
-        "start": 799.19,
-        "end": 805.65
+        "en": "Three very different men, one company, one era.",
+        "start": 785.53,
+        "end": 790.09
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
-        "speaker": "",
+        "speaker": "Main narrator, with feeling",
         "zh": "这一次，创始人们真正拥有了自己的公司。",
-        "en": "Noyce provided the vision and the charisma. Moore provided the science — including, in 1965, a famous observation about how the number of transistors on a chip doubles every couple of years, which the world would come to know as Moore's Law. Grove provided the relentless operational drive.",
-        "start": 805.65,
-        "end": 817.12
+        "en": "[Main narrator, with feeling]",
+        "start": 790.09,
+        "end": 794.4
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "洛克坚持的原则，后来成了硅谷的圣经——创业者，必须拥有公司的股权。你冒了最大的风险，就该分享最大的回报。",
-        "en": "Three very different men, one company, one era.",
-        "start": 817.12,
-        "end": 827.06
+        "en": "And this second founding differed from the first in one essential way:",
+        "start": 794.4,
+        "end": 806.32
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "从仙童的「为他人做嫁衣」，到英特尔的「为自己创业」——硅谷的股权革命，就此完成。",
-        "en": "[Main narrator, with feeling]",
-        "start": 827.06,
-        "end": 834.7
+        "en": "This time, the founders truly owned their company.",
+        "start": 806.32,
+        "end": 814.53
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "后来的历史证明，正是这次革命，把硅谷从一个「天才的聚集地」，变成了一个「梦想的工厂」。",
-        "en": "And this second founding differed from the first in one essential way:",
-        "start": 834.7,
-        "end": 842.92
+        "en": "The principle Rock insisted on became the bible of Silicon Valley: entrepreneurs must own equity in their company. You take the biggest risk; you should share the biggest reward.",
+        "start": 814.53,
+        "end": 822.99
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "因为只有当你真正拥有自己的公司时，你才会把自己的命押进去。",
-        "en": "This time, the founders truly owned their company.",
-        "start": 842.92,
-        "end": 848.47
+        "en": "From Fairchild's \"sewing for others\" to Intel's \"building for yourself\" — the equity revolution of Silicon Valley was complete.",
+        "start": 822.99,
+        "end": 829.28
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "而张忠谋，隔着三千公里，把这一课也记下了。",
-        "en": "The principle Rock insisted on became the bible of Silicon Valley: entrepreneurs must own equity in their company. You take the biggest risk; you should share the biggest reward.",
-        "start": 848.47,
-        "end": 855.4
+        "en": "History would prove that this revolution transformed Silicon Valley from a gathering of geniuses into a factory of dreams.",
+        "start": 829.28,
+        "end": 834.08
       },
       {
         "secZh": "第四幕 · 第二次叛乱",
         "secEn": "Act Four · The Second Rebellion",
         "speaker": "",
         "zh": "几十年后，他创办台积电，设计出一套让「建造它的人同时拥有它」的股权结构——那颗种子，正是从这场隔岸观火的叛乱里，落进他心里的。",
-        "en": "From Fairchild's \"sewing for others\" to Intel's \"building for yourself\" — the equity revolution of Silicon Valley was complete.",
-        "start": 855.4,
-        "end": 867.44
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Act Four · The Second Rebellion",
-        "speaker": "主叙述者 · 安静，放慢",
-        "zh": "【主叙述者 · 安静，放慢】",
-        "en": "History would prove that this revolution transformed Silicon Valley from a gathering of geniuses into a factory of dreams.",
-        "start": 867.44,
-        "end": 871.98
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Act Four · The Second Rebellion",
-        "speaker": "",
-        "zh": "1972 年，张忠谋升任德州仪器的集团副总裁，主管全球半导体业务。",
         "en": "Because only when you truly own your company do you stake your life on it. And only when your life is at stake do you do your best work.",
-        "start": 871.98,
-        "end": 878.91
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Act Four · The Second Rebellion",
-        "speaker": "",
-        "zh": "这一年，英特尔成立已经四年，正在微处理器的路上狂奔。1971 年，它推出了世界第一款商用微处理器——4004，一块指甲盖大小的芯片，把整个计算机的中央处理器，装进了里面。",
-        "en": "It is a lesson Chang absorbed from a distance — and one he would apply, decades later, when he built TSMC with a structure that made the people who built it also own it.",
-        "start": 878.91,
-        "end": 895.16
+        "start": 834.08,
+        "end": 847.43
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "Main narrator, quiet, slower",
-        "zh": "而英特尔的灵魂人物们——诺伊斯负责远见与魅力，摩尔负责科学——包括他在 1965 年提出的那条著名观察：芯片上的晶体管数量，大约每两年翻一番。这条观察，后来有了一个名字：摩尔定律。",
+        "speaker": "主叙述者 · 安静，放慢",
+        "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 895.16,
-        "end": 912.36
+        "start": 847.43,
+        "end": 850.67
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "1972 年，张忠谋升任德州仪器的集团副总裁，主管全球半导体业务。",
+        "en": "In 1972, Morris Chang was promoted to group vice president of Texas Instruments, in charge of its worldwide semiconductor business.",
+        "start": 850.67,
+        "end": 857.65
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "这一年，英特尔成立已经四年，正在微处理器的路上狂奔。1971 年，它推出了世界第一款商用微处理器——4004，一块指甲盖大小的芯片，把整个计算机的中央处理器，装进了里面。",
+        "en": "By then, Intel was four years old and racing down the road of the microprocessor. In 1971, it had introduced the 4004 — the world's first commercial microprocessor: a chip the size of a fingernail, holding an entire computer's central processor inside it.",
+        "start": 857.65,
+        "end": 876.19
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "而英特尔的灵魂人物们——诺伊斯负责远见与魅力，摩尔负责科学——包括他在 1965 年提出的那条著名观察：芯片上的晶体管数量，大约每两年翻一番。这条观察，后来有了一个名字：摩尔定律。",
+        "en": "From that year on, Chang's main rival was Intel.",
+        "start": 876.19,
+        "end": 896.13
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "葛洛夫，则负责那股永不停歇的执行力。",
-        "en": "In 1972, Morris Chang was promoted to group vice president of Texas Instruments, in charge of its worldwide semiconductor business.",
-        "start": 912.36,
-        "end": 917.14
+        "en": "One was the man who had once watched the rebellion from three thousand kilometers away. The other was the hardest fruit that rebellion ever bore. They would meet, at last, at the summit of the semiconductor world.",
+        "start": 896.13,
+        "end": 900.24
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "",
+        "speaker": "Main narrator, with feeling",
         "zh": "三个性格迥异的人，一家公司，一个时代。",
-        "en": "By then, Intel was four years old and racing down the road of the microprocessor. In 1971, it had introduced the 4004 — the world's first commercial microprocessor: a chip the size of a fingernail, holding an entire computer's central processor inside it.",
-        "start": 917.14,
-        "end": 927.42
+        "en": "[Main narrator, with feeling]",
+        "start": 900.24,
+        "end": 904.64
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "从这一年起，张忠谋的主要对手，变成了英特尔。",
-        "en": "From that year on, Chang's main rival was Intel.",
-        "start": 927.42,
-        "end": 931.62
+        "en": "Let us stretch the timeline a little further.",
+        "start": 904.64,
+        "end": 909.63
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "一个是当年隔着三千公里旁观叛乱的人，一个是叛乱结出的最硬的果实。他们终将在半导体之巅，正面相逢。",
-        "en": "One was the man who had once watched the rebellion from three thousand kilometers away. The other was the hardest fruit that rebellion ever bore. They would meet, at last, at the summit of the semiconductor world.",
-        "start": 931.62,
-        "end": 940.8
+        "en": "1957: eight men in Palo Alto defect from Shockley — and Chang watches from Dallas, three thousand kilometers away.",
+        "start": 909.63,
+        "end": 920.23
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "[Main narrator, with feeling]",
-        "start": 940.8,
-        "end": 942.9
+        "en": "1968: Noyce and Moore walk out again, founding Intel — and Chang is still in Dallas, busy making TI's integrated circuit business the largest in the world.",
+        "start": 920.23,
+        "end": 922.79
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "让我们把时间线再拉长一点。",
-        "en": "Let us stretch the timeline a little further.",
-        "start": 942.9,
-        "end": 945.38
+        "en": "1998: he is sixty-seven years old, in Taiwan. The company he founded, TSMC, is eleven years old.",
+        "start": 922.79,
+        "end": 925.81
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "",
+        "speaker": "Main narrator, quiet",
         "zh": "1957 年，八个人在帕洛阿尔托叛离肖克利——他隔着三千公里，在达拉斯旁观。",
-        "en": "1957: eight men in Palo Alto defect from Shockley — and Chang watches from Dallas, three thousand kilometers away.",
-        "start": 945.38,
-        "end": 952.65
+        "en": "[Main narrator, quiet]",
+        "start": 925.81,
+        "end": 934.22
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "1968 年，诺伊斯和摩尔再次出走，创立英特尔——他依旧在达拉斯，忙着把 TI 的集成电路业务做到全球第一。",
-        "en": "1968: Noyce and Moore walk out again, founding Intel — and Chang is still in Dallas, busy making TI's integrated circuit business the largest in the world.",
-        "start": 952.65,
-        "end": 962.97
+        "en": "The rebellion he watched from half a continent away later became his own script.",
+        "start": 934.22,
+        "end": 945.5
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "1998 年，他六十七岁，在台湾。他创办的台积电，刚刚成立十一年。",
-        "en": "1998: he is sixty-seven years old, in Taiwan. The company he founded, TSMC, is eleven years old.",
-        "start": 962.97,
-        "end": 969.28
+        "en": "Only this time, he was no longer an observer.",
+        "start": 945.5,
+        "end": 953.01
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
-        "en": "[Main narrator, quiet]",
-        "start": 969.28,
-        "end": 971.38
+        "en": "He carried the faith of \"yield\" back to Taiwan. He turned the conviction that \"manufacturing is won on the production line\" into a company.",
+        "start": 953.01,
+        "end": 955.57
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "他隔着半个美国看完的那场叛乱，后来，成了他自己的剧本。",
-        "en": "The rebellion he watched from half a continent away later became his own script.",
-        "start": 971.38,
-        "end": 976.54
+        "en": "That company does not design chips. It does not brand them. It does one thing: manufacture chips for others — and make them better than anyone else can.",
+        "start": 955.57,
+        "end": 961.55
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "只不过，他不再是一个旁观者。",
-        "en": "Only this time, he was no longer an observer.",
-        "start": 976.54,
-        "end": 979.22
+        "en": "— Just as, fifty years earlier, the first cry of Silicon Valley began with eight men who dared to leave.",
+        "start": 961.55,
+        "end": 964.87
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "",
+        "speaker": "Main narrator, with feeling",
         "zh": "他把「良率」的信仰带去了台湾，把「制造业的胜负写在生产线上」的信条，变成了一家公司。",
-        "en": "He carried the faith of \"yield\" back to Taiwan. He turned the conviction that \"manufacturing is won on the production line\" into a company.",
-        "start": 979.22,
-        "end": 987.25
+        "en": "[Main narrator, with feeling]",
+        "start": 964.87,
+        "end": 973.04
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "这家公司不做设计，不做品牌，只做一件事：替别人把芯片造出来，造得比别人好。",
-        "en": "That company does not design chips. It does not brand them. It does one thing: manufacture chips for others — and make them better than anyone else can.",
-        "start": 987.25,
-        "end": 994.32
+        "en": "People often say that Silicon Valley began with technology.",
+        "start": 973.04,
+        "end": 981.32
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "——就像五十年前，硅谷的第一声啼哭，是从八个敢于离开的年轻人开始的。",
-        "en": "— Just as, fifty years earlier, the first cry of Silicon Valley began with eight men who dared to leave.",
-        "start": 994.32,
-        "end": 1000.82
+        "en": "It did not.",
+        "start": 981.32,
+        "end": 989.13
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "[Main narrator, with feeling]",
-        "start": 1000.82,
-        "end": 1002.92
+        "en": "Technology mattered — but if it were only about technology, those eight young men in 1957 could have stayed quietly beside Shockley, waiting for a share of the Nobel laureate's reflected glory.",
+        "start": 989.13,
+        "end": 991.69
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "人们常说，硅谷的起点是技术。",
-        "en": "People often say that Silicon Valley began with technology.",
-        "start": 1002.92,
-        "end": 1005.6
+        "en": "They did not.",
+        "start": 991.69,
+        "end": 995.0
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "其实不是。",
-        "en": "It did not.",
-        "start": 1005.6,
-        "end": 1006.56
+        "en": "Silicon Valley began with the courage of eight men to leave — with the courage of Noyce and Moore to leave a second time — with the courage of countless people to stake their lives on an idea.",
+        "start": 995.0,
+        "end": 996.44
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "技术很重要——可如果只有技术，1957 年的那八个年轻人，本可以安分地待在肖克利身边，等待诺贝尔奖的光环分他们一点余光。",
-        "en": "Technology mattered — but if it were only about technology, those eight young men in 1957 could have stayed quietly beside Shockley, waiting for a share of the Nobel laureate's reflected glory.",
-        "start": 1006.56,
-        "end": 1018.03
+        "en": "Chang watched all of this from Dallas, and learned the lesson:",
+        "start": 996.44,
+        "end": 1009.3
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "他们没有。",
-        "en": "They did not.",
-        "start": 1018.03,
-        "end": 1018.98
+        "en": "**True revolution never begins with joining. It begins with leaving.**",
+        "start": 1009.3,
+        "end": 1010.74
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "硅谷的起点，是八个人敢于离开的勇气——是诺伊斯和摩尔敢于第二次离开的勇气——是无数人敢于把自己的人生押在一个想法上的勇气。",
-        "en": "Silicon Valley began with the courage of eight men to leave — with the courage of Noyce and Moore to leave a second time — with the courage of countless people to stake their lives on an idea.",
-        "start": 1018.98,
-        "end": 1030.64
+        "en": "And his own \"leaving\" would come in 1985 — when he left Texas Instruments and returned to Taiwan.",
+        "start": 1010.74,
+        "end": 1024.26
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "张忠谋在达拉斯旁观了这一切。他学会了那门课：",
-        "en": "Chang watched all of this from Dallas, and learned the lesson:",
-        "start": 1030.64,
-        "end": 1034.85
+        "en": "That time, he was no longer an observer.",
+        "start": 1024.26,
+        "end": 1029.3
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "**真正的变革，从来不是从「加入」开始的，而是从「离开」开始的。**",
-        "en": "**True revolution never begins with joining. It begins with leaving.**",
-        "start": 1034.85,
-        "end": 1041.35
+        "en": "**The rebellion he watched from half a continent away later became his own script — only his stage was in Taiwan.**",
+        "start": 1029.3,
+        "end": 1035.08
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "而他自己的那场「离开」，要等到 1985 年——他离开德州仪器，回到台湾。",
-        "en": "And his own \"leaving\" would come in 1985 — when he left Texas Instruments and returned to Taiwan.",
-        "start": 1041.35,
-        "end": 1048.42
+        "en": "",
+        "start": 1035.08,
+        "end": 1042.7
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "那一次，他不再是旁观者。",
-        "en": "That time, he was no longer an observer.",
-        "start": 1048.42,
-        "end": 1050.71
+        "en": "",
+        "start": 1042.7,
+        "end": 1045.61
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "**他隔着半个美国看完的那场叛乱，后来成了他自己的剧本——只是他的舞台，在台湾。**",
-        "en": "**The rebellion he watched from half a continent away later became his own script — only his stage was in Taiwan.**",
-        "start": 1050.71,
-        "end": 1058.74
+        "en": "",
+        "start": 1045.61,
+        "end": 1054.22
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -7401,8 +7356,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
         "en": "(Verified public facts, for the listener's reference)",
-        "start": 1058.74,
-        "end": 1062.57
+        "start": 1054.22,
+        "end": 1059.25
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -7410,8 +7365,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1. **叛逆八帮（1957）**：八名年轻工程师集体离开肖克利半导体实验室，创立仙童半导体。媒体称他们为「叛逆八帮」（Traitorous Eight）。",
         "en": "1. **The Traitorous Eight (1957)**: Eight young engineers collectively resigned from Shockley Semiconductor Laboratory and founded Fairchild Semiconductor. The media dubbed them the \"Traitorous Eight.\"",
-        "start": 1062.57,
-        "end": 1077.48
+        "start": 1059.25,
+        "end": 1074.0
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -7419,8 +7374,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "2. **仙童融资（1957）**：投行分析师阿瑟·洛克牵线，实业家谢尔曼·费尔柴尔德出资 150 万美元资助创业；海登斯通投行获新公司 20% 股份。",
         "en": "2. **Fairchild's Financing (1957)**: Securities analyst Arthur Rock brokered the deal; industrialist Sherman Fairchild invested $1.5 million to back the venture; the investment bank Hayden Stone received a 20 percent stake.",
-        "start": 1077.48,
-        "end": 1092.01
+        "start": 1074.0,
+        "end": 1087.6
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -7428,8 +7383,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "3. **仙童的遗产**：仙童发明硅基集成电路与平面工艺，成为半导体行业「黄埔军校」——英特尔、AMD、国家半导体等公司创始人均与其有血缘关系（「仙童之子」）。",
         "en": "3. **Fairchild's Legacy**: Fairchild invented the silicon integrated circuit and the planar process, becoming the \"West Point\" of semiconductors — the founders of Intel, AMD, National Semiconductor and others trace their lineage to it (the \"Fairchildren\").",
-        "start": 1092.01,
-        "end": 1107.3
+        "start": 1087.6,
+        "end": 1103.11
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -7437,8 +7392,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "4. **英特尔成立（1968.7.18）**：诺伊斯与摩尔离开仙童创立英特尔，各投入约 25 万美元；洛克任董事长并募集 250 万美元可转换债券；安迪·葛洛夫为早期核心员工（「三驾马车」）。",
         "en": "4. **The Founding of Intel (July 18, 1968)**: Noyce and Moore left Fairchild to found Intel, each investing roughly $250,000; Arthur Rock served as chairman and raised $2.5 million in convertible debentures; Andy Grove was among the earliest core employees (the \"three musketeers\").",
-        "start": 1107.3,
-        "end": 1125.84
+        "start": 1103.11,
+        "end": 1121.46
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -7446,8 +7401,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "5. **股权革命**：仙童时期创始人几乎没有股权；英特尔时期洛克坚持创业者持股——这是硅谷风险投资文化成型的关键一环。",
         "en": "5. **The Equity Revolution**: At Fairchild the founders held almost no equity; at Intel, Rock insisted the founders own their company — a pivotal moment in the formation of Silicon Valley's venture capital culture.",
-        "start": 1125.84,
-        "end": 1137.31
+        "start": 1121.46,
+        "end": 1134.02
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -7455,8 +7410,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "6. **张忠谋的同期坐标**：1958 年入德州仪器，将 IBM 委托产线良率从近零提升至 20%+；1972 年任 TI 集团副总裁兼半导体集团总经理，主要对手为英特尔（1971 年推出世界首款商用微处理器 4004）。",
         "en": "6. **Chang's Coordinates in the Same Era**: He joined Texas Instruments in 1958 and raised the yield of an IBM production line from near zero to over 20 percent; in 1972 he became TI's group vice president for worldwide semiconductors, with Intel (which launched the world's first commercial microprocessor, the 4004, in 1971) as his main rival.",
-        "start": 1137.31,
-        "end": 1158.72
+        "start": 1134.02,
+        "end": 1154.06
       },
       {
         "secZh": "下集预告",
@@ -7464,8 +7419,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1158.72,
-        "end": 1159.87
+        "start": 1154.06,
+        "end": 1156.22
       },
       {
         "secZh": "下集预告",
@@ -7473,8 +7428,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从达拉斯出发，我们往回走一小步，回到 1958 年。",
         "en": "From Dallas, let us step back a little, to 1958.",
-        "start": 1159.87,
-        "end": 1164.84
+        "start": 1156.22,
+        "end": 1161.61
       },
       {
         "secZh": "下集预告",
@@ -7482,8 +7437,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，张忠谋刚加入德州仪器，亲眼见证了基尔比在实验室里做出人类第一块集成电路。",
         "en": "That year, Morris Chang had just joined Texas Instruments, and he witnessed with his own eyes Jack Kilby building the first integrated circuit in human history in the laboratory.",
-        "start": 1164.84,
-        "end": 1172.48
+        "start": 1161.61,
+        "end": 1170.17
       },
       {
         "secZh": "下集预告",
@@ -7491,8 +7446,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，也是太空竞赛最炽热的岁月：民兵导弹、阿波罗计划、肯尼迪遇刺……",
         "en": "That was also the fiercest era of the space race: Minuteman missiles, the Apollo program, the assassination of Kennedy...",
-        "start": 1172.48,
-        "end": 1179.17
+        "start": 1170.17,
+        "end": 1177.21
       },
       {
         "secZh": "下集预告",
@@ -7500,8 +7455,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "三十岁，事业上升期，他做了一个让人意外的决定：把自己清零，重新背起了书包。",
         "en": "At thirty, at the peak of his career, he made a surprising decision: reset himself to zero, and pick up his schoolbag again.",
-        "start": 1179.17,
-        "end": 1186.25
+        "start": 1177.21,
+        "end": 1185.49
       },
       {
         "secZh": "下集预告",
@@ -7509,7 +7464,7 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "下集，《德仪的太空竞赛岁月》：他在一家赌上太空竞赛的公司里，学会了什么叫技术的信仰。",
         "en": "Next episode, \"The Space Race Years at Texas Instruments\": in a company that bet everything on the space race, he learned what it means to believe in technology.",
-        "start": 1186.25,
+        "start": 1185.49,
         "end": 1194.28
       }
     ]
@@ -7521,8 +7476,8 @@ window.AUDIO_DATA = [
     "summary": "德仪的太空竞赛岁月 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第06期-德仪的太空竞赛岁月/中文音频.mp3",
     "audioEn": "./03-剧集/第06期-德仪的太空竞赛岁月/英文音频.mp3",
-    "durationZh": 1146.77,
-    "durationEn": 1226.69,
+    "durationZh": 1146.768,
+    "durationEn": 1226.688,
     "cues": [
       {
         "secZh": "开场",
@@ -7531,7 +7486,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：实验室仪器低鸣，远处传来火箭发射倒计时的广播声，渐渐压低】",
         "en": "[SFX: a low hum of laboratory equipment, a distant radio countdown for a rocket launch, fading down]",
         "start": 0.0,
-        "end": 6.94
+        "end": 7.76
       },
       {
         "secZh": "开场",
@@ -7539,8 +7494,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1958 年，美国得克萨斯州，达拉斯。",
         "en": "Dallas, Texas. 1958.",
-        "start": 6.94,
-        "end": 10.94
+        "start": 7.76,
+        "end": 11.87
       },
       {
         "secZh": "开场",
@@ -7548,8 +7503,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这是一座平原来的城市，夏天热得发烫，街上没什么风景，只有一望无际的天空，和一家野心勃勃、正在拼命扩张的公司——德州仪器。",
         "en": "It is a city on the plains, hot in summer, with not much in the way of scenery — only an endless sky, and one ambitious, fast-expanding company called Texas Instruments.",
-        "start": 10.94,
-        "end": 23.57
+        "start": 11.87,
+        "end": 24.84
       },
       {
         "secZh": "开场",
@@ -7557,8 +7512,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个二十七岁的年轻人，走进了这家公司的大门。他刚从东海岸的一家小公司跳槽过来，手下管着两三名工程师，负责一条为 IBM 生产晶体管的产线。",
         "en": "A twenty-seven-year-old man walks through the company's front door. He has just moved over from a small firm on the East Coast. Under him are two or three engineers, and he is in charge of a production line that makes transistors for IBM.",
-        "start": 23.57,
-        "end": 38.09
+        "start": 24.84,
+        "end": 39.01
       },
       {
         "secZh": "开场",
@@ -7566,8 +7521,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这条产线的良率，几乎为零。",
         "en": "The yield on that line is almost zero.",
-        "start": 38.09,
-        "end": 40.82
+        "start": 39.01,
+        "end": 42.06
       },
       {
         "secZh": "开场",
@@ -7575,8 +7530,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "同一栋大楼里，另一位新员工，正在做一件更古怪的事。",
         "en": "In the same building, another new employee is doing something stranger.",
-        "start": 40.82,
-        "end": 46.09
+        "start": 42.06,
+        "end": 47.54
       },
       {
         "secZh": "开场",
@@ -7584,8 +7539,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那年 7 月，公司照例放暑假，整栋大楼几乎空了。只有这个人——因为入职才几个月、还没攒够年假——一个人留在了实验室里。他把几片锗、几根金丝，照着脑子里一个疯狂的念头，拼了又拆，拆了又拼。",
         "en": "In July that year, the plant shuts down for its usual summer holiday, and the building is nearly empty. Only this one man — who, having joined just a few months earlier, has not yet earned any vacation — stays behind in the laboratory. Following a wild idea in his head, he pieces together a few slivers of germanium and a handful of gold wires, assembling and disassembling them again and again.",
-        "start": 46.09,
-        "end": 65.66
+        "start": 47.54,
+        "end": 68.01
       },
       {
         "secZh": "开场",
@@ -7593,8 +7548,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "9 月 12 日，他接通了电源。",
         "en": "On September 12, he switches on the power.",
-        "start": 65.66,
-        "end": 69.02
+        "start": 68.01,
+        "end": 71.07
       },
       {
         "secZh": "开场",
@@ -7602,8 +7557,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "示波器上，出现了一条连续的正弦波。",
         "en": "On the oscilloscope, a continuous sine wave appears.",
-        "start": 69.02,
-        "end": 72.6
+        "start": 71.07,
+        "end": 74.9
       },
       {
         "secZh": "开场",
@@ -7611,8 +7566,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 72.6,
-        "end": 73.86
+        "start": 74.9,
+        "end": 77.01
       },
       {
         "secZh": "开场",
@@ -7620,8 +7575,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，芯片还没有名字。",
         "en": "That year, the chip had no name.",
-        "start": 73.86,
-        "end": 76.39
+        "start": 77.01,
+        "end": 79.87
       },
       {
         "secZh": "开场",
@@ -7629,8 +7584,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "很多年后，人们才把这一天郑重地写进历史：1958 年 9 月 12 日，人类第一块集成电路，在达拉斯这栋不起眼的大楼里，被点亮了。",
         "en": "Only many years later would the day be written solemnly into history: on September 12, 1958, the first integrated circuit in human history was lit up, in an unremarkable building in Dallas.",
-        "start": 76.39,
-        "end": 90.07
+        "start": 79.87,
+        "end": 92.54
       },
       {
         "secZh": "开场",
@@ -7638,8 +7593,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而那个二十七岁的年轻人——张忠谋——当时并不知道：他手里那条良率为零的产线，和隔壁实验室里那条刚点亮的波形，将在几年之后，一起被送上月球。",
         "en": "And the twenty-seven-year-old — Morris Chang — had no idea at the time that the zero-yield production line in his hands, and the freshly lit waveform in the laboratory next door, would together be sent to the Moon, a few years later.",
-        "start": 90.07,
-        "end": 104.59
+        "start": 92.54,
+        "end": 107.73
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7647,8 +7602,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 104.59,
-        "end": 105.85
+        "start": 107.73,
+        "end": 109.85
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7656,8 +7611,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "先说说那个在空荡荡的实验室里独自工作的人。",
         "en": "First, let us talk about the man working alone in the empty laboratory.",
-        "start": 105.85,
-        "end": 110.27
+        "start": 109.85,
+        "end": 114.37
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7665,8 +7620,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他叫杰克·基尔比，比张忠谋早几个月入职德州仪器，是个刚来的新人。",
         "en": "His name was Jack Kilby. He had joined Texas Instruments a few months before Chang, a brand-new hire.",
-        "start": 110.27,
-        "end": 117.0
+        "start": 114.37,
+        "end": 121.01
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7674,8 +7629,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "基尔比不算科班出身的半导体专家。他早年在别处做过几年电子工程，到了这家公司，连一张像样的办公桌都没有。可正是这个新人，脑子里装着一个当时几乎没人敢想的问题——",
         "en": "Kilby was not, strictly speaking, a semiconductor specialist by training. He had done some years of electronic engineering elsewhere, and at this new company he did not even have a proper desk of his own. Yet this newcomer carried a question in his head that almost nobody dared to ask at the time —",
-        "start": 117.0,
-        "end": 133.63
+        "start": 121.01,
+        "end": 137.94
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7683,8 +7638,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "能不能把一整条电路——电阻、电容、晶体管、导线——统统做进一小块材料里？",
         "en": "Could an entire circuit — resistors, capacitors, transistors, wires — all be made inside a single small piece of material?",
-        "start": 133.63,
-        "end": 141.2
+        "start": 137.94,
+        "end": 146.49
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7692,8 +7647,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 141.2,
-        "end": 143.52
+        "start": 146.49,
+        "end": 149.0
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7701,8 +7656,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那时候，电子设备都是由一个个分立的元件焊接而成的。一台计算机，要装下成千上万个晶体管，就要连上成千上万根导线。焊点多得数不清，故障也多得数不清。",
         "en": "In those days, electronic devices were assembled from separate, individual components, soldered together by hand. A computer that needed thousands of transistors needed thousands of wires to connect them. The solder joints were countless, and so were the failures.",
-        "start": 143.52,
-        "end": 158.67
+        "start": 149.0,
+        "end": 164.66
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7710,8 +7665,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "元件越多，连接越多，机器就越笨重、越不可靠。工程师们被这个难题困了整整一个年代，却迟迟找不到出路。",
         "en": "The more components you had, the more connections you needed, and the heavier and less reliable the machine became. Engineers had been stuck on this problem for a whole decade without finding a way out.",
-        "start": 158.67,
-        "end": 168.98
+        "start": 164.66,
+        "end": 175.42
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7719,8 +7674,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那时的计算机，庞大得像一间屋子，里面塞满了层层叠叠的电路板，导线像乱麻一样纠缠。每多一个零件，出错的可能就多一分；每多一根导线，整台机器的重量和价格就涨一截。有人算过，照这样堆下去，再复杂的机器，迟早会重到自己都抬不动。",
         "en": "A computer of that era was the size of a room, packed with layer upon layer of circuit boards, its wires tangled like a bird's nest. Every extra component added another chance for error; every extra wire added weight and cost. People calculated that, if things kept stacking up this way, a complex enough machine would eventually become too heavy to lift.",
-        "start": 168.98,
-        "end": 192.13
+        "start": 175.42,
+        "end": 198.91
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7728,8 +7683,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "基尔比想：为什么要一个一个焊？为什么不把它们一次做在一小块材料上？",
         "en": "Kilby thought: why solder them one by one? Why not make them all at once, on a single small piece of material?",
-        "start": 192.13,
-        "end": 199.07
+        "start": 198.91,
+        "end": 206.42
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7737,8 +7692,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这个念头，就是集成电路的起点。",
         "en": "That thought was the beginning of the integrated circuit.",
-        "start": 199.07,
-        "end": 202.23
+        "start": 206.42,
+        "end": 209.86
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7746,8 +7701,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 202.23,
-        "end": 203.49
+        "start": 209.86,
+        "end": 211.97
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7755,8 +7710,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1958 年 9 月 12 日，基尔比把一小块锗和几根金丝接在一起，做成了一个能产生连续波形的振荡器。这是人类第一块能工作的集成电路。",
         "en": "On September 12, 1958, Kilby connected a small piece of germanium to a few gold wires and built an oscillator that produced a continuous waveform. It was the first working integrated circuit in human history.",
-        "start": 203.49,
-        "end": 217.59
+        "start": 211.97,
+        "end": 225.08
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7764,8 +7719,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它很原始。元件之间还靠细金丝手工连接，远不像后来那样做在同一片硅里。可它证明了一件大事：**一整条电路，可以被装进一小块材料里。**",
         "en": "It was primitive. The components were still connected by hand with fine gold wires, nothing like the later chips made in a single slab of silicon. But it proved one great thing: **an entire circuit could be fitted into a single small piece of material.**",
-        "start": 217.59,
-        "end": 231.48
+        "start": 225.08,
+        "end": 238.84
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7773,8 +7728,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "德州仪器的高管们看完演示，沉默了很久。然后，他们做了一个决定：赌一把。",
         "en": "The executives of Texas Instruments watched the demonstration and were silent for a long time. Then they made a decision: bet on it.",
-        "start": 231.48,
-        "end": 238.84
+        "start": 238.84,
+        "end": 246.91
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7782,8 +7737,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在那之前，几乎没有人相信，一整条电路能塞进那么小的一块东西里。德州仪器却愿意为这个念头投入真金白银，成立专门的团队，把它从实验室里的一个波形，推向战场，再推向太空。",
         "en": "Before that moment, almost nobody believed an entire circuit could be squeezed into something so small. Texas Instruments was willing to put real money behind the idea — to build a dedicated team, and to carry it out of the laboratory as a single waveform, onto the battlefield, and then into space.",
-        "start": 238.84,
-        "end": 256.1
+        "start": 246.91,
+        "end": 264.25
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7791,8 +7746,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 256.1,
-        "end": 258.41
+        "start": 264.25,
+        "end": 266.76
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7800,8 +7755,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "请注意一个细节：就在基尔比做出这块电路之后，仅仅一年，西海岸的罗伯特·诺伊斯，用一种叫「平面工艺」的方法，把电路做进了同一片硅里——那才是真正能够大规模生产的芯片。",
         "en": "Now, note one detail. Only a year after Kilby built his circuit, Robert Noyce on the West Coast used a method called the planar process to put a circuit into a single piece of silicon — and that was the chip that could truly be mass-produced.",
-        "start": 258.41,
-        "end": 275.67
+        "start": 266.76,
+        "end": 283.55
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7809,8 +7764,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，围绕「谁发明了集成电路」，一场旷日持久的争论开始了。基尔比用锗，诺伊斯用硅；一个在东，一个在西。",
         "en": "And so began a long, bitter argument over who invented the integrated circuit. Kilby used germanium; Noyce used silicon. One in the East, one in the West.",
-        "start": 275.67,
-        "end": 286.4
+        "start": 283.55,
+        "end": 294.39
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7818,8 +7773,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "最终，历史给出了一个温和的裁决：两个人，并称为集成电路的共同发明人。多年以后，他们先后被写进同一本教科书。",
         "en": "In the end, history handed down a gentle verdict: the two men would be named co-inventors of the integrated circuit. Years later, they would appear together in the same textbooks.",
-        "start": 286.4,
-        "end": 297.56
+        "start": 294.39,
+        "end": 306.05
       },
       {
         "secZh": "第一幕 · 芯片还没有名字",
@@ -7827,8 +7782,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而张忠谋，就在这场争论的风暴眼边上，静静地看着，也默默地学着。",
         "en": "And Morris Chang — standing at the edge of the storm — watched quietly, and quietly kept learning.",
-        "start": 297.56,
-        "end": 304.08
+        "start": 306.05,
+        "end": 312.78
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7836,8 +7791,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 304.08,
-        "end": 305.34
+        "start": 312.78,
+        "end": 314.9
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7845,8 +7800,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "再说说那个二十七岁的年轻人手里，那条良率为零的产线。",
         "en": "Now let us return to the zero-yield production line in the hands of that twenty-seven-year-old.",
-        "start": 305.34,
-        "end": 310.81
+        "start": 314.9,
+        "end": 320.48
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7854,8 +7809,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那是半导体业最原始的时代。没有精密的设备，没有自动化的产线，一切都要靠工程师的经验和直觉去猜——猜温度、猜时间、猜材料。炉子的温度多一度、少一度，合金的配比多一点、少一点，出来的可能就是一整批废品。",
         "en": "It was the most primitive era of the semiconductor industry. No precision equipment, no automated lines — everything depended on an engineer's experience and intuition, on guessing: guessing the temperature, the time, the materials. One degree hotter or colder in the furnace, a little more or less alloy in the mixture, and out could come a whole batch of scrap.",
-        "start": 310.81,
-        "end": 331.65
+        "start": 320.48,
+        "end": 342.17
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7863,8 +7818,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "同一条产品，IBM 自己在试产线上，最好的成绩不过百分之十。德州仪器这边，几乎全是废品。主管发愁，操作员发愁，所有人都发愁，只有张忠谋不发愁。",
         "en": "On the same product, IBM's own pilot line could do no better than ten percent yield. On the Texas Instruments side, almost everything was a reject. The supervisor worried, the operators worried, everybody worried — except Morris Chang.",
-        "start": 331.65,
-        "end": 346.59
+        "start": 342.17,
+        "end": 357.62
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7872,8 +7827,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他心里清楚：百分之十是做得到的，那他就能做到比百分之十更好。",
         "en": "He understood: if ten percent was possible, then he could do better than ten percent.",
-        "start": 346.59,
-        "end": 352.9
+        "start": 357.62,
+        "end": 364.2
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7881,8 +7836,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 352.9,
-        "end": 355.22
+        "start": 364.2,
+        "end": 366.7
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7890,8 +7845,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他把在东海岸三年里自学的半导体知识，全部用上了。他一遍遍调整工艺参数——温度、时间、合金、扩散材料——大约四个月后，良率从近乎零，一路冲上了百分之二十以上。",
         "en": "He brought to bear everything he had taught himself about semiconductors over three years on the East Coast. He adjusted the process parameters again and again — temperature, time, alloys, diffusion materials — and after about four months, the yield climbed from near zero to more than twenty percent.",
-        "start": 355.22,
-        "end": 371.63
+        "start": 366.7,
+        "end": 384.13
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7899,8 +7854,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "IBM 的人来了，以为他只是运气好。可当他当面把每一个参数背后的理论一条条讲出来，没有人再怀疑。",
         "en": "IBM came to visit, expecting that he had merely been lucky. But when he explained, one by one, the theory behind every parameter, nobody doubted him anymore.",
-        "start": 371.63,
-        "end": 381.73
+        "start": 384.13,
+        "end": 394.32
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7908,8 +7863,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那之后，连德州仪器的总裁，都记住了这个年轻人的名字。",
         "en": "After that, even the president of Texas Instruments knew this young man's name.",
-        "start": 381.73,
-        "end": 387.2
+        "start": 394.32,
+        "end": 399.98
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7917,8 +7872,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 387.2,
-        "end": 388.46
+        "start": 399.98,
+        "end": 402.1
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7926,8 +7881,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这就是张忠谋在德州仪器的起点：一个把良率当信仰的年轻工程师。",
         "en": "That was Morris Chang's starting point at Texas Instruments: a young engineer who treated yield as an article of faith.",
-        "start": 388.46,
-        "end": 394.78
+        "start": 402.1,
+        "end": 408.58
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7935,8 +7890,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而他所在的这家公司，正在下一盘更大的棋。",
         "en": "And the company he had joined was playing a far bigger game.",
-        "start": 394.78,
-        "end": 398.99
+        "start": 408.58,
+        "end": 413.0
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7944,8 +7899,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 398.99,
-        "end": 401.3
+        "start": 413.0,
+        "end": 415.5
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7953,8 +7908,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "德州仪器当时的掌门人，叫帕特·哈格蒂。他是个军人出身、行事果决的企业家，早在别人还在观望的时候，就认定：半导体的未来，在太空，在国防，在导弹的制导系统里。",
         "en": "The man running Texas Instruments at the time was Patrick Haggerty — a former military officer and a decisive executive who, long before others, had decided that the future of semiconductors lay in space, in defense, in the guidance systems of missiles.",
-        "start": 401.3,
-        "end": 417.5
+        "start": 415.5,
+        "end": 431.99
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7962,8 +7917,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那几年，全美国都笼罩在一种追赶的焦虑里。1957 年，苏联抢先把人造卫星送上了天，那颗叫「斯普特尼克」的金属球，在夜空中一闪一闪，却像一块石头，砸进了美国人心里。从此，把人造卫星送上去、把宇航员送上去、把飞船送上月球，成了一场事关国家尊严的竞赛。",
         "en": "Those years, all of America was gripped by a sense of chasing from behind. In 1957, the Soviet Union had beaten everyone to orbit by launching its Sputnik satellite — a metal ball glinting in the night sky, yet landing like a stone in the American heart. From then on, putting a satellite into orbit, putting an astronaut into orbit, putting a spacecraft on the Moon — all of it became a contest of national pride.",
-        "start": 417.5,
-        "end": 443.39
+        "start": 431.99,
+        "end": 457.51
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7971,8 +7926,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1958 年，美国刚刚成立了国家航空航天局，简称 NASA。那是人类太空竞赛的开端。三年后，总统肯尼迪站在国会面前，说出一句让整个国家屏住呼吸的话——",
         "en": "In 1958, the United States established the National Aeronautics and Space Administration — NASA. That was the opening of the space race. Three years later, President Kennedy stood before Congress and said the words that made a nation hold its breath —",
-        "start": 443.39,
-        "end": 459.17
+        "start": 457.51,
+        "end": 473.36
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7980,8 +7935,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "「我们要在本十年结束之前，把一个人送上月球，再让他安全地回到地球。」",
         "en": "\"this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the Moon and returning him safely to the Earth.\"",
-        "start": 459.17,
-        "end": 466.54
+        "start": 473.36,
+        "end": 480.2
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7989,8 +7944,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 466.54,
-        "end": 467.8
+        "start": 480.2,
+        "end": 482.31
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -7998,8 +7953,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一句口号，变成了一笔巨大的生意。",
         "en": "One slogan turned into an enormous business.",
-        "start": 467.8,
-        "end": 471.16
+        "start": 482.31,
+        "end": 485.95
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -8007,8 +7962,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "登月，需要制导；导弹，需要制导；而制导系统的大脑，正是一块块集成电路。",
         "en": "Reaching the Moon required guidance; missiles required guidance; and the brain of every guidance system was a set of integrated circuits.",
-        "start": 471.16,
-        "end": 478.53
+        "start": 485.95,
+        "end": 493.63
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -8016,8 +7971,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "德州仪器，站到了这条生意链的最前端。1962 年，它为民兵导弹的制导系统，设计出了约二十二种定制电路；第二年，光是阿波罗计划一个项目，就消耗掉了全世界大约六成的集成电路。",
         "en": "Texas Instruments stood at the very front of that supply chain. In 1962, it designed roughly twenty-two custom circuits for the guidance system of the Minuteman missile. The next year, the Apollo program alone consumed about sixty percent of all the integrated circuits produced in the world.",
-        "start": 478.53,
-        "end": 496.42
+        "start": 493.63,
+        "end": 511.37
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -8025,8 +7980,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋后来反复说，他是在一家「赌上太空竞赛」的公司里，学会了对技术的信仰。",
         "en": "Morris Chang would later say, again and again, that he learned his faith in technology at a company that bet everything on the space race.",
-        "start": 496.42,
-        "end": 504.2
+        "start": 511.37,
+        "end": 518.79
       },
       {
         "secZh": "第二幕 · 一条产线与一个赌注",
@@ -8034,8 +7989,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这话不夸张。当一家公司愿意把整个未来押在一块指甲盖大小的硅片上时，它的每一个人，都会不自觉地相信：技术，真的能改变世界。",
         "en": "That was no exaggeration. When a company is willing to stake its entire future on a chip the size of a fingernail, everyone inside it comes to believe, almost without noticing, that technology can truly change the world.",
-        "start": 504.2,
-        "end": 516.83
+        "start": 518.79,
+        "end": 531.81
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8043,8 +7998,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 516.83,
-        "end": 518.09
+        "start": 531.81,
+        "end": 533.92
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8052,8 +8007,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "时间来到 1961 年。张忠谋三十岁。",
         "en": "Time moved on to 1961. Morris Chang was thirty.",
-        "start": 518.09,
-        "end": 522.09
+        "start": 533.92,
+        "end": 538.1
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8061,8 +8016,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在德州仪器，他已经是冉冉升起的新星。良率那一仗，让上上下下都认识了他；升迁，似乎只是时间问题。",
         "en": "At Texas Instruments, he was already a rising star. The yield battle had made his name known up and down the company; promotion seemed only a matter of time.",
-        "start": 522.09,
-        "end": 531.98
+        "start": 538.1,
+        "end": 548.47
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8070,8 +8025,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "就在这个时候，他做了一个让身边很多人看不懂的决定——",
         "en": "And it was at that moment that he made a decision that baffled many people around him —",
-        "start": 531.98,
-        "end": 537.45
+        "start": 548.47,
+        "end": 554.04
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8079,8 +8034,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他要回学校，去读博士。",
         "en": "He would go back to school, to earn a doctorate.",
-        "start": 537.45,
-        "end": 540.08
+        "start": 554.04,
+        "end": 556.7
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8088,8 +8043,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 540.08,
-        "end": 542.4
+        "start": 556.7,
+        "end": 559.21
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8097,8 +8052,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "不是辞职去读，而是由公司出钱、出学费，还照发工资，送他去读。",
         "en": "Not by resigning. The company would pay for it — the school, the tuition, and his salary would keep coming.",
-        "start": 542.4,
-        "end": 548.71
+        "start": 559.21,
+        "end": 565.83
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8106,8 +8061,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，德州仪器看中了他，愿意全额资助他去斯坦福大学，攻读电机工程的博士学位。",
         "en": "That year, Texas Instruments saw something in him and offered to fully fund his study at Stanford University, toward a doctorate in electrical engineering.",
-        "start": 548.71,
-        "end": 556.92
+        "start": 565.83,
+        "end": 574.11
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8115,8 +8070,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "对很多人来说，这是求之不得的机会。可对张忠谋来说，它更是一个艰难的选择：三十岁，事业正往上走，一个人要有多大的勇气，才肯在上升期，主动把自己清零，重新背起书包？",
         "en": "To most people, this was an opportunity to be grabbed with both hands. But to Chang, it was a hard choice: at thirty, with his career climbing, how much courage does it take to reset yourself to zero, at the peak of your rise, and pick up a schoolbag again?",
-        "start": 556.92,
-        "end": 573.75
+        "start": 574.11,
+        "end": 591.37
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8124,8 +8079,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他去了。",
         "en": "He went.",
-        "start": 573.75,
-        "end": 574.59
+        "start": 591.37,
+        "end": 592.59
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8133,8 +8088,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 574.59,
-        "end": 575.86
+        "start": 592.59,
+        "end": 594.7
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8142,8 +8097,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "斯坦福，在加州，在一片后来被叫做「硅谷」的地方。",
         "en": "Stanford was in California — in a place that would later come to be called Silicon Valley.",
-        "start": 575.86,
-        "end": 580.91
+        "start": 594.7,
+        "end": 599.59
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8151,8 +8106,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他清楚，这一走，眼前的位置、正往上走的薪水、刚刚攒下的名声，都要暂时放在一边。可他更清楚另一件事：半导体这行，技术翻新得比什么都快，只靠经验，走不远。",
         "en": "He knew that this meant setting aside, for a while, his position, his rising salary, and the reputation he had just begun to build. But he understood something else even more clearly: in the semiconductor business, technology turns over faster than almost anything, and experience alone will not carry you far.",
-        "start": 580.91,
-        "end": 596.69
+        "start": 599.59,
+        "end": 615.97
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8160,8 +8115,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋从达拉斯的产线，一头扎进了帕洛阿尔托的校园。白天上课，晚上泡在图书馆里，啃那些艰深的论文。三年里，他把一个在职工程师的时间，掰成了两半。",
         "en": "Chang plunged from the production line in Dallas into the campus at Palo Alto. Classes by day, the library at night, wrestling with dense papers. For three years, he split the time of a working engineer in half.",
-        "start": 596.69,
-        "end": 611.63
+        "start": 615.97,
+        "end": 631.53
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8169,8 +8124,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那段时间，他不再是那个在产线旁发号施令的主管，而是一个背着书包、赶着交作业的学生。身边的同学，多半比他年轻；可论起对机会的珍惜，没人比得上这个三十岁才重返课堂的人。",
         "en": "In those years he was no longer the manager giving orders beside the production line, but a student carrying a bag and rushing to finish assignments. Most of his classmates were younger than he was; but no one valued the opportunity more than the man who had returned to the classroom at thirty.",
-        "start": 611.63,
-        "end": 628.89
+        "start": 631.53,
+        "end": 648.87
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8178,8 +8133,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1964 年春天，他拿到了斯坦福的电机工程博士学位。",
         "en": "In the spring of 1964, he received his doctorate in electrical engineering from Stanford.",
-        "start": 628.89,
-        "end": 634.36
+        "start": 648.87,
+        "end": 654.26
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8187,8 +8142,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 634.36,
-        "end": 636.67
+        "start": 654.26,
+        "end": 656.77
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8196,8 +8151,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "然后，他回到了德州仪器。",
         "en": "Then he went back to Texas Instruments.",
-        "start": 636.67,
-        "end": 639.2
+        "start": 656.77,
+        "end": 659.62
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8205,8 +8160,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "公司给他的第一个位置，是锗晶体管部的总经理——手下，管着两千多人。",
         "en": "The first position the company gave him was general manager of the germanium transistor department — with more than two thousand people under him.",
-        "start": 639.2,
-        "end": 646.14
+        "start": 659.62,
+        "end": 667.08
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8214,8 +8169,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "请留意这个细节：等他回来的时候，锗，已经开始让位给硅了。那个当年在产线上教会他「良率」的材料，正在被时代慢慢淘汰。",
         "en": "Note the detail: by the time he returned, germanium was already yielding to silicon. The very material that had once taught him the word \"yield\" on the production line was being slowly retired by its own era.",
-        "start": 646.14,
-        "end": 658.14
+        "start": 667.08,
+        "end": 679.13
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8223,8 +8178,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可张忠谋没有挑肥拣瘦。他把这个部门接下来，把它做成了一门赚钱的生意。",
         "en": "But Chang did not pick and choose. He took the department, and he made it a profitable business.",
-        "start": 658.14,
-        "end": 665.29
+        "start": 679.13,
+        "end": 686.7
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8232,8 +8187,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "很多年后回想，人们才看明白：那三年读博，不只是为了一个学位。它让他从一个「懂技术的人」，变成了一个「既懂技术、又懂管理、还看得懂全局的人」。",
         "en": "Years later, people would see it clearly: those three years of study were never just about a degree. They turned him from a man who understood technology into a man who understood technology, understood management, and could see the whole board.",
-        "start": 665.29,
-        "end": 680.02
+        "start": 686.7,
+        "end": 701.07
       },
       {
         "secZh": "第三幕 · 把自己清零",
@@ -8241,8 +8196,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而真正的强者，敢于在上升期，把自己清零。",
         "en": "And the truly strong dare to reset themselves to zero at the peak of their rise.",
-        "start": 680.02,
-        "end": 684.23
+        "start": 701.07,
+        "end": 705.57
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8250,8 +8205,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 684.23,
-        "end": 685.49
+        "start": 705.57,
+        "end": 707.68
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8259,8 +8214,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在张忠谋埋头斯坦福的那三年里，外面的世界，正在剧烈地摇晃。",
         "en": "During the three years Chang spent buried in Stanford, the world outside was shaking hard.",
-        "start": 685.49,
-        "end": 691.6
+        "start": 707.68,
+        "end": 713.93
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8268,8 +8223,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1963 年 11 月 22 日，一个星期五。",
         "en": "November 22, 1963. A Friday.",
-        "start": 691.6,
-        "end": 696.44
+        "start": 713.93,
+        "end": 717.96
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8277,8 +8232,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "达拉斯，迪利广场。",
         "en": "Dallas. Dealey Plaza.",
-        "start": 696.44,
-        "end": 698.33
+        "start": 717.96,
+        "end": 720.24
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8286,8 +8241,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "美国总统肯尼迪，坐在敞篷车里，正驶过这个城市的街道。车队经过一座仓库楼下时，枪声响了。",
         "en": "President John F. Kennedy sat in an open-top car, passing through the streets of the city. As the motorcade drove past a warehouse building, shots rang out.",
-        "start": 698.33,
-        "end": 707.38
+        "start": 720.24,
+        "end": 729.73
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8295,8 +8250,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "肯尼迪，倒下了。",
         "en": "Kennedy fell.",
-        "start": 707.38,
-        "end": 709.06
+        "start": 729.73,
+        "end": 731.82
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8304,8 +8259,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 709.06,
-        "end": 711.38
+        "start": 731.82,
+        "end": 734.32
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8313,8 +8268,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "达拉斯，正是德州仪器总部所在的城市，也正是张忠谋工作过的地方。",
         "en": "Dallas — the very city that was home to Texas Instruments' headquarters, the very city where Chang had worked.",
-        "start": 711.38,
-        "end": 717.9
+        "start": 734.32,
+        "end": 740.96
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8322,8 +8277,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那个喊出「把人送上月球」的总统，死在了那个把芯片送上月球的城市。",
         "en": "The president who had promised to send a man to the Moon died in the city that would send its chips to the Moon.",
-        "start": 717.9,
-        "end": 724.63
+        "start": 740.96,
+        "end": 747.32
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8331,8 +8286,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "历史就是这样，把最宏大的理想，和最残酷的现实，编织进同一个坐标。同一座城市，一边承载着人类奔向星辰的野心，一边眼睁睁看着一代领袖倒在血泊之中。",
         "en": "History has a way of weaving the grandest ambitions and the cruelest realities into the same coordinate. One city, at one moment, carrying humanity's dream of the stars on one side, and watching a generation's leader fall on the other.",
-        "start": 724.63,
-        "end": 739.58
+        "start": 747.32,
+        "end": 762.44
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8340,8 +8295,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 739.58,
-        "end": 740.84
+        "start": 762.44,
+        "end": 764.55
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8349,8 +8304,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "登月的计划没有因此停下。副总统约翰逊接过了总统的位置，太空竞赛依旧轰轰烈烈。第二年，1964 年，美国国会通过了「东京湾决议」，越南的战火，从此越烧越大。",
         "en": "The Moon program did not stop. Vice President Lyndon Johnson took over the presidency, and the space race rolled on. The following year, 1964, Congress passed the Gulf of Tonkin Resolution, and the war in Vietnam burned hotter from then on.",
-        "start": 740.84,
-        "end": 757.04
+        "start": 764.55,
+        "end": 780.7
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8358,8 +8313,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一边是上天，一边是入地的战争。",
         "en": "On one side, the race upward to the heavens; on the other, a war digging into the earth.",
-        "start": 757.04,
-        "end": 761.78
+        "start": 780.7,
+        "end": 784.14
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8367,8 +8322,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而半导体，就在这两个方向上，同时被拉扯、被需要、被催熟。它既是导弹与飞船的大脑，也是后来那一代机器的心脏。",
         "en": "And the semiconductor was pulled, needed, and forced to mature in both directions at once. It was the brain of missiles and spacecraft, and the heart of the generation of machines that followed.",
-        "start": 761.78,
-        "end": 772.93
+        "start": 784.14,
+        "end": 795.76
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8376,8 +8331,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "达拉斯的德州仪器，就站在这股洪流的最中间。它的车间里，正为导弹赶制制导电路；它的实验室里，工程师们盯着示波器，想象着一块芯片如何飞向月球。而刚从斯坦福回来的张忠谋，即将接过其中一支团队。",
         "en": "Texas Instruments stood at the dead center of that flood. Its workshops were rushing out guidance circuits for missiles; in its laboratories, engineers stared at oscilloscopes, imagining how a chip might fly to the Moon. And Morris Chang, freshly returned from Stanford, was about to take over one of those teams.",
-        "start": 772.93,
-        "end": 792.5
+        "start": 795.76,
+        "end": 815.68
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8385,8 +8340,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 792.5,
-        "end": 794.81
+        "start": 815.68,
+        "end": 818.19
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8394,8 +8349,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，张忠谋从斯坦福回来，重新走进了德州仪器。",
         "en": "That year, Chang came back from Stanford and walked into Texas Instruments once more.",
-        "start": 794.81,
-        "end": 799.87
+        "start": 818.19,
+        "end": 823.46
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8403,8 +8358,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他没有赶上达拉斯那天的枪声，却赶上了这家公司接下来最汹涌的十年。",
         "en": "He had missed the shots in Dallas that day — but he was in time for the company's most turbulent decade, which was about to begin.",
-        "start": 799.87,
-        "end": 806.7
+        "start": 823.46,
+        "end": 830.21
       },
       {
         "secZh": "第四幕 · 达拉斯的枪声",
@@ -8412,8 +8367,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从此，他将从一个部门总经理起步，一路向上，直到站到半导体行业的巅峰，与英特尔正面为敌。",
         "en": "From there, he would rise from the general manager of one department, step by step, all the way to the summit of the semiconductor world — and face Intel head-on.",
-        "start": 806.7,
-        "end": 815.75
+        "start": 830.21,
+        "end": 839.36
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8421,8 +8376,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静，放慢",
         "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 815.75,
-        "end": 818.7
+        "start": 839.36,
+        "end": 842.54
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8430,8 +8385,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们把镜头，从 1958 年，一路快进。",
         "en": "Let us fast-forward from 1958.",
-        "start": 818.7,
-        "end": 823.12
+        "start": 842.54,
+        "end": 846.85
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8439,8 +8394,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，芯片还没有名字。基尔比在空实验室里，点亮了人类第一块集成电路；张忠谋在产线旁，把良率从近乎零，做到了百分之二十以上。",
         "en": "That year, the chip had no name. In an empty laboratory, Kilby lit up the first integrated circuit in history; beside a production line, Chang pushed a yield from near zero to more than twenty percent.",
-        "start": 823.12,
-        "end": 836.17
+        "start": 846.85,
+        "end": 860.22
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8448,8 +8403,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，美国成立了 NASA；三年后，肯尼迪说，我们要上月球。",
         "en": "That year, America founded NASA; three years later, Kennedy said: we are going to the Moon.",
-        "start": 836.17,
-        "end": 842.69
+        "start": 860.22,
+        "end": 866.84
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8457,8 +8412,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而张忠谋，在上升期把自己清零，去了斯坦福，又带着一个博士学位回来。",
         "en": "And Chang, at the peak of his rise, reset himself to zero, went to Stanford, and came back with a doctorate.",
-        "start": 842.69,
-        "end": 849.63
+        "start": 866.84,
+        "end": 873.96
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8466,8 +8421,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 849.63,
-        "end": 851.95
+        "start": 873.96,
+        "end": 876.46
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8475,8 +8430,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "人们总说，那是一个「信仰技术」的年代。",
         "en": "People like to say that was an era of \"faith in technology.\"",
-        "start": 851.95,
-        "end": 855.95
+        "start": 876.46,
+        "end": 880.29
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8484,8 +8439,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可技术从来不会自己改变世界。改变世界的，是那些愿意为技术押上一切的人——是基尔比，在空无一人的实验室里拼那块锗片；是哈格蒂，把一家公司押在导弹与月球上；也是张忠谋，在三十岁那年，把已经握在手里的前途，重新放回了牌桌上。",
         "en": "But technology never changes the world by itself. What changes the world is the people willing to stake everything on technology — Kilby, piecing together that sliver of germanium in an empty lab; Haggerty, betting an entire company on missiles and the Moon; and Chang, at thirty, laying the future he already held back down on the table.",
-        "start": 855.95,
-        "end": 878.88
+        "start": 880.29,
+        "end": 903.49
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8493,8 +8448,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 878.88,
-        "end": 881.2
+        "start": 903.49,
+        "end": 906.0
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8502,8 +8457,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他在一家赌上太空竞赛的公司里，学会了什么叫技术的信仰。",
         "en": "In a company that bet everything on the space race, he learned what it means to believe in technology.",
-        "start": 881.2,
-        "end": 886.88
+        "start": 906.0,
+        "end": 911.77
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8511,8 +8466,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这份信仰，最终沉淀成一个朴素到不能再朴素的信念：**制造业的胜负，写在生产线上；而人的胜负，写在敢不敢归零的那一刻。**",
         "en": "That faith settled, in the end, into a belief so plain it could not be simpler: **the battle of manufacturing is won on the production line; and the battle of a person is won in the moment he dares to reset himself to zero.**",
-        "start": 886.88,
-        "end": 899.51
+        "start": 911.77,
+        "end": 923.67
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8520,8 +8475,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "多年以后，当他离开美国、回到台湾、创办台积电的时候，带走的，正是这个信念。",
         "en": "Years later, when he left America, returned to Taiwan, and founded TSMC, this was the conviction he carried with him.",
-        "start": 899.51,
-        "end": 907.29
+        "start": 923.67,
+        "end": 931.74
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8529,8 +8484,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他把「良率」两个字，刻进了一家公司的基因里；把「技术的信仰」，变成了一座后来被称为「护国神山」的工厂。",
         "en": "He etched the word \"yield\" into the genes of a company; he turned \"faith in technology\" into a factory that would one day be called the mountain that guards an island.",
-        "start": 907.29,
-        "end": 918.02
+        "start": 931.74,
+        "end": 941.19
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8538,8 +8493,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 918.02,
-        "end": 920.34
+        "start": 941.19,
+        "end": 943.69
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8547,8 +8502,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而我们记住的，是 1958 年那个还没被命名的瞬间：",
         "en": "And what we remember is that still-unnamed moment in 1958:",
-        "start": 920.34,
-        "end": 925.81
+        "start": 943.69,
+        "end": 948.66
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8556,8 +8511,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个年轻人走进达拉斯，一个发明人点亮一块锗片。",
         "en": "A young man walked into Dallas. An inventor lit up a sliver of germanium.",
-        "start": 925.81,
-        "end": 930.65
+        "start": 948.66,
+        "end": 953.66
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8565,8 +8520,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一年，芯片还没有名字。",
         "en": "That year, the chip had no name.",
-        "start": 930.65,
-        "end": 933.18
+        "start": 953.66,
+        "end": 956.52
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8574,8 +8529,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但一个时代的名字，已经写好了。",
         "en": "But the name of an era had already been written.",
-        "start": 933.18,
-        "end": 936.33
+        "start": 956.52,
+        "end": 959.96
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8583,8 +8538,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "多年以后，当人们回望这段岁月，会发现它同时藏着两个起点：一个属于技术——集成电路；一个属于人——一个敢于在上升期把自己清零的年轻人。",
         "en": "Years later, looking back on those years, people would find in them two beginnings at once: one belonging to technology — the integrated circuit; and one belonging to a man — a young man who dared to reset himself to zero at the peak of his rise.",
-        "start": 936.33,
-        "end": 950.22
+        "start": 959.96,
+        "end": 974.57
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -8592,8 +8547,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "**他在一家赌上太空竞赛的公司里，学会了什么叫技术的信仰；而真正的强者，敢于在上升期把自己清零。**",
         "en": "**In a company that bet everything on the space race, he learned what it means to believe in technology. And the truly strong dare to reset themselves to zero at the peak of their rise.**",
-        "start": 950.22,
-        "end": 960.74
+        "start": 974.57,
+        "end": 984.21
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -8601,8 +8556,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
         "en": "(Verified public facts, for the listener's reference)",
-        "start": 960.74,
-        "end": 964.95
+        "start": 984.21,
+        "end": 989.14
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -8610,8 +8565,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1. **基尔比与第一块集成电路（1958）**：1958 年 9 月 12 日，德州仪器新员工杰克·基尔比在实验室演示了第一块可工作的集成电路（锗基、混合式），2000 年获诺贝尔物理学奖。",
         "en": "1. **Kilby and the First Integrated Circuit (1958)**: On September 12, 1958, Jack Kilby, a new employee at Texas Instruments, demonstrated the first working integrated circuit in his laboratory (germanium-based, hybrid); he won the Nobel Prize in Physics in 2000.",
-        "start": 964.95,
-        "end": 985.15
+        "start": 989.14,
+        "end": 1006.05
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -8619,8 +8574,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "2. **基尔比与诺伊斯之争**：基尔比 1958 年用锗做混合式电路，诺伊斯 1959 年用硅平面工艺做单片式电路（1961 年获专利）；两人并称集成电路共同发明人。",
         "en": "2. **Kilby vs. Noyce**: Kilby built a germanium hybrid circuit in 1958; Noyce built a silicon monolithic circuit using the planar process in 1959 (patented in 1961). The two are jointly credited as co-inventors of the integrated circuit.",
-        "start": 985.15,
-        "end": 1002.83
+        "start": 1006.05,
+        "end": 1021.31
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -8628,8 +8583,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "3. **NASA 与登月国策**：1958 年 7 月 29 日 NASA 成立；1961 年 5 月 25 日肯尼迪提出「在本十年结束前把人送上月球并安全返回」的目标。",
         "en": "3. **NASA and the Moon Pledge**: NASA was founded on July 29, 1958; on May 25, 1961, Kennedy committed the nation to \"landing a man on the Moon and returning him safely to the Earth\" before the end of the decade.",
-        "start": 1002.83,
-        "end": 1020.93
+        "start": 1021.31,
+        "end": 1035.32
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -8637,8 +8592,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "4. **集成电路上天**：1962 年 TI 为民兵导弹制导系统设计约 22 种定制电路；1963 年阿波罗计划消耗全球约 60% 的集成电路；阿波罗制导计算机是最早使用集成电路的计算机之一。",
         "en": "4. **Integrated Circuits Go to Space**: In 1962, TI designed roughly 22 custom circuits for the Minuteman missile guidance system; in 1963, the Apollo program consumed about 60 percent of the world's integrated circuits; the Apollo guidance computer was among the first computers to use integrated circuits.",
-        "start": 1020.93,
-        "end": 1041.34
+        "start": 1035.32,
+        "end": 1052.73
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -8646,8 +8601,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "5. **哈格蒂的太空押注**：德州仪器总裁帕特·哈格蒂（1958 任总裁、1967 任董事长）主导公司转向半导体与太空国防业务；1961 年 TI 为美国空军交付首台集成电路计算机。",
         "en": "5. **Haggerty's Space Bet**: TI president Patrick Haggerty (president in 1958, chairman in 1967) steered the company toward semiconductors and the space/defense business; in 1961, TI delivered the first integrated-circuit computer to the U.S. Air Force.",
-        "start": 1041.34,
-        "end": 1060.7
+        "start": 1052.73,
+        "end": 1069.35
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -8655,8 +8610,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "6. **张忠谋的 TI 早期与斯坦福博士**：1958 年入职 TI 任工程主管（管 2–3 名工程师），约四个月将 IBM 产线良率从近零提升至 20% 以上；1961 年由 TI 全额资助赴斯坦福读博，1964 年春获电机工程博士，返 TI 即升任锗晶体管部总经理（管 2000 多人）。",
         "en": "6. **Chang's Early TI Years and Stanford Doctorate**: He joined TI in 1958 as an engineering manager (supervising 2–3 engineers) and, in about four months, raised an IBM production line's yield from near zero to over 20 percent; in 1961, TI fully funded his doctorate at Stanford, and in spring 1964 he earned his Ph.D. in electrical engineering, returning to TI as general manager of the germanium transistor department (overseeing 2,000-plus people).",
-        "start": 1060.7,
-        "end": 1091.63
+        "start": 1069.35,
+        "end": 1093.55
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -8664,8 +8619,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "7. **肯尼迪遇刺与越战升级**：1963 年 11 月 22 日肯尼迪在达拉斯遇刺；1964 年 8 月 7 日美国国会通过东京湾决议，越南战争升级。",
         "en": "7. **The Kennedy Assassination and the Escalation in Vietnam**: Kennedy was assassinated in Dallas on November 22, 1963; on August 7, 1964, Congress passed the Gulf of Tonkin Resolution, escalating the Vietnam War.",
-        "start": 1091.63,
-        "end": 1107.84
+        "start": 1093.55,
+        "end": 1106.87
       },
       {
         "secZh": "下集预告",
@@ -8673,8 +8628,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1107.84,
-        "end": 1109.1
+        "start": 1106.87,
+        "end": 1108.98
       },
       {
         "secZh": "下集预告",
@@ -8682,8 +8637,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从 1964 年归队开始，张忠谋走进了他人生中爬得最快、也摔得最重的一段路。",
         "en": "Beginning with his return in 1964, Morris Chang entered the part of his life where he climbed fastest — and fell hardest.",
-        "start": 1109.1,
-        "end": 1117.1
+        "start": 1108.98,
+        "end": 1116.6
       },
       {
         "secZh": "下集预告",
@@ -8691,8 +8646,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他把德州仪器的集成电路业务，做到了全球第一。他推行的「学习曲线定价」，让对手节节败退。他几乎赢下了市场上所有的战役。",
         "en": "He would make Texas Instruments' integrated-circuit business the largest in the world. His \"learning-curve pricing\" would send rival after rival into retreat. He would win almost every battle in the marketplace.",
-        "start": 1117.1,
-        "end": 1129.3
+        "start": 1116.6,
+        "end": 1128.97
       },
       {
         "secZh": "下集预告",
@@ -8700,8 +8655,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可最难的仗，往往不在市场上，而在会议室里。",
         "en": "But the hardest battles are not fought in the marketplace. They are fought in the boardroom.",
-        "start": 1129.3,
-        "end": 1133.72
+        "start": 1128.97,
+        "end": 1133.67
       },
       {
         "secZh": "下集预告",
@@ -8709,7 +8664,7 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "下集，《半导体之巅的十年》：日本半导体崛起、石油危机、微处理器时代——他赢下了几乎所有战役，却没赢下德州仪器内部的权力棋局。",
         "en": "Next episode, \"The Decade at the Summit of Semiconductors\": the rise of Japanese semiconductors, the oil crisis, the microprocessor age — he won almost every battle, but he did not win the power game inside Texas Instruments.",
-        "start": 1133.72,
+        "start": 1133.67,
         "end": 1146.77
       }
     ]
@@ -8721,8 +8676,8 @@ window.AUDIO_DATA = [
     "summary": "半导体之巅的十年 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第07期-半导体之巅的十年/中文音频.mp3",
     "audioEn": "./03-剧集/第07期-半导体之巅的十年/英文音频.mp3",
-    "durationZh": 1210.07,
-    "durationEn": 1240.88,
+    "durationZh": 1210.068,
+    "durationEn": 1240.884,
     "cues": [
       {
         "secZh": "开场",
@@ -8731,7 +8686,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：电子设备运转的轻鸣，远处打字机敲击声，渐渐压低】",
         "en": "[SFX: the low hum of electronic equipment, a distant typewriter clacking, fading down]",
         "start": 0.0,
-        "end": 5.93
+        "end": 6.73
       },
       {
         "secZh": "开场",
@@ -8739,8 +8694,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1972 年，美国得克萨斯州，达拉斯。",
         "en": "Dallas, Texas. 1972.",
-        "start": 5.93,
-        "end": 9.95
+        "start": 6.73,
+        "end": 10.82
       },
       {
         "secZh": "开场",
@@ -8748,8 +8703,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "德州仪器总部的走廊里，一个四十一岁的男人，刚刚被叫进最高层的办公室。",
         "en": "In the corridors of Texas Instruments' headquarters, a forty-one-year-old man is called into the office of the highest level.",
-        "start": 9.95,
-        "end": 17.14
+        "start": 10.82,
+        "end": 17.99
       },
       {
         "secZh": "开场",
@@ -8757,8 +8712,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "门关上以后，他听到了一个新的任命：从今天起，他主管这家公司全部的半导体业务——半导体集团总经理。",
         "en": "When the door closes, he hears a new appointment: from this day on, he will run the company's entire semiconductor business — general manager of the semiconductor group.",
-        "start": 17.14,
-        "end": 27.3
+        "start": 17.99,
+        "end": 28.5
       },
       {
         "secZh": "开场",
@@ -8766,8 +8721,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那是他这一生，到目前为止，爬到的最高处。",
         "en": "It is the highest place he has reached in his life, so far.",
-        "start": 27.3,
-        "end": 31.53
+        "start": 28.5,
+        "end": 32.97
       },
       {
         "secZh": "开场",
@@ -8775,8 +8730,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 31.53,
-        "end": 32.8
+        "start": 32.97,
+        "end": 35.07
       },
       {
         "secZh": "开场",
@@ -8784,8 +8739,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这家公司，是当时全球半导体业无可争议的巨头；而这个职位，意味着他手里握着全世界最大的芯片生意。",
         "en": "The company is, at that moment, the undisputed giant of the global semiconductor industry. And this position means that in his hands is the largest chip business in the world.",
-        "start": 32.8,
-        "end": 42.75
+        "start": 35.07,
+        "end": 44.84
       },
       {
         "secZh": "开场",
@@ -8793,8 +8748,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "没有人会怀疑，这是他人生的巅峰。",
         "en": "No one would doubt that this is the summit of his life.",
-        "start": 42.75,
-        "end": 46.14
+        "start": 44.84,
+        "end": 48.45
       },
       {
         "secZh": "开场",
@@ -8802,8 +8757,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可故事最残酷的地方，恰恰从这里开始。",
         "en": "And yet the cruelest part of the story begins exactly here.",
-        "start": 46.14,
-        "end": 49.95
+        "start": 48.45,
+        "end": 52.45
       },
       {
         "secZh": "开场",
@@ -8811,8 +8766,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 49.95,
-        "end": 52.28
+        "start": 52.45,
+        "end": 54.94
       },
       {
         "secZh": "开场",
@@ -8820,8 +8775,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在接下来的十几年里，他会在市场上打赢几乎所有的仗——他用一种近乎冷酷的定价方式，把德州仪器的集成电路业务，做成了全球最大、也最赚钱的一块。",
         "en": "Over the next dozen years, he will win nearly every battle in the marketplace. With a kind of almost ruthless pricing, he will build Texas Instruments' integrated-circuit business into the largest and most profitable in the world.",
-        "start": 52.28,
-        "end": 66.88
+        "start": 54.94,
+        "end": 69.47
       },
       {
         "secZh": "开场",
@@ -8829,8 +8784,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可与此同时，他也输掉了一场他从未放在眼里的仗。",
         "en": "And at the same time, he will lose a battle he never even took seriously.",
-        "start": 66.88,
-        "end": 71.75
+        "start": 69.47,
+        "end": 74.43
       },
       {
         "secZh": "开场",
@@ -8838,8 +8793,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那场仗，不在市场上，在会议室里。",
         "en": "That battle was not fought in the marketplace. It was fought in the boardroom.",
-        "start": 71.75,
-        "end": 75.45
+        "start": 74.43,
+        "end": 78.13
       },
       {
         "secZh": "开场",
@@ -8847,8 +8802,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 75.45,
-        "end": 76.72
+        "start": 78.13,
+        "end": 80.22
       },
       {
         "secZh": "开场",
@@ -8856,8 +8811,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "很多年以后，人们提起这段岁月，总会想到同一个问题：一个在市场上所向披靡的人，为什么最终，会在一家公司内部，输掉自己的位置？",
         "en": "Years later, when people talk about those years, they always come back to the same question: how could a man who was invincible in the market end up losing his place inside a company?",
-        "start": 76.72,
-        "end": 89.63
+        "start": 80.22,
+        "end": 93.08
       },
       {
         "secZh": "开场",
@@ -8865,8 +8820,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这个男人，叫张忠谋。",
         "en": "The man's name was Morris Chang.",
-        "start": 89.63,
-        "end": 91.75
+        "start": 93.08,
+        "end": 95.54
       },
       {
         "secZh": "开场",
@@ -8874,8 +8829,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而这一集，我们要讲的故事，就是他在半导体之巅的那十年——以及，他是怎么从巅峰，一步一步，滑向边缘的。",
         "en": "And this episode is the story of his decade at the summit of semiconductors — and of how, step by step, he slid from the peak toward the edge.",
-        "start": 91.75,
-        "end": 102.33
+        "start": 95.54,
+        "end": 106.49
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8883,8 +8838,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 102.33,
-        "end": 103.6
+        "start": 106.49,
+        "end": 108.59
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8892,8 +8847,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们把时间往回拨一点。",
         "en": "Let us rewind a little.",
-        "start": 103.6,
-        "end": 106.14
+        "start": 108.59,
+        "end": 111.34
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8901,8 +8856,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1964 年，张忠谋从斯坦福拿到电机工程博士学位，回到了德州仪器。",
         "en": "In 1964, Chang came back from Stanford with his doctorate in electrical engineering and returned to Texas Instruments.",
-        "start": 106.14,
-        "end": 113.12
+        "start": 111.34,
+        "end": 118.12
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8910,8 +8865,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "公司给他的第一个位置，是锗晶体管部的总经理。手下，管着两千多人。",
         "en": "The first position the company gave him was general manager of the germanium transistor department. Under him, more than two thousand people.",
-        "start": 113.12,
-        "end": 119.9
+        "start": 118.12,
+        "end": 125.34
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8919,8 +8874,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 119.9,
-        "end": 122.22
+        "start": 125.34,
+        "end": 127.83
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8928,8 +8883,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "请留意一个当时几乎没人注意的细节：等他回来的时候，锗，已经开始让位给硅了。可他接手的这个部门，恰恰还是德州仪器最大、也最赚钱的一块生意。",
         "en": "Note one detail that almost nobody paid attention to at the time: by the time he came back, germanium was already giving way to silicon. And yet the department he took over was still the largest and most profitable business in Texas Instruments.",
-        "start": 122.22,
-        "end": 136.62
+        "start": 127.83,
+        "end": 142.39
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8937,8 +8892,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他没有挑肥拣瘦。他把这个部门接了下来，并且把它经营得稳稳当当。",
         "en": "He did not pick and choose. He took the department, and he ran it soundly.",
-        "start": 136.62,
-        "end": 143.18
+        "start": 142.39,
+        "end": 149.33
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8946,8 +8901,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "随后几年，他的位置一个接一个地换：从锗，到硅，再到集成电路。到 1967 年，他已经坐在了集成电路部总经理的位置上。",
         "en": "Over the next few years, his post changed one after another: from germanium, to silicon, to integrated circuits. By 1967, he was sitting in the chair of general manager of the integrated-circuit department.",
-        "start": 143.18,
-        "end": 155.45
+        "start": 149.33,
+        "end": 161.57
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8955,8 +8910,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 155.45,
-        "end": 156.72
+        "start": 161.57,
+        "end": 163.67
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8964,8 +8919,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而正是在集成电路部，他遇见了一个改变他一生的东西。",
         "en": "And it was there, in the integrated-circuit department, that he met the thing that would change his life.",
-        "start": 156.72,
-        "end": 162.01
+        "start": 163.67,
+        "end": 169.02
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8973,8 +8928,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那个东西，叫「学习曲线」。",
         "en": "That thing was called the \"learning curve.\"",
-        "start": 162.01,
-        "end": 164.76
+        "start": 169.02,
+        "end": 171.66
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8982,8 +8937,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 164.76,
-        "end": 167.09
+        "start": 171.66,
+        "end": 174.15
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -8991,8 +8946,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那时候，波士顿咨询公司的人，给他讲了一条规律：一件产品的产量，每翻一番，它的单位成本，就会按一个固定的比例往下降。",
         "en": "At the time, the consultants from the Boston Consulting Group explained a rule to him: every time the production volume of a product doubles, its unit cost falls by a fixed percentage.",
-        "start": 167.09,
-        "end": 179.16
+        "start": 174.15,
+        "end": 186.23
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9000,8 +8955,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "做得越多，成本越低。这在半导体这个行业里，是一条铁的法则。",
         "en": "The more you make, the cheaper it gets. In the semiconductor business, that was an iron law.",
-        "start": 179.16,
-        "end": 185.29
+        "start": 186.23,
+        "end": 192.88
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9009,8 +8964,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋几乎是一瞬间，就抓住了这条法则的分量。",
         "en": "Chang grasped the weight of this rule almost instantly.",
-        "start": 185.29,
-        "end": 189.95
+        "start": 192.88,
+        "end": 197.64
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9018,8 +8973,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他想明白了一件事：只要你的市场份额足够大、产量足够高，你的成本就会比别人低；成本比别人低，你就能把价格压得比别人狠；价格压得狠，你的份额就会更大。",
         "en": "He saw the whole picture in one flash: if your market share is big enough and your volume is high enough, your cost will be lower than everyone else's; with lower cost, you can cut prices harder than everyone else; and by cutting prices harder, your share grows even bigger.",
-        "start": 189.95,
-        "end": 205.4
+        "start": 197.64,
+        "end": 212.91
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9027,8 +8982,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这是一个滚雪球式的循环。谁先转起来，谁就赢。",
         "en": "It was a snowballing loop. Whoever got it turning first would win.",
-        "start": 205.4,
-        "end": 210.06
+        "start": 212.91,
+        "end": 218.11
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9036,8 +8991,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 210.06,
-        "end": 211.33
+        "start": 218.11,
+        "end": 220.21
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9045,8 +9000,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，他做了一件让同行都觉得疯狂的事。",
         "en": "So he did something the whole industry thought was madness.",
-        "start": 211.33,
-        "end": 215.35
+        "start": 220.21,
+        "end": 224.4
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9054,8 +9009,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他决定：每个季度，都主动降价——哪怕市场根本没有要求他降价，哪怕这一季的利润会因此变薄。",
         "en": "He decided: every quarter, cut prices on his own initiative — even when the market was not asking for it, even when this quarter's profit would be thinner because of it.",
-        "start": 215.35,
-        "end": 224.66
+        "start": 224.4,
+        "end": 234.14
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9063,8 +9018,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他要用价格，把对手一个一个逼出牌桌。",
         "en": "He would use price to drive his rivals off the table, one by one.",
-        "start": 224.66,
-        "end": 228.47
+        "start": 234.14,
+        "end": 238.14
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9072,8 +9027,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 228.47,
-        "end": 230.8
+        "start": 238.14,
+        "end": 240.62
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9081,8 +9036,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这在当时，几乎是一种自杀式的打法。董事会看不懂，竞争对手更看不懂。",
         "en": "At the time, this looked almost like a suicidal strategy. The board did not understand it, and competitors understood it even less.",
-        "start": 230.8,
-        "end": 237.78
+        "start": 240.62,
+        "end": 248.04
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9090,8 +9045,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "只有张忠谋自己清楚：他要的不是这一季的利润，而是十年后的那张牌桌——到那时候，坐在这张桌子上的，只能是他一个人。",
         "en": "Only Chang himself knew: what he wanted was not this quarter's profit, but the card table ten years from now — and by then, he wanted to be the only one left sitting at it.",
-        "start": 237.78,
-        "end": 249.63
+        "start": 248.04,
+        "end": 260.18
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9099,8 +9054,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "为了配合这套打法，他还在休斯顿建了一座新厂。新厂的良率，从一开始就冲到了百分之四十——在那个人人都在为百分之二十的良率焦头烂额的年代，这几乎是一个奇迹。",
         "en": "To support this strategy, he also built a new factory in Houston. Its yield reached forty percent from the very start — in an era when everyone else was struggling just to reach twenty percent, that was almost a miracle.",
-        "start": 249.63,
-        "end": 265.72
+        "start": 260.18,
+        "end": 276.41
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9108,8 +9063,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 265.72,
-        "end": 266.99
+        "start": 276.41,
+        "end": 278.51
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9117,8 +9072,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这套「学习曲线定价」，最终让德州仪器的集成电路业务，成了当时全球最大、也最赚钱的一块。",
         "en": "That strategy, \"learning-curve pricing,\" ultimately made Texas Instruments' integrated-circuit business the largest and most profitable in the world.",
-        "start": 266.99,
-        "end": 276.09
+        "start": 278.51,
+        "end": 287.12
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9126,8 +9081,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而他，也在这一仗里，慢慢形成了自己的管理哲学。",
         "en": "And in that same battle, he slowly shaped his own management philosophy.",
-        "start": 276.09,
-        "end": 280.96
+        "start": 287.12,
+        "end": 292.17
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9135,8 +9090,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 280.96,
-        "end": 283.28
+        "start": 292.17,
+        "end": 294.66
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9144,8 +9099,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他相信，管理靠的不是权威，而是领导力。他不喜欢把人压得喘不过气的等级，他喜欢扁平的组织；他不看出身，不看资历，只看一个人到底行不行。",
         "en": "He believed that management rests not on authority, but on leadership. He disliked hierarchies that crushed people; he preferred a flat organization. He did not care about background or seniority — only about whether a person could actually do the job.",
-        "start": 283.28,
-        "end": 297.25
+        "start": 294.66,
+        "end": 308.79
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9153,8 +9108,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这其实，也是他从德州仪器这家公司身上，学来的东西。",
         "en": "And this, too, was something he had learned from Texas Instruments itself.",
-        "start": 297.25,
-        "end": 302.54
+        "start": 308.79,
+        "end": 314.22
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9162,8 +9117,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 302.54,
-        "end": 303.81
+        "start": 314.22,
+        "end": 316.32
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9171,8 +9126,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那几年的德州仪器，是一家让年轻人舍不得下班的公司。上上下下，几乎都是四十岁以下的年轻人，每个人一周干五十个小时以上。高管没有专属的停车位，经理和工人，在同一个食堂里，坐同一张桌子吃饭。",
         "en": "Texas Instruments in those years was a company where young people did not want to go home. Up and down the ranks, almost everyone was under forty, and everyone worked fifty hours a week or more. Executives had no reserved parking spaces. Managers and workers ate in the same cafeteria, at the same tables.",
-        "start": 303.81,
-        "end": 323.28
+        "start": 316.32,
+        "end": 335.91
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9180,8 +9135,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "等级在那里，但身份的墙，很矮。",
         "en": "The hierarchy existed, but the wall of status was low.",
-        "start": 323.28,
-        "end": 326.46
+        "start": 335.91,
+        "end": 339.42
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9189,8 +9144,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋把这种气质，刻进了自己后来的管理方式里。",
         "en": "Chang carved this temperament into his own way of managing.",
-        "start": 326.46,
-        "end": 331.33
+        "start": 339.42,
+        "end": 344.38
       },
       {
         "secZh": "第一幕 · 学习曲线",
@@ -9198,8 +9153,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "多年以后，当他在海峡另一头创办台积电的时候，人们会发现，那家公司的骨子里，仍带着这种「能者上、扁平化」的味道。",
         "en": "Years later, when he founded TSMC on the other side of the strait, people would notice that the company still carried this flavor — promote the capable, keep the structure flat.",
-        "start": 331.33,
-        "end": 342.97
+        "start": 344.38,
+        "end": 355.48
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9207,8 +9162,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 342.97,
-        "end": 344.24
+        "start": 355.48,
+        "end": 357.58
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9216,8 +9171,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而在张忠谋一门心思做集成电路生意的时候，外面正在发生一件他最初没有太当回事的事。",
         "en": "While Chang was pouring himself into the integrated-circuit business, something was happening outside that he did not take too seriously at first.",
-        "start": 344.24,
-        "end": 352.7
+        "start": 357.58,
+        "end": 365.82
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9225,8 +9180,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1971 年，一家成立才三年的小公司，推出了一枚指甲盖大小的东西。",
         "en": "In 1971, a small company just three years old released a thing the size of a fingernail.",
-        "start": 352.7,
-        "end": 359.69
+        "start": 365.82,
+        "end": 372.61
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9234,8 +9189,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那家小公司，叫英特尔。那枚东西，叫「微处理器」。",
         "en": "The small company was called Intel. The thing was called a \"microprocessor.\"",
-        "start": 359.69,
-        "end": 364.77
+        "start": 372.61,
+        "end": 377.9
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9243,8 +9198,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 364.77,
-        "end": 367.09
+        "start": 377.9,
+        "end": 380.39
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9252,8 +9207,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它是人类第一款可以买到的微处理器。一块芯片，就是一个电脑的中央处理器。",
         "en": "It was the first microprocessor a person could buy. A single chip that was the central processing unit of a computer.",
-        "start": 367.09,
-        "end": 374.5
+        "start": 380.39,
+        "end": 388.1
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9261,8 +9216,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在很多人眼里，这不过是一个新奇的小玩意儿。可张忠谋和他的德州仪器，很快就意识到：风向要变了。",
         "en": "To many people, it looked like a curious little gadget. But Chang and Texas Instruments soon realized: the wind was turning.",
-        "start": 374.5,
-        "end": 384.24
+        "start": 388.1,
+        "end": 398.24
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9270,8 +9225,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "因为 1974 年，英特尔又拿出了一款叫「8080」的芯片。这一款，性能强得足以撑起一台真正的电脑。",
         "en": "Because in 1974, Intel brought out another chip called the 8080. This one was powerful enough to drive a real computer.",
-        "start": 384.24,
-        "end": 394.82
+        "start": 398.24,
+        "end": 408.16
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9279,8 +9234,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "德州仪器的高层，坐不住了。",
         "en": "The leadership of Texas Instruments could no longer sit still.",
-        "start": 394.82,
-        "end": 397.57
+        "start": 408.16,
+        "end": 411.19
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9288,8 +9243,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 397.57,
-        "end": 398.84
+        "start": 411.19,
+        "end": 413.29
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9297,8 +9252,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那几年，德州仪器内部下了一道死命令：在微处理器上，追上英特尔。",
         "en": "In those years, an order came down inside Texas Instruments: catch up to Intel on microprocessors.",
-        "start": 398.84,
-        "end": 405.4
+        "start": 413.29,
+        "end": 420.1
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9306,8 +9261,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，达拉斯的工程师们加班加点，要抢在英特尔前面，造出一款更先进的东西——一款十六位的微处理器，代号 TMS9900。",
         "en": "So the engineers in Dallas worked overtime, determined to beat Intel to something more advanced — a sixteen-bit microprocessor, code-named TMS9900.",
-        "start": 405.4,
-        "end": 417.89
+        "start": 420.1,
+        "end": 432.5
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9315,8 +9270,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "德州仪器，是全球最大的半导体公司；英特尔，只是一家刚起步的小公司。论资源，论体量，德州仪器是英特尔的好几倍。",
         "en": "Texas Instruments was the largest semiconductor company in the world; Intel was only a startup. In resources, in scale, Texas Instruments was several times Intel's size.",
-        "start": 417.89,
-        "end": 429.32
+        "start": 432.5,
+        "end": 444.23
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9324,8 +9279,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可这场竞赛的结果，却出乎所有人的意料。",
         "en": "And yet the result of the race surprised everyone.",
-        "start": 429.32,
-        "end": 433.34
+        "start": 444.23,
+        "end": 448.42
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9333,8 +9288,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 433.34,
-        "end": 435.67
+        "start": 448.42,
+        "end": 450.91
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9342,8 +9297,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1976 年，TMS9900 总算造出来了。可它带着先天的毛病：没有配套的十六位外围芯片，地址空间又只有十六位，能管理的内存，小得可怜。",
         "en": "In 1976, the TMS9900 was finally ready. But it carried flaws it was born with: no matching sixteen-bit peripheral chips, and an address space of only sixteen bits — so the memory it could manage was painfully small.",
-        "start": 435.67,
-        "end": 450.06
+        "start": 450.91,
+        "end": 465.08
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9351,8 +9306,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "两年后，1978 年 4 月，英特尔推出了自己的十六位芯片——8086。它的地址空间，是二十位，能管到的内存，是德州仪器那块芯片的整整十六倍。",
         "en": "Two years later, in April 1978, Intel brought out its own sixteen-bit chip, the 8086. Its address space was twenty bits, and the memory it could reach was sixteen times what the Texas Instruments chip could manage.",
-        "start": 450.06,
-        "end": 465.09
+        "start": 465.08,
+        "end": 479.94
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9360,8 +9315,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一步之差，就是一条鸿沟。",
         "en": "One step behind, and the gap had become a chasm.",
-        "start": 465.09,
-        "end": 467.73
+        "start": 479.94,
+        "end": 482.77
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9369,8 +9324,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 467.73,
-        "end": 469.0
+        "start": 482.77,
+        "end": 484.87
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9378,8 +9333,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "三年后，当 IBM 要造自己的第一台个人电脑时，它在德州仪器和英特尔之间，选了英特尔的芯片。",
         "en": "Three years later, when IBM set out to build its first personal computer, it chose Intel's chip over Texas Instruments'.",
-        "start": 469.0,
-        "end": 478.74
+        "start": 484.87,
+        "end": 494.06
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9387,8 +9342,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这一选，就选定了此后几十年的世界。",
         "en": "That choice settled the world for decades to come.",
-        "start": 478.74,
-        "end": 482.33
+        "start": 494.06,
+        "end": 497.87
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9396,8 +9351,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "个人电脑时代来了。而那个时代的「心脏」，姓英特尔，不姓德州仪器。",
         "en": "The age of the personal computer had arrived. And the \"heart\" of that age belonged to Intel, not to Texas Instruments.",
-        "start": 482.33,
-        "end": 489.11
+        "start": 497.87,
+        "end": 504.7
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9405,8 +9360,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 489.11,
-        "end": 491.43
+        "start": 504.7,
+        "end": 507.19
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9414,8 +9369,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "顺便说一句，这场旷日持久的竞赛，还裹在一个更大的时代里。",
         "en": "And, by the way, this long race was wrapped inside an even larger era.",
-        "start": 491.43,
-        "end": 497.36
+        "start": 507.19,
+        "end": 513.2
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9423,8 +9378,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1973 年，石油危机爆发。油价暴涨，美国经济陷入一种前所未有的「滞胀」——物价在涨，经济却在停。",
         "en": "In 1973, the oil crisis struck. Oil prices soared, and the American economy fell into a strange new condition called \"stagflation\" — prices rising while the economy stood still.",
-        "start": 497.36,
-        "end": 507.73
+        "start": 513.2,
+        "end": 523.64
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9432,8 +9387,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "半导体这行，突然之间，从一片蓝海，变成了一场所有人都要勒紧裤腰带的硬仗。",
         "en": "The semiconductor business, almost overnight, went from a blue ocean to a hard war in which everyone had to tighten their belts.",
-        "start": 507.73,
-        "end": 515.35
+        "start": 523.64,
+        "end": 531.28
       },
       {
         "secZh": "第二幕 · 与英特尔对垒",
@@ -9441,8 +9396,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "市场上，狼越来越多；而张忠谋要面对的，还不只是外面的狼。",
         "en": "In the market, the wolves were multiplying. And what Chang had to face was not only the wolves outside.",
-        "start": 515.35,
-        "end": 521.28
+        "start": 531.28,
+        "end": 537.39
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9450,8 +9405,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 521.28,
-        "end": 522.55
+        "start": 537.39,
+        "end": 539.49
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9459,8 +9414,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1972 年，张忠谋升任半导体集团总经理。",
         "en": "In 1972, Chang was promoted to general manager of the semiconductor group.",
-        "start": 522.55,
-        "end": 526.99
+        "start": 539.49,
+        "end": 543.87
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9468,8 +9423,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这本该是他最意气风发的时刻。可恰恰是从这一刻起，他开始发现：有些事情，他越来越使不上劲了。",
         "en": "It should have been his proudest moment. But it was precisely from this moment that he began to feel something he could not control.",
-        "start": 526.99,
-        "end": 536.51
+        "start": 543.87,
+        "end": 553.81
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9477,8 +9432,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 536.51,
-        "end": 538.84
+        "start": 553.81,
+        "end": 556.3
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9486,8 +9441,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第一个坏消息，来自一块叫「16K 内存」的芯片。",
         "en": "The first bad news came from a chip called the \"16K memory.\"",
-        "start": 538.84,
-        "end": 543.92
+        "start": 556.3,
+        "end": 560.87
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9495,8 +9450,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这是当时最前沿的产品，也是半导体集团的一号工程。可这个项目，失败了。",
         "en": "It was the most advanced product of the time, and the number-one project of the semiconductor group. And that project failed.",
-        "start": 543.92,
-        "end": 551.12
+        "start": 560.87,
+        "end": 568.48
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9504,8 +9459,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "失败本身不可怕。可怕的是接下来发生的事——公司高层，竟然绕开他，在另一个地方，另起炉灶，搞了一个平行项目，去抄袭竞争对手的产品。",
         "en": "Failure itself was not the worst part. The worst part was what happened next — company leadership, going around him, set up a parallel project in another place, to copy a competitor's product.",
-        "start": 551.12,
-        "end": 564.66
+        "start": 568.48,
+        "end": 582.56
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9513,8 +9468,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这意味着什么，张忠谋心里清清楚楚：公司已经不再信任他了。",
         "en": "Chang understood exactly what that meant: the company no longer trusted him.",
-        "start": 564.66,
-        "end": 570.59
+        "start": 582.56,
+        "end": 588.7
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9522,8 +9477,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 570.59,
-        "end": 571.86
+        "start": 588.7,
+        "end": 590.8
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9531,8 +9486,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而他和顶头上司之间的矛盾，也越来越深。",
         "en": "And the tension between him and his immediate boss only deepened.",
-        "start": 571.86,
-        "end": 575.88
+        "start": 590.8,
+        "end": 594.99
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9540,8 +9495,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他的这位上司，没有半导体背景。两个人看问题的方式，常常南辕北辙。",
         "en": "His boss had no background in semiconductors. The two men looked at problems in ways that were often worlds apart.",
-        "start": 575.88,
-        "end": 582.65
+        "start": 594.99,
+        "end": 602.21
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9549,8 +9504,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋提出：应该向外部厂商采购更先进的设备，而不是守着自己内部设计的旧机器。",
         "en": "Chang proposed buying more advanced equipment from outside vendors, instead of sticking with the company's own aging, internally designed machines.",
-        "start": 582.65,
-        "end": 590.7
+        "start": 602.21,
+        "end": 610.28
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9558,8 +9513,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "被否了。",
         "en": "It was rejected.",
-        "start": 590.7,
-        "end": 591.54
+        "start": 610.28,
+        "end": 611.49
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9567,8 +9522,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋提出：应该加大研发投入，不能为了眼前利润，牺牲长远的竞争力。",
         "en": "Chang proposed increasing R&D spending, arguing that short-term profit must not be traded away for long-term competitiveness.",
-        "start": 591.54,
-        "end": 598.53
+        "start": 611.49,
+        "end": 618.68
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9576,8 +9531,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "又被否了。",
         "en": "Rejected again.",
-        "start": 598.53,
-        "end": 599.58
+        "start": 618.68,
+        "end": 620.08
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9585,8 +9540,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 599.58,
-        "end": 601.91
+        "start": 620.08,
+        "end": 622.57
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9594,8 +9549,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "最让他心寒的，是一道命令。",
         "en": "What chilled him most was an order.",
-        "start": 601.91,
-        "end": 604.66
+        "start": 622.57,
+        "end": 625.6
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9603,8 +9558,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "公司高层要求他：把半导体的产能，优先分配给自己家的产品。",
         "en": "Company leadership demanded that he allocate semiconductor capacity to the company's own products first.",
-        "start": 604.66,
-        "end": 610.59
+        "start": 625.6,
+        "end": 631.74
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9612,8 +9567,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋拒绝了。他坚持，产能应该在内部客户和外部客户之间，公平分配。",
         "en": "Chang refused. He insisted that capacity should be divided fairly between internal customers and external customers.",
-        "start": 610.59,
-        "end": 617.57
+        "start": 631.74,
+        "end": 639.15
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9621,8 +9576,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这道命令，成了压垮骆驼的最后一根稻草。从那以后，公司高层开始公开地批评他。",
         "en": "That order became the last straw. From then on, company leadership began to criticize him openly.",
-        "start": 617.57,
-        "end": 625.4
+        "start": 639.15,
+        "end": 647.34
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9630,8 +9585,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 625.4,
-        "end": 626.67
+        "start": 647.34,
+        "end": 649.44
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9639,8 +9594,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "平心而论，那几年的德州仪器，也确实在走下坡路。",
         "en": "To be fair, Texas Instruments in those years was indeed in decline.",
-        "start": 626.67,
-        "end": 631.54
+        "start": 649.44,
+        "end": 654.49
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9648,8 +9603,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它偏居在得克萨斯，远离硅谷，越来越招不到最顶尖的人才。而太平洋对岸的日本，正在政府的强力扶持下，悄悄集结一支庞大的半导体军团。",
         "en": "It sat in Texas, far from Silicon Valley, and found it harder and harder to attract the best talent. And across the Pacific, Japan, under strong government support, was quietly assembling a huge semiconductor army.",
-        "start": 631.54,
-        "end": 644.88
+        "start": 654.49,
+        "end": 667.87
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9657,8 +9612,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1976 年，日本启动了那个后来让整个美国都胆寒的「VLSI」计划——五家日本巨头联手，政府掏钱，向半导体技术的最高峰发起集团冲锋。",
         "en": "In 1976, Japan launched the \"VLSI\" program that would later send a chill through all of America — five Japanese giants joining forces, with government money, charging together at the highest summit of semiconductor technology.",
-        "start": 644.88,
-        "end": 658.84
+        "start": 667.87,
+        "end": 681.15
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9666,8 +9621,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "前有英特尔，后有日本人。而张忠谋，却被困在一间越来越小的会议室里，和自己的上司，争夺一场他注定赢不了的仗。",
         "en": "Intel in front, Japan behind. And Chang was trapped in an ever-smaller boardroom, fighting a war he could never win against his own boss.",
-        "start": 658.84,
-        "end": 670.06
+        "start": 681.15,
+        "end": 692.6
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9675,8 +9630,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 670.06,
-        "end": 672.39
+        "start": 692.6,
+        "end": 695.09
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9684,8 +9639,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1977 年，他做了一个决定。",
         "en": "In 1977, he made a decision.",
-        "start": 672.39,
-        "end": 675.56
+        "start": 695.09,
+        "end": 698.31
       },
       {
         "secZh": "第三幕 · 会议室里的败仗",
@@ -9693,8 +9648,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他主动请求，离开半导体集团。",
         "en": "He asked, on his own initiative, to leave the semiconductor group.",
-        "start": 675.56,
-        "end": 678.53
+        "start": 698.31,
+        "end": 701.53
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9702,8 +9657,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 678.53,
-        "end": 679.8
+        "start": 701.53,
+        "end": 703.63
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9711,8 +9666,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "公司把他调到了消费者产品集团。",
         "en": "The company moved him to the consumer products group.",
-        "start": 679.8,
-        "end": 682.97
+        "start": 703.63,
+        "end": 706.96
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9720,8 +9675,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "名义上，这是另一个大集团，位子也不低。可张忠谋心里明白，这是怎样一个地方。",
         "en": "On paper, it was another big group, and the title was not low. But Chang understood exactly what kind of place it was.",
-        "start": 682.97,
-        "end": 690.8
+        "start": 706.96,
+        "end": 715.24
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9729,8 +9684,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 690.8,
-        "end": 693.13
+        "start": 715.24,
+        "end": 717.72
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9738,8 +9693,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "消费者产品，是德州仪器一次雄心勃勃的尝试——它不再只给别家公司供货，而是要自己把产品，直接卖给每一个普通人。",
         "en": "Consumer products was Texas Instruments' ambitious attempt to stop being merely a supplier to other companies, and instead to sell products directly to ordinary people.",
-        "start": 693.13,
-        "end": 704.56
+        "start": 717.72,
+        "end": 729.27
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9747,8 +9702,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可这盘棋，下得一塌糊涂。",
         "en": "And the whole game was going badly.",
-        "start": 704.56,
-        "end": 707.1
+        "start": 729.27,
+        "end": 732.11
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9756,8 +9711,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋接手的时候，这个集团有三条产品线：简易计算器、科学计算器、电子手表。",
         "en": "When Chang took over, the group had three product lines: simple consumer calculators, more advanced scientific calculators, and electronic watches.",
-        "start": 707.1,
-        "end": 714.93
+        "start": 732.11,
+        "end": 740.16
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9765,8 +9720,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "三条线里，只有科学计算器，是赚钱的。而它赚的那点钱，少得可怜。整个集团，是亏损的。",
         "en": "Of the three, only the scientific calculators made money. And the money they made was tiny. The whole group was losing.",
-        "start": 714.93,
-        "end": 723.61
+        "start": 740.16,
+        "end": 749.73
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9774,8 +9729,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 723.61,
-        "end": 724.88
+        "start": 749.73,
+        "end": 751.83
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9783,8 +9738,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他并不认同这家公司往消费品里挤的战略。在他看来，这根本是一条走不通的路。",
         "en": "He did not agree with the company's strategy of pushing into consumer goods. In his view, it was a road that led nowhere.",
-        "start": 724.88,
-        "end": 732.5
+        "start": 751.83,
+        "end": 759.73
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9792,8 +9747,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可他接都接了，只能硬着头皮，把这盘烂账，一样一样地收拾。",
         "en": "But he had taken the job, so he could only grit his teeth and sort through the mess, one piece at a time.",
-        "start": 732.5,
-        "end": 738.58
+        "start": 759.73,
+        "end": 765.83
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9801,8 +9756,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那几年，这个集团唯一拿得出手的东西，是一款叫 Speak & Spell 的玩具——一个会说话、能教孩子拼写的小机器。",
         "en": "In those years, the only thing the group could really be proud of was a toy called the Speak & Spell — a little machine that could talk, and that taught children how to spell.",
-        "start": 738.58,
-        "end": 751.07
+        "start": 765.83,
+        "end": 777.38
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9810,8 +9765,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它里面那枚语音合成芯片，工艺太复杂，竞争对手一时半会儿抄不来。于是，它成了那个失意年代里，唯一的一点亮色。",
         "en": "The speech-synthesis chip inside it was so hard to make that competitors could not copy it for a while. And so it became the single point of light in those lost years.",
-        "start": 751.07,
-        "end": 762.28
+        "start": 777.38,
+        "end": 788.83
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9819,8 +9774,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 762.28,
-        "end": 764.61
+        "start": 788.83,
+        "end": 791.31
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9828,8 +9783,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可一点亮色，救不了整个局面。",
         "en": "But one point of light could not save the whole situation.",
-        "start": 764.61,
-        "end": 767.58
+        "start": 791.31,
+        "end": 794.54
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9837,8 +9792,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个做惯了芯片、把良率当信仰的人，被丢进了一个要琢磨消费者心思的泥潭里。他越是专业，越是使不上劲。",
         "en": "A man who had spent his life making chips, who treated yield as an article of faith, was dropped into a swamp where he had to guess what consumers wanted. The more expert he was, the less his expertise mattered.",
-        "start": 767.58,
-        "end": 778.16
+        "start": 794.54,
+        "end": 805.13
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9846,8 +9801,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "市场，他还看得懂；可这间公司想让他去哪里、想让他干什么，他越来越看不懂了。",
         "en": "He could still read the market. But where the company wanted him to go, and what it wanted him to become — that he could read less and less.",
-        "start": 778.16,
-        "end": 785.99
+        "start": 805.13,
+        "end": 813.05
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9855,8 +9810,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 785.99,
-        "end": 787.26
+        "start": 813.05,
+        "end": 815.15
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9864,8 +9819,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "很多年以后，人们回顾张忠谋在德州仪器的最后几年，会用两个字来形容：放逐。",
         "en": "Years later, when people look back at Chang's final years at Texas Instruments, they use one word: exile.",
-        "start": 787.26,
-        "end": 794.88
+        "start": 815.15,
+        "end": 822.93
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9873,8 +9828,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那还不是他彻底离开的时候。真正的离开，还要再等几年——等到 1983 年，他会带着二十五年攒下的遗憾，走出这家公司的大门。",
         "en": "It was not yet the moment he finally left. The real departure would come a few years later — in 1983, when he would walk out of the company's gate carrying the regrets of twenty-five years.",
-        "start": 794.88,
-        "end": 807.79
+        "start": 822.93,
+        "end": 835.87
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9882,8 +9837,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但命运的伏笔，其实在这时候，就已经埋下了。",
         "en": "But the foreshadowing of that fate was already laid down here.",
-        "start": 807.79,
-        "end": 812.23
+        "start": 835.87,
+        "end": 840.53
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9891,8 +9846,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 812.23,
-        "end": 814.56
+        "start": 840.53,
+        "end": 843.02
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9900,8 +9855,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "因为正是在这段被放逐的日子里，张忠谋开始反复思考一个问题：",
         "en": "Because it was in these exiled years that Chang began to turn one question over and over in his mind:",
-        "start": 814.56,
-        "end": 820.7
+        "start": 843.02,
+        "end": 848.92
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9909,8 +9864,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个在市场上打赢了所有仗的人，为什么会在公司内部，输得这么彻底？",
         "en": "How could a man who had won every battle in the market lose so completely inside a company?",
-        "start": 820.7,
-        "end": 827.47
+        "start": 848.92,
+        "end": 855.71
       },
       {
         "secZh": "第四幕 · 放逐",
@@ -9918,8 +9873,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这个问题的答案，将在很多年以后，改变整个世界半导体行业的版图。",
         "en": "The answer to that question would, many years later, redraw the map of the entire world's semiconductor industry.",
-        "start": 827.47,
-        "end": 834.03
+        "start": 855.71,
+        "end": 862.3
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9927,8 +9882,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静，放慢",
         "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 834.03,
-        "end": 836.99
+        "start": 862.3,
+        "end": 865.45
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9936,8 +9891,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们把这段岁月，从头再看一遍。",
         "en": "Let us look at these years once more, from the beginning.",
-        "start": 836.99,
-        "end": 840.38
+        "start": 865.45,
+        "end": 869.06
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9945,8 +9900,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1964 年，他带着斯坦福的博士学位回来，从两千人的锗晶体管部起步，一路升到全球最大半导体公司的半导体集团总经理。",
         "en": "In 1964, he came back with a Stanford doctorate, started from a germanium transistor department of two thousand people, and climbed all the way to general manager of the semiconductor group of the world's largest semiconductor company.",
-        "start": 840.38,
-        "end": 852.44
+        "start": 869.06,
+        "end": 880.57
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9954,8 +9909,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他发明了一套叫「学习曲线定价」的打法，把德州仪器的集成电路业务，做到了全球第一。",
         "en": "He invented a strategy called learning-curve pricing and made Texas Instruments' integrated-circuit business number one in the world.",
-        "start": 852.44,
-        "end": 860.91
+        "start": 880.57,
+        "end": 888.51
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9963,8 +9918,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在市场上，他几乎没有输过。",
         "en": "In the marketplace, he almost never lost.",
-        "start": 860.91,
-        "end": 863.66
+        "start": 888.51,
+        "end": 891.55
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9972,8 +9927,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 863.66,
-        "end": 865.99
+        "start": 891.55,
+        "end": 894.03
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9981,8 +9936,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可历史，偏偏选择让他输在别处。",
         "en": "And yet history chose to let him lose elsewhere.",
-        "start": 865.99,
-        "end": 869.16
+        "start": 894.03,
+        "end": 897.45
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9990,8 +9945,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他输给了英特尔——不是输在技术上，而是输在那块芯片先天的设计里；",
         "en": "He lost to Intel — not in technology, but in a design flaw that chip was born with.",
-        "start": 869.16,
-        "end": 875.94
+        "start": 897.45,
+        "end": 904.23
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -9999,8 +9954,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他也输给了自己待了四分之一世纪的公司——不是输在能力上，而是输在一间会议室里的权力棋局里。",
         "en": "And he lost to the company where he had spent a quarter of a century — not in ability, but in a power game inside one boardroom.",
-        "start": 875.94,
-        "end": 885.46
+        "start": 904.23,
+        "end": 913.86
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10008,8 +9963,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 885.46,
-        "end": 887.79
+        "start": 913.86,
+        "end": 916.35
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10017,8 +9972,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "我们常说，商场如战场。",
         "en": "We like to say that business is a battlefield.",
-        "start": 887.79,
-        "end": 890.17
+        "start": 916.35,
+        "end": 918.99
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10026,8 +9981,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可张忠谋用他这十年，告诉了我们另一件事：**最难的仗，往往不在市场上，而在会议室里。**市场有规则，有对手，有可以算清楚的胜负；而会议室里的那盘棋，没有规则，没有裁判，只有人心。",
         "en": "But Chang, in this decade of his life, taught us something else: **the hardest battles are not fought in the marketplace — they are fought in the boardroom.** The market has rules, has rivals, has outcomes you can calculate; but the game in the boardroom has no rules, no referee, only human hearts.",
-        "start": 890.17,
-        "end": 909.01
+        "start": 918.99,
+        "end": 937.27
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10035,8 +9990,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 909.01,
-        "end": 911.33
+        "start": 937.27,
+        "end": 939.75
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10044,8 +9999,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但正是这段输，成就了后来的他。",
         "en": "And yet it was this very defeat that made the man he would become.",
-        "start": 911.33,
-        "end": 915.04
+        "start": 939.75,
+        "end": 943.17
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10053,8 +10008,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "如果他在德州仪器一路顺风，做到那家公司的最高处，世界上，就不会有台积电。",
         "en": "If he had sailed smoothly up Texas Instruments to its very top, there would be no TSMC.",
-        "start": 915.04,
-        "end": 922.66
+        "start": 943.17,
+        "end": 950.82
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10062,8 +10017,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "恰恰是因为他被放逐、被边缘化，他才在五十多岁那年，把自己清零，漂洋过海，回到那个叫台湾的岛上，从头再来。",
         "en": "It was precisely because he was exiled, pushed to the edge, that in his fifties he reset himself to zero, crossed an ocean, and returned to that island called Taiwan to start over from nothing.",
-        "start": 922.66,
-        "end": 933.66
+        "start": 950.82,
+        "end": 961.81
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10071,8 +10026,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 933.66,
-        "end": 935.99
+        "start": 961.81,
+        "end": 964.3
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10080,8 +10035,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那个在会议室里输了的人，后来明白了三件事：",
         "en": "The man who lost in the boardroom came to understand three things:",
-        "start": 935.99,
-        "end": 940.44
+        "start": 964.3,
+        "end": 968.65
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10089,8 +10044,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第一，技术会变，市场会变，唯有对人才的判断，永远不能变。",
         "en": "First, technology changes and markets change, but the judgment of talent can never change.",
-        "start": 940.44,
-        "end": 946.36
+        "start": 968.65,
+        "end": 974.84
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10098,8 +10053,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第二，一家公司的治理结构，比它的技术更早决定它的生死。",
         "en": "Second, a company's governance structure decides its life and death even before its technology does.",
-        "start": 946.36,
-        "end": 952.08
+        "start": 974.84,
+        "end": 980.66
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10107,8 +10062,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第三，最硬的牌，不是握在手里的权力，而是随时可以重来的勇气。",
         "en": "And third, the strongest card in your hand is not the power you hold, but the courage to start over at any time.",
-        "start": 952.08,
-        "end": 958.42
+        "start": 980.66,
+        "end": 987.15
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10116,8 +10071,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 958.42,
-        "end": 960.75
+        "start": 987.15,
+        "end": 989.64
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10125,8 +10080,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这三点，他后来都带去了台积电。",
         "en": "All three of these he later carried with him to TSMC.",
-        "start": 960.75,
-        "end": 963.93
+        "start": 989.64,
+        "end": 993.05
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10134,8 +10089,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "所以，当我们今天回望 1970 年代那场半导体之巅的较量时，会看到一个意味深长的画面：",
         "en": "So when we look back today at that contest at the summit of semiconductors in the 1970s, we see a picture full of meaning:",
-        "start": 963.93,
-        "end": 973.03
+        "start": 993.05,
+        "end": 1001.36
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10143,8 +10098,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "英特尔赢了微处理器，日本军团赢了内存，而张忠谋，输掉了一场内部的棋局。",
         "en": "Intel won the microprocessor. The Japanese army won the memory chip. And Morris Chang lost a game inside his own company.",
-        "start": 973.03,
-        "end": 980.44
+        "start": 1001.36,
+        "end": 1008.81
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10152,8 +10107,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可是，输掉棋局的那个人，最后赢得了改写整个行业的机会。",
         "en": "But the man who lost that game was the one who finally won the chance to rewrite an entire industry.",
-        "start": 980.44,
-        "end": 986.15
+        "start": 1008.81,
+        "end": 1014.63
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -10161,8 +10116,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "**他赢下了几乎所有战役，却没赢下德州仪器内部的权力棋局；可最难的仗，往往不在市场上，而在会议室里——而这一课，教会了他后来如何造一座山。**",
         "en": "**He won nearly every battle in the marketplace, yet he lost the power game inside Texas Instruments. The hardest battles are not fought in the marketplace — they are fought in the boardroom. And that lesson taught him, later, how to build a mountain.**",
-        "start": 986.15,
-        "end": 1001.18
+        "start": 1014.63,
+        "end": 1028.86
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -10170,8 +10125,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
         "en": "(Verified public facts, for the listener's reference)",
-        "start": 1001.18,
-        "end": 1005.41
+        "start": 1028.86,
+        "end": 1033.75
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -10179,8 +10134,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1. **张忠谋的 TI 升迁**：1958 年入职德州仪器；1964 年归队后任锗晶体管部总经理，1967 年任集成电路部总经理，1972 年任集团副总裁兼半导体集团总经理；25 年 TI 生涯（1958–1983）。",
         "en": "1. **Chang's Rise at TI**: He joined Texas Instruments in 1958; after returning in 1964 he became general manager of the germanium transistor department, general manager of the integrated-circuit department in 1967, and group vice president and general manager of the semiconductor group in 1972; his TI career spanned 25 years (1958–1983).",
-        "start": 1005.41,
-        "end": 1028.69
+        "start": 1033.75,
+        "end": 1053.14
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -10188,8 +10143,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "2. **学习曲线定价**：张忠谋与波士顿咨询（BCG）合作，在 TI 集成电路业务推行「每季度主动降价」的策略，牺牲短期利润换取份额与长期成本优势，使 TI 集成电路业务成为当时全球最大、最赚钱的 IC 业务。",
         "en": "2. **Learning-Curve Pricing**: Working with the Boston Consulting Group, Chang pushed \"proactive quarterly price cuts\" in TI's integrated-circuit business, trading short-term profit for market share and long-term cost advantage, and made TI's IC business the world's largest and most profitable at the time.",
-        "start": 1028.69,
-        "end": 1051.12
+        "start": 1053.14,
+        "end": 1072.14
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -10197,8 +10152,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "3. **微处理器时代**：1971 年英特尔推出世界首款商用微处理器 4004；1974 年推出 8080；TI 的 16 位微处理器 TMS9900 于 1976 年就绪；1978 年 4 月英特尔推出 8086（20 位地址空间）；1981 年 IBM 首台 PC 选用英特尔的 8088。",
         "en": "3. **The Microprocessor Age**: In 1971 Intel released the 4004, the first commercial microprocessor; in 1974 it released the 8080; TI's 16-bit TMS9900 was ready in 1976; in April 1978 Intel released the 8086 (with a 20-bit address space); in 1981 IBM chose Intel's 8088 for its first PC.",
-        "start": 1051.12,
-        "end": 1082.45
+        "start": 1072.14,
+        "end": 1096.54
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -10206,8 +10161,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "4. **1973 石油危机**：OPEC 石油禁运导致油价大涨，美国 1970 年代陷入「滞胀」（物价上涨与经济停滞并存），制造业与消费电子成本压力上升。",
         "en": "4. **The 1973 Oil Crisis**: The OPEC oil embargo sent prices soaring, and the United States entered a 1970s era of \"stagflation\" (rising prices combined with economic stagnation), raising cost pressure on manufacturing and consumer electronics.",
-        "start": 1082.45,
-        "end": 1098.96
+        "start": 1096.54,
+        "end": 1110.35
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -10215,8 +10170,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "5. **日本半导体崛起**：1971 年通产省（MITI）重组日本计算机产业；1976 年 3 月启动 VLSI 计划，富士通、日立、松下、三菱、NEC 五家厂商联手，政府扶持下日本半导体全球份额飙升。",
         "en": "5. **The Rise of Japanese Semiconductors**: In 1971 MITI reorganized Japan's computer industry; in March 1976 it launched the VLSI program, joining Fujitsu, Hitachi, Matsushita, Mitsubishi, and NEC, and with government backing Japan's global semiconductor share surged.",
-        "start": 1098.96,
-        "end": 1120.54
+        "start": 1110.35,
+        "end": 1129.03
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -10224,8 +10179,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "6. **TI 的消费者集团与 Speak & Spell**：张忠谋 1977 年主动请求调职，改任消费者产品集团负责人；该集团当时三条产品线中仅科学计算器盈利；任内唯一亮点是 1978 年的语音拼写玩具 Speak & Spell。",
         "en": "6. **TI's Consumer Group and the Speak & Spell**: Chang asked for a transfer in 1977 and became head of the consumer products group, whose three product lines had only the scientific calculators turning a profit; the one bright spot of his tenure was the 1978 talking spelling toy, the Speak & Spell.",
-        "start": 1120.54,
-        "end": 1145.52
+        "start": 1129.03,
+        "end": 1149.68
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -10233,8 +10188,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "7. **TI 扁平文化**：德州仪器早期员工多为 40 岁以下年轻人、每周工作 50 小时以上，高管无专属车位、与工人同桌用餐；张忠谋的管理理念以「领导式而非权威式」、扁平组织、唯才是用为核心。",
         "en": "7. **TI's Flat Culture**: Texas Instruments in its early years was staffed mostly by people under forty working 50-plus hours a week, with no reserved parking for executives and executives eating alongside workers; Chang's management philosophy centered on \"leadership rather than authority,\" flat organization, and meritocracy.",
-        "start": 1145.52,
-        "end": 1166.26
+        "start": 1149.68,
+        "end": 1167.88
       },
       {
         "secZh": "下集预告",
@@ -10242,8 +10197,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1166.26,
-        "end": 1167.53
+        "start": 1167.88,
+        "end": 1169.98
       },
       {
         "secZh": "下集预告",
@@ -10251,8 +10206,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从 1978 年之后，张忠谋在德州仪器的处境，一天比一天艰难。",
         "en": "After 1978, Chang's position at Texas Instruments grew harder by the day.",
-        "start": 1167.53,
-        "end": 1174.09
+        "start": 1169.98,
+        "end": 1176.19
       },
       {
         "secZh": "下集预告",
@@ -10260,8 +10215,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他被调去管一个他看不懂的消费品生意，又被塞进一个有名无实的「质量与生产力总监」的位置，直到 1983 年，他带着满身的遗憾，辞去了这份做了二十五年的工作。",
         "en": "He was moved to a consumer business he could not read, then tucked into a hollow post called \"director of quality and productivity,\" until, in 1983, he resigned from the job he had held for twenty-five years.",
-        "start": 1174.09,
-        "end": 1190.39
+        "start": 1176.19,
+        "end": 1191.07
       },
       {
         "secZh": "下集预告",
@@ -10269,8 +10224,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "五十四岁，他离开美国，把后半生，押在了一个小岛上。",
         "en": "At fifty-four, he left America and staked the second half of his life on a small island.",
-        "start": 1190.39,
-        "end": 1195.68
+        "start": 1191.07,
+        "end": 1196.59
       },
       {
         "secZh": "下集预告",
@@ -10278,7 +10233,7 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "下集，《离开德州 & 受邀回台》：美日贸易战、IBM 的个人电脑、台湾经济奇迹前夜——一个五十四岁的男人，如何把一次失意，变成一场豪赌。",
         "en": "Next episode, \"Leaving Texas & the Invitation Home\": the U.S.–Japan trade war, IBM's personal computer, the eve of Taiwan's economic miracle — how a fifty-four-year-old man turned one defeat into one great gamble.",
-        "start": 1195.68,
+        "start": 1196.59,
         "end": 1210.07
       }
     ]
@@ -10290,8 +10245,8 @@ window.AUDIO_DATA = [
     "summary": "离开德州与受邀回台 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第08期-离开德州与受邀回台/中文音频.mp3",
     "audioEn": "./03-剧集/第08期-离开德州与受邀回台/英文音频.mp3",
-    "durationZh": 1182.78,
-    "durationEn": 1240.9,
+    "durationZh": 1182.776,
+    "durationEn": 1240.904,
     "cues": [
       {
         "secZh": "开场",
@@ -10300,7 +10255,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：机场广播的隐约回响，行李箱滚轮声，渐渐压低】",
         "en": "[SFX: the faint echo of airport announcements, the rolling of luggage wheels, fading down]",
         "start": 0.0,
-        "end": 5.31
+        "end": 6.08
       },
       {
         "secZh": "开场",
@@ -10308,8 +10263,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1983 年，美国，达拉斯。",
         "en": "Dallas, Texas. 1983.",
-        "start": 5.31,
-        "end": 8.17
+        "start": 6.08,
+        "end": 9.07
       },
       {
         "secZh": "开场",
@@ -10317,8 +10272,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个在德州仪器干了二十五年的男人，走出公司大门。他手里，没有下一份工作的聘书。",
         "en": "A man who has worked for Texas Instruments for twenty-five years walks out of the company gate. In his hands, there is no offer for the next job.",
-        "start": 8.17,
-        "end": 16.13
+        "start": 9.07,
+        "end": 17.28
       },
       {
         "secZh": "开场",
@@ -10326,8 +10281,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这一年，他五十二岁。在一家公司里，他从最底层，一路做到了集团副总裁，管过全世界最大的半导体生意。而现在，他两手空空。",
         "en": "This year he is fifty-two. Inside one company he has climbed from the very bottom to group vice president, running the largest semiconductor business in the world. And now, his hands are empty.",
-        "start": 16.13,
-        "end": 27.98
+        "start": 17.28,
+        "end": 29.67
       },
       {
         "secZh": "开场",
@@ -10335,8 +10290,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 27.98,
-        "end": 29.2
+        "start": 29.67,
+        "end": 31.68
       },
       {
         "secZh": "开场",
@@ -10344,8 +10299,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "没有人知道，两年之后，他会坐上飞往东方的班机；也没有人知道，四年之后，他会在一座小岛上，创办一家改写整个世界的公司。",
         "en": "Nobody knows that two years later he will board a plane heading east. And nobody knows that four years later, on a small island, he will found a company that will rewrite the world.",
-        "start": 29.2,
-        "end": 41.05
+        "start": 31.68,
+        "end": 43.33
       },
       {
         "secZh": "开场",
@@ -10353,8 +10308,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 41.05,
-        "end": 43.29
+        "start": 43.33,
+        "end": 45.71
       },
       {
         "secZh": "开场",
@@ -10362,8 +10317,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "很多年以后，人们回看这段人生，会看到一条意味深长的弧线：",
         "en": "Many years later, when people look back at this life, they will see one long, meaningful arc:",
-        "start": 43.29,
-        "end": 49.01
+        "start": 45.71,
+        "end": 51.26
       },
       {
         "secZh": "开场",
@@ -10371,8 +10326,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一个在西方打拼了半辈子的华人，在五十四岁那年，离开了一家美国大公司的高管职位，把后半生，押在了一个叫台湾的小岛上。",
         "en": "A Chinese man who had spent half his life working in the West — at fifty-four, he left a senior executive post at a major American company, and staked the second half of his life on a small island called Taiwan.",
-        "start": 49.01,
-        "end": 60.65
+        "start": 51.26,
+        "end": 62.55
       },
       {
         "secZh": "开场",
@@ -10380,8 +10335,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他押上的，不是自己的余生，是一个产业的未来。",
         "en": "What he staked was not the rest of his life. It was the future of an industry.",
-        "start": 60.65,
-        "end": 65.15
+        "start": 62.55,
+        "end": 67.2
       },
       {
         "secZh": "开场",
@@ -10389,8 +10344,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 65.15,
-        "end": 66.37
+        "start": 67.2,
+        "end": 69.22
       },
       {
         "secZh": "开场",
@@ -10398,8 +10353,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这个男人，叫张忠谋。",
         "en": "The man's name was Morris Chang.",
-        "start": 66.37,
-        "end": 68.41
+        "start": 69.22,
+        "end": 71.56
       },
       {
         "secZh": "开场",
@@ -10407,8 +10362,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而这一集，我们要讲的故事，就是他是怎样离开德州，又是怎样，被请回台湾的。",
         "en": "And this episode is the story of how he left Texas — and how he was invited back home.",
-        "start": 68.41,
-        "end": 75.76
+        "start": 71.56,
+        "end": 78.97
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10416,8 +10371,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 75.76,
-        "end": 76.99
+        "start": 78.97,
+        "end": 80.98
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10425,8 +10380,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们先回到德州仪器最后那几年。",
         "en": "Let us go back to the last years at Texas Instruments.",
-        "start": 76.99,
-        "end": 80.26
+        "start": 80.98,
+        "end": 84.36
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10434,8 +10389,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1981 年，张忠谋被调离了他熟悉的半导体业务，改任一个叫「质量与生产力总监」的职务。",
         "en": "In 1981, Chang was moved away from the semiconductor business he knew so well, and given a new title: director of quality and productivity.",
-        "start": 80.26,
-        "end": 89.04
+        "start": 84.36,
+        "end": 92.34
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10443,8 +10398,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "头衔听起来不小。可他自己知道，这其实是一个「明升暗降」的位置——一个把你架起来、晾在一边的位置。",
         "en": "The title sounded impressive. But he knew exactly what it was — a position that looked like a promotion but was really a shelf, a place where you were set aside and left alone.",
-        "start": 89.04,
-        "end": 98.84
+        "start": 92.34,
+        "end": 102.25
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10452,8 +10407,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 98.84,
-        "end": 101.09
+        "start": 102.25,
+        "end": 104.64
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10461,8 +10416,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在此之前，他还在消费品集团栽过一个跟头。1979 年，德州仪器推出了一款面向家庭的个人电脑，叫 TI-99/4。张忠谋当时就反对这个项目，结果被他说中了——这款电脑卖得极差，售出不到两万台，成了公司的一场笑柄。可到头来，这笔账，却算在了他的头上。",
         "en": "Before this, he had already stumbled once in the consumer group. In 1979, Texas Instruments released a home computer called the TI-99/4. Chang had opposed the project at the time — and he was proven right: it sold terribly, fewer than twenty thousand units, and became an embarrassment for the company. Yet in the end, the blame landed on him.",
-        "start": 101.09,
-        "end": 126.21
+        "start": 104.64,
+        "end": 129.77
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10470,8 +10425,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 126.21,
-        "end": 127.43
+        "start": 129.77,
+        "end": 131.78
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10479,8 +10434,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "后来的日子里，他回忆这段时光，用了一个很重的词：放逐。",
         "en": "In later years, when he remembered this period, he used one heavy word: exile.",
-        "start": 127.43,
-        "end": 132.95
+        "start": 131.78,
+        "end": 137.56
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10488,8 +10443,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在德州仪器的最后几年，他的奖金被削减了，他的职级被降了下来。他心里清楚，剩下的只是时间问题——迟早有一天，公司会收走他的股票期权，然后客客气气地，请他退休。",
         "en": "In those final years at Texas Instruments, his bonus was cut, and his seniority was reduced. He knew it was only a matter of time — sooner or later, the company would take away his stock options, and then politely ask him to retire.",
-        "start": 132.95,
-        "end": 148.87
+        "start": 137.56,
+        "end": 153.73
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10497,8 +10452,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 148.87,
-        "end": 150.1
+        "start": 153.73,
+        "end": 155.74
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10506,8 +10461,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可他毕竟在这家公司干了二十五年。真要离开，他心里是不舍的。",
         "en": "And yet, he had spent twenty-five years at this company. Leaving was not easy for him.",
-        "start": 150.1,
-        "end": 156.02
+        "start": 155.74,
+        "end": 162.02
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10515,8 +10470,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可那一口气，终于还是没咽下去。",
         "en": "But in the end, he could not swallow it any longer.",
-        "start": 156.02,
-        "end": 159.09
+        "start": 162.02,
+        "end": 165.29
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10524,8 +10479,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1983 年，他辞去了德州仪器的职务。走的那天，他手里没有下一份工作的聘书。",
         "en": "In 1983, he resigned from Texas Instruments. On the day he left, he had no offer for the next job.",
-        "start": 159.09,
-        "end": 166.85
+        "start": 165.29,
+        "end": 173.14
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10533,8 +10488,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 166.85,
-        "end": 169.09
+        "start": 173.14,
+        "end": 175.52
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10542,8 +10497,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "用他自己的话说——他离开德州仪器，两手空空。",
         "en": "In his own words — he left Texas Instruments with nothing.",
-        "start": 169.09,
-        "end": 173.58
+        "start": 175.52,
+        "end": 180.49
       },
       {
         "secZh": "第一幕 · 放逐的尽头",
@@ -10551,8 +10506,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "五十二岁。这个年纪，大多数人已经开始盘算退休。而张忠谋，却站在了人生的岔路口上。",
         "en": "Fifty-two years old. At that age, most people are already thinking about retirement. But Morris Chang stood at a crossroads.",
-        "start": 173.58,
-        "end": 181.75
+        "start": 180.49,
+        "end": 189.3
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10560,8 +10515,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 181.75,
-        "end": 182.98
+        "start": 189.3,
+        "end": 191.32
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10569,8 +10524,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "辞职之后，他找过几份工作，其中一份，是去柯达新成立的数码摄影部门当负责人。",
         "en": "After resigning, he looked at several jobs. One of them was running Kodak's new digital photography division.",
-        "start": 182.98,
-        "end": 190.53
+        "start": 191.32,
+        "end": 198.83
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10578,8 +10533,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但最终，他接受了一个新的职位：通用器材公司的总裁。",
         "en": "But in the end, he accepted a different post: president of General Instrument.",
-        "start": 190.53,
-        "end": 195.64
+        "start": 198.83,
+        "end": 204.15
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10587,8 +10542,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这家公司做电子产品，规模不小。他搬到了纽约，住进了特朗普大厦的五十三楼——他的邻居，就是这栋楼的主人。",
         "en": "The company made electronic products, and it was no small outfit. He moved to New York City, into the fifty-third floor of Trump Tower — his next-door neighbor was the man the building was named after.",
-        "start": 195.64,
-        "end": 206.06
+        "start": 204.15,
+        "end": 215.07
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10596,8 +10551,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 206.06,
-        "end": 208.3
+        "start": 215.07,
+        "end": 217.46
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10605,8 +10560,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "听起来，这像是一个体面的新起点。可张忠谋很快就发现，事情跟他想的不一样。",
         "en": "On the surface, it looked like a respectable new start. But Chang soon found that things were not what he expected.",
-        "start": 208.3,
-        "end": 215.65
+        "start": 217.46,
+        "end": 225.11
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10614,8 +10569,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他以为，自己的任务是把通用器材最赚钱的几块业务做大做强。可渐渐地他明白过来，雇他的那位 CEO，想要的却是另一回事——让他去收购一些小公司，重新包装，再转手卖掉，像做私募一样。",
         "en": "He thought his job was to build up General Instrument's most profitable businesses. But gradually he understood that the CEO who hired him wanted something else entirely — to buy small companies, repackage them, and then turn around and sell them, like a private-equity firm.",
-        "start": 215.65,
-        "end": 233.62
+        "start": 225.11,
+        "end": 242.94
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10623,8 +10578,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "两个人的想法，南辕北辙。",
         "en": "The two men's ideas ran in opposite directions.",
-        "start": 233.62,
-        "end": 236.08
+        "start": 242.94,
+        "end": 245.66
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10632,8 +10587,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 236.08,
-        "end": 237.3
+        "start": 245.66,
+        "end": 247.67
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10641,8 +10596,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一年不到，他就被要求辞职。",
         "en": "In less than a year, he was asked to resign.",
-        "start": 237.3,
-        "end": 239.96
+        "start": 247.67,
+        "end": 250.58
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10650,8 +10605,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在通用器材这一年，他过得并不愉快。可就是在这短短的一年里，他遇到了一个人，也听到了一句，会改变他后半生的话。",
         "en": "That year at General Instrument was not a happy one. And yet, in that short year, he met a man — and heard one sentence — that would change the second half of his life.",
-        "start": 239.96,
-        "end": 250.98
+        "start": 250.58,
+        "end": 261.73
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10659,8 +10614,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 250.98,
-        "end": 253.23
+        "start": 261.73,
+        "end": 264.11
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10668,8 +10623,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "有一次，一个创业者来找他，想募五千万美元，开一家芯片设计公司。",
         "en": "At one point, an entrepreneur came to him, trying to raise fifty million dollars to start a chip-design company.",
-        "start": 253.23,
-        "end": 259.56
+        "start": 264.11,
+        "end": 270.51
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10677,8 +10632,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可没过多久，那个创业者又回来了，告诉张忠谋：钱，我不需要了。",
         "en": "But not long afterward, the entrepreneur came back and told Chang: I don't need the money anymore.",
-        "start": 259.56,
-        "end": 265.69
+        "start": 270.51,
+        "end": 276.93
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10686,8 +10641,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "为什么？因为他想明白了一件事——他根本不用自己去建一座昂贵的晶圆厂。他只需要把设计做好，然后把「制造」这件事，外包给别的半导体公司就行了。",
         "en": "Why? Because he had figured something out — he did not need to build an expensive fabrication plant of his own. He only had to design the chip, and outsource the manufacturing to some other semiconductor company.",
-        "start": 265.69,
-        "end": 279.78
+        "start": 276.93,
+        "end": 291.14
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10695,8 +10650,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 279.78,
-        "end": 281.0
+        "start": 291.14,
+        "end": 293.16
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10704,8 +10659,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这个创业者，叫戈登·坎贝尔。他后来创办的公司，叫 Chips and Technologies，是世界上最早的「无厂半导体公司」之一——只做设计，不建工厂。",
         "en": "That entrepreneur was Gordon Campbell. The company he later founded, Chips and Technologies, was one of the first \"fabless\" semiconductor companies in the world — it designed chips, but owned no factory.",
-        "start": 281.0,
-        "end": 296.93
+        "start": 293.16,
+        "end": 308.05
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10713,8 +10668,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋听到这句话的时候，并没有立刻意识到，这个念头，日后会改变整个世界的半导体版图。",
         "en": "When Chang heard this, he did not immediately realize that this idea would one day redraw the map of the whole semiconductor industry.",
-        "start": 296.93,
-        "end": 305.51
+        "start": 308.05,
+        "end": 316.48
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10722,8 +10677,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但他记住了它。",
         "en": "But he remembered it.",
-        "start": 305.51,
-        "end": 306.94
+        "start": 316.48,
+        "end": 318.19
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10731,8 +10686,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 306.94,
-        "end": 309.19
+        "start": 318.19,
+        "end": 320.57
       },
       {
         "secZh": "第二幕 · 纽约一年",
@@ -10740,8 +10695,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "请记住这个细节。很多年以后，当张忠谋在台湾创办台积电的时候，他脑子里转的，正是这句话——造芯片的人，和设计芯片的人，是可以分开的。",
         "en": "Hold on to this detail. Many years later, when Chang founded TSMC in Taiwan, the very sentence turning in his mind would be this one — the people who make chips and the people who design them can be separated.",
-        "start": 309.19,
-        "end": 322.46
+        "start": 320.57,
+        "end": 334.25
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10749,8 +10704,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 322.46,
-        "end": 323.68
+        "start": 334.25,
+        "end": 336.26
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10758,8 +10713,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们把镜头，从纽约转到太平洋的另一边。",
         "en": "Now let us turn the camera from New York to the other side of the Pacific.",
-        "start": 323.68,
-        "end": 327.77
+        "start": 336.26,
+        "end": 340.46
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10767,8 +10722,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在张忠谋还在德州仪器苦苦挣扎的那些年，台湾，正在悄悄地下一盘大棋。",
         "en": "In the years when Chang was still struggling at Texas Instruments, Taiwan was quietly playing a much bigger game.",
-        "start": 327.77,
-        "end": 334.51
+        "start": 340.46,
+        "end": 347.15
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10776,8 +10731,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 334.51,
-        "end": 336.75
+        "start": 347.15,
+        "end": 349.53
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10785,8 +10740,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那时候的台湾，是一个靠制造塑料玩具和廉价跑鞋起家的地方。",
         "en": "Taiwan in those days was a place that had made its living from plastic toys and cheap running shoes.",
-        "start": 336.75,
-        "end": 342.47
+        "start": 349.53,
+        "end": 355.21
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10794,8 +10749,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 342.47,
-        "end": 343.7
+        "start": 355.21,
+        "end": 357.22
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10803,8 +10758,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那几十年，台湾走了一条罕见的路：从战后的农业社会，一步步变成了替全世界代工的制造业工厂。到了七十年代，它已经有了发达的出口加工业，也攒下了一批工程师和技术官僚。",
         "en": "Over those decades, Taiwan had walked a rare road: from a postwar agricultural society, it turned itself into a manufacturing workshop for the whole world. By the 1970s it had a thriving export industry, and it had raised a generation of engineers and technocrats.",
-        "start": 343.7,
-        "end": 360.04
+        "start": 357.22,
+        "end": 373.38
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10812,8 +10767,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但「代工」二字，始终是它心里的一根刺——东西做得出来，技术却不在自己手里。台湾的决策者们越来越清楚：想要真正翻身，就必须掌握半导体这样的核心技术。",
         "en": "But the words \"contract manufacturing\" were a thorn in its side — it could make things, but the technology was never in its own hands. Taiwan's decision-makers understood more and more clearly: to truly stand on its own feet, it had to master a core technology like semiconductors.",
-        "start": 360.04,
-        "end": 374.94
+        "start": 373.38,
+        "end": 388.21
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10821,8 +10776,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 374.94,
-        "end": 377.19
+        "start": 388.21,
+        "end": 390.59
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10830,8 +10785,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它想往上走，想从低端制造，升级到高科技产业。可要造芯片，谈何容易——那是当时全世界最顶尖的技术。",
         "en": "It wanted to move up — to climb from low-end manufacturing to high technology. But making chips was no small thing; it was the most advanced technology on earth.",
-        "start": 377.19,
-        "end": 386.99
+        "start": 390.59,
+        "end": 400.96
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10839,8 +10794,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，1973 年，台湾成立了工业技术研究院。1976 年，工研院从美国的 RCA 公司，买下了一套已经有点过时的七微米半导体工艺，建起了自己的第一条生产线。",
         "en": "So in 1973, Taiwan founded the Industrial Technology Research Institute. And in 1976, ITRI bought an already-outdated seven-micron semiconductor process from America's RCA, and built its first production line with it.",
-        "start": 386.99,
-        "end": 403.13
+        "start": 400.96,
+        "end": 416.08
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10848,8 +10803,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 403.13,
-        "end": 404.35
+        "start": 416.08,
+        "end": 418.09
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10857,8 +10812,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1980 年，一座叫「新竹科学园区」的地方，在一片稻田和甘蔗园之间破土动工。它被称作台湾的「硅谷」。",
         "en": "In 1980, a place called the Hsinchu Science Park broke ground, rising out of rice paddies and sugarcane fields. It would come to be called Taiwan's \"Silicon Valley.\"",
-        "start": 404.35,
-        "end": 414.56
+        "start": 418.09,
+        "end": 427.41
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10866,8 +10821,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而在这一切的背后，站着一位关键人物——李国鼎。",
         "en": "And behind all of this stood one key figure — K.T. Li.",
-        "start": 414.56,
-        "end": 419.26
+        "start": 427.41,
+        "end": 432.57
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10875,8 +10830,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 419.26,
-        "end": 421.5
+        "start": 432.57,
+        "end": 434.95
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10884,8 +10839,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "李国鼎，被誉为「台湾经济奇迹之父」。他一手主导了新竹科学园区的设立，也一手推动了台湾高科技产业的起飞。",
         "en": "Li Kwoh-ting, known to the world as K.T. Li, has been called the \"father of Taiwan's economic miracle.\" He led the founding of the Hsinchu Science Park, and he drove the takeoff of Taiwan's high-tech industry.",
-        "start": 421.5,
-        "end": 431.92
+        "start": 434.95,
+        "end": 445.01
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10893,8 +10848,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他早就盯上了张忠谋。",
         "en": "And he had his eye on Morris Chang for a long time.",
-        "start": 431.92,
-        "end": 434.98
+        "start": 445.01,
+        "end": 447.28
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10902,8 +10857,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 434.98,
-        "end": 436.21
+        "start": 447.28,
+        "end": 449.29
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10911,8 +10866,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "事实上，早在 1982 年——张忠谋还没有离开德州仪器的时候——台湾方面就已经邀请过他，请他回来当工研院的院长。可那一次，他没能和他的上司谈妥，事情也就不了了之。",
         "en": "In fact, as early as 1982 — before Chang had even left Texas Instruments — Taiwan had already invited him to come back and head ITRI. But that time, he could not reach a workable arrangement with his boss, and the matter faded away.",
-        "start": 436.21,
-        "end": 452.75
+        "start": 449.29,
+        "end": 465.88
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10920,8 +10875,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "三年后，当他离开通用器材、又一次站在人生的空档期时，那封来自东方的邀请，再次来了。",
         "en": "Three years later, after he left General Instrument and once again stood at an empty moment in his life, the invitation from the east came again.",
-        "start": 452.75,
-        "end": 461.12
+        "start": 465.88,
+        "end": 474.22
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10929,8 +10884,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 461.12,
-        "end": 463.37
+        "start": 474.22,
+        "end": 476.6
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10938,8 +10893,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这一次来请他的，不止一个名字：有行政院长俞国华的支持，有工研院董事长徐贤修的主持，更有李国鼎在幕后全力推动。",
         "en": "This time, more than one name stood behind it: the support of Premier Yu Kuo-hwa, the leadership of ITRI chairman Hsu Hsien-hsiu, and above all, K.T. Li pushing with all his might from behind the scenes.",
-        "start": 463.37,
-        "end": 474.4
+        "start": 476.6,
+        "end": 487.46
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10947,8 +10902,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1985 年，五十四岁的张忠谋，登上了飞往台湾的班机，出任工业技术研究院院长。",
         "en": "In 1985, at fifty-four, Morris Chang boarded a plane for Taiwan and took office as president of the Industrial Technology Research Institute.",
-        "start": 474.4,
-        "end": 482.36
+        "start": 487.46,
+        "end": 495.15
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10956,8 +10911,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 482.36,
-        "end": 483.59
+        "start": 495.15,
+        "end": 497.16
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10965,8 +10920,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而就在他登机的前后，太平洋两岸，正在酝酿一场风暴。",
         "en": "And just as he was boarding, a storm was gathering across the Pacific.",
-        "start": 483.59,
-        "end": 488.69
+        "start": 497.16,
+        "end": 502.37
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10974,8 +10929,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1986 年，美国和日本签下了半导体协议——日本同意开放自己的市场，停止低价倾销芯片。一场关于「半导体霸权」的贸易战，正打得如火如荼。",
         "en": "In 1986, the United States and Japan signed a semiconductor agreement — Japan agreed to open its market and to stop dumping chips at cutthroat prices. A trade war over semiconductor supremacy was burning at full heat.",
-        "start": 488.69,
-        "end": 502.37
+        "start": 502.37,
+        "end": 515.69
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10983,8 +10938,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 502.37,
-        "end": 504.62
+        "start": 515.69,
+        "end": 518.08
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -10992,8 +10947,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那几年，整个美国都被一种「日本恐惧」笼罩着。日本人造的内存，又便宜又好，把美国的芯片厂打得节节败退——英特尔被迫退出了内存生意，德州仪器也元气大伤。",
         "en": "In those years, a kind of \"Japan anxiety\" hung over the whole of America. The memory chips Japan made were cheap and good, and they beat American chipmakers back step by step — Intel was driven out of the memory business, and Texas Instruments was badly hurt.",
-        "start": 504.62,
-        "end": 519.73
+        "start": 518.08,
+        "end": 532.97
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -11001,8 +10956,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这场美日之间的半导体大战，成了全球半导体史上最著名的一课。而它带来的一个意想不到的后果，是让台湾，悄悄地站上了风口。",
         "en": "That semiconductor war between the United States and Japan became one of the most famous lessons in the history of the industry. And one of its unintended consequences was that Taiwan quietly stepped into the wind.",
-        "start": 519.73,
-        "end": 531.58
+        "start": 532.97,
+        "end": 544.78
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -11010,8 +10965,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 531.58,
-        "end": 532.8
+        "start": 544.78,
+        "end": 546.79
       },
       {
         "secZh": "第三幕 · 归乡",
@@ -11019,8 +10974,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "美国的芯片巨头们，都在忙着跟日本军团较劲。谁也不会想到，就在这个节骨眼上，一个五十四岁的华人，正在一座小岛上，悄悄埋下另一颗种子。",
         "en": "America's chip giants were busy fighting the Japanese army. None of them would have guessed that, at that very moment, a fifty-four-year-old Chinese man was quietly planting another seed on a small island.",
-        "start": 532.8,
-        "end": 546.08
+        "start": 546.79,
+        "end": 560.06
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11028,8 +10983,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 546.08,
-        "end": 547.3
+        "start": 560.06,
+        "end": 562.07
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11037,8 +10992,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋到工研院上任的第二天，就拿到了前任院长留下的一份待办清单。",
         "en": "On his second day at ITRI, Chang received a to-do list left behind by his predecessor.",
-        "start": 547.3,
-        "end": 553.84
+        "start": 562.07,
+        "end": 568.49
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11046,8 +11001,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "清单上的头一件事，让他头疼：有三家芯片公司，同时提出，想要建自己的晶圆厂。",
         "en": "The first item on the list gave him a headache: three chip companies had all asked, at the same time, to build their own fabrication plants.",
-        "start": 553.84,
-        "end": 561.39
+        "start": 568.49,
+        "end": 576.2
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11055,8 +11010,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 561.39,
-        "end": 563.64
+        "start": 576.2,
+        "end": 578.58
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11064,8 +11019,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这三家，谁都不肯退让。可给三家公司各建一座厂，要花一亿多美元——这对工研院来说，是一笔天文数字。",
         "en": "None of the three would back down. But building a separate plant for each of them would cost more than a hundred million dollars — an astronomical sum for ITRI.",
-        "start": 563.64,
-        "end": 573.44
+        "start": 578.58,
+        "end": 588.95
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11073,8 +11028,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "拒绝吧，工研院的使命就是发展产业，哪有把人往外推的道理？答应吧，钱又从哪里来？",
         "en": "Refuse, and you are pushing away the very industry ITRI exists to serve. Agree, and where does the money come from?",
-        "start": 573.44,
-        "end": 581.41
+        "start": 588.95,
+        "end": 597.24
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11082,8 +11037,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "所有人都觉得，这是一道无解的题。",
         "en": "Everyone thought it was an unsolvable puzzle.",
-        "start": 581.41,
-        "end": 584.67
+        "start": 597.24,
+        "end": 600.7
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11091,8 +11046,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 584.67,
-        "end": 585.9
+        "start": 600.7,
+        "end": 602.71
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11100,8 +11055,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "只有张忠谋，看到了第三条路。",
         "en": "Only Chang saw a third way.",
-        "start": 585.9,
-        "end": 588.76
+        "start": 602.71,
+        "end": 605.8
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11109,8 +11064,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他太懂这个行业了。他知道，建一座晶圆厂的成本，正在一年比一年高；他也知道，一家工厂，必须把产量做到足够大，成本才能降下来——这正是他当年在德州仪器学到的「学习曲线」。",
         "en": "He knew this industry inside out. He knew that the cost of building a fab was climbing year after year. He also knew that a plant must reach a large enough output before its costs could fall — the very \"learning curve\" he had learned at Texas Instruments.",
-        "start": 588.76,
-        "end": 605.71
+        "start": 605.8,
+        "end": 622.52
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11118,8 +11073,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而台湾现在那些厂，规模都太小了。",
         "en": "And the fabs Taiwan had now were all far too small.",
-        "start": 605.71,
-        "end": 608.98
+        "start": 622.52,
+        "end": 625.98
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11127,8 +11082,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 608.98,
-        "end": 611.22
+        "start": 625.98,
+        "end": 628.36
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11136,8 +11091,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，他提出了一个让所有人都愣住的想法：",
         "en": "So he made a proposal that stunned everyone:",
-        "start": 611.22,
-        "end": 615.31
+        "start": 628.36,
+        "end": 632.35
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11145,8 +11100,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "不建三座厂。只建一座。一座「共用的晶圆厂」。",
         "en": "Don't build three plants. Build one. A single \"common fab.\"",
-        "start": 615.31,
-        "end": 619.8
+        "start": 632.35,
+        "end": 637.3
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11154,8 +11109,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这座工厂，不给任何一家公司专属，也不自己设计芯片。它只做一件事——替别人制造芯片。谁有设计，谁就拿来，我帮你造。",
         "en": "This plant would belong to no single company, and it would not design chips itself. It would do exactly one thing — manufacture chips for other people. Bring your design, and I will make it for you.",
-        "start": 619.8,
-        "end": 631.24
+        "start": 637.3,
+        "end": 649.64
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11163,8 +11118,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 631.24,
-        "end": 632.46
+        "start": 649.64,
+        "end": 651.65
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11172,8 +11127,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这就是后来震动全球的「晶圆代工」模式的雏形：一家公司，不设计、不卖自己的芯片，不与任何客户竞争，只专注于把别人设计好的芯片，做出来。",
         "en": "That was the seed of the \"foundry\" model that would one day shake the world: a company that designs nothing, sells no chips of its own, competes with no customer — it only focuses on manufacturing the chips that other people have designed.",
-        "start": 632.46,
-        "end": 645.94
+        "start": 651.65,
+        "end": 664.53
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11181,8 +11136,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在当时，这个想法被所有人当成天方夜谭。可张忠谋想得很清楚：建厂越来越贵，愿意自己建厂的公司会越来越少；而愿意「只做设计、不建工厂」的公司，会越来越多。",
         "en": "At the time, the whole industry treated the idea as fantasy. But Chang saw it clearly: fabs were getting more and more expensive, so fewer and fewer companies would want to build their own; while more and more companies would want to design chips and own no factory at all.",
-        "start": 645.94,
-        "end": 661.26
+        "start": 664.53,
+        "end": 679.48
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11190,8 +11145,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他赌的是未来。",
         "en": "He was betting on the future.",
-        "start": 661.26,
-        "end": 662.79
+        "start": 679.48,
+        "end": 681.19
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11199,8 +11154,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 662.79,
-        "end": 665.03
+        "start": 681.19,
+        "end": 683.58
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11208,8 +11163,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "为什么这个模式，偏偏只有他想得出来？",
         "en": "Why was he the only one who could think of this model?",
-        "start": 665.03,
-        "end": 668.71
+        "start": 683.58,
+        "end": 687.4
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11217,8 +11172,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "因为他比谁都清楚这个行业的痛处。他记得，当年德州仪器就被人告过——说它不公平，总是优先给自己家的产品安排产能。那场官司，德州仪器最后能赢，靠的恰恰是张忠谋当年拒绝执行那道「优先内部」的命令。",
         "en": "Because he knew the pain of this industry better than anyone. He remembered that Texas Instruments had once been sued — accused of unfairly giving priority to its own products. TI won that lawsuit only because Chang had refused, years earlier, to carry out that very order to favor internal customers.",
-        "start": 668.71,
-        "end": 688.11
+        "start": 687.4,
+        "end": 706.59
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11226,8 +11181,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "所以他明白：一家既设计芯片、又替别人造芯片的公司，永远会让客户提心吊胆；只有一家「什么都不设计、只专心替人造」的公司，才能让客户放心地把设计交出来。",
         "en": "So he understood: a company that both designs chips and makes them for others will always leave its customers anxious. Only a company that designs nothing, and only makes things for others, can persuade customers to hand over their designs without fear.",
-        "start": 688.11,
-        "end": 703.22
+        "start": 706.59,
+        "end": 720.95
       },
       {
         "secZh": "第四幕 · 三个请求",
@@ -11235,8 +11190,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他还知道另一个秘密：亚洲的工厂，良率往往比美国还高。台湾的工研院，技术虽然落后，良率却是一流的。",
         "en": "He also knew another secret: Asian fabs often reached higher yields than American ones. ITRI's technology was behind, but its yields were first-class.",
-        "start": 703.22,
-        "end": 713.02
+        "start": 720.95,
+        "end": 731.11
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11244,8 +11199,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 713.02,
-        "end": 714.25
+        "start": 731.11,
+        "end": 733.12
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11253,8 +11208,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "想法有了，钱从哪里来？",
         "en": "He had the idea. Now, where would the money come from?",
-        "start": 714.25,
-        "end": 717.06
+        "start": 733.12,
+        "end": 735.66
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11262,8 +11217,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋很清楚，光靠政府出资不行，必须有私人资本进来；可私人资本，又只会在项目看起来靠谱的时候才肯掏钱。",
         "en": "Chang knew that government money alone would not be enough — private capital had to come in. But private investors would only put up money if the project looked solid.",
-        "start": 717.06,
-        "end": 727.47
+        "start": 735.66,
+        "end": 745.84
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11271,8 +11226,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "所以，他需要一个有分量的半导体厂商，来做合作伙伴。",
         "en": "So he needed a serious semiconductor manufacturer to come in as a partner.",
-        "start": 727.47,
-        "end": 732.58
+        "start": 745.84,
+        "end": 751.05
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11280,8 +11235,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 732.58,
-        "end": 734.83
+        "start": 751.05,
+        "end": 753.43
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11289,8 +11244,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他一个一个地去敲门。",
         "en": "He went knocking, one door at a time.",
-        "start": 734.83,
-        "end": 736.87
+        "start": 753.43,
+        "end": 755.69
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11298,8 +11253,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "英特尔，拒绝。德州仪器，拒绝。摩托罗拉，拒绝。AMD、松下、索尼……全都摇头。",
         "en": "Intel — refused. Texas Instruments — refused. Motorola — refused. AMD, Panasonic, Sony — every one of them shook their heads.",
-        "start": 736.87,
-        "end": 744.83
+        "start": 755.69,
+        "end": 764.62
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11307,8 +11262,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "理由都一样：我们为什么要投钱，去帮一个潜在的竞争对手，造芯片？",
         "en": "And they all gave the same reason: why would we invest money to help a potential competitor manufacture chips?",
-        "start": 744.83,
-        "end": 751.16
+        "start": 764.62,
+        "end": 771.14
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11316,8 +11271,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 751.16,
-        "end": 752.39
+        "start": 771.14,
+        "end": 773.15
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11325,8 +11280,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "最后，只有一家公司点了头——荷兰的飞利浦。",
         "en": "In the end, only one company said yes — Philips, of the Netherlands.",
-        "start": 752.39,
-        "end": 756.68
+        "start": 773.15,
+        "end": 777.94
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11334,8 +11289,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "飞利浦看中的，与其说是这个「代工」的主意，不如说是台湾廉价的劳动力和政府的关系。但无论如何，它掏了钱。",
         "en": "What Philips saw was less the foundry idea itself, and more Taiwan's cheap labor and its government connections. But either way, it put up the money.",
-        "start": 756.68,
-        "end": 767.09
+        "start": 777.94,
+        "end": 788.08
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11343,8 +11298,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 767.09,
-        "end": 769.34
+        "start": 788.08,
+        "end": 790.46
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11352,8 +11307,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "说起来也有点讽刺：飞利浦自己，在半导体这个行当里，只是个二流的玩家。它肯出手，多半是为了讨好台湾政府，顺便用一用这里廉价的劳动力。",
         "en": "There is a certain irony here: Philips itself was only a second-rate player in semiconductors. It said yes largely to please Taiwan's government, and to make use of the island's cheap labor.",
-        "start": 769.34,
-        "end": 782.61
+        "start": 790.46,
+        "end": 803.86
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11361,8 +11316,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可正是这笔「不那么纯粹」的投资，给了台积电第一口气。",
         "en": "But it was this not-quite-pure investment that gave TSMC its first breath of life.",
-        "start": 782.61,
-        "end": 787.92
+        "start": 803.86,
+        "end": 808.79
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11370,8 +11325,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 787.92,
-        "end": 790.17
+        "start": 808.79,
+        "end": 811.17
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11379,8 +11334,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "最终的股本结构，是这样一番景象：政府出资约七千万美元，是最大的股东，占了约四成八；飞利浦出资约四千万美元，占了约两成七五；剩下的，来自民间的投资人。",
         "en": "The final capital structure looked like this: the government put in about seventy million dollars, becoming the largest shareholder with roughly forty-eight percent; Philips put in about forty million, roughly twenty-seven and a half percent; and the rest came from private investors.",
-        "start": 790.17,
-        "end": 805.28
+        "start": 811.17,
+        "end": 826.07
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11388,8 +11343,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1986 年，台湾第一座六英寸集成电路实验工厂完工。",
         "en": "In 1986, Taiwan's first six-inch integrated-circuit pilot plant was completed.",
-        "start": 805.28,
-        "end": 810.59
+        "start": 826.07,
+        "end": 831.19
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11397,8 +11352,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1987 年 2 月 21 日，这家新公司，正式成立了。",
         "en": "On February 21, 1987, the new company was officially established.",
-        "start": 810.59,
-        "end": 816.31
+        "start": 831.19,
+        "end": 836.03
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11406,8 +11361,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 816.31,
-        "end": 817.53
+        "start": 836.03,
+        "end": 838.04
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11415,8 +11370,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它有一个很长的名字，叫「台湾积体电路制造公司」。多年以后，全世界会用一个更简单的称呼，叫它——台积电。",
         "en": "It had a long name — Taiwan Semiconductor Manufacturing Company. Years later, the world would know it by a simpler one: TSMC.",
-        "start": 817.53,
-        "end": 827.95
+        "start": 838.04,
+        "end": 848.59
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11424,8 +11379,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "五十六岁的张忠谋，出任这家公司的董事长。",
         "en": "Morris Chang, at fifty-six, became its chairman.",
-        "start": 827.95,
-        "end": 832.03
+        "start": 848.59,
+        "end": 852.79
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11433,8 +11388,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 832.03,
-        "end": 834.28
+        "start": 852.79,
+        "end": 855.17
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11442,8 +11397,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那一天，没有太多人看好它。",
         "en": "On that day, almost nobody thought much of it.",
-        "start": 834.28,
-        "end": 836.93
+        "start": 855.17,
+        "end": 858.07
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11451,8 +11406,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它没有自己的芯片设计，没有拿得出手的先进技术，连产线都是工研院改造过来的旧产线。整个行业，都在等着看它什么时候倒下。",
         "en": "It had no chip designs of its own, no advanced technology to speak of, and its production line was just an old line repurposed from ITRI. The whole industry was waiting to see how soon it would collapse.",
-        "start": 836.93,
-        "end": 848.78
+        "start": 858.07,
+        "end": 869.88
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11460,8 +11415,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可张忠谋心里，埋着一个几乎没有人相信的判断：",
         "en": "But deep in Chang's mind was a judgment almost nobody believed:",
-        "start": 848.78,
-        "end": 853.27
+        "start": 869.88,
+        "end": 874.24
       },
       {
         "secZh": "第五幕 · 台积电诞生",
@@ -11469,8 +11424,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "未来，会出现成千上万家「只做设计、不建工厂」的公司。而台积电，就是为它们而生的。",
         "en": "In the future, thousands upon thousands of companies would design chips and own no factory. And TSMC was built for them.",
-        "start": 853.27,
-        "end": 861.44
+        "start": 874.24,
+        "end": 882.35
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11478,8 +11433,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静，放慢",
         "zh": "【主叙述者 · 安静，放慢】",
         "en": "[Main narrator, quiet, slower]",
-        "start": 861.44,
-        "end": 864.3
+        "start": 882.35,
+        "end": 885.37
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11487,8 +11442,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "让我们把这段人生，从头再看一遍。",
         "en": "Let us look at this life once more, from the beginning.",
-        "start": 864.3,
-        "end": 867.57
+        "start": 885.37,
+        "end": 888.83
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11496,8 +11451,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1955 年，一个从 MIT 出来的年轻人，因为一美元的差价，误打误撞进了半导体这一行。",
         "en": "In 1955, a young man out of MIT stumbled into the semiconductor business over a difference of one dollar.",
-        "start": 867.57,
-        "end": 876.55
+        "start": 888.83,
+        "end": 897.08
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11505,8 +11460,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "此后二十五年，他在德州仪器，从良率做起，一路做到全世界最大的半导体生意的掌舵人。",
         "en": "For the next twenty-five years, at Texas Instruments, he rose from fixing yields all the way to running the largest semiconductor business in the world.",
-        "start": 876.55,
-        "end": 884.72
+        "start": 897.08,
+        "end": 905.14
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11514,8 +11469,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可最终，他被放逐，被边缘化，在五十二岁那年，两手空空地离开。",
         "en": "And in the end, he was exiled, pushed to the edge, and left at fifty-two with nothing in his hands.",
-        "start": 884.72,
-        "end": 890.85
+        "start": 905.14,
+        "end": 911.44
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11523,8 +11478,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 890.85,
-        "end": 893.09
+        "start": 911.44,
+        "end": 913.82
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11532,8 +11487,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "历史在这里，留下了一个意味深长的转折。",
         "en": "Here history left a turn full of meaning.",
-        "start": 893.09,
-        "end": 896.97
+        "start": 913.82,
+        "end": 917.83
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11541,8 +11496,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "如果他在德州仪器一路顺风顺水，做到了那家公司的最高处，那么这个世界上，就不会有台积电。",
         "en": "If he had sailed smoothly up Texas Instruments to its very top, there would be no TSMC.",
-        "start": 896.97,
-        "end": 905.76
+        "start": 917.83,
+        "end": 926.45
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11550,8 +11505,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "恰恰是那两次「离开」——离开德州，离开通用器材——把他推到了一个前所未有的位置上。",
         "en": "It was precisely those two departures — leaving Texas, leaving General Instrument — that pushed him into a position no one else had ever stood in.",
-        "start": 905.76,
-        "end": 914.13
+        "start": 926.45,
+        "end": 934.98
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11559,8 +11514,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 914.13,
-        "end": 916.37
+        "start": 934.98,
+        "end": 937.36
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11568,8 +11523,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "我们常说，人往高处走。",
         "en": "We like to say that people should always climb higher.",
-        "start": 916.37,
-        "end": 918.93
+        "start": 937.36,
+        "end": 939.9
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11577,8 +11532,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可张忠谋用他五十四岁那年的选择，告诉了我们另一件事：**有时候，离开一个错误的位置，是人生最重要的一步棋。**",
         "en": "But Morris Chang, with the choice he made at fifty-four, taught us something else: **sometimes the most important move in life is leaving the wrong position.**",
-        "start": 918.93,
-        "end": 930.16
+        "start": 939.9,
+        "end": 950.2
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11586,8 +11541,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他不是在走下坡路。他是在换一张牌桌。",
         "en": "He was not stepping down. He was changing tables.",
-        "start": 930.16,
-        "end": 933.84
+        "start": 950.2,
+        "end": 954.36
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11595,8 +11550,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 933.84,
-        "end": 936.08
+        "start": 954.36,
+        "end": 956.74
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11604,8 +11559,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他离开了那个他熟悉的西方世界，回到了他出生的东方。这又是一次「跨文明」的旅程——只不过这一次，方向反了过来。",
         "en": "He left the Western world he knew so well, and returned to the East where he was born. It was another journey across civilizations — except this time, the direction was reversed.",
-        "start": 936.08,
-        "end": 947.11
+        "start": 956.74,
+        "end": 967.76
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11613,8 +11568,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "年轻的时候，他从东方的战火里，走向西方的课堂和实验室；五十四岁这年，他带着西方学来的一身本事，回到了东方，要在那里，再造一个世界。",
         "en": "As a young man, he had walked out of the fires of war in the East, toward the classrooms and laboratories of the West. At fifty-four, he carried everything the West had taught him back to the East, determined to build a new world there.",
-        "start": 947.11,
-        "end": 960.38
+        "start": 967.76,
+        "end": 980.79
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11622,8 +11577,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, quiet]",
-        "start": 960.38,
-        "end": 962.63
+        "start": 980.79,
+        "end": 983.17
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11631,8 +11586,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "归乡者的赌注，从来不只是个人的荣辱。",
         "en": "A homecomer's gamble is never only about personal glory.",
-        "start": 962.63,
-        "end": 966.31
+        "start": 983.17,
+        "end": 987.0
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11640,8 +11595,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋押上去的，是一个产业的未来。他赌的是：一群原本只能做塑料玩具和廉价跑鞋的人，能不能靠着一座「替别人造芯片」的工厂，站上世界科技的巅峰。",
         "en": "What Chang staked was the future of an industry. His bet was this: could a people who had once made only plastic toys and cheap running shoes climb to the summit of world technology — with one factory that manufactured other people's chips?",
-        "start": 966.31,
-        "end": 980.6
+        "start": 987.0,
+        "end": 1000.86
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11649,8 +11604,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
         "en": "[Main narrator, with feeling]",
-        "start": 980.6,
-        "end": 982.85
+        "start": 1000.86,
+        "end": 1003.24
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11658,8 +11613,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "后来的事情，我们都已经知道了。",
         "en": "We all know how the story turned out.",
-        "start": 982.85,
-        "end": 985.91
+        "start": 1003.24,
+        "end": 1006.51
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11667,8 +11622,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那家没有人看好的公司，用了不到十年，做到了年营收十亿美元；又过了几十年，它成了全世界最先进的芯片制造商，几乎每一台手机、每一台电脑、每一块人工智能芯片，都离不开它。",
         "en": "The company nobody believed in took less than ten years to reach a billion dollars in annual revenue. A few decades later, it became the most advanced chip manufacturer on the planet — the company that almost every phone, every computer, and every AI chip depends on.",
-        "start": 985.91,
-        "end": 1002.66
+        "start": 1006.51,
+        "end": 1022.77
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11676,8 +11631,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而在这一切开始的地方，是一个五十四岁的男人，做下的那个决定。",
         "en": "And at the very beginning of it all was a decision made by a fifty-four-year-old man.",
-        "start": 1002.66,
-        "end": 1008.78
+        "start": 1022.77,
+        "end": 1028.9
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -11685,8 +11640,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "**有时候，离开一个错误的位置，是人生最重要的一步棋；归乡者的赌注——他押上的不是自己的余生，是一个产业的未来。**",
         "en": "**Sometimes the most important move in life is leaving the wrong position; a homecomer's gamble — what he staked was not the rest of his life, but the future of an industry.**",
-        "start": 1008.78,
-        "end": 1020.63
+        "start": 1028.9,
+        "end": 1040.04
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -11694,8 +11649,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
         "en": "(Verified public facts, for the listener's reference)",
-        "start": 1020.63,
-        "end": 1024.71
+        "start": 1040.04,
+        "end": 1044.73
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -11703,8 +11658,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1. **张忠谋辞 TI 与通用器材**：1983 年辞去效力 25 年的德州仪器；1984–1985 年任通用器材（General Instrument）总裁兼 COO，迁居纽约，一年内因与 CEO 理念不合被要求辞职。",
         "en": "1. **Leaving TI and General Instrument**: In 1983 Chang resigned from Texas Instruments after 25 years; from 1984 to 1985 he served as president and COO of General Instrument, moved to New York, and was asked to resign within a year over a clash of visions with the CEO.",
-        "start": 1024.71,
-        "end": 1047.38
+        "start": 1044.73,
+        "end": 1063.21
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -11712,8 +11667,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "2. **台湾延揽张忠谋**：1982 年（尚在 TI）台湾方面曾邀其任工研院院长未成；1985 年再次受邀并接受，出任工业技术研究院（ITRI）院长。",
         "en": "2. **Taiwan Courts Chang**: As early as 1982, while he was still at TI, Taiwan invited him to head ITRI, but no arrangement was reached; in 1985, after he left General Instrument, he was invited again and accepted, becoming president of the Industrial Technology Research Institute (ITRI).",
-        "start": 1047.38,
-        "end": 1062.9
+        "start": 1063.21,
+        "end": 1076.25
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -11721,8 +11676,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "3. **工研院与新竹科学园区**：工研院 1973 年成立；1976 年从 RCA 引进 7 微米工艺建产线；新竹科学园区 1980 年设立（李国鼎主导）。",
         "en": "3. **ITRI and the Hsinchu Science Park**: ITRI was founded in 1973; in 1976 it licensed a 7-micron process from RCA to build its first line; the Hsinchu Science Park was established in 1980 under K.T. Li's leadership.",
-        "start": 1062.9,
-        "end": 1079.03
+        "start": 1076.25,
+        "end": 1089.11
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -11730,8 +11685,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "4. **台积电成立与纯代工模式**：张忠谋面对三家 IC 公司建厂请求，提出「单一共用晶圆厂」构想——不设计、不与客户竞争、专职代工制造；1986 年筹办、1987 年 2 月 21 日正式成立，为世界首家专职晶圆代工厂。",
         "en": "4. **TSMC and the Pure-Play Foundry Model**: Facing three chip companies' requests to build fabs, Chang proposed a single \"common fab\" — one that designs nothing, competes with no customer, and only manufactures other people's chips; planning began in 1986, and on February 21, 1987, the world's first dedicated foundry was officially established.",
-        "start": 1079.03,
-        "end": 1101.91
+        "start": 1089.11,
+        "end": 1108.99
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -11739,8 +11694,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "5. **台积电股本结构**：政府（行政院开发基金）约 48%、飞利浦约 27.5%、其余民间；飞利浦投资约 4000 万美元、政府约 7000 万、私人约 3500 万。",
         "en": "5. **TSMC's Capital Structure**: The government (National Development Fund) held roughly 48%, Philips roughly 27.5%, and the rest was private; Philips invested about $40 million, the government about $70 million, and private investors about $35 million.",
-        "start": 1101.91,
-        "end": 1119.47
+        "start": 1108.99,
+        "end": 1123.62
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -11748,8 +11703,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "6. **美日半导体贸易战**：1986 年美日半导体协议——日本同意改善市场准入、停止倾销，美国可对日芯片设最低价，协议有效至 1991 年 3 月。",
         "en": "6. **The U.S.–Japan Semiconductor Trade War**: In 1986 the U.S.–Japan Semiconductor Agreement committed Japan to improving market access and halting dumping, and let the U.S. set minimum prices on Japanese chips; it ran until March 1991.",
-        "start": 1119.47,
-        "end": 1134.99
+        "start": 1123.62,
+        "end": 1137.52
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
@@ -11757,8 +11712,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "7. **李国鼎与「科技教父」**：李国鼎（K.T. Li）被誉为「台湾经济奇迹之父」，主导新竹科学园区设立，并全程推动台积电成立（「没有李国鼎，就没有台积电」）。",
         "en": "7. **K.T. Li and the \"Godfather of Technology\"**: Li Kwoh-ting (K.T. Li) has been called the \"father of Taiwan's economic miracle\"; he led the founding of the Hsinchu Science Park and pushed TSMC's creation from start to finish (\"Without K.T. Li, there would be no TSMC\").",
-        "start": 1134.99,
-        "end": 1151.73
+        "start": 1137.52,
+        "end": 1151.84
       },
       {
         "secZh": "下集预告",
@@ -11766,8 +11721,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 1151.73,
-        "end": 1152.96
+        "start": 1151.84,
+        "end": 1153.86
       },
       {
         "secZh": "下集预告",
@@ -11775,8 +11730,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从 1987 年开始，台积电在所有人的质疑声中，艰难起步。",
         "en": "From 1987 onward, TSMC stumbled forward in the face of universal doubt.",
-        "start": 1152.96,
-        "end": 1158.88
+        "start": 1153.86,
+        "end": 1159.43
       },
       {
         "secZh": "下集预告",
@@ -11784,8 +11739,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它没有自己的芯片，没有最先进的技术，连第一批客户，都要一家一家地求来。",
         "en": "It had no chips of its own, no cutting-edge technology, and even its first customers had to be won over one by one.",
-        "start": 1158.88,
-        "end": 1166.03
+        "start": 1159.43,
+        "end": 1166.57
       },
       {
         "secZh": "下集预告",
@@ -11793,8 +11748,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可就是这家公司，在接下来的八年里，硬生生地开创了一个全新的行业——「晶圆代工」。",
         "en": "And yet this very company, over the next eight years, carved out an entirely new industry — \"the foundry.\"",
-        "start": 1166.03,
-        "end": 1174.2
+        "start": 1166.57,
+        "end": 1174.59
       },
       {
         "secZh": "下集预告",
@@ -11802,7 +11757,7 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "下集，《纯代工的革命》：一个被全行业当成笑话的模式，是如何改写了整个世界的芯片格局。",
         "en": "Next episode, \"The Pure-Play Revolution\": how a model the whole industry laughed at went on to rewrite the world's chip landscape.",
-        "start": 1174.2,
+        "start": 1174.59,
         "end": 1182.78
       }
     ]
@@ -11814,7 +11769,7 @@ window.AUDIO_DATA = [
     "summary": "纯代工的革命 · 双语沉浸式有声剧场",
     "audioZh": "./03-剧集/第09期-纯代工的革命/中文音频.mp3",
     "audioEn": "./03-剧集/第09期-纯代工的革命/英文音频.mp3",
-    "durationZh": 1171.08,
+    "durationZh": 1171.084,
     "durationEn": 1210.5,
     "cues": [
       {
@@ -11824,7 +11779,7 @@ window.AUDIO_DATA = [
         "zh": "【音效：无尘室的低鸣，机器运转的嗡响，渐渐压低】",
         "en": "[SFX: the low hum of a cleanroom, the whir of machinery, fading down]",
         "start": 0.0,
-        "end": 4.56
+        "end": 5.65
       },
       {
         "secZh": "开场",
@@ -11832,8 +11787,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1987 年，台湾，新竹。",
         "en": "Hsinchu, Taiwan. 1987.",
-        "start": 4.56,
-        "end": 7.03
+        "start": 5.65,
+        "end": 8.42
       },
       {
         "secZh": "开场",
@@ -11841,8 +11796,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一家新公司开张了。它没有一款自己设计的芯片，没有一项拿得出手的先进技术，连生产线，都是从工研院搬来的旧产线。",
         "en": "A new company opens its doors. It has not designed a single chip of its own, it has no advanced technology to speak of, and even its production line is an old line carried over from ITRI.",
-        "start": 7.03,
-        "end": 17.29
+        "start": 8.42,
+        "end": 19.36
       },
       {
         "secZh": "开场",
@@ -11850,8 +11805,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "整个半导体行业，都在等着看它什么时候倒闭。",
         "en": "The whole semiconductor industry is waiting to see how soon it will collapse.",
-        "start": 17.29,
-        "end": 21.28
+        "start": 19.36,
+        "end": 23.69
       },
       {
         "secZh": "开场",
@@ -11859,8 +11814,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 21.28,
-        "end": 22.42
+        "start": 23.69,
+        "end": 25.68
       },
       {
         "secZh": "开场",
@@ -11868,8 +11823,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "因为在所有人的常识里，一家芯片公司，必须自己设计芯片，再自己制造芯片。设计和制造，是一枚硬币的两面，谁也离不开谁。",
         "en": "Because in everyone's common sense, a chip company must design its own chips, and then manufacture its own chips. Design and manufacturing were two sides of the same coin; neither could exist without the other.",
-        "start": 22.42,
-        "end": 33.25
+        "start": 25.68,
+        "end": 37.33
       },
       {
         "secZh": "开场",
@@ -11877,8 +11832,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可这家公司，偏偏只做一半。",
         "en": "And yet this company did only half of it.",
-        "start": 33.25,
-        "end": 35.72
+        "start": 37.33,
+        "end": 40.2
       },
       {
         "secZh": "开场",
@@ -11886,8 +11841,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它不设计，只制造——而且只制造别人的芯片。",
         "en": "It designed nothing. It only manufactured — and it only manufactured other people's chips.",
-        "start": 35.72,
-        "end": 39.71
+        "start": 40.2,
+        "end": 44.94
       },
       {
         "secZh": "开场",
@@ -11895,8 +11850,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 39.71,
-        "end": 41.8
+        "start": 44.94,
+        "end": 47.29
       },
       {
         "secZh": "开场",
@@ -11904,8 +11859,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "很多年以后，人们会给这个模式起一个名字，叫「晶圆代工」。",
         "en": "Years later, the world would give this model a name: the foundry.",
-        "start": 41.8,
-        "end": 47.12
+        "start": 47.29,
+        "end": 52.62
       },
       {
         "secZh": "开场",
@@ -11913,8 +11868,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而在当时，几乎所有的人都觉得，这是一个笑话。",
         "en": "But back then, almost everyone thought it was a joke.",
-        "start": 47.12,
-        "end": 51.3
+        "start": 52.62,
+        "end": 57.22
       },
       {
         "secZh": "开场",
@@ -11922,8 +11877,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 51.3,
-        "end": 52.44
+        "start": 57.22,
+        "end": 59.21
       },
       {
         "secZh": "开场",
@@ -11931,8 +11886,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这家公司，就是台积电。它的创办人，叫张忠谋。",
         "en": "The company was TSMC. Its founder was Morris Chang.",
-        "start": 52.44,
-        "end": 56.62
+        "start": 59.21,
+        "end": 64.22
       },
       {
         "secZh": "开场",
@@ -11940,8 +11895,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而这一集，我们要讲的故事，就是这样一个「笑话」，是怎样在不到十年里，硬生生地开创出一个全新的行业，并且，改写了整个世界的芯片格局。",
         "en": "And this episode is the story of how that \"joke\" carved out an entirely new industry in less than a decade — and redrew the map of chips for the whole world.",
-        "start": 56.62,
-        "end": 68.97
+        "start": 64.22,
+        "end": 76.64
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -11949,8 +11904,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 68.97,
-        "end": 70.11
+        "start": 76.64,
+        "end": 78.63
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -11958,8 +11913,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1987 年 2 月，台积电正式成立。",
         "en": "In February 1987, TSMC was formally established.",
-        "start": 70.11,
-        "end": 73.72
+        "start": 78.63,
+        "end": 82.05
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -11967,8 +11922,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋给它定下的规矩，简单到近乎偏执：这家公司，永远不设计自己的芯片，永远不卖自己的产品，也永远不与自己的客户竞争。",
         "en": "The rule Chang set for it was simple to the point of stubbornness: this company would never design its own chips, never sell its own products, and never compete with its own customers.",
-        "start": 73.72,
-        "end": 84.73
+        "start": 82.05,
+        "end": 93.59
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -11976,8 +11931,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它只做一件事——把别人设计好的芯片，造出来。",
         "en": "It would do exactly one thing — manufacture the chips that other people had designed.",
-        "start": 84.73,
-        "end": 88.91
+        "start": 93.59,
+        "end": 98.51
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -11985,8 +11940,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 88.91,
-        "end": 91.0
+        "start": 98.51,
+        "end": 100.87
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -11994,8 +11949,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在当时的半导体行业，这几乎是一种离经叛道。",
         "en": "In the semiconductor industry of that time, this was close to heresy.",
-        "start": 91.0,
-        "end": 94.99
+        "start": 100.87,
+        "end": 105.2
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12003,8 +11958,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那时候的巨头们，英特尔、德州仪器、摩托罗拉，走的都是同一条路：从设计，到制造，再到销售，全部攥在自己手里。它们把晶圆厂当成自家的秘密武器，谁会把这么值钱的东西，拿出来给别人用？",
         "en": "The giants of the day — Intel, Texas Instruments, Motorola — all walked the same road: design, manufacturing, and sales, all held tightly in one pair of hands. They treated their fabs as secret weapons. Who would hand something so valuable over to strangers?",
-        "start": 94.99,
-        "end": 111.71
+        "start": 105.2,
+        "end": 123.05
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12012,8 +11967,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 111.71,
-        "end": 112.85
+        "start": 123.05,
+        "end": 125.04
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12021,8 +11976,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "所以当张忠谋提出「代工」这个主意的时候，迎接他的，是满世界的嘲笑。",
         "en": "So when Chang proposed \"the foundry,\" he was met with laughter from all sides.",
-        "start": 112.85,
-        "end": 119.12
+        "start": 125.04,
+        "end": 131.29
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12030,8 +11985,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 119.12,
-        "end": 121.21
+        "start": 131.29,
+        "end": 133.64
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12039,8 +11994,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那是一个「什么都自己来」的年代。一家芯片公司，从画图纸，到建晶圆厂，再到把芯片卖出去，是一条完整的流水线。谁能把这条流水线从头攥到尾，谁就是王者。",
         "en": "It was an age of \"do everything yourself.\" A chip company's pipeline ran from the drawing board, through the fab, to the customer's door, in one unbroken line. Whoever held that whole line in his hands was the king.",
-        "start": 121.21,
-        "end": 135.08
+        "start": 133.64,
+        "end": 148.27
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12048,8 +12003,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在这些人眼里，「只造芯片、不设计芯片」的公司，顶多算个给巨头打下手的小作坊。它没有灵魂，没有产品，也就没有未来。",
         "en": "In the eyes of the industry, a company that only made chips but designed none was at best a small workshop serving the giants. It had no soul, no products of its own — and therefore, no future.",
-        "start": 135.08,
-        "end": 145.72
+        "start": 148.27,
+        "end": 159.37
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12057,8 +12012,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 145.72,
-        "end": 146.86
+        "start": 159.37,
+        "end": 161.36
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12066,8 +12021,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "有人断言，没有人会把自己辛苦设计出来的芯片，交给一家名不见经传的小工厂；有人算了一笔账，说一座晶圆厂贵得吓人，光靠给别人打工，猴年马月也回不了本。",
         "en": "Some predicted that no one would ever hand a hard-won chip design to a small, unknown factory. Others ran the numbers and said a fab cost a fortune — working as a hired hand for others, you would never earn it back.",
-        "start": 146.86,
-        "end": 160.73
+        "start": 161.36,
+        "end": 175.61
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12075,8 +12030,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "连台湾本地的产业界，都不太相信。",
         "en": "Even the local industry in Taiwan had its doubts.",
-        "start": 160.73,
-        "end": 163.77
+        "start": 175.61,
+        "end": 179.03
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12084,8 +12039,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 163.77,
-        "end": 165.86
+        "start": 179.03,
+        "end": 181.39
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12093,8 +12048,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可张忠谋的脑子里，想的却是另一幅图景。",
         "en": "But in Chang's mind, a different picture was forming.",
-        "start": 165.86,
-        "end": 169.47
+        "start": 181.39,
+        "end": 185.35
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12102,8 +12057,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他太清楚这个行业的成本结构了。他知道，一座晶圆厂的成本，正在一年比一年高；他也知道，只有把产量做到足够大，成本才能降下来——这正是他当年在德州仪器用「学习曲线」打赢的那一仗。",
         "en": "He knew this industry's cost structure inside out. He knew the cost of a fab was climbing year after year. He also knew that only by pushing output high enough could costs fall — the very \"learning curve\" with which he had won his battles at Texas Instruments.",
-        "start": 169.47,
-        "end": 186.0
+        "start": 185.35,
+        "end": 202.53
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12111,8 +12066,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他还知道一件别人不太当回事的事：台湾的工厂，良率特别高。",
         "en": "And he knew one more thing that others paid little attention to: Taiwan's factories achieved unusually high yields.",
-        "start": 186.0,
-        "end": 191.32
+        "start": 202.53,
+        "end": 208.34
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12120,8 +12075,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 191.32,
-        "end": 193.41
+        "start": 208.34,
+        "end": 210.7
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12129,8 +12084,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他还记得另一笔账。当年在德州仪器，他发现一个规律：替客户订制的产品，利润往往比标准化产品高得多。因为订制的东西，别人抄不走，也杀不了价。",
         "en": "He also remembered another piece of arithmetic. Back at Texas Instruments, he had noticed a pattern: custom-made products earned far higher margins than standardized ones. Because custom work could not be copied, and its price could not be undercut.",
-        "start": 193.41,
-        "end": 206.33
+        "start": 210.7,
+        "end": 224.89
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12138,8 +12093,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而「代工」，恰恰是一门彻头彻尾的订制生意。",
         "en": "And the foundry was, at bottom, a business of custom work from start to finish.",
-        "start": 206.33,
-        "end": 210.32
+        "start": 224.89,
+        "end": 228.86
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12147,8 +12102,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 210.32,
-        "end": 211.46
+        "start": 228.86,
+        "end": 230.85
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12156,8 +12111,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，他下了这个赌注：既然建厂越来越贵，那么总有一天，全世界会出现成千上万家「只做设计、不建工厂」的公司。",
         "en": "So he placed his bet: since building a fab was getting more and more expensive, one day the world would be full of thousands of companies that designed chips and owned no factory.",
-        "start": 211.46,
-        "end": 221.53
+        "start": 230.85,
+        "end": 241.11
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12165,8 +12120,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而台积电，就做它们共同的那座工厂。",
         "en": "And TSMC would be the one shared factory for all of them.",
-        "start": 221.53,
-        "end": 224.76
+        "start": 241.11,
+        "end": 244.72
       },
       {
         "secZh": "第一幕 · 被嘲笑的赌注",
@@ -12174,8 +12129,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这个赌注，后来被历史证明，押得惊人地准。",
         "en": "That bet, as history would prove, was astonishingly accurate.",
-        "start": 224.76,
-        "end": 228.56
+        "start": 244.72,
+        "end": 248.95
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12183,8 +12138,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 228.56,
-        "end": 229.7
+        "start": 248.95,
+        "end": 250.94
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12192,8 +12147,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "理想很丰满，现实却骨感。",
         "en": "The ideal was grand, but the reality was thin.",
-        "start": 229.7,
-        "end": 231.97
+        "start": 250.94,
+        "end": 253.62
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12201,8 +12156,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "台积电起步的那几年，日子并不好过。",
         "en": "In its first years, TSMC's days were not easy.",
-        "start": 231.97,
-        "end": 235.2
+        "start": 253.62,
+        "end": 257.23
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12210,8 +12165,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它的第一条生产线，是工研院改造过来的旧产线。它手里的技术，还是当年从 RCA 买来的七微米工艺——虽然工研院把它从七微米推到了五微米、再到四点五微米，可整个行业跑得更快，台积电离最前沿，反而越来越远。",
         "en": "Its first production line was an old line repurposed from ITRI. Its technology was still the seven-micron process bought from RCA years earlier — and although ITRI had pushed it from seven microns to five, then to four and a half, the rest of the industry had run faster, and TSMC had actually fallen further behind the cutting edge.",
-        "start": 235.2,
-        "end": 254.2
+        "start": 257.23,
+        "end": 276.86
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12219,8 +12174,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 254.2,
-        "end": 256.29
+        "start": 276.86,
+        "end": 279.22
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12228,8 +12183,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "更麻烦的是，它连一个像样的客户都没有。",
         "en": "Worse still, it did not even have a decent customer to its name.",
-        "start": 256.29,
-        "end": 259.9
+        "start": 279.22,
+        "end": 283.18
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12237,8 +12192,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋自己心里清楚，台积电真正的未来，在欧美市场。可那会儿，欧美的大公司，谁会正眼看一家台湾的新厂？",
         "en": "Chang knew in his heart that TSMC's real future lay in the American and European markets. But back then, which big Western company would take a new Taiwanese fab seriously?",
-        "start": 259.9,
-        "end": 269.4
+        "start": 283.18,
+        "end": 293.48
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12246,8 +12201,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，他请来了一位在美国半导体圈浸淫多年的老手——通用电气半导体部门的前主管，吉姆·戴克斯，来主持经营，帮着打开欧美的局面。",
         "en": "So he brought in a veteran of the American semiconductor world — Jim Dykes, the former head of General Electric's semiconductor business — to run operations and help open the door to the West.",
-        "start": 269.4,
-        "end": 281.18
+        "start": 293.48,
+        "end": 305.77
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12255,8 +12210,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 281.18,
-        "end": 283.27
+        "start": 305.77,
+        "end": 308.13
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12264,8 +12219,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "戴克斯的到来，带来了欧美的人脉和信任。可信任归信任，那些大公司依然在观望：这家台湾小厂，到底行不行？",
         "en": "Dykes brought with him connections and credibility across the Atlantic and the Pacific. But credibility was one thing — the big companies were still watching from a distance, asking themselves whether this small Taiwanese factory could really deliver.",
-        "start": 283.27,
-        "end": 292.77
+        "start": 308.13,
+        "end": 318.54
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12273,8 +12228,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "台积电需要的，是一次证明自己的机会。",
         "en": "What TSMC needed was one chance to prove itself.",
-        "start": 292.77,
-        "end": 296.19
+        "start": 318.54,
+        "end": 322.32
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12282,8 +12237,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 296.19,
-        "end": 297.33
+        "start": 322.32,
+        "end": 324.31
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12291,8 +12246,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而台积电最早的那批客户，是台湾本地的一些小设计公司。订单零零星星，利润薄得可怜。",
         "en": "TSMC's very first customers were small design houses in Taiwan. The orders were scattered, and the margins were painfully thin.",
-        "start": 297.33,
-        "end": 304.93
+        "start": 324.31,
+        "end": 332.61
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12300,8 +12255,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 304.93,
-        "end": 307.02
+        "start": 332.61,
+        "end": 334.96
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12309,8 +12264,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "那几年，张忠谋几乎把全部精力，都压在了这一条旧产线上。他把「良率」挂在嘴边，天天盯着数字看——在他看来，良率就是半导体的命。良率每提高一个百分点，成本就往下走一截；成本每低一截，就能从对手手里多抢来一份订单。",
         "en": "In those years, Chang poured nearly all his energy into that one old production line. He kept the word \"yield\" always on his lips, watching the numbers every day — to him, yield was the lifeblood of semiconductors. Every extra point of yield meant a notch lower cost; every notch lower cost meant one more order snatched from a rival.",
-        "start": 307.02,
-        "end": 326.78
+        "start": 334.96,
+        "end": 355.82
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12318,8 +12273,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "他自己心里清楚：台积电技术不如人，资本不如人，唯一能拿得出手的，就是这份把良率做到极致的死磕。",
         "en": "He knew it himself: TSMC could not match the giants in technology or capital. The one thing it could offer was this obsession — pushing yield to the very limit.",
-        "start": 326.78,
-        "end": 335.71
+        "start": 355.82,
+        "end": 365.28
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12327,8 +12282,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 335.71,
-        "end": 336.85
+        "start": 365.28,
+        "end": 367.27
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12336,8 +12291,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "但张忠谋并不慌。因为他手里，攥着两样别人看不上的东西。",
         "en": "But Chang did not panic. Because in his hands he held two things that others dismissed.",
-        "start": 336.85,
-        "end": 341.98
+        "start": 367.27,
+        "end": 373.11
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12345,8 +12300,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 341.98,
-        "end": 344.07
+        "start": 373.11,
+        "end": 375.46
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12354,8 +12309,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第一样，是良率。他把「良率」当成信仰，从工研院时期就反复强调——同样一条线，良率每高一个点，成本就低一分。而台湾的工厂，恰恰在良率这件事上，有着旁人难以理解的天赋。",
         "en": "The first was yield. He treated yield as an article of faith, repeating it since his ITRI days — on the same line, every extra point of yield meant one notch lower cost. And Taiwan's factories had an almost inexplicable gift for exactly this.",
-        "start": 344.07,
-        "end": 359.65
+        "start": 375.46,
+        "end": 392.22
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12363,8 +12318,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "第二样，是「学习曲线」。张忠谋把当年在德州仪器打磨出来的那套打法，原封不动地搬了过来：只要产量够大，成本就会一路往下走；成本低，价格就能压得低；价格低，订单就会越来越多。",
         "en": "The second was the learning curve. Chang transplanted, wholesale, the playbook he had polished at Texas Instruments: push volume high enough, and costs march downward; lower costs mean lower prices; lower prices mean more and more orders.",
-        "start": 359.65,
-        "end": 375.8
+        "start": 392.22,
+        "end": 408.99
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12372,8 +12327,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 375.8,
-        "end": 376.94
+        "start": 408.99,
+        "end": 410.98
       },
       {
         "secZh": "第二幕 · 起步的艰难",
@@ -12381,8 +12336,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这是一个滚雪球式的循环。而台积电，正小心翼翼地，把它转起来。",
         "en": "It was a snowballing loop. And TSMC, very carefully, was setting it in motion.",
-        "start": 376.94,
-        "end": 382.64
+        "start": 410.98,
+        "end": 417.45
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12390,8 +12345,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 382.64,
-        "end": 383.78
+        "start": 417.45,
+        "end": 419.44
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12399,8 +12354,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "台积电真正打开局面的关键，是一句承诺。",
         "en": "What truly opened the door for TSMC was a promise.",
-        "start": 383.78,
-        "end": 387.38
+        "start": 419.44,
+        "end": 423.41
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12408,8 +12363,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这句话，张忠谋从建厂第一天起，就写在了台积电的基因里：**我们不做设计，不与任何客户竞争。**",
         "en": "From the very first day, Chang had written it into TSMC's genes: **we design nothing, and we compete with no customer.**",
-        "start": 387.38,
-        "end": 396.31
+        "start": 423.41,
+        "end": 432.13
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12417,8 +12372,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 396.31,
-        "end": 398.4
+        "start": 432.13,
+        "end": 434.48
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12426,8 +12381,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这句话，外行人听起来平平无奇。可在半导体圈里，它值千金。",
         "en": "To an outsider, the sentence sounds ordinary. Inside the semiconductor world, it was worth its weight in gold.",
-        "start": 398.4,
-        "end": 403.72
+        "start": 434.48,
+        "end": 440.59
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12435,8 +12390,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "因为在那个年代，想找一家工厂代工，是一件提心吊胆的事。那些有晶圆厂的巨头，往往自己也设计芯片——你把设计交出去，等于把自己的命门，交给了一个潜在的对手。它今天替你造芯片，明天就可能把你的设计抄走，或者，优先生产自己的产品，把你晾在一边。",
         "en": "Because in those days, asking another company to make your chips was a nerve-racking affair. The giants who owned fabs usually designed chips too — hand them your design, and you were handing your lifeblood to a potential rival. They might make your chip today and copy your design tomorrow; or they might prioritize their own products and leave you waiting.",
-        "start": 403.72,
-        "end": 426.14
+        "start": 440.59,
+        "end": 464.54
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12444,8 +12399,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "张忠谋太清楚这种恐惧了。他记得，当年德州仪器就被人告过，说它不公平地优先给自己家的产品安排产能。",
         "en": "Chang knew this fear all too well. He remembered that Texas Instruments had once been sued, accused of unfairly giving priority to its own products.",
-        "start": 426.14,
-        "end": 435.26
+        "start": 464.54,
+        "end": 474.3
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12453,8 +12408,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 435.26,
-        "end": 436.4
+        "start": 474.3,
+        "end": 476.29
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12462,8 +12417,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而台积电不一样。",
         "en": "TSMC was different.",
-        "start": 436.4,
-        "end": 437.92
+        "start": 476.29,
+        "end": 478.16
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12471,8 +12426,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它没有自己的芯片，没有自己的产品，也就没有任何理由，去跟自己的客户抢生意。客户把设计交给它，就像把衣服交给裁缝——裁缝只负责把衣服做好，绝不会穿上它，去跟你抢市场。",
         "en": "It had no chips of its own, and no products of its own, so it had no reason whatsoever to compete with its customers. Handing a design to TSMC was like handing cloth to a tailor — the tailor's only job is to make the clothes well, never to wear them and take your market.",
-        "start": 437.92,
-        "end": 453.5
+        "start": 478.16,
+        "end": 494.87
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12480,8 +12435,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "就凭这一句「不与客户竞争」，台积电，慢慢敲开了一扇又一扇的门。",
         "en": "On the strength of this one promise — \"we never compete with our customers\" — TSMC slowly knocked open one door after another.",
-        "start": 453.5,
-        "end": 459.39
+        "start": 494.87,
+        "end": 500.75
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12489,8 +12444,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 459.39,
-        "end": 461.48
+        "start": 500.75,
+        "end": 503.11
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12498,8 +12453,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而就在这个时候，大洋彼岸，一场静悄悄的革命，正在发生。",
         "en": "And just then, on the other side of the ocean, a quiet revolution was taking place.",
-        "start": 461.48,
-        "end": 466.61
+        "start": 503.11,
+        "end": 508.7
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12507,8 +12462,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 466.61,
-        "end": 468.7
+        "start": 508.7,
+        "end": 511.05
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12516,8 +12471,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "顺便说一句，台积电诞生的这八年，恰好赶上了人类科技史上最汹涌的一波浪潮。",
         "en": "And, by the way, these eight years of TSMC's birth happened to fall inside one of the most surging waves in the history of technology.",
-        "start": 468.7,
-        "end": 475.54
+        "start": 511.05,
+        "end": 518.21
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12525,8 +12480,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1981 年，IBM 推出了第一台个人电脑；随后，康柏、戴尔这些兼容机厂商蜂拥而入，个人电脑走进了千家万户。到了九十年代，微软的 Windows 和英特尔的处理器，组成了著名的「Wintel」联盟，电脑的需求，像雪崩一样砸下来。",
         "en": "In 1981, IBM released the first personal computer. Before long, clone-makers like Compaq and Dell poured in, and the personal computer walked into millions of homes. By the 1990s, Microsoft's Windows and Intel's processors formed the famous \"Wintel\" alliance, and the demand for computers came down like an avalanche.",
-        "start": 475.54,
-        "end": 497.2
+        "start": 518.21,
+        "end": 539.52
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12534,8 +12489,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而每一台电脑里，都塞着几十上百颗芯片。",
         "en": "And every single computer carried dozens — sometimes hundreds — of chips inside it.",
-        "start": 497.2,
-        "end": 500.81
+        "start": 539.52,
+        "end": 543.49
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12543,8 +12498,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "芯片的需求爆炸了，可建厂的成本也在爆炸。于是，「设计」和「制造」这对孪生兄弟，第一次有了分家的冲动。",
         "en": "Demand for chips was exploding, even as the cost of building a fab was exploding too. For the first time, the twin brothers \"design\" and \"manufacturing\" felt the urge to live apart.",
-        "start": 500.81,
-        "end": 510.31
+        "start": 543.49,
+        "end": 552.97
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12552,8 +12507,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 510.31,
-        "end": 511.45
+        "start": 552.97,
+        "end": 554.96
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12561,8 +12516,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1984 年，戈登·坎贝尔创办了 Chips and Technologies——正是当年在纽约，告诉张忠谋「我不需要建厂」的那个人。1984 年，Cirrus Logic 成立。1985 年，高通成立。1991 年，博通成立。1993 年，一家叫英伟达的公司，也在硅谷诞生了。",
         "en": "In 1984, Gordon Campbell founded Chips and Technologies — the very man who, back in New York, had told Chang \"I don't need to build a fab.\" In 1984, Cirrus Logic was founded. In 1985, Qualcomm. In 1991, Broadcom. In 1993, a company called Nvidia was born in Silicon Valley.",
-        "start": 511.45,
-        "end": 537.86
+        "start": 554.96,
+        "end": 581.03
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12570,8 +12525,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这些公司，有一个共同的特点：它们只设计芯片，不建工厂。",
         "en": "These companies shared one trait: they designed chips, and owned no factory.",
-        "start": 537.86,
-        "end": 542.98
+        "start": 581.03,
+        "end": 586.74
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12579,8 +12534,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 542.98,
-        "end": 545.07
+        "start": 586.74,
+        "end": 589.09
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12588,8 +12543,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "它们各有各的绝活：高通做无线通信，Chips and Technologies 做电脑芯片组，Cirrus Logic 做音效和图形芯片，博通做通信芯片，英伟达做图形处理器。",
         "en": "Each had its own specialty: Qualcomm did wireless communications, Chips and Technologies did PC chipsets, Cirrus Logic did audio and graphics chips, Broadcom did communications chips, and Nvidia did graphics processors.",
-        "start": 545.07,
-        "end": 561.6
+        "start": 589.09,
+        "end": 605.03
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12597,8 +12552,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而它们最缺的，都一样：一座可以信赖、又不跟它们抢生意的工厂。",
         "en": "And what they all lacked was the same thing: a factory they could trust — one that would not compete with them for business.",
-        "start": 561.6,
-        "end": 567.3
+        "start": 605.03,
+        "end": 611.29
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12606,8 +12561,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 567.3,
-        "end": 568.44
+        "start": 611.29,
+        "end": 613.28
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12615,8 +12570,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "人们给它们起了一个名字，叫「无厂半导体公司」，英文叫 fabless——没有晶圆厂。",
         "en": "People gave them a name — \"fabless\" semiconductor companies: no fabrication plant.",
-        "start": 568.44,
-        "end": 576.42
+        "start": 613.28,
+        "end": 621.39
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12624,8 +12579,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "在那个巨头林立的年代，这些初出茅庐的小公司，既没钱建厂，也不想被巨头钳制。它们最需要的，就是一家可以信赖的、又不跟自己抢生意的工厂。",
         "en": "In an era dominated by giants, these fledgling companies had neither the money to build a fab nor the wish to be squeezed by the giants. What they needed most was a factory they could trust — one that would never steal their business.",
-        "start": 576.42,
-        "end": 588.96
+        "start": 621.39,
+        "end": 634.69
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12633,8 +12588,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 588.96,
-        "end": 591.05
+        "start": 634.69,
+        "end": 637.04
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12642,8 +12597,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "因为一旦把设计交给那些有厂的巨头，就等于把身家性命，交到了一个随时可能反手吃掉你的人手里。",
         "en": "Because once you handed your design to a giant that owned its own fabs, you were putting your whole life into the hands of someone who might turn around and devour you.",
-        "start": 591.05,
-        "end": 599.6
+        "start": 637.04,
+        "end": 645.84
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12651,8 +12606,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而这些小公司，赌不起。",
         "en": "And these small companies could not afford that bet.",
-        "start": 599.6,
-        "end": 601.74
+        "start": 645.84,
+        "end": 648.35
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12660,8 +12615,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 601.74,
-        "end": 602.88
+        "start": 648.35,
+        "end": 650.34
       },
       {
         "secZh": "第三幕 · 不与客户竞争",
@@ -12669,8 +12624,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而台积电，恰好就站在那个位置上，等它们上门。",
         "en": "And TSMC happened to be standing in exactly that spot, waiting for them to come.",
-        "start": 602.88,
-        "end": 607.06
+        "start": 650.34,
+        "end": 654.94
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12678,8 +12633,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 607.06,
-        "end": 608.2
+        "start": 654.94,
+        "end": 656.92
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12687,8 +12642,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "从 1990 年代初开始，事情起了变化。",
         "en": "From the early 1990s, things began to change.",
-        "start": 608.2,
-        "end": 612.0
+        "start": 656.92,
+        "end": 660.71
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12696,8 +12651,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一批又一批无厂设计公司，开始把订单交给台积电。它们带着设计来找张忠谋，张忠谋就给它们一座可靠的工厂——良率高、成本低、而且永远守口如瓶，不与它们争市场。",
         "en": "One after another, fabless design companies began handing their orders to TSMC. They came to Chang with designs, and Chang gave them a factory they could rely on — high yield, low cost, and a vow of silence, never competing for their market.",
-        "start": 612.0,
-        "end": 626.44
+        "start": 660.71,
+        "end": 676.24
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12705,8 +12660,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 626.44,
-        "end": 628.53
+        "start": 676.24,
+        "end": 678.59
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12714,8 +12669,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "台积电的产能，开始以肉眼可见的速度扩张。",
         "en": "TSMC's capacity began to expand at a speed visible to the naked eye.",
-        "start": 628.53,
-        "end": 632.33
+        "start": 678.59,
+        "end": 682.74
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12723,8 +12678,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1990 年，它的第二座工厂 Fab 2 建成——这是台积电第一座完全属于自己的厂。1993 年，Fab 3 建成，那是台湾第一座八英寸晶圆厂。",
         "en": "In 1990, its second fab, Fab 2, was completed — TSMC's first plant that was fully its own. In 1993 came Fab 3, Taiwan's first eight-inch wafer fab.",
-        "start": 632.33,
-        "end": 646.01
+        "start": 682.74,
+        "end": 696.1
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12732,8 +12687,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "一年一座新厂。这在当时，几乎是不可思议的速度。",
         "en": "One new fab a year. At the time, that was an almost unthinkable pace.",
-        "start": 646.01,
-        "end": 650.38
+        "start": 696.1,
+        "end": 701.21
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12741,8 +12696,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator]",
-        "start": 650.38,
-        "end": 651.52
+        "start": 701.21,
+        "end": 703.2
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12750,8 +12705,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "而台积电的底气，来自一个铁三角：良率、成本、服务。",
         "en": "And TSMC's confidence rested on an iron triangle: yield, cost, and service.",
-        "start": 651.52,
-        "end": 656.26
+        "start": 703.2,
+        "end": 708.63
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12759,8 +12714,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "良率，让它造出来的芯片比别人便宜；成本，让它的价格压得对手喘不过气；而服务——「不与客户竞争」的承诺——让客户愿意把最核心的设计，托付给它。",
         "en": "Yield made its chips cheaper to produce. Cost let it squeeze its rivals on price. And service — the promise never to compete with customers — persuaded customers to entrust their most precious designs to it.",
-        "start": 656.26,
-        "end": 669.56
+        "start": 708.63,
+        "end": 722.69
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12768,8 +12723,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "这三样东西合在一起，就是那个时代，没有人能复制的护城河。",
         "en": "Put the three together, and you had a moat that no one in that era could copy.",
-        "start": 669.56,
-        "end": 674.88
+        "start": 722.69,
+        "end": 728.38
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12777,8 +12732,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator, slower]",
-        "start": 674.88,
-        "end": 676.97
+        "start": 728.38,
+        "end": 730.74
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12786,8 +12741,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "更重要的是，台积电从不抢客户的风头。它甘愿站在聚光灯之外，把所有的荣耀，都留给那些设计芯片的人。",
         "en": "Now the numbers began to speak for TSMC.",
-        "start": 676.97,
-        "end": 686.09
+        "start": 730.74,
+        "end": 740.58
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12795,8 +12750,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "可越是这样，客户越离不开它。",
         "en": "In 1994, TSMC's revenue reached roughly seven hundred and forty-four million dollars.",
-        "start": 686.09,
-        "end": 688.94
+        "start": 740.58,
+        "end": 743.63
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12804,8 +12759,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "On September 5 of that same year, TSMC listed on the Taiwan Stock Exchange. Its ticker: 2330.",
-        "start": 688.94,
-        "end": 692.98
+        "start": 743.63,
+        "end": 745.99
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12813,8 +12768,8 @@ window.AUDIO_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "数字，开始替台积电说话。",
         "en": "[Main narrator, slower]",
-        "start": 692.98,
-        "end": 695.26
+        "start": 745.99,
+        "end": 748.68
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12822,8 +12777,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "1994 年，台积电的营收做到了大约七亿四千万美元。",
         "en": "Going public meant a great deal for TSMC. It meant that a company which had once needed the government and Philips to keep it alive could now draw on the capital markets and roll its capacity forward on its own.",
-        "start": 695.26,
-        "end": 704.76
+        "start": 748.68,
+        "end": 753.74
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12831,8 +12786,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "同年 9 月 5 日，台积电在台湾证券交易所挂牌上市，股票代码，2330。",
         "en": "With money in hand, TSMC built even faster.",
-        "start": 704.76,
-        "end": 711.79
+        "start": 753.74,
+        "end": 760.43
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12840,8 +12795,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator]",
-        "start": 711.79,
-        "end": 713.88
+        "start": 760.43,
+        "end": 762.78
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12849,8 +12804,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "上市这件事，对台积电意义非凡。它意味着，这家曾经要靠政府和飞利浦输血的公司，终于可以靠资本市场，自己去滚大自己的产能了。",
         "en": "By 1995 — barely eight years after it opened its doors — TSMC's annual revenue crossed one billion dollars.",
-        "start": 713.88,
-        "end": 725.28
+        "start": 762.78,
+        "end": 774.91
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12858,8 +12813,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "有了钱，台积电建厂的速度，更快了。",
         "en": "The company the whole industry had laughed at had become the undisputed king of the foundry business. And the words \"pure-play foundry\" had gone from heresy to the new common sense of the entire industry.",
-        "start": 725.28,
-        "end": 733.59
+        "start": 774.91,
+        "end": 778.59
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12867,8 +12822,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "[Main narrator, slower]",
-        "start": 733.59,
-        "end": 734.73
+        "start": 778.59,
+        "end": 780.58
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12876,8 +12831,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "到了 1995 年——距离它开张，不过短短八年——台积电的年营收，突破了 10 亿美元。",
         "en": "There is something telling here: around the same time TSMC burst onto the scene, other countries and regions had also hit on the idea of the foundry. But in the end, only TSMC ran all the way with it.",
-        "start": 734.73,
-        "end": 743.99
+        "start": 780.58,
+        "end": 789.27
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12885,8 +12840,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "当年那个被全行业当成笑话的公司，成了全球晶圆代工的绝对霸主。而「纯代工」这三个字，从一种离经叛道，变成了整个行业的新常识。",
         "en": "The same card, played two ways — one became a trump, the other a dud. The difference lay entirely in that promise: \"we never compete with our customers.\"",
-        "start": 743.99,
-        "end": 755.58
+        "start": 789.27,
+        "end": 801.13
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12894,8 +12849,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
         "en": "[Main narrator]",
-        "start": 755.58,
-        "end": 757.67
+        "start": 801.13,
+        "end": 803.48
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12903,8 +12858,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "有趣的是，就在台积电横空出世的前后，也有别的国家和地区，想到了「代工」这条路。可最终跑出来的，只有台积电。",
         "en": "And there was something even more profound: TSMC's success, in turn, gave birth to a brand-new species.",
-        "start": 757.67,
-        "end": 767.74
+        "start": 803.48,
+        "end": 813.96
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12912,8 +12867,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "同样一张牌，有人打成了王炸，有人打成了废牌。差别，全在那句「不与客户竞争」的承诺里。",
         "en": "Because of \"shared factories\" like TSMC, a team of just a few dozen people could now design a chip. They no longer needed a multi-billion-dollar fab — they only needed a design.",
-        "start": 767.74,
-        "end": 775.72
+        "start": 813.96,
+        "end": 822.34
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12921,8 +12876,8 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
         "en": "The barrier to designing chips had been torn down, overnight.",
-        "start": 775.72,
-        "end": 778.09
+        "start": 822.34,
+        "end": 824.33
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12930,8 +12885,8 @@ window.AUDIO_DATA = [
         "speaker": "Main narrator, slower",
         "zh": "更意味深长的是，台积电的成功，反过来催生了一个全新的物种。",
         "en": "[Main narrator, slower]",
-        "start": 778.09,
-        "end": 783.6
+        "start": 824.33,
+        "end": 830.21
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12939,8 +12894,8 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "正因为有了台积电这样的「共同工厂」，一个只有几十个人的小团队，也能设计芯片了——他们不再需要一座价值几十亿美元的厂，只需要一份设计。",
         "en": "It was something almost unheard of in the history of industry: suddenly, a whole field no longer demanded an astronomical entry ticket.",
-        "start": 783.6,
-        "end": 796.14
+        "start": 830.21,
+        "end": 842.97
       },
       {
         "secZh": "第四幕 · 模式跑通了",
@@ -12948,161 +12903,188 @@ window.AUDIO_DATA = [
         "speaker": "",
         "zh": "于是，芯片设计的门槛，一夜之间，被拆掉了。",
         "en": "And TSMC was the one who tore up that ticket.",
-        "start": 796.14,
-        "end": 800.13
+        "start": 842.97,
+        "end": 847.47
       },
       {
         "secZh": "第四幕 · 模式跑通了",
-        "secEn": "Epilogue · A Parallel View",
+        "secEn": "Act Four · The Model Works",
         "speaker": "主叙述者 · 放缓",
         "zh": "【主叙述者 · 放缓】",
-        "en": "[Main narrator, quiet, slower]",
-        "start": 800.13,
-        "end": 802.22
+        "en": "",
+        "start": 847.47,
+        "end": 849.82
       },
       {
         "secZh": "第四幕 · 模式跑通了",
-        "secEn": "Epilogue · A Parallel View",
+        "secEn": "Act Four · The Model Works",
         "speaker": "",
         "zh": "这在人类工业史上，几乎是从未有过的：一个行业，突然之间，不再需要天价的入场券。",
-        "en": "Let us look at this story once more, from the beginning.",
-        "start": 802.22,
-        "end": 809.63
+        "en": "",
+        "start": 849.82,
+        "end": 857.81
       },
       {
         "secZh": "第四幕 · 模式跑通了",
-        "secEn": "Epilogue · A Parallel View",
+        "secEn": "Act Four · The Model Works",
         "speaker": "",
         "zh": "而台积电，就是那个拆掉门票的人。",
-        "en": "In 1987, a fifty-six-year-old man founded a company on a small island that nobody believed in.",
-        "start": 809.63,
-        "end": 813.43
+        "en": "",
+        "start": 857.81,
+        "end": 861.23
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 安静，放慢",
         "zh": "【主叙述者 · 安静，放慢】",
-        "en": "It designed no chips, made no products of its own, and devoted itself to one thing — making other people's chips.",
-        "start": 813.43,
-        "end": 818.42
+        "en": "[Main narrator, quiet, slower]",
+        "start": 861.23,
+        "end": 864.21
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "Main narrator, with feeling",
+        "speaker": "",
         "zh": "让我们把这段故事，从头再看一遍。",
-        "en": "[Main narrator, with feeling]",
-        "start": 818.42,
-        "end": 821.46
+        "en": "Let us look at this story once more, from the beginning.",
+        "start": 864.21,
+        "end": 867.63
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "1987 年，一个五十六岁的男人，在一座小岛上，创办了一家没有人看好的公司。",
-        "en": "Back then, that was heresy. But to Chang, it was the most natural thing in the world.",
-        "start": 821.46,
-        "end": 828.68
+        "en": "In 1987, a fifty-six-year-old man founded a company on a small island that nobody believed in.",
+        "start": 867.63,
+        "end": 875.06
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "它不设计芯片，不造自己的产品，只专心做一件事——替别人把芯片造出来。",
-        "en": "Because he had understood something deeper than \"making chips\":",
-        "start": 828.68,
-        "end": 835.14
+        "en": "It designed no chips, made no products of its own, and devoted itself to one thing — making other people's chips.",
+        "start": 875.06,
+        "end": 882.25
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "In this industry, the scarcest resource is not technology, and not capital. It is **trust**.",
-        "start": 835.14,
-        "end": 838.7
+        "en": "[Main narrator, with feeling]",
+        "start": 882.25,
+        "end": 884.6
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
-        "speaker": "Main narrator, quiet",
+        "speaker": "",
         "zh": "这在当时，是离经叛道。可在张忠谋看来，它再自然不过。",
-        "en": "[Main narrator, quiet]",
-        "start": 838.7,
-        "end": 843.64
+        "en": "Back then, that was heresy. But to Chang, it was the most natural thing in the world.",
+        "start": 884.6,
+        "end": 890.34
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "因为他想明白了一个比「造芯片」更深刻的道理：",
-        "en": "The giants wanted to do everything themselves, so they did nothing perfectly, and they were forever watching their backs. TSMC, on the other hand, gave up its ambition to be the hero, and chose to step backstage and serve everyone else.",
-        "start": 843.64,
-        "end": 853.38
+        "en": "Because he had understood something deeper than \"making chips\":",
+        "start": 890.34,
+        "end": 894.2
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "在这个行业里，最稀缺的，不是技术，也不是资本，而是**信任**。",
-        "en": "And in the end, it became the one everyone could not do without.",
-        "start": 853.38,
-        "end": 859.46
+        "en": "In this industry, the scarcest resource is not technology, and not capital. It is **trust**.",
+        "start": 894.2,
+        "end": 900.06
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
-        "en": "[Main narrator, with feeling]",
-        "start": 859.46,
-        "end": 861.55
+        "en": "[Main narrator, quiet]",
+        "start": 900.06,
+        "end": 902.42
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "巨头们什么都想自己做，于是它们什么都做不好，还处处提防着别人。而台积电，主动放弃了「做主角」的野心，甘愿退到幕后，做那个替所有人服务的平台。",
-        "en": "We like to say the winner is the one who steps onto the podium.",
-        "start": 861.55,
-        "end": 874.85
+        "en": "The giants wanted to do everything themselves, so they did nothing perfectly, and they were forever watching their backs. TSMC, on the other hand, gave up its ambition to be the hero, and chose to step backstage and serve everyone else.",
+        "start": 902.42,
+        "end": 916.08
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "结果，它成了所有人离不开的那一个。",
-        "en": "But TSMC's story teaches us something else: **the disruptor does not have to play the hero. Build the platform — and let everyone else become the hero — and you become the greatest winner of all.**",
-        "start": 874.85,
-        "end": 883.4
+        "en": "And in the end, it became the one everyone could not do without.",
+        "start": 916.08,
+        "end": 919.68
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "[Main narrator, quiet]",
-        "start": 883.4,
-        "end": 885.49
+        "en": "[Main narrator, with feeling]",
+        "start": 919.68,
+        "end": 922.04
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "我们常说，赢家是那个站上领奖台的人。",
-        "en": "Chang's promise, \"we never compete with our customers,\" sounded humble. But it was precisely this humility that let Qualcomm, Broadcom, Nvidia, and countless later fabless companies entrust their futures to him.",
-        "start": 885.49,
-        "end": 892.85
+        "en": "We like to say the winner is the one who steps onto the podium.",
+        "start": 922.04,
+        "end": 925.82
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "可台积电用它的故事，告诉了我们另一件事：**颠覆者，不必做主角。做平台——让所有人成为主角，才是最大的赢家。**",
+        "en": "But TSMC's story teaches us something else: **the disruptor does not have to play the hero. Build the platform — and let everyone else become the hero — and you become the greatest winner of all.**",
+        "start": 925.82,
+        "end": 937.0
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "主叙述者 · 安静",
+        "zh": "【主叙述者 · 安静】",
+        "en": "[Main narrator, quiet]",
+        "start": 937.0,
+        "end": 939.36
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "这世上的伟大，有两种。一种是站在台上，聚光灯打在身上；另一种，是退到幕后，让台上所有的光，都因你而亮。",
+        "en": "Chang's promise, \"we never compete with our customers,\" sounded humble. But it was precisely this humility that let Qualcomm, Broadcom, Nvidia, and countless later fabless companies entrust their futures to him.",
+        "start": 939.36,
+        "end": 950.0
+      },
+      {
+        "secZh": "尾声 · 平行视角",
+        "secEn": "Epilogue · A Parallel View",
+        "speaker": "",
+        "zh": "台积电，选择了后者。",
         "en": "He made no chips of his own — yet the whole world's chips now bear the mark of his foundry.",
-        "start": 892.85,
-        "end": 903.49
+        "start": 950.0,
+        "end": 952.32
       },
       {
         "secZh": "尾声 · 平行视角",
@@ -13110,241 +13092,214 @@ window.AUDIO_DATA = [
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
         "en": "[Main narrator, with feeling]",
-        "start": 903.49,
-        "end": 905.58
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Epilogue · A Parallel View",
-        "speaker": "",
-        "zh": "这世上的伟大，有两种。一种是站在台上，聚光灯打在身上；另一种，是退到幕后，让台上所有的光，都因你而亮。",
-        "en": "A child who had walked out of the fires of war in the East, who had learned everything about semiconductors in the West, came back to the East at last and — with a model nobody believed in — connected the two worlds again.",
-        "start": 905.58,
-        "end": 916.03
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Epilogue · A Parallel View",
-        "speaker": "",
-        "zh": "台积电，选择了后者。",
-        "en": "That, perhaps, is the most moving face of the business spirit: it asks no questions about where you came from. It only asks whether you dare to do what everyone else is afraid to do.",
-        "start": 916.03,
-        "end": 924.34
-      },
-      {
-        "secZh": "尾声 · 平行视角",
-        "secEn": "Epilogue · A Parallel View",
-        "speaker": "主叙述者 · 安静",
-        "zh": "【主叙述者 · 安静】",
-        "en": "[Main narrator, quiet]",
-        "start": 924.34,
-        "end": 926.43
+        "start": 952.32,
+        "end": 954.67
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "张忠谋当年那句「不与客户竞争」，听上去是一句谦卑的承诺。可正是这句谦卑，让高通、博通、英伟达，以及后来无数的无厂公司，放心地把未来押在了他身上。",
-        "en": "Many years later, when people look back over half a century of semiconductors, they see one clear dividing line:",
-        "start": 926.43,
-        "end": 940.11
+        "en": "A child who had walked out of the fires of war in the East, who had learned everything about semiconductors in the West, came back to the East at last and — with a model nobody believed in — connected the two worlds again.",
+        "start": 954.67,
+        "end": 968.79
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "他不造自己的芯片，却让全世界的芯片，都姓了他的「代工」。",
-        "en": "Before TSMC, a chip company had to both design and manufacture. After TSMC, design and manufacturing each became a vast world of their own.",
-        "start": 940.11,
-        "end": 945.81
+        "en": "That, perhaps, is the most moving face of the business spirit: it asks no questions about where you came from. It only asks whether you dare to do what everyone else is afraid to do.",
+        "start": 968.79,
+        "end": 974.12
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 感慨",
         "zh": "【主叙述者 · 感慨】",
-        "en": "And that line was drawn not by a technological breakthrough, but by the birth of a business model — a model that everyone laughed at, and that went on to change the world.",
-        "start": 945.81,
-        "end": 953.64
+        "en": "[Main narrator, quiet]",
+        "start": 974.12,
+        "end": 976.47
       },
       {
         "secZh": "尾声 · 平行视角",
         "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "一个从东方战火里走出来的孩子，在西方学会了半导体的一切，最后回到东方，用一个没人看好的模式，把东西方重新连接了起来。",
-        "en": "**He made no chips of his own — he only made other people's chips, and in doing so he rewrote an entire industry. The disruptor does not play the hero; he builds the platform, and lets everyone else become the hero.**",
-        "start": 953.64,
-        "end": 964.66
+        "en": "Many years later, when people look back over half a century of semiconductors, they see one clear dividing line:",
+        "start": 976.47,
+        "end": 987.82
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
+        "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "这，或许就是「商业精神」最动人的样子：它不问出处，只看你敢不敢，去做那个别人都不敢做的事。",
-        "en": "(Verified public facts, for the listener's reference)",
-        "start": 964.66,
-        "end": 973.21
+        "en": "Before TSMC, a chip company had to both design and manufacture. After TSMC, design and manufacturing each became a vast world of their own.",
+        "start": 987.82,
+        "end": 996.54
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
+        "secEn": "Epilogue · A Parallel View",
         "speaker": "主叙述者 · 安静",
         "zh": "【主叙述者 · 安静】",
-        "en": "1. **TSMC's Start**: Fab 1 (a repurposed ITRI line) came online in 1987; its first president was Jim Dykes, former head of GE's semiconductor business, who joined in early 1987; Fab 2 (its first fully owned plant) followed in 1990, and Fab 3 (Taiwan's first 8-inch fab) in 1993.",
-        "start": 973.21,
-        "end": 984.85
+        "en": "And that line was drawn not by a technological breakthrough, but by the birth of a business model — a model that everyone laughed at, and that went on to change the world.",
+        "start": 996.54,
+        "end": 998.89
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
+        "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "很多年以后，当人们回看半导体这半个世纪的历史，会看到一条清晰的分界线：",
-        "en": "2. **A Backward Start**: ITRI pushed its process from 7 microns to 5, then 4.5 microns, but the industry moved faster, so TSMC began even further from the cutting edge; its greatest advantage was exceptionally high yields.",
-        "start": 984.85,
-        "end": 993.64
+        "en": "**He made no chips of his own — he only made other people's chips, and in doing so he rewrote an entire industry. The disruptor does not play the hero; he builds the platform, and lets everyone else become the hero.**",
+        "start": 998.89,
+        "end": 1005.66
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
+        "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "在台积电之前，芯片公司必须又设计又制造；在台积电之后，设计与制造，各自成为了一片广阔的天地。",
-        "en": "3. **The Pure-Play Model and \"No Competition with Customers\"**: TSMC designs no chips, sells no products of its own, and competes with no customer — it only manufactures. This promise was the key to winning fabless customers' trust.",
-        "start": 993.64,
-        "end": 1002.66
+        "en": "",
+        "start": 1005.66,
+        "end": 1014.81
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
+        "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "而这条分界线的画下，靠的不是一次技术突破，而是一个商业模式的诞生——一个被所有人嘲笑、却最终改写了世界的商业模式。",
-        "en": "4. **The Fabless Wave**: Qualcomm (1985), Chips and Technologies (1984), Cirrus Logic (1984), Broadcom (1991), Nvidia (1993), and Marvell (1995) — fabless design houses that became the natural customers of the pure-play model.",
-        "start": 1002.66,
-        "end": 1013.49
+        "en": "",
+        "start": 1014.81,
+        "end": 1026.29
       },
       {
         "secZh": "尾声 · 平行视角",
-        "secEn": "Knowledge Card · Historical Background of This Episode",
+        "secEn": "Epilogue · A Parallel View",
         "speaker": "",
         "zh": "**他不造自己的芯片——只造别人的芯片，却改写了整个行业。颠覆者不做主角，做平台，让所有人成为主角。**",
-        "en": "5. **TSMC Goes Public**: On September 5, 1994, TSMC listed on the Taiwan Stock Exchange under ticker 2330.",
-        "start": 1013.49,
-        "end": 1023.37
+        "en": "",
+        "start": 1026.29,
+        "end": 1036.54
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "（以下为公开资料核实的史实，供听众参考）",
-        "en": "6. **Revenue Milestones**: 1994 revenue was about $744 million; in 1995 revenue crossed $1 billion (about $1.08 billion); 1996 revenue reached NT$39.4 billion (about $1.45 billion).",
-        "start": 1023.37,
-        "end": 1029.54
+        "en": "(Verified public facts, for the listener's reference)",
+        "start": 1036.54,
+        "end": 1041.17
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
         "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "1. **台积电起步**：1987 年 Fab 1（工研院产线改造）上线；首任总经理为 GE 半导体前主管 Jim Dykes（1987 年初加入）；1990 年 Fab 2（首座全资厂）、1993 年 Fab 3（台湾首座 8 吋厂）。",
-        "en": "7. **The Learning Curve, Continued**: Chang carried the learning-curve playbook he had honed at Texas Instruments over to TSMC — using high yields and steady price cuts to roll a snowball of cost and orders.",
-        "start": 1029.54,
-        "end": 1052.15
+        "en": "1. **TSMC's Start**: Fab 1 (a repurposed ITRI line) came online in 1987; its first president was Jim Dykes, former head of GE's semiconductor business, who joined in early 1987; Fab 2 (its first fully owned plant) followed in 1990, and Fab 3 (Taiwan's first 8-inch fab) in 1993.",
+        "start": 1041.17,
+        "end": 1058.89
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
-        "speaker": "Main narrator",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
+        "speaker": "",
         "zh": "2. **起步技术落后**：工研院工艺从 7 微米推进到 5 微米、4.5 微米，但业界更快，台积电起步时离技术前沿反而更远；其最大优势是良率极高。",
-        "en": "[Main narrator]",
-        "start": 1052.15,
-        "end": 1066.21
+        "en": "2. **A Backward Start**: ITRI pushed its process from 7 microns to 5, then 4.5 microns, but the industry moved faster, so TSMC began even further from the cutting edge; its greatest advantage was exceptionally high yields.",
+        "start": 1058.89,
+        "end": 1072.36
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "3. **纯代工模式与「不与客户竞争」**：台积电不设计芯片、不卖自有产品、不与客户竞争，只专职代工制造——这一承诺是它赢得无厂客户信任的关键。",
-        "en": "In 1995, TSMC crossed one billion dollars in revenue and stepped onto a new stage.",
-        "start": 1066.21,
-        "end": 1079.89
+        "en": "3. **The Pure-Play Model and \"No Competition with Customers\"**: TSMC designs no chips, sells no products of its own, and competes with no customer — it only manufactures. This promise was the key to winning fabless customers' trust.",
+        "start": 1072.36,
+        "end": 1085.91
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "4. **fabless 浪潮**：高通（1985）、Chips and Technologies（1984）、Cirrus Logic（1984）、博通（1991）、Nvidia（1993）、Marvell（1995）等无厂设计公司崛起，成为纯代工模式的天然客户。",
-        "en": "But a bigger storm was gathering ahead.",
-        "start": 1079.89,
-        "end": 1105.16
+        "en": "4. **The Fabless Wave**: Qualcomm (1985), Chips and Technologies (1984), Cirrus Logic (1984), Broadcom (1991), Nvidia (1993), and Marvell (1995) — fabless design houses that became the natural customers of the pure-play model.",
+        "start": 1085.91,
+        "end": 1107.91
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "5. **台积电上市**：1994 年 9 月 5 日在台湾证券交易所挂牌（代码 2330）。",
-        "en": "In 1997, the Asian financial crisis swept across the region; that same year, TSMC listed on the New York Stock Exchange, becoming the first Taiwanese company to do so.",
-        "start": 1105.16,
-        "end": 1114.09
+        "en": "5. **TSMC Goes Public**: On September 5, 1994, TSMC listed on the Taiwan Stock Exchange under ticker 2330.",
+        "start": 1107.91,
+        "end": 1115.15
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "Next Episode Preview",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "6. **营收里程碑**：1994 年营收约 7.44 亿美元；1995 年营收突破 10 亿美元（约 10.8 亿美元）；1996 年营收新台币 394 亿（约 14.5 亿美元）。",
-        "en": "Next episode, \"From Taiwan to the World\": how a Taiwanese company stood on the world's stage in the middle of a storm.",
-        "start": 1114.09,
-        "end": 1131.57
+        "en": "6. **Revenue Milestones**: 1994 revenue was about $744 million; in 1995 revenue crossed $1 billion (about $1.08 billion); 1996 revenue reached NT$39.4 billion (about $1.45 billion).",
+        "start": 1115.15,
+        "end": 1130.36
       },
       {
         "secZh": "知识延伸 · 本期历史背景卡",
-        "secEn": "知识延伸 · 本期历史背景卡",
+        "secEn": "Knowledge Card · Historical Background of This Episode",
         "speaker": "",
         "zh": "7. **学习曲线定价的延续**：张忠谋把德州仪器时期打磨的「学习曲线」打法带到台积电——靠高产良率与持续降价，滚起成本与订单的雪球。",
-        "en": "",
-        "start": 1131.57,
-        "end": 1144.3
+        "en": "7. **The Learning Curve, Continued**: Chang carried the learning-curve playbook he had honed at Texas Instruments over to TSMC — using high yields and steady price cuts to roll a snowball of cost and orders.",
+        "start": 1130.36,
+        "end": 1142.84
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "主叙述者",
         "zh": "【主叙述者】",
-        "en": "",
-        "start": 1144.3,
-        "end": 1145.44
+        "en": "[Main narrator]",
+        "start": 1142.84,
+        "end": 1144.83
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "1995 年，台积电营收突破 10 亿美元，站上了一个全新的台阶。",
-        "en": "",
-        "start": 1145.44,
-        "end": 1151.71
+        "en": "In 1995, TSMC crossed one billion dollars in revenue and stepped onto a new stage.",
+        "start": 1144.83,
+        "end": 1150.89
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "可更大的风暴，正在前方等着它。",
-        "en": "",
-        "start": 1151.71,
-        "end": 1154.56
+        "en": "But a bigger storm was gathering ahead.",
+        "start": 1150.89,
+        "end": 1154.13
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "1997 年，亚洲金融风暴席卷而来；同一年，台积电登上纽约证券交易所，成为第一家在美国上市的中国台湾公司。",
-        "en": "",
-        "start": 1154.56,
-        "end": 1164.62
+        "en": "In 1997, the Asian financial crisis swept across the region; that same year, TSMC listed on the New York Stock Exchange, becoming the first Taiwanese company to do so.",
+        "start": 1154.13,
+        "end": 1164.37
       },
       {
         "secZh": "下集预告",
-        "secEn": "下集预告",
+        "secEn": "Next Episode Preview",
         "speaker": "",
         "zh": "下集，《从台湾到世界》：一家台湾公司，如何在风暴里，站上世界的舞台。",
-        "en": "",
-        "start": 1164.62,
+        "en": "Next episode, \"From Taiwan to the World\": how a Taiwanese company stood on the world's stage in the middle of a storm.",
+        "start": 1164.37,
         "end": 1171.08
       }
     ]
@@ -26535,5 +26490,3 @@ window.AUDIO_DATA = [
     ]
   }
 ];
-
-if (typeof window !== "undefined") { window.EPISODES_DATA = window.AUDIO_DATA; }
