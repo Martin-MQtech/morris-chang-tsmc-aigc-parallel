@@ -1,0 +1,2398 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张忠谋自传 · 双语典藏版</title>
+
+    <!-- 字体系统：完全本地化，使用系统内置字体（任何设备开箱即用，零外部请求） -->
+    <style>
+        /* 正文衬线：优先中文宋体/系统衬线，英文回退 Georgia */
+        body { font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', Georgia, 'Times New Roman', serif; }
+        /* 标题/UI 无衬线：系统级 */
+        .running-head, .chapter-nav, .toc-card, .readers-guide, .rebook-card,
+        .subsection-title, .term-panel, button {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, sans-serif;
+        }
+        /* 英文斜体印刷感：罗马衬线（二创板块统一） */
+        .subsection-title__en, .photo-caption__en, .cheat-item__term, .rhetoric-note .en, .knowledge-note .en {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            color: var(--ink);
+        }
+        /* 中文备注：楷体（二创板块统一） */
+        .cheat-item__meaning, .rhetoric-note .zh, .knowledge-note .zh {
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+        }
+    </style>
+
+    <style>
+        /* ═══════════════════════════════════════════
+           色彩体系 (Paper / Ink / Accent)
+           ═══════════════════════════════════════════ */
+        :root {
+            --paper:    #faf8f3;
+            --ink:      #1c1917;
+            --ink-soft: #44403c;
+            --ink-muted:#78716c;
+            --rule:     #e7e0d3;
+            --accent:   #9a3412;
+            --accent-lt:#fed7aa;
+            --deep:     #292524;
+        }
+
+        /* ═══════════════════════════════════════════
+           全局重置 & 基础
+           ═══════════════════════════════════════════ */
+        *, *::before, *::after { box-sizing: border-box; }
+        html { font-size: 17px; scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', Georgia, 'Times New Roman', serif;
+            line-height: 1.9;
+            -webkit-font-smoothing: antialiased;
+        }
+        ::selection { background: var(--accent-lt); color: var(--ink); }
+
+        /* ═══════════════════════════════════════════
+           书眉 (Running Head)
+           ═══════════════════════════════════════════ */
+        .running-head {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(250,248,243,0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--rule);
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        }
+        .running-head__inner {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 0.6rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .running-head__brand {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+        .running-head__dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--accent);
+            display: inline-block;
+        }
+        .running-head__brand-text {
+            font-size: 0.6rem;
+            font-weight: 400;
+            letter-spacing: 0.06em;
+            color: var(--ink-muted);
+            opacity: 0.45;
+        }
+        .running-head__slogan {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.82rem;
+            font-style: italic;
+            color: var(--ink-soft);
+            letter-spacing: 0.03em;
+            flex: 1;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .running-head__chapter {
+            font-size: 0.62rem;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            color: var(--ink-muted);
+            opacity: 0.5;
+            text-transform: uppercase;
+            flex-shrink: 0;
+            max-width: 40%;
+            text-align: right;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* ═══════════════════════════════════════════
+           扉页 (Title Page)
+           ═══════════════════════════════════════════ */
+        .title-page {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 5rem 2rem 4rem;
+            text-align: center;
+            animation: bookFade 0.9s ease both;
+        }
+        @keyframes bookFade {
+            from { opacity: 0; transform: translateY(16px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .title-page__eyebrow {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 1.5rem;
+        }
+        .title-page__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 2.6rem;
+            font-weight: 800;
+            color: var(--ink);
+            letter-spacing: -0.01em;
+            line-height: 1.2;
+            margin: 0 0 1.5rem;
+        }
+        .title-page__author {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: var(--ink-soft);
+            letter-spacing: 0.04em;
+            margin-bottom: 2.5rem;
+        }
+        /* 装饰分隔符 */
+        .ornament {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            margin: 0 auto 2.5rem;
+            max-width: 20rem;
+            color: var(--accent);
+            font-size: 0.85rem;
+        }
+        .ornament::before,
+        .ornament::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--rule), transparent);
+        }
+        .title-page__quote {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            max-width: 28rem;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        .title-page__author-en {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.9rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        /* 出版版权卡 */
+        .title-page__copyright {
+            max-width: 30rem;
+            margin: 3rem auto 0;
+            border: 1px solid var(--rule);
+            border-radius: 10px;
+            padding: 1.6rem 2rem;
+            text-align: left;
+            font-size: 0.9rem;
+            color: var(--ink-soft);
+            line-height: 2;
+            background: #fdfcf8;
+            box-shadow: 0 2px 12px rgba(28,25,23,0.04);
+        }
+        .title-page__copyright-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.2rem 0;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .title-page__copyright-row:last-child {
+            border-bottom: none;
+        }
+        .title-page__copyright-label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            color: var(--ink-muted);
+            white-space: nowrap;
+            margin-right: 1.5rem;
+        }
+        .title-page__copyright-value {
+            text-align: right;
+            font-weight: 600;
+            color: var(--ink);
+        }
+
+        /* ═══════════════════════════════════════════
+           正文区 (Main Content) — 单栏流动阅读
+           ═══════════════════════════════════════════ */
+        main {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 0 1.5rem 6rem;
+        }
+
+        /* 双语段落对 */
+        .bilingual-pair {
+            margin-bottom: 1.5rem;
+        }
+        .bilingual-pair + .bilingual-pair {
+            margin-top: 0.25rem;
+        }
+
+        /* ReadShift 双语翻译框架：陶土橙左边线 + 微标签，与原书中文明确区分 */
+        .rebook-translation {
+            position: relative;
+            margin: 1.25rem 0 1.5rem;
+            padding: 0.9rem 1.25rem 0.6rem 1.25rem;
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(to right, rgba(154,52,18,0.03), transparent 70%);
+        }
+        .rebook-translation__label {
+            display: block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.22em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.35rem;
+        }
+        .rebook-translation__label::before {
+            content: "◆ ";
+            font-size: 0.55rem;
+        }
+        .rebook-translation .en-para {
+            margin-bottom: 0.6rem;
+        }
+
+        /* ═══ 章节导航条（解决读者迷路） ═══ */
+        .chapter-nav {
+            margin: 2.5rem 0 2rem;
+        }
+        .chapter-nav--start {
+            text-align: center;
+            padding: 2.5rem 2rem;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .chapter-nav__badge {
+            display: inline-block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+            background: rgba(154,52,18,0.08);
+            padding: 0.2rem 0.9rem;
+            border-radius: 4px;
+            margin-bottom: 0.8rem;
+        }
+        .chapter-nav__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--ink);
+            margin: 0 0 0.4rem;
+        }
+        .chapter-nav__byline {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--ink-muted);
+        }
+        /* 🎯 章标题卡：首段英文副标题 + 装饰分割线（与小节标题双语风格统一） */
+        .chapter-nav__title-en {
+            display: block;
+            font-family: 'Baskerville', 'Cormorant Garamond', Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.92rem;
+            letter-spacing: 0.05em;
+            color: var(--ink-muted);
+            opacity: 0.82;
+            margin: 0.15rem 0 0.7rem;
+            line-height: 1.4;
+        }
+        .chapter-nav__divider {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.8rem;
+            margin: 0.9rem auto 1rem;
+            max-width: 20rem;
+        }
+        .chapter-nav__divider::before,
+        .chapter-nav__divider::after {
+            content: "";
+            height: 1px;
+            flex: 1;
+            background: linear-gradient(to right, transparent, var(--rule), var(--rule));
+        }
+        .chapter-nav__divider::after {
+            background: linear-gradient(to left, transparent, var(--rule), var(--rule));
+        }
+        .chapter-nav__divider-orn {
+            font-size: 0.72rem;
+            color: var(--accent);
+            opacity: 0.7;
+        }
+        .chapter-nav--mini {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin: 1.8rem 0 0.5rem;
+            padding: 0.5rem 0.9rem;
+            background: rgba(245,240,230,0.7);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 6px 6px 0;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            color: var(--ink-soft);
+        }
+        .chapter-nav__dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--accent);
+            display: inline-block;
+            flex-shrink: 0;
+        }
+        .chapter-nav__current {
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        /* ═══════════════════════════════════════════
+           序言卡 (Preface Card)
+           ═══════════════════════════════════════════ */
+        .preface-card {
+            text-align: center;
+            padding: 2.5rem 2rem;
+            margin: 2rem 0;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .preface-badge {
+            display: inline-block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            color: var(--accent);
+            text-transform: uppercase;
+            background: rgba(154,52,18,0.08);
+            padding: 0.2rem 0.8rem;
+            border-radius: 4px;
+            margin-bottom: 0.8rem;
+        }
+        .preface-card h2 {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin: 0.5rem 0 0.6rem;
+            line-height: 1.4;
+        }
+        .author-byline {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--ink-muted);
+            margin: 0;
+        }
+
+        /* ═══════════════════════════════════════════
+           阅读指南 (Reader's Guide)
+           ═══════════════════════════════════════════ */
+        .readers-guide {
+            text-align: center;
+            padding: 3rem 2rem;
+            margin: 2rem 0;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .readers-guide__header { margin-bottom: 1.5rem; }
+        .readers-guide__eyebrow {
+            display: block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+        .readers-guide__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin: 0 0 0.5rem;
+            letter-spacing: 0.05em;
+        }
+        .readers-guide__intro {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: var(--ink-soft);
+            max-width: 36rem;
+            margin: 0 auto 2rem;
+            text-indent: 0;
+        }
+        .readers-guide__items {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.4rem 3.2rem;
+            max-width: 44rem;
+            margin: 0 auto;
+            text-align: left;
+        }
+        /* 最后一个格（全景目录导航）横跨两列：居中平铺拉伸 */
+        .readers-guide__item:last-child {
+            grid-column: 1 / -1;
+            align-items: center;
+        }
+        .readers-guide__item:last-child .readers-guide__mark {
+            display: none;
+        }
+        .readers-guide__item:last-child .readers-guide__desc {
+            text-align: center;
+            padding: 0.6rem 1rem;
+            background: rgba(154, 52, 18, 0.04);
+            border: 1px dashed var(--rule);
+            border-radius: 8px;
+        }
+        @media (max-width: 48rem) {
+            .readers-guide__items { grid-template-columns: 1fr; gap: 1.5rem; }
+            .readers-guide__item:last-child { grid-column: auto; }
+            .readers-guide__item:last-child .readers-guide__mark { display: inline-block; }
+            .readers-guide__item:last-child .readers-guide__desc { text-align: left; }
+        }
+                .readers-guide__item {
+            display: flex;
+            gap: 1.25rem;
+            align-items: flex-start;
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px dotted var(--rule);
+        }
+        .readers-guide__item:nth-last-child(-n+2) { 
+            border-bottom: none; 
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        @media (max-width: 48rem) {
+            .readers-guide__item:nth-last-child(-n+2) {
+                border-bottom: 1px dotted var(--rule);
+                margin-bottom: 1.5rem;
+                padding-bottom: 1.5rem;
+            }
+            .readers-guide__item:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+        }
+
+        /* 四种标记的视觉语言：统一陶土橙基调，用边框样式区分 */
+        .readers-guide__mark {
+            flex-shrink: 0;
+            width: 2rem;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1rem;
+            color: var(--accent);
+            text-align: center;
+            line-height: 1.4;
+            padding-top: 0.2rem;
+        }
+        .readers-guide__mark--original { border-bottom: 2px solid var(--ink); padding-top: 0.5rem; }
+        .readers-guide__mark--bilingual { border-left: 3px solid var(--accent); }
+        .readers-guide__mark--cards    { border-bottom: 2px dashed var(--accent-lt); padding-top: 0.4rem; }
+        .readers-guide__mark--terms    { border-left: 1px solid var(--accent); border-right: 1px solid var(--accent); padding: 0.2rem 0.3rem; }
+
+        .readers-guide__label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            color: var(--ink-muted);
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+        .readers-guide__desc {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.9rem;
+            line-height: 1.75;
+            color: var(--ink-soft);
+        }
+        .mark-text { font-weight: 500; }
+        .mark-text--orange { color: var(--accent); }
+        .mark-text--warm   { background: #f5f0e6; padding: 0 4px; border-radius: 3px; }
+        .mark-text--blue   { color: var(--accent); text-decoration: underline; text-decoration-color: rgba(154,52,18,0.4); text-underline-offset: 3px; }
+        .readers-guide__project {
+            margin-top: 2rem;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.75rem;
+            color: var(--ink-muted);
+            text-align: center;
+            line-height: 1.6;
+        }
+        .readers-guide__project a {
+            color: var(--ink-muted);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--rule);
+            margin-left: 0.2em;
+        }
+        .readers-guide__project a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        /* GitHub 项目地址：银灰色、缩小、低调，不与正文抢视觉 */
+        .readers-guide__project-link {
+            margin-top: 0.9rem;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 0.72rem;
+            color: #9298a0;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .readers-guide__project-link a {
+            color: #9298a0;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(146,152,160,0.55);
+        }
+        .readers-guide__project-link a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        /* 中文段落：衬线体，首行缩进 2em */
+        .cn-para {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.08rem;
+            line-height: 1.95;
+            color: var(--ink);
+            text-indent: 2em;
+            margin: 0 0 1.5rem;
+            letter-spacing: 0.01em;
+        }
+
+        /* 英文段落：无衬线体，首行缩进 1.2em */
+        .en-para {
+            font-family: 'IBM Plex Sans', 'PingFang SC', sans-serif;
+            font-size: 1.02rem;
+            line-height: 1.85;
+            color: var(--ink-soft);
+            text-indent: 1.2em;
+            margin: 0 0 1.5rem;
+            letter-spacing: 0.01em;
+        }
+        /* 英文首段 Drop Cap */
+        .en-para.en-first::first-letter {
+            float: left;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 4.4em;
+            line-height: 0.82;
+            padding-right: 0.1em;
+            padding-top: 0.06em;
+            font-weight: 800;
+            color: var(--accent);
+            text-indent: 0 !important;
+        }
+        .en-para.en-first {
+            text-indent: 0 !important;
+        }
+
+        /* 章节分隔线 */
+        .section-divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--rule), transparent);
+            margin: 2.5rem 0;
+        }
+
+        /* 章节标题 */
+        article h1, article h2, article h3 {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            color: var(--ink);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            text-indent: 0 !important;
+        }
+        article h1 { font-size: 1.8rem; letter-spacing: -0.01em; }
+        article h2 { font-size: 1.35rem; }
+        article h3 { font-size: 1.1rem; color: var(--ink-soft); }
+
+        /* 列表无缩进 */
+        article ul, article ol {
+            padding-left: 1.5rem;
+            margin: 1rem 0 1.5rem;
+        }
+        article li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.02rem;
+            line-height: 1.9;
+            color: var(--ink-soft);
+            margin-bottom: 0.5rem;
+        }
+
+        /* 引言块 */
+        article blockquote {
+            border-left: 3px solid var(--accent);
+            background: #f5f0e6;
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            border-radius: 0 6px 6px 0;
+        }
+        article blockquote p {
+            text-indent: 0 !important;
+            font-style: italic;
+            color: var(--ink-soft);
+            font-size: 1rem;
+            line-height: 1.85;
+            margin: 0;
+        }
+
+        /* ═══════════════════════════════════════════
+           出版级可点击目录卡片 (Designed Interactive TOC)
+           ═══════════════════════════════════════════ */
+        .toc-card {
+            background: #ffffff;
+            border: 1px solid var(--rule);
+            border-radius: 12px;
+            padding: 2.2rem 2.5rem;
+            margin: 3.5rem 0;
+            box-shadow: 0 4px 20px rgba(28, 25, 23, 0.05);
+        }
+        .toc-card__header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .toc-card__eyebrow {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+        }
+        .toc-card__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--ink);
+            margin: 0.4rem 0 0;
+        }
+        .toc-card__list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .toc-card__item {
+            margin-bottom: 0.9rem;
+        }
+        .toc-card__item:last-child {
+            margin-bottom: 0;
+        }
+        .toc-card__link {
+            display: flex;
+            align-items: baseline;
+            text-decoration: none;
+            color: var(--ink);
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            transition: color 0.15s ease;
+        }
+        .toc-card__link:hover {
+            color: var(--accent);
+        }
+        .toc-card__name {
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .toc-card__dots {
+            flex: 1;
+            border-bottom: 1px dashed var(--rule);
+            margin: 0 0.75rem;
+            position: relative;
+            top: -0.2em;
+        }
+        .toc-card__info {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.85rem;
+            color: var(--ink-muted);
+            white-space: nowrap;
+        }
+
+        /* ═══════════════════════════════════════════
+           自我审美重构：出版级杂志卡片 (Editorial Cheat Card)
+           ═══════════════════════════════════════════ */
+        .cheat-sheet {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 1.25rem !important;
+            margin: 2.2rem 0 !important;
+        }
+
+        .cheat-card {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 0.9rem !important;
+            padding: 1.4rem 1.6rem !important;
+            background: #ffffff !important;
+            border: 1px solid var(--rule) !important;
+            border-radius: 10px !important;
+            box-shadow: 0 2px 8px rgba(28, 25, 23, 0.04), 0 1px 3px rgba(28, 25, 23, 0.02) !important;
+            cursor: pointer !important;
+            transition: box-shadow 0.2s ease, transform 0.15s ease !important;
+        }
+        .cheat-card:hover {
+            box-shadow: 0 6px 20px rgba(154, 52, 18, 0.12), 0 2px 6px rgba(28, 25, 23, 0.06) !important;
+            transform: translateY(-2px) !important;
+        }
+
+        /* 卡片头部：词汇与对应中文名 */
+        .cc-term {
+            display: flex !important;
+            align-items: baseline !important;
+            justify-content: space-between !important;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 1.12rem !important;
+            font-weight: 700 !important;
+            color: var(--accent) !important;
+            border-bottom: 1px solid var(--rule) !important;
+            padding-bottom: 0.65rem !important;
+            padding-right: 0 !important;
+            border-right: none !important;
+        }
+
+        /* 卡片主体：双列 45% : 55% 黄金平铺，彻底告别单字竖排挤压 */
+        .cheat-card-body {
+            display: grid !important;
+            grid-template-columns: 1fr 1.25fr !important;
+            gap: 1.5rem !important;
+            align-items: start !important;
+        }
+
+        .cc-meaning {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-size: 0.98rem !important;
+            font-weight: 400 !important;
+            color: var(--ink) !important;
+            line-height: 1.75 !important;
+            padding: 0 !important;
+            text-indent: 0 !important;
+        }
+
+        /* 商业造句：浅雅对比内衬背景，取消 nowrap 截断，完全展示完整美感 */
+        .cc-sentence {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-size: 0.93rem !important;
+            font-style: italic !important;
+            color: var(--ink-soft) !important;
+            line-height: 1.7 !important;
+            padding: 0.8rem 1.1rem !important;
+            background: #fdfbf7 !important;
+            border-left: 3px solid var(--accent-lt) !important;
+            border-radius: 0 6px 6px 0 !important;
+            white-space: normal !important;            /* 彻底取消 ellipsis 强行截断 */
+            overflow: visible !important;
+            text-overflow: clip !important;
+        }
+
+
+        /* ═══════════════════════════════════════════
+           小节标题 (原书子板块 · 居中加粗)
+           ═══════════════════════════════════════════ */
+        .subsection-title {
+            text-align: center;
+            margin: 2.6rem auto 1.4rem;
+            padding: 0.5rem 0 0.4rem;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--ink);
+            max-width: 30rem;
+            border-bottom: 1px solid var(--rule);
+            position: relative;
+        }
+        .subsection-title::before,
+        .subsection-title::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            width: 2.2rem;
+            height: 2px;
+            background: var(--accent);
+            opacity: 0.6;
+        }
+        .subsection-title::before { left: 50%; margin-left: -2.4rem; }
+        .subsection-title::after  { right: 50%; margin-right: -2.4rem; }
+        .subsection-title__zh {
+            display: block;
+            font-size: 1.02rem;
+            letter-spacing: 0.22em;
+        }
+        .subsection-title__en {
+            display: block;
+            font-family: 'Baskerville', 'Cormorant Garamond', Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.78rem;
+            letter-spacing: 0.05em;
+            color: var(--ink-muted);
+            margin-top: 0.25rem;
+        }
+
+                                        /* ═══════════════════════════════════════════
+           低调挂卡：极致紧凑小字单行导航 (Ultra-Compact Low-Profile Nav)
+           ═══════════════════════════════════════════ */
+        .secnav {
+            position: fixed;
+            top: 2.3rem;
+            left: 1.2rem;
+            z-index: 100;
+            display: none;
+        }
+        /* 目录遮罩：铺满全屏但不改变视觉，仅用于拦截"点击目录外空白 → 关闭" */
+        .secnav__overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 99;      /* 在卡片(更高)之下、正文之上：点卡片是卡片交互，点之外是关闭 */
+            background: transparent;
+        }
+        .secnav__card {
+            position: relative;
+            z-index: 101;     /* 浮在遮罩(99)之上：点卡片仍是卡片交互，点遮罩(外部)关闭 */
+            width: min(92vw, 22rem);
+            max-height: 68vh;
+            overflow-y: auto;
+            background: rgba(250, 248, 243, 0.97);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--rule);
+            border-radius: 6px;
+            padding: 0.6rem 0.75rem 0.7rem;
+            box-shadow: 0 8px 24px rgba(28, 25, 23, 0.14);
+        }
+        .secnav__link {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.45rem;
+            padding: 0.35rem 0.35rem;
+            text-decoration: none;
+            color: var(--ink-soft);
+            border-radius: 4px;
+            transition: all 0.12s ease;
+            white-space: normal !important;
+            overflow: visible !important;
+            word-break: break-word !important;
+        }
+        .secnav__link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__num {
+            font-family: 'Baskerville', 'Georgia', 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--accent);
+            opacity: 0.85;
+            flex-shrink: 0;
+            margin-top: 0.05rem;
+            min-width: 1.1rem;
+        }
+        .secnav__content {
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+            flex: 1;
+            white-space: normal !important;
+            overflow: visible !important;
+            word-break: break-word !important;
+        }
+        .secnav__zh {
+            font-size: 0.72rem;
+            font-weight: 500;
+            color: var(--ink);
+            line-height: 1.35;
+            white-space: normal !important;
+            word-break: break-word !important;
+        }
+        .secnav__en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.63rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            line-height: 1.3;
+            white-space: normal !important;
+            word-break: break-word !important;
+            overflow: visible !important;
+        }
+        body.nav-open { overflow: hidden; }
+
+        /* ═══════════════════════════════════════════
+           照片图注 (Photo Container & Caption - 居中双语)
+           ═══════════════════════════════════════════ */
+        .photo-container {
+            text-align: center;
+            margin: 2.2rem auto 0.8rem;
+            max-width: 100%;
+        }
+        .photo-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 85%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--rule);
+        }
+        .photo-caption {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            color: var(--ink-muted);
+            text-align: center;
+            margin: 0.8rem auto 2rem;
+            max-width: 32rem;
+            line-height: 1.6;
+        }
+        .photo-caption__zh {
+            display: block;
+            color: var(--ink-soft);
+            margin-bottom: 0.2rem;
+        }
+        .photo-caption__zh::before {
+            content: "▧ ";
+            color: var(--accent);
+            opacity: 0.7;
+        }
+        .photo-caption__en {
+            display: block;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.68rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            opacity: 0.85;
+        }
+
+        /* ═══════════════════════════════════════════
+           二创延伸卡片 (ReBook Card - 高利用率旁注/备注式)
+           ═══════════════════════════════════════════
+           设计原则：低调不抢戏、高空间利用率、衬线/罗马斜体/楷体注脚感。 */
+        .rebook-card {
+            margin: 0.9rem 0;
+            padding: 0.5rem 0.9rem 0.6rem;
+            border: 1px solid var(--rule);
+            border-left: 3px solid var(--accent);
+            border-radius: 4px;
+            background: rgba(250, 248, 243, 0.6);
+        }
+        .rebook-card__title {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin: 0 0 0.35rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .rebook-card__title-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: 400;
+            text-transform: none;
+            letter-spacing: 0.04em;
+            color: var(--ink-muted);
+            opacity: 0.8;
+            font-size: 0.58rem;
+        }
+        .rebook-card__body {
+            font-size: 0.85rem;
+        }
+        /* ═══════════════════════════════════════════
+           二创延伸卡片统一字体规范（三板块共享）
+           ═══════════════════════════════════════════
+           · 英文：黑色加粗斜体（Georgia 罗马系）
+           · 中文：楷体小字
+           · 全部小字备注风格，不喧宾夺主 */
+        .rebook-card__body p,
+        .rebook-card__body li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.85rem !important;
+            line-height: 1.65 !important;
+            color: var(--ink-soft) !important;
+            text-indent: 0 !important;
+            margin-bottom: 0.4rem !important;
+        }
+        /* 修辞赏析：中英双语小字备注式（英文黑色加粗斜体 + 中文楷体斜体） */
+        .rebook-card__body .rhetoric-note {
+            display: block;
+            font-size: 0.78rem;
+            line-height: 1.6;
+            color: var(--ink-soft);
+            margin: 0.25rem 0;
+            padding: 0;
+            border: none;
+        }
+        .rebook-card__body .rhetoric-note .zh {
+            color: var(--ink-soft);
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+        }
+        .rebook-card__body .rhetoric-note .en {
+            color: var(--ink);
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            opacity: 0.9;
+            display: block;
+            font-size: 0.75rem;
+            margin-top: 0.1rem;
+        }
+        .rebook-card__body h1,
+        .rebook-card__body h2,
+        .rebook-card__body h3,
+        .rebook-card__body h4 {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 0.65rem !important;
+            font-weight: 700 !important;
+            letter-spacing: 0.1em !important;
+            text-transform: uppercase !important;
+            color: var(--accent) !important;
+            margin: 0.5rem 0 0.3rem !important;
+            padding-bottom: 0.2rem !important;
+            border-bottom: 1px dashed var(--rule) !important;
+        }
+        .rebook-card__body strong { color: var(--ink); }
+        .rebook-card__body ul,
+        .rebook-card__body ol {
+            margin: 0.2rem 0 0.3rem !important;
+            padding-left: 1.1rem !important;
+        }
+
+        /* Cheat Sheet: 极致紧凑注脚式两栏/单行网格 —— 高利用率、英文黑色加粗斜体、中文楷体备注感、不抢戏 */
+        .cheat-note-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            padding: 0.1rem 0;
+        }
+        .cheat-item {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 0.35rem 0.6rem;
+            padding: 0.25rem 0;
+            border-bottom: 1px dotted rgba(231, 224, 211, 0.7);
+        }
+        .cheat-item:last-child {
+            border-bottom: none;
+        }
+        .cheat-item__term {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-style: italic !important;
+            font-weight: 700 !important;
+            font-size: 0.84rem !important;
+            color: var(--ink) !important;
+            letter-spacing: 0.01em;
+            background: none !important;
+            padding: 0 !important;
+            border: none !important;
+        }
+        .cheat-item__sep {
+            color: var(--ink-muted);
+            opacity: 0.45;
+            font-size: 0.75rem;
+        }
+        .cheat-item__meaning {
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif !important;
+            font-size: 0.82rem !important;
+            font-weight: 400 !important;
+            color: var(--ink-soft) !important;
+            line-height: 1.5 !important;
+            background: none !important;
+            padding: 0 !important;
+            border: none !important;
+        }
+            padding: 0 !important;
+            border: none !important;
+        }
+        .rebook-card__body .cc-sentence {
+            display: none !important;
+        }
+
+        /* ═══════════════════════════════════════════
+           背景知识延伸 (Knowledge Note - 中英双语小字斜体备注)
+           字体与修辞赏析/Cheat Sheet 统一：
+           英文黑色加粗斜体 + 中文楷体斜体
+           ═══════════════════════════════════════════ */
+        .knowledge-note {
+            margin: 0.35rem 0;
+            padding: 0.15rem 0;
+            line-height: 1.6;
+        }
+        .knowledge-note .zh {
+            display: inline;
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+            font-size: 0.78rem;
+            color: var(--ink-soft);
+        }
+        .knowledge-note .en {
+            display: inline;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 0.72rem;
+            color: var(--ink);
+            opacity: 0.9;
+        }
+        .knowledge-note .zh::after {
+            content: "  ";
+            white-space: pre;
+        }
+        .knowledge-note .en::before {
+            content: " — ";
+            color: var(--ink-muted);
+            opacity: 0.5;
+        }
+
+        /* 兼容旧样式（未折叠时） */
+        .knowledge-window {
+            margin: 1.2rem 0;
+            padding: 1rem 1.25rem;
+            background: #faf8f3;
+            border-radius: 6px;
+            border: 1px solid var(--rule);
+            border-left: 2px solid var(--accent-lt);
+        }
+        .knowledge-window h3,
+        .knowledge-window h4 {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-top: 0;
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .knowledge-window p,
+        .knowledge-window li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.88rem;
+            line-height: 1.8;
+            color: var(--ink-soft);
+            text-indent: 0 !important;
+            margin-bottom: 0.5rem;
+        }
+
+        /* ═══════════════════════════════════════════
+           互动词汇 (Interactive Term)
+           ═══════════════════════════════════════════ */
+        .interactive-term {
+            cursor: pointer;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-color: var(--accent-lt);
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+            padding: 0 2px;
+            border-radius: 3px;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+        .interactive-term:hover {
+            background: rgba(154,52,18,0.08);
+            color: #7c2d12;
+        }
+
+        /* ═══════════════════════════════════════════
+           页脚 (Colophon)
+           ═══════════════════════════════════════════ */
+        footer {
+            border-top: 1px solid var(--rule);
+            background: rgba(245,240,230,0.6);
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        .colophon__inner {
+            max-width: 42rem;
+            margin: 0 auto;
+        }
+        .colophon__ornament {
+            color: var(--accent);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .colophon__ornament::before,
+        .colophon__ornament::after {
+            content: "";
+            width: 4rem;
+            height: 1px;
+            background: var(--rule);
+        }
+        .colophon__tagline {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.95rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            margin-bottom: 1.2rem;
+        }
+        .colophon__meta {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+        }
+
+        /* ═══════════════════════════════════════════
+           知识窗侧边栏 (Slide-over)
+           ═══════════════════════════════════════════ */
+        .term-panel {
+            position: fixed;
+            position: sticky; top: 2.2rem; left: 1rem; z-index: 99;
+            z-index: 99;
+            display: none;
+        }
+        .term-panel[ x-show ] { display: flex; }
+        .term-panel__overlay {
+            position: absolute;
+            position: sticky; top: 2.2rem; left: 1rem; z-index: 99;
+            background: rgba(41,37,36,0.35);
+            backdrop-filter: blur(4px);
+        }
+        .term-panel__card {
+            position: relative;
+            width: 100%;
+            max-width: 28rem;
+            margin-left: auto;
+            height: 100%;
+            background: var(--paper);
+            box-shadow: -8px 0 32px rgba(28,25,23,0.15);
+            padding: 2.5rem 2rem;
+            overflow-y: auto;
+            border-left: 1px solid var(--rule);
+        }
+        .term-panel__close {
+            position: absolute;
+            top: 1.2rem;
+            right: 1.2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--ink-muted);
+            transition: color 0.15s;
+        }
+        .term-panel__close:hover { color: var(--ink); }
+        .term-panel__label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 0.75rem;
+        }
+        .term-panel__term {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--ink);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+        .term-panel__meaning {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            line-height: 1.85;
+            color: var(--ink-soft);
+            margin-bottom: 1.5rem;
+            padding: 1rem 1.25rem;
+            background: #f5f0e6;
+            border-radius: 6px;
+            border-left: 3px solid var(--accent);
+        }
+        .term-panel__sentence-label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 0.5rem;
+        }
+        .term-panel__sentence {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.95rem;
+            font-style: italic;
+            line-height: 1.75;
+            color: var(--ink-muted);
+        }
+
+        /* ═══════════════════════════════════════════
+           响应式
+           ═══════════════════════════════════════════ */
+        @media (max-width: 48rem) {
+            .cheat-card {
+                grid-template-columns: 1fr;
+                gap: 0.35rem;
+            }
+            .cc-term {
+                border-right: none;
+                border-bottom: 1px solid var(--rule);
+                padding-bottom: 0.4rem;
+                margin-bottom: 0.2rem;
+            }
+            .cc-sentence {
+                border-left: none;
+                padding-left: 0;
+                white-space: normal;
+                overflow: visible;
+                text-overflow: clip;
+            }
+        }
+    
+        /* ═══════════════════════════════════════════
+           出版级典雅商业表格 (Designed Publishing Table)
+           ═══════════════════════════════════════════ */
+        article table {
+            width: 100% !important;
+            table-layout: fixed !important;
+            border-collapse: separate !important;
+            border-spacing: 0 !important;
+            margin: 2rem 0 !important;
+            border: 1px solid var(--rule) !important;
+            border-radius: 8px !important;
+            overflow: hidden !important;
+            background: #ffffff !important;
+            box-shadow: 0 2px 8px rgba(28, 25, 23, 0.04) !important;
+        }
+
+        article thead {
+            background: #f5f0e6 !important;
+            border-bottom: 1px solid var(--rule) !important;
+        }
+
+        article th {
+            display: table-cell !important;
+            padding: 0.9rem 1.2rem !important;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 0.8rem !important;
+            font-weight: 700 !important;
+            letter-spacing: 0.12em !important;
+            text-transform: uppercase !important;
+            color: var(--accent) !important;
+            border-bottom: 2px solid var(--rule) !important;
+            text-indent: 0 !important;
+        }
+
+        article th:nth-child(1) { width: 22% !important; }
+        article th:nth-child(2) { width: 35% !important; }
+        article th:nth-child(3) { width: 43% !important; }
+
+        article td {
+            padding: 1.1rem 1.2rem !important;
+            vertical-align: top !important;
+            border-bottom: 1px solid #f0e9dd !important;
+            font-size: 0.96rem !important;
+            line-height: 1.7 !important;
+            text-indent: 0 !important;
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+        }
+
+        article tr:last-child td {
+            border-bottom: none !important;
+        }
+
+        article tr:nth-child(even) td {
+            background: #fdfbf7 !important;
+        }
+
+        article td:nth-child(1) {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-weight: 600 !important;
+            color: var(--ink) !important;
+            white-space: normal !important;
+        }
+
+        article td:nth-child(2) {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-weight: 700 !important;
+            color: var(--accent) !important;
+        }
+
+        article td:nth-child(3) {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            color: var(--ink-soft) !important;
+        }
+
+
+        /* 🎯 顶部书眉【本章目录】按钮 */
+        .running-head__toc-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            background: rgba(0,0,0,0.05); cursor: pointer;
+            color: var(--ink-soft);
+            border: 1px solid var(--rule);
+            border-radius: 4px;
+            padding: 0.2rem 0.55rem;
+            font-size: 0.72rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .running-head__toc-btn:hover {
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+            border-color: var(--accent-lt);
+        }
+        .running-head__brand {
+            font-size: 0.65rem !important;
+            color: var(--ink-soft) !important;
+            opacity: 0.75 !important;
+            font-weight: 500 !important;
+            transition: opacity 0.2s ease, color 0.2s ease;
+        }
+        .running-head__brand:hover {
+            opacity: 1 !important;
+            color: var(--accent) !important;
+        }
+        .running-head__toc-btn:hover {
+            background: var(--accent);
+            color: #ffffff;
+            border-color: var(--accent);
+        }
+
+        /* 🎯 右下角【返回顶部】悬浮按钮 */
+        .back-to-top-float {
+            position: fixed;
+            bottom: 1.8rem;
+            right: 1.8rem;
+            z-index: 90;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            background: var(--paper);
+            color: var(--ink-soft);
+            border: 1px solid var(--rule);
+            border-radius: 20px;
+            padding: 0.4rem 0.85rem;
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-decoration: none !important;
+            box-shadow: 0 4px 14px rgba(28, 25, 23, 0.1);
+            transition: all 0.2s ease;
+            opacity: 0.85;
+        }
+        .back-to-top-float:hover {
+            opacity: 1;
+            color: var(--accent);
+            border-color: var(--accent-lt);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(154, 52, 18, 0.15);
+        }
+
+
+        .secnav__pref-group {
+            margin-bottom: 0.7rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .secnav__pref-link {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.25rem 0.3rem;
+            font-size: 0.78rem;
+            color: var(--ink-soft);
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.12s;
+        }
+        .secnav__pref-link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__pref-tag {
+            font-size: 0.62rem;
+            padding: 0.1rem 0.35rem;
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        .secnav__brand-title {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--ink-muted);
+            opacity: 0.6;
+            text-transform: uppercase;
+        }
+        /* 🎯 章节大标题与英文两行清晰对齐样式 */
+        .secnav__chapter-header {
+            padding: 0.4rem 0.35rem 0.5rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.2rem;
+            border-bottom: 1.5px solid var(--accent);
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+        .secnav__chapter-num {
+            font-size: 0.55rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--accent);
+            text-transform: uppercase;
+            display: block !important;
+            line-height: 1.2;
+        }
+                .secnav__chapter-title {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: block !important;
+            line-height: 1.4;
+            margin: 0.15rem 0 0.1rem;
+        }
+        .secnav__chapter-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.68rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            display: block !important;
+            line-height: 1.35;
+            margin-top: 0.1rem;
+        }
+        /* 🎯 多章合成：章列表分组（顶层章跳转入口） */
+        .secnav__chapter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.15rem;
+            padding: 0.15rem 0 0.4rem;
+            margin-bottom: 0.4rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .secnav__chapter-link {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.45rem;
+            padding: 0.4rem 0.35rem;
+            text-decoration: none;
+            color: var(--ink-soft);
+            border-radius: 4px;
+            transition: all 0.12s ease;
+            white-space: normal !important;
+            word-break: break-word !important;
+        }
+        .secnav__chapter-link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__chapter-link .secnav__zh {
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+        .secnav__chapter-link.is-current {
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+        }
+        .secnav__chapter-link.is-current .secnav__zh {
+            color: var(--accent);
+        }
+        /* 🎯 下拉导航挂卡：标题类元素全量居中对齐 */
+        .secnav__head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding-bottom: 0.35rem;
+            margin-bottom: 0.4rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .secnav__brand-title {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--ink-muted);
+            opacity: 0.65;
+            text-transform: uppercase;
+            text-align: center;
+            width: 100%;
+        }
+        .secnav__close {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--ink-muted);
+            cursor: pointer;
+            padding: 2px;
+        }
+
+        .secnav__pref-group {
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px dashed var(--rule);
+            text-align: center;
+        }
+        .secnav__chapter-header {
+            padding: 0.35rem 0.2rem 0.5rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1.5px solid var(--accent);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .secnav__chapter-num {
+            font-size: 0.55rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--accent);
+            text-transform: uppercase;
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 0.15rem;
+        }
+        .secnav__chapter-title {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            line-height: 1.4;
+            margin: 0.1rem 0 0.1rem;
+        }
+        .secnav__chapter-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.66rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            line-height: 1.35;
+        }
+</style>
+</head>
+
+<body id="top" class="bg-paper text-ink antialiased">
+
+    <!-- ═══════════════ 书眉 ═══════════════ -->
+    <header class="running-head">
+        <div class="running-head__inner">
+            <!-- 左侧：目录按钮 -->
+            <button class="running-head__toc-btn" id="rh-toc-btn" title="查看目录">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+                <span>目录</span>
+            </button>
+            <!-- 中间：非常低调弱化的书名/标语 -->
+            <span class="running-head__slogan">源起于文本，想象于无限</span>
+            <!-- 右侧：弱化小字 ReadShift · 私人书房 -->
+            <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="running-head__brand" title="访问 ReadShift GitHub 仓库" style="text-decoration:none; cursor:pointer;" aria-label="ReadShift GitHub Repo">
+                <span class="running-head__dot"></span>
+                <span class="running-head__brand-text">ReadShift &middot; 私人书房</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- 🎯 屏幕右下角悬浮：快捷返回顶部 -->
+    <a href="#top" class="back-to-top-float" id="back-to-top" title="返回顶部">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        <span>顶部</span>
+    </a>
+
+    <!-- ═══════════════ 扉页 (Title Page + 出版版权卡) ═══════════════ -->
+    <div class="title-page">
+        <p class="title-page__eyebrow">AI-Powered Reading Redefined</p>
+        <h1 class="title-page__title">张忠谋自传 · 双语典藏版</h1>
+        <p class="title-page__author">张忠谋 着</p>
+        <p class="title-page__author-en">Morris Chang · Autobiography, Volume One</p>
+        <div class="ornament">✦</div>
+
+        <!-- 出版版权卡：完整的出版与版本信息 -->
+        <div class="title-page__copyright">
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">全书作者</span>
+                <span class="title-page__copyright-value">张忠谋（着）</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">台湾版出版</span>
+                <span class="title-page__copyright-value">天下远见出版股份有限公司</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">出版时间</span>
+                <span class="title-page__copyright-value">1998年2月 · 台北</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">推荐序</span>
+                <span class="title-page__copyright-value">余秋雨 · 高希均</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">本书结构</span>
+                <span class="title-page__copyright-value">自序 · 五章 · 附录 · 大事年表</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">涵盖时期</span>
+                <span class="title-page__copyright-value">1931 — 1964（出生至33岁）</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ 正文 ═══════════════ -->
+    <main id="book-main">
+
+        <article>
+            <div class="chapter-nav chapter-nav--start" id="chap-362">
+        <span class="chapter-nav__badge">章节</span>
+        <h2 class="chapter-nav__title">台积电篇二第二十六章</h2>
+        <span class="chapter-nav__byline">张忠谋</span>
+    </div>
+<h1>台积电篇二·第二十六章｜九○年代建立的几个重要客户</h1>
+
+<div class="bilingual-pair">
+<p class="cn-para">九十年代的台积电，已从初创期的蹒跚学步成长为全球晶圆代工产业的领头羊。这十年间，我们建立并巩固了一批至今仍在合作的核心客户关系。这些客户中，既有老牌巨头英特尔，也有出生于九十年代的新锐设计公司和专攻通讯芯片的博通。他们的交织与更替，折射出半导体产业从IDM（整合元件制造）模式向晶圆代工模式转移的历史洪流。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">By the 1990s, TSMC had grown from a fledgling operation into the global leader in dedicated foundry services. During that decade, we forged and deepened relationships with a core set of clients—ranging from the venerable Intel to upstart fabless design houses and the communications-focused Broadcom—that remain with us to this day. Their interplay and turnover mirrored the broader structural shift in the semiconductor industry away from the IDM model toward the foundry paradigm.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">然而，在回顾这些商业成就之前，必须先讲述一个关乎公司治理与个人体面离场的故事——第三任总经理布鲁克的「净离」。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">But before recounting these commercial triumphs, a story of corporate governance and dignified departure must be told: Brook's "clean break" from TSMC.</p>
+</div>
+<h3 class="subsection-title" id="sub-362-0"><span class="subsection-title__zh">布鲁克「净离」台积电，我自兼总经理</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">布鲁克（Brook）是台积电第三任总经理，曾在德仪做了我十几年的得力下属。一九九一年三月加入台积电，起初他并不怎幺看好这家公司，对我说：「做一年就回美国。」一年后觉得台积电比他想象的好，便说：「再做一年吧。」再一年后就开始有较长的打算，但仍说：「不会超过两、三年。」</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Brook, TSMC's third general manager, had been my trusted lieutenant at Texas Instruments for over a decade. He joined TSMC in March 1991, initially skeptical of the venture's prospects. "I'll do one year, then go back to the U.S.," he declared. Impressed by what he saw after the first year, he extended his stay—only to extend it again. By the third year, he began contemplating a longer horizon, but still insisted, "Two or three years at most."</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">我雇用布鲁克，主因是借重他在欧美市场营销的技能。在这方面，他确实没有令我失望。至于台湾的经营层面，我倒不很需要布鲁克。第一，我们的台湾团队在九○年代中期已经相当坚强。曾繁城自工研院带过来的核心团队一直在成长，我们也雇了许多优秀人才，包括魏力行、刘德音、林坤禧等；第二，布鲁克本人并未赢得本土团队的尊敬和信任。倒是我自己不遗余力地让制造部门配合营销——数度否决布鲁克要求雇美国人担任营运副总，以及不让曾繁城辞职而让他去世界先进任总经理，就是明证。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">I had hired Brook primarily for his marketing expertise in the American and European markets. On this front, he did not disappoint. As for managing operations in Taiwan, I genuinely needed less from him. Our local team had grown formidable by the mid-1990s. The core group led by Zeng Fan-cheng from ITRI had flourished, and we had recruited outstanding talents like Wei Li-hsing, Liu De-yin, and Robert Lin. More crucially, Brook himself had not earned the deep respect and trust of the local team—a reality reflected in my repeated veto of his proposals to hire Americans as COO, and in my orchestrating an alternative role for Zeng Fan-cheng at Vanguard rather than letting him resign.</p>
+</div>
+
+
+<div class="bilingual-pair">
+<p class="cn-para">到了九六年底，布鲁克已经做了六年，这次他真的想回美国了。但他仍想留在台积电，做什幺呢？起初他认为他可以住在美国，仍做总经理。我认为这是一个不可思议的建议，立刻否决了。经过两三次会议后，我答应让他管美国营销以及WaferTech，直接对我报告——那时WaferTech刚成立不久，大家还对它寄予厚望。布鲁克似乎也接受这个任务，那我们也就有了一个留住布鲁克的方案了。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">By the end of 1996, Brook had been with us for six years, and this time he genuinely wanted to return to the United States. Yet he still wished to stay at TSMC—in what capacity? Initially, he proposed living in the U.S. while remaining general manager. I considered this an untenable suggestion and vetoed it immediately. After two or three meetings, I agreed to let him oversee U.S. marketing and WaferTech, reporting directly to me. WaferTech had been established only recently, and everyone still harbored high hopes for it. Brook seemed to accept this assignment, and we appeared to have a plan to retain him.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">但是不然。布鲁克把他真正要的东西留到最后：「我要保留我的董事席。」他说。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">But that was not how it ended. Brook reserved his true demand for last: "I want to keep my board seat," he said.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">这，我不能给他。台积电自始就是一个专业经理人经营的公司，我自己的股权非常微小。在九七年，两位大股东（行政院开发基金及飞利浦）占董事会十席董事的七席，他们同意给一席给我，一席给总经理，还有一席留给其他原始股东的代表。现在布鲁克不做总经理了，我的计划是自兼一阵子后让曾繁城接任总经理。如果让布鲁克保留他的董事席，岂不造成一个奇怪的局面：新的总经理不是董事，而只管美国营销及美国厂的经理反倒是董事？</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">That, I could not give him. TSMC had always been a professionally managed company, and my own equity stake was minuscule. In 1997, the two largest shareholders—the Administrative Yuan Development Fund and Philips—held seven of ten board seats. They had agreed to allocate one seat to me, one to the general manager, and one to a representative of other founding shareholders. With Brook no longer serving as general manager, my plan was to serve in that capacity temporarily before handing it to Zeng Fan-cheng. If I allowed Brook to retain his board seat, it would create an absurd situation: the new general manager would not be a director, while a manager responsible only for U.S. marketing and the American factory would be?</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">我坚决拒绝布鲁克的董事要求。布鲁克静默了一下，冷冷地说：「那我还是要『净离』（clean break）吧。」当时我不太了解「净离」的意思。「离」就是「离」，还有什幺「净离」？几个月后，布鲁克加入竞争者，我才了解「净离」深一层的用意：再没有什幺牵挂，缘已尽了！</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">I firmly rejected Brook's request for a board seat. Brook fell silent for a moment, then said coldly, "Then I will make a 'clean break.'" At the time, I did not fully understand the deeper meaning of "clean break." "Break" simply meant leaving—what else could it be? Months later, when Brook joined a competitor, I finally grasped its full implication: no ties remained; the relationship was entirely severed.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">九七年一月三十日，布鲁克告诉我他「净离」的决定，但他要到四月底才走。十天后（二月十日），我就去硅谷访问了九个大客户。对我而言，访问客户是「重拾旧技」——我在德仪事业部总经理任内就喜欢访问客户。这九个客户都很稳定，毕竟我们多年来「争取客户信任」已有相当根基。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">On January 30, 1997, Brook informed me of his decision to make a clean break, though he would not leave until the end of April. Ten days later, on February 10, I traveled to Silicon Valley to visit nine key customers. For me, visiting customers was a matter of "restoring old skills"—I had enjoyed client visits during my tenure as general manager of a TI business unit. All nine customers were stable, given that we had built considerable trust over many years.</p>
+</div>
+
+
+<div class="bilingual-pair">
+<p class="cn-para">二月十九日，我自硅谷打电话告知飞利浦布鲁克即将离去、我拟自兼总经理的消息。飞利浦稍表不安。我也知道他们为何不安——他们看到的台积电十年历史中，有六年是布鲁克当总经理，而我从来没有自己做过总经理。这就是为什幺飞利浦在半导体业一直平庸，他们只看表面，没有真正了解为什幺台积电这幺成功。虽然他们表示不安，但我坚持要自兼总经理，他们也就接受了。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">On February 19, I called Philips from Silicon Valley to inform them that Brook was about to leave and that I intended to serve as general manager myself. Philips expressed some unease. I understood why—they had seen six of TSMC's ten years with Brook as general manager, while I had never personally held that role. This was precisely why Philips had remained mediocre in the semiconductor industry: they only observed the surface and did not truly understand what made TSMC successful. Although they expressed concern, I insisted on serving as general manager, and they ultimately accepted.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">四月中旬我们为布鲁克举办了欢送会，但气氛一点都不「欢」。欢送会上很少笑容。当布鲁克致词时，他凌厉地说：「我会常常到台湾来，我在台湾还有很多投资。」我觉得很奇怪，我不知道他在台湾有很多投资；我也很恼感，六年前我们给他的欢迎会里，他的美国口音跟着大家喊「一百亿」还在我耳中荡漾。今天却是一个截然不同的布鲁克。是台积电改变了他？还是台湾改变了他？还是他本来就是一个多变的人？</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">In mid-April, we held a farewell gathering for Brook, but the atmosphere was far from cheerful. Smiles were rare. When Brook took the podium, he spoke sharply: "I will come to Taiwan often; I have many investments here." I found this puzzling—I was unaware he held significant investments in Taiwan. I also felt stung, for in the welcome party we had thrown for him six years earlier, his American-accented voice had echoed alongside ours chanting "one hundred billion." Today, he was an entirely different person. Had TSMC changed him? Had Taiwan changed him? Or had he always been a man of shifting loyalties?</p>
+</div>
+<h3 class="subsection-title" id="sub-364-1"><span class="subsection-title__zh">每年变动的「十五大」</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">从本书第三章〈总经理的学习〉，读者也许可以领会：在我三十三岁跃升为德仪业务单位总经理时，我已拥有相当深厚的技术和生产背景。所以我任总经理后的学习重点，起先是营销和市场，两三年后是策略。至今，我仍认为策略、技术、生产、营销和市场，是一个半导体企业总经理必须亲身经历过或至少深度了解的重要领域。事实上，在我五十四年总经理/董事长职业生涯（自一九六四年我任德仪晶体管部总经理算起，至二○一八年自台积电退休）中，在以上每一个「重点领域」内都曾度过不少愉快时光。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Readers may recall from Chapter 3, "The General Manager's Learning," that when I was promoted to general manager of a TI business unit at age thirty-three, I already possessed substantial technical and manufacturing background. My learning focus after becoming general manager was initially marketing and sales, then strategy after two or three years. To this day, I maintain that strategy, technology, production, marketing, and sales are the critical domains a semiconductor general manager must have personally experienced or at least deeply understood. In fact, throughout my fifty-four-year career as general manager and chairman—from my appointment as general manager of TI's transistor division in 1964 to my retirement from TSMC in 2018—I have found genuine pleasure in each of these areas.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">所以在九七年布鲁克「净离」台积电、我自兼总经理时，我几乎有「如鱼得水」的兴奋感。公司的策略除「技术领先」外早已定调，而且执行相当顺利。技术和生产的进展也可圈可点。而且「无晶圆厂设计公司」正如雨后春笋般成立，争取它们成为我们的客户是九○年代的要务——我在这方面应有可为。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">So when Brook made his clean break in 1997 and I assumed the role of general manager, I felt an almost effortless sense of being exactly where I belonged. The company's strategy had long been set—technology leadership—and execution was proceeding smoothly. Progress in technology and production was commendable. Moreover, fabless design houses were emerging like mushrooms after rain, and winning them as clients was the imperative of the 1990s—an area where I believed I could make a meaningful contribution.</p>
+</div>
+
+
+<div class="bilingual-pair">
+<p class="cn-para">台积电的客户数，自八七年成立时的十五户，到九七年我自兼总经理时，已增加到一百九十九户。二○一八年我退休时又增加到四百八十户。但在三十年内，占公司营收百分之七十至七十五的客户，通常只有十五户。我给自己的任务，就是好好照顾这十五家客户。更重要的是，随时展开与有潜力的新客户合作——因为任何时间的「十五大」总有几户的成长率不如我们，我们需要与高成长者一起成长。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">TSMC's client count grew from fifteen at its founding in 1987 to 199 when I assumed the general manager role in 1997, and further to 480 by the time I retired in 2018. Yet throughout those thirty years, the clients accounting for 70 to 75 percent of revenue typically numbered only fifteen. My self-imposed task was to take good care of those fifteen clients. More importantly, I was always seeking partnerships with promising new clients—for at any given time, several of the "Top Fifteen" would grow more slowly than we did, and we needed to grow alongside the high-growth companies.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">在九○年代，「十五大」的变动相当快。举例来说，九七年的「十五大」，只有五户还在二○○○年的「十五大」内。失去的十户，有几家倒闭，有几家自己的业务衰退，被台积电更成功的客户替代。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">In the 1990s, the "Top Fifteen" turned over quite rapidly. For example, of the Top Fifteen in 1997, only five remained in the Top Fifteen by 2000. Of the ten that fell away, some went out of business, others saw their own businesses decline, and were replaced by TSMC's more successful clients.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">二○○○年后，「十五大」的变动比较少。二○○○年的「十五大」，有九家还在二○一八年「十五大」内。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">After 2000, turnover among the Top Fifteen slowed considerably. Of the Top Fifteen in 2000, nine remained in the Top Fifteen by 2018.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">在我任董事长兼CEO时期，我访问「十五大」至少每年一次，有特别问题时甚至一年内访问三四次。「十五大」的CEO也常来台湾，来时也常找我。虽然这些往来多是严肃谈生意的场面，但绝大部分仍是在建立的友谊基础上进行。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">During my tenure as chairman and CEO, I visited the Top Fifteen at least once a year, and up to three or four times annually when special issues arose. The CEOs of these clients also frequently visited Taiwan and often sought me out. Although these exchanges were predominantly serious business discussions, the vast majority were conducted on a foundation of established friendship.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">在九○年代，我们增加了四户「十五大」，而且这四户一直到二○二二年仍在「十五大」内。现在，我们依开始合作的时间次序，简单地叙述这四个重要客户。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">In the 1990s, we added four new clients to the Top Fifteen, and all four remained in the Top Fifteen through 2022. Now, in the order in which we began working with them, I will briefly recount these four important clients.</p>
+</div>
+
+
+<h3 class="subsection-title" id="sub-366-2"><span class="subsection-title__zh">英特尔（Intel）</span></h3>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">英特尔无疑是我们关系最悠久的大客户，与个人的历史最长。五○年代后期及六○年代初期，我与后来创办英特尔的诺伊斯（Noyce）和摩尔（Moore）同在华盛顿参加每年十月举行的IEDM（国际电子元件会议）。三十岁左右的我们，会后与别的会友去附近餐厅用餐，餐后在华盛顿深秋夜晚中唱歌回旅馆（见第九章）。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">## Intel</p>
+<p class="en-para">Intel is undoubtedly our longest-standing major client, and our personal history with them runs deepest. In the late 1950s and early 1960s, I attended the IEDM (International Electron Devices Meeting) held each October in Washington alongside Noyce and Moore, who would later found Intel. Around thirty years old, we would dine together at a nearby restaurant after the sessions, then sing our way back to the hotel through the late-autumn nights of Washington (see Chapter 9).</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">初期我为台积电募资时，也找过英特尔，但遭他们拒绝（见第十七章）。但台积电成立后一年内，英特尔总裁就来访问台积电（见第十九章），此后就有密切的接触，英特尔的订单也在九○年开始流入台积电。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">When I initially sought funding for TSMC, I also approached Intel, but they declined (see Chapter 17). Within a year of TSMC's establishment, however, Intel's president visited us (see Chapter 19), and close contact followed. Intel's orders began flowing to TSMC in 1990.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">九○年代的英特尔，以他们自己的晶圆厂和生产技术为傲。那幺他们为什幺要找台积电代工呢？原因是他们产品的「节点」（technology node）每一年半或两年就有一代进步，他们宁愿把所有生产资源（工厂、设备、人才）都放在先进产品上，而让台积电生产较老的产品。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">In the 1990s, Intel took pride in its own fabrication plants and production technology. So why did they turn to TSMC for foundry services? The reason was that their product technology nodes advanced every one and a half to two years. They preferred to concentrate all production resources—factories, equipment, and talent—on advanced products, while letting TSMC manufacture older-generation products.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">在英特尔眼中，台积电的好处是什幺？他们最惊奇的是：台积电居然能用同一个技术，同时为许多客户做不同的产品。对英特尔而言，这是一个不可思议的能力。其实，这只是台积电「商业模式」的结果。英特尔的商业模式是自己设计并制造高科技产品，所以在执行这一商业模式时，每一环节必求最高效率。英特尔的高纪律规定——每工厂必须与其它厂一样（copy exactly）——即是一例。反观台积电的商业模式是「专业为人人做晶圆代工」，在执行此商业模式时，必先顾及「为人人」。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">What, in Intel's view, was TSMC's advantage? What astonished them most was that TSMC could use the same technology to produce different products for multiple customers simultaneously. To Intel, this was an almost unimaginable capability. In reality, this was simply the result of TSMC's business model. Intel's model was to design and manufacture high-tech products in-house, so every step had to achieve maximum efficiency. Intel's discipline rule—that every fab must copy exactly—is one example. By contrast, TSMC's business model was "professional foundry services for all," which required prioritizing service to everyone.</p>
+</div>
+
+
+<div class="bilingual-pair">
+<p class="cn-para">除了「为人人」的能力外，台积电的特殊商业模式也给予台积电别的特点。我们自视为服务业，所以只要台积电也能获利，总以客户为尊。台积电也不歧视老技术——只要客户需要这个技术，而台积电有这个技术，就会替他做。台积电的二厂是六吋厂，做一微米技术，已有三十几年历史，但至今仍在运作。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Beyond the ability to serve everyone, TSMC's unique business model endowed it with other characteristics. We viewed ourselves as a service industry, so as long as TSMC could generate profit, the customer always came first. TSMC also did not discriminate against legacy technology—if a client needed a particular process and TSMC possessed it, we would produce it. TSMC's second factory, a six-inch facility using one-micron technology, had been operating for over thirty years and remained in service to this day.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">多年以后（二○一○年后），英特尔也想做晶圆代工。但是他们的IDM积习难改，在代工业中一直没有成功。二○二一年初，英特尔换了新CEO，矢志要兼做晶圆代工。但同时对台积电的订单不断增加。对于这个既是客户又与我们竞争的公司——我祝它好运！只是，不要把好运出在台积电头上。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Many years later, after 2010, Intel also sought to enter foundry services. But their IDM habits proved difficult to break, and they never succeeded in the foundry business. In early 2021, Intel appointed a new CEO determined to pursue foundry operations while continuing to grow. Yet its orders with TSMC kept increasing. For this company that was both a customer and a competitor—I wish them well. Just not at TSMC's expense.</p>
+</div>
+<h3 class="subsection-title" id="sub-367-3"><span class="subsection-title__zh">博通（Broadcom）</span></h3>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">两个亨利：亨利·萨穆埃利（Henry Samueli）及亨利·尼古拉斯（Henry Nicholas），在一九九一年创办博通。两人皆出自加州大学洛杉矶分校（UCLA）。萨穆埃利是该校电机系教授，尼古拉斯是他的学生。两人就高频电讯IC设计创办博通。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">## Broadcom</p>
+<p class="en-para">Two men named Henry—Henry Samueli and Henry Nicholas—founded Broadcom in 1991. Both came from the University of California, Los Angeles. Samueli was a professor in the electrical engineering department; Nicholas was his student. They founded Broadcom around high-frequency telecommunications IC design.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">九○年代出现不少以创办者IC设计专才为基础的IC设计公司，但成功的并不多。要成功，设计公司的产品要有相当广的市场，又要比它的竞争者好，而且要找到一个能够和它充分合作的晶圆代工厂。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">The 1990s saw the emergence of numerous IC design companies founded on the design expertise of their creators, but few succeeded. To succeed, a design company's products needed a sufficiently broad market, had to outperform competitors, and required a foundry partner capable of full collaboration.</p>
+</div>
+
+
+<div class="bilingual-pair">
+<p class="cn-para">博通是少数的成功者之一，成立之初就选中台积电为它的晶圆代工厂；而相对地，台积电也看中了它的潜力。两个亨利先是与台积电当时的总经理布鲁克联系。布鲁克辞职、我兼任总经理后，就由我接洽。自九九年至今，博通一直是台积电最大客户之一。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Broadcom was among the rare success stories, selecting TSMC as its foundry partner from the outset; in turn, TSMC recognized its potential. The two Henrys first contacted Brook, then TSMC's general manager. After Brook's resignation and my assumption of the general manager role, I took over the relationship directly. From 1999 to the present, Broadcom has remained one of TSMC's largest customers.</p>
+</div>
+<h3 class="subsection-title" id="sub-368-4"><span class="subsection-title__zh">辉达（Nvidia）</span></h3>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">九七年，正当布鲁克自台积电辞职之时，我忽然收到一封自邮局寄来的信。来信者是辉达公司（Nvidia）CEO 黄仁勋（Jensen Huang）。信中说辉达正想找晶圆制造代工厂，但与台积电圣荷西办事处数次接洽都未受到重视，希望我能亲自与他见面。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">## Nvidia</p>
+<p class="en-para">In 1997, just as Brook was resigning from TSMC, I received an unexpected letter delivered by postal mail. It was from Jensen Huang, CEO of Nvidia. The letter stated that Nvidia was seeking a foundry partner, but previous attempts to engage TSMC's San Jose office had not received adequate attention. He requested a personal meeting with me.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">接到黄仁勋来信时，正是我自兼总经理不久、很想亲自与客户建立关系之时。几天后我展开原定的美国客户之旅，在加州时打了一个电话给黄仁勋。他自己接电话，但背景相当嘈杂，似乎有好几个人在争论。当我介绍自己，忽然黄仁勋大声吼道：「安静！安静！莫里斯·张正在打电话给我！」</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Receiving Huang's letter coincided with the period when I had recently become general manager and was eager to build direct relationships with clients. A few days later, I embarked on my scheduled U.S. customer visits and called Jensen while in California. He answered personally, but the background was quite noisy, with several people apparently debating. When I introduced myself, Huang suddenly shouted, "Quiet! Quiet! Morris Chang is calling!"</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">自此开始了二十几年我与Jensen的友谊，以及台积电与辉达的合作。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Thus began over two decades of friendship with Jensen, and the partnership between TSMC and Nvidia.</p>
+</div>
+
+
+<div class="bilingual-pair">
+<p class="cn-para">与辉达的合作，与许多其他客户很不一样。第一，辉达的确有杰出的绘图芯片（graphics chips）设计团队。第二，在挑选代工伙伴时，Jensen愿意孤注一掷，挑选台积电独家为他代工。第三，我也抱着惺惺相惜的态度全力支持——甚至在九八年时，辉达人手缺乏（当时全公司只有八十几名员工），业务又在急遵成长，台积电还特地派了两位「生产计划师」进驻辉达一个月，为他们规划进货、存货、售出等流程，并协助训练新进员工。这是一个很不寻常的客户服务。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">The partnership with Nvidia differed markedly from many others. First, Nvidia indeed possessed an exceptional graphics chip design team. Second, when selecting a foundry partner, Jensen was willing to place an extraordinary bet by choosing TSMC as his exclusive manufacturer. Third, I fully supported this decision with a sense of mutual recognition—for even in 1998, when Nvidia suffered from staffing shortages (with only eighty-plus employees company-wide) and experienced rapid business growth, TSMC dispatched two "production planners" to reside at Nvidia for a month, helping them design inbound, inventory, and outbound processes while assisting in training new hires. This was an extraordinary level of customer service.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">在齐心的合力下，辉达业绩大放异彩：营收自九七年的两千九百万美元，到二○○六年的二十四亿美元；净利自九七年负的两百六十九万一千美元，到二○○六年正的三亿美元。台积电也增加了一个大客户：自九八年起到现在，辉达一直在台积电的头五大客户之列，有许多年还是最大客户。同时，我也增加了一个忘年之交。我与Jensen相差三十多岁，住处相隔一万公里，但我、Sophie与他及他的夫人常有最好朋友之间的来往。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Through combined effort, Nvidia's performance flourished: revenue grew from 29 million USD in 1997 to 2.4 billion USD in 2006; net income shifted from a loss of 2.691 million USD in 1997 to a profit of 300 million USD in 2006. TSMC also gained a major client—from 1998 to the present, Nvidia has consistently ranked among TSMC's top five customers, and in many years its largest. At the same time, I gained a friend across generations. Despite our thirty-year age gap and the ten thousand kilometers between our homes, Sophie, I, Jensen, and his wife maintained close ties as best friends.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">「客户是伙伴」是我们重要的经营理念，与另一重要经营理念「高度职业道德」互相呼应。台积电的成功，我认为「客户是伙伴关系」是一个非常重要的因素。我们与许多客户都建立了伙伴关系，辉达就是一个很好的例子。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">"Customers are partners" is one of our core operating philosophies, complementing another: high professional ethics. In TSMC's success, I believe the customer-partnership approach has been a vital factor. We have built partnerships with many clients, and Nvidia stands as an exemplary case.</p>
+</div>
+<h3 class="subsection-title" id="sub-369-5"><span class="subsection-title__zh">高通（Qualcomm）</span></h3>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">高通成立于一九八五年，早台积电两年。首任CEO欧文·雅各布斯（Irwin Jacobs）亦为共同创办人，曾经当过麻省理工学院及加州大学圣地牙哥分校计算机科学系教授。自成立后，高通就以通讯芯片的建构及设计为主业。它的两个业务是：（一）授权发明，收取权利金；（二）自己设计芯片，找晶圆制造商代工，然后销售芯片。高通在通讯芯片技术及设计上享有极佳声誉。它位于加州圣地牙哥总部入门大厅的墙上，满满挂着专利牌子——一个专利一张牌子，大约总有成千块牌子。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">## Qualcomm</p>
+<p class="en-para">Qualcomm was founded in 1985, two years before TSMC. Its first CEO, Irwin Jacobs, was also a co-founder and had served as a professor of computer science at MIT and UC San Diego. From its inception, Qualcomm focused primarily on telecommunications chip development and design. Its two businesses were: (1) licensing inventions and collecting royalties, and (2) designing chips in-house, contracting foundry manufacturing, and selling the finished products. Qualcomm enjoyed an excellent reputation in communication chip technology and design. On the walls of its headquarters' entrance hall in San Diego, California, patents were displayed—one plaque per patent, numbering in the thousands.</p>
+</div>
+
+
+<div class="bilingual-pair">
+<p class="cn-para">这样一个高技术声誉的公司，当然是台积电争取的对象。但高通在选择晶圆代工厂上也非常谨慎——它不愿找一个可能的竞争者，但也需要一个制程技术和它的设计技术匹配的晶圆制造商。在八○年代以及大部分九○年代，他们找到了IBM。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">A company with such a strong technical reputation was naturally a target for TSMC's pursuit. But Qualcomm was equally cautious in selecting a foundry partner—it did not wish to partner with a potential competitor, yet it needed a fabricator whose process technology matched its design capabilities. Throughout the 1980s and most of the 1990s, they turned to IBM.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">对九○年代的台积电而言，IBM是一个可畏的竞争者。虽然IBM的晶圆制造技术在九○年代已落后英特尔等领先者，但与台积电仍在伯仲之间。撇开技术，IBM还有它在信息界如「神」般的形象，但也有随这形象而来的高傲。台积电却有着「客户是伙伴」的谦逊IBM的担心也是下章的故事之一。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">For TSMC in the 1990s, IBM was a formidable competitor. Although IBM's wafer fabrication technology had lagged behind leaders like Intel by the 1990s, it remained roughly on par with TSMC. Beyond technology, IBM carried an almost "godlike" image in the information industry, along with the arrogance that accompanied it. TSMC, by contrast, carried the humility of "customers are partners." IBM's concerns would become the subject of the next chapter.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">后来，台积电在这场竞争中胜出应该不是意外。九八年高通总经理告诉我高通要开始和我们合作时，我非常兴奋——我已争取高通近二年，现在终于有成果了！我相信高通会是一个大客户。何况，获得高通为客户是对我们技术的一个认证。果然，自二○○一年起，高通就是我们「十五大」之一，有许多年它是我们最大的客户。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">It was hardly surprising that TSMC eventually prevailed in this competition. When Qualcomm's general manager informed us in 1998 that Qualcomm would begin partnering with us, I was extremely excited—I had been pursuing Qualcomm for nearly two years, and results had finally come. I believed Qualcomm would become a major client. Moreover, gaining Qualcomm as a customer was a certification of our technology. Indeed, from 2001 onward, Qualcomm became one of our "Top Fifteen" clients, and in many years it was our largest customer.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">我们的凯歌也是IBM微电子部门（即半导体部门）的暮鼓。他们知道他们的制造技术正在快速落后，连台积电这样的后起之秀都追上来了。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Our triumph also sounded the death knell for IBM's Microelectronics Division—that is, its semiconductor business. They knew their manufacturing technology was rapidly falling behind, and that a rising star like TSMC had caught up.</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">IBM的担心也是下一章的故事之一。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">IBM's concerns would also feature in the story of the next chapter.</p>
+</div>
+
+
+<div class="bilingual-pair">
+<div class="rebook-translation"><span class="rebook-translation__label">ReadShift 双语翻译</span><p class="en-para en-first">&gt; **rebook-translation** &gt; &gt; The 1990s marked a transformative decade for TSMC as it evolved from a fledgling venture into the global leader in dedicated semiconductor foundry services. During this period, we forged and deepened relationships with a constellation of clients—ranging from the venerable Intel to upstart fabless design houses and the communications-focused Broadcom. The interplay of these relationships mirrored the broader structural shift in the semiconductor industry away from the Integrated Device Manufacturer (IDM) model toward the foundry paradigm.
+&gt; &gt; But before recounting these commercial triumphs, a story of corporate governance and dignified departure must be told: Brook's &quot;clean break&quot; from TSMC.
+&gt; &gt; Brook, TSMC's third General Manager, had been my trusted lieutenant at Texas Instruments for over a decade. He joined TSMC in March 1991, initially skeptical of the venture's prospects. &quot;I'll do one year, then go back to the U.S.,&quot; he declared. Impressed by what he saw after the first year, he extended his stay, only to be extended again. By the third year, he began contemplating a longer horizon—but still insisted, &quot;Two or three years at most.&quot; &gt; &gt; I had hired Brook primarily for his marketing expertise in the American and European markets. On this front, he did not disappoint. As for managing operations in Taiwan, I genuinely needed less from him. Our local team had grown formidable by the mid-1990s. The core group led by Zeng Fan-cheng from ITRI had flourished, and we had recruited outstanding talents like Wei Li-hsing, Liu De-yin, and Robert Lin. More crucially, Brook himself had not earned the deep respect and trust of the local team—a reality reflected in my repeated veto of his proposals to hire Americans as COO, and in my orchestrating an alternative role for Zeng Fan-cheng at Vanguard rather than letting him resign.</p></div>
+</div>
+
+
+        </article>
+
+        <!-- 知识窗侧边栏（原生 JS 控制，零框架） -->
+        <div class="term-panel" id="term-panel" style="display:none;" aria-hidden="true">
+            <div class="term-panel__overlay" id="term-panel-overlay"></div>
+            <div class="term-panel__card">
+                <button class="term-panel__close" id="term-panel-close" aria-label="关闭">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+                <p class="term-panel__label">Deep Dive</p>
+                <h2 class="term-panel__term" id="term-panel-term"></h2>
+                <div class="term-panel__meaning" id="term-panel-meaning"></div>
+                <p class="term-panel__sentence-label" id="term-panel-sentence-label" style="display:none;">商业造句</p>
+                <p class="term-panel__sentence" id="term-panel-sentence" style="display:none;"></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ═══════════════ 小节导航浮层（两级目录 · 原生 JS） ═══════════════ -->
+    <div class="secnav" id="secnav" style="display:none;" aria-hidden="true">
+        <div class="secnav__overlay" id="secnav-overlay"></div>
+        <div class="secnav__card">
+            <div class="secnav__head">
+                <span class="secnav__brand-title">张忠谋自传 · 双语典藏版</span>
+                <button class="secnav__close" id="secnav-close" aria-label="关闭">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <ul class="secnav__list" id="secnav-list"></ul>
+        </div>
+    </div>
+
+    <!-- ═══════════════ 页脚 ═══════════════ -->
+    <footer>
+        <div class="colophon__inner">
+            <div class="colophon__ornament">❖</div>
+            <p class="colophon__tagline">万物皆可重塑，期待有趣的灵魂在此相遇。</p>
+            <p class="colophon__meta">Generated by ReadShift Engine · Text is the Genesis</p>
+        </div>
+    </footer>
+
+    <script>
+        // ─── 原书小节导航：两级目录（章 → 小节）原生 JS ───
+        (function () {
+            var subsections = [{"id":"sub-362-0","zh":"布鲁克「净离」台积电，我自兼总经理","en":"","chapterStart":362,"page":362},{"id":"sub-364-1","zh":"每年变动的「十五大」","en":"","chapterStart":362,"page":364},{"id":"sub-366-2","zh":"英特尔（Intel）","en":"","chapterStart":362,"page":366},{"id":"sub-367-3","zh":"博通（Broadcom）","en":"","chapterStart":362,"page":367},{"id":"sub-368-4","zh":"辉达（Nvidia）","en":"","chapterStart":362,"page":368},{"id":"sub-369-5","zh":"高通（Qualcomm）","en":"","chapterStart":362,"page":369}] || [];
+            var chapterList = [] || [];
+            var multiChapter = false;
+            var nav = document.getElementById('secnav');
+            var list = document.getElementById('secnav-list');
+            var currentChapterStart = multiChapter ? (chapterList.length ? chapterList[0].start : 23) : 0;
+
+            function renderList(chapterStart) {
+                list.innerHTML = '';
+                var items = subsections.filter(function (s) { return s.chapterStart === chapterStart; });
+                if (!items.length) return;
+                items.forEach(function (s) {
+                    var li = document.createElement('li');
+                    li.className = 'secnav__item';
+                    var a = document.createElement('a');
+                    a.className = 'secnav__link';
+                    a.href = '#' + s.id;
+                    var zh = document.createElement('span');
+                    zh.className = 'secnav__zh';
+                    zh.textContent = s.zh;
+                    a.appendChild(zh);
+                    if (s.en) {
+                        var en = document.createElement('span');
+                        en.className = 'secnav__en';
+                        en.textContent = s.en;
+                        a.appendChild(en);
+                    }
+                    li.appendChild(a);
+                    list.appendChild(li);
+                });
+            }
+                                    function openNav() {
+                if (!nav || !list) return;
+                list.innerHTML = '';
+
+                // ── 多章合成：先渲染章列表（点击跳到各章正文章首） ──
+                if (multiChapter && chapterList.length) {
+                    var chapGroup = document.createElement('div');
+                    chapGroup.className = 'secnav__chapter-group';
+                    chapterList.forEach(function (ch, ci) {
+                        var item = document.createElement('a');
+                        item.className = 'secnav__chapter-link';
+                        item.href = '#' + ch.anchor;
+                        item.innerHTML = '<span class="secnav__num">' + (ci + 1 < 10 ? '0' : '') + (ci + 1) + '</span>' +
+                                          '<div class="secnav__content">' +
+                                            '<span class="secnav__zh">' + ch.zh + '</span>' +
+                                            (ch.en ? '<span class="secnav__en">' + ch.en + '</span>' : '') +
+                                          '</div>';
+                        chapGroup.appendChild(item);
+                    });
+                    list.appendChild(chapGroup);
+                }
+
+                // 1. 检查页面是否存在序言卡片（仅第一章包含序言）
+                
+
+                // 2. 动态读取当前章大标题（多章时跟随 currentChapterStart 动态取章名）
+                var chapHead = document.createElement('div');
+                chapHead.className = 'secnav__chapter-header';
+                var curZh = '德仪篇卷首';
+                var curEn = 'Texas Instruments: Prologue';
+                if (multiChapter && chapterList.length) {
+                    for (var k = 0; k < chapterList.length; k++) {
+                        if (chapterList[k].start === currentChapterStart) {
+                            curZh = chapterList[k].zh;
+                            curEn = chapterList[k].en;
+                            break;
+                        }
+                    }
+                }
+                chapHead.innerHTML = '<span class="secnav__chapter-num">CHAPTER CONTENT · 本章结构</span>' +
+                                     '<span class="secnav__chapter-title">' + curZh + '</span>' +
+                                     (curEn ? '<span class="secnav__chapter-en">' + curEn + '</span>' : '');
+                list.appendChild(chapHead);
+
+                // 3. 当前章的小节（多章时按 currentChapterStart 过滤；单章时全部）
+                var items = subsections;
+                if (multiChapter) {
+                    var start = currentChapterStart;
+                    items = subsections.filter(function (s) { return s.chapterStart === start; });
+                }
+                items.forEach(function (s, idx) {
+                    var numStr = (idx + 1 < 10 ? '0' : '') + (idx + 1);
+                    var li = document.createElement('li');
+                    li.className = 'secnav__item';
+                    var a = document.createElement('a');
+                    a.className = 'secnav__link';
+                    a.href = '#' + s.id;
+                    a.innerHTML = '<span class="secnav__num">' + numStr + '</span>' +
+                                  '<div class="secnav__content">' +
+                                    '<span class="secnav__zh">' + s.zh + '</span>' +
+                                    (s.en ? '<span class="secnav__en">' + s.en + '</span>' : '') +
+                                  '</div>';
+                    li.appendChild(a);
+                    list.appendChild(li);
+                });
+                nav.style.display = 'block';
+                nav.setAttribute('aria-hidden', 'false');
+            }
+            function closeNav() {
+                if (!nav) return;
+                nav.style.display = 'none';
+                nav.setAttribute('aria-hidden', 'true');
+                
+            }
+
+            // 点击章节导航条 → 打开当前章小节目录
+            document.addEventListener('click', function (e) {
+                if (e.target.closest('#rh-toc-btn')) {
+                    e.preventDefault();
+                    if (nav.style.display === 'block') { closeNav(); } else { openNav(); }
+                    return;
+                }
+                var chNav = e.target.closest('.chapter-nav--start');
+                if (chNav) {
+                    e.preventDefault();
+                    var m = chNav.id.match(/^chap-(\d+)$/);
+                    if (m) currentChapterStart = parseInt(m[1]);
+                    openNav();
+                    return;
+                }
+                // 目录里的章链接：更新当前章后关闭面板，让默认锚点跳转到章首
+                var chLink = e.target.closest('.secnav__chapter-link');
+                if (chLink) {
+                    var mm = (chLink.getAttribute('href') || '').match(/chap-(\d+)/);
+                    if (mm) currentChapterStart = parseInt(mm[1]);
+                    closeNav();
+                    return;
+                }
+                if (e.target.closest('#secnav-close') || e.target.closest('#secnav-overlay') || e.target.closest('.secnav__link')) {
+                    closeNav();
+                }
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closeNav();
+            });
+
+            // 多章合成：滚动时更新当前章（用于目录当前章小节 + 章列表高亮）
+            if (multiChapter && 'IntersectionObserver' in window) {
+                var chapterObserver = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (en) {
+                        if (en.isIntersecting) {
+                            var m = (en.target.id || '').match(/^chap-(\d+)$/);
+                            if (m) {
+                                currentChapterStart = parseInt(m[1]);
+                                // 高亮当前章列表项
+                                var links = list.querySelectorAll('.secnav__chapter-link');
+                                links.forEach(function (lk, i) {
+                                    var targetCh = chapterList[i];
+                                    if (targetCh && targetCh.start === currentChapterStart) {
+                                        lk.classList.add('is-current');
+                                    } else {
+                                        lk.classList.remove('is-current');
+                                    }
+                                });
+                            }
+                        }
+                    });
+                }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+                chapterList.forEach(function (ch) {
+                    var el = document.getElementById(ch.anchor);
+                    if (el) chapterObserver.observe(el);
+                });
+            }
+        })();
+
+        // ─── 知识窗：零框架原生 JS（双击即开，任何浏览器可用） ───
+        (function () {
+            var panel = document.getElementById('term-panel');
+            var termEl = document.getElementById('term-panel-term');
+            var meaningEl = document.getElementById('term-panel-meaning');
+            var sentLabel = document.getElementById('term-panel-sentence-label');
+            var sentEl = document.getElementById('term-panel-sentence');
+
+            function openPanel(term, meaning, sentence) {
+                if (!panel) return;
+                termEl.textContent = term || '';
+                meaningEl.textContent = meaning || '';
+                if (sentence) {
+                    sentLabel.style.display = '';
+                    sentEl.style.display = '';
+                    sentEl.textContent = sentence;
+                } else {
+                    sentLabel.style.display = 'none';
+                    sentEl.style.display = 'none';
+                }
+                panel.style.display = '';
+                panel.setAttribute('aria-hidden', 'false');
+                document.body.classList.add('panel-open');
+            }
+            function closePanel() {
+                if (!panel) return;
+                panel.style.display = 'none';
+                panel.setAttribute('aria-hidden', 'true');
+                document.body.classList.remove('panel-open');
+            }
+
+            // 关闭按钮 / 遮罩 / Esc
+            document.addEventListener('click', function (e) {
+                if (e.target.closest('#rh-toc-btn')) {
+                    e.preventDefault();
+                    if (nav.style.display === 'block') { closeNav(); } else { openNav(); }
+                    return;
+                }
+                if (e.target.closest('.term-panel__close') || e.target.closest('.term-panel__overlay')) {
+                    closePanel();
+                    return;
+                }
+                var term = e.target.closest('.interactive-term');
+                if (term) {
+                    openPanel(term.dataset.term, term.dataset.meaning, term.dataset.sentence);
+                    return;
+                }
+                var item = e.target.closest('.cheat-item');
+                if (item) {
+                    openPanel(item.dataset.term, item.dataset.meaning, item.dataset.sentence);
+                }
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closePanel();
+            });
+        })();
+    </script>
+</body>
+</html>

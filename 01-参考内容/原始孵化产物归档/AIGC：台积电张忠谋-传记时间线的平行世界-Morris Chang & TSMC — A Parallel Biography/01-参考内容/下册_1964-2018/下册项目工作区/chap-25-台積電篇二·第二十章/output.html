@@ -1,0 +1,2156 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张忠谋自传 · 双语典藏版</title>
+
+    <!-- 字体系统：完全本地化，使用系统内置字体（任何设备开箱即用，零外部请求） -->
+    <style>
+        /* 正文衬线：优先中文宋体/系统衬线，英文回退 Georgia */
+        body { font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', Georgia, 'Times New Roman', serif; }
+        /* 标题/UI 无衬线：系统级 */
+        .running-head, .chapter-nav, .toc-card, .readers-guide, .rebook-card,
+        .subsection-title, .term-panel, button {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, sans-serif;
+        }
+        /* 英文斜体印刷感：罗马衬线（二创板块统一） */
+        .subsection-title__en, .photo-caption__en, .cheat-item__term, .rhetoric-note .en, .knowledge-note .en {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            color: var(--ink);
+        }
+        /* 中文备注：楷体（二创板块统一） */
+        .cheat-item__meaning, .rhetoric-note .zh, .knowledge-note .zh {
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+        }
+    </style>
+
+    <style>
+        /* ═══════════════════════════════════════════
+           色彩体系 (Paper / Ink / Accent)
+           ═══════════════════════════════════════════ */
+        :root {
+            --paper:    #faf8f3;
+            --ink:      #1c1917;
+            --ink-soft: #44403c;
+            --ink-muted:#78716c;
+            --rule:     #e7e0d3;
+            --accent:   #9a3412;
+            --accent-lt:#fed7aa;
+            --deep:     #292524;
+        }
+
+        /* ═══════════════════════════════════════════
+           全局重置 & 基础
+           ═══════════════════════════════════════════ */
+        *, *::before, *::after { box-sizing: border-box; }
+        html { font-size: 17px; scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', Georgia, 'Times New Roman', serif;
+            line-height: 1.9;
+            -webkit-font-smoothing: antialiased;
+        }
+        ::selection { background: var(--accent-lt); color: var(--ink); }
+
+        /* ═══════════════════════════════════════════
+           书眉 (Running Head)
+           ═══════════════════════════════════════════ */
+        .running-head {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(250,248,243,0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--rule);
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        }
+        .running-head__inner {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 0.6rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .running-head__brand {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+        .running-head__dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--accent);
+            display: inline-block;
+        }
+        .running-head__brand-text {
+            font-size: 0.6rem;
+            font-weight: 400;
+            letter-spacing: 0.06em;
+            color: var(--ink-muted);
+            opacity: 0.45;
+        }
+        .running-head__slogan {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.82rem;
+            font-style: italic;
+            color: var(--ink-soft);
+            letter-spacing: 0.03em;
+            flex: 1;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .running-head__chapter {
+            font-size: 0.62rem;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            color: var(--ink-muted);
+            opacity: 0.5;
+            text-transform: uppercase;
+            flex-shrink: 0;
+            max-width: 40%;
+            text-align: right;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* ═══════════════════════════════════════════
+           扉页 (Title Page)
+           ═══════════════════════════════════════════ */
+        .title-page {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 5rem 2rem 4rem;
+            text-align: center;
+            animation: bookFade 0.9s ease both;
+        }
+        @keyframes bookFade {
+            from { opacity: 0; transform: translateY(16px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .title-page__eyebrow {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 1.5rem;
+        }
+        .title-page__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 2.6rem;
+            font-weight: 800;
+            color: var(--ink);
+            letter-spacing: -0.01em;
+            line-height: 1.2;
+            margin: 0 0 1.5rem;
+        }
+        .title-page__author {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: var(--ink-soft);
+            letter-spacing: 0.04em;
+            margin-bottom: 2.5rem;
+        }
+        /* 装饰分隔符 */
+        .ornament {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            margin: 0 auto 2.5rem;
+            max-width: 20rem;
+            color: var(--accent);
+            font-size: 0.85rem;
+        }
+        .ornament::before,
+        .ornament::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--rule), transparent);
+        }
+        .title-page__quote {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            max-width: 28rem;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        .title-page__author-en {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.9rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        /* 出版版权卡 */
+        .title-page__copyright {
+            max-width: 30rem;
+            margin: 3rem auto 0;
+            border: 1px solid var(--rule);
+            border-radius: 10px;
+            padding: 1.6rem 2rem;
+            text-align: left;
+            font-size: 0.9rem;
+            color: var(--ink-soft);
+            line-height: 2;
+            background: #fdfcf8;
+            box-shadow: 0 2px 12px rgba(28,25,23,0.04);
+        }
+        .title-page__copyright-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.2rem 0;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .title-page__copyright-row:last-child {
+            border-bottom: none;
+        }
+        .title-page__copyright-label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            color: var(--ink-muted);
+            white-space: nowrap;
+            margin-right: 1.5rem;
+        }
+        .title-page__copyright-value {
+            text-align: right;
+            font-weight: 600;
+            color: var(--ink);
+        }
+
+        /* ═══════════════════════════════════════════
+           正文区 (Main Content) — 单栏流动阅读
+           ═══════════════════════════════════════════ */
+        main {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 0 1.5rem 6rem;
+        }
+
+        /* 双语段落对 */
+        .bilingual-pair {
+            margin-bottom: 1.5rem;
+        }
+        .bilingual-pair + .bilingual-pair {
+            margin-top: 0.25rem;
+        }
+
+        /* ReadShift 双语翻译框架：陶土橙左边线 + 微标签，与原书中文明确区分 */
+        .rebook-translation {
+            position: relative;
+            margin: 1.25rem 0 1.5rem;
+            padding: 0.9rem 1.25rem 0.6rem 1.25rem;
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(to right, rgba(154,52,18,0.03), transparent 70%);
+        }
+        .rebook-translation__label {
+            display: block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.22em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.35rem;
+        }
+        .rebook-translation__label::before {
+            content: "◆ ";
+            font-size: 0.55rem;
+        }
+        .rebook-translation .en-para {
+            margin-bottom: 0.6rem;
+        }
+
+        /* ═══ 章节导航条（解决读者迷路） ═══ */
+        .chapter-nav {
+            margin: 2.5rem 0 2rem;
+        }
+        .chapter-nav--start {
+            text-align: center;
+            padding: 2.5rem 2rem;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .chapter-nav__badge {
+            display: inline-block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+            background: rgba(154,52,18,0.08);
+            padding: 0.2rem 0.9rem;
+            border-radius: 4px;
+            margin-bottom: 0.8rem;
+        }
+        .chapter-nav__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--ink);
+            margin: 0 0 0.4rem;
+        }
+        .chapter-nav__byline {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--ink-muted);
+        }
+        /* 🎯 章标题卡：首段英文副标题 + 装饰分割线（与小节标题双语风格统一） */
+        .chapter-nav__title-en {
+            display: block;
+            font-family: 'Baskerville', 'Cormorant Garamond', Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.92rem;
+            letter-spacing: 0.05em;
+            color: var(--ink-muted);
+            opacity: 0.82;
+            margin: 0.15rem 0 0.7rem;
+            line-height: 1.4;
+        }
+        .chapter-nav__divider {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.8rem;
+            margin: 0.9rem auto 1rem;
+            max-width: 20rem;
+        }
+        .chapter-nav__divider::before,
+        .chapter-nav__divider::after {
+            content: "";
+            height: 1px;
+            flex: 1;
+            background: linear-gradient(to right, transparent, var(--rule), var(--rule));
+        }
+        .chapter-nav__divider::after {
+            background: linear-gradient(to left, transparent, var(--rule), var(--rule));
+        }
+        .chapter-nav__divider-orn {
+            font-size: 0.72rem;
+            color: var(--accent);
+            opacity: 0.7;
+        }
+        .chapter-nav--mini {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin: 1.8rem 0 0.5rem;
+            padding: 0.5rem 0.9rem;
+            background: rgba(245,240,230,0.7);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 6px 6px 0;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            color: var(--ink-soft);
+        }
+        .chapter-nav__dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--accent);
+            display: inline-block;
+            flex-shrink: 0;
+        }
+        .chapter-nav__current {
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        /* ═══════════════════════════════════════════
+           序言卡 (Preface Card)
+           ═══════════════════════════════════════════ */
+        .preface-card {
+            text-align: center;
+            padding: 2.5rem 2rem;
+            margin: 2rem 0;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .preface-badge {
+            display: inline-block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            color: var(--accent);
+            text-transform: uppercase;
+            background: rgba(154,52,18,0.08);
+            padding: 0.2rem 0.8rem;
+            border-radius: 4px;
+            margin-bottom: 0.8rem;
+        }
+        .preface-card h2 {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin: 0.5rem 0 0.6rem;
+            line-height: 1.4;
+        }
+        .author-byline {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--ink-muted);
+            margin: 0;
+        }
+
+        /* ═══════════════════════════════════════════
+           阅读指南 (Reader's Guide)
+           ═══════════════════════════════════════════ */
+        .readers-guide {
+            text-align: center;
+            padding: 3rem 2rem;
+            margin: 2rem 0;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .readers-guide__header { margin-bottom: 1.5rem; }
+        .readers-guide__eyebrow {
+            display: block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+        .readers-guide__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin: 0 0 0.5rem;
+            letter-spacing: 0.05em;
+        }
+        .readers-guide__intro {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: var(--ink-soft);
+            max-width: 36rem;
+            margin: 0 auto 2rem;
+            text-indent: 0;
+        }
+        .readers-guide__items {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.4rem 3.2rem;
+            max-width: 44rem;
+            margin: 0 auto;
+            text-align: left;
+        }
+        /* 最后一个格（全景目录导航）横跨两列：居中平铺拉伸 */
+        .readers-guide__item:last-child {
+            grid-column: 1 / -1;
+            align-items: center;
+        }
+        .readers-guide__item:last-child .readers-guide__mark {
+            display: none;
+        }
+        .readers-guide__item:last-child .readers-guide__desc {
+            text-align: center;
+            padding: 0.6rem 1rem;
+            background: rgba(154, 52, 18, 0.04);
+            border: 1px dashed var(--rule);
+            border-radius: 8px;
+        }
+        @media (max-width: 48rem) {
+            .readers-guide__items { grid-template-columns: 1fr; gap: 1.5rem; }
+            .readers-guide__item:last-child { grid-column: auto; }
+            .readers-guide__item:last-child .readers-guide__mark { display: inline-block; }
+            .readers-guide__item:last-child .readers-guide__desc { text-align: left; }
+        }
+                .readers-guide__item {
+            display: flex;
+            gap: 1.25rem;
+            align-items: flex-start;
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px dotted var(--rule);
+        }
+        .readers-guide__item:nth-last-child(-n+2) { 
+            border-bottom: none; 
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        @media (max-width: 48rem) {
+            .readers-guide__item:nth-last-child(-n+2) {
+                border-bottom: 1px dotted var(--rule);
+                margin-bottom: 1.5rem;
+                padding-bottom: 1.5rem;
+            }
+            .readers-guide__item:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+        }
+
+        /* 四种标记的视觉语言：统一陶土橙基调，用边框样式区分 */
+        .readers-guide__mark {
+            flex-shrink: 0;
+            width: 2rem;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1rem;
+            color: var(--accent);
+            text-align: center;
+            line-height: 1.4;
+            padding-top: 0.2rem;
+        }
+        .readers-guide__mark--original { border-bottom: 2px solid var(--ink); padding-top: 0.5rem; }
+        .readers-guide__mark--bilingual { border-left: 3px solid var(--accent); }
+        .readers-guide__mark--cards    { border-bottom: 2px dashed var(--accent-lt); padding-top: 0.4rem; }
+        .readers-guide__mark--terms    { border-left: 1px solid var(--accent); border-right: 1px solid var(--accent); padding: 0.2rem 0.3rem; }
+
+        .readers-guide__label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            color: var(--ink-muted);
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+        .readers-guide__desc {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.9rem;
+            line-height: 1.75;
+            color: var(--ink-soft);
+        }
+        .mark-text { font-weight: 500; }
+        .mark-text--orange { color: var(--accent); }
+        .mark-text--warm   { background: #f5f0e6; padding: 0 4px; border-radius: 3px; }
+        .mark-text--blue   { color: var(--accent); text-decoration: underline; text-decoration-color: rgba(154,52,18,0.4); text-underline-offset: 3px; }
+        .readers-guide__project {
+            margin-top: 2rem;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.75rem;
+            color: var(--ink-muted);
+            text-align: center;
+            line-height: 1.6;
+        }
+        .readers-guide__project a {
+            color: var(--ink-muted);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--rule);
+            margin-left: 0.2em;
+        }
+        .readers-guide__project a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        /* GitHub 项目地址：银灰色、缩小、低调，不与正文抢视觉 */
+        .readers-guide__project-link {
+            margin-top: 0.9rem;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 0.72rem;
+            color: #9298a0;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .readers-guide__project-link a {
+            color: #9298a0;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(146,152,160,0.55);
+        }
+        .readers-guide__project-link a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        /* 中文段落：衬线体，首行缩进 2em */
+        .cn-para {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.08rem;
+            line-height: 1.95;
+            color: var(--ink);
+            text-indent: 2em;
+            margin: 0 0 1.5rem;
+            letter-spacing: 0.01em;
+        }
+
+        /* 英文段落：无衬线体，首行缩进 1.2em */
+        .en-para {
+            font-family: 'IBM Plex Sans', 'PingFang SC', sans-serif;
+            font-size: 1.02rem;
+            line-height: 1.85;
+            color: var(--ink-soft);
+            text-indent: 1.2em;
+            margin: 0 0 1.5rem;
+            letter-spacing: 0.01em;
+        }
+        /* 英文首段 Drop Cap */
+        .en-para.en-first::first-letter {
+            float: left;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 4.4em;
+            line-height: 0.82;
+            padding-right: 0.1em;
+            padding-top: 0.06em;
+            font-weight: 800;
+            color: var(--accent);
+            text-indent: 0 !important;
+        }
+        .en-para.en-first {
+            text-indent: 0 !important;
+        }
+
+        /* 章节分隔线 */
+        .section-divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--rule), transparent);
+            margin: 2.5rem 0;
+        }
+
+        /* 章节标题 */
+        article h1, article h2, article h3 {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            color: var(--ink);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            text-indent: 0 !important;
+        }
+        article h1 { font-size: 1.8rem; letter-spacing: -0.01em; }
+        article h2 { font-size: 1.35rem; }
+        article h3 { font-size: 1.1rem; color: var(--ink-soft); }
+
+        /* 列表无缩进 */
+        article ul, article ol {
+            padding-left: 1.5rem;
+            margin: 1rem 0 1.5rem;
+        }
+        article li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.02rem;
+            line-height: 1.9;
+            color: var(--ink-soft);
+            margin-bottom: 0.5rem;
+        }
+
+        /* 引言块 */
+        article blockquote {
+            border-left: 3px solid var(--accent);
+            background: #f5f0e6;
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            border-radius: 0 6px 6px 0;
+        }
+        article blockquote p {
+            text-indent: 0 !important;
+            font-style: italic;
+            color: var(--ink-soft);
+            font-size: 1rem;
+            line-height: 1.85;
+            margin: 0;
+        }
+
+        /* ═══════════════════════════════════════════
+           出版级可点击目录卡片 (Designed Interactive TOC)
+           ═══════════════════════════════════════════ */
+        .toc-card {
+            background: #ffffff;
+            border: 1px solid var(--rule);
+            border-radius: 12px;
+            padding: 2.2rem 2.5rem;
+            margin: 3.5rem 0;
+            box-shadow: 0 4px 20px rgba(28, 25, 23, 0.05);
+        }
+        .toc-card__header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .toc-card__eyebrow {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+        }
+        .toc-card__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--ink);
+            margin: 0.4rem 0 0;
+        }
+        .toc-card__list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .toc-card__item {
+            margin-bottom: 0.9rem;
+        }
+        .toc-card__item:last-child {
+            margin-bottom: 0;
+        }
+        .toc-card__link {
+            display: flex;
+            align-items: baseline;
+            text-decoration: none;
+            color: var(--ink);
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            transition: color 0.15s ease;
+        }
+        .toc-card__link:hover {
+            color: var(--accent);
+        }
+        .toc-card__name {
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .toc-card__dots {
+            flex: 1;
+            border-bottom: 1px dashed var(--rule);
+            margin: 0 0.75rem;
+            position: relative;
+            top: -0.2em;
+        }
+        .toc-card__info {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.85rem;
+            color: var(--ink-muted);
+            white-space: nowrap;
+        }
+
+        /* ═══════════════════════════════════════════
+           自我审美重构：出版级杂志卡片 (Editorial Cheat Card)
+           ═══════════════════════════════════════════ */
+        .cheat-sheet {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 1.25rem !important;
+            margin: 2.2rem 0 !important;
+        }
+
+        .cheat-card {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 0.9rem !important;
+            padding: 1.4rem 1.6rem !important;
+            background: #ffffff !important;
+            border: 1px solid var(--rule) !important;
+            border-radius: 10px !important;
+            box-shadow: 0 2px 8px rgba(28, 25, 23, 0.04), 0 1px 3px rgba(28, 25, 23, 0.02) !important;
+            cursor: pointer !important;
+            transition: box-shadow 0.2s ease, transform 0.15s ease !important;
+        }
+        .cheat-card:hover {
+            box-shadow: 0 6px 20px rgba(154, 52, 18, 0.12), 0 2px 6px rgba(28, 25, 23, 0.06) !important;
+            transform: translateY(-2px) !important;
+        }
+
+        /* 卡片头部：词汇与对应中文名 */
+        .cc-term {
+            display: flex !important;
+            align-items: baseline !important;
+            justify-content: space-between !important;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 1.12rem !important;
+            font-weight: 700 !important;
+            color: var(--accent) !important;
+            border-bottom: 1px solid var(--rule) !important;
+            padding-bottom: 0.65rem !important;
+            padding-right: 0 !important;
+            border-right: none !important;
+        }
+
+        /* 卡片主体：双列 45% : 55% 黄金平铺，彻底告别单字竖排挤压 */
+        .cheat-card-body {
+            display: grid !important;
+            grid-template-columns: 1fr 1.25fr !important;
+            gap: 1.5rem !important;
+            align-items: start !important;
+        }
+
+        .cc-meaning {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-size: 0.98rem !important;
+            font-weight: 400 !important;
+            color: var(--ink) !important;
+            line-height: 1.75 !important;
+            padding: 0 !important;
+            text-indent: 0 !important;
+        }
+
+        /* 商业造句：浅雅对比内衬背景，取消 nowrap 截断，完全展示完整美感 */
+        .cc-sentence {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-size: 0.93rem !important;
+            font-style: italic !important;
+            color: var(--ink-soft) !important;
+            line-height: 1.7 !important;
+            padding: 0.8rem 1.1rem !important;
+            background: #fdfbf7 !important;
+            border-left: 3px solid var(--accent-lt) !important;
+            border-radius: 0 6px 6px 0 !important;
+            white-space: normal !important;            /* 彻底取消 ellipsis 强行截断 */
+            overflow: visible !important;
+            text-overflow: clip !important;
+        }
+
+
+        /* ═══════════════════════════════════════════
+           小节标题 (原书子板块 · 居中加粗)
+           ═══════════════════════════════════════════ */
+        .subsection-title {
+            text-align: center;
+            margin: 2.6rem auto 1.4rem;
+            padding: 0.5rem 0 0.4rem;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--ink);
+            max-width: 30rem;
+            border-bottom: 1px solid var(--rule);
+            position: relative;
+        }
+        .subsection-title::before,
+        .subsection-title::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            width: 2.2rem;
+            height: 2px;
+            background: var(--accent);
+            opacity: 0.6;
+        }
+        .subsection-title::before { left: 50%; margin-left: -2.4rem; }
+        .subsection-title::after  { right: 50%; margin-right: -2.4rem; }
+        .subsection-title__zh {
+            display: block;
+            font-size: 1.02rem;
+            letter-spacing: 0.22em;
+        }
+        .subsection-title__en {
+            display: block;
+            font-family: 'Baskerville', 'Cormorant Garamond', Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.78rem;
+            letter-spacing: 0.05em;
+            color: var(--ink-muted);
+            margin-top: 0.25rem;
+        }
+
+                                        /* ═══════════════════════════════════════════
+           低调挂卡：极致紧凑小字单行导航 (Ultra-Compact Low-Profile Nav)
+           ═══════════════════════════════════════════ */
+        .secnav {
+            position: fixed;
+            top: 2.3rem;
+            left: 1.2rem;
+            z-index: 100;
+            display: none;
+        }
+        /* 目录遮罩：铺满全屏但不改变视觉，仅用于拦截"点击目录外空白 → 关闭" */
+        .secnav__overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 99;      /* 在卡片(更高)之下、正文之上：点卡片是卡片交互，点之外是关闭 */
+            background: transparent;
+        }
+        .secnav__card {
+            position: relative;
+            z-index: 101;     /* 浮在遮罩(99)之上：点卡片仍是卡片交互，点遮罩(外部)关闭 */
+            width: min(92vw, 22rem);
+            max-height: 68vh;
+            overflow-y: auto;
+            background: rgba(250, 248, 243, 0.97);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--rule);
+            border-radius: 6px;
+            padding: 0.6rem 0.75rem 0.7rem;
+            box-shadow: 0 8px 24px rgba(28, 25, 23, 0.14);
+        }
+        .secnav__link {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.45rem;
+            padding: 0.35rem 0.35rem;
+            text-decoration: none;
+            color: var(--ink-soft);
+            border-radius: 4px;
+            transition: all 0.12s ease;
+            white-space: normal !important;
+            overflow: visible !important;
+            word-break: break-word !important;
+        }
+        .secnav__link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__num {
+            font-family: 'Baskerville', 'Georgia', 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--accent);
+            opacity: 0.85;
+            flex-shrink: 0;
+            margin-top: 0.05rem;
+            min-width: 1.1rem;
+        }
+        .secnav__content {
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+            flex: 1;
+            white-space: normal !important;
+            overflow: visible !important;
+            word-break: break-word !important;
+        }
+        .secnav__zh {
+            font-size: 0.72rem;
+            font-weight: 500;
+            color: var(--ink);
+            line-height: 1.35;
+            white-space: normal !important;
+            word-break: break-word !important;
+        }
+        .secnav__en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.63rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            line-height: 1.3;
+            white-space: normal !important;
+            word-break: break-word !important;
+            overflow: visible !important;
+        }
+        body.nav-open { overflow: hidden; }
+
+        /* ═══════════════════════════════════════════
+           照片图注 (Photo Container & Caption - 居中双语)
+           ═══════════════════════════════════════════ */
+        .photo-container {
+            text-align: center;
+            margin: 2.2rem auto 0.8rem;
+            max-width: 100%;
+        }
+        .photo-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 85%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--rule);
+        }
+        .photo-caption {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            color: var(--ink-muted);
+            text-align: center;
+            margin: 0.8rem auto 2rem;
+            max-width: 32rem;
+            line-height: 1.6;
+        }
+        .photo-caption__zh {
+            display: block;
+            color: var(--ink-soft);
+            margin-bottom: 0.2rem;
+        }
+        .photo-caption__zh::before {
+            content: "▧ ";
+            color: var(--accent);
+            opacity: 0.7;
+        }
+        .photo-caption__en {
+            display: block;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.68rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            opacity: 0.85;
+        }
+
+        /* ═══════════════════════════════════════════
+           二创延伸卡片 (ReBook Card - 高利用率旁注/备注式)
+           ═══════════════════════════════════════════
+           设计原则：低调不抢戏、高空间利用率、衬线/罗马斜体/楷体注脚感。 */
+        .rebook-card {
+            margin: 0.9rem 0;
+            padding: 0.5rem 0.9rem 0.6rem;
+            border: 1px solid var(--rule);
+            border-left: 3px solid var(--accent);
+            border-radius: 4px;
+            background: rgba(250, 248, 243, 0.6);
+        }
+        .rebook-card__title {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin: 0 0 0.35rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .rebook-card__title-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: 400;
+            text-transform: none;
+            letter-spacing: 0.04em;
+            color: var(--ink-muted);
+            opacity: 0.8;
+            font-size: 0.58rem;
+        }
+        .rebook-card__body {
+            font-size: 0.85rem;
+        }
+        /* ═══════════════════════════════════════════
+           二创延伸卡片统一字体规范（三板块共享）
+           ═══════════════════════════════════════════
+           · 英文：黑色加粗斜体（Georgia 罗马系）
+           · 中文：楷体小字
+           · 全部小字备注风格，不喧宾夺主 */
+        .rebook-card__body p,
+        .rebook-card__body li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.85rem !important;
+            line-height: 1.65 !important;
+            color: var(--ink-soft) !important;
+            text-indent: 0 !important;
+            margin-bottom: 0.4rem !important;
+        }
+        /* 修辞赏析：中英双语小字备注式（英文黑色加粗斜体 + 中文楷体斜体） */
+        .rebook-card__body .rhetoric-note {
+            display: block;
+            font-size: 0.78rem;
+            line-height: 1.6;
+            color: var(--ink-soft);
+            margin: 0.25rem 0;
+            padding: 0;
+            border: none;
+        }
+        .rebook-card__body .rhetoric-note .zh {
+            color: var(--ink-soft);
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+        }
+        .rebook-card__body .rhetoric-note .en {
+            color: var(--ink);
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            opacity: 0.9;
+            display: block;
+            font-size: 0.75rem;
+            margin-top: 0.1rem;
+        }
+        .rebook-card__body h1,
+        .rebook-card__body h2,
+        .rebook-card__body h3,
+        .rebook-card__body h4 {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 0.65rem !important;
+            font-weight: 700 !important;
+            letter-spacing: 0.1em !important;
+            text-transform: uppercase !important;
+            color: var(--accent) !important;
+            margin: 0.5rem 0 0.3rem !important;
+            padding-bottom: 0.2rem !important;
+            border-bottom: 1px dashed var(--rule) !important;
+        }
+        .rebook-card__body strong { color: var(--ink); }
+        .rebook-card__body ul,
+        .rebook-card__body ol {
+            margin: 0.2rem 0 0.3rem !important;
+            padding-left: 1.1rem !important;
+        }
+
+        /* Cheat Sheet: 极致紧凑注脚式两栏/单行网格 —— 高利用率、英文黑色加粗斜体、中文楷体备注感、不抢戏 */
+        .cheat-note-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            padding: 0.1rem 0;
+        }
+        .cheat-item {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 0.35rem 0.6rem;
+            padding: 0.25rem 0;
+            border-bottom: 1px dotted rgba(231, 224, 211, 0.7);
+        }
+        .cheat-item:last-child {
+            border-bottom: none;
+        }
+        .cheat-item__term {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-style: italic !important;
+            font-weight: 700 !important;
+            font-size: 0.84rem !important;
+            color: var(--ink) !important;
+            letter-spacing: 0.01em;
+            background: none !important;
+            padding: 0 !important;
+            border: none !important;
+        }
+        .cheat-item__sep {
+            color: var(--ink-muted);
+            opacity: 0.45;
+            font-size: 0.75rem;
+        }
+        .cheat-item__meaning {
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif !important;
+            font-size: 0.82rem !important;
+            font-weight: 400 !important;
+            color: var(--ink-soft) !important;
+            line-height: 1.5 !important;
+            background: none !important;
+            padding: 0 !important;
+            border: none !important;
+        }
+            padding: 0 !important;
+            border: none !important;
+        }
+        .rebook-card__body .cc-sentence {
+            display: none !important;
+        }
+
+        /* ═══════════════════════════════════════════
+           背景知识延伸 (Knowledge Note - 中英双语小字斜体备注)
+           字体与修辞赏析/Cheat Sheet 统一：
+           英文黑色加粗斜体 + 中文楷体斜体
+           ═══════════════════════════════════════════ */
+        .knowledge-note {
+            margin: 0.35rem 0;
+            padding: 0.15rem 0;
+            line-height: 1.6;
+        }
+        .knowledge-note .zh {
+            display: inline;
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+            font-size: 0.78rem;
+            color: var(--ink-soft);
+        }
+        .knowledge-note .en {
+            display: inline;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 0.72rem;
+            color: var(--ink);
+            opacity: 0.9;
+        }
+        .knowledge-note .zh::after {
+            content: "  ";
+            white-space: pre;
+        }
+        .knowledge-note .en::before {
+            content: " — ";
+            color: var(--ink-muted);
+            opacity: 0.5;
+        }
+
+        /* 兼容旧样式（未折叠时） */
+        .knowledge-window {
+            margin: 1.2rem 0;
+            padding: 1rem 1.25rem;
+            background: #faf8f3;
+            border-radius: 6px;
+            border: 1px solid var(--rule);
+            border-left: 2px solid var(--accent-lt);
+        }
+        .knowledge-window h3,
+        .knowledge-window h4 {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-top: 0;
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .knowledge-window p,
+        .knowledge-window li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.88rem;
+            line-height: 1.8;
+            color: var(--ink-soft);
+            text-indent: 0 !important;
+            margin-bottom: 0.5rem;
+        }
+
+        /* ═══════════════════════════════════════════
+           互动词汇 (Interactive Term)
+           ═══════════════════════════════════════════ */
+        .interactive-term {
+            cursor: pointer;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-color: var(--accent-lt);
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+            padding: 0 2px;
+            border-radius: 3px;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+        .interactive-term:hover {
+            background: rgba(154,52,18,0.08);
+            color: #7c2d12;
+        }
+
+        /* ═══════════════════════════════════════════
+           页脚 (Colophon)
+           ═══════════════════════════════════════════ */
+        footer {
+            border-top: 1px solid var(--rule);
+            background: rgba(245,240,230,0.6);
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        .colophon__inner {
+            max-width: 42rem;
+            margin: 0 auto;
+        }
+        .colophon__ornament {
+            color: var(--accent);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .colophon__ornament::before,
+        .colophon__ornament::after {
+            content: "";
+            width: 4rem;
+            height: 1px;
+            background: var(--rule);
+        }
+        .colophon__tagline {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.95rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            margin-bottom: 1.2rem;
+        }
+        .colophon__meta {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+        }
+
+        /* ═══════════════════════════════════════════
+           知识窗侧边栏 (Slide-over)
+           ═══════════════════════════════════════════ */
+        .term-panel {
+            position: fixed;
+            position: sticky; top: 2.2rem; left: 1rem; z-index: 99;
+            z-index: 99;
+            display: none;
+        }
+        .term-panel[ x-show ] { display: flex; }
+        .term-panel__overlay {
+            position: absolute;
+            position: sticky; top: 2.2rem; left: 1rem; z-index: 99;
+            background: rgba(41,37,36,0.35);
+            backdrop-filter: blur(4px);
+        }
+        .term-panel__card {
+            position: relative;
+            width: 100%;
+            max-width: 28rem;
+            margin-left: auto;
+            height: 100%;
+            background: var(--paper);
+            box-shadow: -8px 0 32px rgba(28,25,23,0.15);
+            padding: 2.5rem 2rem;
+            overflow-y: auto;
+            border-left: 1px solid var(--rule);
+        }
+        .term-panel__close {
+            position: absolute;
+            top: 1.2rem;
+            right: 1.2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--ink-muted);
+            transition: color 0.15s;
+        }
+        .term-panel__close:hover { color: var(--ink); }
+        .term-panel__label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 0.75rem;
+        }
+        .term-panel__term {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--ink);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+        .term-panel__meaning {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            line-height: 1.85;
+            color: var(--ink-soft);
+            margin-bottom: 1.5rem;
+            padding: 1rem 1.25rem;
+            background: #f5f0e6;
+            border-radius: 6px;
+            border-left: 3px solid var(--accent);
+        }
+        .term-panel__sentence-label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 0.5rem;
+        }
+        .term-panel__sentence {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.95rem;
+            font-style: italic;
+            line-height: 1.75;
+            color: var(--ink-muted);
+        }
+
+        /* ═══════════════════════════════════════════
+           响应式
+           ═══════════════════════════════════════════ */
+        @media (max-width: 48rem) {
+            .cheat-card {
+                grid-template-columns: 1fr;
+                gap: 0.35rem;
+            }
+            .cc-term {
+                border-right: none;
+                border-bottom: 1px solid var(--rule);
+                padding-bottom: 0.4rem;
+                margin-bottom: 0.2rem;
+            }
+            .cc-sentence {
+                border-left: none;
+                padding-left: 0;
+                white-space: normal;
+                overflow: visible;
+                text-overflow: clip;
+            }
+        }
+    
+        /* ═══════════════════════════════════════════
+           出版级典雅商业表格 (Designed Publishing Table)
+           ═══════════════════════════════════════════ */
+        article table {
+            width: 100% !important;
+            table-layout: fixed !important;
+            border-collapse: separate !important;
+            border-spacing: 0 !important;
+            margin: 2rem 0 !important;
+            border: 1px solid var(--rule) !important;
+            border-radius: 8px !important;
+            overflow: hidden !important;
+            background: #ffffff !important;
+            box-shadow: 0 2px 8px rgba(28, 25, 23, 0.04) !important;
+        }
+
+        article thead {
+            background: #f5f0e6 !important;
+            border-bottom: 1px solid var(--rule) !important;
+        }
+
+        article th {
+            display: table-cell !important;
+            padding: 0.9rem 1.2rem !important;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 0.8rem !important;
+            font-weight: 700 !important;
+            letter-spacing: 0.12em !important;
+            text-transform: uppercase !important;
+            color: var(--accent) !important;
+            border-bottom: 2px solid var(--rule) !important;
+            text-indent: 0 !important;
+        }
+
+        article th:nth-child(1) { width: 22% !important; }
+        article th:nth-child(2) { width: 35% !important; }
+        article th:nth-child(3) { width: 43% !important; }
+
+        article td {
+            padding: 1.1rem 1.2rem !important;
+            vertical-align: top !important;
+            border-bottom: 1px solid #f0e9dd !important;
+            font-size: 0.96rem !important;
+            line-height: 1.7 !important;
+            text-indent: 0 !important;
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+        }
+
+        article tr:last-child td {
+            border-bottom: none !important;
+        }
+
+        article tr:nth-child(even) td {
+            background: #fdfbf7 !important;
+        }
+
+        article td:nth-child(1) {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-weight: 600 !important;
+            color: var(--ink) !important;
+            white-space: normal !important;
+        }
+
+        article td:nth-child(2) {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-weight: 700 !important;
+            color: var(--accent) !important;
+        }
+
+        article td:nth-child(3) {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            color: var(--ink-soft) !important;
+        }
+
+
+        /* 🎯 顶部书眉【本章目录】按钮 */
+        .running-head__toc-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            background: rgba(0,0,0,0.05); cursor: pointer;
+            color: var(--ink-soft);
+            border: 1px solid var(--rule);
+            border-radius: 4px;
+            padding: 0.2rem 0.55rem;
+            font-size: 0.72rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .running-head__toc-btn:hover {
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+            border-color: var(--accent-lt);
+        }
+        .running-head__brand {
+            font-size: 0.65rem !important;
+            color: var(--ink-soft) !important;
+            opacity: 0.75 !important;
+            font-weight: 500 !important;
+            transition: opacity 0.2s ease, color 0.2s ease;
+        }
+        .running-head__brand:hover {
+            opacity: 1 !important;
+            color: var(--accent) !important;
+        }
+        .running-head__toc-btn:hover {
+            background: var(--accent);
+            color: #ffffff;
+            border-color: var(--accent);
+        }
+
+        /* 🎯 右下角【返回顶部】悬浮按钮 */
+        .back-to-top-float {
+            position: fixed;
+            bottom: 1.8rem;
+            right: 1.8rem;
+            z-index: 90;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            background: var(--paper);
+            color: var(--ink-soft);
+            border: 1px solid var(--rule);
+            border-radius: 20px;
+            padding: 0.4rem 0.85rem;
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-decoration: none !important;
+            box-shadow: 0 4px 14px rgba(28, 25, 23, 0.1);
+            transition: all 0.2s ease;
+            opacity: 0.85;
+        }
+        .back-to-top-float:hover {
+            opacity: 1;
+            color: var(--accent);
+            border-color: var(--accent-lt);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(154, 52, 18, 0.15);
+        }
+
+
+        .secnav__pref-group {
+            margin-bottom: 0.7rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .secnav__pref-link {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.25rem 0.3rem;
+            font-size: 0.78rem;
+            color: var(--ink-soft);
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.12s;
+        }
+        .secnav__pref-link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__pref-tag {
+            font-size: 0.62rem;
+            padding: 0.1rem 0.35rem;
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        .secnav__brand-title {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--ink-muted);
+            opacity: 0.6;
+            text-transform: uppercase;
+        }
+        /* 🎯 章节大标题与英文两行清晰对齐样式 */
+        .secnav__chapter-header {
+            padding: 0.4rem 0.35rem 0.5rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.2rem;
+            border-bottom: 1.5px solid var(--accent);
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+        .secnav__chapter-num {
+            font-size: 0.55rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--accent);
+            text-transform: uppercase;
+            display: block !important;
+            line-height: 1.2;
+        }
+                .secnav__chapter-title {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: block !important;
+            line-height: 1.4;
+            margin: 0.15rem 0 0.1rem;
+        }
+        .secnav__chapter-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.68rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            display: block !important;
+            line-height: 1.35;
+            margin-top: 0.1rem;
+        }
+        /* 🎯 多章合成：章列表分组（顶层章跳转入口） */
+        .secnav__chapter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.15rem;
+            padding: 0.15rem 0 0.4rem;
+            margin-bottom: 0.4rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .secnav__chapter-link {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.45rem;
+            padding: 0.4rem 0.35rem;
+            text-decoration: none;
+            color: var(--ink-soft);
+            border-radius: 4px;
+            transition: all 0.12s ease;
+            white-space: normal !important;
+            word-break: break-word !important;
+        }
+        .secnav__chapter-link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__chapter-link .secnav__zh {
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+        .secnav__chapter-link.is-current {
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+        }
+        .secnav__chapter-link.is-current .secnav__zh {
+            color: var(--accent);
+        }
+        /* 🎯 下拉导航挂卡：标题类元素全量居中对齐 */
+        .secnav__head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding-bottom: 0.35rem;
+            margin-bottom: 0.4rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .secnav__brand-title {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--ink-muted);
+            opacity: 0.65;
+            text-transform: uppercase;
+            text-align: center;
+            width: 100%;
+        }
+        .secnav__close {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--ink-muted);
+            cursor: pointer;
+            padding: 2px;
+        }
+
+        .secnav__pref-group {
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px dashed var(--rule);
+            text-align: center;
+        }
+        .secnav__chapter-header {
+            padding: 0.35rem 0.2rem 0.5rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1.5px solid var(--accent);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .secnav__chapter-num {
+            font-size: 0.55rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--accent);
+            text-transform: uppercase;
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 0.15rem;
+        }
+        .secnav__chapter-title {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            line-height: 1.4;
+            margin: 0.1rem 0 0.1rem;
+        }
+        .secnav__chapter-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.66rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            line-height: 1.35;
+        }
+</style>
+</head>
+
+<body id="top" class="bg-paper text-ink antialiased">
+
+    <!-- ═══════════════ 书眉 ═══════════════ -->
+    <header class="running-head">
+        <div class="running-head__inner">
+            <!-- 左侧：目录按钮 -->
+            <button class="running-head__toc-btn" id="rh-toc-btn" title="查看目录">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+                <span>目录</span>
+            </button>
+            <!-- 中间：非常低调弱化的书名/标语 -->
+            <span class="running-head__slogan">源起于文本，想象于无限</span>
+            <!-- 右侧：弱化小字 ReadShift · 私人书房 -->
+            <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="running-head__brand" title="访问 ReadShift GitHub 仓库" style="text-decoration:none; cursor:pointer;" aria-label="ReadShift GitHub Repo">
+                <span class="running-head__dot"></span>
+                <span class="running-head__brand-text">ReadShift &middot; 私人书房</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- 🎯 屏幕右下角悬浮：快捷返回顶部 -->
+    <a href="#top" class="back-to-top-float" id="back-to-top" title="返回顶部">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        <span>顶部</span>
+    </a>
+
+    <!-- ═══════════════ 扉页 (Title Page + 出版版权卡) ═══════════════ -->
+    <div class="title-page">
+        <p class="title-page__eyebrow">AI-Powered Reading Redefined</p>
+        <h1 class="title-page__title">张忠谋自传 · 双语典藏版</h1>
+        <p class="title-page__author">张忠谋 着</p>
+        <p class="title-page__author-en">Morris Chang · Autobiography, Volume One</p>
+        <div class="ornament">✦</div>
+
+        <!-- 出版版权卡：完整的出版与版本信息 -->
+        <div class="title-page__copyright">
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">全书作者</span>
+                <span class="title-page__copyright-value">张忠谋（着）</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">台湾版出版</span>
+                <span class="title-page__copyright-value">天下远见出版股份有限公司</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">出版时间</span>
+                <span class="title-page__copyright-value">1998年2月 · 台北</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">推荐序</span>
+                <span class="title-page__copyright-value">余秋雨 · 高希均</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">本书结构</span>
+                <span class="title-page__copyright-value">自序 · 五章 · 附录 · 大事年表</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">涵盖时期</span>
+                <span class="title-page__copyright-value">1931 — 1964（出生至33岁）</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ 正文 ═══════════════ -->
+    <main id="book-main">
+
+        <article>
+            <div class="chapter-nav chapter-nav--start" id="chap-288">
+        <span class="chapter-nav__badge">章节</span>
+        <h2 class="chapter-nav__title">台积电篇二第二十章</h2>
+        <span class="chapter-nav__byline">张忠谋</span>
+    </div>
+<h1>台积电篇二·第二十章｜&quot;专业晶圆代工&quot;商业模式大放异彩</h1>
+
+<h3 class="subsection-title" id="sub-288-0"><span class="subsection-title__zh">九零年代业绩</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">一九九一至二零零零年台积电的业绩，列表如下。</p>
+<div class="rebook-translation"><span class="rebook-translation__label">ReadShift 双语翻译</span><p class="en-para en-first">|---|---|---|---|---|---|---|---|---|---|---|</p></div>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">| 年复合年成长率 | 1991 | 1992 | 1993 | 1994 | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 |</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">| 营收（亿元新台币） | 44.8 | 65.1 | 123.3 | 193.4 | 287.7 | 394.0 | 439.2 | 504.2 | 730.7 | 1,662.0 || 营业净利 | 7.1 | 12.4 | 44.2 | 86.2 | 139.0 | 182.4 | 149.3 | 138.1 | 248.3 | 613.0 |这十年的营收&quot;年复合成长率&quot;是49.4%；营业净利的年复合成长率是64.1%。九六至九八年，是全球半导体业不景气的三，全球半导体业在九六年萎缩8%，在九七年只成长4%，在九八年又萎缩8%。但即使在这不景气的三年，台积电仍有不错的表现。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一旦营收达到十亿美元，创业算成功了。如以此为标准，那幺台积电九五年营收达到十一亿美元（当年美金／台币汇率为一比二十六）也可算是创业成功了。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">## The '90s Performance</p>
+<p class="en-para">TSMC's performance from 1991 to 2000 is shown in the table below.</p>
+<p class="en-para">| Compound Annual | 1991 | 1992 | 1993 | 1994 | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Revenue (NT$ B) | 4.48 | 6.51 | 12.33 | 19.34 | 28.77 | 39.40 | 43.92 | 50.42 | 73.07 | 166.20 |
+| Net Operating Profit | 0.71 | 1.24 | 4.42 | 8.62 | 13.90 | 18.24 | 14.93 | 13.81 | 24.83 | 61.30 |</p>
+<p class="en-para">Revenue compound annual growth rate (CAGR) for this decade was 49.4%; net operating profit CAGR was 64.1%. 1996-1998 were three years of global semiconductor downturn: the global semiconductor industry shrank 8% in 1996, grew only 4% in 1997, and shrank 8% again in 1998. But even during these three recession years, TSMC's performance was still decent.</p>
+<p class="en-para">Once revenue reached $1 billion, the venture could be considered successful. By this standard, TSMC's 1995 revenue of $1.1 billion (at an exchange rate of 1 USD to 26 NT) could also be considered a successful venture.</p>
+</div>
+<h3 class="subsection-title" id="sub-288-1"><span class="subsection-title__zh">设计（无晶圆厂）公司风起云涌</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">台积电成立后头两年（一九八七至八八年）的客户几乎全是台湾的小型设计公司。一九八九年起，先有国外大型IDM（自有晶圆厂公司），如英特尔、摩托罗拉、德仪、飞利浦等，将他们工厂内比较不具经济价值的产品，委托给我们生产，借以提升这些产品的营业利益。但自一九九一年起，美国设计公司风起云涌地成立。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">根据无晶圆厂半导体公司联盟（FSA）在二零零七年给我的资料，在一九九一年中，全球无晶圆厂公司自两百零七家增加至七百五十家；它们的总营收也自一九九三年的二十四亿美元，增加至二零零零年的一百七十亿美元。根据台积电的经验，无晶圆厂一百亿美元大约需要三十四亿美元晶圆代工。而台积电二零零零年营收为一百三十二亿美元，其中约四成来自IDM，即&quot;自有晶圆厂公司&quot;。那幺，另外六十成（三十二亿美元）来自&quot;无晶圆厂公司&quot;。这幺说来，台积电难道把所有&quot;无晶圆厂公司&quot;的生意都接下来了？我想不见得，FSA可能低估了二零零零年&quot;无晶圆厂公司&quot;的营收。但是，有一点我相信：台积电很早就是&quot;无晶圆厂半导体公司&quot;的首选代工者。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">In the first two years after TSMC's founding (1987-88), customers were almost entirely small Taiwanese design houses. From 1989 onward, established foreign IDMs (Integrated Device Manufacturers with their own fabs)—Intel, Motorola, TI, Philips, etc.—began outsourcing less economically viable products from their fabs to us to improve the profitability of those products. But from 1991 onward, American design companies sprang up like a tidal wave.</p>
+<p class="en-para">According to the Fabless Semiconductor Alliance (FSA), which provided me data in 2007, in 1991 the number of fabless companies worldwide grew from 207 to 750; their total revenue also grew from $2.4 billion in 1993 to $17 billion in 2000. Based on TSMC's experience, $10 billion of fabless revenue requires about $3.4 billion of wafer foundry services. TSMC's 2000 revenue was $13.2 billion, of which about 40% came from IDMs. The remaining 60% ($8 billion) came from fabless companies. Did TSMC really take all the business of every fabless company? I think not—FSA may have underestimated fabless company revenue in 2000. But one thing I believe: TSMC was very early on the foundry of choice for fabless semiconductor companies.</p>
+</div>
+
+
+<h3 class="subsection-title" id="sub-289-2"><span class="subsection-title__zh">IDM转向台积电</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">我也以为：一旦IDM（自有晶圆厂）公司试用台积电的晶圆代工，他们也会逐渐停止他们自己的晶圆制造，而改用台积电。为什幺&quot;自有晶圆厂公司&quot;转向台积电是一个逐渐、而不是很快的过程？第一，&quot;自有晶圆厂公司&quot;有许多制造部员工，他们不会一下子把制造部员工都遣散；第二，&quot;自有晶圆厂公司&quot;也有不少尚未完全折旧，以及即使已完全折旧，仍有剩余价值的生产设备，这些设备也不会被当作废铜烂铁卖掉。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">I also believed: once IDMs (integrated device manufacturers) tried TSMC's foundry services, they would gradually cease their own wafer manufacturing and switch to TSMC. Why was the shift of IDMs toward TSMC a gradual rather than rapid process? First, IDMs had many manufacturing department employees; they wouldn't lay them off all at once. Second, IDMs also had considerable production equipment that was not fully depreciated, or even if fully depreciated still had residual value. This equipment wouldn't be sold as scrap iron either.</p>
+</div>
+<h3 class="subsection-title" id="sub-289-3"><span class="subsection-title__zh">&quot;服务导向&quot;策略的成功</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">为什幺台积电成为&quot;晶圆代工&quot;的首选？因为我们&quot;专业晶圆代工&quot;商业模式和我们&quot;服务导向&quot;策略完全成功了！在台积电成立之前，&quot;晶圆代工&quot;是许多美国、日本、台湾IDM公司的副业，&quot;副业&quot;的客户不受重视，甚至还遭受委托的&quot;代工&quot;者竞争。台积电的商业模式是&quot;专业晶圆代工&quot;——完全&quot;服务导向&quot;、&quot;为客户赴汤蹈火&quot;。台积电的技术长处是高良率——台积电的一切所为，完全迎合客户的需求。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Why did TSMC become the foundry of choice? Because our "dedicated foundry" business model and our "service-oriented" strategy completely succeeded! Before TSMC's founding, "wafer foundry" was a sideline for many American, Japanese, and Taiwanese IDMs. As a "sideline," customers were not valued and even suffered competition from the very company they outsourced to. TSMC's business model was "dedicated foundry"—thoroughly "service-oriented," "going through fire and water for customers." TSMC's technological strength was high yield—everything TSMC did was completely oriented toward meeting customer needs.</p>
+</div>
+<h3 class="subsection-title" id="sub-289-4"><span class="subsection-title__zh">行销美国成功</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">除了创新的商业模式外，初期台积电另一个重要策略是行销美国。用美国总经理、美国行销人员，加上我自己对美国客户的熟识，台积电来自美国客户的营收自一九八七年（成立年）的零美元，到一九九一年的八千七百万美元（占全部营收53%），到一九九八年的八亿六千万美元（占全部营收57%）。自二零零零年后，台积电来自美国的营收大概都在全部营收六成以上。这与美国蓬勃发展的设计公司有关。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Beyond the innovative business model, another key early TSMC strategy was marketing in the U.S. Using an American general manager, American marketing personnel, plus my own familiarity with American customers, TSMC's revenue from American customers grew from zero in 1987 (the founding year) to $87 million in 1991 (53% of total revenue), to $860 million in 1998 (57% of total revenue). From 2000 onward, TSMC's U.S.-origin revenue has been roughly above 60% of total revenue. This correlates with the flourishing design company ecosystem in the U.S.</p>
+</div>
+<h3 class="subsection-title" id="sub-289-5"><span class="subsection-title__zh">日本市场的衰退</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">相反的是日本市场。日本半导体业在八零年代非常强劲，但后来渐渐衰退，我认为这与日本简直没有IC设计公司有关。记得二零零七年春，我受邀到日本福冈的一个电子业会议致词，在半导体业者座谈会内，业者对我的致词完全没有理会，反而频频要日本政府资助他们建晶圆厂。我对此点提出此已在时不晚矣，但日本半导体业者尚抱守老旧观念。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">在我孤独飞返台湾途中，我想：从今以后日本半导体业大概也就不过如此了。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">The Japanese market told the opposite story. Japan's semiconductor industry was very strong during the 1980s, but later gradually declined. I believe this was related to the fact that Japan had virtually no IC design companies. I recall that in the spring of 2007, I was invited to give a speech at an electronics industry conference in Fukuoka, Japan. At the semiconductor roundtable, the industry participants completely ignored my speech and instead repeatedly asked the Japanese government to subsidize them in building wafer fabs. I pointed out that it was already too late, but the Japanese semiconductor industry still clung to outdated notions.</p>
+<p class="en-para">On my lonely flight back to Taiwan, I thought: from now on, the Japanese semiconductor industry would probably be just that—ordinary.</p>
+</div>
+<div class="bilingual-pair">
+<div class="rebook-translation"><span class="rebook-translation__label">ReadShift 双语翻译</span><p class="en-para en-first">{% include &quot;_cheat_sheet.html&quot; %} {% include &quot;_rhetoric.html&quot; %} {% include &quot;_background.html&quot; %}</p></div>
+</div>
+        </article>
+
+        <!-- 知识窗侧边栏（原生 JS 控制，零框架） -->
+        <div class="term-panel" id="term-panel" style="display:none;" aria-hidden="true">
+            <div class="term-panel__overlay" id="term-panel-overlay"></div>
+            <div class="term-panel__card">
+                <button class="term-panel__close" id="term-panel-close" aria-label="关闭">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+                <p class="term-panel__label">Deep Dive</p>
+                <h2 class="term-panel__term" id="term-panel-term"></h2>
+                <div class="term-panel__meaning" id="term-panel-meaning"></div>
+                <p class="term-panel__sentence-label" id="term-panel-sentence-label" style="display:none;">商业造句</p>
+                <p class="term-panel__sentence" id="term-panel-sentence" style="display:none;"></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ═══════════════ 小节导航浮层（两级目录 · 原生 JS） ═══════════════ -->
+    <div class="secnav" id="secnav" style="display:none;" aria-hidden="true">
+        <div class="secnav__overlay" id="secnav-overlay"></div>
+        <div class="secnav__card">
+            <div class="secnav__head">
+                <span class="secnav__brand-title">张忠谋自传 · 双语典藏版</span>
+                <button class="secnav__close" id="secnav-close" aria-label="关闭">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <ul class="secnav__list" id="secnav-list"></ul>
+        </div>
+    </div>
+
+    <!-- ═══════════════ 页脚 ═══════════════ -->
+    <footer>
+        <div class="colophon__inner">
+            <div class="colophon__ornament">❖</div>
+            <p class="colophon__tagline">万物皆可重塑，期待有趣的灵魂在此相遇。</p>
+            <p class="colophon__meta">Generated by ReadShift Engine · Text is the Genesis</p>
+        </div>
+    </footer>
+
+    <script>
+        // ─── 原书小节导航：两级目录（章 → 小节）原生 JS ───
+        (function () {
+            var subsections = [{"id":"sub-288-0","zh":"九零年代业绩","en":"","chapterStart":288,"page":288},{"id":"sub-288-1","zh":"设计（无晶圆厂）公司风起云涌","en":"","chapterStart":288,"page":288},{"id":"sub-289-2","zh":"IDM转向台积电","en":"","chapterStart":288,"page":289},{"id":"sub-289-3","zh":"\"服务导向\"策略的成功","en":"","chapterStart":288,"page":289},{"id":"sub-289-4","zh":"行销美国成功","en":"","chapterStart":288,"page":289},{"id":"sub-289-5","zh":"日本市场的衰退","en":"","chapterStart":288,"page":289}] || [];
+            var chapterList = [] || [];
+            var multiChapter = false;
+            var nav = document.getElementById('secnav');
+            var list = document.getElementById('secnav-list');
+            var currentChapterStart = multiChapter ? (chapterList.length ? chapterList[0].start : 23) : 0;
+
+            function renderList(chapterStart) {
+                list.innerHTML = '';
+                var items = subsections.filter(function (s) { return s.chapterStart === chapterStart; });
+                if (!items.length) return;
+                items.forEach(function (s) {
+                    var li = document.createElement('li');
+                    li.className = 'secnav__item';
+                    var a = document.createElement('a');
+                    a.className = 'secnav__link';
+                    a.href = '#' + s.id;
+                    var zh = document.createElement('span');
+                    zh.className = 'secnav__zh';
+                    zh.textContent = s.zh;
+                    a.appendChild(zh);
+                    if (s.en) {
+                        var en = document.createElement('span');
+                        en.className = 'secnav__en';
+                        en.textContent = s.en;
+                        a.appendChild(en);
+                    }
+                    li.appendChild(a);
+                    list.appendChild(li);
+                });
+            }
+                                    function openNav() {
+                if (!nav || !list) return;
+                list.innerHTML = '';
+
+                // ── 多章合成：先渲染章列表（点击跳到各章正文章首） ──
+                if (multiChapter && chapterList.length) {
+                    var chapGroup = document.createElement('div');
+                    chapGroup.className = 'secnav__chapter-group';
+                    chapterList.forEach(function (ch, ci) {
+                        var item = document.createElement('a');
+                        item.className = 'secnav__chapter-link';
+                        item.href = '#' + ch.anchor;
+                        item.innerHTML = '<span class="secnav__num">' + (ci + 1 < 10 ? '0' : '') + (ci + 1) + '</span>' +
+                                          '<div class="secnav__content">' +
+                                            '<span class="secnav__zh">' + ch.zh + '</span>' +
+                                            (ch.en ? '<span class="secnav__en">' + ch.en + '</span>' : '') +
+                                          '</div>';
+                        chapGroup.appendChild(item);
+                    });
+                    list.appendChild(chapGroup);
+                }
+
+                // 1. 检查页面是否存在序言卡片（仅第一章包含序言）
+                
+
+                // 2. 动态读取当前章大标题（多章时跟随 currentChapterStart 动态取章名）
+                var chapHead = document.createElement('div');
+                chapHead.className = 'secnav__chapter-header';
+                var curZh = '词汇';
+                var curEn = 'Glossary';
+                if (multiChapter && chapterList.length) {
+                    for (var k = 0; k < chapterList.length; k++) {
+                        if (chapterList[k].start === currentChapterStart) {
+                            curZh = chapterList[k].zh;
+                            curEn = chapterList[k].en;
+                            break;
+                        }
+                    }
+                }
+                chapHead.innerHTML = '<span class="secnav__chapter-num">CHAPTER CONTENT · 本章结构</span>' +
+                                     '<span class="secnav__chapter-title">' + curZh + '</span>' +
+                                     (curEn ? '<span class="secnav__chapter-en">' + curEn + '</span>' : '');
+                list.appendChild(chapHead);
+
+                // 3. 当前章的小节（多章时按 currentChapterStart 过滤；单章时全部）
+                var items = subsections;
+                if (multiChapter) {
+                    var start = currentChapterStart;
+                    items = subsections.filter(function (s) { return s.chapterStart === start; });
+                }
+                items.forEach(function (s, idx) {
+                    var numStr = (idx + 1 < 10 ? '0' : '') + (idx + 1);
+                    var li = document.createElement('li');
+                    li.className = 'secnav__item';
+                    var a = document.createElement('a');
+                    a.className = 'secnav__link';
+                    a.href = '#' + s.id;
+                    a.innerHTML = '<span class="secnav__num">' + numStr + '</span>' +
+                                  '<div class="secnav__content">' +
+                                    '<span class="secnav__zh">' + s.zh + '</span>' +
+                                    (s.en ? '<span class="secnav__en">' + s.en + '</span>' : '') +
+                                  '</div>';
+                    li.appendChild(a);
+                    list.appendChild(li);
+                });
+                nav.style.display = 'block';
+                nav.setAttribute('aria-hidden', 'false');
+            }
+            function closeNav() {
+                if (!nav) return;
+                nav.style.display = 'none';
+                nav.setAttribute('aria-hidden', 'true');
+                
+            }
+
+            // 点击章节导航条 → 打开当前章小节目录
+            document.addEventListener('click', function (e) {
+                if (e.target.closest('#rh-toc-btn')) {
+                    e.preventDefault();
+                    if (nav.style.display === 'block') { closeNav(); } else { openNav(); }
+                    return;
+                }
+                var chNav = e.target.closest('.chapter-nav--start');
+                if (chNav) {
+                    e.preventDefault();
+                    var m = chNav.id.match(/^chap-(\d+)$/);
+                    if (m) currentChapterStart = parseInt(m[1]);
+                    openNav();
+                    return;
+                }
+                // 目录里的章链接：更新当前章后关闭面板，让默认锚点跳转到章首
+                var chLink = e.target.closest('.secnav__chapter-link');
+                if (chLink) {
+                    var mm = (chLink.getAttribute('href') || '').match(/chap-(\d+)/);
+                    if (mm) currentChapterStart = parseInt(mm[1]);
+                    closeNav();
+                    return;
+                }
+                if (e.target.closest('#secnav-close') || e.target.closest('#secnav-overlay') || e.target.closest('.secnav__link')) {
+                    closeNav();
+                }
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closeNav();
+            });
+
+            // 多章合成：滚动时更新当前章（用于目录当前章小节 + 章列表高亮）
+            if (multiChapter && 'IntersectionObserver' in window) {
+                var chapterObserver = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (en) {
+                        if (en.isIntersecting) {
+                            var m = (en.target.id || '').match(/^chap-(\d+)$/);
+                            if (m) {
+                                currentChapterStart = parseInt(m[1]);
+                                // 高亮当前章列表项
+                                var links = list.querySelectorAll('.secnav__chapter-link');
+                                links.forEach(function (lk, i) {
+                                    var targetCh = chapterList[i];
+                                    if (targetCh && targetCh.start === currentChapterStart) {
+                                        lk.classList.add('is-current');
+                                    } else {
+                                        lk.classList.remove('is-current');
+                                    }
+                                });
+                            }
+                        }
+                    });
+                }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+                chapterList.forEach(function (ch) {
+                    var el = document.getElementById(ch.anchor);
+                    if (el) chapterObserver.observe(el);
+                });
+            }
+        })();
+
+        // ─── 知识窗：零框架原生 JS（双击即开，任何浏览器可用） ───
+        (function () {
+            var panel = document.getElementById('term-panel');
+            var termEl = document.getElementById('term-panel-term');
+            var meaningEl = document.getElementById('term-panel-meaning');
+            var sentLabel = document.getElementById('term-panel-sentence-label');
+            var sentEl = document.getElementById('term-panel-sentence');
+
+            function openPanel(term, meaning, sentence) {
+                if (!panel) return;
+                termEl.textContent = term || '';
+                meaningEl.textContent = meaning || '';
+                if (sentence) {
+                    sentLabel.style.display = '';
+                    sentEl.style.display = '';
+                    sentEl.textContent = sentence;
+                } else {
+                    sentLabel.style.display = 'none';
+                    sentEl.style.display = 'none';
+                }
+                panel.style.display = '';
+                panel.setAttribute('aria-hidden', 'false');
+                document.body.classList.add('panel-open');
+            }
+            function closePanel() {
+                if (!panel) return;
+                panel.style.display = 'none';
+                panel.setAttribute('aria-hidden', 'true');
+                document.body.classList.remove('panel-open');
+            }
+
+            // 关闭按钮 / 遮罩 / Esc
+            document.addEventListener('click', function (e) {
+                if (e.target.closest('#rh-toc-btn')) {
+                    e.preventDefault();
+                    if (nav.style.display === 'block') { closeNav(); } else { openNav(); }
+                    return;
+                }
+                if (e.target.closest('.term-panel__close') || e.target.closest('.term-panel__overlay')) {
+                    closePanel();
+                    return;
+                }
+                var term = e.target.closest('.interactive-term');
+                if (term) {
+                    openPanel(term.dataset.term, term.dataset.meaning, term.dataset.sentence);
+                    return;
+                }
+                var item = e.target.closest('.cheat-item');
+                if (item) {
+                    openPanel(item.dataset.term, item.dataset.meaning, item.dataset.sentence);
+                }
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closePanel();
+            });
+        })();
+    </script>
+</body>
+</html>

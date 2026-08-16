@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "baseline": "golden-v2",
+  "status": "active",
+  "inherits": "golden-v1",
+  "inheritance_model": {
+    "source": "上册 golden-v1.json 已通过第四、五章验收",
+    "downstream": "下册 45 章沿用同一 renderer / template / QA 管线",
+    "manual_rule": "one L2 manual per chapter; inherit standards without copying chapter-specific facts"
+  },
+  "project": {
+    "title_zh": "張忠謀自傳 下冊",
+    "title_en": "Morris Chang Autobiography, Vol. II (1964-2018)",
+    "page_start_pdf": 33,
+    "page_end_pdf": 529,
+    "chapter_count": 45,
+    "total_chars": 210801
+  },
+  "renderer": "workdir/render_html_v9.js",
+  "qa": "workdir/qa_gate_v3.py",
+  "acceptance": {
+    "required_qa_version": "3.1",
+    "fixture_tests_required": true,
+    "desktop_browser_required": true,
+    "mobile_browser_required": true,
+    "console_errors_allowed": 0,
+    "external_cdns_allowed": 0,
+    "duplicate_deliverables_allowed": 0
+  },
+  "content_contract": {
+    "main_flow": "strict_zh_then_en",
+    "consecutive_translation_blocks_allowed": false,
+    "one_zh_to_multiple_en_allowed": false,
+    "invented_titles_or_metadata_allowed": false,
+    "secondary_content_must_be_subordinate": true,
+    "duplicate_bare_text_and_zh_allowed": false,
+    "ocr_polish_required": true
+  },
+  "navigation_contract": {
+    "header_left": "☰ 目录",
+    "header_center": "源起于文本，想象于无限",
+    "header_right": "ReadShift · 私人书房",
+    "bottom_right": "↑ 顶部",
+    "body_chapter_return_bars_allowed": false,
+    "native_javascript_only": true,
+    "toc_must_list_all_45_chapters": true
+  },
+  "production_agent_contract": {
+    "input": [
+      "chapter L2 执行手册.md",
+      "原始素材 章节提取 对应 .md 文件",
+      "this golden-v2.json"
+    ],
+    "output": [
+      "L2 manual change-log entry",
+      "chapter source/ 双语编辑源",
+      "QA evidence for the canonical HTML"
+    ],
+    "must_not_modify": [
+      "上册项目.json",
+      "standards/golden-v1.json",
+      "src/templates/template.ejs",
+      "workdir/render_html_v9.js",
+      "workdir/qa_gate_v3.py"
+    ],
+    "stop_and_escalate_on": [
+      "source evidence conflict",
+      "uncertain title or missing page",
+      "renderer or template defect",
+      "QA false positive or false negative",
+      "cross-chapter standard change"
+    ]
+  },
+  "chapters": [
+    {"id": 0,  "slug": "出版者的話",         "page_start": 8,   "page_end": 16,  "source_chars": 4540,  "expected_subsections": 6,  "expected_images": 0},
+    {"id": 1,  "slug": "自序",               "page_start": 17,  "page_end": 20,  "source_chars": 1035,  "expected_subsections": 2,  "expected_images": 0},
+    {"id": 2,  "slug": "詞彙",               "page_start": 21,  "page_end": 29,  "source_chars": 3008,  "expected_subsections": 20, "expected_images": 0},
+    {"id": 3,  "slug": "德儀篇卷首",         "page_start": 30,  "page_end": 32,  "source_chars": 174,   "expected_subsections": 1,  "expected_images": 0},
+    {"id": 4,  "slug": "德儀篇第一章",       "page_start": 33,  "page_end": 38,  "source_chars": 1446,  "expected_subsections": 3,  "expected_images": 0},
+    {"id": 5,  "slug": "德儀篇第二章",       "page_start": 39,  "page_end": 47,  "source_chars": 3165,  "expected_subsections": 6,  "expected_images": 0},
+    {"id": 6,  "slug": "德儀篇第三章",       "page_start": 48,  "page_end": 58,  "source_chars": 5255,  "expected_subsections": 8,  "expected_images": 0},
+    {"id": 7,  "slug": "德儀篇第四章",       "page_start": 59,  "page_end": 66,  "source_chars": 3866,  "expected_subsections": 5,  "expected_images": 0},
+    {"id": 8,  "slug": "德儀篇第五章",       "page_start": 67,  "page_end": 75,  "source_chars": 3963,  "expected_subsections": 4,  "expected_images": 0},
+    {"id": 9,  "slug": "德儀篇第六章",       "page_start": 76,  "page_end": 91,  "source_chars": 8074,  "expected_subsections": 12, "expected_images": 0},
+    {"id": 10, "slug": "德儀篇第七章",       "page_start": 92,  "page_end": 101, "source_chars": 4339,  "expected_subsections": 4,  "expected_images": 0},
+    {"id": 11, "slug": "德儀篇第八章",       "page_start": 102, "page_end": 107, "source_chars": 1998,  "expected_subsections": 4,  "expected_images": 0},
+    {"id": 12, "slug": "德儀篇第九章",       "page_start": 108, "page_end": 136, "source_chars": 15385, "expected_subsections": 14, "expected_images": 0},
+    {"id": 13, "slug": "德儀篇第十章",       "page_start": 137, "page_end": 152, "source_chars": 7919,  "expected_subsections": 13, "expected_images": 0},
+    {"id": 14, "slug": "德儀篇第十一章",     "page_start": 153, "page_end": 161, "source_chars": 3497,  "expected_subsections": 5,  "expected_images": 0},
+    {"id": 15, "slug": "德儀篇第十二章",     "page_start": 162, "page_end": 168, "source_chars": 1905,  "expected_subsections": 3,  "expected_images": 0},
+    {"id": 16, "slug": "德儀篇第十三章",     "page_start": 169, "page_end": 185, "source_chars": 7792,  "expected_subsections": 7,  "expected_images": 0},
+    {"id": 17, "slug": "台積電篇一卷首",     "page_start": 186, "page_end": 187, "source_chars": 78,    "expected_subsections": 1,  "expected_images": 0},
+    {"id": 18, "slug": "台積電篇一第十四章", "page_start": 188, "page_end": 205, "source_chars": 8137,  "expected_subsections": 7,  "expected_images": 0},
+    {"id": 19, "slug": "台積電篇一第十五章", "page_start": 206, "page_end": 222, "source_chars": 7423,  "expected_subsections": 8,  "expected_images": 0},
+    {"id": 20, "slug": "台積電篇一第十六章", "page_start": 223, "page_end": 238, "source_chars": 7259,  "expected_subsections": 7,  "expected_images": 0},
+    {"id": 21, "slug": "台積電篇一第十七章", "page_start": 239, "page_end": 254, "source_chars": 7185,  "expected_subsections": 9,  "expected_images": 0},
+    {"id": 22, "slug": "台積電篇一第十八章", "page_start": 255, "page_end": 263, "source_chars": 4044,  "expected_subsections": 4,  "expected_images": 0},
+    {"id": 23, "slug": "台積電篇一第十九章", "page_start": 264, "page_end": 285, "source_chars": 11094, "expected_subsections": 12, "expected_images": 0},
+    {"id": 24, "slug": "台積電篇二卷首",     "page_start": 286, "page_end": 287, "source_chars": 78,    "expected_subsections": 1,  "expected_images": 0},
+    {"id": 25, "slug": "台積電篇二第二十章", "page_start": 288, "page_end": 293, "source_chars": 1895,  "expected_subsections": 4,  "expected_images": 0},
+    {"id": 26, "slug": "台積電篇二第二十一章", "page_start": 294, "page_end": 308, "source_chars": 6079, "expected_subsections": 5,  "expected_images": 0},
+    {"id": 27, "slug": "台積電篇二第二十二章", "page_start": 309, "page_end": 320, "source_chars": 5686, "expected_subsections": 6,  "expected_images": 0},
+    {"id": 28, "slug": "台積電篇二第二十三章", "page_start": 321, "page_end": 337, "source_chars": 8669, "expected_subsections": 8,  "expected_images": 0},
+    {"id": 29, "slug": "台積電篇二第二十四章", "page_start": 338, "page_end": 354, "source_chars": 8786, "expected_subsections": 10, "expected_images": 0},
+    {"id": 30, "slug": "台積電篇二第二十五章", "page_start": 355, "page_end": 361, "source_chars": 2396,  "expected_subsections": 3,  "expected_images": 0},
+    {"id": 31, "slug": "台積電篇二第二十六章", "page_start": 362, "page_end": 372, "source_chars": 5147,  "expected_subsections": 6,  "expected_images": 0},
+    {"id": 32, "slug": "台積電篇二第二十七章", "page_start": 373, "page_end": 379, "source_chars": 2712,  "expected_subsections": 4,  "expected_images": 0},
+    {"id": 33, "slug": "台積電篇三卷首",     "page_start": 380, "page_end": 381, "source_chars": 78,    "expected_subsections": 1,  "expected_images": 0},
+    {"id": 34, "slug": "台積電篇三第二十八章", "page_start": 382, "page_end": 385, "source_chars": 1228, "expected_subsections": 1,  "expected_images": 0},
+    {"id": 35, "slug": "台積電篇三第二十九章", "page_start": 386, "page_end": 393, "source_chars": 3104, "expected_subsections": 5,  "expected_images": 0},
+    {"id": 36, "slug": "台積電篇三第三十章", "page_start": 394, "page_end": 404, "source_chars": 5018, "expected_subsections": 5,  "expected_images": 0},
+    {"id": 37, "slug": "台積電篇三第三十一章", "page_start": 405, "page_end": 421, "source_chars": 8607, "expected_subsections": 5,  "expected_images": 0},
+    {"id": 38, "slug": "台積電篇三第三十二章", "page_start": 422, "page_end": 436, "source_chars": 6742, "expected_subsections": 9,  "expected_images": 0},
+    {"id": 39, "slug": "台積電篇三第三十三章", "page_start": 437, "page_end": 447, "source_chars": 4596, "expected_subsections": 3,  "expected_images": 0},
+    {"id": 40, "slug": "台積電篇三第三十四章", "page_start": 448, "page_end": 460, "source_chars": 5561, "expected_subsections": 7,  "expected_images": 0},
+    {"id": 41, "slug": "感謝",               "page_start": 461, "page_end": 463, "source_chars": 522,   "expected_subsections": 1,  "expected_images": 0},
+    {"id": 42, "slug": "大事年表",           "page_start": 464, "page_end": 476, "source_chars": 1944,  "expected_subsections": 15, "expected_images": 0},
+    {"id": 43, "slug": "圖片頁",             "page_start": 477, "page_end": 527, "source_chars": 5546,  "expected_subsections": 50, "expected_images": 20},
+    {"id": 44, "slug": "版權頁",             "page_start": 528, "page_end": 544, "source_chars": 3826,  "expected_subsections": 4,  "expected_images": 1}
+  ]
+}

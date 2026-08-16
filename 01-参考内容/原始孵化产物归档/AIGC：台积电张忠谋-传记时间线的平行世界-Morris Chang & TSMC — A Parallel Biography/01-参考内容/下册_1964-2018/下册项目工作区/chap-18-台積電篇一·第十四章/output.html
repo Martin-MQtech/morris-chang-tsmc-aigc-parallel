@@ -1,0 +1,2458 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张忠谋自传 · 双语典藏版</title>
+
+    <!-- 字体系统：完全本地化，使用系统内置字体（任何设备开箱即用，零外部请求） -->
+    <style>
+        /* 正文衬线：优先中文宋体/系统衬线，英文回退 Georgia */
+        body { font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', Georgia, 'Times New Roman', serif; }
+        /* 标题/UI 无衬线：系统级 */
+        .running-head, .chapter-nav, .toc-card, .readers-guide, .rebook-card,
+        .subsection-title, .term-panel, button {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, sans-serif;
+        }
+        /* 英文斜体印刷感：罗马衬线（二创板块统一） */
+        .subsection-title__en, .photo-caption__en, .cheat-item__term, .rhetoric-note .en, .knowledge-note .en {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            color: var(--ink);
+        }
+        /* 中文备注：楷体（二创板块统一） */
+        .cheat-item__meaning, .rhetoric-note .zh, .knowledge-note .zh {
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+        }
+    </style>
+
+    <style>
+        /* ═══════════════════════════════════════════
+           色彩体系 (Paper / Ink / Accent)
+           ═══════════════════════════════════════════ */
+        :root {
+            --paper:    #faf8f3;
+            --ink:      #1c1917;
+            --ink-soft: #44403c;
+            --ink-muted:#78716c;
+            --rule:     #e7e0d3;
+            --accent:   #9a3412;
+            --accent-lt:#fed7aa;
+            --deep:     #292524;
+        }
+
+        /* ═══════════════════════════════════════════
+           全局重置 & 基础
+           ═══════════════════════════════════════════ */
+        *, *::before, *::after { box-sizing: border-box; }
+        html { font-size: 17px; scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', Georgia, 'Times New Roman', serif;
+            line-height: 1.9;
+            -webkit-font-smoothing: antialiased;
+        }
+        ::selection { background: var(--accent-lt); color: var(--ink); }
+
+        /* ═══════════════════════════════════════════
+           书眉 (Running Head)
+           ═══════════════════════════════════════════ */
+        .running-head {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(250,248,243,0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--rule);
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        }
+        .running-head__inner {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 0.6rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .running-head__brand {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+        .running-head__dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--accent);
+            display: inline-block;
+        }
+        .running-head__brand-text {
+            font-size: 0.6rem;
+            font-weight: 400;
+            letter-spacing: 0.06em;
+            color: var(--ink-muted);
+            opacity: 0.45;
+        }
+        .running-head__slogan {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.82rem;
+            font-style: italic;
+            color: var(--ink-soft);
+            letter-spacing: 0.03em;
+            flex: 1;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .running-head__chapter {
+            font-size: 0.62rem;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            color: var(--ink-muted);
+            opacity: 0.5;
+            text-transform: uppercase;
+            flex-shrink: 0;
+            max-width: 40%;
+            text-align: right;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* ═══════════════════════════════════════════
+           扉页 (Title Page)
+           ═══════════════════════════════════════════ */
+        .title-page {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 5rem 2rem 4rem;
+            text-align: center;
+            animation: bookFade 0.9s ease both;
+        }
+        @keyframes bookFade {
+            from { opacity: 0; transform: translateY(16px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .title-page__eyebrow {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 1.5rem;
+        }
+        .title-page__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 2.6rem;
+            font-weight: 800;
+            color: var(--ink);
+            letter-spacing: -0.01em;
+            line-height: 1.2;
+            margin: 0 0 1.5rem;
+        }
+        .title-page__author {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: var(--ink-soft);
+            letter-spacing: 0.04em;
+            margin-bottom: 2.5rem;
+        }
+        /* 装饰分隔符 */
+        .ornament {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            margin: 0 auto 2.5rem;
+            max-width: 20rem;
+            color: var(--accent);
+            font-size: 0.85rem;
+        }
+        .ornament::before,
+        .ornament::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--rule), transparent);
+        }
+        .title-page__quote {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            max-width: 28rem;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        .title-page__author-en {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.9rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        /* 出版版权卡 */
+        .title-page__copyright {
+            max-width: 30rem;
+            margin: 3rem auto 0;
+            border: 1px solid var(--rule);
+            border-radius: 10px;
+            padding: 1.6rem 2rem;
+            text-align: left;
+            font-size: 0.9rem;
+            color: var(--ink-soft);
+            line-height: 2;
+            background: #fdfcf8;
+            box-shadow: 0 2px 12px rgba(28,25,23,0.04);
+        }
+        .title-page__copyright-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.2rem 0;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .title-page__copyright-row:last-child {
+            border-bottom: none;
+        }
+        .title-page__copyright-label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            color: var(--ink-muted);
+            white-space: nowrap;
+            margin-right: 1.5rem;
+        }
+        .title-page__copyright-value {
+            text-align: right;
+            font-weight: 600;
+            color: var(--ink);
+        }
+
+        /* ═══════════════════════════════════════════
+           正文区 (Main Content) — 单栏流动阅读
+           ═══════════════════════════════════════════ */
+        main {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 0 1.5rem 6rem;
+        }
+
+        /* 双语段落对 */
+        .bilingual-pair {
+            margin-bottom: 1.5rem;
+        }
+        .bilingual-pair + .bilingual-pair {
+            margin-top: 0.25rem;
+        }
+
+        /* ReadShift 双语翻译框架：陶土橙左边线 + 微标签，与原书中文明确区分 */
+        .rebook-translation {
+            position: relative;
+            margin: 1.25rem 0 1.5rem;
+            padding: 0.9rem 1.25rem 0.6rem 1.25rem;
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(to right, rgba(154,52,18,0.03), transparent 70%);
+        }
+        .rebook-translation__label {
+            display: block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.22em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.35rem;
+        }
+        .rebook-translation__label::before {
+            content: "◆ ";
+            font-size: 0.55rem;
+        }
+        .rebook-translation .en-para {
+            margin-bottom: 0.6rem;
+        }
+
+        /* ═══ 章节导航条（解决读者迷路） ═══ */
+        .chapter-nav {
+            margin: 2.5rem 0 2rem;
+        }
+        .chapter-nav--start {
+            text-align: center;
+            padding: 2.5rem 2rem;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .chapter-nav__badge {
+            display: inline-block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+            background: rgba(154,52,18,0.08);
+            padding: 0.2rem 0.9rem;
+            border-radius: 4px;
+            margin-bottom: 0.8rem;
+        }
+        .chapter-nav__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--ink);
+            margin: 0 0 0.4rem;
+        }
+        .chapter-nav__byline {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--ink-muted);
+        }
+        /* 🎯 章标题卡：首段英文副标题 + 装饰分割线（与小节标题双语风格统一） */
+        .chapter-nav__title-en {
+            display: block;
+            font-family: 'Baskerville', 'Cormorant Garamond', Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.92rem;
+            letter-spacing: 0.05em;
+            color: var(--ink-muted);
+            opacity: 0.82;
+            margin: 0.15rem 0 0.7rem;
+            line-height: 1.4;
+        }
+        .chapter-nav__divider {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.8rem;
+            margin: 0.9rem auto 1rem;
+            max-width: 20rem;
+        }
+        .chapter-nav__divider::before,
+        .chapter-nav__divider::after {
+            content: "";
+            height: 1px;
+            flex: 1;
+            background: linear-gradient(to right, transparent, var(--rule), var(--rule));
+        }
+        .chapter-nav__divider::after {
+            background: linear-gradient(to left, transparent, var(--rule), var(--rule));
+        }
+        .chapter-nav__divider-orn {
+            font-size: 0.72rem;
+            color: var(--accent);
+            opacity: 0.7;
+        }
+        .chapter-nav--mini {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin: 1.8rem 0 0.5rem;
+            padding: 0.5rem 0.9rem;
+            background: rgba(245,240,230,0.7);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 6px 6px 0;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            color: var(--ink-soft);
+        }
+        .chapter-nav__dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--accent);
+            display: inline-block;
+            flex-shrink: 0;
+        }
+        .chapter-nav__current {
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        /* ═══════════════════════════════════════════
+           序言卡 (Preface Card)
+           ═══════════════════════════════════════════ */
+        .preface-card {
+            text-align: center;
+            padding: 2.5rem 2rem;
+            margin: 2rem 0;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .preface-badge {
+            display: inline-block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            color: var(--accent);
+            text-transform: uppercase;
+            background: rgba(154,52,18,0.08);
+            padding: 0.2rem 0.8rem;
+            border-radius: 4px;
+            margin-bottom: 0.8rem;
+        }
+        .preface-card h2 {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin: 0.5rem 0 0.6rem;
+            line-height: 1.4;
+        }
+        .author-byline {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--ink-muted);
+            margin: 0;
+        }
+
+        /* ═══════════════════════════════════════════
+           阅读指南 (Reader's Guide)
+           ═══════════════════════════════════════════ */
+        .readers-guide {
+            text-align: center;
+            padding: 3rem 2rem;
+            margin: 2rem 0;
+            background: linear-gradient(to bottom, #fdfcf8, #f5f0e6);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--accent);
+            border-radius: 12px;
+        }
+        .readers-guide__header { margin-bottom: 1.5rem; }
+        .readers-guide__eyebrow {
+            display: block;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+        .readers-guide__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin: 0 0 0.5rem;
+            letter-spacing: 0.05em;
+        }
+        .readers-guide__intro {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: var(--ink-soft);
+            max-width: 36rem;
+            margin: 0 auto 2rem;
+            text-indent: 0;
+        }
+        .readers-guide__items {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.4rem 3.2rem;
+            max-width: 44rem;
+            margin: 0 auto;
+            text-align: left;
+        }
+        /* 最后一个格（全景目录导航）横跨两列：居中平铺拉伸 */
+        .readers-guide__item:last-child {
+            grid-column: 1 / -1;
+            align-items: center;
+        }
+        .readers-guide__item:last-child .readers-guide__mark {
+            display: none;
+        }
+        .readers-guide__item:last-child .readers-guide__desc {
+            text-align: center;
+            padding: 0.6rem 1rem;
+            background: rgba(154, 52, 18, 0.04);
+            border: 1px dashed var(--rule);
+            border-radius: 8px;
+        }
+        @media (max-width: 48rem) {
+            .readers-guide__items { grid-template-columns: 1fr; gap: 1.5rem; }
+            .readers-guide__item:last-child { grid-column: auto; }
+            .readers-guide__item:last-child .readers-guide__mark { display: inline-block; }
+            .readers-guide__item:last-child .readers-guide__desc { text-align: left; }
+        }
+                .readers-guide__item {
+            display: flex;
+            gap: 1.25rem;
+            align-items: flex-start;
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px dotted var(--rule);
+        }
+        .readers-guide__item:nth-last-child(-n+2) { 
+            border-bottom: none; 
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        @media (max-width: 48rem) {
+            .readers-guide__item:nth-last-child(-n+2) {
+                border-bottom: 1px dotted var(--rule);
+                margin-bottom: 1.5rem;
+                padding-bottom: 1.5rem;
+            }
+            .readers-guide__item:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+        }
+
+        /* 四种标记的视觉语言：统一陶土橙基调，用边框样式区分 */
+        .readers-guide__mark {
+            flex-shrink: 0;
+            width: 2rem;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1rem;
+            color: var(--accent);
+            text-align: center;
+            line-height: 1.4;
+            padding-top: 0.2rem;
+        }
+        .readers-guide__mark--original { border-bottom: 2px solid var(--ink); padding-top: 0.5rem; }
+        .readers-guide__mark--bilingual { border-left: 3px solid var(--accent); }
+        .readers-guide__mark--cards    { border-bottom: 2px dashed var(--accent-lt); padding-top: 0.4rem; }
+        .readers-guide__mark--terms    { border-left: 1px solid var(--accent); border-right: 1px solid var(--accent); padding: 0.2rem 0.3rem; }
+
+        .readers-guide__label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            color: var(--ink-muted);
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+        .readers-guide__desc {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.9rem;
+            line-height: 1.75;
+            color: var(--ink-soft);
+        }
+        .mark-text { font-weight: 500; }
+        .mark-text--orange { color: var(--accent); }
+        .mark-text--warm   { background: #f5f0e6; padding: 0 4px; border-radius: 3px; }
+        .mark-text--blue   { color: var(--accent); text-decoration: underline; text-decoration-color: rgba(154,52,18,0.4); text-underline-offset: 3px; }
+        .readers-guide__project {
+            margin-top: 2rem;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.75rem;
+            color: var(--ink-muted);
+            text-align: center;
+            line-height: 1.6;
+        }
+        .readers-guide__project a {
+            color: var(--ink-muted);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--rule);
+            margin-left: 0.2em;
+        }
+        .readers-guide__project a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        /* GitHub 项目地址：银灰色、缩小、低调，不与正文抢视觉 */
+        .readers-guide__project-link {
+            margin-top: 0.9rem;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 0.72rem;
+            color: #9298a0;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .readers-guide__project-link a {
+            color: #9298a0;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(146,152,160,0.55);
+        }
+        .readers-guide__project-link a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        /* 中文段落：衬线体，首行缩进 2em */
+        .cn-para {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.08rem;
+            line-height: 1.95;
+            color: var(--ink);
+            text-indent: 2em;
+            margin: 0 0 1.5rem;
+            letter-spacing: 0.01em;
+        }
+
+        /* 英文段落：无衬线体，首行缩进 1.2em */
+        .en-para {
+            font-family: 'IBM Plex Sans', 'PingFang SC', sans-serif;
+            font-size: 1.02rem;
+            line-height: 1.85;
+            color: var(--ink-soft);
+            text-indent: 1.2em;
+            margin: 0 0 1.5rem;
+            letter-spacing: 0.01em;
+        }
+        /* 英文首段 Drop Cap */
+        .en-para.en-first::first-letter {
+            float: left;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 4.4em;
+            line-height: 0.82;
+            padding-right: 0.1em;
+            padding-top: 0.06em;
+            font-weight: 800;
+            color: var(--accent);
+            text-indent: 0 !important;
+        }
+        .en-para.en-first {
+            text-indent: 0 !important;
+        }
+
+        /* 章节分隔线 */
+        .section-divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--rule), transparent);
+            margin: 2.5rem 0;
+        }
+
+        /* 章节标题 */
+        article h1, article h2, article h3 {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            color: var(--ink);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            text-indent: 0 !important;
+        }
+        article h1 { font-size: 1.8rem; letter-spacing: -0.01em; }
+        article h2 { font-size: 1.35rem; }
+        article h3 { font-size: 1.1rem; color: var(--ink-soft); }
+
+        /* 列表无缩进 */
+        article ul, article ol {
+            padding-left: 1.5rem;
+            margin: 1rem 0 1.5rem;
+        }
+        article li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.02rem;
+            line-height: 1.9;
+            color: var(--ink-soft);
+            margin-bottom: 0.5rem;
+        }
+
+        /* 引言块 */
+        article blockquote {
+            border-left: 3px solid var(--accent);
+            background: #f5f0e6;
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            border-radius: 0 6px 6px 0;
+        }
+        article blockquote p {
+            text-indent: 0 !important;
+            font-style: italic;
+            color: var(--ink-soft);
+            font-size: 1rem;
+            line-height: 1.85;
+            margin: 0;
+        }
+
+        /* ═══════════════════════════════════════════
+           出版级可点击目录卡片 (Designed Interactive TOC)
+           ═══════════════════════════════════════════ */
+        .toc-card {
+            background: #ffffff;
+            border: 1px solid var(--rule);
+            border-radius: 12px;
+            padding: 2.2rem 2.5rem;
+            margin: 3.5rem 0;
+            box-shadow: 0 4px 20px rgba(28, 25, 23, 0.05);
+        }
+        .toc-card__header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .toc-card__eyebrow {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            text-transform: uppercase;
+        }
+        .toc-card__title {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--ink);
+            margin: 0.4rem 0 0;
+        }
+        .toc-card__list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .toc-card__item {
+            margin-bottom: 0.9rem;
+        }
+        .toc-card__item:last-child {
+            margin-bottom: 0;
+        }
+        .toc-card__link {
+            display: flex;
+            align-items: baseline;
+            text-decoration: none;
+            color: var(--ink);
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            transition: color 0.15s ease;
+        }
+        .toc-card__link:hover {
+            color: var(--accent);
+        }
+        .toc-card__name {
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .toc-card__dots {
+            flex: 1;
+            border-bottom: 1px dashed var(--rule);
+            margin: 0 0.75rem;
+            position: relative;
+            top: -0.2em;
+        }
+        .toc-card__info {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.85rem;
+            color: var(--ink-muted);
+            white-space: nowrap;
+        }
+
+        /* ═══════════════════════════════════════════
+           自我审美重构：出版级杂志卡片 (Editorial Cheat Card)
+           ═══════════════════════════════════════════ */
+        .cheat-sheet {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 1.25rem !important;
+            margin: 2.2rem 0 !important;
+        }
+
+        .cheat-card {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 0.9rem !important;
+            padding: 1.4rem 1.6rem !important;
+            background: #ffffff !important;
+            border: 1px solid var(--rule) !important;
+            border-radius: 10px !important;
+            box-shadow: 0 2px 8px rgba(28, 25, 23, 0.04), 0 1px 3px rgba(28, 25, 23, 0.02) !important;
+            cursor: pointer !important;
+            transition: box-shadow 0.2s ease, transform 0.15s ease !important;
+        }
+        .cheat-card:hover {
+            box-shadow: 0 6px 20px rgba(154, 52, 18, 0.12), 0 2px 6px rgba(28, 25, 23, 0.06) !important;
+            transform: translateY(-2px) !important;
+        }
+
+        /* 卡片头部：词汇与对应中文名 */
+        .cc-term {
+            display: flex !important;
+            align-items: baseline !important;
+            justify-content: space-between !important;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 1.12rem !important;
+            font-weight: 700 !important;
+            color: var(--accent) !important;
+            border-bottom: 1px solid var(--rule) !important;
+            padding-bottom: 0.65rem !important;
+            padding-right: 0 !important;
+            border-right: none !important;
+        }
+
+        /* 卡片主体：双列 45% : 55% 黄金平铺，彻底告别单字竖排挤压 */
+        .cheat-card-body {
+            display: grid !important;
+            grid-template-columns: 1fr 1.25fr !important;
+            gap: 1.5rem !important;
+            align-items: start !important;
+        }
+
+        .cc-meaning {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-size: 0.98rem !important;
+            font-weight: 400 !important;
+            color: var(--ink) !important;
+            line-height: 1.75 !important;
+            padding: 0 !important;
+            text-indent: 0 !important;
+        }
+
+        /* 商业造句：浅雅对比内衬背景，取消 nowrap 截断，完全展示完整美感 */
+        .cc-sentence {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-size: 0.93rem !important;
+            font-style: italic !important;
+            color: var(--ink-soft) !important;
+            line-height: 1.7 !important;
+            padding: 0.8rem 1.1rem !important;
+            background: #fdfbf7 !important;
+            border-left: 3px solid var(--accent-lt) !important;
+            border-radius: 0 6px 6px 0 !important;
+            white-space: normal !important;            /* 彻底取消 ellipsis 强行截断 */
+            overflow: visible !important;
+            text-overflow: clip !important;
+        }
+
+
+        /* ═══════════════════════════════════════════
+           小节标题 (原书子板块 · 居中加粗)
+           ═══════════════════════════════════════════ */
+        .subsection-title {
+            text-align: center;
+            margin: 2.6rem auto 1.4rem;
+            padding: 0.5rem 0 0.4rem;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--ink);
+            max-width: 30rem;
+            border-bottom: 1px solid var(--rule);
+            position: relative;
+        }
+        .subsection-title::before,
+        .subsection-title::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            width: 2.2rem;
+            height: 2px;
+            background: var(--accent);
+            opacity: 0.6;
+        }
+        .subsection-title::before { left: 50%; margin-left: -2.4rem; }
+        .subsection-title::after  { right: 50%; margin-right: -2.4rem; }
+        .subsection-title__zh {
+            display: block;
+            font-size: 1.02rem;
+            letter-spacing: 0.22em;
+        }
+        .subsection-title__en {
+            display: block;
+            font-family: 'Baskerville', 'Cormorant Garamond', Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.78rem;
+            letter-spacing: 0.05em;
+            color: var(--ink-muted);
+            margin-top: 0.25rem;
+        }
+
+                                        /* ═══════════════════════════════════════════
+           低调挂卡：极致紧凑小字单行导航 (Ultra-Compact Low-Profile Nav)
+           ═══════════════════════════════════════════ */
+        .secnav {
+            position: fixed;
+            top: 2.3rem;
+            left: 1.2rem;
+            z-index: 100;
+            display: none;
+        }
+        /* 目录遮罩：铺满全屏但不改变视觉，仅用于拦截"点击目录外空白 → 关闭" */
+        .secnav__overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 99;      /* 在卡片(更高)之下、正文之上：点卡片是卡片交互，点之外是关闭 */
+            background: transparent;
+        }
+        .secnav__card {
+            position: relative;
+            z-index: 101;     /* 浮在遮罩(99)之上：点卡片仍是卡片交互，点遮罩(外部)关闭 */
+            width: min(92vw, 22rem);
+            max-height: 68vh;
+            overflow-y: auto;
+            background: rgba(250, 248, 243, 0.97);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--rule);
+            border-radius: 6px;
+            padding: 0.6rem 0.75rem 0.7rem;
+            box-shadow: 0 8px 24px rgba(28, 25, 23, 0.14);
+        }
+        .secnav__link {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.45rem;
+            padding: 0.35rem 0.35rem;
+            text-decoration: none;
+            color: var(--ink-soft);
+            border-radius: 4px;
+            transition: all 0.12s ease;
+            white-space: normal !important;
+            overflow: visible !important;
+            word-break: break-word !important;
+        }
+        .secnav__link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__num {
+            font-family: 'Baskerville', 'Georgia', 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--accent);
+            opacity: 0.85;
+            flex-shrink: 0;
+            margin-top: 0.05rem;
+            min-width: 1.1rem;
+        }
+        .secnav__content {
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+            flex: 1;
+            white-space: normal !important;
+            overflow: visible !important;
+            word-break: break-word !important;
+        }
+        .secnav__zh {
+            font-size: 0.72rem;
+            font-weight: 500;
+            color: var(--ink);
+            line-height: 1.35;
+            white-space: normal !important;
+            word-break: break-word !important;
+        }
+        .secnav__en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.63rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            line-height: 1.3;
+            white-space: normal !important;
+            word-break: break-word !important;
+            overflow: visible !important;
+        }
+        body.nav-open { overflow: hidden; }
+
+        /* ═══════════════════════════════════════════
+           照片图注 (Photo Container & Caption - 居中双语)
+           ═══════════════════════════════════════════ */
+        .photo-container {
+            text-align: center;
+            margin: 2.2rem auto 0.8rem;
+            max-width: 100%;
+        }
+        .photo-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 85%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--rule);
+        }
+        .photo-caption {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            color: var(--ink-muted);
+            text-align: center;
+            margin: 0.8rem auto 2rem;
+            max-width: 32rem;
+            line-height: 1.6;
+        }
+        .photo-caption__zh {
+            display: block;
+            color: var(--ink-soft);
+            margin-bottom: 0.2rem;
+        }
+        .photo-caption__zh::before {
+            content: "▧ ";
+            color: var(--accent);
+            opacity: 0.7;
+        }
+        .photo-caption__en {
+            display: block;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.68rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            opacity: 0.85;
+        }
+
+        /* ═══════════════════════════════════════════
+           二创延伸卡片 (ReBook Card - 高利用率旁注/备注式)
+           ═══════════════════════════════════════════
+           设计原则：低调不抢戏、高空间利用率、衬线/罗马斜体/楷体注脚感。 */
+        .rebook-card {
+            margin: 0.9rem 0;
+            padding: 0.5rem 0.9rem 0.6rem;
+            border: 1px solid var(--rule);
+            border-left: 3px solid var(--accent);
+            border-radius: 4px;
+            background: rgba(250, 248, 243, 0.6);
+        }
+        .rebook-card__title {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin: 0 0 0.35rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .rebook-card__title-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: 400;
+            text-transform: none;
+            letter-spacing: 0.04em;
+            color: var(--ink-muted);
+            opacity: 0.8;
+            font-size: 0.58rem;
+        }
+        .rebook-card__body {
+            font-size: 0.85rem;
+        }
+        /* ═══════════════════════════════════════════
+           二创延伸卡片统一字体规范（三板块共享）
+           ═══════════════════════════════════════════
+           · 英文：黑色加粗斜体（Georgia 罗马系）
+           · 中文：楷体小字
+           · 全部小字备注风格，不喧宾夺主 */
+        .rebook-card__body p,
+        .rebook-card__body li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.85rem !important;
+            line-height: 1.65 !important;
+            color: var(--ink-soft) !important;
+            text-indent: 0 !important;
+            margin-bottom: 0.4rem !important;
+        }
+        /* 修辞赏析：中英双语小字备注式（英文黑色加粗斜体 + 中文楷体斜体） */
+        .rebook-card__body .rhetoric-note {
+            display: block;
+            font-size: 0.78rem;
+            line-height: 1.6;
+            color: var(--ink-soft);
+            margin: 0.25rem 0;
+            padding: 0;
+            border: none;
+        }
+        .rebook-card__body .rhetoric-note .zh {
+            color: var(--ink-soft);
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+        }
+        .rebook-card__body .rhetoric-note .en {
+            color: var(--ink);
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            opacity: 0.9;
+            display: block;
+            font-size: 0.75rem;
+            margin-top: 0.1rem;
+        }
+        .rebook-card__body h1,
+        .rebook-card__body h2,
+        .rebook-card__body h3,
+        .rebook-card__body h4 {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 0.65rem !important;
+            font-weight: 700 !important;
+            letter-spacing: 0.1em !important;
+            text-transform: uppercase !important;
+            color: var(--accent) !important;
+            margin: 0.5rem 0 0.3rem !important;
+            padding-bottom: 0.2rem !important;
+            border-bottom: 1px dashed var(--rule) !important;
+        }
+        .rebook-card__body strong { color: var(--ink); }
+        .rebook-card__body ul,
+        .rebook-card__body ol {
+            margin: 0.2rem 0 0.3rem !important;
+            padding-left: 1.1rem !important;
+        }
+
+        /* Cheat Sheet: 极致紧凑注脚式两栏/单行网格 —— 高利用率、英文黑色加粗斜体、中文楷体备注感、不抢戏 */
+        .cheat-note-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            padding: 0.1rem 0;
+        }
+        .cheat-item {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 0.35rem 0.6rem;
+            padding: 0.25rem 0;
+            border-bottom: 1px dotted rgba(231, 224, 211, 0.7);
+        }
+        .cheat-item:last-child {
+            border-bottom: none;
+        }
+        .cheat-item__term {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-style: italic !important;
+            font-weight: 700 !important;
+            font-size: 0.84rem !important;
+            color: var(--ink) !important;
+            letter-spacing: 0.01em;
+            background: none !important;
+            padding: 0 !important;
+            border: none !important;
+        }
+        .cheat-item__sep {
+            color: var(--ink-muted);
+            opacity: 0.45;
+            font-size: 0.75rem;
+        }
+        .cheat-item__meaning {
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif !important;
+            font-size: 0.82rem !important;
+            font-weight: 400 !important;
+            color: var(--ink-soft) !important;
+            line-height: 1.5 !important;
+            background: none !important;
+            padding: 0 !important;
+            border: none !important;
+        }
+            padding: 0 !important;
+            border: none !important;
+        }
+        .rebook-card__body .cc-sentence {
+            display: none !important;
+        }
+
+        /* ═══════════════════════════════════════════
+           背景知识延伸 (Knowledge Note - 中英双语小字斜体备注)
+           字体与修辞赏析/Cheat Sheet 统一：
+           英文黑色加粗斜体 + 中文楷体斜体
+           ═══════════════════════════════════════════ */
+        .knowledge-note {
+            margin: 0.35rem 0;
+            padding: 0.15rem 0;
+            line-height: 1.6;
+        }
+        .knowledge-note .zh {
+            display: inline;
+            font-family: 'STKaiti', 'KaiTi', '楷体', 'Songti SC', serif;
+            font-style: italic;
+            font-size: 0.78rem;
+            color: var(--ink-soft);
+        }
+        .knowledge-note .en {
+            display: inline;
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 0.72rem;
+            color: var(--ink);
+            opacity: 0.9;
+        }
+        .knowledge-note .zh::after {
+            content: "  ";
+            white-space: pre;
+        }
+        .knowledge-note .en::before {
+            content: " — ";
+            color: var(--ink-muted);
+            opacity: 0.5;
+        }
+
+        /* 兼容旧样式（未折叠时） */
+        .knowledge-window {
+            margin: 1.2rem 0;
+            padding: 1rem 1.25rem;
+            background: #faf8f3;
+            border-radius: 6px;
+            border: 1px solid var(--rule);
+            border-left: 2px solid var(--accent-lt);
+        }
+        .knowledge-window h3,
+        .knowledge-window h4 {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-top: 0;
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .knowledge-window p,
+        .knowledge-window li {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.88rem;
+            line-height: 1.8;
+            color: var(--ink-soft);
+            text-indent: 0 !important;
+            margin-bottom: 0.5rem;
+        }
+
+        /* ═══════════════════════════════════════════
+           互动词汇 (Interactive Term)
+           ═══════════════════════════════════════════ */
+        .interactive-term {
+            cursor: pointer;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-color: var(--accent-lt);
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+            padding: 0 2px;
+            border-radius: 3px;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+        .interactive-term:hover {
+            background: rgba(154,52,18,0.08);
+            color: #7c2d12;
+        }
+
+        /* ═══════════════════════════════════════════
+           页脚 (Colophon)
+           ═══════════════════════════════════════════ */
+        footer {
+            border-top: 1px solid var(--rule);
+            background: rgba(245,240,230,0.6);
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        .colophon__inner {
+            max-width: 42rem;
+            margin: 0 auto;
+        }
+        .colophon__ornament {
+            color: var(--accent);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .colophon__ornament::before,
+        .colophon__ornament::after {
+            content: "";
+            width: 4rem;
+            height: 1px;
+            background: var(--rule);
+        }
+        .colophon__tagline {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 0.95rem;
+            font-style: italic;
+            color: var(--ink-muted);
+            margin-bottom: 1.2rem;
+        }
+        .colophon__meta {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+        }
+
+        /* ═══════════════════════════════════════════
+           知识窗侧边栏 (Slide-over)
+           ═══════════════════════════════════════════ */
+        .term-panel {
+            position: fixed;
+            position: sticky; top: 2.2rem; left: 1rem; z-index: 99;
+            z-index: 99;
+            display: none;
+        }
+        .term-panel[ x-show ] { display: flex; }
+        .term-panel__overlay {
+            position: absolute;
+            position: sticky; top: 2.2rem; left: 1rem; z-index: 99;
+            background: rgba(41,37,36,0.35);
+            backdrop-filter: blur(4px);
+        }
+        .term-panel__card {
+            position: relative;
+            width: 100%;
+            max-width: 28rem;
+            margin-left: auto;
+            height: 100%;
+            background: var(--paper);
+            box-shadow: -8px 0 32px rgba(28,25,23,0.15);
+            padding: 2.5rem 2rem;
+            overflow-y: auto;
+            border-left: 1px solid var(--rule);
+        }
+        .term-panel__close {
+            position: absolute;
+            top: 1.2rem;
+            right: 1.2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--ink-muted);
+            transition: color 0.15s;
+        }
+        .term-panel__close:hover { color: var(--ink); }
+        .term-panel__label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 0.75rem;
+        }
+        .term-panel__term {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--ink);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+        .term-panel__meaning {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+            font-size: 1.05rem;
+            line-height: 1.85;
+            color: var(--ink-soft);
+            margin-bottom: 1.5rem;
+            padding: 1rem 1.25rem;
+            background: #f5f0e6;
+            border-radius: 6px;
+            border-left: 3px solid var(--accent);
+        }
+        .term-panel__sentence-label {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            margin-bottom: 0.5rem;
+        }
+        .term-panel__sentence {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            font-size: 0.95rem;
+            font-style: italic;
+            line-height: 1.75;
+            color: var(--ink-muted);
+        }
+
+        /* ═══════════════════════════════════════════
+           响应式
+           ═══════════════════════════════════════════ */
+        @media (max-width: 48rem) {
+            .cheat-card {
+                grid-template-columns: 1fr;
+                gap: 0.35rem;
+            }
+            .cc-term {
+                border-right: none;
+                border-bottom: 1px solid var(--rule);
+                padding-bottom: 0.4rem;
+                margin-bottom: 0.2rem;
+            }
+            .cc-sentence {
+                border-left: none;
+                padding-left: 0;
+                white-space: normal;
+                overflow: visible;
+                text-overflow: clip;
+            }
+        }
+    
+        /* ═══════════════════════════════════════════
+           出版级典雅商业表格 (Designed Publishing Table)
+           ═══════════════════════════════════════════ */
+        article table {
+            width: 100% !important;
+            table-layout: fixed !important;
+            border-collapse: separate !important;
+            border-spacing: 0 !important;
+            margin: 2rem 0 !important;
+            border: 1px solid var(--rule) !important;
+            border-radius: 8px !important;
+            overflow: hidden !important;
+            background: #ffffff !important;
+            box-shadow: 0 2px 8px rgba(28, 25, 23, 0.04) !important;
+        }
+
+        article thead {
+            background: #f5f0e6 !important;
+            border-bottom: 1px solid var(--rule) !important;
+        }
+
+        article th {
+            display: table-cell !important;
+            padding: 0.9rem 1.2rem !important;
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-size: 0.8rem !important;
+            font-weight: 700 !important;
+            letter-spacing: 0.12em !important;
+            text-transform: uppercase !important;
+            color: var(--accent) !important;
+            border-bottom: 2px solid var(--rule) !important;
+            text-indent: 0 !important;
+        }
+
+        article th:nth-child(1) { width: 22% !important; }
+        article th:nth-child(2) { width: 35% !important; }
+        article th:nth-child(3) { width: 43% !important; }
+
+        article td {
+            padding: 1.1rem 1.2rem !important;
+            vertical-align: top !important;
+            border-bottom: 1px solid #f0e9dd !important;
+            font-size: 0.96rem !important;
+            line-height: 1.7 !important;
+            text-indent: 0 !important;
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+        }
+
+        article tr:last-child td {
+            border-bottom: none !important;
+        }
+
+        article tr:nth-child(even) td {
+            background: #fdfbf7 !important;
+        }
+
+        article td:nth-child(1) {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            font-weight: 600 !important;
+            color: var(--ink) !important;
+            white-space: normal !important;
+        }
+
+        article td:nth-child(2) {
+            font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+            font-weight: 700 !important;
+            color: var(--accent) !important;
+        }
+
+        article td:nth-child(3) {
+            font-family: Georgia, 'Times New Roman', 'Songti SC', serif !important;
+            color: var(--ink-soft) !important;
+        }
+
+
+        /* 🎯 顶部书眉【本章目录】按钮 */
+        .running-head__toc-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            background: rgba(0,0,0,0.05); cursor: pointer;
+            color: var(--ink-soft);
+            border: 1px solid var(--rule);
+            border-radius: 4px;
+            padding: 0.2rem 0.55rem;
+            font-size: 0.72rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .running-head__toc-btn:hover {
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+            border-color: var(--accent-lt);
+        }
+        .running-head__brand {
+            font-size: 0.65rem !important;
+            color: var(--ink-soft) !important;
+            opacity: 0.75 !important;
+            font-weight: 500 !important;
+            transition: opacity 0.2s ease, color 0.2s ease;
+        }
+        .running-head__brand:hover {
+            opacity: 1 !important;
+            color: var(--accent) !important;
+        }
+        .running-head__toc-btn:hover {
+            background: var(--accent);
+            color: #ffffff;
+            border-color: var(--accent);
+        }
+
+        /* 🎯 右下角【返回顶部】悬浮按钮 */
+        .back-to-top-float {
+            position: fixed;
+            bottom: 1.8rem;
+            right: 1.8rem;
+            z-index: 90;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            background: var(--paper);
+            color: var(--ink-soft);
+            border: 1px solid var(--rule);
+            border-radius: 20px;
+            padding: 0.4rem 0.85rem;
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-decoration: none !important;
+            box-shadow: 0 4px 14px rgba(28, 25, 23, 0.1);
+            transition: all 0.2s ease;
+            opacity: 0.85;
+        }
+        .back-to-top-float:hover {
+            opacity: 1;
+            color: var(--accent);
+            border-color: var(--accent-lt);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(154, 52, 18, 0.15);
+        }
+
+
+        .secnav__pref-group {
+            margin-bottom: 0.7rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .secnav__pref-link {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.25rem 0.3rem;
+            font-size: 0.78rem;
+            color: var(--ink-soft);
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.12s;
+        }
+        .secnav__pref-link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__pref-tag {
+            font-size: 0.62rem;
+            padding: 0.1rem 0.35rem;
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        .secnav__brand-title {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--ink-muted);
+            opacity: 0.6;
+            text-transform: uppercase;
+        }
+        /* 🎯 章节大标题与英文两行清晰对齐样式 */
+        .secnav__chapter-header {
+            padding: 0.4rem 0.35rem 0.5rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.2rem;
+            border-bottom: 1.5px solid var(--accent);
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+        .secnav__chapter-num {
+            font-size: 0.55rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--accent);
+            text-transform: uppercase;
+            display: block !important;
+            line-height: 1.2;
+        }
+                .secnav__chapter-title {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: block !important;
+            line-height: 1.4;
+            margin: 0.15rem 0 0.1rem;
+        }
+        .secnav__chapter-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.68rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            display: block !important;
+            line-height: 1.35;
+            margin-top: 0.1rem;
+        }
+        /* 🎯 多章合成：章列表分组（顶层章跳转入口） */
+        .secnav__chapter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.15rem;
+            padding: 0.15rem 0 0.4rem;
+            margin-bottom: 0.4rem;
+            border-bottom: 1px dashed var(--rule);
+        }
+        .secnav__chapter-link {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.45rem;
+            padding: 0.4rem 0.35rem;
+            text-decoration: none;
+            color: var(--ink-soft);
+            border-radius: 4px;
+            transition: all 0.12s ease;
+            white-space: normal !important;
+            word-break: break-word !important;
+        }
+        .secnav__chapter-link:hover {
+            color: var(--accent);
+            background: rgba(154, 52, 18, 0.06);
+        }
+        .secnav__chapter-link .secnav__zh {
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+        .secnav__chapter-link.is-current {
+            background: rgba(154, 52, 18, 0.08);
+            color: var(--accent);
+        }
+        .secnav__chapter-link.is-current .secnav__zh {
+            color: var(--accent);
+        }
+        /* 🎯 下拉导航挂卡：标题类元素全量居中对齐 */
+        .secnav__head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding-bottom: 0.35rem;
+            margin-bottom: 0.4rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .secnav__brand-title {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--ink-muted);
+            opacity: 0.65;
+            text-transform: uppercase;
+            text-align: center;
+            width: 100%;
+        }
+        .secnav__close {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--ink-muted);
+            cursor: pointer;
+            padding: 2px;
+        }
+
+        .secnav__pref-group {
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px dashed var(--rule);
+            text-align: center;
+        }
+        .secnav__chapter-header {
+            padding: 0.35rem 0.2rem 0.5rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1.5px solid var(--accent);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .secnav__chapter-num {
+            font-size: 0.55rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: var(--accent);
+            text-transform: uppercase;
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 0.15rem;
+        }
+        .secnav__chapter-title {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            line-height: 1.4;
+            margin: 0.1rem 0 0.1rem;
+        }
+        .secnav__chapter-en {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.66rem;
+            color: var(--ink-muted);
+            opacity: 0.75;
+            display: block !important;
+            text-align: center;
+            width: 100%;
+            line-height: 1.35;
+        }
+</style>
+</head>
+
+<body id="top" class="bg-paper text-ink antialiased">
+
+    <!-- ═══════════════ 书眉 ═══════════════ -->
+    <header class="running-head">
+        <div class="running-head__inner">
+            <!-- 左侧：目录按钮 -->
+            <button class="running-head__toc-btn" id="rh-toc-btn" title="查看目录">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+                <span>目录</span>
+            </button>
+            <!-- 中间：非常低调弱化的书名/标语 -->
+            <span class="running-head__slogan">源起于文本，想象于无限</span>
+            <!-- 右侧：弱化小字 ReadShift · 私人书房 -->
+            <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="running-head__brand" title="访问 ReadShift GitHub 仓库" style="text-decoration:none; cursor:pointer;" aria-label="ReadShift GitHub Repo">
+                <span class="running-head__dot"></span>
+                <span class="running-head__brand-text">ReadShift &middot; 私人书房</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- 🎯 屏幕右下角悬浮：快捷返回顶部 -->
+    <a href="#top" class="back-to-top-float" id="back-to-top" title="返回顶部">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        <span>顶部</span>
+    </a>
+
+    <!-- ═══════════════ 扉页 (Title Page + 出版版权卡) ═══════════════ -->
+    <div class="title-page">
+        <p class="title-page__eyebrow">AI-Powered Reading Redefined</p>
+        <h1 class="title-page__title">张忠谋自传 · 双语典藏版</h1>
+        <p class="title-page__author">张忠谋 着</p>
+        <p class="title-page__author-en">Morris Chang · Autobiography, Volume One</p>
+        <div class="ornament">✦</div>
+
+        <!-- 出版版权卡：完整的出版与版本信息 -->
+        <div class="title-page__copyright">
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">全书作者</span>
+                <span class="title-page__copyright-value">张忠谋（着）</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">台湾版出版</span>
+                <span class="title-page__copyright-value">天下远见出版股份有限公司</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">出版时间</span>
+                <span class="title-page__copyright-value">1998年2月 · 台北</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">推荐序</span>
+                <span class="title-page__copyright-value">余秋雨 · 高希均</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">本书结构</span>
+                <span class="title-page__copyright-value">自序 · 五章 · 附录 · 大事年表</span>
+            </div>
+            <div class="title-page__copyright-row">
+                <span class="title-page__copyright-label">涵盖时期</span>
+                <span class="title-page__copyright-value">1931 — 1964（出生至33岁）</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ 正文 ═══════════════ -->
+    <main id="book-main">
+
+        <article>
+            <div class="chapter-nav chapter-nav--start" id="chap-188">
+        <span class="chapter-nav__badge">章节</span>
+        <h2 class="chapter-nav__title">台积电篇一第十四章</h2>
+        <span class="chapter-nav__byline">张忠谋</span>
+    </div>
+<h1>台积电篇一·第十四章｜我与台湾的渊源</h1>
+
+<h3 class="subsection-title" id="sub-188-0"><span class="subsection-title__zh">来自台湾的同学</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">一九六一年前，我不认识任何来自台湾的人。一九六一年，德仪派遣我到斯坦福读博，在与他们的交谈中，我在斯坦福认识了从台湾来的同学，对台湾有初步的认识。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">那时，半导体公司已纷纷到低工资的东南亚设立封装测试厂，他们选择的地点大部分在香港。德仪比较保守，还没有到东南亚设厂，但我已认识来自台湾的同学，也问他们对跨国公司利用低工资劳力的见解。他们异口同声地认为：对低工资地区，跨国公司去设厂绝对是好事，因为低工资地区有优秀的大学工程职校毕业的技工人才，也有勤奋的作业员——总之，跨国公司去香港而不去台湾，大概是因为并不知道台湾的好处。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">那时我虽不认识台湾，但认识香港；香港给我的印象是一个商业城市，似乎很不适合发展工业，所以我也下意识地接受了同学对台湾的偏见。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>Classmates from Taiwan</b></p>
+<p class="en-para">Before 1961, I did not know anyone from Taiwan. In 1961, TI sent me to Stanford for my PhD, and during my time there, I met several classmates from Taiwan. Through conversations with them, I gained a preliminary understanding of Taiwan.</p>
+<p class="en-para">At that time, semiconductor companies were already rushing to set up assembly and test facilities in low-wage Southeast Asia, mostly in Hong Kong. TI was more conservative and had not yet established factories in Southeast Asia, but I had gotten to know classmates from Taiwan and asked their views on multinational companies exploiting low-wage labor. They unanimously believed that for low-wage regions, it was absolutely a good thing for multinationals to build factories there, because these regions had excellent technical talent graduating from universities and vocational schools, as well as diligent workers. In short, the reason multinationals went to Hong Kong rather than Taiwan was probably that they simply did not know Taiwan's advantages.</p>
+<p class="en-para">At that time, although I did not know Taiwan, I did know Hong Kong. Hong Kong impressed me as a commercial city, seemingly quite unsuitable for industrial development, so I subconsciously accepted my classmates' bias against Taiwan.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="Assembly and test facility (封装测试厂)" data-meaning="半导体后段工序工厂，负责将晶圆切割成芯片并进行封装和测试；在半导体产业链中，封装测试是劳动力密集的环节，因此最早向低工资地区转移。" data-sentence="*Assembly and test facilities were the first semiconductor operations to migrate to Southeast Asia, leveraging the region's cost advantages in labor-intensive back-end processing.*"><span class="cheat-item__term">Assembly and test facility (封装测试厂)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">半导体后段工序工厂，负责将晶圆切割成芯片并进行封装和测试；在半导体产业链中，封装测试是劳动力密集的环节，因此最早向低工资地区转移。</span></div>
+<div class="cheat-item" data-term="Vocational school talent (职校人才)" data-meaning="指职业学校培养的技术工人；在半导体制造业中，职校毕业生通常担任技术员角色，是产线运转的关键人力。" data-sentence="*The availability of vocational school graduates with hands-on technical skills was a critical factor in site selection for early semiconductor assembly plants.*"><span class="cheat-item__term">Vocational school talent (职校人才)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">指职业学校培养的技术工人；在半导体制造业中，职校毕业生通常担任技术员角色，是产线运转的关键人力。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-189-1"><span class="subsection-title__zh">德仪新加坡与台湾设厂</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">一九六八年德仪终于决定去东南亚设厂，德仪总裁夏伯特先选了香港，但我推荐台湾，总裁也接受了。他与我一起到台北见经济部长李国鼎，想不到遇到困难，只好暂时搁置在台湾建厂计划。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一年后（一九六九年），台湾设厂的困难解决，德仪就来台湾建厂，但那时德仪的海外厂已不归我管；直到一九七二年，我当上了半导体集团总经理，全球所有德仪半导体单位，包括海外厂，都在我属下。此后直到一九七七年，我大约每年都来台湾视察一次，总是与东京、吉隆坡、新加坡同一旅程，每次在台湾逗留一两天，匆匆来、匆匆走，停留的地方通常只有机场、旅馆，位在中和的德仪台湾厂。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">夏伯特与我转程去新加坡，几乎立刻与新加坡政府谈妥，就把原本要到台湾设厂的计划，包括在达拉斯待命出发的厂长及干部一并移到新加坡。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>TI's Singapore and Taiwan Factory Decisions</b></p>
+<p class="en-para">In 1968, TI finally decided to build a factory in Southeast Asia. TI President Shepherd initially chose Hong Kong, but I recommended Taiwan, and the President accepted. He and I traveled together to Taipei to meet Minister of Economic Affairs Li Guoding. Unexpectedly, we encountered difficulties and had to shelve the Taiwan factory plan temporarily.</p>
+<p class="en-para">A year later (1969), the difficulties for building in Taiwan were resolved, and TI came to build a factory in Taiwan. However, by then TI's overseas factories were no longer under my management. It was not until 1972, when I became General Manager of the Semiconductor Group, that all TI semiconductor units worldwide — including overseas factories — came under my authority. From then until 1977, I visited Taiwan about once a year, always on the same trip as Tokyo, Kuala Lumpur, and Singapore. Each time I stayed only a day or two, coming and going in a hurry, typically visiting only the airport, the hotel, and the TI Taiwan factory in Zhonghe.</p>
+<p class="en-para">Shepherd and I diverted to Singapore and almost immediately reached an agreement with the Singapore government. We moved the entire plan originally intended for Taiwan — including the factory manager and staff already on standby in Dallas — to Singapore.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="Semiconductor Group General Manager (半导体集团总经理)" data-meaning="德州仪器公司半导体事业群的最高负责人，管辖全球所有半导体设计、制造、销售单位；这是张忠谋在德仪职业生涯的最高职位。" data-sentence="*As Semiconductor Group General Manager, Chang had global P&amp;L responsibility for TI's entire semiconductor operations, from R&amp;D to fabs to sales.*"><span class="cheat-item__term">Semiconductor Group General Manager (半导体集团总经理)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">德州仪器公司半导体事业群的最高负责人，管辖全球所有半导体设计、制造、销售单位；这是张忠谋在德仪职业生涯的最高职位。</span></div>
+<div class="cheat-item" data-term="P&amp;L responsibility (损益责任)" data-meaning="Profit and Loss responsibility，指管理者对业务单位的收入、成本及利润负责；拥有完整P&amp;L责任的总经理是真正意义上的业务一把手。" data-sentence="*True General Manager authority comes only with full P&amp;L responsibility — the power to make trade-offs between revenue growth and cost control.*"><span class="cheat-item__term">P&amp;L responsibility (损益责任)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">Profit and Loss responsibility，指管理者对业务单位的收入、成本及利润负责；拥有完整P&amp;L责任的总经理是真正意义上的业务一把手。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-190-2"><span class="subsection-title__zh">工研院IC计划的开始</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">一九七五年，在我德仪半导体集团总经理任内，大约是营销部的属下告诉我德仪收到一封台湾工研院的「招标」函——征求IC技术移转，以及相关知识产权的授权。德仪当时政策不卖技术（十几年后，德仪窃此政策改变），所以我毫不犹豫地决定不投标。许多年后，我才知道工研院当年发了不少招标函，但只有少数厂商投标。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一九七六年一月，一位已自美国RCA退休、但仍住在普林斯顿的潘文渊先生要来达拉斯「请教」我，说是为了台湾IC计划招标。我在电话上又对潘先生讲了一遍德仪不卖技术的政策，但潘说他不是要德仪移转技术，而是有别的问题要「请教」，我就与他约了一月二十二日下午在我达拉斯办公室见面。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">那天潘与另一位工研院顾问凌君同来。潘的主要问题是：「CMOS是不是最有希望的IC技术？」对这问题，我有一个肯定的答复：「是。」在一九七一年我接手德仪MOS部门后，我历经「PMOS」、「NMOS」，最后「CMOS」。站在一九七六年一月的立足点，CMOS成为最终胜出的技术，在我心中，已没有什幺疑问。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">潘、凌两位似乎很满意的答复。多年后，我才知道我对潘的肯定答复的确是台湾买RCA CMOS技术的最后关卡（至少是最后关卡之一）。紧接着潘的达拉斯行，四十二天以后（一九七六年三月五日），工研院就与RCA签约，再一个多月后（四月二十六日）工研院就派出第一批工程师去RCA实习。后来几十年IC技术的发展，的确以CMOS为主流，所以我一九七六年给潘者的答复没有错。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>The Genesis of ITRI's IC Program</b></p>
+<p class="en-para">In 1975, during my tenure as TI's Semiconductor Group General Manager, I was informed by someone in marketing that TI had received an "invitation to bid" from Taiwan's Industrial Technology Research Institute (ITRI). The solicitation sought IC technology transfer and related intellectual property licensing. TI's policy at the time was not to sell technology (a policy TI would quietly change a decade later), so I decided without hesitation not to bid. Many years later, I learned that ITRI had sent out numerous bids that year, but only a handful of companies responded.</p>
+<p class="en-para">In January 1976, a Mr. Pan Wen-yuan, retired from RCA but still living in Princeton, wanted to come to Dallas to "consult" me, saying it was about Taiwan's IC program bidding. On the phone, I repeated TI's no-technology-sales policy, but Pan said he wasn't asking TI to transfer technology — he had other questions to "consult" me about. We scheduled a meeting for the afternoon of January 22 in my Dallas office.</p>
+<p class="en-para">That day Pan came with another ITRI consultant, Mr. Ling. Pan's main question was: "Is CMOS the most promising IC technology?" I gave an affirmative answer: "Yes." After taking over TI's MOS division in 1971, I had journeyed through PMOS, NMOS, and ultimately CMOS. Standing at the vantage point of January 1976, CMOS had emerged as the definitive winning technology — of this I had no doubt.</p>
+<p class="en-para">Pan and Ling seemed satisfied with my answer. Years later, I learned that my affirmative response to Pan was indeed the final checkpoint (or at least one of them) for Taiwan's decision to purchase RCA's CMOS technology. Just 42 days after Pan's Dallas visit (March 5, 1976), ITRI signed with RCA, and a little over a month later (April 26), ITRI dispatched its first batch of engineers to RCA for training. The subsequent decades of IC technology development confirmed CMOS as mainstream — so my answer to Pan in 1976 was correct.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="Technology transfer (技术移转)" data-meaning="指将技术知识、专利、工艺流程从一方转移给另一方的商业行为；在半导体产业中，技术移转通常以授权金或权利金的形式进行。" data-sentence="*Technology transfer deals in semiconductors typically involve not just patent licensing, but also the tacit knowledge of process integration that cannot be captured in documents alone.*"><span class="cheat-item__term">Technology transfer (技术移转)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">指将技术知识、专利、工艺流程从一方转移给另一方的商业行为；在半导体产业中，技术移转通常以授权金或权利金的形式进行。</span></div>
+<div class="cheat-item" data-term="CMOS (Complementary Metal-Oxide-Semiconductor，互补金属氧化物半导体)" data-meaning="一种低功耗的IC制造技术，将成为全球半导体产业的主流制程；张忠谋在1976年即预判CMOS的最终胜出，这是他技术判断力的早期体现。" data-sentence="*CMOS technology's superior power efficiency made it the inevitable choice for the coming wave of consumer electronics — a conviction Chang held as early as 1976.*"><span class="cheat-item__term">CMOS (Complementary Metal-Oxide-Semiconductor，互补金属氧化物半导体)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">一种低功耗的IC制造技术，将成为全球半导体产业的主流制程；张忠谋在1976年即预判CMOS的最终胜出，这是他技术判断力的早期体现。</span></div>
+<div class="cheat-item" data-term="Invitation to bid (招标函)" data-meaning="政府或公共机构为特定项目向潜在供应商发出的正式邀请；工研院以招标方式寻求IC技术移转，体现了当时台湾政府推动产业升级的决心。" data-sentence="*The ITRI's invitation to bid for CMOS technology transfer was Taiwan's opening move in its decades-long project to build a domestic semiconductor industry.*"><span class="cheat-item__term">Invitation to bid (招标函)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">政府或公共机构为特定项目向潜在供应商发出的正式邀请；工研院以招标方式寻求IC技术移转，体现了当时台湾政府推动产业升级的决心。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-191-3"><span class="subsection-title__zh">一九七六年近代工程技术讨论会</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">与潘文渊会面的同月，秘书忽然告诉我有一位自称是台湾行政院秘书长的人从洛杉矶打电话给我，要和我讲话，我满腹怀疑地接起电话。对方自我介绍他是费骅，行政院秘书长，也是中国工程师学会会长，电话目的是邀请我参加当年七月在台北举行的近代工程技术讨论会，并做专题演说。我在电话上答应考虑，挂了电话后就打电报给德仪台湾，嘱他们打听一下费秘书长及近代工程技尤讨论会的来历。德仪台湾很快就给我正面回音，七月会期也正值德仪假期，我就答应了。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">那会议是我与台湾关系的真正开始。我利用德仪的假期赴会。记得我在演说前一天早上就到台北，在圆山大饭店登记后就到山下圆山联谊会，坐在游泳池旁，准备我次日的演讲。虽然台北七月相当炎热，但我来自更炎热的达拉斯，并不觉得不舒服。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一九七六年我还在德仪事业的「高原」上，还是总公司「成长委员会」主席，理论上负责全公司的成长发展策略。那时人们正大做价格一半的电子表，我的演讲就以「电子表」为题，阐述德仪如何先从「市场研究」决定「目标电子表」的性能、设计，以及最利推销的价格；然后，如何动员内部研发、工程、生产部门，不但要做到目标的性能和设计，而且要做到使得公司能在二十美元零售价赚到合理利润的成本。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">这场演讲相当受欢迎。在一九七六年的台湾，科技产业相当落后。我所讲的世界级科技公司如何有计划地推出新产品的故事，绝大听众是第一次听到。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">听众中有一位是李国鼎政务委员。此时离我一九六八年因筹备德仪台湾而来台拜访时任经济部部长的他，已经有八年之久。李政委当时六十六岁，一生服务政府，历任行政院美援运用委员会秘书长、经济部部长、财政部部长等财经要职，但在一九七六年，他刚经历了重大的心脏手术。据他自己告诉我，蒋经国行政院院长为了减轻他的负担，请他担任科技方面的政务委员。国鼎先生虽在大学时修物理，但已离开科技多年，现在做了科技政委，当然想与世界级的科技公司建立关系；德仪正是这样的公司，何况里面还有一个华裔的高阶主管！</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">我演讲后李政委就趋前称赞，并约我午餐，此后无论我来台湾，或他去美国，他总会约我见面；每次他去美国，他总会要来德仪参观，看看有什幺新发展。他也结识了刚自德仪董事长职位退休的海格底。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>The 1976 Engineering Conference</b></p>
+<p class="en-para">In the same month as my meeting with Pan Wen-yuan, my secretary suddenly told me that someone claiming to be the Secretary-General of Taiwan's Executive Yuan was calling from Los Angeles and wished to speak with me. I picked up the phone full of skepticism. The caller introduced himself as Fei Hua, Secretary-General of the Executive Yuan and President of the Chinese Institute of Engineers. His purpose was to invite me to speak at the upcoming Engineering Conference in Taipei that July. I said I would consider it, and after hanging up, I cabled TI Taiwan to investigate the background of Secretary-General Fei and the conference. TI Taiwan quickly gave me a positive assessment. The July timing coincided with TI's holiday period, so I accepted.</p>
+<p class="en-para">That conference marked the true beginning of my relationship with Taiwan. I used TI's holiday to attend. I remember arriving in Taipei the morning before my speech, checking into the Grand Hotel, then going down to the Yuan Shan Club by the swimming pool to prepare for the next day's presentation. Although Taipei in July was quite humid and hot, I came from the even more sweltering Dallas and didn't find it uncomfortable.</p>
+<p class="en-para">In 1976, I was still on the "plateau" of my TI career, serving as chairman of the corporate Growth Committee, theoretically responsible for the company's growth and development strategy company-wide. At that time, everyone was making electronic watches at half the prevailing price. My speech took "the electronic watch" as its topic, describing how TI used market research to define the target watch's performance, design, and optimal selling price, and then mobilized internal R&D, engineering, and manufacturing not only to meet those performance and design targets but to achieve costs that would allow reasonable profit at a $20 retail price.</p>
+<p class="en-para">The speech was well received. In 1976 Taiwan, the technology industry was quite backward. The story of how a world-class technology company systematically brings new products to market was something most of the audience had never heard before.</p>
+<p class="en-para">Among the audience was Kuo-Ting Li (Li Guoding), a Minister without Portfolio. By then, eight years had passed since my first visit to Taiwan in 1968, when I had met him as Minister of Economic Affairs to discuss building the TI Taiwan factory. Minister Li was then 66, a lifelong government veteran who had served as Secretary-General of the Council for International Economic Cooperation, Minister of Economic Affairs, and Minister of Finance. But in 1976, he had just undergone major heart surgery. As he himself told me, Premier Chiang Ching-kuo had asked him to serve as Minister without Portfolio for technology to lighten his load. Although Mr. Li had studied physics in college, he had left technology behind long ago. Now as technology minister, he naturally wanted to build relationships with world-class technology companies. TI was precisely such a company — and what's more, it had a Chinese senior executive!</p>
+<p class="en-para">After my speech, Minister Li came forward to compliment me and invited me to lunch. From then on, whenever I visited Taiwan or he visited the United States, he would arrange to see me. Every time he came to the U.S., he would visit TI to see what new developments there were. He also became acquainted with Eric Haggerty, who had recently retired as TI's Chairman.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="Growth Committee (成长委员会)" data-meaning="德仪最高管理层级的事业策略委员会，由董事长及总裁担任委员、主席负责全公司成长发展策略；张忠谋在一九七六年担任此委员会主席，但并无实权。" data-sentence="*The Growth Committee was the apex of TI's strategic planning — in theory setting corporate-wide growth priorities, in practice often serving as a sounding board for the Chairman's vision.*"><span class="cheat-item__term">Growth Committee (成长委员会)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">德仪最高管理层级的事业策略委员会，由董事长及总裁担任委员、主席负责全公司成长发展策略；张忠谋在一九七六年担任此委员会主席，但并无实权。</span></div>
+<div class="cheat-item" data-term="Market research → cost targeting (市场研究→成本目标法)" data-meaning="一种逆向定价方法——先通过市场研究确定消费者可接受的零售价，再反推各环节可容忍的成本上限；这是德州仪器在消费电子产品中常用的「按价值定价」方法。" data-sentence="*TI's approach was to start with the consumer price point and engineer backward — a discipline that forced every function to justify its cost contribution to the final product.*"><span class="cheat-item__term">Market research → cost targeting (市场研究→成本目标法)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">一种逆向定价方法——先通过市场研究确定消费者可接受的零售价，再反推各环节可容忍的成本上限；这是德州仪器在消费电子产品中常用的「按价值定价」方法。</span></div>
+<div class="cheat-item" data-term="MITI-style technology Minister (科技政委)" data-meaning="台湾政府中负责科技政策规划的政务委员；李国鼎担任此职期间，正是台湾从劳力密集产业向技术密集产业转型的关键期。" data-sentence="*Li Guoding's appointment as technology minister signaled Taiwan's determination to leap from assembly-based manufacturing into the knowledge economy.*"><span class="cheat-item__term">MITI-style technology Minister (科技政委)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">台湾政府中负责科技政策规划的政务委员；李国鼎担任此职期间，正是台湾从劳力密集产业向技术密集产业转型的关键期。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-192-4"><span class="subsection-title__zh">海格底与一九八一年台湾访问</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">此后李政委结识了刚自德仪董事长职位退休的海格底。一年后（一九七八年），海格底应李政委邀请，专程访问台湾一周，而且受李政委邀请组织行政院科技顾问团，此事已详述在本书第十章。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">不幸海格底在一九八〇年患胰脏癌，英年早逝。自发现癌症至过世前后只不过几个月左右。在海格底病危时，德仪认为这是海格底个人的「隐私」，所以只有极少数人知道他病危的消息，我那时已在德仪「下山」途中，只知道海格底生病，不知道他病危。倒是在海格底病危期间再度访问德仪，没见到海格底，却被告知海格底病危。于是，在与我聚餐时，倒是他——一个外人——告诉我海格底病危。从我一脸惊异的表情，他也猜到我应已不在德仪核心圈内，并且直爽地问：「你不在经营委员会里了？」我虽痛心，但不否认。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">此后两年李政委开始征求我到台湾工作。第一步在一九八一年初，他要求德仪董事长夏伯特「借用」我两星期，要我参观台湾电子工业并对他及行政院院长孙运璇做建议。他第一次做此要求被夏伯特拒绝，夏推说我刚有新任务（品质总监），不肯借；第二次再要时，夏伯特有点不胜其烦，答应了。我在「品质总监」职务内，本就预备在一九八一的三、四月到欧亚各德仪工厂走一遍，现在腾出四月十二至二十二的十天，专门为李政委为台湾电子工业做建议。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">这十天中我看了十三家工厂和两个实验室（工研院电子所及交通部电信所），与李政委及工研院方贤齐院长吃了好几次晚餐；从这次起，以后我访问台湾，李政委常邀请当时的经济部部长和财政部部长与我一起晚餐，甚至有一次他说：「我把张博士交给你们了。」这次离台前，我拜会行政院院长孙运璇，口头报告此行的建议。回到达拉斯后写了一份九页的报告给李政委，这份报告我至今还保留，现在把它纲要摘录如下：</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">**日期：一九八一年五月四日****致：李国鼎政委**台湾电子业在最近十年有爆发性的成长，但几乎所有成长都基于台湾的低工资。当别的比台湾工资更低的地区开始开放，政府的目标——要电子工业从「劳力密集」升级到「技术密集」，非常合时。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">「技术密集」与「劳力密集」工业需要很不一样的经济及社会基础设施，也许更重要的，它们需要很不一样的经营者心态。要务不是开发几个个别的技术，而是建立一个奖励创新的社会及经济环境。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>Haggerty and the 1981 Taiwan Visit</b></p>
+<p class="en-para">Minister Li subsequently became acquainted with Eric Haggerty, who had recently retired as TI's Chairman. A year later (1978), at Minister Li's invitation, Haggerty made a week-long visit to Taiwan and, at Minister Li's request, organized the Executive Yuan's Science and Technology Advisory Group (STAG), as detailed in Chapter 10 of this book.</p>
+<p class="en-para">Sadly, Haggerty was diagnosed with pancreatic cancer in 1980 and died young. Only a few months passed between diagnosis and death. When Haggerty was critically ill, TI considered it his "private matter" and very few people knew of his condition. I was already on my "downhill" path at TI by then and only knew that Haggerty was ill, not that he was critical. Ironically, during Haggerty's final illness, Minister Li visited TI again. Not meeting Haggerty, he was told Haggerty was critical. At dinner with me, it was Minister Li — an outsider — who informed me of Haggerty's condition. From my visible shock, he surmised I was no longer in TI's inner circle and bluntly asked: "You're no longer on the Operations Committee?" Though pained, I did not deny it.</p>
+<p class="en-para">Over the next two years, Minister Li began recruiting me to work in Taiwan. The first step came in early 1981, when he asked TI Chairman Shepherd to "borrow" me for two weeks to visit Taiwan's electronics industry and advise him and Premier Sun Yun-suan. The first time he made this request, Shepherd refused, excusing that I had just taken on a new assignment (Quality Director) and could not be spared. The second time, Shepherd, somewhat annoyed, agreed. Within my Quality Director role, I had already planned to visit TI factories across Europe and Asia in March-April 1981. Now I carved out ten days (April 12–22) specifically for Minister Li to advise Taiwan's electronics industry.</p>
+<p class="en-para">During those ten days, I visited thirteen factories and two laboratories (ITRI's Electronics Research Institute and the Ministry of Transportation's Telecommunications Institute). I had several dinners with Minister Li and ITRI President Fang Xianqi. From this trip onward, whenever I visited Taiwan, Minister Li would often invite the current Minister of Economic Affairs and Minister of Finance to join me for dinner. Once he even said: "I'm entrusting Dr. Chang to you."</p>
+<p class="en-para">Before leaving Taiwan, I paid a courtesy call on Premier Sun Yun-suan to give an oral summary of my recommendations. After returning to Dallas, I wrote a nine-page report to Minister Li, which I still preserve today. Its outline follows:</p>
+<p class="en-para"><b>Date: May 4, 1981</b></p>
+<p class="en-para"><b>To: Minister K.T. Li</b></p>
+<p class="en-para">Taiwan's electronics industry has experienced explosive growth in the past decade, but nearly all of that growth has been predicated on Taiwan's low wages. As other regions with even lower wages begin to open up, the government's goal — to upgrade the electronics industry from "labor-intensive" to "technology-intensive" — is most timely.</p>
+<p class="en-para">"Technology-intensive" and "labor-intensive" industries require very different economic and social infrastructure. Perhaps more importantly, they require very different managerial mindsets. The task is not to develop a few individual technologies, but to build a social and economic environment that rewards innovation.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="Downhill path (下山途中)" data-meaning="张忠谋自况在德仪职业生涯的下行阶段；「下山」隐喻失去核心圈地位、权力逐步被削弱的处境。" data-sentence="*Chang's self-described &quot;downhill path&quot; at TI was a rare moment of self-awareness — recognizing that his influence had peaked and the only dignified option was to leave.*"><span class="cheat-item__term">Downhill path (下山途中)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">张忠谋自况在德仪职业生涯的下行阶段；「下山」隐喻失去核心圈地位、权力逐步被削弱的处境。</span></div>
+<div class="cheat-item" data-term="Operations Committee (经营委员会)" data-meaning="德仪最高决策机构，由董事长、总裁及核心高阶主管组成；被排除在经营委员会之外，意味着失去对重大决策的参与权。" data-sentence="*Exclusion from the Operations Committee was the clearest signal that Chang had fallen from TI's inner circle — a political demotion more devastating than any title change.*"><span class="cheat-item__term">Operations Committee (经营委员会)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">德仪最高决策机构，由董事长、总裁及核心高阶主管组成；被排除在经营委员会之外，意味着失去对重大决策的参与权。</span></div>
+<div class="cheat-item" data-term="Labor-intensive → Technology-intensive (劳力密集→技术密集)" data-meaning="产业升级的经典路径——从依赖低成本劳动力转向依赖技术知识；这是台湾在一九八〇年代经济转型的核心命题。" data-sentence="*Taiwan's push from labor-intensive to technology-intensive industry in the 1980s mirrored the earlier trajectories of Japan and Korea — but with a unique emphasis on the semiconductor sector.*"><span class="cheat-item__term">Labor-intensive → Technology-intensive (劳力密集→技术密集)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">产业升级的经典路径——从依赖低成本劳动力转向依赖技术知识；这是台湾在一九八〇年代经济转型的核心命题。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-193-5"><span class="subsection-title__zh">给李政委的报告（一九八一年）</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">我就四个题目建言，谨建言如下：</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">**一、自动化**方贤齐院长让我看他的初步工研院自动化技术研发计划，我的问题是：「研发了又如何呢？」「工业界又怎幺享受工研院的研发成果？」**二、VLSI计划**VLSI案需要的经费和人才甚巨，可不必做。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">**三、电脑**我非常高兴看到小型「电脑相关」公司的蓬勃发展。建言：</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">1. 硬件制造应限于以微处理器为基础的路板、模组、或个人电脑。
+2. 小型电脑公司的经营重点应为：软件开发、硬件适应、比较简单路板或电脑设计及组装，以及售后服务，或提供客户个别需要的服务。
+3. 台湾本地市场甚小，大部分营收要从国外来。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">**四、一般建言**1. 创业基金（亦称风险基金）。
+2. 考虑扩充台湾的证券市场。
+3. 考虑如何以租税政策鼓励投资「技术密集」事业。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">四十年后重温这报告，我相当惊异我那时的冲劲。当然我那时完全不了解台湾的政治和工业环境（不然不会建议工研院不做自动化及VLSI计划），我也高估了政府对民间企业的影响力（不然不会对政府做对电脑产业的建言），但纯从科技业策略面看，即使今天的我，也不惭愧我四十年前的建言。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">事实上，在孙运璇任行政院院长时期，正是政府科技计划最擡头的时期。在我访问台湾之前，政府已决定要工研院做自动化和VLSI计划，我的「不要做」建议，当然无人理会。只有我的「一般建言」——关于创业基金、租税优惠、证券市场方向等等——倒是在以后几年政府陆续开始做，但是这些动作，也已有许多财经专家建议，我的建言只是附和他们一下而已。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">几个月后，我就发现李政委「借调」我参观台湾工业，主要目的不是要我建言；「醉翁之意不在酒」，他只是要我进一步了解台湾，他的下一步就是邀请我到台湾工作。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>The Report to Minister Li (1981)</b></p>
+<p class="en-para">I offered recommendations on four topics:</p>
+<p class="en-para"><b>I. Automation</b></p>
+<p class="en-para">President Fang Xianqi showed me ITRI's preliminary automation R&D plan. My questions: "What happens after the R&D?" "How would industry benefit from ITRI's research results?"</p>
+<p class="en-para"><b>II. VLSI Program</b></p>
+<p class="en-para">The VLSI program would require massive funding and talent — it need not be done.</p>
+<p class="en-para"><b>III. Computers</b></p>
+<p class="en-para">I was delighted to see the flourishing of small "computer-related" companies. My recommendations:</p>
+<p class="en-para">1. Hardware manufacturing should be limited to microprocessor-based circuit boards, modules, or personal computers.</p>
+<p class="en-para">2. Small computer companies should focus on: software development, hardware adaptation, relatively simple circuit board or computer design and assembly, after-sales service, and customized client solutions.</p>
+<p class="en-para">3. Taiwan's domestic market is quite small; most revenue must come from abroad.</p>
+<p class="en-para"><b>IV. General Recommendations</b></p>
+<p class="en-para">1. <span class="interactive-term" data-term="Venture capital" data-meaning="以股权投资方式支持初创公司发展的资金；李国鼎积极推动的创投基金，后来成为台湾科技业蓬勃发展的关键金融基础设施。" data-sentence="*Li Guoding's advocacy for venture capital funds was one of the critical financial innovations that enabled Taiwan's high-tech startup ecosystem.*">Venture capital</span> funds (also called risk funds).</p>
+<p class="en-para">2. Consider expanding Taiwan's securities market.</p>
+<p class="en-para">3. Consider tax policies to encourage investment in "technology-intensive" industries.</p>
+<p class="en-para">Revisiting this report forty years later, I am quite amazed by my youthful vigor. Of course, I understood nothing of Taiwan's political and industrial environment at the time (otherwise I wouldn't have advised ITRI against the automation and VLSI programs). I also overestimated the government's influence over private enterprise (otherwise I wouldn't have made recommendations to the government about the computer industry). But purely from a technology strategy standpoint, even today's me feels no shame about the recommendations made forty years ago.</p>
+<p class="en-para">In fact, during Sun Yun-suan's tenure as Premier, government technology programs were at their zenith. Before my visit, the government had already decided to have ITRI pursue automation and VLSI. My "don't do it" advice was, of course, ignored. Only my "general recommendations" — on <span class="interactive-term" data-term="venture capital" data-meaning="以股权投资方式支持初创公司发展的资金；李国鼎积极推动的创投基金，后来成为台湾科技业蓬勃发展的关键金融基础设施。" data-sentence="*Li Guoding's advocacy for venture capital funds was one of the critical financial innovations that enabled Taiwan's high-tech startup ecosystem.*">venture capital</span>, tax incentives, securities market direction, and so forth — were gradually implemented in subsequent years. But by then, many financial experts had already proposed similar ideas; my recommendations merely echoed theirs.</p>
+<p class="en-para">A few months later, I realized that Minister Li's real purpose in "borrowing" me to visit Taiwan's industry was not for my advice. "The drinker's heart is not in the cup" — he simply wanted me to better understand Taiwan. His next step would be to invite me to work there.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="VLSI (Very Large Scale Integration，超大型集成电路)" data-meaning="指将数十万乃至数百万个晶体管集成在一块芯片上的技术；工研院的VLSI计划后来成为台湾半导体产业的重要技术来源。" data-sentence="*The VLSI program was Taiwan's bold bet on leapfrogging into the most advanced semiconductor manufacturing technologies of its era.*"><span class="cheat-item__term">VLSI (Very Large Scale Integration，超大型集成电路)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">指将数十万乃至数百万个晶体管集成在一块芯片上的技术；工研院的VLSI计划后来成为台湾半导体产业的重要技术来源。</span></div>
+<div class="cheat-item" data-term="Venture capital / Risk fund (创业基金/风险基金)" data-meaning="以股权投资方式支持初创公司发展的资金；李国鼎积极推动的创投基金，后来成为台湾科技业蓬勃发展的关键金融基础设施。" data-sentence="*Li Guoding's advocacy for venture capital funds was one of the critical financial innovations that enabled Taiwan's high-tech startup ecosystem.*"><span class="cheat-item__term">Venture capital / Risk fund (创业基金/风险基金)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">以股权投资方式支持初创公司发展的资金；李国鼎积极推动的创投基金，后来成为台湾科技业蓬勃发展的关键金融基础设施。</span></div>
+<div class="cheat-item" data-term="Tax incentives for technology-intensive industry (租税优惠)" data-meaning="政府以减免税收方式鼓励企业投资技术密集产业；新竹科学工业园区的租税优惠是吸引高科技厂商入驻的关键政策工具。" data-sentence=""><span class="cheat-item__term">Tax incentives for technology-intensive industry (租税优惠)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">政府以减免税收方式鼓励企业投资技术密集产业；新竹科学工业园区的租税优惠是吸引高科技厂商入驻的关键政策工具。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-194-6"><span class="subsection-title__zh">一九八二年孙运璇院长的聘雇及我的婉谢</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">一九八二年一月我的日记：</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一月十日（星期日）上午十时去Marriott。M受孙运璇「说客」之托，要我去台湾工作，但他对何工作并不明了，讲了好几小时，不得要领。晚六时半去M家，M受李国鼎托，说李要我组织一个高科技对外贸易公司，其他情形也不详细。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一月十一日 早上电话李国鼎告知他已和潘及M谈过，又告诉他下月会飞去台湾和他详谈。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一月十二日 对彪希（BARR ROL）说李国鼎事。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一月十三日 彪希要我打电话回绝李国鼎，我说和李面谈一次吧，彪希虽答应，但似不高兴。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">那时我是德仪的「品质总监」，本来就应到全球德仪工厂视察，所以相当容易安排在台湾逗留几天。后来安排在三月二十四日自东京抵台湾，二十五日在德仪台湾办德仪事，二十六至二十九日与孙院长、李政委、方贤齐院长、潘文渊顾问讨论台湾政府要给我的工作，以及待遇。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">孙院长亲自对我讲工作。他说，我可以有三个选择：一是做他的科技顾问，二是做工研院院长，三他让李政委说。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">李政委说他想要我主持政府要办的创投基金（就是M在达拉斯说的贸易公司），但这完全只在「想」的阶段，资金的来源都还没有。李政委只是要让我知道：创投基金也是一个可能。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">待遇方面，只有潘顾问代孙院长问我最近三年待遇多少？我告诉他：二十五万、二十万、二十二万（均美元）。他请示了孙院长后告诉我：「不会让你吃亏。」</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>Premier Sun's 1982 Offer and My Decline</b></p>
+<p class="en-para">From my diary, January 1982:</p>
+<p class="en-para"><i>January 10 (Sunday)</i> — 10 AM went to the Marriott. M, acting as an emissary for Sun Yun-suan, wanted me to work in Taiwan, but he had no clarity about what the job would be. Talked for hours without getting to the point. 6:30 PM went to M's house. M, entrusted by Li Guoding, said Li wanted me to organize a high-tech foreign trade company. Other details were vague.</p>
+<p class="en-para"><i>January 11</i> — Morning, called Li Guoding, told him I had spoken with Pan and M, and that I would fly to Taiwan next month to discuss in detail.</p>
+<p class="en-para"><i>January 12</i> — Told Barr about Li Guoding's matter.</p>
+<p class="en-para"><i>January 13</i> — Barr asked me to call and decline Li Guoding. I said I would meet Li face-to-face once first. Barr agreed but seemed displeased.</p>
+<p class="en-para">At that time I was TI's "Quality Director" and was expected to visit TI factories worldwide, so it was relatively easy to arrange a few days in Taiwan. Eventually, I scheduled my visit: arriving from Tokyo on March 24, handling TI Taiwan business on the 25th, and meeting with Premier Sun, Minister Li, President Fang Xianqi, and consultant Pan Wen-yuan from the 26th to the 29th to discuss the position and compensation the Taiwan government was offering.</p>
+<p class="en-para">Premier Sun personally explained the job to me. He said I had three choices: first, be his technology advisor; second, be ITRI President; third, he would let Minister Li explain.</p>
+<p class="en-para">Minister Li said he wanted me to run a government-sponsored venture capital fund (the trading company M had mentioned in Dallas), but this was still purely at the "thinking" stage — funding sources had not yet been identified. Minister Li simply wanted me to know that the VC fund was also a possibility.</p>
+<p class="en-para">On compensation, only Consultant Pan, on Premier Sun's behalf, asked what my salary had been for the past three years. I told him: $250,000, $200,000, $220,000 (all USD). After consulting Premier Sun, he told me: "We won't let you suffer a loss."</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="Quality Director (品质总监)" data-meaning="德仪全球品质与生产力的最高主管；张忠谋在德仪「下山」途中被安排此职，虽仍有全球视察的便利，但已远离核心决策圈。" data-sentence="*The Quality Director role gave Chang legitimate reason to visit TI fabs worldwide — a perk that masked his political marginalization within the company.*"><span class="cheat-item__term">Quality Director (品质总监)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">德仪全球品质与生产力的最高主管；张忠谋在德仪「下山」途中被安排此职，虽仍有全球视察的便利，但已远离核心决策圈。</span></div>
+<div class="cheat-item" data-term="Venture capital fund (创投基金)" data-meaning="由政府主导、投资于初创科技公司的事业基金；李国鼎的创投构想后来成为台湾科技业资金链的重要一环。" data-sentence="*Li Guoding's vision for a government-backed venture capital fund was ahead of its time — it would take years for the concept to materialize into the thriving VC ecosystem Taiwan has today.*"><span class="cheat-item__term">Venture capital fund (创投基金)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">由政府主导、投资于初创科技公司的事业基金；李国鼎的创投构想后来成为台湾科技业资金链的重要一环。</span></div>
+<div class="cheat-item" data-term="&quot;We won't let you suffer a loss&quot; (不会让你吃亏)" data-meaning="孙运璇院长对张忠谋的待遇承诺；这句话体现了台湾政府揽才的诚意，但也暗示了公部门薪资与跨国企业高管之间的巨大差距。" data-sentence="*Premier Sun's assurance that Chang &quot;wouldn't suffer a loss&quot; was a gesture of goodwill — but also an acknowledgment that government salaries could never match corporate executive compensation.*"><span class="cheat-item__term">&quot;We won't let you suffer a loss&quot; (不会让你吃亏)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">孙运璇院长对张忠谋的待遇承诺；这句话体现了台湾政府揽才的诚意，但也暗示了公部门薪资与跨国企业高管之间的巨大差距。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-195-7"><span class="subsection-title__zh">未成的赴台与一九八五年徐贤修的「三顾茅庐」</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">一九八二年，我在德仪已到「最后的呐喊」阶段（本书第十一章）。假使我的整个德仪生涯也如我在哈佛的一年，是一个「可带走的盛宴」，那幺到了一九八二年，这「盛宴」也已到了杯盘狼藉，主人连连打呵欠，只有我身为客人却还在高谈阔论的阶段。盛宴将终，我的离开德仪，仅是迟早问题；但是迟或早却需要拿捏，因为我还有未到期的「股票承购权」；我还要倚靠这些「股票承购权」赚来的钱，过我未来也许几十年的低薪，或无薪的生活。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">当然孙院长答应我在待遇上「不会让我吃亏」，但这话能维持多久？我在德仪的薪水比台湾工研院院长高得太多，虽然孙院长有诚意，但他不会永远当行政院院长，若换了一个新的行政院院长，还会不会延续这个承诺？</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">有一个办法，假如德仪答应，我可在德仪「留职停薪」；那幺，我可在台湾工作，在德仪虽不领薪，但未到期的「股票承购权」可保留；等到「承购权」到期，我把它实现了，才正式自德仪辞职。但这办法需要德仪同意。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">回到达拉斯后，我对彪希请示在德仪「留职停薪」。我很坦白地告诉他我想去台湾工作，但希望保留股票承购权。彪希说去问夏伯特，一星期后彪希回话：「不准！我们要留你。」我在五月四日致函孙院长，并将副本寄给李政委及方院长，坦白告诉我的处境：我想来台湾工作，但放弃股票承购权的损失实在太大（我甚至告诉他可能损失的金额），而「留职停薪」的请求又被拒绝。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">孙院长及李政委在一个多月后各自回信，两人都表示他们的失望。李政委另提了一个办法：我每年台湾几次，每次一、两星期。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">鉴于上次李政委要求「借用」我时夏伯特的不高兴，以及我对夏伯特和彪希性格的了解，我不认为他们会答应李政委的折衷办法，所以也没对他们提。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">一九八三年十月三十一日，股票承购权也等到了，我辞职德仪，首先想到的就是台湾。辞职次日就电话李政委，告诉他我已是「自由之身」；意外地，电话后却没有下文。几天内，已有好几个猎头者与我接触，所以我也不再向台湾追踪。为什幺这次李政委冷淡，对我至今是一个谜。但一九八五年，徐贤修找我后，李政委又热烈劝我做工研院院长，我接任工研院院长后，他又热烈要我成立台积电。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">只是，一九八五年主动到纽约找我当工研院院长的不是我熟识的李国鼎，而是我比较不熟识的徐贤修。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>The Failed Taiwan Move and Hsu Hsiu-hsien's "Three Visits" in 1985</b></p>
+<p class="en-para">In 1982, I was already at the "last hurrah" phase of my TI career (Chapter 11). If my whole TI career had been, like my year at Harvard, a "portable feast," then by 1982 that feast had reached the stage of dirty dishes and scattered crumbs, with the host repeatedly yawning — only I, the guest, was still holding forth. The feast was ending; my departure from TI was only a matter of time. But timing mattered: I still had unvested <span class="interactive-term" data-term="stock options" data-meaning="允许持有人在特定期间内以预定价格购买公司股票的权利；这是美国科技公司高管薪酬的关键组成部分，也是张忠谋离开德仪时必须精算的财务因素。" data-sentence="*Chang's meticulous calculation of unvested stock options versus the Taiwan opportunity was a classic executive career decision — weighing known wealth against unknown impact.*">stock options</span>, and I would need the money from those options to sustain what might be decades of low-income or no-income life ahead.</p>
+<p class="en-para">Of course Premier Sun had promised I "wouldn't suffer a loss" on compensation — but how long would that promise hold? My TI salary was vastly higher than an ITRI President's could ever be. Though Premier Sun was sincere, he wouldn't be Premier forever. Would a new Premier honor the commitment?</p>
+<p class="en-para">There was one solution — if TI agreed: a leave of absence. I could work in Taiwan while technically remaining at TI, drawing no salary but retaining my unvested <span class="interactive-term" data-term="stock options" data-meaning="允许持有人在特定期间内以预定价格购买公司股票的权利；这是美国科技公司高管薪酬的关键组成部分，也是张忠谋离开德仪时必须精算的财务因素。" data-sentence="*Chang's meticulous calculation of unvested stock options versus the Taiwan opportunity was a classic executive career decision — weighing known wealth against unknown impact.*">stock options</span> until they vested, at which point I would exercise them and formally resign. But this required TI's consent.</p>
+<p class="en-para">After returning to Dallas, I asked Barr about a TI leave of absence. I told him frankly that I wanted to work in Taiwan but hoped to retain my <span class="interactive-term" data-term="stock options" data-meaning="允许持有人在特定期间内以预定价格购买公司股票的权利；这是美国科技公司高管薪酬的关键组成部分，也是张忠谋离开德仪时必须精算的财务因素。" data-sentence="*Chang's meticulous calculation of unvested stock options versus the Taiwan opportunity was a classic executive career decision — weighing known wealth against unknown impact.*">stock options</span>. Barr said he would ask Shepherd. A week later, Barr replied: "No! We want to keep you."</p>
+<p class="en-para">On May 4, I wrote to Premier Sun, copying Minister Li and President Fang, laying out my predicament honestly: I wanted to come to Taiwan, but forfeiting my <span class="interactive-term" data-term="stock options" data-meaning="允许持有人在特定期间内以预定价格购买公司股票的权利；这是美国科技公司高管薪酬的关键组成部分，也是张忠谋离开德仪时必须精算的财务因素。" data-sentence="*Chang's meticulous calculation of unvested stock options versus the Taiwan opportunity was a classic executive career decision — weighing known wealth against unknown impact.*">stock options</span> would mean an enormous financial loss (I even told him the likely amount), and my leave-of-absence request had been denied.</p>
+<p class="en-para">Premier Sun and Minister Li each replied over a month later, both expressing disappointment. Minister Li proposed an alternative: I could visit Taiwan a few times a year, one to two weeks each time.</p>
+<p class="en-para">Given how unhappy Shepherd had been last time Minister Li requested "borrowing" me, and knowing Shepherd and Barr's temperaments well, I did not believe they would agree to Minister Li's compromise, so I didn't raise it with them.</p>
+<p class="en-para">On October 31, 1983, my <span class="interactive-term" data-term="stock options" data-meaning="允许持有人在特定期间内以预定价格购买公司股票的权利；这是美国科技公司高管薪酬的关键组成部分，也是张忠谋离开德仪时必须精算的财务因素。" data-sentence="*Chang's meticulous calculation of unvested stock options versus the Taiwan opportunity was a classic executive career decision — weighing known wealth against unknown impact.*">stock options</span> having vested, I resigned from TI. The first thing that came to mind was Taiwan. The day after resigning, I called Minister Li to tell him I was a "free man." Surprisingly, nothing followed the call. Within days, several headhunters had already approached me, so I stopped pursuing Taiwan. Why Minister Li was cold on this occasion remains a mystery to me to this day. But in 1985, after Hsu Hsiu-hsien approached me, Minister Li once again warmly urged me to become ITRI President. And after I took that post, he passionately urged me to found TSMC.</p>
+<p class="en-para">It's just that the one who came to New York in 1985 to recruit me as ITRI President was not the familiar K.T. Li, but the less familiar Hsu Hsiu-hsien.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="Stock options / 股票承购权" data-meaning="允许持有人在特定期间内以预定价格购买公司股票的权利；这是美国科技公司高管薪酬的关键组成部分，也是张忠谋离开德仪时必须精算的财务因素。" data-sentence="*Chang's meticulous calculation of unvested stock options versus the Taiwan opportunity was a classic executive career decision — weighing known wealth against unknown impact.*"><span class="cheat-item__term">Stock options / 股票承购权</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">允许持有人在特定期间内以预定价格购买公司股票的权利；这是美国科技公司高管薪酬的关键组成部分，也是张忠谋离开德仪时必须精算的财务因素。</span></div>
+<div class="cheat-item" data-term="Leave of absence (留职停薪)" data-meaning="员工暂时离开职位但保留雇佣关系的安排；德仪拒绝张忠谋的留职停薪请求，等于切断了他在台美之间的退路。" data-sentence="*TI's refusal of Chang's leave-of-absence request was the final signal that the company would not accommodate his Taiwan ambitions — forcing an irreversible choice.*"><span class="cheat-item__term">Leave of absence (留职停薪)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">员工暂时离开职位但保留雇佣关系的安排；德仪拒绝张忠谋的留职停薪请求，等于切断了他在台美之间的退路。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-196-8"><span class="subsection-title__zh">徐贤修「三顾茅庐」（一九八五年，五十四岁）</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">徐贤修先生曾任美国普渡大学（Purdue University）数学教授，在美国退休后，历任台湾清华大学校长、国科会主委等职；在国科会任内，他建议设立新竹科学工业园区，为当时行政院院长蒋经国采纳。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">我在一九八一及八二年来访台湾时，曾拜访国科会主委徐贤修。一九八五年，徐已卸任国科会，接任工研院董事长。工研院院长方贤齐因年龄及健康关系有退休意，徐正在找一个新的院长。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">根据徐贤修后来告诉我，他的朋友萨支唐教授在报纸上看到我辞职通用器材公司的消息，就打电话给他推荐我（后来李政委告诉我科技顾问赛驰 Frederick Seitz、RAT Bob Evans 亦在报纸上看到我辞职消息后对李推荐我，但李因为工研院不属他管，所以没有主动找我）。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">四月八日，我从通用器材辞职后不到十天，徐贤修就打电话到我的通用器材办公室（我与通用约定辞职后仍可继续用办公室数月），说要和我谈工研院院长事，并约定四月二十八日见面。徐先生很喜欢用中文典故，后来在我工研院院长就职典礼上，他曾说为请我曾「三顾茅庐」；其实他只来过两次，而且我住在川普大厦楼上，与当时地产巨富、后来美国总统的川普上下为邻，我的住所绝对不能说是「茅庐」。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">四月二十八日，我与徐贤修谈了两、三小时，我答应五月先到台湾工研院「看看」。五月十四日行政院科技顾问艾凡斯也来纽约看我。艾凡斯是旧识，他任IBM副总裁时，我在德仪，他是我的客户。后来他离开IBM，做创业投资，现来纽约劝我接受工研院职。他说我若做工研院院长，实质上会是「台湾科技长」。当时我不知道他说得对不对，后来做了工研院院长后，才知道艾凡斯此话荒谬之极。台湾没有「科技长」，即使有，也不会是工研院院长。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>Hsu Hsiu-hsien's "Three Visits to the Thatched Cottage" (1985, age 54)</b></p>
+<p class="en-para">Mr. Hsu Hsiu-hsien had served as a mathematics professor at Purdue University in the United States. After retiring from the U.S., he held successive positions as President of Tsing Hua University in Taiwan and Minister of the National Science Council. During his NSC tenure, he proposed the establishment of the Hsinchu Science Park, which was adopted by then-Premier Chiang Ching-kuo.</p>
+<p class="en-para">During my 1981 and 1982 visits to Taiwan, I had called on Minister Hsu. By 1985, Hsu had left the NSC and become Chairman of ITRI. ITRI President Fang Xianqi wished to retire due to age and health, and Hsu was searching for a new president.</p>
+<p class="en-para">According to what Hsu later told me, his professor friend Sah Chi-tang had seen news of my resignation from General Instruments in the newspaper and called to recommend me. (Minister Li later told me that technology advisor Frederick Seitz and RAT Bob Evans had also seen the news and recommended me to Li, but since ITRI was not under Li's purview, Li did not take the initiative to contact me.)</p>
+<p class="en-para">On April 8 — less than ten days after my GI resignation — Hsu called my GI office (GI had agreed I could keep using the office for several months after resigning) to discuss the ITRI presidency, scheduling a meeting for April 28. Mr. Hsu was fond of Chinese literary allusions. At my ITRI inauguration, he would later say he had paid "three visits to the thatched cottage" to recruit me. In truth, he only came twice, and I lived in the Trump Tower, a high-rise luxury building — my residence could hardly be called a "thatched cottage."</p>
+<p class="en-para">On April 28, Hsu and I talked for two to three hours. I agreed to visit ITRI in May first to "take a look." On May 14, Executive Yuan technology advisor Bob Evans also came to New York to see me. Evans was an old acquaintance — when he was IBM Vice President and I was at TI, he had been my client. After leaving IBM for venture capital, he now came to New York to persuade me to accept the ITRI post. He said that if I became ITRI President, I would effectively be Taiwan's "Technology Czar." I didn't know then whether he was right. Only after becoming ITRI President did I realize how absurd Evans' statement was. Taiwan had no "Technology Czar," and even if it did, it wouldn't be the ITRI President.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="&quot;Three visits to the thatched cottage&quot; (三顾茅庐)" data-meaning="三国典故，刘备三次亲往草庐请诸葛亮出山；徐贤修以此自比，但张忠谋幽默指出——他只来了两次，而且张的住所是川普大厦，绝非「茅庐」。" data-sentence="*Hsu's self-deprecating &quot;three visits&quot; allusion was a charming touch in the recruitment story — though Chang's Trump Tower apartment made the &quot;thatched cottage&quot; comparison delightfully incongruous.*"><span class="cheat-item__term">&quot;Three visits to the thatched cottage&quot; (三顾茅庐)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">三国典故，刘备三次亲往草庐请诸葛亮出山；徐贤修以此自比，但张忠谋幽默指出——他只来了两次，而且张的住所是川普大厦，绝非「茅庐」。</span></div>
+<div class="cheat-item" data-term="Hsinchu Science Park (新竹科学工业园区)" data-meaning="台湾第一个科学工业园区，成立于一九八〇年；徐贤修在国科会任内推动设立，后来成为全球半导体产业的重要聚落。" data-sentence="*The Hsinchu Science Park became Taiwan's answer to Silicon Valley — a concentrated ecosystem where semiconductor companies could share talent, infrastructure, and knowledge spillovers.*"><span class="cheat-item__term">Hsinchu Science Park (新竹科学工业园区)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">台湾第一个科学工业园区，成立于一九八〇年；徐贤修在国科会任内推动设立，后来成为全球半导体产业的重要聚落。</span></div>
+<div class="cheat-item" data-term="Technology Czar (科技长)" data-meaning="对一国科技政策最高主管的俗称；艾凡斯称张忠谋做工研院院长会成为「台湾科技长」，但张认为此言荒谬——工研院院长并无政策制定权。" data-sentence="*Evans' &quot;Technology Czar&quot; label was a well-meaning exaggeration — in reality, the ITRI President's influence came not from formal authority but from convening power and technical credibility.*"><span class="cheat-item__term">Technology Czar (科技长)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">对一国科技政策最高主管的俗称；艾凡斯称张忠谋做工研院院长会成为「台湾科技长」，但张认为此言荒谬——工研院院长并无政策制定权。</span></div>
+</div></div></div>
+
+
+<h3 class="subsection-title" id="sub-197-9"><span class="subsection-title__zh">五月台湾访问与七月决定</span></h3>
+<div class="bilingual-pair">
+<p class="cn-para">五月，我实践对徐贤修的答应，到台湾访问共十一天。在一九八一、八二年两次访问台湾时，我对工研院已稍有了解。这次，听了副院长（胡定华）以及各所（工研院当时共五所）所长的详细报告；十一天内，与徐贤修每天见面，与行政院院长俞国华见面两次，与李国鼎也见面好几次。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">除了鼓励我接受工研院院长职，李国鼎重提他三年前（一九八二年）对我提过的创投基金，这三年，他的创投计划已有稍进展，他与在Hambrecht &amp; Quist（H&amp;Q）任职的徐大麟君谈在台湾设创投，于是李国鼎又重萌我亦可在创投扮演一个角色的念头，并且立刻介绍那时也在台湾的徐大麟给我，希望我和徐大麟可以合作。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">十一天访问结束时，我是否接受工研院院长职尚无结论。我的条件是：我不计较待遇，可以接受任何俞院长及徐董事长认为合理的待遇，但我只答应「半时」工作，因为我要保留另一半时给李国鼎的创投，或其他在美国的工作（例如天使投资人）。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">六月二十四日，徐贤修来纽约访我，告诉我俞院长已答应我的条件，只要我承诺：（一）不要对外说我只是半时；（二）创投与工研院应分开。徐也告诉我俞院长开出来的薪资。如考虑「半时」工作，这薪资相当合理。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">六月二十六、七日，我去了旧金山访问H&amp;Q的负责人，询问他们「台湾创投基金」的详细，结果是：「台湾创投基金」无论规模及我与徐大麟君的附带利益，都相当使我失望；更有甚者，徐大麟君本来预备独自经营「台湾创投基金」，现在如果要和我一起经营，而且分享「附带利益」，明显有点失望。所以李政委要我在创投扮演一个角色的主意，并不实际。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">纽约的春天快快地过去，现在已到七月，我也已「沉潜」了三个多月。几乎整个七月，我陷入「此后做什幺事」的沉思中。经济方面我已无后顾之忧，最重要的考量是：来的工作是否具足够挑战性，能使我再度振作；比较次要，但仍很重要的考量是工作地点和环境。我能否适应？</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">美国，尤其纽约、德克萨斯、或硅谷，是我最能适应的地点。但挑战性工作机会？在一九八五年七月看来，恐怕只有创业投资（如一九八四年，见第十三章）或继续做「经营顾问」及天使投资人。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">台湾呢？无论工作或居住环境，对我都很陌生。但工研院职位看来颇具挑战性。至于徐贤修和俞院长对我「半时」的应承，明显地非常勉强；况且我原本要求「半时」的原意——参加李国鼎的「台湾创投基金」以及终结现存的「经营顾问」及天使投资人工作——一半已不存在（我已发现李政委对我参加「台湾创投基金」的期望并不实际）。我只要结束在纽约的工作（大约一年内）就可以全时在台湾；即使未来一年，也可以至少「四分之三时」在台湾。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">七月二十四日，我决定了，我打电话给徐贤修，接受工研院院长职位。</p>
+</div>
+<div class="bilingual-pair">
+<p class="cn-para">五十四岁，再不闯天下以后也不会了。</p>
+</div>
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para"><b>The May Taiwan Visit and the July Decision</b></p>
+<p class="en-para">In May, I kept my promise to Hsu and visited Taiwan for eleven days. During my 1981 and 1982 visits, I had gained some understanding of ITRI. This time, I heard detailed reports from the Vice President (Hu Dinghua) and the directors of each institute (ITRI then had five institutes). Over the eleven days, I met with Hsu daily, saw Premier Yu Guohua twice, and met with Li Guoding several times.</p>
+<p class="en-para">Beyond encouraging me to accept the ITRI presidency, Li Guoding revisited the venture capital fund he had proposed three years earlier (1982). In the intervening years, his VC plans had made some progress — he had discussed setting up a VC fund in Taiwan with Mr. Hsu Ta-lin at Hambrecht & Quist (H&Q). So Li rekindled the idea that I could play a role in the VC fund and immediately introduced me to Hsu Ta-lin, who was also in Taiwan at the time, hoping that Hsu and I could collaborate.</p>
+<p class="en-para">At the end of the eleven-day visit, I had not yet decided whether to accept the ITRI presidency. My terms: I did not care about compensation and would accept whatever Premier Yu and Chairman Hsu deemed reasonable. But I would only agree to work "half-time," because I wanted to reserve the other half for Li Guoding's VC fund or other U.S.-based work (such as angel investing).</p>
+<p class="en-para">On June 24, Hsu came to New York to see me. He told me that Premier Yu had agreed to my conditions, provided I promised: (1) not to tell outsiders I was only half-time; (2) to keep the VC fund separate from ITRI. Hsu also told me the salary Premier Yu was offering. Given the "half-time" arrangement, the compensation was quite reasonable.</p>
+<p class="en-para">On June 26-7, I visited San Francisco to meet with H&Q's principals and inquired about the details of the "Taiwan VC Fund." The result: whether in terms of scale or the carried interest for Hsu Ta-lin and me, the Taiwan VC Fund was deeply disappointing. Worse, Hsu Ta-lin had originally planned to run the fund alone; now having to co-run it and share carried interest with me was clearly unwelcome. So Minister Li's idea of my playing a role in the VC fund was simply impractical.</p>
+<p class="en-para">New York's spring quickly passed; it was now July, and I had been "submerged" in reflection for nearly three months. Throughout most of July, I was lost in contemplation about "what to do next." Financially, I had no worries. The most important consideration: would the work be challenging enough to excite me again? A secondary but still important consideration: the work location and environment. Could I adapt?</p>
+<p class="en-para">The United States — especially New York, Texas, or Silicon Valley — was where I could adapt most easily. But challenging job opportunities? As of July 1985, the options seemed limited to venture capital (as in 1984, see Chapter 13) or continuing as a "management consultant" and angel investor.</p>
+<p class="en-para">Taiwan? Both the work and living environment were quite foreign to me. But the ITRI position seemed genuinely challenging. As for Hsu and Premier Yu's accommodation of my "half-time" request, it was clearly reluctant. Moreover, the original rationale for "half-time" — participating in Li Guoding's "Taiwan VC Fund" while winding down my "management consulting" and angel investing — was half gone (I had realized that Minister Li's expectations about my VC involvement were unrealistic). I could go full-time in Taiwan within about a year of winding down my New York work; even during that year, I could spend at least "three-quarters time" in Taiwan.</p>
+<p class="en-para">On July 24, I decided. I called Hsu Hsiu-hsien and accepted the ITRI presidency.</p>
+<p class="en-para">Fifty-four years old — if I didn't venture forth now, I never would.</p>
+</div>
+<div class="rebook-card"><div class="rebook-card__title">Cheat Sheet · 商业语汇</div><div class="rebook-card__body"><div class="cheat-note-grid">
+<div class="cheat-item" data-term="Carried interest (附带利益/绩效分成)" data-meaning="创投基金中普通合伙人（GP）从基金利润中分得的报酬，通常为利润的20%；这是创投行业最核心的利益激励机制。" data-sentence="*The carried interest structure aligns the GP's incentives with the LPs' — both profit when portfolio companies succeed, creating a powerful motivation for value creation.*"><span class="cheat-item__term">Carried interest (附带利益/绩效分成)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">创投基金中普通合伙人（GP）从基金利润中分得的报酬，通常为利润的20%；这是创投行业最核心的利益激励机制。</span></div>
+<div class="cheat-item" data-term="Angel investor (天使投资人)" data-meaning="以个人资金投资初创公司的早期投资者；张忠谋在离开通用器材后短暂从事天使投资，这是他接触初创企业生态的起点。" data-sentence="*Chang's brief stint as an angel investor gave him firsthand exposure to the startup world — experience that would later inform his approach to building TSMC's customer ecosystem.*"><span class="cheat-item__term">Angel investor (天使投资人)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">以个人资金投资初创公司的早期投资者；张忠谋在离开通用器材后短暂从事天使投资，这是他接触初创企业生态的起点。</span></div>
+<div class="cheat-item" data-term="&quot;If I didn't venture forth now, I never would&quot; (再不闯天下以后也不会了)" data-meaning="张忠谋在五十四岁做出重大职业转折时的自我激励；放弃美国优渥生活、赴陌生台湾，是他人生中最关键的一次「闯」。" data-sentence="*Chang's decision to leave New York for Taiwan at 54 was a rare act of entrepreneurial courage — trading the comforts of a known world for the uncertainty of building something entirely new.*"><span class="cheat-item__term">&quot;If I didn't venture forth now, I never would&quot; (再不闯天下以后也不会了)</span><span class="cheat-item__sep">—</span><span class="cheat-item__meaning">张忠谋在五十四岁做出重大职业转折时的自我激励；放弃美国优渥生活、赴陌生台湾，是他人生中最关键的一次「闯」。</span></div>
+</div></div></div>
+        </article>
+
+        <!-- 知识窗侧边栏（原生 JS 控制，零框架） -->
+        <div class="term-panel" id="term-panel" style="display:none;" aria-hidden="true">
+            <div class="term-panel__overlay" id="term-panel-overlay"></div>
+            <div class="term-panel__card">
+                <button class="term-panel__close" id="term-panel-close" aria-label="关闭">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+                <p class="term-panel__label">Deep Dive</p>
+                <h2 class="term-panel__term" id="term-panel-term"></h2>
+                <div class="term-panel__meaning" id="term-panel-meaning"></div>
+                <p class="term-panel__sentence-label" id="term-panel-sentence-label" style="display:none;">商业造句</p>
+                <p class="term-panel__sentence" id="term-panel-sentence" style="display:none;"></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ═══════════════ 小节导航浮层（两级目录 · 原生 JS） ═══════════════ -->
+    <div class="secnav" id="secnav" style="display:none;" aria-hidden="true">
+        <div class="secnav__overlay" id="secnav-overlay"></div>
+        <div class="secnav__card">
+            <div class="secnav__head">
+                <span class="secnav__brand-title">张忠谋自传 · 双语典藏版</span>
+                <button class="secnav__close" id="secnav-close" aria-label="关闭">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <ul class="secnav__list" id="secnav-list"></ul>
+        </div>
+    </div>
+
+    <!-- ═══════════════ 页脚 ═══════════════ -->
+    <footer>
+        <div class="colophon__inner">
+            <div class="colophon__ornament">❖</div>
+            <p class="colophon__tagline">万物皆可重塑，期待有趣的灵魂在此相遇。</p>
+            <p class="colophon__meta">Generated by ReadShift Engine · Text is the Genesis</p>
+        </div>
+    </footer>
+
+    <script>
+        // ─── 原书小节导航：两级目录（章 → 小节）原生 JS ───
+        (function () {
+            var subsections = [{"id":"sub-188-0","zh":"来自台湾的同学","en":"","chapterStart":188,"page":188},{"id":"sub-189-1","zh":"德仪新加坡与台湾设厂","en":"","chapterStart":188,"page":189},{"id":"sub-190-2","zh":"工研院IC计划的开始","en":"","chapterStart":188,"page":190},{"id":"sub-191-3","zh":"一九七六年近代工程技术讨论会","en":"","chapterStart":188,"page":191},{"id":"sub-192-4","zh":"海格底与一九八一年台湾访问","en":"","chapterStart":188,"page":192},{"id":"sub-193-5","zh":"给李政委的报告（一九八一年）","en":"","chapterStart":188,"page":193},{"id":"sub-194-6","zh":"一九八二年孙运璇院长的聘雇及我的婉谢","en":"","chapterStart":188,"page":194},{"id":"sub-195-7","zh":"未成的赴台与一九八五年徐贤修的「三顾茅庐」","en":"","chapterStart":188,"page":195},{"id":"sub-196-8","zh":"徐贤修「三顾茅庐」（一九八五年，五十四岁）","en":"","chapterStart":188,"page":196},{"id":"sub-197-9","zh":"五月台湾访问与七月决定","en":"","chapterStart":188,"page":197}] || [];
+            var chapterList = [] || [];
+            var multiChapter = false;
+            var nav = document.getElementById('secnav');
+            var list = document.getElementById('secnav-list');
+            var currentChapterStart = multiChapter ? (chapterList.length ? chapterList[0].start : 23) : 0;
+
+            function renderList(chapterStart) {
+                list.innerHTML = '';
+                var items = subsections.filter(function (s) { return s.chapterStart === chapterStart; });
+                if (!items.length) return;
+                items.forEach(function (s) {
+                    var li = document.createElement('li');
+                    li.className = 'secnav__item';
+                    var a = document.createElement('a');
+                    a.className = 'secnav__link';
+                    a.href = '#' + s.id;
+                    var zh = document.createElement('span');
+                    zh.className = 'secnav__zh';
+                    zh.textContent = s.zh;
+                    a.appendChild(zh);
+                    if (s.en) {
+                        var en = document.createElement('span');
+                        en.className = 'secnav__en';
+                        en.textContent = s.en;
+                        a.appendChild(en);
+                    }
+                    li.appendChild(a);
+                    list.appendChild(li);
+                });
+            }
+                                    function openNav() {
+                if (!nav || !list) return;
+                list.innerHTML = '';
+
+                // ── 多章合成：先渲染章列表（点击跳到各章正文章首） ──
+                if (multiChapter && chapterList.length) {
+                    var chapGroup = document.createElement('div');
+                    chapGroup.className = 'secnav__chapter-group';
+                    chapterList.forEach(function (ch, ci) {
+                        var item = document.createElement('a');
+                        item.className = 'secnav__chapter-link';
+                        item.href = '#' + ch.anchor;
+                        item.innerHTML = '<span class="secnav__num">' + (ci + 1 < 10 ? '0' : '') + (ci + 1) + '</span>' +
+                                          '<div class="secnav__content">' +
+                                            '<span class="secnav__zh">' + ch.zh + '</span>' +
+                                            (ch.en ? '<span class="secnav__en">' + ch.en + '</span>' : '') +
+                                          '</div>';
+                        chapGroup.appendChild(item);
+                    });
+                    list.appendChild(chapGroup);
+                }
+
+                // 1. 检查页面是否存在序言卡片（仅第一章包含序言）
+                
+
+                // 2. 动态读取当前章大标题（多章时跟随 currentChapterStart 动态取章名）
+                var chapHead = document.createElement('div');
+                chapHead.className = 'secnav__chapter-header';
+                var curZh = '自序';
+                var curEn = 'Author's Preface to the Second Volume';
+                if (multiChapter && chapterList.length) {
+                    for (var k = 0; k < chapterList.length; k++) {
+                        if (chapterList[k].start === currentChapterStart) {
+                            curZh = chapterList[k].zh;
+                            curEn = chapterList[k].en;
+                            break;
+                        }
+                    }
+                }
+                chapHead.innerHTML = '<span class="secnav__chapter-num">CHAPTER CONTENT · 本章结构</span>' +
+                                     '<span class="secnav__chapter-title">' + curZh + '</span>' +
+                                     (curEn ? '<span class="secnav__chapter-en">' + curEn + '</span>' : '');
+                list.appendChild(chapHead);
+
+                // 3. 当前章的小节（多章时按 currentChapterStart 过滤；单章时全部）
+                var items = subsections;
+                if (multiChapter) {
+                    var start = currentChapterStart;
+                    items = subsections.filter(function (s) { return s.chapterStart === start; });
+                }
+                items.forEach(function (s, idx) {
+                    var numStr = (idx + 1 < 10 ? '0' : '') + (idx + 1);
+                    var li = document.createElement('li');
+                    li.className = 'secnav__item';
+                    var a = document.createElement('a');
+                    a.className = 'secnav__link';
+                    a.href = '#' + s.id;
+                    a.innerHTML = '<span class="secnav__num">' + numStr + '</span>' +
+                                  '<div class="secnav__content">' +
+                                    '<span class="secnav__zh">' + s.zh + '</span>' +
+                                    (s.en ? '<span class="secnav__en">' + s.en + '</span>' : '') +
+                                  '</div>';
+                    li.appendChild(a);
+                    list.appendChild(li);
+                });
+                nav.style.display = 'block';
+                nav.setAttribute('aria-hidden', 'false');
+            }
+            function closeNav() {
+                if (!nav) return;
+                nav.style.display = 'none';
+                nav.setAttribute('aria-hidden', 'true');
+                
+            }
+
+            // 点击章节导航条 → 打开当前章小节目录
+            document.addEventListener('click', function (e) {
+                if (e.target.closest('#rh-toc-btn')) {
+                    e.preventDefault();
+                    if (nav.style.display === 'block') { closeNav(); } else { openNav(); }
+                    return;
+                }
+                var chNav = e.target.closest('.chapter-nav--start');
+                if (chNav) {
+                    e.preventDefault();
+                    var m = chNav.id.match(/^chap-(\d+)$/);
+                    if (m) currentChapterStart = parseInt(m[1]);
+                    openNav();
+                    return;
+                }
+                // 目录里的章链接：更新当前章后关闭面板，让默认锚点跳转到章首
+                var chLink = e.target.closest('.secnav__chapter-link');
+                if (chLink) {
+                    var mm = (chLink.getAttribute('href') || '').match(/chap-(\d+)/);
+                    if (mm) currentChapterStart = parseInt(mm[1]);
+                    closeNav();
+                    return;
+                }
+                if (e.target.closest('#secnav-close') || e.target.closest('#secnav-overlay') || e.target.closest('.secnav__link')) {
+                    closeNav();
+                }
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closeNav();
+            });
+
+            // 多章合成：滚动时更新当前章（用于目录当前章小节 + 章列表高亮）
+            if (multiChapter && 'IntersectionObserver' in window) {
+                var chapterObserver = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (en) {
+                        if (en.isIntersecting) {
+                            var m = (en.target.id || '').match(/^chap-(\d+)$/);
+                            if (m) {
+                                currentChapterStart = parseInt(m[1]);
+                                // 高亮当前章列表项
+                                var links = list.querySelectorAll('.secnav__chapter-link');
+                                links.forEach(function (lk, i) {
+                                    var targetCh = chapterList[i];
+                                    if (targetCh && targetCh.start === currentChapterStart) {
+                                        lk.classList.add('is-current');
+                                    } else {
+                                        lk.classList.remove('is-current');
+                                    }
+                                });
+                            }
+                        }
+                    });
+                }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+                chapterList.forEach(function (ch) {
+                    var el = document.getElementById(ch.anchor);
+                    if (el) chapterObserver.observe(el);
+                });
+            }
+        })();
+
+        // ─── 知识窗：零框架原生 JS（双击即开，任何浏览器可用） ───
+        (function () {
+            var panel = document.getElementById('term-panel');
+            var termEl = document.getElementById('term-panel-term');
+            var meaningEl = document.getElementById('term-panel-meaning');
+            var sentLabel = document.getElementById('term-panel-sentence-label');
+            var sentEl = document.getElementById('term-panel-sentence');
+
+            function openPanel(term, meaning, sentence) {
+                if (!panel) return;
+                termEl.textContent = term || '';
+                meaningEl.textContent = meaning || '';
+                if (sentence) {
+                    sentLabel.style.display = '';
+                    sentEl.style.display = '';
+                    sentEl.textContent = sentence;
+                } else {
+                    sentLabel.style.display = 'none';
+                    sentEl.style.display = 'none';
+                }
+                panel.style.display = '';
+                panel.setAttribute('aria-hidden', 'false');
+                document.body.classList.add('panel-open');
+            }
+            function closePanel() {
+                if (!panel) return;
+                panel.style.display = 'none';
+                panel.setAttribute('aria-hidden', 'true');
+                document.body.classList.remove('panel-open');
+            }
+
+            // 关闭按钮 / 遮罩 / Esc
+            document.addEventListener('click', function (e) {
+                if (e.target.closest('#rh-toc-btn')) {
+                    e.preventDefault();
+                    if (nav.style.display === 'block') { closeNav(); } else { openNav(); }
+                    return;
+                }
+                if (e.target.closest('.term-panel__close') || e.target.closest('.term-panel__overlay')) {
+                    closePanel();
+                    return;
+                }
+                var term = e.target.closest('.interactive-term');
+                if (term) {
+                    openPanel(term.dataset.term, term.dataset.meaning, term.dataset.sentence);
+                    return;
+                }
+                var item = e.target.closest('.cheat-item');
+                if (item) {
+                    openPanel(item.dataset.term, item.dataset.meaning, item.dataset.sentence);
+                }
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closePanel();
+            });
+        })();
+    </script>
+</body>
+</html>

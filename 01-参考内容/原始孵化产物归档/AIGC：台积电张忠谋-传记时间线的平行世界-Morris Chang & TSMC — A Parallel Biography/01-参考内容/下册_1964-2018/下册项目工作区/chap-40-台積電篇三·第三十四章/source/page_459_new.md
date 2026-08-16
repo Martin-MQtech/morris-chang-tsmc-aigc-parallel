@@ -1,0 +1,5 @@
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">Succession and retirement represent the final test for every business leader. Morris Chang began planning in 2005. Over thirteen years, through Morris Cai's setbacks, the experiment with three co-COOs, and Sandi Jin's quiet departure, he ultimately found in Tim Liu and Morris Wei a pair of 'dual leaders' to whom he could hand over the baton he had carried for thirty-two years.</p>
+<p class="en-para">Succession is difficult not only because of the challenge of finding a successor with adequate ability, but more so because of whether the founder is willing to truly 'let go.' In 2012, Morris Chang once tried to transfer Sandi Jin away from R&amp;D, but could not bring himself to feel at ease—and this brief episode of 'transfer and then transfer back' is a true portrait of a leader's inability to let go. In the end, he accomplished succession through the dual-leadership system and set a precedent for corporate succession in Taiwan.</p>
+</div>

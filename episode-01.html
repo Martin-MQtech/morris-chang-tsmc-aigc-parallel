@@ -276,9 +276,9 @@
                 </div>
             </div>
 
-            <!-- Main Audio Element (Hidden backend) -->
-            <audio id="audio-engine" preload="metadata">
-                <source id="audio-source" src="./试听/中文A_云健Yunjian.mp3" type="audio/mpeg">
+            <!-- Main Audio Element (Direct src + preload auto) -->
+            <audio id="audio-engine" src="./audio/zh-a.mp3" preload="auto">
+                <source id="audio-source" src="./audio/zh-a.mp3" type="audio/mpeg">
                 您的浏览器不支持 HTML5 音频播放器。
             </audio>
 
@@ -967,10 +967,10 @@
         const subtitleLines = document.querySelectorAll('.subtitle-line');
 
         const tracks = {
-            'zh-a': { src: './试听/中文A_云健Yunjian.mp3', label: '🇨🇳 中文原声 (云健)' },
-            'zh-b': { src: './试听/中文B_云希Yunxi.mp3', label: '🇨🇳 中文备选 (云希)' },
-            'en-a': { src: './试听/英文A_Christopher.mp3', label: '🇺🇸 English (Christopher)' },
-            'en-b': { src: './试听/英文B_Aria.mp3', label: '🇺🇸 English (Aria)' }
+            'zh-a': { src: './audio/zh-a.mp3', fallback: './试听/中文A_云健Yunjian.mp3', label: '🇨🇳 中文原声 (云健)' },
+            'zh-b': { src: './audio/zh-b.mp3', fallback: './试听/中文B_云希Yunxi.mp3', label: '🇨🇳 中文备选 (云希)' },
+            'en-a': { src: './audio/en-a.mp3', fallback: './试听/英文A_Christopher.mp3', label: '🇺🇸 English (Christopher)' },
+            'en-b': { src: './audio/en-b.mp3', fallback: './试听/英文B_Aria.mp3', label: '🇺🇸 English (Aria)' }
         };
 
         let currentTrackId = 'zh-a';
@@ -979,16 +979,11 @@
             if (!tracks[trackId]) return;
             const wasPlaying = !audio.paused;
             const curTime = audio.currentTime;
-
             currentTrackId = trackId;
-            audioSource.src = tracks[trackId].src;
+            audio.src = tracks[trackId].src;
             audio.load();
             audio.currentTime = curTime;
-
-            // Update Track Label
             currentTrackLabel.textContent = tracks[trackId].label;
-
-            // Update Button styling
             document.querySelectorAll('.track-btn').forEach(btn => {
                 btn.classList.remove('active', 'bg-amber-500', 'text-slate-950');
                 btn.classList.add('bg-slate-800', 'text-slate-300');
@@ -998,11 +993,22 @@
                 activeBtn.classList.add('active', 'bg-amber-500', 'text-slate-950');
                 activeBtn.classList.remove('bg-slate-800', 'text-slate-300');
             }
-
             if (wasPlaying) {
-                audio.play().catch(e => console.log('Audio switch play ignored'));
+                audio.play().catch(e => console.log('Audio resume error', e));
             }
         }
+
+        // Fallback error handler
+        audio.addEventListener('error', () => {
+            if (tracks[currentTrackId] && tracks[currentTrackId].fallback && audio.src !== tracks[currentTrackId].fallback) {
+                console.warn('Primary audio src failed, falling back to:', tracks[currentTrackId].fallback);
+                audio.src = tracks[currentTrackId].fallback;
+                audio.load();
+                if (!audio.paused) {
+                    audio.play().catch(e => console.error(e));
+                }
+            }
+        });
 
         function togglePlay() {
             if (audio.paused) {
@@ -1061,25 +1067,22 @@
             currentTimeText.textContent = formatTime(cur);
             totalDurationText.textContent = formatTime(dur);
 
-            // Sync Subtitles
-            subtitleLines.forEach((line) => {
+            // Update active subtitle line
+            let activeFound = false;
+            subtitleLines.forEach(line => {
                 const start = parseFloat(line.getAttribute('data-start'));
                 const end = parseFloat(line.getAttribute('data-end'));
-
                 if (cur >= start && cur < end) {
                     if (!line.classList.contains('active')) {
-                        subtitleLines.forEach(l => l.classList.remove('active'));
+                        subtitleLines.forEach(l => {
+                            l.classList.remove('active');
+                            l.classList.add('opacity-50');
+                        });
                         line.classList.add('active');
                         line.classList.remove('opacity-50');
-                        
-                        // Auto scroll subtitle into view smoothly
                         line.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                     }
-                } else {
-                    if (line.classList.contains('active') && (cur < start || cur >= end)) {
-                        line.classList.remove('active');
-                        line.classList.add('opacity-50');
-                    }
+                    activeFound = true;
                 }
             });
         });

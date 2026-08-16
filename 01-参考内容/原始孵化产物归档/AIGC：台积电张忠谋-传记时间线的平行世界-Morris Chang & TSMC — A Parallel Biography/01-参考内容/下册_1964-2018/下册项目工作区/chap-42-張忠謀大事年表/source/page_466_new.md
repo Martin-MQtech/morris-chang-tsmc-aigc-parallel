@@ -1,0 +1,18 @@
+<div class="rebook-translation">
+<span class="rebook-translation__label">ReadShift 双语翻译</span>
+<p class="en-para">| 年 | 年龄 | 大事 |</p>
+<p class="en-para">|---|---|---|</p>
+<p class="en-para">| 一九八一年 | 50岁 | 任德仪公司品质与生产力总裁 |</p>
+<p class="en-para">| 一九八二年 | 51岁 | 孙运璿院长、李国鼎政委邀聘来台湾服务，未果 |</p>
+<p class="en-para">| 一九八三年 | 52岁 | 辞德仪公司 |</p>
+<p class="en-para">## General Instrument / ITRI (1984–1986)</p>
+<p class="en-para">| 年 | 年龄 | 大事 |</p>
+<p class="en-para">|---|---|---|</p>
+<p class="en-para">| 一九八四年 | 53岁 | 任通用器材公司总经理 |</p>
+<p class="en-para">| 一九八五年 | 54岁 | 辞通用器材公司总经理，来台湾担任工业技术研究院院长，筹备台积电 |</p>
+<p class="en-para">## TSMC (1987–2018)</p>
+<p class="en-para">| 年 | 年龄 | 大事 |</p>
+<p class="en-para">|---|---|---|</p>
+<p class="en-para">| 一九三五年 | — | （注：台积电成立于一九八七年，此处原文有误，应为一九八七年） |</p>
+<p class="en-para">| 一九八七年 | 56岁 | 创立台积电，公司开始营运，并任董事长兼总裁 |</p>
+</div>
