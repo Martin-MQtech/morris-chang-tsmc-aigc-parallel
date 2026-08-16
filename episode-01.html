@@ -203,6 +203,31 @@
   /* Footer */
   .footer { border-top: 1px solid var(--line); padding: 40px 0; text-align: center; color: var(--muted); font-size: 13px; margin-top: 40px; }
   .footer a { color: var(--amber); text-decoration: none; }
+
+  /* Mobile Responsive Enhancements */
+  @media (max-width: 768px) {
+    .nav { height: auto; padding: 10px 16px; }
+    .nav-links { display: none !important; }
+    .brand-logo-img { width: 32px; height: 32px; flex-shrink: 0; display: block; }
+    .brand span { font-size: 14px; }
+  }
+
+  @media (max-width: 640px) {
+    .track-btns { display: grid; grid-template-columns: 1fr 1fr; width: 100%; gap: 8px; }
+    .btn-track { padding: 10px 12px; font-size: 13px; text-align: center; justify-content: center; flex-direction: column; gap: 2px; }
+    .btn-track em { font-size: 11px; margin-left: 0; }
+
+    .player-main-ctrl { display: flex; flex-direction: column; align-items: stretch; gap: 14px; padding: 14px; }
+    .ctrl-left { width: 100%; justify-content: flex-start; gap: 14px; min-width: 0; }
+    .progress-container { width: 100%; min-width: 0; }
+    .playback-options { width: 100%; justify-content: space-between; }
+
+    .sub-header, .teleprompter-header { flex-direction: row; justify-content: space-between; align-items: center; gap: 8px; }
+    .sub-title, .teleprompter-title { font-size: 12px; }
+    .sub-row { padding: 10px 12px; gap: 10px; }
+    .sub-zh { font-size: 14px; }
+    .sub-en { font-size: 12px; }
+  }
 </style>
 </head>
 <body>
@@ -219,8 +244,8 @@
       <a href="reader.html" class="nav-link">全册电子书</a>
       <a href="map.html" class="nav-link">平行地图</a>
       <a href="cards.html" class="nav-link">金句卡片</a>
-      <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="nav-link" style="color: var(--amber);">🚀 ReadShift 主体工程</a>
     </div>
+    <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="nav-badge" style="color: var(--amber); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); padding: 5px 12px; border-radius: 999px; white-space: nowrap; flex-shrink: 0;">🚀 ReadShift 主体工程</a>
   </nav>
 
   <!-- Hero Header -->
