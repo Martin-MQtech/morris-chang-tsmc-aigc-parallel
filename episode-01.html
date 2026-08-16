@@ -29,8 +29,8 @@
   /* Top Navigation */
   .nav { position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); height: 60px; display: flex; align-items: center; justify-content: space-between; padding: 0 6vw; }
   .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-weight: 700; font-size: 15px; letter-spacing: 0.5px; }
-  .brand-logo-img { width: 32px; height: 32px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 14px rgba(245, 158, 11, 0.45); transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; }
-  .brand:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 22px rgba(245, 158, 11, 0.65); }
+  .brand-logo-img { width: 32px; height: 32px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); border: 1px solid #333; transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; }
+  .brand:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 16px rgba(255, 255, 255, 0.35); border-color: #555; }
   .nav-links { display: flex; align-items: center; gap: 20px; }
   .nav-link { color: var(--muted); text-decoration: none; font-size: 13.5px; transition: color 0.2s; }
   .nav-link:hover, .nav-link.active { color: var(--amber); }
@@ -2180,6 +2180,19 @@
       return (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s);
     }
 
+    
+    // Global Single-Track Exclusive Audio Controller
+    function ensureSingleAudioPlayback(activeAudio) {
+      document.querySelectorAll('audio').forEach(el => {
+        if (el !== activeAudio && !el.paused) {
+          el.pause();
+        }
+      });
+      if (window.speechSynthesis && window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+      }
+    }
+
     function switchAudioTrack(lang) {
       if (lang === currentTrack) return;
       const wasPlaying = !audioEl.paused;
@@ -2205,6 +2218,7 @@
           audioEl.currentTime = curRatio * audioEl.duration;
         }
         if (wasPlaying) {
+          ensureSingleAudioPlayback(audioEl);
           audioEl.play();
         }
       };
@@ -2212,6 +2226,7 @@
 
     function togglePlay() {
       if (audioEl.paused) {
+        ensureSingleAudioPlayback(audioEl);
         audioEl.play();
       } else {
         audioEl.pause();
@@ -2245,6 +2260,7 @@
         const cue = EP_CUES[idx];
         audioEl.currentTime = cue.start;
         if (audioEl.paused) {
+          ensureSingleAudioPlayback(audioEl);
           audioEl.play();
         }
         highlightCue(idx, true);

@@ -533,8 +533,8 @@
     }
   </style>
 <style>
-    .brand-logo-img { width: 34px; height: 34px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 14px rgba(245, 158, 11, 0.45); transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; }
-    .brand-logo:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 22px rgba(245, 158, 11, 0.65); }
+    .brand-logo-img { width: 34px; height: 34px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); border: 1px solid #333; transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; }
+    .brand-logo:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 16px rgba(255, 255, 255, 0.35); border-color: #555; }
       </style>
 </head>
 <body>
@@ -805,7 +805,21 @@
 
     // Playback functions
     let timerFallback = null;
+    
+    // Global Single-Track Exclusive Audio Controller
+    function ensureSingleAudioPlayback(activeAudio) {
+      document.querySelectorAll('audio').forEach(el => {
+        if (el !== activeAudio && !el.paused) {
+          el.pause();
+        }
+      });
+      if (window.speechSynthesis && window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+      }
+    }
+
     function playAudio() {
+      ensureSingleAudioPlayback(audioEl);
       state.isPlaying = true;
       playIcon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
       

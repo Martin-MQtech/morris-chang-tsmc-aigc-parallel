@@ -152,8 +152,8 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
 }
 </style>
 <style>
-    .brand-logo-img { width: 32px; height: 32px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 14px rgba(245, 158, 11, 0.45); transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; margin-right: 10px; }
-    .brand:hover .brand-logo-img, .f-brand:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 22px rgba(245, 158, 11, 0.65); }
+    .brand-logo-img { width: 32px; height: 32px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); border: 1px solid #333; transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; margin-right: 10px; }
+    .brand:hover .brand-logo-img, .f-brand:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 16px rgba(255, 255, 255, 0.35); border-color: #555; }
       </style>
 </head>
 <body>
@@ -548,6 +548,19 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
     'en-b': { src: './audio/en-b.mp3', title: '🇺🇸 英文 B (Aria·女声)' }
   };
 
+  
+  // Global Single-Track Exclusive Audio Controller
+  function ensureSingleAudioPlayback(activeAudio) {
+    document.querySelectorAll('audio').forEach(el => {
+      if (el !== activeAudio && !el.paused) {
+        el.pause();
+      }
+    });
+    if (window.speechSynthesis && window.speechSynthesis.speaking) {
+      window.speechSynthesis.cancel();
+    }
+  }
+
   function switchDemoTrack(trackKey, btn) {
     if (!demoTracks[trackKey] || !demoAudio) return;
     const wasPlaying = !demoAudio.paused;
@@ -558,7 +571,7 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
     demoAudio.onloadedmetadata = () => {
       demoAudio.currentTime = Math.min(curTime, demoAudio.duration || curTime);
       updateDemoProgress();
-      if (wasPlaying) demoAudio.play();
+      if (wasPlaying) { ensureSingleAudioPlayback(demoAudio); demoAudio.play(); }
     };
     demoTrackBtns.forEach(b => {
       b.classList.remove('primary');
@@ -573,6 +586,7 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
   function toggleDemoPlay() {
     if (!demoAudio) return;
     if (demoAudio.paused) {
+      ensureSingleAudioPlayback(demoAudio);
       demoAudio.play();
       demoPlayBtn.innerHTML = '❚❚';
     } else {
@@ -590,6 +604,7 @@ h1 .en { font-size:clamp(15px,1.7vw,20px); margin-top:10px; }
     if (!demoAudio) return;
     demoAudio.currentTime = sec;
     if (demoAudio.paused) {
+      ensureSingleAudioPlayback(demoAudio);
       demoAudio.play();
       demoPlayBtn.innerHTML = '❚❚';
     }
