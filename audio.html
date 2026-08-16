@@ -532,15 +532,17 @@
       .nav-links { display: none; }
     }
   </style>
+<style>
+    .brand-logo-img { width: 34px; height: 34px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 18px rgba(245, 158, 11, 0.3); transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; }
+    .brand-logo:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 24px rgba(245, 158, 11, 0.5); }
+      </style>
 </head>
 <body>
 
   <!-- Top Navbar -->
   <header class="navbar">
     <a href="index.html" class="brand-logo">
-      <div class="brand-wafer">
-        <div class="brand-wafer-inner">MC</div>
-      </div>
+      <img src="assets/logo.svg" alt="Morris Chang Logo" class="brand-logo-img">
       <div class="brand-text">
         <h1>台积电张忠谋 · 平行世界 <span class="brand-badge">双语音频剧场</span></h1>
       </div>

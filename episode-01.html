@@ -29,7 +29,8 @@
   /* Top Navigation */
   .nav { position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); height: 60px; display: flex; align-items: center; justify-content: space-between; padding: 0 6vw; }
   .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-weight: 700; font-size: 15px; letter-spacing: 0.5px; }
-  .brand-chip { width: 10px; height: 10px; background: var(--amber); border-radius: 2px; box-shadow: 0 0 12px var(--amber); }
+  .brand-logo-img { width: 30px; height: 30px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 16px rgba(245, 158, 11, 0.28); transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; }
+  .brand:hover .brand-logo-img { transform: scale(1.08) rotate(4deg); box-shadow: 0 0 22px rgba(245, 158, 11, 0.45); }
   .nav-links { display: flex; align-items: center; gap: 20px; }
   .nav-link { color: var(--muted); text-decoration: none; font-size: 13.5px; transition: color 0.2s; }
   .nav-link:hover, .nav-link.active { color: var(--amber); }
@@ -209,7 +210,7 @@
   <!-- Sticky Global Navigation -->
   <nav class="nav">
     <a href="index.html" class="brand">
-      <div class="brand-chip"></div>
+      <img src="assets/logo.svg" alt="Morris Chang Logo" class="brand-logo-img">
       <span>MORRIS CHANG · TSMC</span>
     </a>
     <div class="nav-links">
