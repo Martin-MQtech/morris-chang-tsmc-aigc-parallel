@@ -1,0 +1,1119 @@
+import os
+import json
+import re
+import html
+
+WORKSPACE = "/Users/martin/Documents/20260812MartinGitHub /20260816 Morris Chang & TSMC"
+
+# Load audio_data.js
+with open(os.path.join(WORKSPACE, "audio_data.js"), "r", encoding="utf-8") as f:
+    audio_js = f.read()
+
+episodes_meta = [
+    {
+        "id": "01",
+        "file_name": "episode-01.html",
+        "folder": "第01期-逃难的孩子",
+        "act_tag": "ACT 01 · 1937–1942 · 广州至香港",
+        "title_zh": "第 01 期：逃难的孩子",
+        "title_en": "Episode 01: The Refugee Child",
+        "time_loc": "1937–1942 · 广州至香港",
+        "tagline_zh": "时代可以推着你走，但走成什么样，从来是你自己的事。",
+        "tagline_en": "The times may push you along, but who you become is always up to you.",
+        "duration": "18:42",
+        "pills": [
+            ("历史坐标", "广州轰炸 · 香港保卫战 · 珍珠港事变"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第01期-逃难的孩子.png",
+        "prev_link": "index.html",
+        "prev_label": "← 回到总目录",
+        "next_link": "episode-02.html",
+        "next_label": "下一期：第 02 期 考不进去的南开与作家梦 →",
+        "vocab": [
+            ("Refugee", "/ˌref.jʊˈdʒiː/", "难民，逃难者", "A person who has been forced to leave their country in order to escape war, persecution, or natural disaster."),
+            ("Sanctuary", "/ˈsæŋk.tʃʊə.ri/", "避难所，庇护所", "A place of safety or protection, as Hong Kong initially served before December 1941."),
+            ("Displacement", "/dɪsˈpleɪs.mənt/", "流离失所，流徙", "The enforced departure of people from their homes, typical of wartime China."),
+            ("Resilience", "/rɪˈzɪl.jəns/", "坚韧，复原力", "The capacity to recover quickly from difficulties; toughness in character.")
+        ],
+        "timeline": [
+            ("1931 · 7月", "张忠谋出生于浙江宁波，父张蔚观，母胡秉祥。"),
+            ("1937 · 7月-8月", "七七事变后抗战全面爆发，随父母举家避难广州。"),
+            ("1938 · 10月", "日军大轰炸并逼近广州，全家乘船逃往香港（九龙界限街）。"),
+            ("1941 · 12月", "太平洋战争爆发，日军突袭香港，经历香港保卫战与沦陷。"),
+            ("1942 · 夏", "在日据香港就读香港培正小学毕业，准备穿越沦陷区前往重庆。")
+        ],
+        "quote_zh": "时代可以推着你走，但走成什么样，从来是你自己的事。",
+        "quote_en": "The times may push you along, but who you become is always up to you."
+    },
+    {
+        "id": "02",
+        "file_name": "episode-02.html",
+        "folder": "第02期-考不进去的南开与作家梦",
+        "act_tag": "ACT 02 · 1943–1948 · 重庆至上海",
+        "title_zh": "第 02 期：考不进去的南开与作家梦",
+        "title_en": "Episode 02: Failing Nankai and the Writer's Dream",
+        "time_loc": "1943–1948 · 重庆至上海",
+        "tagline_zh": "一个「会饿肚子」的警告，关上了一扇门；但生命最奇妙的，正是那些不得不拐的弯。",
+        "tagline_en": "A warning of 'going hungry' closed one door; yet life's greatest wonder lies in the detours we are forced to take.",
+        "duration": "19:15",
+        "pills": [
+            ("历史坐标", "陪都重庆 · 沙坪坝南开 · 战后上海 · 金圆券危机"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第02期-考不进去的南开与作家梦.png",
+        "prev_link": "episode-01.html",
+        "prev_label": "← 上一期：第 01 期 逃难的孩子",
+        "next_link": "episode-03.html",
+        "next_label": "下一期：第 03 期 从黄浦江到查尔斯河 →",
+        "vocab": [
+            ("Detour", "/ˈdiː.tɔːr/", "弯路，绕行之路", "A long or roundabout course taken unexpectedly instead of the direct way."),
+            ("Pragmatism", "/ˈpræɡ.mə.tɪ.zəm/", "实用主义，注重实效", "An approach that assesses the truth of meaning of theories or beliefs in terms of their practical application."),
+            ("Inflation", "/ɪnˈfleɪ.ʃən/", "恶性通货膨胀", "A general increase in prices and fall in the purchasing value of money (e.g. Golden Yuan 1948)."),
+            ("Aspiration", "/ˌæs.pəˈreɪ.ʃən/", "志向，文学梦与追求", "A hope or ambition of achieving something, such as Morris Chang's early literary dream.")
+        ],
+        "timeline": [
+            ("1943 · 春", "全家历经五十天险阻穿越千里沦陷区，抵达战时陪都重庆。"),
+            ("1943 · 秋", "报考重庆南开中学初中未被录取，入读暑期补习班奋起直追，终以插班第一考入。"),
+            ("1945 · 8月", "抗战胜利，迁往上海就读上海市南洋模范中学，饱览中西文学经典。"),
+            ("1948 · 8月", "国民政府发行金圆券引发恶性通胀，父亲劝阻其作家梦想，建议投身实用工科。"),
+            ("1948 · 冬", "国共内战局势突变，全家再次南下香港避难。")
+        ],
+        "quote_zh": "一个「会饿肚子」的警告，关上了一扇门；但生命最奇妙的，正是那些不得不拐的弯。",
+        "quote_en": "A warning of 'going hungry' closed one door; yet life's greatest wonder lies in the detours we are forced to take."
+    },
+    {
+        "id": "03",
+        "file_name": "episode-03.html",
+        "folder": "第03期-从黄浦江到查尔斯河",
+        "act_tag": "ACT 03 · 1949–1950 · 赴美哈佛至MIT",
+        "title_zh": "第 03 期：从黄浦江到查尔斯河",
+        "title_en": "Episode 03: From the Huangpu to the Charles River",
+        "time_loc": "1949–1950 · 赴美哈佛至MIT",
+        "tagline_zh": "在两座文明的裂缝之间，他学会了以世界为坐标校准自己的一生。",
+        "tagline_en": "In the chasm between two civilizations, he learned to calibrate his entire life against the world.",
+        "duration": "22:08",
+        "pills": [
+            ("历史坐标", "1949国共易手 · 泛美航空 · 哈佛大一 · 转学MIT"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第03期-从黄浦江到查尔斯河.png",
+        "prev_link": "episode-02.html",
+        "prev_label": "← 上一期：第 02 期 考不进去的南开与作家梦",
+        "next_link": "episode-04.html",
+        "next_label": "下一期：第 04 期 四十封求职信 →",
+        "vocab": [
+            ("Odyssey", "/ˈɒd.ɪ.si/", "漫长而充满冒险的史诗旅程", "A long and eventful or adventurous journey or transition."),
+            ("Acculturation", "/əˌkʌl.tʃəˈreɪ.ʃən/", "文化适应，文化融合", "Assimilation to a different culture, typically the dominant one."),
+            ("Liberal Arts", "/ˌlɪb.ər.əl ˈɑːts/", "博雅教育，通识人文", "Academic subjects such as literature, philosophy, and history rather than technical science."),
+            ("Pivot", "/ˈpɪv.ət/", "关键转折，战略转向", "A crucial turning point or shift in strategy and career direction.")
+        ],
+        "timeline": [
+            ("1949 · 2月-9月", "在香港暂居七个月，办理赴美留学签证与准备手续。"),
+            ("1949 · 9月", "搭乘泛美航空波音客机飞越太平洋抵美，成为哈佛大学当年唯一中国本科新生。"),
+            ("1949–1950", "在哈佛度过极为充实的人文通识教育一年，沉浸于莎士比亚与西方文明经典。"),
+            ("1950 · 6月", "因考虑未来在美生存与就业现实，决定转入麻省理工学院（MIT）机械工程系。"),
+            ("1950 · 秋", "跨过查尔斯河进入MIT，开始高强度的工程技术训练。")
+        ],
+        "quote_zh": "在两座文明的裂缝之间，他学会了以世界为坐标校准自己的一生。",
+        "quote_en": "In the chasm between two civilizations, he learned to calibrate his entire life against the world."
+    },
+    {
+        "id": "04",
+        "file_name": "episode-04.html",
+        "folder": "第04期-四十封求职信",
+        "act_tag": "ACT 04 · 1954–1958 · MIT挫折与希凡尼亚",
+        "title_zh": "第 04 期：四十封求职信",
+        "title_en": "Episode 04: Forty Job Applications",
+        "time_loc": "1954–1958 · MIT挫折与希凡尼亚",
+        "tagline_zh": "被拒绝不是终点，是命运在给你指另一条路——通向半导体的黄金时代。",
+        "tagline_en": "Rejection is not the end; it is destiny pointing to another road—leading toward the golden age of semiconductors.",
+        "duration": "21:54",
+        "pills": [
+            ("历史坐标", "MIT博士两次落第 · 福特vs希凡尼亚 · 晶体管萌芽 · 德仪新篇"),
+            ("有声轨", "中英双轨 20min 广播级剧场原声"),
+            ("双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析")
+        ],
+        "image_path": "./设计资产/插图/第04期-四十封求职信.png",
+        "prev_link": "episode-03.html",
+        "prev_label": "← 上一期：第 03 期 从黄浦江到查尔斯河",
+        "next_link": "index.html",
+        "next_label": "回到全册总目录 (第 05 期 敬请期待) →",
+        "vocab": [
+            ("Setback", "/ˈset.bæk/", "挫折，逆境", "A reversal or check in progress; the failure of MIT doctoral qualifying exams."),
+            ("Semiconductor", "/ˌsem.i.kənˈdʌk.tər/", "半导体", "A solid substance with conductivity between insulator and conductor, altering world history."),
+            ("Transistor", "/trænˈzɪs.tər/", "晶体管", "A semiconductor device used to amplify or switch electrical signals and power."),
+            ("Fortitude", "/ˈfɔː.tɪ.tjuːd/", "刚毅，不屈不挠的勇气", "Courage in pain or adversity; the tenacity shown during the job hunt.")
+        ],
+        "timeline": [
+            ("1952–1953", "在MIT获得机械工程学士及硕士学位。"),
+            ("1954 · 2月&5月", "连续两次未通过MIT博士资格考试，遭遇人生迄今最沉重的学术打击。"),
+            ("1955 · 春", "寄出四十封求职信；因1美元薪资差额选择加入希凡尼亚（Sylvania）半导体部门。"),
+            ("1955–1958", "在希凡尼亚从零自学半导体物理与锗晶体管制造，快速晋升为研发部门主管。"),
+            ("1958 · 5月", "接受德州仪器（TI）邀请移居达拉斯，正式踏上半导体之巅的传奇征程。")
+        ],
+        "quote_zh": "被拒绝不是终点，是命运在给你指另一条路——通向半导体的黄金时代。",
+        "quote_en": "Rejection is not the end; it is destiny pointing to another road—leading toward the golden age of semiconductors."
+    }
+]
+
+def parse_markdown_sections(path):
+    with open(path, "r", encoding="utf-8") as f:
+        lines = [l.strip() for l in f.readlines()]
+    
+    sections = []
+    cur_sec = None
+    cur_paras = []
+    
+    for l in lines:
+        if l.startswith("## "):
+            if cur_sec is not None:
+                sections.append((cur_sec, cur_paras))
+            cur_sec = l[3:].strip()
+            cur_paras = []
+        elif l.startswith("# ") or l.startswith("> ") or l == "---" or not l:
+            continue
+        else:
+            cur_paras.append(l)
+            
+    if cur_sec is not None:
+        sections.append((cur_sec, cur_paras))
+    return sections
+
+for ep in episodes_meta:
+    ep_id = ep["id"]
+    folder_path = os.path.join(WORKSPACE, "03-剧集", ep["folder"])
+    zh_path = os.path.join(folder_path, "中文文字稿.md")
+    en_path = os.path.join(folder_path, "英文文字稿.md")
+    
+    zh_sections = parse_markdown_sections(zh_path)
+    en_sections = parse_markdown_sections(en_path)
+    
+    # Extract cues from audio_js
+    m = re.search(r'\{\s*"id":\s*"' + ep_id + r'".*?"cues":\s*(\[.*?\])\s*\}', audio_js, re.DOTALL)
+    if m:
+        cues = json.loads(m.group(1))
+    else:
+        cues = []
+        print(f"Warning: cues not found for {ep_id}")
+        
+    cues_json_str = json.dumps(cues, ensure_ascii=False)
+    
+    # Build Story HTML
+    story_html_parts = []
+    global_p_idx = 0
+    
+    # Filter out Knowledge Card and Next Episode Preview from core body
+    main_sec_count = 0
+    for s in zh_sections:
+        if "知识" in s[0] or "预告" in s[0] or "延伸" in s[0]:
+            break
+        main_sec_count += 1
+        
+    for sec_i in range(main_sec_count):
+        z_title, z_paras = zh_sections[sec_i]
+        e_title, e_paras = en_sections[sec_i] if sec_i < len(en_sections) else ("", [])
+        
+        sec_tag = f"ACT {sec_i:02d} · SECTION {sec_i+1}"
+        if "开场" in z_title:
+            sec_tag = "PROLOGUE · OPENING"
+        elif "第一幕" in z_title:
+            sec_tag = "ACT 01"
+        elif "第二幕" in z_title:
+            sec_tag = "ACT 02"
+        elif "第三幕" in z_title:
+            sec_tag = "ACT 03"
+        elif "第四幕" in z_title:
+            sec_tag = "ACT 04"
+        elif "第五幕" in z_title:
+            sec_tag = "ACT 05"
+        elif "第六幕" in z_title:
+            sec_tag = "ACT 06"
+        elif "尾声" in z_title:
+            sec_tag = "EPILOGUE · PARALLEL VIEW"
+            
+        part = f"""
+      <!-- Section: {z_title} -->
+      <section class="book-section" id="section-{sec_i}">
+        <div class="book-section-header">
+          <span class="section-tag">{sec_tag}</span>
+          <h2 class="serif">{z_title}<span class="en">{e_title}</span></h2>
+        </div>
+        <div class="book-section-body">
+        """
+        
+        max_p = max(len(z_paras), len(e_paras))
+        for p_i in range(max_p):
+            zp = z_paras[p_i] if p_i < len(z_paras) else ""
+            ep_text = e_paras[p_i] if p_i < len(e_paras) else ""
+            cue_idx = global_p_idx
+            start_t = cues[cue_idx]["start"] if cue_idx < len(cues) else 0.0
+            
+            is_sfx = "【音效" in zp or "[SFX" in ep_text or "【配乐" in zp
+            sfx_cls = " sfx-row" if is_sfx else ""
+            
+            # Format time
+            m_val = int(start_t // 60)
+            s_val = int(start_t % 60)
+            time_display = f"{m_val:02d}:{s_val:02d}"
+            
+            part += f"""
+          <div class="bilingual-para{sfx_cls}" id="p-{cue_idx}" data-time="{start_t:.2f}" onclick="seekAndPlay({start_t:.2f})">
+            <div class="para-time-badge" title="点击跳转至此段落音频">{time_display}</div>
+            <div class="para-content">
+              <p class="zh-para">{html.escape(zp)}</p>
+              <p class="en-para">{html.escape(ep_text)}</p>
+            </div>
+          </div>
+            """
+            global_p_idx += 1
+            
+        part += """
+        </div>
+      </section>
+        """
+        story_html_parts.append(part)
+        
+    story_html = "\n".join(story_html_parts)
+    
+    # Subtitles list
+    sub_items_html = []
+    for idx, c in enumerate(cues):
+        st = c["start"]
+        m_val = int(st // 60)
+        s_val = int(st % 60)
+        td = f"{m_val:02d}:{s_val:02d}"
+        zh_t = html.escape(c["zh"])
+        en_t = html.escape(c["en"])
+        sub_items_html.append(f"""
+          <div class="sub-row" id="sub-row-{idx}" data-index="{idx}" data-start="{st}" data-end="{c['end']}" onclick="seekAndPlay({st})">
+            <span class="sub-time-tag">{td}</span>
+            <div class="sub-content">
+              <div class="sub-zh">{zh_t}</div>
+              <div class="sub-en">{en_t}</div>
+            </div>
+          </div>
+        """)
+    subtitles_html = "\n".join(sub_items_html)
+    
+    # Vocab cards
+    vocab_cards_html = []
+    for w, pr, zh_def, en_def in ep["vocab"]:
+        vocab_cards_html.append(f"""
+          <div class="vocab-card">
+            <div class="vocab-word-row">
+              <span class="vocab-word">{w}</span>
+              <span class="vocab-phonetic">{pr}</span>
+            </div>
+            <div class="vocab-zh">{zh_def}</div>
+            <div class="vocab-en">{en_def}</div>
+          </div>
+        """)
+    vocab_html = "\n".join(vocab_cards_html)
+    
+    # Timeline
+    timeline_html_list = []
+    for yr, desc in ep["timeline"]:
+        timeline_html_list.append(f"""
+          <div class="tl-item">
+            <div class="tl-year">{yr}</div>
+            <div class="tl-desc">{desc}</div>
+          </div>
+        """)
+    timeline_html = "\n".join(timeline_html_list)
+    
+    # Pills HTML
+    pills_html_list = []
+    for pk, pv in ep["pills"]:
+        pills_html_list.append(f'<span class="pill"><b>{pk}</b> · {pv}</span>')
+    pills_html = "\n".join(pills_html_list)
+    
+    page_html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{ep['title_zh']} ({ep['time_loc']}) | 台积电张忠谋 · 传记时间线的平行世界</title>
+<meta name="description" content="台积电张忠谋传记时间线的平行世界 · {ep['title_zh']}（{ep['time_loc']}）。纯净双语典藏电子书，中英双语原声有声剧场，逐句同步高亮字幕，时代历史坐标与双语精读笔记。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {{
+    --bg: #0a0a0a;
+    --bg2: #111113;
+    --card: #16161a;
+    --line: #26262b;
+    --amber: #F59E0B;
+    --blue: #38BDF8;
+    --ink: #ece9e2;
+    --muted: #a29c90;
+    --serif: "Songti SC", "Noto Serif SC", "STSong", Georgia, serif;
+    --sans: "PingFang SC", "Microsoft YaHei", -apple-system, "Segoe UI", Roboto, sans-serif;
+    --en: "Georgia", "Times New Roman", serif;
+  }}
+  * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+  html {{ scroll-behavior: smooth; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }}
+  body {{ min-height: 100vh; line-height: 1.8; overflow-x: hidden; padding-bottom: 60px; }}
+
+  /* Top Navigation */
+  .nav {{ position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); height: 60px; display: flex; align-items: center; justify-content: space-between; padding: 0 6vw; }}
+  .brand {{ display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-weight: 700; font-size: 15px; letter-spacing: 0.5px; }}
+  .brand-logo-img {{ width: 32px; height: 32px; border-radius: 50%; display: inline-block; vertical-align: middle; box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); border: 1px solid #333; transition: transform 0.3s ease, box-shadow 0.3s ease; flex-shrink: 0; }}
+  .brand:hover .brand-logo-img {{ transform: scale(1.08) rotate(4deg); box-shadow: 0 0 16px rgba(255, 255, 255, 0.35); border-color: #555; }}
+  .nav-links {{ display: flex; align-items: center; gap: 20px; }}
+  .nav-link {{ color: var(--muted); text-decoration: none; font-size: 13.5px; transition: color 0.2s; }}
+  .nav-link:hover, .nav-link.active {{ color: var(--amber); }}
+  .nav-badge {{ background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); color: var(--amber); font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600; }}
+
+  .wrap {{ max-width: 1180px; margin: 0 auto; padding: 0 6vw; }}
+  .article-wrap {{ max-width: 880px; margin: 0 auto; padding: 0 5vw; }}
+
+  /* Hero Section - 50/50 Split */
+  .hero-ep {{ padding: 36px 0 28px; border-bottom: 1px solid var(--line); background: radial-gradient(800px 400px at 80% -10%, rgba(245,158,11,0.08), transparent 60%), radial-gradient(700px 350px at 10% 110%, rgba(56,189,248,0.06), transparent 60%); }}
+  .hero-grid {{ display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 36px; align-items: center; }}
+  @media (max-width: 860px) {{
+    .hero-grid {{ grid-template-columns: 1fr; gap: 24px; }}
+  }}
+  .eyebrow {{ font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--amber); display: block; margin-bottom: 12px; font-weight: 600; }}
+  .eyebrow em {{ font-family: var(--en); font-style: italic; letter-spacing: 2px; margin-left: 8px; color: var(--blue); }}
+  h1.serif {{ font-family: var(--serif); font-size: clamp(23px, 3.2vw, 32px); font-weight: 700; line-height: 1.25; color: var(--ink); margin-bottom: 10px; letter-spacing: 0.5px; }}
+  h1.serif .en {{ display: block; font-family: var(--en); font-size: clamp(14px, 1.8vw, 17px); font-style: italic; font-weight: 400; color: var(--muted); margin-top: 6px; }}
+  
+  .tagline-box {{ background: var(--bg2); border-left: 4px solid var(--amber); border-radius: 0 12px 12px 0; padding: 14px 20px; margin-top: 16px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }}
+  .tagline-zh {{ font-family: var(--serif); font-size: 15px; color: var(--ink); line-height: 1.65; }}
+  .tagline-en {{ font-family: var(--en); font-style: italic; color: var(--muted); font-size: 13.5px; margin-top: 4px; }}
+
+  .hero-art-box {{ position: relative; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 16px 40px rgba(0,0,0,0.5); aspect-ratio: 16 / 10; background: var(--card); }}
+  .hero-art-img {{ width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }}
+  .hero-art-box:hover .hero-art-img {{ transform: scale(1.03); }}
+  .hero-art-caption {{ position: absolute; bottom: 0; left: 0; right: 0; padding: 8px 14px; background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, transparent 100%); font-size: 11.5px; color: var(--muted); display: flex; justify-content: space-between; }}
+
+  .meta-pills {{ display: flex; flex-wrap: nowrap; gap: 8px; margin-top: 14px; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }}
+  .meta-pills::-webkit-scrollbar {{ display: none; }}
+  .pill {{ font-size: 11px; color: var(--muted); background: var(--card); border: 1px solid var(--line); padding: 4px 10px; border-radius: 999px; display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; flex-shrink: 0; }}
+  .pill b {{ color: var(--ink); font-weight: 600; }}
+
+  /* Audio Player Module */
+  .player-card {{ background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; margin: 28px 0 40px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); position: relative; overflow: hidden; }}
+  .player-card::before {{ content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--amber), var(--blue)); }}
+  
+  /* EXACT Layout Architecture for .track-switcher from User Prompt */
+  .track-switcher {{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 14px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }}
+  .track-switcher::-webkit-scrollbar {{ display: none; }}
+
+  .track-btns {{
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+  }}
+  .btn-track {{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 12.5px;
+    line-height: 1.25;
+    cursor: pointer;
+    border: 1px solid var(--line);
+    background: var(--bg2);
+    color: var(--muted);
+    transition: all 0.2s;
+  }}
+  .btn-track span.title-line {{ font-weight: 600; }}
+  .btn-track span.sub-line {{ font-family: var(--en); font-style: italic; font-size: 10.5px; opacity: 0.85; margin-top: 1px; }}
+  .btn-track.active {{
+    background: var(--amber);
+    color: #000;
+    border-color: var(--amber);
+  }}
+  .btn-track.active span.sub-line {{ color: #1a1205; }}
+  .btn-track:hover:not(.active) {{ border-color: var(--amber); color: var(--amber); transform: translateY(-1px); }}
+
+  /* 8-Channel Share Bar in the parallel space on the same line */
+  .share-matrix-inline {{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }}
+  .share-label {{
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: var(--muted);
+    font-family: var(--en);
+    font-style: italic;
+    margin-right: 2px;
+    white-space: nowrap;
+  }}
+  .btn-share {{
+    padding: 5px 9px;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+    background: var(--bg2);
+    color: var(--ink);
+    font-size: 11px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }}
+  .btn-share:hover {{
+    border-color: var(--amber);
+    color: var(--amber);
+    transform: translateY(-1px);
+  }}
+
+  .player-main-ctrl {{ background: var(--bg2); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; }}
+  .ctrl-left {{ display: flex; align-items: center; gap: 16px; min-width: 240px; }}
+  .play-btn {{ width: 48px; height: 48px; border-radius: 50%; background: var(--amber); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; color: #000; font-size: 20px; font-weight: bold; transition: all 0.2s; box-shadow: 0 4px 16px rgba(245,158,11,0.3); }}
+  .play-btn:hover {{ transform: scale(1.08); background: #fbb028; }}
+  
+  .track-meta {{ display: flex; flex-direction: column; }}
+  .track-meta-title {{ font-size: 14.5px; font-weight: 600; color: var(--ink); }}
+  .track-meta-sub {{ font-size: 12px; color: var(--muted); font-family: var(--en); font-style: italic; }}
+
+  .progress-container {{ display: flex; align-items: center; gap: 12px; flex-grow: 1; min-width: 260px; }}
+  .time-text {{ font-size: 12px; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; min-width: 44px; text-align: center; }}
+  .seek-bar {{ flex-grow: 1; accent-color: var(--amber); cursor: pointer; height: 5px; background: var(--line); border-radius: 4px; outline: none; }}
+
+  .playback-options {{ display: flex; align-items: center; gap: 10px; }}
+  .speed-select {{ background: var(--card); border: 1px solid var(--line); color: var(--ink); border-radius: 6px; padding: 5px 8px; font-size: 12px; cursor: pointer; outline: none; }}
+  .speed-select:focus {{ border-color: var(--amber); }}
+
+  /* Subtitles Viewport */
+  .teleprompter-box {{ margin-top: 22px; }}
+  .teleprompter-header {{ display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; padding: 0 4px; }}
+  .teleprompter-title {{ font-size: 11.5px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 8px; }}
+  .teleprompter-title b {{ color: var(--amber); font-weight: normal; }}
+  .teleprompter-tools {{ display: flex; align-items: center; gap: 12px; font-size: 12px; color: var(--muted); }}
+  .btn-toggle-scroll {{ cursor: pointer; background: transparent; border: 1px solid var(--line); color: var(--muted); padding: 3px 10px; border-radius: 999px; font-size: 11px; }}
+  .btn-toggle-scroll.active {{ border-color: var(--amber); color: var(--amber); }}
+
+  .subtitles-scroll {{ max-height: 290px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px; padding: 4px 6px 4px 0; scroll-behavior: smooth; border: 1px solid var(--line); border-radius: 12px; background: var(--bg2); }}
+  .subtitles-scroll::-webkit-scrollbar {{ width: 6px; }}
+  .subtitles-scroll::-webkit-scrollbar-track {{ background: var(--bg2); }}
+  .subtitles-scroll::-webkit-scrollbar-thumb {{ background: #333; border-radius: 3px; }}
+  .subtitles-scroll::-webkit-scrollbar-thumb:hover {{ background: #444; }}
+
+  .sub-row {{ display: flex; gap: 14px; padding: 10px 14px; border-radius: 8px; cursor: pointer; transition: all 0.2s ease; border-left: 3px solid transparent; }}
+  .sub-row:hover {{ background: rgba(255,255,255,0.03); }}
+  .sub-row.active {{ background: rgba(245,158,11,0.09); border-left-color: var(--amber); }}
+  .sub-time-tag {{ font-size: 11px; font-family: monospace; color: var(--muted); padding-top: 2px; min-width: 38px; }}
+  .sub-row.active .sub-time-tag {{ color: var(--amber); font-weight: bold; }}
+  .sub-content {{ flex-grow: 1; }}
+  .sub-zh {{ font-size: 14px; line-height: 1.6; color: var(--ink); font-family: var(--serif); }}
+  .sub-en {{ font-size: 12.5px; line-height: 1.5; color: var(--muted); font-family: var(--en); font-style: italic; margin-top: 2px; }}
+  .sub-row.active .sub-zh {{ color: #fff; font-weight: 600; }}
+  .sub-row.active .sub-en {{ color: var(--amber); }}
+
+  /* Dual Layout Body (75% Pure Book + 25% Learning & Notes) */
+  .content-grid {{ display: grid; grid-template-columns: 1fr 320px; gap: 40px; margin-top: 20px; }}
+  @media (max-width: 980px) {{
+    .content-grid {{ grid-template-columns: 1fr; }}
+  }}
+
+  /* 75% Pure Bilingual Book */
+  .book-main {{ min-width: 0; }}
+  .book-section {{ margin-bottom: 48px; border-bottom: 1px solid var(--line); padding-bottom: 36px; }}
+  .book-section:last-child {{ border-bottom: none; }}
+  .book-section-header {{ margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.06); }}
+  .section-tag {{ font-size: 11px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--blue); font-weight: 600; display: block; margin-bottom: 4px; }}
+  .book-section-header h2.serif {{ font-size: 20px; color: var(--ink); font-weight: 700; }}
+  .book-section-header h2.serif .en {{ display: block; font-size: 13.5px; font-family: var(--en); font-style: italic; color: var(--muted); font-weight: 400; margin-top: 3px; }}
+
+  .bilingual-para {{ display: flex; gap: 16px; margin-bottom: 22px; padding: 12px 16px; border-radius: 10px; transition: all 0.2s ease; border-left: 3px solid transparent; cursor: pointer; }}
+  .bilingual-para:hover {{ background: rgba(255,255,255,0.025); border-left-color: rgba(245,158,11,0.4); }}
+  .bilingual-para.current-reading {{ background: rgba(245,158,11,0.08); border-left-color: var(--amber); }}
+  
+  .para-time-badge {{ font-size: 10.5px; font-family: monospace; color: var(--muted); padding-top: 3px; min-width: 36px; flex-shrink: 0; opacity: 0.6; }}
+  .bilingual-para:hover .para-time-badge, .bilingual-para.current-reading .para-time-badge {{ opacity: 1; color: var(--amber); }}
+  
+  .para-content {{ flex-grow: 1; }}
+  .zh-para {{ font-family: var(--serif); font-size: 15.5px; line-height: 1.85; color: #f0ede6; text-align: justify; margin-bottom: 6px; }}
+  .en-para {{ font-family: var(--en); font-size: 13.5px; line-height: 1.7; color: #a8a398; font-style: italic; text-align: justify; }}
+  
+  .bilingual-para.sfx-row {{ background: rgba(56,189,248,0.04); border-radius: 8px; padding: 8px 14px; margin: 16px 0; border-left: 3px solid rgba(56,189,248,0.4); }}
+  .bilingual-para.sfx-row .zh-para {{ font-size: 13px; color: var(--blue); font-family: var(--sans); }}
+  .bilingual-para.sfx-row .en-para {{ font-size: 12px; color: #7dd3fc; }}
+
+  /* 25% Learning & Knowledge Sidebar */
+  .learning-sidebar {{ display: flex; flex-direction: column; gap: 24px; }}
+  .side-widget {{ background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; position: sticky; }}
+  .widget-title {{ font-size: 13px; font-weight: 700; color: var(--ink); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--line); padding-bottom: 10px; }}
+  .widget-title span.icon {{ font-size: 15px; }}
+
+  /* Vocab flashcards */
+  .vocab-list {{ display: flex; flex-direction: column; gap: 12px; }}
+  .vocab-card {{ background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }}
+  .vocab-word-row {{ display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 3px; }}
+  .vocab-word {{ font-family: var(--en); font-weight: 700; font-size: 14px; color: var(--amber); }}
+  .vocab-phonetic {{ font-size: 11px; color: var(--muted); font-family: var(--sans); }}
+  .vocab-zh {{ font-size: 12.5px; color: var(--ink); font-weight: 500; margin-bottom: 3px; }}
+  .vocab-en {{ font-size: 11.5px; color: var(--muted); font-family: var(--en); font-style: italic; line-height: 1.4; }}
+
+  /* Historical Timeline */
+  .timeline-list {{ display: flex; flex-direction: column; gap: 14px; position: relative; padding-left: 14px; }}
+  .timeline-list::before {{ content: ""; position: absolute; top: 6px; bottom: 6px; left: 4px; width: 2px; background: var(--line); }}
+  .tl-item {{ position: relative; }}
+  .tl-item::before {{ content: ""; position: absolute; left: -14px; top: 6px; width: 6px; height: 6px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 8px var(--amber); }}
+  .tl-year {{ font-size: 11px; font-weight: 700; color: var(--amber); font-family: monospace; margin-bottom: 2px; }}
+  .tl-desc {{ font-size: 12.5px; color: var(--ink); line-height: 1.5; }}
+
+  /* Golden Quote Card */
+  .quote-card {{ background: linear-gradient(135deg, rgba(245,158,11,0.12), rgba(56,189,248,0.06)); border: 1px solid rgba(245,158,11,0.3); border-radius: 14px; padding: 20px; text-align: center; }}
+  .quote-symbol {{ font-size: 32px; color: var(--amber); font-family: var(--serif); line-height: 1; opacity: 0.5; }}
+  .quote-zh {{ font-family: var(--serif); font-size: 15px; font-weight: 600; color: var(--ink); line-height: 1.7; margin: 8px 0; }}
+  .quote-en {{ font-family: var(--en); font-style: italic; font-size: 13px; color: var(--muted); line-height: 1.5; }}
+
+  /* Episode Footer Navigation */
+  .ep-footer-nav {{ display: flex; justify-content: space-between; align-items: center; gap: 16px; margin: 48px 0 24px; padding-top: 24px; border-top: 1px solid var(--line); }}
+  .ep-nav-btn {{ display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 10px; background: var(--card); border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 13.5px; font-weight: 600; transition: all 0.2s; }}
+  .ep-nav-btn:hover {{ border-color: var(--amber); color: var(--amber); transform: translateY(-2px); }}
+  .ep-nav-btn.primary {{ background: var(--amber); color: #000; border-color: var(--amber); }}
+  .ep-nav-btn.primary:hover {{ background: #fbb028; }}
+
+  /* Social Share Bottom Card */
+  .share-bottom-card {{ background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; text-align: center; margin: 40px 0; }}
+  .share-bottom-title {{ font-size: 16px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }}
+  .share-bottom-sub {{ font-size: 13px; color: var(--muted); margin-bottom: 20px; }}
+  .share-matrix-bottom {{ display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }}
+  .btn-share-lg {{ padding: 8px 16px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg2); color: var(--ink); font-size: 12.5px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }}
+  .btn-share-lg:hover {{ border-color: var(--amber); color: var(--amber); transform: translateY(-2px); }}
+  .btn-share-lg.primary {{ background: var(--amber); color: #000; border-color: var(--amber); font-weight: 600; }}
+
+  /* WeChat QR Modal */
+  .modal-overlay {{ position: fixed; inset: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(8px); display: none; align-items: center; justify-content: center; z-index: 1000; }}
+  .modal-overlay.active {{ display: flex; }}
+  .modal-card {{ background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; max-width: 360px; text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.8); position: relative; }}
+  .modal-close {{ position: absolute; top: 14px; right: 14px; background: transparent; border: none; color: var(--muted); font-size: 20px; cursor: pointer; }}
+  .modal-qr-placeholder {{ width: 180px; height: 180px; margin: 16px auto; background: #fff; padding: 10px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }}
+  .modal-qr-img {{ width: 100%; height: 100%; object-fit: contain; }}
+  .modal-text {{ font-size: 13px; color: var(--muted); line-height: 1.6; }}
+
+  /* Toast Notification */
+  .toast {{ position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(100px); background: var(--amber); color: #000; font-weight: 600; font-size: 13px; padding: 10px 22px; border-radius: 999px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); opacity: 0; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); z-index: 1001; pointer-events: none; }}
+  .toast.show {{ transform: translateX(-50%) translateY(0); opacity: 1; }}
+</style>
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="logo.svg" alt="Morris Chang & TSMC Logo" class="brand-logo-img">
+      <span>台积电张忠谋 · 传记时间线的平行世界</span>
+    </a>
+    <div class="nav-links">
+      <span class="nav-badge">🚀 ReadShift 主体工程</span>
+      <a href="index.html" class="nav-link">总目录</a>
+      <a href="reader.html" class="nav-link">全册电子书</a>
+      <a href="portal.html" class="nav-link">作品官网</a>
+    </div>
+  </nav>
+
+  <!-- Hero Header (50/50 Split) -->
+  <header class="hero-ep">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-text-col">
+          <span class="eyebrow">{ep['act_tag']} <em>EPISODE {ep['id']}</em></span>
+          <h1 class="serif">{ep['title_zh']}<span class="en">{ep['title_en']}</span></h1>
+          
+          <div class="tagline-box">
+            <div class="tagline-zh">“{ep['tagline_zh']}”</div>
+            <div class="tagline-en">"{ep['tagline_en']}"</div>
+          </div>
+
+          <div class="meta-pills">
+            {pills_html}
+          </div>
+        </div>
+
+        <div class="hero-art-col">
+          <div class="hero-art-box">
+            <img src="{ep['image_path']}" alt="{ep['title_zh']} 插图" class="hero-art-img">
+            <div class="hero-art-caption">
+              <span>{ep['folder']} 官方概念插图</span>
+              <span>{ep['time_loc']}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Audio Player Module -->
+    <div class="player-card" id="audio-theater">
+      
+      <!-- Track Switcher Header with Single-Row Parallel Share Matrix -->
+      <div class="track-switcher">
+        <div class="track-btns">
+          <button class="btn-track active" id="track-btn-zh" onclick="switchTrack('zh')">
+            <span class="title-line">中文原声</span>
+            <span class="sub-line">Chinese audio</span>
+          </button>
+          <button class="btn-track" id="track-btn-en" onclick="switchTrack('en')">
+            <span class="title-line">美式英语</span>
+            <span class="sub-line">American English</span>
+          </button>
+        </div>
+
+        <!-- 8-Channel Share Bar in parallel space on the same line -->
+        <div class="share-matrix-inline">
+          <span class="share-label">SHARE / 分享</span>
+          <button class="btn-share" onclick="openWeChatShare()" title="微信分享">💬 微信</button>
+          <button class="btn-share" onclick="shareToWeibo()" title="微博分享">🔴 微博</button>
+          <button class="btn-share" onclick="shareToLinkedIn()" title="LinkedIn 分享">💼 领英</button>
+          <button class="btn-share" onclick="shareToX()" title="X (Twitter) 分享">𝕏 X</button>
+          <button class="btn-share" onclick="shareToWhatsApp()" title="WhatsApp 分享">📱 WhatsApp</button>
+          <button class="btn-share" onclick="shareToTelegram()" title="Telegram 分享">✈️ Telegram</button>
+          <button class="btn-share" onclick="shareToFacebook()" title="Facebook 分享">📘 Facebook</button>
+          <button class="btn-share" onclick="copyViralShare()" title="复制金句精选分享文案">📋 复制</button>
+        </div>
+      </div>
+
+      <!-- Main Controls Row -->
+      <div class="player-main-ctrl">
+        <div class="ctrl-left">
+          <button class="play-btn" id="master-play-btn" onclick="togglePlay()" aria-label="播放/暂停">▶</button>
+          <div class="track-meta">
+            <span class="track-meta-title" id="track-title-display">{ep['title_zh']} · 中文广播级原声</span>
+            <span class="track-meta-sub" id="track-sub-display">{ep['title_en']} · Mandarin Master Audio ({ep['duration']})</span>
+          </div>
+        </div>
+
+        <div class="progress-container">
+          <span class="time-text" id="cur-time">00:00</span>
+          <input type="range" class="seek-bar" id="seek-bar" min="0" max="100" value="0" step="0.1" oninput="onSeekInput(this.value)" onchange="onSeekChange(this.value)">
+          <span class="time-text" id="total-dur">{ep['duration']}</span>
+        </div>
+
+        <div class="playback-options">
+          <select class="speed-select" id="speed-select" onchange="changeSpeed(this.value)">
+            <option value="0.8">0.8x</option>
+            <option value="1.0" selected>1.0x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="2.0">2.0x</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Teleprompter Subtitles Container -->
+      <div class="teleprompter-box">
+        <div class="teleprompter-header">
+          <div class="teleprompter-title">
+            <span>🎙️ 逐句高亮字幕提词器</span>
+            <b>· 点击任意段落直接跳转试听</b>
+          </div>
+          <div class="teleprompter-tools">
+            <button class="btn-toggle-scroll active" id="btn-auto-scroll" onclick="toggleAutoScroll()">自动滚动: 开</button>
+          </div>
+        </div>
+
+        <div class="subtitles-scroll" id="subtitles-viewport">
+          {subtitles_html}
+        </div>
+      </div>
+
+      <!-- Native Audio Element (Hidden) -->
+      <audio id="main-audio" preload="metadata" src="./03-剧集/{ep['folder']}/中文音频.mp3"></audio>
+    </div>
+
+    <!-- Dual Layout Body: 75% Pure Book + 25% Learning Sidebar -->
+    <div class="content-grid">
+      <!-- 75% Pure Bilingual Book -->
+      <div class="book-main">
+        {story_html}
+
+        <!-- Bottom Share Card -->
+        <div class="share-bottom-card">
+          <div class="share-bottom-title">觉得本期有启发？一键分享给朋友</div>
+          <div class="share-bottom-sub">传递张忠谋与台积电的时代智慧与历史回响 · 支持 8 大主流社交渠道</div>
+          <div class="share-matrix-bottom">
+            <button class="btn-share-lg primary" onclick="copyViralShare()">📋 复制金句双语卡片</button>
+            <button class="btn-share-lg" onclick="openWeChatShare()">💬 微信</button>
+            <button class="btn-share-lg" onclick="shareToWeibo()">🔴 微博</button>
+            <button class="btn-share-lg" onclick="shareToLinkedIn()">💼 领英 LinkedIn</button>
+            <button class="btn-share-lg" onclick="shareToX()">𝕏 X (Twitter)</button>
+            <button class="btn-share-lg" onclick="shareToWhatsApp()">📱 WhatsApp</button>
+            <button class="btn-share-lg" onclick="shareToTelegram()">✈️ Telegram</button>
+            <button class="btn-share-lg" onclick="shareToFacebook()">📘 Facebook</button>
+          </div>
+        </div>
+
+        <!-- Episode Footer Navigation -->
+        <div class="ep-footer-nav">
+          <a href="{ep['prev_link']}" class="ep-nav-btn">{ep['prev_label']}</a>
+          <a href="{ep['next_link']}" class="ep-nav-btn primary">{ep['next_label']}</a>
+        </div>
+      </div>
+
+      <!-- 25% Learning & Knowledge Sidebar -->
+      <aside class="learning-sidebar">
+        <!-- Golden Quote Card -->
+        <div class="quote-card">
+          <div class="quote-symbol">“</div>
+          <div class="quote-zh">{ep['quote_zh']}</div>
+          <div class="quote-en">"{ep['quote_en']}"</div>
+        </div>
+
+        <!-- Core Vocabulary Card -->
+        <div class="side-widget">
+          <div class="widget-title">
+            <span class="icon">📖</span>
+            <span>本期核心词汇与表达</span>
+          </div>
+          <div class="vocab-list">
+            {vocab_html}
+          </div>
+        </div>
+
+        <!-- Historical Timeline Card -->
+        <div class="side-widget">
+          <div class="widget-title">
+            <span class="icon">⏳</span>
+            <span>时代历史坐标</span>
+          </div>
+          <div class="timeline-list">
+            {timeline_html}
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- WeChat Share Modal -->
+  <div class="modal-overlay" id="wechat-modal" onclick="closeWeChatShare(event)">
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeWeChatShare()">&times;</button>
+      <h3 style="font-size: 16px; margin-bottom: 6px; color: var(--ink);">微信扫一扫分享</h3>
+      <p class="modal-text">使用微信「扫一扫」在手机端阅读与收听本期有声剧</p>
+      <div class="modal-qr-placeholder">
+        <img id="wechat-qr-img" class="modal-qr-img" src="" alt="WeChat QR Code">
+      </div>
+      <p class="modal-text" style="font-size: 11.5px; opacity: 0.7;">扫码即可在微信内收藏或转发给好友 / 朋友圈</p>
+    </div>
+  </div>
+
+  <!-- Toast Element -->
+  <div class="toast" id="toast-msg">分享文案已复制到剪贴板！</div>
+
+  <!-- Client Script -->
+  <script>
+    const CUES_DATA = {cues_json_str};
+    const EP_DATA = {{
+      id: "{ep['id']}",
+      titleZh: "{ep['title_zh']}",
+      titleEn: "{ep['title_en']}",
+      folder: "{ep['folder']}",
+      quoteZh: "{ep['quote_zh']}",
+      quoteEn: "{ep['quote_en']}"
+    }};
+
+    let currentTrack = "zh";
+    let isPlaying = false;
+    let autoScroll = true;
+    let currentCueIndex = -1;
+    let userSeeking = false;
+
+    const audio = document.getElementById("main-audio");
+    const playBtn = document.getElementById("master-play-btn");
+    const seekBar = document.getElementById("seek-bar");
+    const curTimeEl = document.getElementById("cur-time");
+    const totalDurEl = document.getElementById("total-dur");
+    const speedSelect = document.getElementById("speed-select");
+    const subViewport = document.getElementById("subtitles-viewport");
+    const btnAutoScroll = document.getElementById("btn-auto-scroll");
+    const trackBtnZh = document.getElementById("track-btn-zh");
+    const trackBtnEn = document.getElementById("track-btn-en");
+    const trackTitleDisplay = document.getElementById("track-title-display");
+    const trackSubDisplay = document.getElementById("track-sub-display");
+
+    // Single Audio Playback Guarantee
+    function ensureSingleAudioPlayback() {{
+      const allAudios = document.querySelectorAll("audio");
+      allAudios.forEach(a => {{
+        if (a !== audio && !a.paused) {{
+          a.pause();
+        }}
+      }});
+    }}
+
+    function switchTrack(lang) {{
+      if (currentTrack === lang) return;
+      currentTrack = lang;
+      const curTime = audio.currentTime;
+      const wasPlaying = !audio.paused;
+
+      if (lang === "zh") {{
+        audio.src = "./03-剧集/" + EP_DATA.folder + "/中文音频.mp3";
+        trackBtnZh.classList.add("active");
+        trackBtnEn.classList.remove("active");
+        trackTitleDisplay.textContent = EP_DATA.titleZh + " · 中文广播级原声";
+        trackSubDisplay.textContent = EP_DATA.titleEn + " · Mandarin Master Audio";
+      }} else {{
+        audio.src = "./03-剧集/" + EP_DATA.folder + "/英文音频.mp3";
+        trackBtnEn.classList.add("active");
+        trackBtnZh.classList.remove("active");
+        trackTitleDisplay.textContent = EP_DATA.titleEn + " · American English Master";
+        trackSubDisplay.textContent = EP_DATA.titleZh + " · 英文纯正沉浸配音";
+      }}
+
+      audio.currentTime = curTime;
+      audio.playbackRate = parseFloat(speedSelect.value);
+      if (wasPlaying) {{
+        ensureSingleAudioPlayback();
+        audio.play().catch(e => console.log("Play interrupted", e));
+      }}
+    }}
+
+    function togglePlay() {{
+      if (audio.paused) {{
+        ensureSingleAudioPlayback();
+        audio.play().then(() => {{
+          playBtn.textContent = "⏸";
+          isPlaying = true;
+        }}).catch(err => console.log("Play error:", err));
+      }} else {{
+        audio.pause();
+        playBtn.textContent = "▶";
+        isPlaying = false;
+      }}
+    }}
+
+    function seekAndPlay(timeSec) {{
+      audio.currentTime = timeSec;
+      if (audio.paused) {{
+        ensureSingleAudioPlayback();
+        audio.play().then(() => {{
+          playBtn.textContent = "⏸";
+          isPlaying = true;
+        }}).catch(e => console.log(e));
+      }}
+    }}
+
+    function onSeekInput(val) {{
+      userSeeking = true;
+      if (audio.duration) {{
+        const targetTime = (val / 100) * audio.duration;
+        curTimeEl.textContent = formatTime(targetTime);
+      }}
+    }}
+
+    function onSeekChange(val) {{
+      if (audio.duration) {{
+        audio.currentTime = (val / 100) * audio.duration;
+      }}
+      userSeeking = false;
+    }}
+
+    function changeSpeed(val) {{
+      audio.playbackRate = parseFloat(val);
+    }}
+
+    function toggleAutoScroll() {{
+      autoScroll = !autoScroll;
+      btnAutoScroll.classList.toggle("active", autoScroll);
+      btnAutoScroll.textContent = "自动滚动: " + (autoScroll ? "开" : "关");
+    }}
+
+    function formatTime(sec) {{
+      if (isNaN(sec)) return "00:00";
+      const m = Math.floor(sec / 60);
+      const s = Math.floor(sec % 60);
+      return (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s);
+    }}
+
+    // Audio Event Handlers
+    audio.addEventListener("loadedmetadata", () => {{
+      totalDurEl.textContent = formatTime(audio.duration);
+    }});
+
+    audio.addEventListener("timeupdate", () => {{
+      const ct = audio.currentTime;
+      if (!userSeeking && audio.duration) {{
+        curTimeEl.textContent = formatTime(ct);
+        seekBar.value = (ct / audio.duration) * 100;
+      }}
+
+      // Find active cue
+      let activeIdx = -1;
+      for (let i = 0; i < CUES_DATA.length; i++) {{
+        if (ct >= CUES_DATA[i].start && ct < CUES_DATA[i].end) {{
+          activeIdx = i;
+          break;
+        }}
+      }}
+
+      if (activeIdx !== currentCueIndex) {{
+        if (currentCueIndex !== -1) {{
+          const oldSub = document.getElementById("sub-row-" + currentCueIndex);
+          if (oldSub) oldSub.classList.remove("active");
+          const oldPara = document.getElementById("p-" + currentCueIndex);
+          if (oldPara) oldPara.classList.remove("current-reading");
+        }}
+
+        currentCueIndex = activeIdx;
+
+        if (currentCueIndex !== -1) {{
+          const newSub = document.getElementById("sub-row-" + currentCueIndex);
+          if (newSub) {{
+            newSub.classList.add("active");
+            if (autoScroll) {{
+              const containerTop = subViewport.offsetTop;
+              const targetTop = newSub.offsetTop;
+              subViewport.scrollTo({{
+                top: targetTop - containerTop - 70,
+                behavior: "smooth"
+              }});
+            }}
+          }}
+          const newPara = document.getElementById("p-" + currentCueIndex);
+          if (newPara) {{
+            newPara.classList.add("current-reading");
+          }}
+        }}
+      }}
+    }});
+
+    audio.addEventListener("play", () => {{
+      playBtn.textContent = "⏸";
+      isPlaying = true;
+      ensureSingleAudioPlayback();
+    }});
+
+    audio.addEventListener("pause", () => {{
+      playBtn.textContent = "▶";
+      isPlaying = false;
+    }});
+
+    audio.addEventListener("ended", () => {{
+      playBtn.textContent = "▶";
+      isPlaying = false;
+    }});
+
+    // 8-Channel Social Sharing Functions
+    function getShareData() {{
+      const shareUrl = window.location.href;
+      const title = document.title;
+      const summary = "【台积电张忠谋 · " + EP_DATA.titleZh + "】\\n\\\"" + EP_DATA.quoteZh + "\\\"\\n中英双语原声电子书已上线，即刻收听与精读：";
+      return {{ shareUrl, title, summary }};
+    }}
+
+    function showToast(msg) {{
+      const toast = document.getElementById("toast-msg");
+      toast.textContent = msg;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2800);
+    }}
+
+    function openWeChatShare() {{
+      const modal = document.getElementById("wechat-modal");
+      const qrImg = document.getElementById("wechat-qr-img");
+      const pageUrl = encodeURIComponent(window.location.href);
+      qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + pageUrl;
+      modal.classList.add("active");
+    }}
+
+    function closeWeChatShare(e) {{
+      const modal = document.getElementById("wechat-modal");
+      modal.classList.remove("active");
+    }}
+
+    function shareToWeibo() {{
+      const data = getShareData();
+      const url = "https://service.weibo.com/share/share.php?url=" + encodeURIComponent(data.shareUrl) + "&title=" + encodeURIComponent(data.summary);
+      window.open(url, "_blank", "width=600,height=500");
+    }}
+
+    function shareToLinkedIn() {{
+      const data = getShareData();
+      const url = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(data.shareUrl);
+      window.open(url, "_blank", "width=600,height=500");
+    }}
+
+    function shareToX() {{
+      const data = getShareData();
+      const tweetText = data.summary + "\\n\\n#MorrisChang #TSMC #台积电 #张忠谋";
+      const url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweetText) + "&url=" + encodeURIComponent(data.shareUrl);
+      window.open(url, "_blank", "width=600,height=500");
+    }}
+
+    function shareToWhatsApp() {{
+      const data = getShareData();
+      const text = data.summary + " " + data.shareUrl;
+      const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(text);
+      window.open(url, "_blank");
+    }}
+
+    function shareToTelegram() {{
+      const data = getShareData();
+      const url = "https://t.me/share/url?url=" + encodeURIComponent(data.shareUrl) + "&text=" + encodeURIComponent(data.summary);
+      window.open(url, "_blank");
+    }}
+
+    function shareToFacebook() {{
+      const data = getShareData();
+      const url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(data.shareUrl);
+      window.open(url, "_blank", "width=600,height=500");
+    }}
+
+    function copyViralShare() {{
+      const data = getShareData();
+      const fullCopyText = "【台积电张忠谋传记时间线的平行世界 · " + EP_DATA.titleZh + "】\\n\\n“" + EP_DATA.quoteZh + "”\\n\\\"" + EP_DATA.quoteEn + "\\\"\\n\\n🎧 纯净中英双语原声 + 逐句高亮字幕提词器：\\n👉 " + data.shareUrl;
+      
+      if (navigator.clipboard && window.isSecureContext) {{
+        navigator.clipboard.writeText(fullCopyText).then(() => {{
+          showToast("📋 金句双语分享文案已复制！");
+        }}).catch(err => fallbackCopy(fullCopyText));
+      }} else {{
+        fallbackCopy(fullCopyText);
+      }}
+    }}
+
+    function fallbackCopy(text) {{
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      try {{
+        document.execCommand("copy");
+        showToast("📋 金句双语分享文案已复制！");
+      }} catch (e) {{
+        showToast("请手动复制链接");
+      }}
+      document.body.removeChild(ta);
+    }}
+  </script>
+</body>
+</html>
+"""
+    out_file = os.path.join(WORKSPACE, ep["file_name"])
+    with open(out_file, "w", encoding="utf-8") as f_out:
+        f_out.write(page_html.strip())
+    print(f"Successfully generated {ep['file_name']} (Size: {len(page_html)} bytes)")
+
+print("All 4 episode pages generated successfully!")
