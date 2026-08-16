@@ -218,6 +218,7 @@
       <a href="reader.html" class="nav-link">全册电子书</a>
       <a href="map.html" class="nav-link">平行地图</a>
       <a href="cards.html" class="nav-link">金句卡片</a>
+      <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="nav-link" style="color: var(--amber);">🚀 ReadShift 主体工程</a>
     </div>
   </nav>
 
@@ -2296,7 +2297,7 @@
     });
 
     audioEl.addEventListener('timeupdate', () => {
-      const cur = audioEl.currentTime;
+      const cur = audioEl.currentTime + 0.15;
       const dur = audioEl.duration || 1047;
       curTimeText.innerText = formatTime(cur);
       durTimeText.innerText = formatTime(dur);
