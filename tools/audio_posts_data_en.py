@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 微信视频号【英文版】19 期全集发布数据集
-- 包含最大核心 IP: TSMC
-- 严格映射 19 轨全英文 MP3 音频 (audio/ep00-en.mp3 ~ audio/ep18-en.mp3)
+- 严格校对 19 轨全英文 MP3 音频 (audio/ep00-en.mp3 ~ audio/ep18-en.mp3)
+- 严格校对 19 套排版版插图真实物理路径
 - 纯正地道英文标题 (≤40字符)
 - 深度英文叙事文案 + 金句提炼 + 英文 Hashtags + 官方 GitHub 双语互动展厅 URL
 """
@@ -13,7 +13,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GITHUB_PORTAL_URL = "https://martin-mqtech.github.io/morris-chang-tsmc-aigc-parallel/index.html"
 
 # 合集名称加入最大核心 IP: TSMC
-ENGLISH_COLLECTION_NAME = "Morris Chang & TSMC: Parallel Biography"
+ENGLISH_COLLECTION_NAME = "TSMC & Morris Chang: Parallel"
 
 EPISODES_DATA_EN = [
     {
@@ -61,7 +61,7 @@ A five-year-old boy boards a steamer amid wartime chaos, beginning an odyssey ac
         "ep_id": "02",
         "title": "Ep02 · Writer's Dream | Shattered by Reality",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep02-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第02期-作家梦.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第02期-考不进去的南开与作家梦.jpg"),
         "timeline": "1942–1948 · Shanghai Desks & Runaway Inflation",
         "tags": ["TSMC", "MorrisChang", "WritersDream", "PivotalDecisions", "Literature"],
         "desc": f"""【Ep02 · The Writer's Dream: Shattered by Reality】
@@ -115,7 +115,7 @@ Failing the MIT doctoral qualification exam twice, sending 40 resumes, and refus
         "ep_id": "05",
         "title": "Ep05 · Wilderness Nights | Mastering Solid-State Physics",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep05-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第05期-旷野夜读.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第05期-隔岸观火的叛乱.jpg"),
         "timeline": "1955–1958 · Self-Taught in the Transistor Wilds",
         "tags": ["TSMC", "MorrisChang", "SelfTaught", "Shockley", "Transistors"],
         "desc": f"""【Ep05 · Wilderness Nights: Mastering Solid-State Physics】
@@ -133,7 +133,7 @@ A mechanical graduate confronting quantum physics and Shockley's seminal book li
         "ep_id": "06",
         "title": "Ep06 · TI's Rising Star | Doubling Yields & Breaking Records",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep06-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第06期-德仪新星.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第06期-德仪的太空竞赛岁月.jpg"),
         "timeline": "1958–1961 · Dallas, Texas Instruments",
         "tags": ["TSMC", "TexasInstruments", "MorrisChang", "YieldOptimization", "Manufacturing"],
         "desc": f"""【Ep06 · Rising Star at TI: Doubling Yields & Manufacturing Legends】
@@ -151,7 +151,7 @@ Joining Texas Instruments in Dallas at 27, fixing the IBM transistor line from z
         "ep_id": "07",
         "title": "Ep07 · Stanford PhD | Conquering the Summit in 2.5 Years",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep07-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第07期-斯坦福博士.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第07期-半导体之巅的十年.jpg"),
         "timeline": "1961–1964 · Stanford University & Silicon Valley",
         "tags": ["TSMC", "Stanford", "PhD", "MorrisChang", "SiliconValley"],
         "desc": f"""【Ep07 · Stanford PhD: Conquering the Summit in 2.5 Years】
@@ -169,7 +169,7 @@ TI fully sponsored his doctorate at Stanford under John Linvill. In just two and
         "ep_id": "08",
         "title": "Ep08 · Summit at TI | Running Global Chips & Corporate Currents",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep08-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第08期-登顶TI.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第08期-离开德州与受邀回台.jpg"),
         "timeline": "1964–1983 · Group VP & Global Semiconductor Power",
         "tags": ["TSMC", "TexasInstruments", "GroupVP", "CorporateStrategy", "MorrisChang"],
         "desc": f"""【Ep08 · Summit at TI: Leading Global Chips & Navigating Corporate Currents】
@@ -187,7 +187,7 @@ As Group VP of Worldwide Semiconductors, pioneering aggressive cost curves and g
         "ep_id": "09",
         "title": "Ep09 · Darkest Hour | Sidelined at 52 & The Secret Rebound",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep09-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第09期-至暗时刻.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第09期-纯代工的革命.jpg"),
         "timeline": "1983–1985 · General Instrument & The Taiwan Invitation",
         "tags": ["TSMC", "DarkestHour", "MidCareerCrisis", "MorrisChang", "Resilience"],
         "desc": f"""【Ep09 · The Darkest Hour: Sidelined at 52 & The Secret Rebound】
@@ -205,7 +205,7 @@ Resigning from TI, brief tenure as COO of General Instrument, and accepting Sun 
         "ep_id": "10",
         "title": "Ep10 · The $54M Gamble | Pure-Play Foundry Revolution",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep10-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第10期-五十四岁的赌局.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第10期-从台湾到世界.jpg"),
         "timeline": "1985–1987 · Founding TSMC in Hsinchu",
         "tags": ["TSMC", "PurePlayFoundry", "BusinessModel", "Innovation", "MorrisChang"],
         "desc": f"""【Ep10 · The 54-Year-Old Gamble: Pure-Play Foundry Revolution】
@@ -223,7 +223,7 @@ In 1987, at age 54, Morris Chang founded TSMC with zero proprietary product desi
         "ep_id": "11",
         "title": "Ep11 · Iron Will | Integrity as the Ultimate Moat",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep11-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第11期-张忠谋的铁腕.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第11期-记忆体的诱惑.jpg"),
         "timeline": "1987–1995 · Institutionalizing Corporate Governance",
         "tags": ["TSMC", "Integrity", "CorporateCulture", "Governance", "MorrisChang"],
         "desc": f"""【Ep11 · Iron Will: Integrity, Commitment & The TSMC Moat】
@@ -241,7 +241,7 @@ Establishing four core values: Integrity, Commitment, Innovation, and Customer T
         "ep_id": "12",
         "title": "Ep12 · 25-Year Patent War | Defending Innovation Globally",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep12-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第12期-二十五年专利战.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第12期-逆周期的定力.jpg"),
         "timeline": "1995–2009 · IP Battles & Global Settlements",
         "tags": ["TSMC", "PatentWar", "IntellectualProperty", "LegalStrategy", "MorrisChang"],
         "desc": f"""【Ep12 · The 25-Year Patent War: Defending Innovation on the Global Stage】
@@ -259,7 +259,7 @@ From early licensing battles with Intel and TI to the historic SMIC trade secret
         "ep_id": "13",
         "title": "Ep13 · Night Owl Squad | 24/7 R&D Relay Racing Moore's Law",
         "audio_path": os.path.join(BASE_DIR, "audio", "ep13-en.mp3"),
-        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第13期-夜鹰部队.jpg"),
+        "cover_path": os.path.join(BASE_DIR, "设计资产", "插图", "排版版", "第13期-交棒之痛.jpg"),
         "timeline": "2000–2010 · 3-Shift Continuous R&D Engine",
         "tags": ["TSMC", "NightOwlR&D", "MooresLaw", "EngineeringSpeed", "10nm"],
         "desc": f"""【Ep13 · The Night Owl Squad: 24/7 R&D Relay Racing Moore's Law】
@@ -364,3 +364,10 @@ The grand finale of Morris Chang's parallel biography: Arizona, Kumamoto, Dresde
 #TSMC #Geopolitics #ArtificialIntelligence #MorrisChang #SiliconShield #GrandFinale"""
     }
 ]
+
+if __name__ == "__main__":
+    print(f"Loaded {len(EPISODES_DATA_EN)} English episodes data.")
+    for ep in EPISODES_DATA_EN:
+        assert os.path.exists(ep["audio_path"]), f"Missing audio: {ep['audio_path']}"
+        assert os.path.exists(ep["cover_path"]), f"Missing cover: {ep['cover_path']}"
+    print("✅ All 19 English audio files & typography covers verified 100% existing!")
