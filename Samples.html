@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samples — 统一设计系统试验版</title>
+<style>
+/* =================================================
+   统一平面设计系统 — 全站通用基础样式
+   已摒弃：渐变、box-shadow、复杂过渡
+   保留：CSS变量、字体排版、基础边框、琥珀金强调色
+   ================================================= */
+:root {
+  --bg:#0b0f17;       /* 深空黑 — 页面背景 */
+  --paper:#fbf8f1;  /* 纸张白 — 卡片/背景 */
+  --ink:#1b1b1b;    /* 正文正黑 */
+  --sub:#7a746a;    /* 副文暗灰 */
+  --accent:#d4af37; /* 品牌琥珀金 — 唯一强调色 */
+  --line:#e8dfce;   /* 分割线 */
+  --muted:#6b6a62;  /* 文字灰 */
+}
+
+/* 页面基础 */
+* { box-sizing:border-box; margin:0; }
+body { 
+  background:var(--bg); 
+  color:var(--ink); 
+  font-family:"Songti SC","Noto Serif SC","STSong",Georgia,serif; 
+  padding-top: 56px; 
+  margin:0; 
+  line-height:1.55;
+}
+
+/* ===================== 顶栏导航 ===================== */
+.topbar {
+  position:fixed; top:0; left:0; right:0; height:52px; z-index:9999;
+  background:var(--bg); border-bottom:1px solid var(--line);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:0 24px; box-sizing:border-box; font-family:"Songti SC","Noto Serif SC",serif;
+}
+.topbar .logo { display:flex; align-items:center; gap:8px; text-decoration:none; color:var(--accent); font-size:13px; font-weight:600; letter-spacing:1px; }
+.topbar .nav { display:flex; gap:14px; }
+.topbar .nav a { color:#94a3b8; text-decoration:none; font-size:12px; padding:6px 8px; border-radius:4px; white-space:nowrap; transition:background .15s,color .15s; }
+.topbar .nav a:hover { background:rgba(212,175,55,.08); color:var(--accent); }
+.topbar .nav .active { color:var(--accent); background:rgba(212,175,55,.12); }
+
+/* ===================== 主要内容区 ===================== */
+.wrap { max-width:960px; margin:0 auto; padding:48px 24px 80px; }
+
+/* ===================== 卡片组件 ===================== */
+.grid { display:grid; grid-template-columns:repeat(6,1fr); grid-auto-rows:1fr; gap:12px; margin-top:24px; }
+@media (max-width:800px) { .grid { grid-template-columns:repeat(3,1fr); } }
+@media (max-width:600px) { .grid { grid-template-columns:1fr; } }
+
+.card { 
+  background:var(--paper); border:1px solid var(--line); border-radius:6px; 
+  padding:20px 18px; margin:12px 0; transition:border-color .15s; position:relative; overflow:hidden; 
+}
+.card:hover { border-color:var(--accent); }
+.card .tag { position:absolute; top:10px; right:10px; font-size:9px; letter-spacing:1px; color:var(--accent); background:rgba(212,175,55,.08); padding:1px 4px; border-radius:3px; }
+.card .title { font-size:14px; font-weight:550; letter-spacing:1px; color:var(--ink); margin:8px 0 4px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.card .quote { font-size:13px; line-height:1.55; color:#5d5a52; margin:4px 0; }
+.card .quote .zh { color:var(--ink); display:block; }
+.card .quote .en { margin-top:4px; font-family:"Georgia","Times New Roman",serif; font-style:italic; font-size:.75em; color:#6b6a62; }
+.card .meta { font-size:11px; letter-spacing:1px; color:var(--sub); }
+
+/* ===================== 双语金句卡片演示 ===================== */
+.hero { text-align:center; padding:32px 0; }
+.hero h1 { font-size:24px; letter-spacing:3px; margin:0 0 8px; color:var(--ink); }
+.hero .sub { color:var(--sub); letter-spacing:2px; font-size:13px; }
+.hero .en { display:block; font-family:Georgia,serif; font-style:italic; font-size:.7em; color:var(--sub); margin-top:8px; }
+
+/* ===================== 底部信息 ===================== */
+footer { text-align:center; color:var(--sub); padding:20px 0; font-size:12px; letter-spacing:1px; margin-top:40px; }
+</style>
+</head>
+<body>
+  <!-- 顶栏 -->
+  <div class="topbar">
+    <a href="index.html" class="logo">🏠 张忠谋与台积电 · 平行世界</a>
+    <div class="nav">
+      <a href="index.html" class="active">官网首页</a>
+      <a href="audio.html">双语剧场</a>
+      <a href="reader.html">沉浸阅读</a>
+      <a href="map.html">平行地图</a>
+      <a href="cards.html">金句卡片</a>
+      <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank">ReadShift</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="hero">
+      <h1>金句卡片 · 传记时间线的平行世界</h1>
+      <div class="sub">18条平行视角金句，串联起半个世纪的精神脉络</div>
+      <p class="en">Eighteen parallel-view gold sentences, weaving the spiritual thread of half a century</p>
+    </div>
+
+    <div class="grid">
+      <!-- 演示卡片：Ep 01 -->
+      <div class="card">
+        <span class="tag">Ep 01</span>
+        <h3 class="title">第01期 · 逃难的孩子</h3>
+        <div class="quote">
+          <span class="zh">一个孩子的记忆里，战争不是历史，是一张张搬家的船票</span>
+          <span class="en">In a child's memory, war is not history — it is a stack of moving tickets.</span>
+        </div>
+        <div class="meta">平行视角 · Gold Sentence</div>
+      </div>
+      <div class="card">
+        <span class="tag">Ep 02</span>
+        <h3 class="title">第02期 · 考不进去的南开 & 作家梦</h3>
+        <div class="quote">
+          <span class="zh">关系可以给你一张门票，但只有实力，能让你一直坐在场上</span>
+          <span class="en">Connections can get you a ticket, but only ability keeps you in the game.</span>
+        </div>
+        <div class="meta">平行视角 · Gold Sentence</div>
+      </div>
+      <div class="card">
+        <span class="tag">Ep 03</span>
+        <h3 class="title">第03期 · 从黄浦江到查尔斯河</h3>
+        <div class="quote">
+          <span class="zh">他不知道，这一走，他和那个时代许多知识分子一样，把离开当成了暂时，却走出了一条不归路</span>
+          <span class="en">He thought it was a temporary departure — but it became a road of no return.</span>
+        </div>
+        <div class="meta">平行视角 · Gold Sentence</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>十八条金句，全部向栏目的价值内核收敛：<span style="color:var(--accent)">奋斗不息、不断寻找商机、不断拓宽自己的能力边界</span>，以及<span style="color:var(--accent)">跨文明之旅</span>这条情感主线</p>
+    </footer>
+  </div>
+
+</body>
+</html>
