@@ -528,8 +528,23 @@ AIGC讲述/
 2. **全站单层锁定顶栏与中英双行居中排版（✔ 全 30 个 HTML 页面统一覆盖）**：
    - **消除双层导航**：全站所有页面严格收敛为 60px 建筑石墨黑（`#0B0F17`）单层锁定顶栏，底边采用 1px 极细单线（`#1E293B`）。
    - **上下两行中英垂直居中**：上排 13px 加粗中文，下排 9.5px 哑光银灰英文，大幅提升阅读舒适度与国际化质感。
-   - **七大核心导航规范矩阵**：`🏠 官网首页 / Home` $ightarrow$ `🎬 单集剧场 ▾ / Episodes`（悬浮呼出 00–18 期双列纯净几何目录） $ightarrow$ `🎙️ 双语剧场 / Bilingual Theater`（视觉权重归位） $ightarrow$ `📖 沉浸阅读 / Immersive Reader`（全本长篇精读） $ightarrow$ `🗺️ 平行地图 / Parallel Map` $ightarrow$ `🎴 金句卡片 / Knowledge Cards` $ightarrow$ `🚀 ReadShift / Main Project`。
+   - **七大核心导航规范矩阵**：`🏠 官网首页 / Home` $
+ightarrow$ `🎬 单集剧场 ▾ / Episodes`（悬浮呼出 00–18 期双列纯净几何目录） $
+ightarrow$ `🎙️ 双语剧场 / Bilingual Theater`（视觉权重归位） $
+ightarrow$ `📖 沉浸阅读 / Immersive Reader`（全本长篇精读） $
+ightarrow$ `🗺️ 平行地图 / Parallel Map` $
+ightarrow$ `🎴 金句卡片 / Knowledge Cards` $
+ightarrow$ `🚀 ReadShift / Main Project`。
    - **左右呼吸感留白**：左侧锁定 M·C 品牌 Logo 与宋体主标，右侧导航群整体右移对齐（`margin-left: auto`），留出充足视觉留白。
+
+**I. 全站金句卡片系统升级（2026-08-17 沉淀）**
+1. **18 张卡片全链路升级**：每期独立金句卡片，中英双语，配套关键词与跟读练习入口。
+2. **响应式网格布局**：桌面 6 栏、平板 3 栏、移动端 1 栏，确保在任何设备上金句卡片均可阅读。
+3. **内容来源定约**：全部金句均来源于《完结说明.md》金句总表，并经《英语学习卡.md》核对润色。
+4. **交互与视觉**：悬浮态琥珀金边框，响应式网格自适应，卡片最小高度 140px，确保移动端可读。
+5. **版权与使用声明**：卡片内底部微缩版权声明：本项目所有金句仅供学习交流、禁止商业用途。
+
+如果README.md中已包含该章节则跳过。
 
 ## 十四、栏目标语（备用）
 
