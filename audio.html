@@ -78,24 +78,355 @@
   }
   .menu-toggle { display:none; background:transparent; border:1px solid var(--line); color:var(--ink); padding:6px 10px; border-radius:6px; cursor:pointer; font-size:13px; }
 </style>
+<style id="global-nav-css">
+/* Unified Global Locked Top Navigation Bar & Dropdown */
+.unified-nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  z-index: 99999;
+  background: rgba(10, 14, 23, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+.unified-nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #f3f4f6;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+.unified-nav-brand:hover {
+  color: #fbbf24;
+}
+.unified-nav-items {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.unified-nav-link {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+.unified-nav-link:hover {
+  color: #f3f4f6;
+  background: rgba(255, 255, 255, 0.06);
+}
+.unified-nav-link.active-audio {
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+  font-weight: 600;
+  border: 1px solid rgba(251, 191, 36, 0.25);
+}
+.unified-nav-link.badge-link {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  color: #fbbf24;
+  font-size: 11.5px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.unified-nav-link.badge-link:hover {
+  background: rgba(245, 158, 11, 0.25);
+  color: #fff;
+}
+
+/* Dropdown Menu styling */
+.nav-dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.nav-dropdown-trigger {
+  cursor: pointer;
+}
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  width: 580px;
+  background: rgba(13, 17, 28, 0.98);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 100000;
+}
+.nav-dropdown-wrapper:hover .nav-dropdown-menu,
+.nav-dropdown-wrapper:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(4px);
+}
+.ep-dd-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 12px;
+  color: #9ca3af;
+}
+.ep-dd-header span {
+  font-weight: 600;
+  color: #d1d5db;
+}
+.ep-dd-all {
+  color: #fbbf24;
+  text-decoration: none;
+  font-size: 11.5px;
+  font-weight: 600;
+}
+.ep-dd-all:hover {
+  text-decoration: underline;
+}
+.ep-dd-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 12px;
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+.ep-dd-grid::-webkit-scrollbar {
+  width: 4px;
+}
+.ep-dd-grid::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+.ep-dd-item {
+  display: block;
+  padding: 6px 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+.ep-dd-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+.ep-dd-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 2px;
+}
+.ep-dd-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #e5e7eb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ep-dd-item:hover .ep-dd-title {
+  color: #fbbf24;
+}
+.ep-dd-year {
+  font-size: 10px;
+  color: #6b7280;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  flex-shrink: 0;
+}
+.ep-dd-en {
+  font-size: 10.5px;
+  color: #9ca3af;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body {
+  padding-top: 56px !important;
+}
+</style>
 </head>
 <body>
-
-<!-- Unified Global Locked Top Navigation Bar -->
-<nav class="unified-top-nav" style="position: fixed; top: 0; left: 0; right: 0; z-index: 9999; height: 58px; background: rgba(8,12,20,0.95); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--line, #26262b); display: flex; align-items: center; justify-content: space-between; padding: 0 24px; box-sizing: border-box;">
-  <a href="index.html" class="unified-brand" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #ece9e2; font-weight: 700; font-size: 14.5px;">
-    <div style="font-family:'Songti SC','Noto Serif SC',serif; letter-spacing:2px; color:var(--amber);">🏠</div>
+<!-- Unified Global Locked Top Navigation Bar (Single Layer) -->
+<nav class="unified-nav-container">
+  <a href="index.html" class="unified-nav-brand">
+    <span>张忠谋与台积电 · 平行世界</span>
   </a>
-  <div class="unified-nav-links" style="display: flex; align-items: center; gap: 18px;">
-    <a href="index.html" style="color: #a29c90; text-decoration: none; font-size: 13px;">官网首页 / Home</a>
-    <a href="reader.html" style="color: #a29c90; text-decoration: none; font-size: 13px;">全册电子书 / Full Book</a>
-    <a href="audio.html" style="color: #F59E0B; text-decoration: none; font-size: 13px; font-weight: 600;">双语剧场 / Bilingual Theater</a>
-    <a href="map.html" style="color: #a29c90; text-decoration: none; font-size: 13px;">平行地图 / Parallel Map</a>
-    <a href="cards.html" style="color: #a29c90; text-decoration: none; font-size: 13px;">金句卡片 / Knowledge Cards</a>
-    <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" style="background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); color: #F59E0B; font-size: 11px; padding: 4px 10px; border-radius: 999px; font-weight: 600; text-decoration: none;">ReadShift / 主体工程</a>
+  <div class="unified-nav-items">
+    <a href="index.html" class="unified-nav-link">🏠 官网首页 / Home</a>
+    
+    <div class="nav-dropdown-wrapper">
+      <a href="episode-00.html" class="unified-nav-link nav-dropdown-trigger">🎬 单集剧场 / Episodes ▾</a>
+      <div class="nav-dropdown-menu">
+        <div class="ep-dd-header">
+          <span>🎬 全 19 期双语分集剧场（1931–至今）</span>
+          <a href="audio.html" class="ep-dd-all">在双语剧场连播 🎙️</a>
+        </div>
+        <div class="ep-dd-grid">
+    <div class="ep-dd-col">
+      <a href="episode-00.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第00期 · 全册导读</span>
+        <span class="ep-dd-year">1931–1998</span>
+      </div>
+      <div class="ep-dd-en">Prologue: Ten Movements</div>
+    </a><a href="episode-01.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第01期 · 逃难的孩子</span>
+        <span class="ep-dd-year">1937–1942</span>
+      </div>
+      <div class="ep-dd-en">The Refugee Child</div>
+    </a><a href="episode-02.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第02期 · 考不进去的南开 & 作家梦</span>
+        <span class="ep-dd-year">1943–1948</span>
+      </div>
+      <div class="ep-dd-en">Nankai & The Writer's Dream</div>
+    </a><a href="episode-03.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第03期 · 从黄浦江到查尔斯河</span>
+        <span class="ep-dd-year">1949–1950</span>
+      </div>
+      <div class="ep-dd-en">From Huangpu to Charles River</div>
+    </a><a href="episode-04.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第04期 · 四十封求职信</span>
+        <span class="ep-dd-year">1954–1958</span>
+      </div>
+      <div class="ep-dd-en">Forty Job Applications</div>
+    </a><a href="episode-05.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第05期 · 隔岸观火的叛乱</span>
+        <span class="ep-dd-year">1957–1968</span>
+      </div>
+      <div class="ep-dd-en">Watching the Rebellion from Afar</div>
+    </a><a href="episode-06.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第06期 · 德仪的太空竞赛岁月</span>
+        <span class="ep-dd-year">1958–1964</span>
+      </div>
+      <div class="ep-dd-en">Space-Race Years at TI</div>
+    </a><a href="episode-07.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第07期 · 半导体之巅的十年</span>
+        <span class="ep-dd-year">1964–1978</span>
+      </div>
+      <div class="ep-dd-en">A Decade at the Summit</div>
+    </a><a href="episode-08.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第08期 · 离开德州 & 受邀回台</span>
+        <span class="ep-dd-year">1978–1987</span>
+      </div>
+      <div class="ep-dd-en">Leaving TI & The Invitation Home</div>
+    </a><a href="episode-09.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第09期 · 纯代工的革命</span>
+        <span class="ep-dd-year">1987–1995</span>
+      </div>
+      <div class="ep-dd-en">The Pure-Play Revolution</div>
+    </a>
+    </div>
+    <div class="ep-dd-col">
+      <a href="episode-10.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第10期 · 从台湾到世界</span>
+        <span class="ep-dd-year">1995–1998</span>
+      </div>
+      <div class="ep-dd-en">From Taiwan to the World</div>
+    </a><a href="episode-11.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第11期 · 记忆体的诱惑</span>
+        <span class="ep-dd-year">1998–2000</span>
+      </div>
+      <div class="ep-dd-en">The Memory Temptation</div>
+    </a><a href="episode-12.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第12期 · 逆周期的定力</span>
+        <span class="ep-dd-year">2001–2003</span>
+      </div>
+      <div class="ep-dd-en">Counter-Cyclical Fortitude</div>
+    </a><a href="episode-13.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第13期 · 交棒之痛</span>
+        <span class="ep-dd-year">2003–2009</span>
+      </div>
+      <div class="ep-dd-en">The Pain of Succession</div>
+    </a><a href="episode-14.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第14期 · 绚烂年代</span>
+        <span class="ep-dd-year">2009–2012</span>
+      </div>
+      <div class="ep-dd-en">The Splendid Era</div>
+    </a><a href="episode-15.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第15期 · 苹果来敲门</span>
+        <span class="ep-dd-year">2010–2014</span>
+      </div>
+      <div class="ep-dd-en">When Apple Came Knocking</div>
+    </a><a href="episode-16.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第16期 · 摩尔定律的守卫者</span>
+        <span class="ep-dd-year">2014–2018</span>
+      </div>
+      <div class="ep-dd-en">Guardians of Moore's Law</div>
+    </a><a href="episode-17.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第17期 · 交棒与退休</span>
+        <span class="ep-dd-year">2013–2018</span>
+      </div>
+      <div class="ep-dd-en">Handing Over & Retirement</div>
+    </a><a href="episode-18.html" class="ep-dd-item">
+      <div class="ep-dd-top">
+        <span class="ep-dd-title">第18期 · 护国神山</span>
+        <span class="ep-dd-year">2018–今天</span>
+      </div>
+      <div class="ep-dd-en">The Sacred Mountain</div>
+    </a>
+    </div>
+  </div>
+      </div>
+    </div>
+    
+    <a href="audio.html" class="unified-nav-link active-audio">🎙️ 双语剧场 / Bilingual Theater</a>
+    <a href="reader.html" class="unified-nav-link">📖 全册电子书 / Full Book</a>
+    <a href="map.html" class="unified-nav-link">🗺️ 平行地图 / Parallel Map</a>
+    <a href="cards.html" class="unified-nav-link">🎴 金句卡片 / Knowledge Cards</a>
+    <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="unified-nav-link badge-link">🚀 ReadShift / 主体工程</a>
   </div>
 </nav>
-<!-- Unified Locked Top Navigation Bar -->
+<!-- End Unified Navigation Bar -->
+
+
 
 <div class="theater">
   <aside class="sidebar" id="sidebar">
