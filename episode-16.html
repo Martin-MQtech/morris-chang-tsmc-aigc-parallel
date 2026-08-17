@@ -418,6 +418,7 @@
 
 body { padding-top: 58px !important; margin: 0; }</style>
 
+
 <style id="global-nav-css">
 /* Unified Global Locked Top Navigation Bar & Brand Logo System */
 .unified-nav-container {
@@ -425,16 +426,16 @@ body { padding-top: 58px !important; margin: 0; }</style>
   top: 0;
   left: 0;
   right: 0;
-  height: 58px;
+  height: 64px;
   z-index: 99999;
   background: rgba(10, 14, 23, 0.94);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px;
+  padding: 0 32px;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
@@ -443,7 +444,7 @@ body { padding-top: 58px !important; margin: 0; }</style>
 .unified-nav-brand {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
+  gap: 12px;
   text-decoration: none;
   color: inherit;
   flex-shrink: 0;
@@ -455,8 +456,8 @@ body { padding-top: 58px !important; margin: 0; }</style>
 }
 .brand-icon-wrap {
   position: relative;
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -478,11 +479,11 @@ body { padding-top: 58px !important; margin: 0; }</style>
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1px;
-  line-height: 1;
+  gap: 2px;
+  line-height: 1.1;
 }
 .brand-title-zh {
-  font-size: 13.5px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.6px;
   color: #f9fafb;
@@ -492,7 +493,7 @@ body { padding-top: 58px !important; margin: 0; }</style>
 }
 .brand-title-zh .accent-dot {
   color: #f59e0b;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 900;
 }
 .brand-title-zh .accent-sub {
@@ -500,7 +501,7 @@ body { padding-top: 58px !important; margin: 0; }</style>
   font-weight: 600;
 }
 .brand-title-en {
-  font-size: 8.5px;
+  font-size: 9px;
   font-weight: 600;
   letter-spacing: 1.2px;
   color: #94a3b8;
@@ -512,51 +513,80 @@ body { padding-top: 58px !important; margin: 0; }</style>
   font-weight: 500;
 }
 
-/* Nav Menu Items */
+/* Nav Menu Items Pushed Right with Breathing Room */
 .unified-nav-items {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 18px;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-left: auto;
 }
+
+/* Two-Line Stacked Link (Top: Chinese, Bottom: English, Centered) */
 .unified-nav-link {
   color: #9ca3af;
   text-decoration: none;
-  font-size: 12px;
-  font-weight: 500;
-  padding: 6px 9px;
-  border-radius: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
   transition: all 0.2s ease;
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 4px;
+  justify-content: center;
+  text-align: center;
+  gap: 2px;
   white-space: nowrap;
 }
 .unified-nav-link:hover {
   color: #f3f4f6;
   background: rgba(255, 255, 255, 0.06);
 }
-.unified-nav-link.active-audio {
-  color: #fbbf24;
-  background: rgba(251, 191, 36, 0.1);
+.unified-nav-link .nav-label-zh {
+  font-size: 13px;
   font-weight: 600;
-  border: 1px solid rgba(251, 191, 36, 0.25);
+  letter-spacing: 0.3px;
+  line-height: 1.2;
+  color: #e5e7eb;
+  transition: color 0.2s ease;
 }
-.unified-nav-link.badge-link {
-  background: rgba(245, 158, 11, 0.15);
-  border: 1px solid rgba(245, 158, 11, 0.3);
+.unified-nav-link:hover .nav-label-zh {
   color: #fbbf24;
-  font-size: 11px;
-  padding: 4px 10px;
+}
+.unified-nav-link .nav-label-en {
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  color: #9ca3af;
+  text-transform: capitalize;
+  opacity: 0.85;
+}
+.unified-nav-link:hover .nav-label-en {
+  color: #d1d5db;
+  opacity: 1;
+}
+
+/* Badge Link for Main Project */
+.unified-nav-link.badge-link {
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.28);
+  padding: 5px 12px;
   border-radius: 999px;
-  font-weight: 600;
-  text-decoration: none;
+}
+.unified-nav-link.badge-link .nav-label-zh {
+  color: #fbbf24;
+  font-size: 12px;
+}
+.unified-nav-link.badge-link .nav-label-en {
+  color: #fde68a;
+  font-size: 8.5px;
+  letter-spacing: 0.6px;
 }
 .unified-nav-link.badge-link:hover {
-  background: rgba(245, 158, 11, 0.25);
-  color: #fff;
+  background: rgba(245, 158, 11, 0.22);
+  border-color: rgba(245, 158, 11, 0.45);
 }
 
 /* Dropdown Menu styling */
@@ -571,7 +601,7 @@ body { padding-top: 58px !important; margin: 0; }</style>
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%) translateY(10px);
+  transform: translateX(-50%) translateY(12px);
   width: 580px;
   background: rgba(13, 17, 28, 0.98);
   backdrop-filter: blur(20px);
@@ -673,7 +703,7 @@ body { padding-top: 58px !important; margin: 0; }</style>
   text-overflow: ellipsis;
 }
 body {
-  padding-top: 58px !important;
+  padding-top: 64px !important;
 }
 </style>
 </head>
@@ -695,10 +725,16 @@ body {
   </a>
 
   <div class="unified-nav-items">
-    <a href="index.html" class="unified-nav-link">🏠 官网首页 / Home</a>
+    <a href="index.html" class="unified-nav-link">
+      <span class="nav-label-zh">🏠 官网首页</span>
+      <span class="nav-label-en">Home</span>
+    </a>
     
     <div class="nav-dropdown-wrapper">
-      <a href="episode-00.html" class="unified-nav-link nav-dropdown-trigger">🎬 单集剧场 / Episodes ▾</a>
+      <a href="episode-00.html" class="unified-nav-link nav-dropdown-trigger">
+        <span class="nav-label-zh">🎬 单集剧场 ▾</span>
+        <span class="nav-label-en">Episodes</span>
+      </a>
       <div class="nav-dropdown-menu">
         <div class="ep-dd-header">
           <span>🎬 全 19 期双语分集剧场（1931–至今）</span>
@@ -829,14 +865,30 @@ body {
       </div>
     </div>
     
-    <a href="audio.html" class="unified-nav-link active-audio">🎙️ 双语剧场 / Bilingual Theater</a>
-    <a href="reader.html" class="unified-nav-link">📖 全册电子书 / Full Book</a>
-    <a href="map.html" class="unified-nav-link">🗺️ 平行地图 / Parallel Map</a>
-    <a href="cards.html" class="unified-nav-link">🎴 金句卡片 / Knowledge Cards</a>
-    <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="unified-nav-link badge-link">🚀 ReadShift / 主体工程</a>
+    <a href="audio.html" class="unified-nav-link">
+      <span class="nav-label-zh">🎙️ 双语剧场</span>
+      <span class="nav-label-en">Bilingual Theater</span>
+    </a>
+    <a href="reader.html" class="unified-nav-link">
+      <span class="nav-label-zh">📖 全册电子书</span>
+      <span class="nav-label-en">Full Book</span>
+    </a>
+    <a href="map.html" class="unified-nav-link">
+      <span class="nav-label-zh">🗺️ 平行地图</span>
+      <span class="nav-label-en">Parallel Map</span>
+    </a>
+    <a href="cards.html" class="unified-nav-link">
+      <span class="nav-label-zh">🎴 金句卡片</span>
+      <span class="nav-label-en">Knowledge Cards</span>
+    </a>
+    <a href="https://github.com/Martin-MQtech/ReadShift" target="_blank" class="unified-nav-link badge-link">
+      <span class="nav-label-zh">🚀 ReadShift</span>
+      <span class="nav-label-en">Main Project</span>
+    </a>
   </div>
 </nav>
 <!-- End Unified Navigation Bar -->
+
 
 
 
