@@ -417,14 +417,15 @@
       .trajectory-timeline { grid-template-columns: 1fr; }
     }
   </style>
+
 <style id="global-nav-css">
-/* Unified Global Locked Top Navigation Bar & Dropdown */
+/* Unified Global Locked Top Navigation Bar & Brand Logo System */
 .unified-nav-container {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 56px;
+  height: 58px;
   z-index: 99999;
   background: rgba(10, 14, 23, 0.94);
   backdrop-filter: blur(16px);
@@ -437,24 +438,85 @@
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
+
+/* Series Brand Logo Lockup (Icon + Bilingual Typography) */
 .unified-nav-brand {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 11px;
   text-decoration: none;
-  color: #f3f4f6;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  color: inherit;
   flex-shrink: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 .unified-nav-brand:hover {
-  color: #fbbf24;
+  transform: translateY(-0.5px);
+  opacity: 0.95;
 }
+.brand-icon-wrap {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.brand-icon-wrap img, .brand-icon-wrap svg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.25), inset 0 0 4px rgba(56, 189, 248, 0.3);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.unified-nav-brand:hover .brand-icon-wrap img,
+.unified-nav-brand:hover .brand-icon-wrap svg {
+  transform: rotate(12deg) scale(1.06);
+  box-shadow: 0 0 18px rgba(245, 158, 11, 0.45), 0 0 8px rgba(56, 189, 248, 0.4);
+}
+.brand-text-lockup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+  line-height: 1;
+}
+.brand-title-zh {
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #f9fafb;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.brand-title-zh .accent-dot {
+  color: #f59e0b;
+  font-size: 11px;
+  font-weight: 900;
+}
+.brand-title-zh .accent-sub {
+  color: #fbbf24;
+  font-weight: 600;
+}
+.brand-title-en {
+  font-size: 8.5px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+.brand-title-en span {
+  color: #38bdf8;
+  font-weight: 500;
+}
+
+/* Nav Menu Items */
 .unified-nav-items {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -462,9 +524,9 @@
 .unified-nav-link {
   color: #9ca3af;
   text-decoration: none;
-  font-size: 12.5px;
+  font-size: 12px;
   font-weight: 500;
-  padding: 6px 10px;
+  padding: 6px 9px;
   border-radius: 6px;
   transition: all 0.2s ease;
   display: inline-flex;
@@ -486,8 +548,8 @@
   background: rgba(245, 158, 11, 0.15);
   border: 1px solid rgba(245, 158, 11, 0.3);
   color: #fbbf24;
-  font-size: 11.5px;
-  padding: 4px 11px;
+  font-size: 11px;
+  padding: 4px 10px;
   border-radius: 999px;
   font-weight: 600;
   text-decoration: none;
@@ -611,16 +673,27 @@
   text-overflow: ellipsis;
 }
 body {
-  padding-top: 56px !important;
+  padding-top: 58px !important;
 }
 </style>
 </head>
 <body>
 <!-- Unified Global Locked Top Navigation Bar (Single Layer) -->
 <nav class="unified-nav-container">
-  <a href="index.html" class="unified-nav-brand">
-    <span>张忠谋与台积电 · 平行世界</span>
+  <a href="index.html" class="unified-nav-brand" title="返回官网首页 / Home">
+    <div class="brand-icon-wrap">
+      <img src="logo.svg" alt="Series Logo" onerror="this.src='assets/logo.svg'; this.onerror=null;">
+    </div>
+    <div class="brand-text-lockup">
+      <div class="brand-title-zh">
+        张忠谋与台积电 <span class="accent-dot">·</span> <span class="accent-sub">平行世界</span>
+      </div>
+      <div class="brand-title-en">
+        TSMC &amp; MORRIS CHANG <span>· PARALLEL</span>
+      </div>
+    </div>
   </a>
+
   <div class="unified-nav-items">
     <a href="index.html" class="unified-nav-link">🏠 官网首页 / Home</a>
     
@@ -764,6 +837,7 @@ body {
   </div>
 </nav>
 <!-- End Unified Navigation Bar -->
+
 
   
 

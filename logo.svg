@@ -1,28 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="36" height="36" fill="none">
   <defs>
-    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FCD34D" />
-      <stop offset="50%" stop-color="#F59E0B" />
-      <stop offset="100%" stop-color="#D97706" />
+    <!-- Silicon Wafer / Gold Gradient -->
+    <linearGradient id="waferGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="45%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
     </linearGradient>
-    <linearGradient id="discGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141416" />
-      <stop offset="100%" stop-color="#050506" />
+    
+    <!-- Parallel Cyan Beam Gradient -->
+    <linearGradient id="beamCyan" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
     </linearGradient>
+
+    <!-- Dark Silicon Disc Base -->
+    <radialGradient id="discBase" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="70%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
   </defs>
 
-  <!-- Deep Solid Black Circular Emblem -->
-  <circle cx="50" cy="50" r="48" fill="url(#discGrad)" stroke="#26262a" stroke-width="2" />
+  <!-- Outer Ring (Silicon Ingot Section) -->
+  <circle cx="22" cy="22" r="20" stroke="url(#waferGold)" stroke-width="1.2" fill="url(#discBase)" />
+  <circle cx="22" cy="22" r="17.5" stroke="rgba(255,255,255,0.12)" stroke-width="0.75" stroke-dasharray="2 3" />
   
-  <!-- Subtle Inner Framing Ring -->
-  <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="3 3" />
+  <!-- Semiconductor Lithography Grid / Coordinate Lines -->
+  <path d="M12 22 H32 M22 12 V32" stroke="rgba(245, 158, 11, 0.25)" stroke-width="0.8" />
+  
+  <!-- Parallel World Twin Beams (Left: Morris Chang Bio / Gold, Right: World Era / Cyan) -->
+  <!-- Timeline A: Amber Gold Ribbon -->
+  <path d="M15 29 C15 20, 20 18, 27 15" stroke="url(#waferGold)" stroke-width="2.2" stroke-linecap="round" filter="url(#glow)" />
+  <!-- Timeline B: Tech Cyan Parallel Ribbon -->
+  <path d="M17 31 C17 24, 22 22, 29 17" stroke="url(#beamCyan)" stroke-width="1.5" stroke-linecap="round" opacity="0.9" />
 
-  <!-- Solid Crisp White Geometric "M" (Left & Center) -->
-  <path d="M 21 72 L 21 28 L 38 54 L 54 28 L 54 72" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
-
-  <!-- Sweeping Crescent Amber Gold "C" (Right Wing Framing / Interlocking) -->
-  <path d="M 76 33 A 19 19 0 1 0 76 67" fill="none" stroke="url(#goldGrad)" stroke-width="6.5" stroke-linecap="round" />
-
-  <!-- Silicon Semiconductor Precision Micro-Accent -->
-  <circle cx="38" cy="54" r="2.5" fill="#F59E0B" />
+  <!-- Center Core Microchip Node (TSMC Pure Foundry Metaphor) -->
+  <rect x="18.5" y="18.5" width="7" height="7" rx="1.5" fill="#0F172A" stroke="url(#waferGold)" stroke-width="1.2" />
+  <circle cx="22" cy="22" r="1.5" fill="#38BDF8" />
+  
+  <!-- Outer Satellite Nodes (Parallel Points) -->
+  <circle cx="15" cy="29" r="1.2" fill="#FDE68A" />
+  <circle cx="27" cy="15" r="1.2" fill="#FDE68A" />
+  <circle cx="29" cy="17" r="1" fill="#38BDF8" />
 </svg>
