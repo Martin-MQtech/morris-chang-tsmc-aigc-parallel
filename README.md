@@ -62,6 +62,9 @@
 | `tools/make_site.py` | 作品官网生成器（自包含单文件，内嵌封面+18插图+18期卡片） |
 | `tools/make_epub.py` | 出版级 EPUB 3.0 生成器（双层目录 + 双语 lang + 封面插图 + 合规打包，`--check` 结构自检） |
 | `tools/make_typography.py` | 出版物排版合成器（封面 + 18 章首图烙入期号/时间/中英标题，宋体+Didot+琥珀金天蓝签名） |
+| `tools/measure_real_cues.py` | 波形实测中文轨时间戳（自适应阈值扫描，产出 real_cues.json.cues） |
+| `tools/measure_en_cues.py` | 波形实测英文轨时间戳（镜像 measure_real_cues.py，针对 en.mp3 + 英文文字稿，产出 cuesEn） |
+| `tools/fix_bilingual_sync.py` | 双轨字幕同步修复（修正 durationEn + 为 audio.html/episode-*.html 注入独立英文 cue 数组） |
 
 **5. 红线提醒**（详见第三节 + 第十六节硬约束速查）：无来源事实不入稿；历史口径用国际英文资料共识、避意识形态；不复制原书语句；中英段落级交错（一段中文一段英文）；音频 20 分钟 ±2；无舞台标记残留；敏感争议处用「据公开报道」等限定语；视觉签名统一暗黑金蓝；AIGC 原创（仅供学习交流、禁止商用）。
 
@@ -503,6 +506,20 @@ AIGC讲述/
 6. **零隐私与安全隔离铁律（Zero-Privacy & De-identification Protocol）（✔ 全项目必守）**：
    - **严禁硬编码敏感凭据**：绝不在代码、文档、日志或 Commit 历史中记录任何个人 Cookie、Token、会话密钥、账号或个人路径。
    - **存储与仓库物理隔离**：所有的运行状态存储（`state.json`）与临时调试凭证一律保存在系统用户配置目录（`~/.config/...`），严格受 `.gitignore` 保护，与代码库绝对物理隔离。
+
+### 2026-08-17 沉淀（双轨字幕同步修复 · 根因分析 · 质检升级）
+
+**G. 双轨字幕时间戳独立性修复**
+1. **根因定位（3 层因果链）**：`sync_real_cues.py` 第 148 行 `durationEn` 直接复制中文时长；`real_cues.json` 只有中文 cue、从未产出英文 cue；两套播放器（audio.html / episode-XX.html）均无"按音轨切换 cue 数组"逻辑 → 切到英文音轨后字幕高亮按中文时间戳跑，逐渐偏离实际发音。
+2. **为什么 QA 检查多遍没发现**：质检清单只验证中文时长、英文"能播放"；字幕偏移是渐进的（越播越偏），快速浏览不易察觉；同步脚本是单轨设计，从未产出过英文 cue 数据。
+3. **修复实施**：
+   - 新建 `tools/measure_en_cues.py`：波形实测英文轨时间戳（镜像 measure_real_cues.py），19 期全量通过；
+   - 新建 `tools/fix_bilingual_sync.py`：一次性修复脚本，更新 audio_data.js（durationEn + cuesEn）、audio.html（per-track renderSubtitles/syncSubtitles）、19 个 episode-XX.html（EP_CUES_EN + 切轨联动）；
+   - `tools/real_cues.json` 新增 `cuesEn` 和 `durationEn` 字段（中英双轨独立数据）。
+4. **质检升级**：在原 10 项 QA 清单后追加第 11–13 项双轨专项检查（durationEn 一致性、cue 独立性、切轨字幕高亮验证），详见 `标准化单章制作执行手册与工程落地规范.md` 第十节。
+5. **工具链铁律**：中文轨与英文轨**必须各自独立波形测量**，禁止 `durationEn := durationZh` 或 `cuesEn := cues` 的复制操作；同步必须使用 `fix_bilingual_sync.py`（双轨），不再使用 `sync_real_cues.py`（单轨已废弃）。
+
+---
 
 ## 十四、栏目标语（备用）
 
