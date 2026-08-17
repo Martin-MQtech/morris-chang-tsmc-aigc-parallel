@@ -3339,11 +3339,24 @@ body {
     </div>
   </div>
 
-  <script>
+  <script src="assets/player-core.js"></script>
+<script src="assets/episode-data.js"></script>
+<script>
     const EPISODE_META = {"id": "17", "file_name": "episode-17.html", "folder": "第17期-交棒与退休", "act_tag": "ACT 17 · 2013–2018 · 双首长制与贝多芬第九", "title_zh": "第 17 期：交棒与退休", "title_en": "Episode 17: Succession and Farewell", "time_loc": "2013–2018 · 双首长制与贝多芬第九", "tagline_zh": "真正的传承，不是找一个像自己的人，而是把公司交给一套比个人更持久的制度。", "tagline_en": "True succession is not finding a clone of oneself, but entrusting the enterprise to an enduring institutional system.", "pills": [["历史坐标", "双首长制设计（刘德音+魏哲家） · 贝多芬第九交响曲告别 · 87岁功成身退 · 传承典范"], ["有声轨", "中英双轨 18min 广播级剧场原声"], ["双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析"]], "image_path": "./设计资产/插图/第17期-交棒与退休.png", "prev_link": "episode-16.html", "prev_label": "← 上一期：第 16 期 摩尔定律的守卫者", "next_link": "episode-18.html", "next_label": "下一期：第 18 期 护国神山 →", "quote_zh": "真正的传承，不是找一个像自己的人，而是把公司交给一套比个人更持久的制度。", "quote_en": "True succession is not finding a clone of oneself, but entrusting the enterprise to an enduring institutional system.", "vocab": [["Dual Leadership", "/ˈdjuː.əl ˈliː.də.ʃɪp/", "双首长治理体制", "A governance structure dividing authority between an Executive Chairman and a Chief Executive Officer."], ["Institutionalization", "/ˌɪn.stɪˌtjuː.ʃən.əl.aɪˈzeɪ.ʃən/", "制度化建设", "The action of establishing something as a norm or institution rather than relying on personality."], ["Ode to Joy", "/əʊd tuː dʒɔɪ/", "欢乐颂（贝多芬第九交响曲）", "The choral finale of Beethoven's Symphony No. 9, symbolizing triumph, unity, and humanity."], ["Consummation", "/ˌkɒn.səˈmeɪ.ʃən/", "功德圆满，终局升华", "The point at which something is complete or finalized with supreme perfection."]], "timeline": [["2013 · 初", "张忠谋向黄仁勋征询接任台积电CEO意向，黄仁勋回应「我已有工作（辉达）」。"], ["2013 · 底", "张忠谋正式设计并落地「双首长制」：刘德音任董事长主外与董事会，魏哲家任总裁主内与运营。"], ["2017 · 10月23日", "台积电举行30周年庆典，邀请国际交响乐团演出贝多芬第九《合唱》，随后正式宣布退休日程。"], ["2018 · 6月5日", "主持最后一次股东常会后正式退休，结束长达63年的半导体职业传奇生涯。"], ["2018 · 夏", "台积电在无创始人的常态下平稳过渡，制度与文化经受住了世界级检验。"]], "duration": "18:24"};
-    const EP_CUES = [{"secZh": "", "secEn": "", "speaker": "", "zh": "二○一三年，张忠谋问了一个问题。", "en": "In 2013, Morris Chang asked a question.", "start": 0.0, "end": 14.05}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他问的对象，不是台积电的董事，也不是台积电的高管。而是一个，在台积电之外、他认识了十六七年的老朋友。", "en": "The person he asked was not a TSMC director, and not a TSMC executive. It was an old friend, outside TSMC, whom he had known for sixteen or seventeen years.", "start": 15.78, "end": 31.5}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他花了大约十分钟，郑重地向对方解释，他对台积电的深切期望，也解释了这份工作的报酬——虽然没有台积电的股票，但固定的薪津，加上按公司每年净利而定的花红，一定比对方当时的收入更高。", "en": "He spent about ten minutes explaining, with great seriousness, his deep expectations for TSMC, and also explaining the compensation for the job — there would be no TSMC stock, but the fixed salary, plus the bonus based on the company's annual net profit, would certainly be higher than what the other man was earning then.", "start": 33.26, "end": 42.13}, {"secZh": "", "secEn": "", "speaker": "", "zh": "对方很有耐心地听完了，没有问任何问题。等张忠谋讲完，他也没有直接拒绝，只是简单地回答了一句：", "en": "The man listened patiently, and asked no questions. When Morris Chang had finished, he did not refuse directly — he simply answered, in one sentence:", "start": 43.9, "end": 44.83}, {"secZh": "", "secEn": "", "speaker": "", "zh": "「我已有工作。」", "en": "\"I already have a job.\"", "start": 46.61, "end": 48.93}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这个回答的人，叫黄仁勋。", "en": "The man who gave that answer was named Jensen Huang.", "start": 50.7, "end": 53.91}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这个想交棒的人，是八十二岁的张忠谋。", "en": "The man who wanted to hand over the reins was Morris Chang, eighty-two years old.", "start": 55.66, "end": 57.87}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这一集，我们讲交棒与退休。", "en": "This episode, we tell the story of the handover and the retirement.", "start": 59.63, "end": 63.1}, {"secZh": "", "secEn": "", "speaker": "", "zh": "交棒这件事，张忠谋其实早就开始想了。", "en": "The handover was something Morris Chang had begun thinking about long before.", "start": 64.89, "end": 80.16}, {"secZh": "", "secEn": "", "speaker": "", "zh": "早在二○○五年，他就开始规划台积电董事长和 CEO 的交棒。那时的计划，是先释出 CEO 的位置给蔡力行，自己保留董事长。如果蔡力行接得顺利，几年之后，他就可以完全退休。", "en": "As early as 2005, he had started planning the succession of TSMC's chairman and CEO. The plan then was to release the CEO seat to Rick Tsai first, while keeping the chairman's seat for himself. If Rick Tsai took over smoothly, he could fully retire a few years later.", "start": 81.94, "end": 91.67}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可接下来几年，台积电的业务和人事，并不顺利。二○○九年，他重新兼任 CEO，把交出去的权，又收了回来。", "en": "But in the years that followed, TSMC's business and its people did not go smoothly. In 2009, he took back the CEO role, and took back the power he had handed over.", "start": 93.43, "end": 101.53}, {"secZh": "", "secEn": "", "speaker": "", "zh": "但即便收了回来，他也没有放弃蔡力行。他任命蔡力行做台积电新事业——太阳能和 LED——的总经理。", "en": "Yet even after taking it back, he had not given up on Rick Tsai. He appointed him general manager of TSMC's new businesses — solar energy and LEDs.", "start": 103.32, "end": 118.98}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可惜，新事业也不成功。二○一四年，蔡力行辞职，出任中华电信董事长；二○一七年，又转任联发科共同执行长。他在联发科做得很好，后来一路做到副董事长暨执行长。", "en": "Unfortunately, the new businesses did not succeed either. In 2014, Rick Tsai resigned, and became chairman of Chunghwa Telecom; in 2017, he moved on to become co-CEO of MediaTek. He did very well there, and eventually rose to vice chairman and CEO.", "start": 120.78, "end": 125.27}, {"secZh": "", "secEn": "", "speaker": "", "zh": "第一人选，就这样，在岁月的流转里，走上了另一条路。", "en": "The first candidate, in the flow of the years, walked onto another road.", "start": 127.06, "end": 137.71}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一二年，重兼 CEO 几年之后，张忠谋认为，台积电已经被他带回了康庄大道。接班人的考量，在他心里，重新萌发。", "en": "In 2012, a few years after returning as CEO, Morris Chang believed TSMC had been brought back to the broad road. The thought of a successor stirred in him again.", "start": 139.46, "end": 151.04}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这一年，公司内部最明显的领导人才，有三位——依姓氏笔画排列：蒋尚义，负责研究开发；刘德音，负责制造；魏哲家，负责业务发展。", "en": "That year, the most obvious leadership talent inside the company numbered three — in stroke order of their surnames: Chiang Shang-yi, in charge of R&D; Liu Deyin, in charge of manufacturing; and C.C. Wei, in charge of business development.", "start": 152.81, "end": 157.86}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一二年三月，张忠谋把这三个人，一起提拔为「共同营运长」。", "en": "In March 2012, Morris Chang promoted all three together to \"co-COO.\"", "start": 159.62, "end": 168.0}, {"secZh": "", "secEn": "", "speaker": "", "zh": "更重要的是，他告诉他们：你们三位，轮流负责公司的三个重要领域——研发、制造、还有业务发展。", "en": "More importantly, he told them: the three of you will take turns running the company's three key domains — R&D, manufacturing, and business development.", "start": 169.78, "end": 173.62}, {"secZh": "", "secEn": "", "speaker": "", "zh": "一开始，他就把蒋尚义调离研发，让他去管制造。", "en": "At the start, he moved Chiang Shang-yi out of R&D, and had him take charge of manufacturing.", "start": 175.41, "end": 185.34}, {"secZh": "", "secEn": "", "speaker": "", "zh": "如果这个「三人轮调」的制度，真的能在二○一二年落实，也许六年之后——他退休的那一刻——台积电的接班，会是一个不一样的故事。", "en": "If this \"three-person rotation\" had truly been carried through in 2012, then perhaps six years later — at the moment of his retirement — TSMC's succession would have told a different story.", "start": 187.11, "end": 195.71}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可是，世事难料。二○一二年，正值台积电研发部门，全力开发苹果要的第一个制程——二十纳米。而二十纳米，又是一个相当有挑战性的制程。", "en": "But the world is hard to predict. In 2012, TSMC's R&D department was throwing everything into developing the first process Apple needed — twenty nanometers. And twenty nanometers was a genuinely challenging process.", "start": 196.51, "end": 200.19}, {"secZh": "", "secEn": "", "speaker": "", "zh": "把蒋尚义调离研发之后，二十纳米的研发问题，不断出现。", "en": "After moving Chiang Shang-yi out of R&D, problems in the twenty-nanometer development kept appearing.", "start": 201.95, "end": 206.6}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋始终不放心。最后，他认了——还是把蒋尚义，送回研发吧。于是，蒋尚义回了原任；倒是刘德音和魏哲家互调了位置：刘德音去管行销与业务发展，魏哲家去管制造。", "en": "Morris Chang never stopped worrying. In the end, he conceded — send Chiang Shang-yi back to R&D. So Chiang Shang-yi returned to his old post; instead, Liu Deyin and C.C. Wei swapped: Liu Deyin went to run marketing and business development, and C.C. Wei went to run manufacturing.", "start": 208.38, "end": 223.88}, {"secZh": "", "secEn": "", "speaker": "", "zh": "一场精心设计的「轮调」，最终，没有按原计划落地。", "en": "A carefully designed \"rotation\" ultimately did not land as planned.", "start": 225.67, "end": 229.89}, {"secZh": "", "secEn": "", "speaker": "", "zh": "那，外面的世界，还有没有更合适的人？", "en": "So, was there anyone more suitable, out in the wider world?", "start": 231.66, "end": 234.88}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋想到了一个人。", "en": "Morris Chang thought of someone.", "start": 236.67, "end": 238.19}, {"secZh": "", "secEn": "", "speaker": "", "zh": "那个人，叫黄仁勋。", "en": "That man was Jensen Huang.", "start": 239.97, "end": 241.74}, {"secZh": "", "secEn": "", "speaker": "", "zh": "在公司内部，张忠谋当然熟悉每一位人才。但在公司之外，还有一个人，无论在品格、视野、半导体专业经验与知识上，都值得被考虑为台积电的接班人。", "en": "Within the company, Morris Chang of course knew every talent well. But outside the company, there was one person who, in character, in vision, in professional experience and knowledge of semiconductors, was worth considering as TSMC's successor.", "start": 243.51, "end": 256.49}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一三年，张忠谋问他：对台积电 CEO 的职位，有没有兴趣？如果有兴趣，我们可以进一步讨论。", "en": "In 2013, Morris Chang asked him: would you be interested in the position of TSMC CEO? If so, we can discuss it further.", "start": 258.27, "end": 266.59}, {"secZh": "", "secEn": "", "speaker": "", "zh": "黄仁勋听完了十分钟的解释，没有问问题，也没有直接拒绝。他只是淡淡地说了一句：", "en": "Jensen Huang listened to the ten-minute explanation, asked no questions, and did not directly refuse. He simply said, lightly:", "start": 268.41, "end": 275.75}, {"secZh": "", "secEn": "", "speaker": "", "zh": "「我已有工作。」", "en": "\"I already have a job.\"", "start": 277.55, "end": 278.48}, {"secZh": "", "secEn": "", "speaker": "", "zh": "几个星期之后，张忠谋又打了一次电话，再问一次。", "en": "A few weeks later, Morris Chang called again, and asked again.", "start": 280.27, "end": 284.24}, {"secZh": "", "secEn": "", "speaker": "", "zh": "答案，还是那四个字：「我已有工作。」", "en": "The answer was still the same four words: \"I already have a job.\"", "start": 286.0, "end": 288.95}, {"secZh": "", "secEn": "", "speaker": "", "zh": "站在二○二四年的今天回头看，这一幕，几乎像一句预言。", "en": "Looking back from 2024, this scene almost reads like a prophecy.", "start": 290.73, "end": 295.74}, {"secZh": "", "secEn": "", "speaker": "", "zh": "因为那时，黄仁勋创办的辉达，还只是一家市值九十亿美元的公司；而台积电的市值，已经是九百亿美元——辉达的整整十倍。黄仁勋的个人财富，也只是辉达市值的百分之几而已。", "en": "Because back then, the Nvidia Jensen Huang had founded was still a company worth only nine billion US dollars; TSMC's market value was already ninety billion — exactly ten times Nvidia. Jensen Huang's personal wealth was only a few percent of Nvidia's market value.", "start": 297.53, "end": 313.38}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可就是这样一个「小公司」的创办人，用一句「我已有工作」，拒绝了一份天大的offer。", "en": "And yet the founder of such a \"small company\" turned down an enormous offer with a single sentence: \"I already have a job.\"", "start": 315.21, "end": 321.13}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋后来回忆这件事，说：黄仁勋的回答，倒是诚实的。", "en": "Recalling it later, Morris Chang said: Jensen Huang's answer was, at least, an honest one.", "start": 322.93, "end": 328.33}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他「已有工作」——他的工作，就是在十一年之后，把辉达，提升到今天的辉达。", "en": "He did \"already have a job\" — and that job was to raise Nvidia, eleven years later, to the Nvidia of today.", "start": 330.1, "end": 336.01}, {"secZh": "", "secEn": "", "speaker": "", "zh": "命运给张忠谋开的这个玩笑，后来成了半导体史上，最妙的一个注脚：他看中的人，没有来；而他没料到的是，这个「没来的人」，日后会跟台积电，并肩站上世界之巅。", "en": "The joke fate played on Morris Chang became one of the finest footnotes in semiconductor history: the man he had wanted did not come; and what he had not foreseen was that this man who \"did not come\" would one day stand shoulder to shoulder with TSMC at the top of the world.", "start": 337.75, "end": 351.04}, {"secZh": "", "secEn": "", "speaker": "", "zh": "交棒的接力棒，还得，传回公司内部。", "en": "The baton of succession still had to be passed back, inside the company.", "start": 352.82, "end": 355.92}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一三年十月，蒋尚义退休。十一月十二日，张忠谋宣布：刘德音和魏哲家，出任台积电的共同 CEO。", "en": "In October 2013, Chiang Shang-yi retired. On November 12, Morris Chang announced: Liu Deyin and C.C. Wei would become TSMC's co-CEOs.", "start": 357.69, "end": 366.82}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这两位，自二○○五年蔡力行任 CEO 时，就分别是先进技术事业组织、主流技术事业组织的资深副总，一路都是台积电最重要的经理人。", "en": "These two had been, since Rick Tsai's time as CEO in 2005, the senior vice presidents of the advanced technology organization and the mainstream technology organization respectively — all along, the most important managers at TSMC.", "start": 368.56, "end": 379.45}, {"secZh": "", "secEn": "", "speaker": "", "zh": "但这个安排，还不是最终的答案。因为董事长，终究要退。", "en": "But this arrangement was still not the final answer. Because the chairman would eventually have to step down.", "start": 381.19, "end": 386.36}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋开始琢磨，一个更根本的问题：退下来之后，台积电该怎么运转？", "en": "Morris Chang began to think about a more fundamental question: after he stepped down, how should TSMC run?", "start": 388.11, "end": 393.8}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他想到的，是欧美许多大公司都采用的「双首长制」。", "en": "What he thought of was the \"dual leadership\" structure used by many large companies in Europe and America.", "start": 395.57, "end": 399.98}, {"secZh": "", "secEn": "", "speaker": "", "zh": "在这个制度里，总裁——也就是 CEO——是公司的领导人；而董事长，领导董事会，监督总裁。因为公司的重要决定，必须经过董事会通过，所以董事长，也成了公司决策的最后把关者。", "en": "In this structure, the president — the CEO — leads the company; while the chairman leads the board, supervises the president, and, because the company's major decisions must pass the board, the chairman becomes the final gatekeeper of decisions.", "start": 401.73, "end": 417.12}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋想得很细。", "en": "Morris Chang thought it through in fine detail.", "start": 418.91, "end": 420.21}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他给「董事长的任务」，写下了三条：第一，领导董事会；第二，公司对政府及社会的最高代表；第三，公司决策的最后把关者。而且，是「全时工作」。", "en": "For \"the chairman's duties,\" he wrote down three: first, to lead the board; second, to be the company's highest representative to government and society; third, to be the final gatekeeper of the company's decisions. And — it was a full-time job.", "start": 421.99, "end": 434.45}, {"secZh": "", "secEn": "", "speaker": "", "zh": "为了做到这三点，他建议：董事长除了继续主持「资本投资」会议，还应该参加「订价会议」「行销周」「法说会」，并且，与总裁无缝双向沟通。", "en": "To do those three things, he suggested the chairman should continue to chair the \"capital investment\" meetings, and should also take part in the \"pricing meetings,\" the \"marketing week,\" and the \"earnings calls,\" and should communicate seamlessly, in both directions, with the president.", "start": 436.23, "end": 447.16}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而「总裁的任务」，是：在董事会的指导方针下，领导经营公司；对董事会报告——注意，是对董事会报告，不是对董事长报告；全公司，对总裁报告。", "en": "And \"the president's duties\" were: to lead and run the company under the board's guidelines; to report to the board — note, to the board, not to the chairman; and the whole company reports to the president.", "start": 448.92, "end": 461.34}, {"secZh": "", "secEn": "", "speaker": "", "zh": "为了强调「双首长制」不是「董事长制」，也不是「总裁制」，张忠谋刻意，把两个人的职阶和待遇，画上了等号。", "en": "To emphasize that \"dual leadership\" meant neither \"chairman-rule\" nor \"president-rule,\" Morris Chang deliberately drew an equal sign between the two men's rank and compensation.", "start": 463.1, "end": 471.49}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这是一个极细、也极关键的设计。它要解决的，是一个传承里最危险的死结：两个接班人，如果一高一低，高的那个，终有一日会逼走低的那个。", "en": "It was an extremely fine — and extremely crucial — design. It was meant to solve the deadliest knot in any succession: if one successor ranked above the other, the higher one would one day drive the lower one out.", "start": 473.25, "end": 486.06}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而张忠谋，一个都不想失去。", "en": "And Morris Chang did not want to lose either one.", "start": 487.84, "end": 490.18}, {"secZh": "", "secEn": "", "speaker": "", "zh": "做这个决定之前，他唯一咨询的人，是副董事长曾繁城。而曾繁城，完全认同他的想法。", "en": "Before making this decision, the only person he consulted was vice chairman F.C. Tseng. And F.C. Tseng fully agreed with his thinking.", "start": 491.96, "end": 499.71}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一七年七月二日，张忠谋把刘德音、魏哲家两个人，叫到一起，向他们出示了三份文件——「交棒计划」「董事长的任务」「总裁的任务」——并征求他们的同意。", "en": "On July 2, 2017, Morris Chang called Liu Deyin and C.C. Wei together, showed them three documents — \"the succession plan,\" \"the chairman's duties,\" and \"the president's duties\" — and asked for their agreement.", "start": 501.5, "end": 513.25}, {"secZh": "", "secEn": "", "speaker": "", "zh": "两个人，都很兴奋，也都没有意见，同意了。", "en": "Both were excited, and both agreed without objection.", "start": 515.0, "end": 518.7}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一七年八月，董事会的第三季会期，张忠谋把「交棒计划」，正式摆上了桌面。", "en": "In August 2017, at the board's third-quarter session, Morris Chang formally laid the succession plan on the table.", "start": 520.51, "end": 526.9}, {"secZh": "", "secEn": "", "speaker": "", "zh": "八月六日的晚上，是例行他与独立董事的会前晚餐。为了讨论交棒计划，他特地提前到下午四点，请独立董事们，先就「董事长的任务」「总裁的任务」，以书面提出意见。大家讨论得相当热烈。", "en": "On the evening of August 6, at his routine pre-meeting dinner with the independent directors, he deliberately moved the start earlier, to four in the afternoon, and asked the independent directors to give their written opinions on \"the chairman's duties\" and \"the president's duties.\" The discussion was quite heated.", "start": 528.68, "end": 544.4}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他还亲自去了国发基金，向董事陈美伶说明，并得到了她的同意。", "en": "He also went in person to the National Development Fund to explain the plan to its director Chen Mei-ling, and won her agreement.", "start": 546.18, "end": 551.42}, {"secZh": "", "secEn": "", "speaker": "", "zh": "换句话说，二○一八年六月的交棒计划，早在二○一七年九月，就已经获得了这届、以及下一届董事会的同意。", "en": "In other words, the succession plan for June 2018 had already won the agreement of this board and the next, as early as September 2017.", "start": 553.21, "end": 562.12}, {"secZh": "", "secEn": "", "speaker": "", "zh": "一切就绪。剩下的，是找一个合适的时机，向全世界宣布。", "en": "Everything was ready. What remained was to find the right moment to announce it to the world.", "start": 563.9, "end": 569.57}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋把时机，定在了台积电三十周年的庆典之前。", "en": "Morris Chang chose to do it before TSMC's thirtieth-anniversary celebration.", "start": 571.33, "end": 575.45}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一七年十月二日，下午两点，张忠谋首先对台积电内部宣布交棒计划；四点半，召开记者会，对外宣布。", "en": "On October 2, 2017, at two in the afternoon, he first announced the succession plan inside TSMC; at four-thirty, he held a press conference to announce it publicly.", "start": 577.22, "end": 586.37}, {"secZh": "", "secEn": "", "speaker": "", "zh": "十月五、六两日，他又接连接受了包括日本《日经新闻》、美国彭博新闻社在内，七家国内外媒体的专访。", "en": "On October 5 and 6, he gave interviews, one after another, to seven media outlets at home and abroad, including Japan's Nikkei and America's Bloomberg News.", "start": 588.12, "end": 596.66}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他为什么赶在庆典之前宣布？", "en": "Why announce it before the celebration?", "start": 598.43, "end": 600.77}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他说：这样，可以提早让伙伴们，更深入地认识他的接班人；也可以避免，庆典之后才宣布的困扰——「怎么刚去过，他们一声不响，现在忽然来了个大变动？」", "en": "He said: this way, our partners could get to know my successors more deeply, earlier; and it would avoid the confusion of announcing it only after the celebration — \"we just went, they said nothing, and now suddenly this big change?\"", "start": 602.54, "end": 614.92}, {"secZh": "", "secEn": "", "speaker": "", "zh": "十月二十三日，台积电三十周年庆，如约而至。", "en": "On October 23, TSMC's thirtieth anniversary arrived as planned.", "start": 616.71, "end": 620.68}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这一天的上午，张忠谋分别与几位大客户，谈合作。由于退休早已不是新闻，他们可以如常地，讨论当前的问题。他庆幸，自己提早宣布交棒，是对的。", "en": "That morning, Morris Chang met several major customers to discuss cooperation. Since his retirement was no longer news, they could discuss current issues as usual. He was glad he had announced the succession early — it had been the right call.", "start": 622.42, "end": 635.98}, {"secZh": "", "secEn": "", "speaker": "", "zh": "下午，是一场座谈会。与谈的人，有辉达、高通、博通、艾司摩尔、亚德诺半导体、安谋的总裁，还有苹果的营运长。内容，相当精彩。", "en": "In the afternoon came a forum. On the panel were the presidents of Nvidia, Qualcomm, Broadcom, ASML, Analog Devices, and Arm, plus Apple's chief operating officer. The content was outstanding.", "start": 637.77, "end": 651.03}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而真正让他动容的，是晚上的音乐会。", "en": "But what truly moved him was the evening concert.", "start": 652.83, "end": 655.93}, {"secZh": "", "secEn": "", "speaker": "", "zh": "台积电每逢十周年，都会订一天庆祝。一九九七年的十周年庆，台积电规模尚小，请的是国内的乐团。而二○○七、二○一七年，台积电已经是一家大公司，他们分别请来了国际著名的乐团，演奏同一首曲子——", "en": "Every tenth anniversary, TSMC would set aside a day to celebrate. For the tenth anniversary in 1997, when TSMC was still mid-sized, they invited a domestic orchestra. But for the twentieth and thirtieth anniversaries, in 2007 and 2017, TSMC was already a large company, and they invited internationally renowned orchestras to play the same piece —", "start": 657.69, "end": 676.08}, {"secZh": "", "secEn": "", "speaker": "", "zh": "贝多芬的第九号交响曲，《合唱》。", "en": "Beethoven's Ninth Symphony, the \"Choral.\"", "start": 677.86, "end": 680.42}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋爱这首曲子。因为它既美丽，又雄壮；因为它需要一个八十人以上的大交响乐团，和一个九十人以上的大合唱团，才能有好的演出。", "en": "Morris Chang loved this piece. Because it is both beautiful and majestic; because it needs an orchestra of more than eighty players, and a chorus of more than ninety singers, to be performed well.", "start": 682.2, "end": 693.73}, {"secZh": "", "secEn": "", "speaker": "", "zh": "用这首曲子，为每一个十年收尾，正足以表达台积电的雄心壮志。", "en": "Ending each decade's celebration with this piece was exactly the way to express TSMC's ambition.", "start": 695.49, "end": 701.01}, {"secZh": "", "secEn": "", "speaker": "", "zh": "那一天晚上，当乐队中场休息结束，贝多芬第九号交响曲即将开始的时候，张忠谋，破例地走上了舞台。", "en": "That night, when the orchestra's intermission ended and Beethoven's Ninth was about to begin, Morris Chang — against all convention — walked onto the stage.", "start": 702.78, "end": 711.3}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他用英文，对来宾说了一段关于退休的、感情的话。", "en": "In English, he spoke to the guests, some words of feeling about retirement.", "start": 713.05, "end": 717.43}, {"secZh": "", "secEn": "", "speaker": "", "zh": "说完之后，首先，是几位大客户的总裁，起立鼓掌；接着，全体来宾，都站了起来，掌声如雷。", "en": "When he finished, first the presidents of several major customers rose to applaud; then the entire audience rose to their feet, and the applause thundered.", "start": 719.19, "end": 727.29}, {"secZh": "", "secEn": "", "speaker": "", "zh": "对一个整个事业生涯，都以客户为伙伴的人来说，这一刻的掌声，是莫大的回报。", "en": "For a man whose whole career had treated customers as partners, that applause was the greatest of rewards.", "start": 729.1, "end": 735.93}, {"secZh": "", "secEn": "", "speaker": "", "zh": "宣布退休之后，张忠谋无论对内、对外，仍如常工作。", "en": "After announcing his retirement, Morris Chang kept working as usual, inside and out.", "start": 737.73, "end": 742.68}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一八年的四、五月，公司内部，办了好几场大规模的惜别会：新竹、台南、台中，各办一场，每一场，都有数百到上千位同仁参加。行销单位的同仁，大部分来自国外，也趁他们四月在新竹季会的时机，为他办了一场惜别晚会。", "en": "In April and May of 2018, the company held several large-scale farewell gatherings: one each in Hsinchu, Tainan, and Taichung, each attended by hundreds to over a thousand colleagues. The marketing colleagues, most of them from abroad, also held a farewell evening for him during their quarterly meeting in Hsinchu in April.", "start": 744.48, "end": 764.18}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一八年六月五日，股东大会，终于到来。", "en": "June 5, 2018 — the shareholders' meeting arrived at last.", "start": 765.92, "end": 769.56}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋，如计划，在股东大会上，卸下董事长一职，退休。新一届的董事们，也如先前的计划，选出刘德音为董事长、魏哲家为总裁——台积电的「双首长制」，正式开始。", "en": "Morris Chang, as planned, stepped down as chairman at the shareholders' meeting, and retired. The newly elected board, also as planned, elected Liu Deyin as chairman and C.C. Wei as president — TSMC's \"dual leadership\" officially began.", "start": 771.33, "end": 786.2}, {"secZh": "", "secEn": "", "speaker": "", "zh": "从二十四岁，到八十七岁，六十三年的事业生涯，就此结束。", "en": "From twenty-four to eighty-seven: a sixty-three-year career, now at an end.", "start": 788.01, "end": 793.23}, {"secZh": "", "secEn": "", "speaker": "", "zh": "六十三年的职业生涯里，三年在希凡尼亚，二十五年在德州仪器，三十二年在台积电——这三十三年里，还包括了他筹备和募资的那两年。", "en": "In those sixty-three years: three at Sylvania, twenty-five at Texas Instruments, and thirty-two at TSMC — including the two years of planning and fundraising.", "start": 794.97, "end": 806.0}, {"secZh": "", "secEn": "", "speaker": "", "zh": "六十三年，几乎全部，都泡在了半导体里。除了德州仪器后期的几年，也几乎全部，是积极的、前进的。", "en": "Sixty-three years, almost all of it soaked in semiconductors. Apart from his last few years at TI, almost all of it was active, and forward-moving.", "start": 807.76, "end": 817.2}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他最成功的工作，明显是最后一个——台积电。", "en": "His most successful work was clearly his last one — TSMC.", "start": 818.98, "end": 822.65}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他说，台积电现在，已经是世界「必需」的公司。而世界的「需要」，尤其在人工智能方面，正在快速地成长。", "en": "He said TSMC had become a company the world \"needs\" — and the world's need, especially in artificial intelligence, is growing fast.", "start": 824.43, "end": 833.4}, {"secZh": "", "secEn": "", "speaker": "", "zh": "台积电的责任，已经落在了接班人的肩膀上。", "en": "TSMC's responsibility had already landed on the shoulders of his successors.", "start": 835.2, "end": 838.69}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他对他们，寄予深切的期待，和虔诚的祝福。", "en": "To them, he gave his deepest expectations, and his most sincere blessings.", "start": 840.48, "end": 844.2}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而他自己，早在做退休决定时，就已经想好了，退休之后，要去做三件想了很久、却一直没时间做的事。", "en": "And for himself, back when he made the retirement decision, he had already decided on three things he had long wanted to do, but never had time for.", "start": 845.97, "end": 854.51}, {"secZh": "", "secEn": "", "speaker": "", "zh": "第一件，是写《自传下册》；第二件，是带夫人 Sophie，重游他中年在德州仪器时期，常去、也最喜欢的那些地方——巴黎，法国里维埃拉，蒙地卡罗，还有瑞士、伦敦、意大利北部；第三件，是尽情满足他自大学时代就有的嗜好——专业之外的阅读、听古典音乐，还有，打一场竞争桥牌。", "en": "The first was to write the second volume of his autobiography. The second was to take his wife Sophie to revisit the places he had loved most, and visited most often, back in his Texas Instruments years — Paris, the French Riviera, Monte Carlo, and Switzerland, London, and northern Italy. The third was to fully indulge the hobbies he had had since university — reading beyond his profession, listening to classical music, and playing a game of competitive bridge.", "start": 856.25, "end": 880.0}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他这一年：二○一八年，八十七岁，把一手创立的台积电，交给了一套他亲手设计的制度。", "en": "His year: 2018 — at eighty-seven, he hands the TSMC he founded to a system he designed himself.", "start": 881.76, "end": 889.07}, {"secZh": "", "secEn": "", "speaker": "", "zh": "世界这一年：这家公司，已经成了世界「必需」的公司，而人工智能的需求，正在地平线上快速升起。", "en": "The world's year: the company has become one the world \"needs,\" and the demand for artificial intelligence is rising fast on the horizon.", "start": 890.88, "end": 899.0}, {"secZh": "", "secEn": "", "speaker": "", "zh": "同一条时间线——他走下战场的那一刻，世界，才刚刚开始需要他。", "en": "One timeline — the moment he steps off the battlefield, the world is only just beginning to need him.", "start": 900.78, "end": 906.14}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋这一生，做过许多艰难的决定。", "en": "Morris Chang made many hard decisions in his life.", "start": 907.91, "end": 910.97}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可最难的，或许不是创办台积电，不是赌上七纳米，而是——在最恰当的时候，把这一切，交出去。", "en": "But the hardest was perhaps not founding TSMC, nor betting on seven nanometers — but handing it all over, at exactly the right moment.", "start": 912.75, "end": 920.78}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他没有把公司，交给一个「像自己」的人。他交给了两个人，和一套制度。", "en": "He did not hand the company to someone who \"resembled himself.\" He handed it to two people, and to a system.", "start": 922.61, "end": 928.45}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这套制度的精巧，在于它承认一个朴素的道理：再伟大的人，也是会老的；而一家伟大的公司，不该依赖任何一个人，才能继续伟大。", "en": "The cleverness of that system lies in the plain truth it admits: even the greatest person grows old; and a great company should not depend on any single person to remain great.", "start": 930.22, "end": 941.3}, {"secZh": "", "secEn": "", "speaker": "", "zh": "真正的传承，不是找一个像自己的人，而是把公司，交给一套比个人更持久的制度。", "en": "True succession is not finding someone who resembles you — it is handing the company to a system more lasting than any individual.", "start": 943.07, "end": 949.75}, {"secZh": "", "secEn": "", "speaker": "", "zh": "很多年后，人们回头看这一幕，会心一笑。", "en": "Many years later, people look back on this scene and smile.", "start": 951.6, "end": 955.27}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他当年想请来做接班人的那个人，没有来；可正是这个人，后来成了台积电最重要的客户之一。命运把两个人，从「我已有工作」的那通电话，一路送到了人工智能时代的正中央——一个负责造，一个负责想，共同撑起了这个时代的算力。", "en": "The man he had once wanted as his successor did not come; and yet that very man became one of TSMC's most important customers. Fate carried the two of them, from that \"I already have a job\" phone call, all the way to the center of the AI age — one building, one dreaming, together powering the era's computing.", "start": 957.07, "end": 975.69}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而张忠谋，早在退休之前，就已经预见到了这一天。他把 CoWoS 的伏笔埋下，把双首长的制度搭好，然后，从容地，退到了舞台之外。", "en": "And Morris Chang, before he even retired, had already foreseen that day. He planted the seed of CoWoS, built the frame of dual leadership, and then — calmly — stepped off the stage.", "start": 977.49, "end": 989.09}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这，就是交棒与退休。", "en": "That is the handover and the retirement.", "start": 990.85, "end": 993.01}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1. 双首长制（Dual Leadership）：欧美企业常见治理结构——董事长领导董事会并作决策最后把关，总裁（CEO）负责经营并对董事会报告；张忠谋刻意将两人职阶待遇画等号，避免「一高一低」逼走一方。（英文：dual leadership / co-CEO structure） 2. 「我已有工作」：2013 年张忠谋征询黄仁勋对台积电 CEO 职的兴趣，黄仁勋两次回答「我已有工作」；当时辉达市值 90 亿美元、台积电 900 亿美元——十一年后辉达成全球市值最高公司之一。（英文：Jensen Huang, \"I already have a job\"） 3. 贝多芬第九号交响曲：台积电 1997 十周年请国内乐团、2007 与 2017 二十/三十周年请国际名团，皆以贝多芬第九《合唱》收尾——80 人以上乐团 + 90 人以上合唱团的雄壮编制。（英文：Beethoven's Ninth, TSMC 30th anniversary） 4. 2018.6.5 退休：张忠谋卸任董事长，刘德音接任董事长、魏哲家任总裁，台积电进入双首长时代；同年其 7nm 独家领先世界。（英文：June 5, 2018 retirement, Mark Liu & C.C. Wei） 5. 六十三年生涯：希凡尼亚 3 年、德州仪器 25 年、台积电 32 年（含筹备募资 2 年），几乎全部在半导体业。", "en": "1. Dual leadership: A governance structure common in Western companies — the chairman leads the board and is the final gatekeeper, while the president (CEO) runs the company and reports to the board; Morris Chang deliberately made the two equal in rank and pay to avoid one driving out the other. 2. \"I already have a job\": In 2013 Morris Chang sounded out Jensen Huang about TSMC's CEO role, and Huang answered \"I already have a job\" twice; then Nvidia was worth $9B versus TSMC's $90B — eleven years later Nvidia became one of the world's most valuable companies. 3. Beethoven's Ninth: TSMC's tenth anniversary in 1997 used a domestic orchestra; the twentieth and thirtieth anniversaries (2007, 2017) used internationally renowned orchestras, all closing with Beethoven's Ninth \"Choral\" — a piece needing an 80-plus orchestra and a 90-plus chorus. 4. Retirement on June 5, 2018: Morris Chang stepped down as chairman, Mark Liu became chairman and C.C. Wei became president, ushering in TSMC's dual-leadership era — the same year its 7nm led the world alone. 5. A sixty-three-year career: three years at Sylvania, twenty-five at Texas Instruments, thirty-two at TSMC (including two years of planning and fundraising) — almost all of it in semiconductors.", "start": 994.75, "end": 1085.43}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋退休的那一年，没人能预料，这家公司会在几年之后，成为两个大国角力的焦点，和一座小岛的命运共同体。", "en": "The year Morris Chang retired, no one could have predicted that this company would, a few years later, become the focal point of a contest between two great powers, and the shared destiny of a small island.", "start": 1087.21, "end": 1096.86}, {"secZh": "", "secEn": "", "speaker": "", "zh": "下一集，也是本系列的最后一集——《护国神山》。", "en": "Next episode — the final one of the series — \"The Mountain That Shields the Island.\"", "start": 1098.64, "end": 1102.51}];
-const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "二○一三年，张忠谋问了一个问题。", "en": "In 2013, Morris Chang asked a question.", "start": 0.0, "end": 16.8}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他问的对象，不是台积电的董事，也不是台积电的高管。而是一个，在台积电之外、他认识了十六七年的老朋友。", "en": "The person he asked was not a TSMC director, and not a TSMC executive. It was an old friend, outside TSMC, whom he had known for sixteen or seventeen years.", "start": 18.59, "end": 36.88}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他花了大约十分钟，郑重地向对方解释，他对台积电的深切期望，也解释了这份工作的报酬——虽然没有台积电的股票，但固定的薪津，加上按公司每年净利而定的花红，一定比对方当时的收入更高。", "en": "He spent about ten minutes explaining, with great seriousness, his deep expectations for TSMC, and also explaining the compensation for the job — there would be no TSMC stock, but the fixed salary, plus the bonus based on the company's annual net profit, would certainly be higher than what the other man was earning then.", "start": 38.71, "end": 48.58}, {"secZh": "", "secEn": "", "speaker": "", "zh": "对方很有耐心地听完了，没有问任何问题。等张忠谋讲完，他也没有直接拒绝，只是简单地回答了一句：", "en": "The man listened patiently, and asked no questions. When Morris Chang had finished, he did not refuse directly — he simply answered, in one sentence:", "start": 50.35, "end": 51.49}, {"secZh": "", "secEn": "", "speaker": "", "zh": "「我已有工作。」", "en": "\"I already have a job.\"", "start": 53.34, "end": 55.99}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这个回答的人，叫黄仁勋。", "en": "The man who gave that answer was named Jensen Huang.", "start": 57.83, "end": 62.1}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这个想交棒的人，是八十二岁的张忠谋。", "en": "The man who wanted to hand over the reins was Morris Chang, eighty-two years old.", "start": 63.94, "end": 67.53}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这一集，我们讲交棒与退休。", "en": "This episode, we tell the story of the handover and the retirement.", "start": 69.33, "end": 73.11}, {"secZh": "", "secEn": "", "speaker": "", "zh": "交棒这件事，张忠谋其实早就开始想了。", "en": "The handover was something Morris Chang had begun thinking about long before.", "start": 74.94, "end": 92.72}, {"secZh": "", "secEn": "", "speaker": "", "zh": "早在二○○五年，他就开始规划台积电董事长和 CEO 的交棒。那时的计划，是先释出 CEO 的位置给蔡力行，自己保留董事长。如果蔡力行接得顺利，几年之后，他就可以完全退休。", "en": "As early as 2005, he had started planning the succession of TSMC's chairman and CEO. The plan then was to release the CEO seat to Rick Tsai first, while keeping the chairman's seat for himself. If Rick Tsai took over smoothly, he could fully retire a few years later.", "start": 94.55, "end": 105.5}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可接下来几年，台积电的业务和人事，并不顺利。二○○九年，他重新兼任 CEO，把交出去的权，又收了回来。", "en": "But in the years that followed, TSMC's business and its people did not go smoothly. In 2009, he took back the CEO role, and took back the power he had handed over.", "start": 107.35, "end": 117.48}, {"secZh": "", "secEn": "", "speaker": "", "zh": "但即便收了回来，他也没有放弃蔡力行。他任命蔡力行做台积电新事业——太阳能和 LED——的总经理。", "en": "Yet even after taking it back, he had not given up on Rick Tsai. He appointed him general manager of TSMC's new businesses — solar energy and LEDs.", "start": 119.26, "end": 138.28}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可惜，新事业也不成功。二○一四年，蔡力行辞职，出任中华电信董事长；二○一七年，又转任联发科共同执行长。他在联发科做得很好，后来一路做到副董事长暨执行长。", "en": "Unfortunately, the new businesses did not succeed either. In 2014, Rick Tsai resigned, and became chairman of Chunghwa Telecom; in 2017, he moved on to become co-CEO of MediaTek. He did very well there, and eventually rose to vice chairman and CEO.", "start": 140.1, "end": 144.05}, {"secZh": "", "secEn": "", "speaker": "", "zh": "第一人选，就这样，在岁月的流转里，走上了另一条路。", "en": "The first candidate, in the flow of the years, walked onto another road.", "start": 145.84, "end": 156.73}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一二年，重兼 CEO 几年之后，张忠谋认为，台积电已经被他带回了康庄大道。接班人的考量，在他心里，重新萌发。", "en": "In 2012, a few years after returning as CEO, Morris Chang believed TSMC had been brought back to the broad road. The thought of a successor stirred in him again.", "start": 158.56, "end": 173.18}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这一年，公司内部最明显的领导人才，有三位——依姓氏笔画排列：蒋尚义，负责研究开发；刘德音，负责制造；魏哲家，负责业务发展。", "en": "That year, the most obvious leadership talent inside the company numbered three — in stroke order of their surnames: Chiang Shang-yi, in charge of R&D; Liu Deyin, in charge of manufacturing; and C.C. Wei, in charge of business development.", "start": 174.97, "end": 179.91}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一二年三月，张忠谋把这三个人，一起提拔为「共同营运长」。", "en": "In March 2012, Morris Chang promoted all three together to \"co-COO.\"", "start": 181.75, "end": 190.68}, {"secZh": "", "secEn": "", "speaker": "", "zh": "更重要的是，他告诉他们：你们三位，轮流负责公司的三个重要领域——研发、制造、还有业务发展。", "en": "More importantly, he told them: the three of you will take turns running the company's three key domains — R&D, manufacturing, and business development.", "start": 192.47, "end": 197.97}, {"secZh": "", "secEn": "", "speaker": "", "zh": "一开始，他就把蒋尚义调离研发，让他去管制造。", "en": "At the start, he moved Chiang Shang-yi out of R&D, and had him take charge of manufacturing.", "start": 199.78, "end": 210.58}, {"secZh": "", "secEn": "", "speaker": "", "zh": "如果这个「三人轮调」的制度，真的能在二○一二年落实，也许六年之后——他退休的那一刻——台积电的接班，会是一个不一样的故事。", "en": "If this \"three-person rotation\" had truly been carried through in 2012, then perhaps six years later — at the moment of his retirement — TSMC's succession would have told a different story.", "start": 212.42, "end": 226.84}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可是，世事难料。二○一二年，正值台积电研发部门，全力开发苹果要的第一个制程——二十纳米。而二十纳米，又是一个相当有挑战性的制程。", "en": "But the world is hard to predict. In 2012, TSMC's R&D department was throwing everything into developing the first process Apple needed — twenty nanometers. And twenty nanometers was a genuinely challenging process.", "start": 228.63, "end": 234.12}, {"secZh": "", "secEn": "", "speaker": "", "zh": "把蒋尚义调离研发之后，二十纳米的研发问题，不断出现。", "en": "After moving Chiang Shang-yi out of R&D, problems in the twenty-nanometer development kept appearing.", "start": 235.93, "end": 254.54}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋始终不放心。最后，他认了——还是把蒋尚义，送回研发吧。于是，蒋尚义回了原任；倒是刘德音和魏哲家互调了位置：刘德音去管行销与业务发展，魏哲家去管制造。", "en": "Morris Chang never stopped worrying. In the end, he conceded — send Chiang Shang-yi back to R&D. So Chiang Shang-yi returned to his old post; instead, Liu Deyin and C.C. Wei swapped: Liu Deyin went to run marketing and business development, and C.C. Wei went to run manufacturing.", "start": 256.35, "end": 260.12}, {"secZh": "", "secEn": "", "speaker": "", "zh": "一场精心设计的「轮调」，最终，没有按原计划落地。", "en": "A carefully designed \"rotation\" ultimately did not land as planned.", "start": 261.97, "end": 265.31}, {"secZh": "", "secEn": "", "speaker": "", "zh": "那，外面的世界，还有没有更合适的人？", "en": "So, was there anyone more suitable, out in the wider world?", "start": 267.14, "end": 268.74}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋想到了一个人。", "en": "Morris Chang thought of someone.", "start": 270.51, "end": 272.03}, {"secZh": "", "secEn": "", "speaker": "", "zh": "那个人，叫黄仁勋。", "en": "That man was Jensen Huang.", "start": 273.87, "end": 289.05}, {"secZh": "", "secEn": "", "speaker": "", "zh": "在公司内部，张忠谋当然熟悉每一位人才。但在公司之外，还有一个人，无论在品格、视野、半导体专业经验与知识上，都值得被考虑为台积电的接班人。", "en": "Within the company, Morris Chang of course knew every talent well. But outside the company, there was one person who, in character, in vision, in professional experience and knowledge of semiconductors, was worth considering as TSMC's successor.", "start": 290.87, "end": 300.03}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一三年，张忠谋问他：对台积电 CEO 的职位，有没有兴趣？如果有兴趣，我们可以进一步讨论。", "en": "In 2013, Morris Chang asked him: would you be interested in the position of TSMC CEO? If so, we can discuss it further.", "start": 301.85, "end": 310.18}, {"secZh": "", "secEn": "", "speaker": "", "zh": "黄仁勋听完了十分钟的解释，没有问问题，也没有直接拒绝。他只是淡淡地说了一句：", "en": "Jensen Huang listened to the ten-minute explanation, asked no questions, and did not directly refuse. He simply said, lightly:", "start": 312.01, "end": 313.14}, {"secZh": "", "secEn": "", "speaker": "", "zh": "「我已有工作。」", "en": "\"I already have a job.\"", "start": 314.97, "end": 318.64}, {"secZh": "", "secEn": "", "speaker": "", "zh": "几个星期之后，张忠谋又打了一次电话，再问一次。", "en": "A few weeks later, Morris Chang called again, and asked again.", "start": 320.44, "end": 323.96}, {"secZh": "", "secEn": "", "speaker": "", "zh": "答案，还是那四个字：「我已有工作。」", "en": "The answer was still the same four words: \"I already have a job.\"", "start": 325.78, "end": 329.78}, {"secZh": "", "secEn": "", "speaker": "", "zh": "站在二○二四年的今天回头看，这一幕，几乎像一句预言。", "en": "Looking back from 2024, this scene almost reads like a prophecy.", "start": 331.63, "end": 348.14}, {"secZh": "", "secEn": "", "speaker": "", "zh": "因为那时，黄仁勋创办的辉达，还只是一家市值九十亿美元的公司；而台积电的市值，已经是九百亿美元——辉达的整整十倍。黄仁勋的个人财富，也只是辉达市值的百分之几而已。", "en": "Because back then, the Nvidia Jensen Huang had founded was still a company worth only nine billion US dollars; TSMC's market value was already ninety billion — exactly ten times Nvidia. Jensen Huang's personal wealth was only a few percent of Nvidia's market value.", "start": 349.96, "end": 356.51}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可就是这样一个「小公司」的创办人，用一句「我已有工作」，拒绝了一份天大的offer。", "en": "And yet the founder of such a \"small company\" turned down an enormous offer with a single sentence: \"I already have a job.\"", "start": 358.33, "end": 364.3}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋后来回忆这件事，说：黄仁勋的回答，倒是诚实的。", "en": "Recalling it later, Morris Chang said: Jensen Huang's answer was, at least, an honest one.", "start": 366.11, "end": 372.76}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他「已有工作」——他的工作，就是在十一年之后，把辉达，提升到今天的辉达。", "en": "He did \"already have a job\" — and that job was to raise Nvidia, eleven years later, to the Nvidia of today.", "start": 374.58, "end": 388.75}, {"secZh": "", "secEn": "", "speaker": "", "zh": "命运给张忠谋开的这个玩笑，后来成了半导体史上，最妙的一个注脚：他看中的人，没有来；而他没料到的是，这个「没来的人」，日后会跟台积电，并肩站上世界之巅。", "en": "The joke fate played on Morris Chang became one of the finest footnotes in semiconductor history: the man he had wanted did not come; and what he had not foreseen was that this man who \"did not come\" would one day stand shoulder to shoulder with TSMC at the top of the world.", "start": 390.54, "end": 394.31}, {"secZh": "", "secEn": "", "speaker": "", "zh": "交棒的接力棒，还得，传回公司内部。", "en": "The baton of succession still had to be passed back, inside the company.", "start": 396.15, "end": 407.18}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一三年十月，蒋尚义退休。十一月十二日，张忠谋宣布：刘德音和魏哲家，出任台积电的共同 CEO。", "en": "In October 2013, Chiang Shang-yi retired. On November 12, Morris Chang announced: Liu Deyin and C.C. Wei would become TSMC's co-CEOs.", "start": 408.96, "end": 423.49}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这两位，自二○○五年蔡力行任 CEO 时，就分别是先进技术事业组织、主流技术事业组织的资深副总，一路都是台积电最重要的经理人。", "en": "These two had been, since Rick Tsai's time as CEO in 2005, the senior vice presidents of the advanced technology organization and the mainstream technology organization respectively — all along, the most important managers at TSMC.", "start": 425.31, "end": 431.32}, {"secZh": "", "secEn": "", "speaker": "", "zh": "但这个安排，还不是最终的答案。因为董事长，终究要退。", "en": "But this arrangement was still not the final answer. Because the chairman would eventually have to step down.", "start": 433.11, "end": 439.3}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋开始琢磨，一个更根本的问题：退下来之后，台积电该怎么运转？", "en": "Morris Chang began to think about a more fundamental question: after he stepped down, how should TSMC run?", "start": 441.1, "end": 446.52}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他想到的，是欧美许多大公司都采用的「双首长制」。", "en": "What he thought of was the \"dual leadership\" structure used by many large companies in Europe and America.", "start": 448.33, "end": 462.42}, {"secZh": "", "secEn": "", "speaker": "", "zh": "在这个制度里，总裁——也就是 CEO——是公司的领导人；而董事长，领导董事会，监督总裁。因为公司的重要决定，必须经过董事会通过，所以董事长，也成了公司决策的最后把关者。", "en": "In this structure, the president — the CEO — leads the company; while the chairman leads the board, supervises the president, and, because the company's major decisions must pass the board, the chairman becomes the final gatekeeper of decisions.", "start": 464.19, "end": 466.58}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋想得很细。", "en": "Morris Chang thought it through in fine detail.", "start": 468.42, "end": 483.44}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他给「董事长的任务」，写下了三条：第一，领导董事会；第二，公司对政府及社会的最高代表；第三，公司决策的最后把关者。而且，是「全时工作」。", "en": "For \"the chairman's duties,\" he wrote down three: first, to lead the board; second, to be the company's highest representative to government and society; third, to be the final gatekeeper of the company's decisions. And — it was a full-time job.", "start": 485.25, "end": 500.74}, {"secZh": "", "secEn": "", "speaker": "", "zh": "为了做到这三点，他建议：董事长除了继续主持「资本投资」会议，还应该参加「订价会议」「行销周」「法说会」，并且，与总裁无缝双向沟通。", "en": "To do those three things, he suggested the chairman should continue to chair the \"capital investment\" meetings, and should also take part in the \"pricing meetings,\" the \"marketing week,\" and the \"earnings calls,\" and should communicate seamlessly, in both directions, with the president.", "start": 502.54, "end": 513.93}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而「总裁的任务」，是：在董事会的指导方针下，领导经营公司；对董事会报告——注意，是对董事会报告，不是对董事长报告；全公司，对总裁报告。", "en": "And \"the president's duties\" were: to lead and run the company under the board's guidelines; to report to the board — note, to the board, not to the chairman; and the whole company reports to the president.", "start": 515.73, "end": 525.29}, {"secZh": "", "secEn": "", "speaker": "", "zh": "为了强调「双首长制」不是「董事长制」，也不是「总裁制」，张忠谋刻意，把两个人的职阶和待遇，画上了等号。", "en": "To emphasize that \"dual leadership\" meant neither \"chairman-rule\" nor \"president-rule,\" Morris Chang deliberately drew an equal sign between the two men's rank and compensation.", "start": 527.09, "end": 539.66}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这是一个极细、也极关键的设计。它要解决的，是一个传承里最危险的死结：两个接班人，如果一高一低，高的那个，终有一日会逼走低的那个。", "en": "It was an extremely fine — and extremely crucial — design. It was meant to solve the deadliest knot in any succession: if one successor ranked above the other, the higher one would one day drive the lower one out.", "start": 541.45, "end": 543.81}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而张忠谋，一个都不想失去。", "en": "And Morris Chang did not want to lose either one.", "start": 545.59, "end": 553.74}, {"secZh": "", "secEn": "", "speaker": "", "zh": "做这个决定之前，他唯一咨询的人，是副董事长曾繁城。而曾繁城，完全认同他的想法。", "en": "Before making this decision, the only person he consulted was vice chairman F.C. Tseng. And F.C. Tseng fully agreed with his thinking.", "start": 555.52, "end": 568.82}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一七年七月二日，张忠谋把刘德音、魏哲家两个人，叫到一起，向他们出示了三份文件——「交棒计划」「董事长的任务」「总裁的任务」——并征求他们的同意。", "en": "On July 2, 2017, Morris Chang called Liu Deyin and C.C. Wei together, showed them three documents — \"the succession plan,\" \"the chairman's duties,\" and \"the president's duties\" — and asked for their agreement.", "start": 570.62, "end": 573.53}, {"secZh": "", "secEn": "", "speaker": "", "zh": "两个人，都很兴奋，也都没有意见，同意了。", "en": "Both were excited, and both agreed without objection.", "start": 575.35, "end": 582.14}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一七年八月，董事会的第三季会期，张忠谋把「交棒计划」，正式摆上了桌面。", "en": "In August 2017, at the board's third-quarter session, Morris Chang formally laid the succession plan on the table.", "start": 583.95, "end": 601.28}, {"secZh": "", "secEn": "", "speaker": "", "zh": "八月六日的晚上，是例行他与独立董事的会前晚餐。为了讨论交棒计划，他特地提前到下午四点，请独立董事们，先就「董事长的任务」「总裁的任务」，以书面提出意见。大家讨论得相当热烈。", "en": "On the evening of August 6, at his routine pre-meeting dinner with the independent directors, he deliberately moved the start earlier, to four in the afternoon, and asked the independent directors to give their written opinions on \"the chairman's duties\" and \"the president's duties.\" The discussion was quite heated.", "start": 603.15, "end": 609.5}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他还亲自去了国发基金，向董事陈美伶说明，并得到了她的同意。", "en": "He also went in person to the National Development Fund to explain the plan to its director Chen Mei-ling, and won her agreement.", "start": 611.29, "end": 619.89}, {"secZh": "", "secEn": "", "speaker": "", "zh": "换句话说，二○一八年六月的交棒计划，早在二○一七年九月，就已经获得了这届、以及下一届董事会的同意。", "en": "In other words, the succession plan for June 2018 had already won the agreement of this board and the next, as early as September 2017.", "start": 621.68, "end": 626.86}, {"secZh": "", "secEn": "", "speaker": "", "zh": "一切就绪。剩下的，是找一个合适的时机，向全世界宣布。", "en": "Everything was ready. What remained was to find the right moment to announce it to the world.", "start": 628.65, "end": 633.18}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋把时机，定在了台积电三十周年的庆典之前。", "en": "Morris Chang chose to do it before TSMC's thirtieth-anniversary celebration.", "start": 634.97, "end": 645.96}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一七年十月二日，下午两点，张忠谋首先对台积电内部宣布交棒计划；四点半，召开记者会，对外宣布。", "en": "On October 2, 2017, at two in the afternoon, he first announced the succession plan inside TSMC; at four-thirty, he held a press conference to announce it publicly.", "start": 647.79, "end": 657.78}, {"secZh": "", "secEn": "", "speaker": "", "zh": "十月五、六两日，他又接连接受了包括日本《日经新闻》、美国彭博新闻社在内，七家国内外媒体的专访。", "en": "On October 5 and 6, he gave interviews, one after another, to seven media outlets at home and abroad, including Japan's Nikkei and America's Bloomberg News.", "start": 659.55, "end": 661.39}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他为什么赶在庆典之前宣布？", "en": "Why announce it before the celebration?", "start": 663.21, "end": 676.0}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他说：这样，可以提早让伙伴们，更深入地认识他的接班人；也可以避免，庆典之后才宣布的困扰——「怎么刚去过，他们一声不响，现在忽然来了个大变动？」", "en": "He said: this way, our partners could get to know my successors more deeply, earlier; and it would avoid the confusion of announcing it only after the celebration — \"we just went, they said nothing, and now suddenly this big change?\"", "start": 677.79, "end": 682.28}, {"secZh": "", "secEn": "", "speaker": "", "zh": "十月二十三日，台积电三十周年庆，如约而至。", "en": "On October 23, TSMC's thirtieth anniversary arrived as planned.", "start": 684.13, "end": 698.98}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这一天的上午，张忠谋分别与几位大客户，谈合作。由于退休早已不是新闻，他们可以如常地，讨论当前的问题。他庆幸，自己提早宣布交棒，是对的。", "en": "That morning, Morris Chang met several major customers to discuss cooperation. Since his retirement was no longer news, they could discuss current issues as usual. He was glad he had announced the succession early — it had been the right call.", "start": 700.8, "end": 714.89}, {"secZh": "", "secEn": "", "speaker": "", "zh": "下午，是一场座谈会。与谈的人，有辉达、高通、博通、艾司摩尔、亚德诺半导体、安谋的总裁，还有苹果的营运长。内容，相当精彩。", "en": "In the afternoon came a forum. On the panel were the presidents of Nvidia, Qualcomm, Broadcom, ASML, Analog Devices, and Arm, plus Apple's chief operating officer. The content was outstanding.", "start": 716.67, "end": 719.14}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而真正让他动容的，是晚上的音乐会。", "en": "But what truly moved him was the evening concert.", "start": 720.92, "end": 745.4}, {"secZh": "", "secEn": "", "speaker": "", "zh": "台积电每逢十周年，都会订一天庆祝。一九九七年的十周年庆，台积电规模尚小，请的是国内的乐团。而二○○七、二○一七年，台积电已经是一家大公司，他们分别请来了国际著名的乐团，演奏同一首曲子——", "en": "Every tenth anniversary, TSMC would set aside a day to celebrate. For the tenth anniversary in 1997, when TSMC was still mid-sized, they invited a domestic orchestra. But for the twentieth and thirtieth anniversaries, in 2007 and 2017, TSMC was already a large company, and they invited internationally renowned orchestras to play the same piece —", "start": 747.19, "end": 749.52}, {"secZh": "", "secEn": "", "speaker": "", "zh": "贝多芬的第九号交响曲，《合唱》。", "en": "Beethoven's Ninth Symphony, the \"Choral.\"", "start": 751.34, "end": 762.77}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋爱这首曲子。因为它既美丽，又雄壮；因为它需要一个八十人以上的大交响乐团，和一个九十人以上的大合唱团，才能有好的演出。", "en": "Morris Chang loved this piece. Because it is both beautiful and majestic; because it needs an orchestra of more than eighty players, and a chorus of more than ninety singers, to be performed well.", "start": 764.59, "end": 770.14}, {"secZh": "", "secEn": "", "speaker": "", "zh": "用这首曲子，为每一个十年收尾，正足以表达台积电的雄心壮志。", "en": "Ending each decade's celebration with this piece was exactly the way to express TSMC's ambition.", "start": 771.93, "end": 780.67}, {"secZh": "", "secEn": "", "speaker": "", "zh": "那一天晚上，当乐队中场休息结束，贝多芬第九号交响曲即将开始的时候，张忠谋，破例地走上了舞台。", "en": "That night, when the orchestra's intermission ended and Beethoven's Ninth was about to begin, Morris Chang — against all convention — walked onto the stage.", "start": 782.45, "end": 786.56}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他用英文，对来宾说了一段关于退休的、感情的话。", "en": "In English, he spoke to the guests, some words of feeling about retirement.", "start": 788.38, "end": 796.56}, {"secZh": "", "secEn": "", "speaker": "", "zh": "说完之后，首先，是几位大客户的总裁，起立鼓掌；接着，全体来宾，都站了起来，掌声如雷。", "en": "When he finished, first the presidents of several major customers rose to applaud; then the entire audience rose to their feet, and the applause thundered.", "start": 798.43, "end": 804.03}, {"secZh": "", "secEn": "", "speaker": "", "zh": "对一个整个事业生涯，都以客户为伙伴的人来说，这一刻的掌声，是莫大的回报。", "en": "For a man whose whole career had treated customers as partners, that applause was the greatest of rewards.", "start": 805.82, "end": 810.86}, {"secZh": "", "secEn": "", "speaker": "", "zh": "宣布退休之后，张忠谋无论对内、对外，仍如常工作。", "en": "After announcing his retirement, Morris Chang kept working as usual, inside and out.", "start": 812.66, "end": 831.99}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一八年的四、五月，公司内部，办了好几场大规模的惜别会：新竹、台南、台中，各办一场，每一场，都有数百到上千位同仁参加。行销单位的同仁，大部分来自国外，也趁他们四月在新竹季会的时机，为他办了一场惜别晚会。", "en": "In April and May of 2018, the company held several large-scale farewell gatherings: one each in Hsinchu, Tainan, and Taichung, each attended by hundreds to over a thousand colleagues. The marketing colleagues, most of them from abroad, also held a farewell evening for him during their quarterly meeting in Hsinchu in April.", "start": 833.77, "end": 838.12}, {"secZh": "", "secEn": "", "speaker": "", "zh": "二○一八年六月五日，股东大会，终于到来。", "en": "June 5, 2018 — the shareholders' meeting arrived at last.", "start": 839.91, "end": 855.32}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋，如计划，在股东大会上，卸下董事长一职，退休。新一届的董事们，也如先前的计划，选出刘德音为董事长、魏哲家为总裁——台积电的「双首长制」，正式开始。", "en": "Morris Chang, as planned, stepped down as chairman at the shareholders' meeting, and retired. The newly elected board, also as planned, elected Liu Deyin as chairman and C.C. Wei as president — TSMC's \"dual leadership\" officially began.", "start": 857.13, "end": 861.44}, {"secZh": "", "secEn": "", "speaker": "", "zh": "从二十四岁，到八十七岁，六十三年的事业生涯，就此结束。", "en": "From twenty-four to eighty-seven: a sixty-three-year career, now at an end.", "start": 863.25, "end": 872.78}, {"secZh": "", "secEn": "", "speaker": "", "zh": "六十三年的职业生涯里，三年在希凡尼亚，二十五年在德州仪器，三十二年在台积电——这三十三年里，还包括了他筹备和募资的那两年。", "en": "In those sixty-three years: three at Sylvania, twenty-five at Texas Instruments, and thirty-two at TSMC — including the two years of planning and fundraising.", "start": 874.6, "end": 884.0}, {"secZh": "", "secEn": "", "speaker": "", "zh": "六十三年，几乎全部，都泡在了半导体里。除了德州仪器后期的几年，也几乎全部，是积极的、前进的。", "en": "Sixty-three years, almost all of it soaked in semiconductors. Apart from his last few years at TI, almost all of it was active, and forward-moving.", "start": 885.83, "end": 889.64}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他最成功的工作，明显是最后一个——台积电。", "en": "His most successful work was clearly his last one — TSMC.", "start": 891.48, "end": 899.71}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他说，台积电现在，已经是世界「必需」的公司。而世界的「需要」，尤其在人工智能方面，正在快速地成长。", "en": "He said TSMC had become a company the world \"needs\" — and the world's need, especially in artificial intelligence, is growing fast.", "start": 901.49, "end": 905.82}, {"secZh": "", "secEn": "", "speaker": "", "zh": "台积电的责任，已经落在了接班人的肩膀上。", "en": "TSMC's responsibility had already landed on the shoulders of his successors.", "start": 907.59, "end": 912.15}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他对他们，寄予深切的期待，和虔诚的祝福。", "en": "To them, he gave his deepest expectations, and his most sincere blessings.", "start": 913.93, "end": 921.88}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而他自己，早在做退休决定时，就已经想好了，退休之后，要去做三件想了很久、却一直没时间做的事。", "en": "And for himself, back when he made the retirement decision, he had already decided on three things he had long wanted to do, but never had time for.", "start": 923.73, "end": 951.05}, {"secZh": "", "secEn": "", "speaker": "", "zh": "第一件，是写《自传下册》；第二件，是带夫人 Sophie，重游他中年在德州仪器时期，常去、也最喜欢的那些地方——巴黎，法国里维埃拉，蒙地卡罗，还有瑞士、伦敦、意大利北部；第三件，是尽情满足他自大学时代就有的嗜好——专业之外的阅读、听古典音乐，还有，打一场竞争桥牌。", "en": "The first was to write the second volume of his autobiography. The second was to take his wife Sophie to revisit the places he had loved most, and visited most often, back in his Texas Instruments years — Paris, the French Riviera, Monte Carlo, and Switzerland, London, and northern Italy. The third was to fully indulge the hobbies he had had since university — reading beyond his profession, listening to classical music, and playing a game of competitive bridge.", "start": 952.88, "end": 959.98}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他这一年：二○一八年，八十七岁，把一手创立的台积电，交给了一套他亲手设计的制度。", "en": "His year: 2018 — at eighty-seven, he hands the TSMC he founded to a system he designed himself.", "start": 961.9, "end": 969.29}, {"secZh": "", "secEn": "", "speaker": "", "zh": "世界这一年：这家公司，已经成了世界「必需」的公司，而人工智能的需求，正在地平线上快速升起。", "en": "The world's year: the company has become one the world \"needs,\" and the demand for artificial intelligence is rising fast on the horizon.", "start": 971.1, "end": 976.53}, {"secZh": "", "secEn": "", "speaker": "", "zh": "同一条时间线——他走下战场的那一刻，世界，才刚刚开始需要他。", "en": "One timeline — the moment he steps off the battlefield, the world is only just beginning to need him.", "start": 978.33, "end": 980.9}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋这一生，做过许多艰难的决定。", "en": "Morris Chang made many hard decisions in his life.", "start": 982.83, "end": 990.91}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可最难的，或许不是创办台积电，不是赌上七纳米，而是——在最恰当的时候，把这一切，交出去。", "en": "But the hardest was perhaps not founding TSMC, nor betting on seven nanometers — but handing it all over, at exactly the right moment.", "start": 992.73, "end": 995.51}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他没有把公司，交给一个「像自己」的人。他交给了两个人，和一套制度。", "en": "He did not hand the company to someone who \"resembled himself.\" He handed it to two people, and to a system.", "start": 996.66, "end": 999.07}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这套制度的精巧，在于它承认一个朴素的道理：再伟大的人，也是会老的；而一家伟大的公司，不该依赖任何一个人，才能继续伟大。", "en": "The cleverness of that system lies in the plain truth it admits: even the greatest person grows old; and a great company should not depend on any single person to remain great.", "start": 1000.89, "end": 1010.08}, {"secZh": "", "secEn": "", "speaker": "", "zh": "真正的传承，不是找一个像自己的人，而是把公司，交给一套比个人更持久的制度。", "en": "True succession is not finding someone who resembles you — it is handing the company to a system more lasting than any individual.", "start": 1011.86, "end": 1018.47}, {"secZh": "", "secEn": "", "speaker": "", "zh": "很多年后，人们回头看这一幕，会心一笑。", "en": "Many years later, people look back on this scene and smile.", "start": 1020.27, "end": 1023.47}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他当年想请来做接班人的那个人，没有来；可正是这个人，后来成了台积电最重要的客户之一。命运把两个人，从「我已有工作」的那通电话，一路送到了人工智能时代的正中央——一个负责造，一个负责想，共同撑起了这个时代的算力。", "en": "The man he had once wanted as his successor did not come; and yet that very man became one of TSMC's most important customers. Fate carried the two of them, from that \"I already have a job\" phone call, all the way to the center of the AI age — one building, one dreaming, together powering the era's computing.", "start": 1025.29, "end": 1043.88}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而张忠谋，早在退休之前，就已经预见到了这一天。他把 CoWoS 的伏笔埋下，把双首长的制度搭好，然后，从容地，退到了舞台之外。", "en": "And Morris Chang, before he even retired, had already foreseen that day. He planted the seed of CoWoS, built the frame of dual leadership, and then — calmly — stepped off the stage.", "start": 1045.68, "end": 1057.75}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这，就是交棒与退休。", "en": "That is the handover and the retirement.", "start": 1059.54, "end": 1061.56}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1. 双首长制（Dual Leadership）：欧美企业常见治理结构——董事长领导董事会并作决策最后把关，总裁（CEO）负责经营并对董事会报告；张忠谋刻意将两人职阶待遇画等号，避免「一高一低」逼走一方。（英文：dual leadership / co-CEO structure） 2. 「我已有工作」：2013 年张忠谋征询黄仁勋对台积电 CEO 职的兴趣，黄仁勋两次回答「我已有工作」；当时辉达市值 90 亿美元、台积电 900 亿美元——十一年后辉达成全球市值最高公司之一。（英文：Jensen Huang, \"I already have a job\"） 3. 贝多芬第九号交响曲：台积电 1997 十周年请国内乐团、2007 与 2017 二十/三十周年请国际名团，皆以贝多芬第九《合唱》收尾——80 人以上乐团 + 90 人以上合唱团的雄壮编制。（英文：Beethoven's Ninth, TSMC 30th anniversary） 4. 2018.6.5 退休：张忠谋卸任董事长，刘德音接任董事长、魏哲家任总裁，台积电进入双首长时代；同年其 7nm 独家领先世界。（英文：June 5, 2018 retirement, Mark Liu & C.C. Wei） 5. 六十三年生涯：希凡尼亚 3 年、德州仪器 25 年、台积电 32 年（含筹备募资 2 年），几乎全部在半导体业。", "en": "1. Dual leadership: A governance structure common in Western companies — the chairman leads the board and is the final gatekeeper, while the president (CEO) runs the company and reports to the board; Morris Chang deliberately made the two equal in rank and pay to avoid one driving out the other. 2. \"I already have a job\": In 2013 Morris Chang sounded out Jensen Huang about TSMC's CEO role, and Huang answered \"I already have a job\" twice; then Nvidia was worth $9B versus TSMC's $90B — eleven years later Nvidia became one of the world's most valuable companies. 3. Beethoven's Ninth: TSMC's tenth anniversary in 1997 used a domestic orchestra; the twentieth and thirtieth anniversaries (2007, 2017) used internationally renowned orchestras, all closing with Beethoven's Ninth \"Choral\" — a piece needing an 80-plus orchestra and a 90-plus chorus. 4. Retirement on June 5, 2018: Morris Chang stepped down as chairman, Mark Liu became chairman and C.C. Wei became president, ushering in TSMC's dual-leadership era — the same year its 7nm led the world alone. 5. A sixty-three-year career: three years at Sylvania, twenty-five at Texas Instruments, thirty-two at TSMC (including two years of planning and fundraising) — almost all of it in semiconductors.", "start": 1063.35, "end": 1149.94}, {"secZh": "", "secEn": "", "speaker": "", "zh": "张忠谋退休的那一年，没人能预料，这家公司会在几年之后，成为两个大国角力的焦点，和一座小岛的命运共同体。", "en": "The year Morris Chang retired, no one could have predicted that this company would, a few years later, become the focal point of a contest between two great powers, and the shared destiny of a small island.", "start": 1151.73, "end": 1162.65}, {"secZh": "", "secEn": "", "speaker": "", "zh": "下一集，也是本系列的最后一集——《护国神山》。", "en": "Next episode — the final one of the series — \"The Mountain That Shields the Island.\"", "start": 1164.51, "end": 1169.07}];
-    const ZH2EN = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 4, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105];
+    // ── 统一数据源（与双语剧场共用 assets/episode-data.js，波形实测时间戳）──
+    const _EP = (window.EPISODES_DATA || []).find(function (e) { return e.id === EPISODE_META.id; }) || {};
+    const EP_CUES = _EP.cues || [];
+    const EP_CUES_EN = _EP.cuesEn || [];
+    // ZH2EN：中文字幕段 -> 英文字幕段索引（按文本精确匹配；段数不匹配的附录段兜底到英文末尾）
+    const ZH2EN = (function () {
+      const norm = function (s) { return (s || '').replace(/\s+/g, ''); };
+      const map = {};
+      EP_CUES_EN.forEach(function (c, i) { if (c.zh) map[norm(c.zh)] = i; });
+      return EP_CUES.map(function (c) {
+        const z = norm(c.zh);
+        return (z && map[z] !== undefined) ? map[z] : (EP_CUES_EN.length - 1);
+      });
+    })();
 
     let currentTrack = 'zh';
     let isPlaying = false;
@@ -3363,27 +3376,75 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "二○一�
     const subtitlesViewport = document.getElementById('subtitles-viewport');
     const btnAutoScroll = document.getElementById('btn-auto-scroll');
 
-    function ensureSingleAudioPlayback(activeAudio) {
-      document.querySelectorAll('audio').forEach(a => {
-        if (a !== activeAudio && !a.paused) {
-          a.pause();
+    // ── 共享播放器核心（与双语剧场同一套 player-core.js）──
+    const player = new PlayerCore({
+      audioEl: audioEl,
+      curTimeEl: curTimeEl,
+      totalTimeEl: totalTimeEl,
+      seekBar: seekSlider,
+      bindSeekBar: false,          // 进度条拖动由页面 onSeekInput/onSeekChange 处理
+      seekGuard: function () { return isSeeking; },
+      bindPlayBtn: false,          // 播放按钮由页面 togglePlay() 处理
+      bindTrackBtns: false,        // 切轨按钮由页面 switchTrack() 处理
+      bindSpeed: false,            // 倍速由页面 changeSpeed() 处理
+      onTrackChange: function (lang, ep) {
+        currentTrack = lang;
+        if (btnTrackZh) btnTrackZh.classList.toggle('active', lang === 'zh');
+        if (btnTrackEn) btnTrackEn.classList.toggle('active', lang === 'en');
+        if (trackMetaTitle) {
+          trackMetaTitle.textContent = lang === 'zh'
+            ? EPISODE_META.title_zh + '（中文原声）'
+            : EPISODE_META.title_en + ' (English Voice)';
         }
-      });
-    }
+        // sub-row 时间戳按目标轨更新（段数不匹配时重建）
+        const ac = lang === 'en' ? EP_CUES_EN : EP_CUES;
+        const rows = document.querySelectorAll('.sub-row');
+        if (rows.length !== ac.length) {
+          rebuildSubRows(ac);
+        } else {
+          rows.forEach(function (row, idx) {
+            const c = ac[idx];
+            row.dataset.start = c.start.toFixed(2);
+            row.dataset.end = c.end.toFixed(2);
+            row.setAttribute('onclick', 'seekAndPlay(' + c.start.toFixed(2) + ')');
+            const timeTag = row.querySelector('.sub-time-tag');
+            if (timeTag) timeTag.textContent = formatTime(c.start);
+          });
+        }
+        // bilingual-para 时间戳 + 徽章按目标轨更新
+        document.querySelectorAll('.bilingual-para').forEach(function (para) {
+          const ci = parseInt(para.dataset.cueIdx, 10);
+          if (isNaN(ci)) return;
+          const pi = lang === 'en' ? (ZH2EN[ci] !== undefined ? ZH2EN[ci] : EP_CUES_EN.length - 1) : ci;
+          const c = ac[Math.min(pi, ac.length - 1)];
+          if (!c) return;
+          para.setAttribute('onclick', 'seekAndPlay(' + c.start.toFixed(2) + ')');
+          const badge = para.querySelector('.para-time-badge');
+          if (badge) badge.textContent = formatTime(c.start);
+        });
+      },
+      onCueChange: function (idx) {
+        setActiveCue(idx);
+      },
+      onPlayChange: function (playing) {
+        isPlaying = playing;
+        if (playBtn) playBtn.textContent = playing ? '⏸' : '▶';
+      }
+    });
 
-
+    // 页面特有：字幕行渲染（段数不匹配时按目标轨重建）
     function rebuildSubRows(cues) {
       const vp = document.getElementById('subtitles-viewport');
       if (!vp) return;
       vp.innerHTML = '';
-      cues.forEach((c, i) => {
+      cues.forEach(function (c, i) {
         const row = document.createElement('div');
         row.className = 'sub-row';
         row.id = 'sub-row-' + i;
         row.dataset.index = i;
         row.dataset.start = c.start.toFixed(2);
         row.dataset.end = c.end.toFixed(2);
-        row.onclick = () => seekAndPlay(c.start);
+        row.onclick = function () { seekAndPlay(c.start); };
         const tag = document.createElement('span');
         tag.className = 'sub-time-tag';
         tag.textContent = formatTime(c.start);
@@ -3404,184 +3465,16 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "二○一�
     }
 
     function switchTrack(track) {
-      if (currentTrack === track) return;
-      currentTrack = track;
-      const curPos = audioEl.currentTime;
-      const wasPlaying = !audioEl.paused;
-
-      if (track === 'zh') {
-        btnTrackZh.classList.add('active');
-        btnTrackEn.classList.remove('active');
-        audioSource.src = './audio/ep' + EPISODE_META.id + '-zh.mp3';
-        trackMetaTitle.textContent = EPISODE_META.title_zh + '（中文原声）';
-      } else {
-        btnTrackEn.classList.add('active');
-        btnTrackZh.classList.remove('active');
-        audioSource.src = './audio/ep' + EPISODE_META.id + '-en.mp3';
-        trackMetaTitle.textContent = EPISODE_META.title_en + ' (English Voice)';
-      }
-
-      audioEl.load();
-      audioEl.onloadedmetadata = () => {
-        audioEl.currentTime = Math.min(curPos, audioEl.duration || curPos);
-        totalTimeEl.textContent = formatTime(audioEl.duration);
-
-        // Update sub-row timing + onclick to match active track
-        const ac = currentTrack === 'en' ? EP_CUES_EN : EP_CUES;
-        const existingRows = document.querySelectorAll('.sub-row');
-        if (existingRows.length !== ac.length) {
-          rebuildSubRows(ac);  // 段数不匹配（ep02/03/09/16）时按目标轨重建
-        } else {
-          existingRows.forEach((row, idx) => {
-            const c = ac[idx];
-            row.dataset.start = c.start.toFixed(2);
-            row.dataset.end = c.end.toFixed(2);
-            row.setAttribute('onclick', 'seekAndPlay(' + c.start.toFixed(2) + ')');
-            const timeTag = row.querySelector('.sub-time-tag');
-            if (timeTag) timeTag.textContent = formatTime(c.start);
-          });
-        }
-        // Update bilingual-para timing + badge to match active track
-        document.querySelectorAll('.bilingual-para').forEach(para => {
-          const ci = parseInt(para.dataset.cueIdx, 10);
-          if (isNaN(ci)) return;
-          const pi = currentTrack === 'en' ? (ZH2EN[ci] !== undefined ? ZH2EN[ci] : EP_CUES_EN.length - 1) : ci;
-          const c = ac[Math.min(pi, ac.length - 1)];
-          if (!c) return;
-          para.setAttribute('onclick', 'seekAndPlay(' + c.start.toFixed(2) + ')');
-          const badge = para.querySelector('.para-time-badge');
-          if (badge) badge.textContent = formatTime(c.start);
-        });
-        if (wasPlaying) {
-          ensureSingleAudioPlayback(audioEl);
-          audioEl.play().then(() => {
-            isPlaying = true;
-            playBtn.textContent = '⏸';
-          }).catch(() => {});
-        }
-      };
+      player.switchTrack(track);
     }
 
     function togglePlay() {
-      if (audioEl.paused) {
-        ensureSingleAudioPlayback(audioEl);
-        audioEl.play().then(() => {
-          isPlaying = true;
-          playBtn.textContent = '⏸';
-        }).catch(e => {
-          console.error("Playback error:", e);
-        });
-      } else {
-        audioEl.pause();
-        isPlaying = false;
-        playBtn.textContent = '▶';
-      }
-    }
-
-    audioEl.addEventListener('play', () => {
-      ensureSingleAudioPlayback(audioEl);
-      isPlaying = true;
-      playBtn.textContent = '⏸';
-    });
-
-    audioEl.addEventListener('pause', () => {
-      isPlaying = false;
-      playBtn.textContent = '▶';
-    });
-
-    audioEl.addEventListener('loadedmetadata', () => {
-      totalTimeEl.textContent = formatTime(audioEl.duration);
-    });
-
-    audioEl.addEventListener('timeupdate', () => {
-      if (isSeeking) return;
-      const cur = audioEl.currentTime;
-      const dur = audioEl.duration || 1;
-      curTimeEl.textContent = formatTime(cur);
-      seekSlider.value = (cur / dur) * 100;
-
-      // Update Active Cue
-      let foundIdx = -1;
-      const _ac = currentTrack === 'en' ? EP_CUES_EN : EP_CUES; for (let i = 0; i < _ac.length; i++) {
-        const c = _ac[i];
-        if (cur >= c.start && cur < c.end) {
-          foundIdx = i;
-          break;
-        }
-      }
-
-      if (foundIdx === -1 && cur >= _ac[_ac.length - 1].end) {
-        foundIdx = _ac.length - 1;
-      }
-
-      if (foundIdx !== -1 && foundIdx !== activeCueIndex) {
-        setActiveCue(foundIdx);
-      }
-    });
-
-    // Detection for User Manual Wheel or Touch Drag
-    let isUserScrolling = false;
-    let userScrollTimer = null;
-
-    if (subtitlesViewport) {
-      subtitlesViewport.addEventListener('wheel', () => {
-        isUserScrolling = true;
-        clearTimeout(userScrollTimer);
-        userScrollTimer = setTimeout(() => { isUserScrolling = false; }, 2000);
-      }, { passive: true });
-
-      subtitlesViewport.addEventListener('touchstart', () => {
-        isUserScrolling = true;
-        clearTimeout(userScrollTimer);
-        userScrollTimer = setTimeout(() => { isUserScrolling = false; }, 2000);
-      }, { passive: true });
-    }
-
-    // Rock-Solid Container Center Scroll Logic
-    function scrollSubtitleToCenter(container, activeElement) {
-      if (!container || !activeElement || !autoScroll || isUserScrolling) return;
-      
-      const containerRect = container.getBoundingClientRect();
-      const elementRect = activeElement.getBoundingClientRect();
-      
-      // Calculate active element center relative to container scroll position
-      const elementRelativeTop = elementRect.top - containerRect.top + container.scrollTop;
-      const targetScrollTop = elementRelativeTop - (container.clientHeight / 2) + (elementRect.height / 2);
-      
-      container.scrollTo({
-        top: Math.max(0, targetScrollTop),
-        behavior: 'smooth'
-      });
-    }
-
-    function setActiveCue(index) {
-      activeCueIndex = index;
-
-      // Update Subtitles List
-      document.querySelectorAll('.sub-row').forEach(row => row.classList.remove('active'));
-      const activeRow = document.getElementById('sub-row-' + index);
-      if (activeRow) {
-        activeRow.classList.add('active');
-        if (autoScroll && subtitlesViewport) {
-          scrollSubtitleToCenter(subtitlesViewport, activeRow);
-        }
-      }
-
-      // Update Book Paragraphs
-      document.querySelectorAll('.bilingual-para').forEach(p => p.classList.remove('current-reading'));
-      const activePara = document.querySelector('.bilingual-para[data-cue-idx="' + index + '"]');
-      if (activePara) {
-        activePara.classList.add('current-reading');
-      }
+      player.togglePlay();
     }
 
     function seekAndPlay(timeSec) {
-      audioEl.currentTime = timeSec;
-      ensureSingleAudioPlayback(audioEl);
-      audioEl.play().then(() => {
-        isPlaying = true;
-        playBtn.textContent = '⏸';
-      }).catch(() => {});
+      player.seekTo(timeSec);
+      player.play();
     }
 
     function onSeekInput(val) {
@@ -3607,11 +3500,59 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "二○一�
       showToast(autoScroll ? '字幕已开启自动跟随滚动' : '字幕自动滚动已关闭');
     }
 
-    function formatTime(sec) {
-      if (isNaN(sec) || sec < 0) return '00:00';
-      const m = Math.floor(sec / 60);
-      const s = Math.floor(sec % 60);
-      return (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
+    // Detection for User Manual Wheel or Touch Drag
+    let isUserScrolling = false;
+    let userScrollTimer = null;
+
+    if (subtitlesViewport) {
+      subtitlesViewport.addEventListener('wheel', function () {
+        isUserScrolling = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(function () { isUserScrolling = false; }, 2000);
+      }, { passive: true });
+
+      subtitlesViewport.addEventListener('touchstart', function () {
+        isUserScrolling = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(function () { isUserScrolling = false; }, 2000);
+      }, { passive: true });
+    }
+
+    // Rock-Solid Container Center Scroll Logic
+    function scrollSubtitleToCenter(container, activeElement) {
+      if (!container || !activeElement || !autoScroll || isUserScrolling) return;
+
+      const containerRect = container.getBoundingClientRect();
+      const elementRect = activeElement.getBoundingClientRect();
+
+      const elementRelativeTop = elementRect.top - containerRect.top + container.scrollTop;
+      const targetScrollTop = elementRelativeTop - (container.clientHeight / 2) + (elementRect.height / 2);
+
+      container.scrollTo({
+        top: Math.max(0, targetScrollTop),
+        behavior: 'smooth'
+      });
+    }
+
+    function setActiveCue(index) {
+      activeCueIndex = index;
+
+      // Update Subtitles List
+      document.querySelectorAll('.sub-row').forEach(function (row) { row.classList.remove('active'); });
+      const activeRow = document.getElementById('sub-row-' + index);
+      if (activeRow) {
+        activeRow.classList.add('active');
+        if (autoScroll && subtitlesViewport) {
+          scrollSubtitleToCenter(subtitlesViewport, activeRow);
+        }
+      }
+
+      // Update Book Paragraphs
+      document.querySelectorAll('.bilingual-para').forEach(function (p) { p.classList.remove('current-reading'); });
+      const activePara = document.querySelector('.bilingual-para[data-cue-idx="' + index + '"]');
+      if (activePara) {
+        activePara.classList.add('current-reading');
+      }
     }
 
     function pronounceWord(word) {
@@ -3629,7 +3570,7 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "二○一�
       const toast = document.getElementById('toast');
       toast.textContent = msg;
       toast.classList.add('show');
-      setTimeout(() => {
+      setTimeout(function () {
         toast.classList.remove('show');
       }, 2600);
     }
@@ -3686,11 +3627,11 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "二○一�
         '💡 金句：' + EPISODE_META.tagline_zh + '\n' +
         '🎧 中英双语广播级原声剧场 + 逐句高亮字幕 + 深度研读笔记：\n' +
         window.location.href;
-      
+
       if (navigator.clipboard && window.isSecureContext) {
-        navigator.clipboard.writeText(viralText).then(() => {
+        navigator.clipboard.writeText(viralText).then(function () {
           showToast('精选文案与链接已复制，去微信/小红书分享吧！');
-        }).catch(() => {
+        }).catch(function () {
           promptCopy(viralText);
         });
       } else {
@@ -3714,6 +3655,17 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "二○一�
       }
       document.body.removeChild(textArea);
     }
+
+    // 启动：注入共享数据（音轨与字幕时间戳与双语剧场完全一致）
+    player.loadEpisode({
+      audioZh: './audio/ep' + EPISODE_META.id + '-zh.mp3',
+      audioEn: './audio/ep' + EPISODE_META.id + '-en.mp3',
+      durationZh: EP_CUES.length ? EP_CUES[EP_CUES.length - 1].end : 0,
+      durationEn: EP_CUES_EN.length ? EP_CUES_EN[EP_CUES_EN.length - 1].end : 0,
+      cues: EP_CUES,
+      cuesEn: EP_CUES_EN
+    }, {});
+
   </script>
 </body>
 </html>

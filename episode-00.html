@@ -1888,11 +1888,24 @@ body {
     </div>
   </div>
 
-  <script>
+  <script src="assets/player-core.js"></script>
+<script src="assets/episode-data.js"></script>
+<script>
     const EPISODE_META = {"id": "00", "file_name": "episode-00.html", "folder": "第00期-全册导读", "act_tag": "PRELUDE · 导读 · 一个人的平行世界", "title_zh": "第 00 期：全册导读 · 一个人的平行世界", "title_en": "Episode 00: A Guide to the Whole Volume — One Man's Parallel World", "time_loc": "全书导览 · 18幕平行回望", "tagline_zh": "历史没有如果，但思考有。在张忠谋走过的每一个路口，平行世界都在向我们招手。", "tagline_en": "History has no ifs, but contemplation does. At every crossroad Morris Chang took, a parallel world beckons.", "pills": [["历史坐标", "全书导读 · 18幕商业决策复盘 · 晶圆代工模式演进 · 半导体半世纪风云"], ["有声轨", "中英双轨 6min 广播级剧场原声"], ["双语阅读", "75% 原著双语对齐 · 25% 时代与词汇解析"]], "image_path": "./设计资产/封面/封面_排版版.jpg", "prev_link": "index.html", "prev_label": "← 回到总目录", "next_link": "episode-01.html", "next_label": "下一期：第 01 期 逃难的孩子 →", "quote_zh": "历史没有如果，但思考有。在张忠谋走过的每一个路口，平行世界都在向我们招手。", "quote_en": "History has no ifs, but contemplation does. At every crossroad Morris Chang took, a parallel world beckons.", "vocab": [["Parallel World", "/ˈpær.ə.lel wɜːld/", "平行世界，平行时空", "A hypothetical self-contained reality co-existing with one's own, exploring alternative historical choices."], ["Foundry Model", "/ˈfaʊn.dri ˈmɒd.əl/", "晶圆代工模式", "A business model pioneered by TSMC that exclusively manufactures semiconductor chips for fabless companies."], ["Semiconductor", "/ˌsem.i.kənˈdʌk.tər/", "半导体", "A material whose electrical conductivity lies between a conductor and an insulator, powering the digital era."], ["First Principles", "/fɜːst ˈprɪn.sə.pəlz/", "第一性原理", "The fundamental premise or proposition that cannot be deduced any further from any other proposition."], ["Chronicle", "/ˈkrɒn.ɪ.kəl/", "编年史，传记纪事", "A factual written account of important or historical events in the order of their occurrence."], ["Geopolitics", "/ˌdʒiː.əʊˈpɒl.ə.tɪks/", "地缘政治", "Politics, especially international relations, as influenced by geographical factors."], ["Moore's Law", "/mɔːz lɔː/", "摩尔定律", "The observation that the number of transistors on a microchip doubles roughly every two years."], ["Legacy", "/ˈleɡ.ə.si/", "历史遗产，精神传承", "An enduring impact or body of work left behind by a transformative leader."]], "timeline": [["1931 · 7月", "张忠谋出生于浙江宁波，开启横跨动荡与变革的世纪人生。"], ["1949 · 9月", "赴美求学，先后就读哈佛大学与麻省理工学院（MIT）。"], ["1958 · 5月", "加入德州仪器（TI），二十五年间跃升全球半导体领军人物。"], ["1985 · 8月", "应邀赴台出任工研院院长，擘画台湾半导体未来蓝图。"], ["1987 · 2月", "创立台湾积体电路制造公司（TSMC），首创纯晶圆代工模式。"], ["2018 · 6月", "台积电市值突破千亿美元，张忠谋正式退休，被尊为「护国神山」之父。"], ["2024 · 至今", "台积电先进制程引领全球AI算力革命，纯代工传奇仍在续写。"]], "duration": "06:19"};
-    const EP_CUES = [{"secZh": "", "secEn": "", "speaker": "", "zh": "在正式开始之前，请你先记住一句话：", "en": "Before we begin, please hold on to one sentence:", "start": 0.0, "end": 3.24}, {"secZh": "", "secEn": "", "speaker": "", "zh": "你即将听到的，不是十段彼此独立的故事，而是一部传记的十个乐章。", "en": "What you are about to hear is not ten separate stories. It is a biography in ten movements.", "start": 5.0, "end": 10.71}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这部传记的主人公，叫张忠谋。", "en": "The subject of this biography is Morris Chang.", "start": 12.46, "end": 15.22}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可严格来说，他并不是「主角」。他更像是一根线——一根穿过战火、穿过大洋、穿过半个世纪半导体风云的线。", "en": "And yet, strictly speaking, he is not the \"hero.\" He is more like a thread — a thread that runs through war, through oceans, through half a century of semiconductors.", "start": 16.95, "end": 26.21}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而我们要做的，是跟着这根线，走进他身边那些更大的世界。", "en": "Our job is to follow that thread, and to walk into the larger worlds that surrounded him.", "start": 28.0, "end": 32.73}, {"secZh": "", "secEn": "", "speaker": "", "zh": "所以这个栏目，叫「传记时间线的平行世界」。", "en": "That is why this series is called \"The Parallel World of a Biography's Timeline.\"", "start": 34.51, "end": 37.89}, {"secZh": "", "secEn": "", "speaker": "", "zh": "它的信条，只有一句话：同一时间线，另一个视角。", "en": "Its creed is one sentence: one timeline, another point of view.", "start": 39.65, "end": 43.87}, {"secZh": "", "secEn": "", "speaker": "", "zh": "故事，从一场战争开始。", "en": "The story begins with a war.", "start": 45.66, "end": 47.85}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1931 年，一个男孩出生在中国的战乱年代。他的童年记忆，不是宏大叙事，而是一次又一次的搬家。", "en": "In 1931, a boy was born into an age of conflict in China. His childhood was not made of grand narratives, but of moving house, again and again.", "start": 49.62, "end": 58.66}, {"secZh": "", "secEn": "", "speaker": "", "zh": "广州的轰炸，香港的沦陷，重庆的陪都岁月——一个孩子学会的第一件事，是收拾行李。", "en": "The bombing of Guangzhou, the fall of Hong Kong, the wartime capital of Chongqing — the first thing a child learns is how to pack his bags.", "start": 60.42, "end": 67.3}, {"secZh": "", "secEn": "", "speaker": "", "zh": "再后来，是上海的课桌，和一本叫《风萧萧》的小说。那个少年想当作家，却被父亲一句「写作会饿肚子」，按下了这个梦。", "en": "Then came a school desk in Shanghai, and a novel called The Wind Soughs. The boy wanted to be a writer, until his father pressed the dream down with one sentence: \"Writing will make you starve.\"", "start": 69.08, "end": 79.36}, {"secZh": "", "secEn": "", "speaker": "", "zh": "时代，用一场金圆券的通胀，替他改写了职业志愿。", "en": "The era — through the runaway inflation of the gold yuan — rewrote his career for him.", "start": 81.15, "end": 85.59}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1949 年，十八岁的他登上了去美国的船。他以为，这只是又一次「暂时离开」。", "en": "In 1949, at eighteen, he boarded a ship for America. He thought it was just another \"temporary departure.\"", "start": 87.36, "end": 94.23}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他不知道，这一走，就走出了一条不归路。", "en": "He did not know that this departure would become a road of no return.", "start": 96.0, "end": 99.41}, {"secZh": "", "secEn": "", "speaker": "", "zh": "在哈佛的一年，在麻省理工的三年——一个东方少年，就这样，走进了西方的课堂。", "en": "A year at Harvard, three years at MIT — and so a boy of the East walked into the classrooms of the West.", "start": 101.17, "end": 107.95}, {"secZh": "", "secEn": "", "speaker": "", "zh": "第二段乐章，属于半导体。", "en": "The second movement belongs to semiconductors.", "start": 109.72, "end": 111.77}, {"secZh": "", "secEn": "", "speaker": "", "zh": "两次博士落第之后，他寄出了几十封求职信，回音寥寥。可命运，用一美元的差价，把他推进了一家叫希凡尼亚的公司——从此，他再也没有离开过芯片。", "en": "After failing the doctoral exam twice, he sent out dozens of job applications and heard back from almost no one. But fate, through a difference of one dollar, pushed him into a company called Sylvania — and from that day on, he never left chips.", "start": 113.54, "end": 126.16}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1958 年，他加入德州仪器。那一年，这家公司的实验室里，基尔比刚刚点亮了人类第一块集成电路。", "en": "In 1958, he joined Texas Instruments. That very year, in that company's labs, Jack Kilby had just lit up the first integrated circuit in human history.", "start": 127.92, "end": 136.85}, {"secZh": "", "secEn": "", "speaker": "", "zh": "此后的二十五年，他从良率做起，一路升到全球最大半导体生意的掌舵人。他发明了「学习曲线定价」，他把德州仪器的集成电路，做到了世界第一。", "en": "Over the next twenty-five years, he rose from fixing yields all the way to running the largest semiconductor business in the world. He invented \"learning-curve pricing,\" and he made Texas Instruments' integrated-circuit business number one on earth.", "start": 138.63, "end": 151.44}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可命运，偏偏让他在最得意的时候，输在了别处。", "en": "And yet fate chose to let him lose elsewhere, just when he was at his proudest.", "start": 153.19, "end": 157.09}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他赢了市场，却输了会议室。他隔着半个美国，看完了硅谷那场叛逆八帮的叛乱——却不知道，那个剧本，日后会成为他自己的。", "en": "He won the market, but he lost the boardroom. From across half of America, he watched the Traitorous Eight's rebellion in Silicon Valley — not knowing that their script would one day become his own.", "start": 158.84, "end": 169.72}, {"secZh": "", "secEn": "", "speaker": "", "zh": "最难的仗，往往不在市场上，而在会议室里。", "en": "The hardest battles are not fought in the market, but in the boardroom.", "start": 171.5, "end": 175.01}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而他，恰恰是在这场输掉的仗里，学会了他后来最重要的东西。", "en": "And it was in this very defeat that he learned the most important things he would later carry with him.", "start": 176.84, "end": 182.24}, {"secZh": "", "secEn": "", "speaker": "", "zh": "第三段乐章，是一趟归程。", "en": "The third movement is a journey home.", "start": 184.0, "end": 186.24}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1983 年，他辞去了效力二十五年的德州仪器。五十四岁那年，他漂洋过海，回到台湾。", "en": "In 1983, he resigned from Texas Instruments, the company he had served for twenty-five years. At fifty-four, he crossed the ocean again and returned to Taiwan.", "start": 188.0, "end": 196.19}, {"secZh": "", "secEn": "", "speaker": "", "zh": "有时候，离开一个错误的位置，是人生最重要的一步棋。", "en": "Sometimes, leaving the wrong position is the most important move in life.", "start": 197.97, "end": 202.65}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1987 年，五十六岁的他，创办了一家没有人看好的公司——台积电。", "en": "In 1987, at fifty-six, he founded a company that nobody believed in — TSMC.", "start": 204.4, "end": 209.75}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这家公司，不设计芯片，只替别人造芯片。整个行业，都在等着看它的笑话。", "en": "This company designed no chips. It only made other people's chips. The whole industry was waiting to see it fail.", "start": 211.53, "end": 218.44}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可就是这样一个「代工」的念头，让设计芯片的人，第一次可以没有工厂；让一个只会做塑料玩具和廉价跑鞋的小岛，第一次站上了世界科技之巅。", "en": "And yet it was this very idea of \"the foundry\" that let chip designers, for the first time, live without a factory — and that let an island known only for plastic toys and cheap running shoes climb, for the first time, to the summit of world technology.", "start": 220.22, "end": 231.39}, {"secZh": "", "secEn": "", "speaker": "", "zh": "颠覆者不做主角，做平台——让所有人，成为主角。", "en": "The disruptor does not play the hero. He builds the platform — and lets everyone else become the hero.", "start": 233.16, "end": 237.56}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1997 年，亚洲金融风暴席卷而来。而台积电，恰恰在这场风暴里，登上了纽约证券交易所。", "en": "In 1997, the Asian financial crisis swept across the region. And it was in the middle of that very storm that TSMC listed on the New York Stock Exchange.", "start": 239.31, "end": 248.01}, {"secZh": "", "secEn": "", "speaker": "", "zh": "当风暴来时，扎实的企业，反而被看见。", "en": "When the storm comes, it is the solid company that gets seen.", "start": 249.8, "end": 253.06}, {"secZh": "", "secEn": "", "speaker": "", "zh": "从 1931 年到 1998 年，六十七年。", "en": "From 1931 to 1998 — sixty-seven years.", "start": 254.88, "end": 258.54}, {"secZh": "", "secEn": "", "speaker": "", "zh": "一个人的一生，两次跨过文明：年轻时，从东向西；年过半百，从西向东。", "en": "One man crossed between civilizations twice in his life: in his youth, from East to West; past fifty, from West back to East.", "start": 260.32, "end": 267.38}, {"secZh": "", "secEn": "", "speaker": "", "zh": "每一次跨越，他都没有空手而归。", "en": "And in neither crossing did he return empty-handed.", "start": 269.13, "end": 271.92}, {"secZh": "", "secEn": "", "speaker": "", "zh": "现在，请戴上耳机，或者坐下来，翻开这一册。", "en": "Now, put on your headphones, or settle into a chair, and open this volume.", "start": 273.67, "end": 277.69}, {"secZh": "", "secEn": "", "speaker": "", "zh": "十期，二十个世界，平行地铺展在你面前。", "en": "Ten episodes. Twenty worlds. Laid out in parallel before you.", "start": 279.49, "end": 282.93}, {"secZh": "", "secEn": "", "speaker": "", "zh": "让我们一起，走进一个人的命运，也走进一个时代的平行世界。", "en": "Let us walk together into one man's fate — and into the parallel world of an era.", "start": 284.7, "end": 289.56}, {"secZh": "", "secEn": "", "speaker": "", "zh": "上册的故事，从 1931 年开始。", "en": "The story of our first volume begins in 1931.", "start": 291.33, "end": 294.2}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而那座被称作「护国神山」的传奇，才刚刚，露出它的轮廓。", "en": "And the legend they call the \"sacred mountain that shields the nation\" — that legend has only just begun to show its outline.", "start": 296.01, "end": 301.17}, {"secZh": "", "secEn": "", "speaker": "", "zh": "（以下为本导读对应的十个乐章，供你按图索骥）", "en": "(The ten chapters this guide corresponds to, for easy navigation)", "start": 302.93, "end": 306.77}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1. 逃难的孩子（1937–42）· 一个孩子的记忆里，战争是一张张搬家的船票。 2. 考不进去的南开 & 作家梦（1943–48）· 关系给你门票，实力让你留场。 3. 从黄浦江到查尔斯河（1949–50）· 他以为的暂时离开，成了不归路。 4. 四十封求职信（1954–58）· 被拒绝不是终点，是命运在指路。 5. 隔岸观火的叛乱（1957–68）· 别人的剧本，后来成了他自己的。 6. 德仪的太空竞赛岁月（1958–64）· 最强的强者，敢在上升期归零。 7. 半导体之巅的十年（1964–78）· 最难的仗，不在市场，在会议室。 8. 离开德州 & 受邀回台（1978–87）· 离开错误的位置，是最重要的一步棋。 9. 纯代工的革命（1987–95）· 不做主角，做让所有人成为主角的平台。 10. 从台湾到世界（1995–98）· 风暴来时，扎实的企业反而被看见。", "en": "1. The Refugee Child (1937–42) · In a child's memory, war is a stack of moving tickets. 2. Failing Nankai & the Writer's Dream (1943–48) · Connections get you a ticket; only ability keeps you in the game. 3. From the Huangpu to the Charles (1949–50) · What he thought was temporary became a road of no return. 4. Forty Job Applications (1954–58) · Rejection is not the end; it is fate pointing the way. 5. Watching the Rebellion from Afar (1957–68) · Another man's script later became his own. 6. TI's Space-Race Years (1958–64) · The strongest reset themselves at the peak. 7. The Decade at the Summit (1964–78) · The hardest battles are fought in the boardroom. 8. Leaving Texas & the Invitation Home (1978–87) · Leaving the wrong position is the most important move. 9. The Pure-Play Revolution (1987–95) · Don't be the hero; be the platform that makes everyone the hero. 10. From Taiwan to the World (1995–98) · When the storm comes, the solid company gets seen.", "start": 308.52, "end": 377.96}];
-const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "在正式开始之前，请你先记住一句话：", "en": "Before we begin, please hold on to one sentence:", "start": 0.0, "end": 3.01}, {"secZh": "", "secEn": "", "speaker": "", "zh": "你即将听到的，不是十段彼此独立的故事，而是一部传记的十个乐章。", "en": "What you are about to hear is not ten separate stories. It is a biography in ten movements.", "start": 4.78, "end": 10.59}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这部传记的主人公，叫张忠谋。", "en": "The subject of this biography is Morris Chang.", "start": 12.38, "end": 14.95}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可严格来说，他并不是「主角」。他更像是一根线——一根穿过战火、穿过大洋、穿过半个世纪半导体风云的线。", "en": "And yet, strictly speaking, he is not the \"hero.\" He is more like a thread — a thread that runs through war, through oceans, through half a century of semiconductors.", "start": 16.75, "end": 27.38}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而我们要做的，是跟着这根线，走进他身边那些更大的世界。", "en": "Our job is to follow that thread, and to walk into the larger worlds that surrounded him.", "start": 29.14, "end": 33.7}, {"secZh": "", "secEn": "", "speaker": "", "zh": "所以这个栏目，叫「传记时间线的平行世界」。", "en": "That is why this series is called \"The Parallel World of a Biography's Timeline.\"", "start": 35.49, "end": 39.76}, {"secZh": "", "secEn": "", "speaker": "", "zh": "它的信条，只有一句话：同一时间线，另一个视角。", "en": "Its creed is one sentence: one timeline, another point of view.", "start": 41.56, "end": 45.41}, {"secZh": "", "secEn": "", "speaker": "", "zh": "故事，从一场战争开始。", "en": "The story begins with a war.", "start": 47.23, "end": 48.8}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1931 年，一个男孩出生在中国的战乱年代。他的童年记忆，不是宏大叙事，而是一次又一次的搬家。", "en": "In 1931, a boy was born into an age of conflict in China. His childhood was not made of grand narratives, but of moving house, again and again.", "start": 50.62, "end": 60.62}, {"secZh": "", "secEn": "", "speaker": "", "zh": "广州的轰炸，香港的沦陷，重庆的陪都岁月——一个孩子学会的第一件事，是收拾行李。", "en": "The bombing of Guangzhou, the fall of Hong Kong, the wartime capital of Chongqing — the first thing a child learns is how to pack his bags.", "start": 62.41, "end": 70.35}, {"secZh": "", "secEn": "", "speaker": "", "zh": "再后来，是上海的课桌，和一本叫《风萧萧》的小说。那个少年想当作家，却被父亲一句「写作会饿肚子」，按下了这个梦。", "en": "Then came a school desk in Shanghai, and a novel called The Wind Soughs. The boy wanted to be a writer, until his father pressed the dream down with one sentence: \"Writing will make you starve.\"", "start": 72.1, "end": 83.27}, {"secZh": "", "secEn": "", "speaker": "", "zh": "时代，用一场金圆券的通胀，替他改写了职业志愿。", "en": "The era — through the runaway inflation of the gold yuan — rewrote his career for him.", "start": 85.14, "end": 89.98}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1949 年，十八岁的他登上了去美国的船。他以为，这只是又一次「暂时离开」。", "en": "In 1949, at eighteen, he boarded a ship for America. He thought it was just another \"temporary departure.\"", "start": 91.77, "end": 99.38}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他不知道，这一走，就走出了一条不归路。", "en": "He did not know that this departure would become a road of no return.", "start": 101.22, "end": 104.49}, {"secZh": "", "secEn": "", "speaker": "", "zh": "在哈佛的一年，在麻省理工的三年——一个东方少年，就这样，走进了西方的课堂。", "en": "A year at Harvard, three years at MIT — and so a boy of the East walked into the classrooms of the West.", "start": 106.25, "end": 112.24}, {"secZh": "", "secEn": "", "speaker": "", "zh": "第二段乐章，属于半导体。", "en": "The second movement belongs to semiconductors.", "start": 114.05, "end": 116.45}, {"secZh": "", "secEn": "", "speaker": "", "zh": "两次博士落第之后，他寄出了几十封求职信，回音寥寥。可命运，用一美元的差价，把他推进了一家叫希凡尼亚的公司——从此，他再也没有离开过芯片。", "en": "After failing the doctoral exam twice, he sent out dozens of job applications and heard back from almost no one. But fate, through a difference of one dollar, pushed him into a company called Sylvania — and from that day on, he never left chips.", "start": 118.23, "end": 133.16}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1958 年，他加入德州仪器。那一年，这家公司的实验室里，基尔比刚刚点亮了人类第一块集成电路。", "en": "In 1958, he joined Texas Instruments. That very year, in that company's labs, Jack Kilby had just lit up the first integrated circuit in human history.", "start": 134.94, "end": 145.34}, {"secZh": "", "secEn": "", "speaker": "", "zh": "此后的二十五年，他从良率做起，一路升到全球最大半导体生意的掌舵人。他发明了「学习曲线定价」，他把德州仪器的集成电路，做到了世界第一。", "en": "Over the next twenty-five years, he rose from fixing yields all the way to running the largest semiconductor business in the world. He invented \"learning-curve pricing,\" and he made Texas Instruments' integrated-circuit business number one on earth.", "start": 147.16, "end": 160.51}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可命运，偏偏让他在最得意的时候，输在了别处。", "en": "And yet fate chose to let him lose elsewhere, just when he was at his proudest.", "start": 162.43, "end": 166.55}, {"secZh": "", "secEn": "", "speaker": "", "zh": "他赢了市场，却输了会议室。他隔着半个美国，看完了硅谷那场叛逆八帮的叛乱——却不知道，那个剧本，日后会成为他自己的。", "en": "He won the market, but he lost the boardroom. From across half of America, he watched the Traitorous Eight's rebellion in Silicon Valley — not knowing that their script would one day become his own.", "start": 168.36, "end": 179.14}, {"secZh": "", "secEn": "", "speaker": "", "zh": "最难的仗，往往不在市场上，而在会议室里。", "en": "The hardest battles are not fought in the market, but in the boardroom.", "start": 180.94, "end": 184.08}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而他，恰恰是在这场输掉的仗里，学会了他后来最重要的东西。", "en": "And it was in this very defeat that he learned the most important things he would later carry with him.", "start": 185.87, "end": 190.12}, {"secZh": "", "secEn": "", "speaker": "", "zh": "第三段乐章，是一趟归程。", "en": "The third movement is a journey home.", "start": 191.96, "end": 193.76}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1983 年，他辞去了效力二十五年的德州仪器。五十四岁那年，他漂洋过海，回到台湾。", "en": "In 1983, he resigned from Texas Instruments, the company he had served for twenty-five years. At fifty-four, he crossed the ocean again and returned to Taiwan.", "start": 195.54, "end": 206.19}, {"secZh": "", "secEn": "", "speaker": "", "zh": "有时候，离开一个错误的位置，是人生最重要的一步棋。", "en": "Sometimes, leaving the wrong position is the most important move in life.", "start": 207.97, "end": 211.74}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1987 年，五十六岁的他，创办了一家没有人看好的公司——台积电。", "en": "In 1987, at fifty-six, he founded a company that nobody believed in — TSMC.", "start": 213.57, "end": 219.47}, {"secZh": "", "secEn": "", "speaker": "", "zh": "这家公司，不设计芯片，只替别人造芯片。整个行业，都在等着看它的笑话。", "en": "This company designed no chips. It only made other people's chips. The whole industry was waiting to see it fail.", "start": 221.31, "end": 229.09}, {"secZh": "", "secEn": "", "speaker": "", "zh": "可就是这样一个「代工」的念头，让设计芯片的人，第一次可以没有工厂；让一个只会做塑料玩具和廉价跑鞋的小岛，第一次站上了世界科技之巅。", "en": "And yet it was this very idea of \"the foundry\" that let chip designers, for the first time, live without a factory — and that let an island known only for plastic toys and cheap running shoes climb, for the first time, to the summit of world technology.", "start": 230.9, "end": 245.02}, {"secZh": "", "secEn": "", "speaker": "", "zh": "颠覆者不做主角，做平台——让所有人，成为主角。", "en": "The disruptor does not play the hero. He builds the platform — and lets everyone else become the hero.", "start": 246.86, "end": 252.94}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1997 年，亚洲金融风暴席卷而来。而台积电，恰恰在这场风暴里，登上了纽约证券交易所。", "en": "In 1997, the Asian financial crisis swept across the region. And it was in the middle of that very storm that TSMC listed on the New York Stock Exchange.", "start": 254.75, "end": 264.88}, {"secZh": "", "secEn": "", "speaker": "", "zh": "当风暴来时，扎实的企业，反而被看见。", "en": "When the storm comes, it is the solid company that gets seen.", "start": 266.68, "end": 269.94}, {"secZh": "", "secEn": "", "speaker": "", "zh": "从 1931 年到 1998 年，六十七年。", "en": "From 1931 to 1998 — sixty-seven years.", "start": 271.73, "end": 275.62}, {"secZh": "", "secEn": "", "speaker": "", "zh": "一个人的一生，两次跨过文明：年轻时，从东向西；年过半百，从西向东。", "en": "One man crossed between civilizations twice in his life: in his youth, from East to West; past fifty, from West back to East.", "start": 277.4, "end": 285.52}, {"secZh": "", "secEn": "", "speaker": "", "zh": "每一次跨越，他都没有空手而归。", "en": "And in neither crossing did he return empty-handed.", "start": 287.31, "end": 289.69}, {"secZh": "", "secEn": "", "speaker": "", "zh": "现在，请戴上耳机，或者坐下来，翻开这一册。", "en": "Now, put on your headphones, or settle into a chair, and open this volume.", "start": 291.55, "end": 296.06}, {"secZh": "", "secEn": "", "speaker": "", "zh": "十期，二十个世界，平行地铺展在你面前。", "en": "Ten episodes. Twenty worlds. Laid out in parallel before you.", "start": 297.85, "end": 303.4}, {"secZh": "", "secEn": "", "speaker": "", "zh": "让我们一起，走进一个人的命运，也走进一个时代的平行世界。", "en": "Let us walk together into one man's fate — and into the parallel world of an era.", "start": 305.19, "end": 309.63}, {"secZh": "", "secEn": "", "speaker": "", "zh": "上册的故事，从 1931 年开始。", "en": "The story of our first volume begins in 1931.", "start": 311.45, "end": 314.51}, {"secZh": "", "secEn": "", "speaker": "", "zh": "而那座被称作「护国神山」的传奇，才刚刚，露出它的轮廓。", "en": "And the legend they call the \"sacred mountain that shields the nation\" — that legend has only just begun to show its outline.", "start": 316.3, "end": 322.48}, {"secZh": "", "secEn": "", "speaker": "", "zh": "（以下为本导读对应的十个乐章，供你按图索骥）", "en": "(The ten chapters this guide corresponds to, for easy navigation)", "start": 324.26, "end": 328.17}, {"secZh": "", "secEn": "", "speaker": "", "zh": "1. 逃难的孩子（1937–42）· 一个孩子的记忆里，战争是一张张搬家的船票。 2. 考不进去的南开 & 作家梦（1943–48）· 关系给你门票，实力让你留场。 3. 从黄浦江到查尔斯河（1949–50）· 他以为的暂时离开，成了不归路。 4. 四十封求职信（1954–58）· 被拒绝不是终点，是命运在指路。 5. 隔岸观火的叛乱（1957–68）· 别人的剧本，后来成了他自己的。 6. 德仪的太空竞赛岁月（1958–64）· 最强的强者，敢在上升期归零。 7. 半导体之巅的十年（1964–78）· 最难的仗，不在市场，在会议室。 8. 离开德州 & 受邀回台（1978–87）· 离开错误的位置，是最重要的一步棋。 9. 纯代工的革命（1987–95）· 不做主角，做让所有人成为主角的平台。 10. 从台湾到世界（1995–98）· 风暴来时，扎实的企业反而被看见。", "en": "1. The Refugee Child (1937–42) · In a child's memory, war is a stack of moving tickets. 2. Failing Nankai & the Writer's Dream (1943–48) · Connections get you a ticket; only ability keeps you in the game. 3. From the Huangpu to the Charles (1949–50) · What he thought was temporary became a road of no return. 4. Forty Job Applications (1954–58) · Rejection is not the end; it is fate pointing the way. 5. Watching the Rebellion from Afar (1957–68) · Another man's script later became his own. 6. TI's Space-Race Years (1958–64) · The strongest reset themselves at the peak. 7. The Decade at the Summit (1964–78) · The hardest battles are fought in the boardroom. 8. Leaving Texas & the Invitation Home (1978–87) · Leaving the wrong position is the most important move. 9. The Pure-Play Revolution (1987–95) · Don't be the hero; be the platform that makes everyone the hero. 10. From Taiwan to the World (1995–98) · When the storm comes, the solid company gets seen.", "start": 329.95, "end": 412.86}];
-    const ZH2EN = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41];
+    // ── 统一数据源（与双语剧场共用 assets/episode-data.js，波形实测时间戳）──
+    const _EP = (window.EPISODES_DATA || []).find(function (e) { return e.id === EPISODE_META.id; }) || {};
+    const EP_CUES = _EP.cues || [];
+    const EP_CUES_EN = _EP.cuesEn || [];
+    // ZH2EN：中文字幕段 -> 英文字幕段索引（按文本精确匹配；段数不匹配的附录段兜底到英文末尾）
+    const ZH2EN = (function () {
+      const norm = function (s) { return (s || '').replace(/\s+/g, ''); };
+      const map = {};
+      EP_CUES_EN.forEach(function (c, i) { if (c.zh) map[norm(c.zh)] = i; });
+      return EP_CUES.map(function (c) {
+        const z = norm(c.zh);
+        return (z && map[z] !== undefined) ? map[z] : (EP_CUES_EN.length - 1);
+      });
+    })();
 
     let currentTrack = 'zh';
     let isPlaying = false;
@@ -1912,27 +1925,75 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "在正式�
     const subtitlesViewport = document.getElementById('subtitles-viewport');
     const btnAutoScroll = document.getElementById('btn-auto-scroll');
 
-    function ensureSingleAudioPlayback(activeAudio) {
-      document.querySelectorAll('audio').forEach(a => {
-        if (a !== activeAudio && !a.paused) {
-          a.pause();
+    // ── 共享播放器核心（与双语剧场同一套 player-core.js）──
+    const player = new PlayerCore({
+      audioEl: audioEl,
+      curTimeEl: curTimeEl,
+      totalTimeEl: totalTimeEl,
+      seekBar: seekSlider,
+      bindSeekBar: false,          // 进度条拖动由页面 onSeekInput/onSeekChange 处理
+      seekGuard: function () { return isSeeking; },
+      bindPlayBtn: false,          // 播放按钮由页面 togglePlay() 处理
+      bindTrackBtns: false,        // 切轨按钮由页面 switchTrack() 处理
+      bindSpeed: false,            // 倍速由页面 changeSpeed() 处理
+      onTrackChange: function (lang, ep) {
+        currentTrack = lang;
+        if (btnTrackZh) btnTrackZh.classList.toggle('active', lang === 'zh');
+        if (btnTrackEn) btnTrackEn.classList.toggle('active', lang === 'en');
+        if (trackMetaTitle) {
+          trackMetaTitle.textContent = lang === 'zh'
+            ? EPISODE_META.title_zh + '（中文原声）'
+            : EPISODE_META.title_en + ' (English Voice)';
         }
-      });
-    }
+        // sub-row 时间戳按目标轨更新（段数不匹配时重建）
+        const ac = lang === 'en' ? EP_CUES_EN : EP_CUES;
+        const rows = document.querySelectorAll('.sub-row');
+        if (rows.length !== ac.length) {
+          rebuildSubRows(ac);
+        } else {
+          rows.forEach(function (row, idx) {
+            const c = ac[idx];
+            row.dataset.start = c.start.toFixed(2);
+            row.dataset.end = c.end.toFixed(2);
+            row.setAttribute('onclick', 'seekAndPlay(' + c.start.toFixed(2) + ')');
+            const timeTag = row.querySelector('.sub-time-tag');
+            if (timeTag) timeTag.textContent = formatTime(c.start);
+          });
+        }
+        // bilingual-para 时间戳 + 徽章按目标轨更新
+        document.querySelectorAll('.bilingual-para').forEach(function (para) {
+          const ci = parseInt(para.dataset.cueIdx, 10);
+          if (isNaN(ci)) return;
+          const pi = lang === 'en' ? (ZH2EN[ci] !== undefined ? ZH2EN[ci] : EP_CUES_EN.length - 1) : ci;
+          const c = ac[Math.min(pi, ac.length - 1)];
+          if (!c) return;
+          para.setAttribute('onclick', 'seekAndPlay(' + c.start.toFixed(2) + ')');
+          const badge = para.querySelector('.para-time-badge');
+          if (badge) badge.textContent = formatTime(c.start);
+        });
+      },
+      onCueChange: function (idx) {
+        setActiveCue(idx);
+      },
+      onPlayChange: function (playing) {
+        isPlaying = playing;
+        if (playBtn) playBtn.textContent = playing ? '⏸' : '▶';
+      }
+    });
 
-
+    // 页面特有：字幕行渲染（段数不匹配时按目标轨重建）
     function rebuildSubRows(cues) {
       const vp = document.getElementById('subtitles-viewport');
       if (!vp) return;
       vp.innerHTML = '';
-      cues.forEach((c, i) => {
+      cues.forEach(function (c, i) {
         const row = document.createElement('div');
         row.className = 'sub-row';
         row.id = 'sub-row-' + i;
         row.dataset.index = i;
         row.dataset.start = c.start.toFixed(2);
         row.dataset.end = c.end.toFixed(2);
-        row.onclick = () => seekAndPlay(c.start);
+        row.onclick = function () { seekAndPlay(c.start); };
         const tag = document.createElement('span');
         tag.className = 'sub-time-tag';
         tag.textContent = formatTime(c.start);
@@ -1953,184 +2014,16 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "在正式�
     }
 
     function switchTrack(track) {
-      if (currentTrack === track) return;
-      currentTrack = track;
-      const curPos = audioEl.currentTime;
-      const wasPlaying = !audioEl.paused;
-
-      if (track === 'zh') {
-        btnTrackZh.classList.add('active');
-        btnTrackEn.classList.remove('active');
-        audioSource.src = './audio/ep' + EPISODE_META.id + '-zh.mp3';
-        trackMetaTitle.textContent = EPISODE_META.title_zh + '（中文原声）';
-      } else {
-        btnTrackEn.classList.add('active');
-        btnTrackZh.classList.remove('active');
-        audioSource.src = './audio/ep' + EPISODE_META.id + '-en.mp3';
-        trackMetaTitle.textContent = EPISODE_META.title_en + ' (English Voice)';
-      }
-
-      audioEl.load();
-      audioEl.onloadedmetadata = () => {
-        audioEl.currentTime = Math.min(curPos, audioEl.duration || curPos);
-        totalTimeEl.textContent = formatTime(audioEl.duration);
-
-        // Update sub-row timing + onclick to match active track
-        const ac = currentTrack === 'en' ? EP_CUES_EN : EP_CUES;
-        const existingRows = document.querySelectorAll('.sub-row');
-        if (existingRows.length !== ac.length) {
-          rebuildSubRows(ac);  // 段数不匹配（ep02/03/09/16）时按目标轨重建
-        } else {
-          existingRows.forEach((row, idx) => {
-            const c = ac[idx];
-            row.dataset.start = c.start.toFixed(2);
-            row.dataset.end = c.end.toFixed(2);
-            row.setAttribute('onclick', 'seekAndPlay(' + c.start.toFixed(2) + ')');
-            const timeTag = row.querySelector('.sub-time-tag');
-            if (timeTag) timeTag.textContent = formatTime(c.start);
-          });
-        }
-        // Update bilingual-para timing + badge to match active track
-        document.querySelectorAll('.bilingual-para').forEach(para => {
-          const ci = parseInt(para.dataset.cueIdx, 10);
-          if (isNaN(ci)) return;
-          const pi = currentTrack === 'en' ? (ZH2EN[ci] !== undefined ? ZH2EN[ci] : EP_CUES_EN.length - 1) : ci;
-          const c = ac[Math.min(pi, ac.length - 1)];
-          if (!c) return;
-          para.setAttribute('onclick', 'seekAndPlay(' + c.start.toFixed(2) + ')');
-          const badge = para.querySelector('.para-time-badge');
-          if (badge) badge.textContent = formatTime(c.start);
-        });
-        if (wasPlaying) {
-          ensureSingleAudioPlayback(audioEl);
-          audioEl.play().then(() => {
-            isPlaying = true;
-            playBtn.textContent = '⏸';
-          }).catch(() => {});
-        }
-      };
+      player.switchTrack(track);
     }
 
     function togglePlay() {
-      if (audioEl.paused) {
-        ensureSingleAudioPlayback(audioEl);
-        audioEl.play().then(() => {
-          isPlaying = true;
-          playBtn.textContent = '⏸';
-        }).catch(e => {
-          console.error("Playback error:", e);
-        });
-      } else {
-        audioEl.pause();
-        isPlaying = false;
-        playBtn.textContent = '▶';
-      }
-    }
-
-    audioEl.addEventListener('play', () => {
-      ensureSingleAudioPlayback(audioEl);
-      isPlaying = true;
-      playBtn.textContent = '⏸';
-    });
-
-    audioEl.addEventListener('pause', () => {
-      isPlaying = false;
-      playBtn.textContent = '▶';
-    });
-
-    audioEl.addEventListener('loadedmetadata', () => {
-      totalTimeEl.textContent = formatTime(audioEl.duration);
-    });
-
-    audioEl.addEventListener('timeupdate', () => {
-      if (isSeeking) return;
-      const cur = audioEl.currentTime;
-      const dur = audioEl.duration || 1;
-      curTimeEl.textContent = formatTime(cur);
-      seekSlider.value = (cur / dur) * 100;
-
-      // Update Active Cue
-      let foundIdx = -1;
-      const _ac = currentTrack === 'en' ? EP_CUES_EN : EP_CUES; for (let i = 0; i < _ac.length; i++) {
-        const c = _ac[i];
-        if (cur >= c.start && cur < c.end) {
-          foundIdx = i;
-          break;
-        }
-      }
-
-      if (foundIdx === -1 && cur >= _ac[_ac.length - 1].end) {
-        foundIdx = _ac.length - 1;
-      }
-
-      if (foundIdx !== -1 && foundIdx !== activeCueIndex) {
-        setActiveCue(foundIdx);
-      }
-    });
-
-    // Detection for User Manual Wheel or Touch Drag
-    let isUserScrolling = false;
-    let userScrollTimer = null;
-
-    if (subtitlesViewport) {
-      subtitlesViewport.addEventListener('wheel', () => {
-        isUserScrolling = true;
-        clearTimeout(userScrollTimer);
-        userScrollTimer = setTimeout(() => { isUserScrolling = false; }, 2000);
-      }, { passive: true });
-
-      subtitlesViewport.addEventListener('touchstart', () => {
-        isUserScrolling = true;
-        clearTimeout(userScrollTimer);
-        userScrollTimer = setTimeout(() => { isUserScrolling = false; }, 2000);
-      }, { passive: true });
-    }
-
-    // Rock-Solid Container Center Scroll Logic
-    function scrollSubtitleToCenter(container, activeElement) {
-      if (!container || !activeElement || !autoScroll || isUserScrolling) return;
-      
-      const containerRect = container.getBoundingClientRect();
-      const elementRect = activeElement.getBoundingClientRect();
-      
-      // Calculate active element center relative to container scroll position
-      const elementRelativeTop = elementRect.top - containerRect.top + container.scrollTop;
-      const targetScrollTop = elementRelativeTop - (container.clientHeight / 2) + (elementRect.height / 2);
-      
-      container.scrollTo({
-        top: Math.max(0, targetScrollTop),
-        behavior: 'smooth'
-      });
-    }
-
-    function setActiveCue(index) {
-      activeCueIndex = index;
-
-      // Update Subtitles List
-      document.querySelectorAll('.sub-row').forEach(row => row.classList.remove('active'));
-      const activeRow = document.getElementById('sub-row-' + index);
-      if (activeRow) {
-        activeRow.classList.add('active');
-        if (autoScroll && subtitlesViewport) {
-          scrollSubtitleToCenter(subtitlesViewport, activeRow);
-        }
-      }
-
-      // Update Book Paragraphs
-      document.querySelectorAll('.bilingual-para').forEach(p => p.classList.remove('current-reading'));
-      const activePara = document.querySelector('.bilingual-para[data-cue-idx="' + index + '"]');
-      if (activePara) {
-        activePara.classList.add('current-reading');
-      }
+      player.togglePlay();
     }
 
     function seekAndPlay(timeSec) {
-      audioEl.currentTime = timeSec;
-      ensureSingleAudioPlayback(audioEl);
-      audioEl.play().then(() => {
-        isPlaying = true;
-        playBtn.textContent = '⏸';
-      }).catch(() => {});
+      player.seekTo(timeSec);
+      player.play();
     }
 
     function onSeekInput(val) {
@@ -2156,11 +2049,59 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "在正式�
       showToast(autoScroll ? '字幕已开启自动跟随滚动' : '字幕自动滚动已关闭');
     }
 
-    function formatTime(sec) {
-      if (isNaN(sec) || sec < 0) return '00:00';
-      const m = Math.floor(sec / 60);
-      const s = Math.floor(sec % 60);
-      return (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
+    // Detection for User Manual Wheel or Touch Drag
+    let isUserScrolling = false;
+    let userScrollTimer = null;
+
+    if (subtitlesViewport) {
+      subtitlesViewport.addEventListener('wheel', function () {
+        isUserScrolling = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(function () { isUserScrolling = false; }, 2000);
+      }, { passive: true });
+
+      subtitlesViewport.addEventListener('touchstart', function () {
+        isUserScrolling = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(function () { isUserScrolling = false; }, 2000);
+      }, { passive: true });
+    }
+
+    // Rock-Solid Container Center Scroll Logic
+    function scrollSubtitleToCenter(container, activeElement) {
+      if (!container || !activeElement || !autoScroll || isUserScrolling) return;
+
+      const containerRect = container.getBoundingClientRect();
+      const elementRect = activeElement.getBoundingClientRect();
+
+      const elementRelativeTop = elementRect.top - containerRect.top + container.scrollTop;
+      const targetScrollTop = elementRelativeTop - (container.clientHeight / 2) + (elementRect.height / 2);
+
+      container.scrollTo({
+        top: Math.max(0, targetScrollTop),
+        behavior: 'smooth'
+      });
+    }
+
+    function setActiveCue(index) {
+      activeCueIndex = index;
+
+      // Update Subtitles List
+      document.querySelectorAll('.sub-row').forEach(function (row) { row.classList.remove('active'); });
+      const activeRow = document.getElementById('sub-row-' + index);
+      if (activeRow) {
+        activeRow.classList.add('active');
+        if (autoScroll && subtitlesViewport) {
+          scrollSubtitleToCenter(subtitlesViewport, activeRow);
+        }
+      }
+
+      // Update Book Paragraphs
+      document.querySelectorAll('.bilingual-para').forEach(function (p) { p.classList.remove('current-reading'); });
+      const activePara = document.querySelector('.bilingual-para[data-cue-idx="' + index + '"]');
+      if (activePara) {
+        activePara.classList.add('current-reading');
+      }
     }
 
     function pronounceWord(word) {
@@ -2178,7 +2119,7 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "在正式�
       const toast = document.getElementById('toast');
       toast.textContent = msg;
       toast.classList.add('show');
-      setTimeout(() => {
+      setTimeout(function () {
         toast.classList.remove('show');
       }, 2600);
     }
@@ -2235,11 +2176,11 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "在正式�
         '💡 金句：' + EPISODE_META.tagline_zh + '\n' +
         '🎧 中英双语广播级原声剧场 + 逐句高亮字幕 + 深度研读笔记：\n' +
         window.location.href;
-      
+
       if (navigator.clipboard && window.isSecureContext) {
-        navigator.clipboard.writeText(viralText).then(() => {
+        navigator.clipboard.writeText(viralText).then(function () {
           showToast('精选文案与链接已复制，去微信/小红书分享吧！');
-        }).catch(() => {
+        }).catch(function () {
           promptCopy(viralText);
         });
       } else {
@@ -2263,6 +2204,17 @@ const EP_CUES_EN = [{"secZh": "", "secEn": "", "speaker": "", "zh": "在正式�
       }
       document.body.removeChild(textArea);
     }
+
+    // 启动：注入共享数据（音轨与字幕时间戳与双语剧场完全一致）
+    player.loadEpisode({
+      audioZh: './audio/ep' + EPISODE_META.id + '-zh.mp3',
+      audioEn: './audio/ep' + EPISODE_META.id + '-en.mp3',
+      durationZh: EP_CUES.length ? EP_CUES[EP_CUES.length - 1].end : 0,
+      durationEn: EP_CUES_EN.length ? EP_CUES_EN[EP_CUES_EN.length - 1].end : 0,
+      cues: EP_CUES,
+      cuesEn: EP_CUES_EN
+    }, {});
+
   </script>
 </body>
 </html>
