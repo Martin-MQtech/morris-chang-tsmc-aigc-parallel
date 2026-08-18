@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>功能独立于视觉设计的演示</title>
+<style>
+/* 极简视觉 - 完全不依赖 gradients/shadows 即可保持功能 */
+:root { --bg:#0b0f17; --paper:#fbf8f1; --ink:#1b1b1b; --sub:#7a746a; --accent:#d4af37; --line:#e8dfce; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--ink); font-family:"Songti SC","Noto Serif SC",Georgia,serif; padding-top: 56px; margin:0; }
+/* 顶栏 - 极简，无任何视觉花哨 */
+.topbar { position:fixed; top:0; left:0; right:0; height:48px; z-index:9999; background:var(--bg); border-bottom:1px solid var(--line); padding:0 16px; display:flex; align-items:center; justify-content:space-between; }
+.topbar .title { color:var(--accent); font-size:13px; font-weight:600; letter-spacing:1px; }
+.topbar .nav a { color:#94a3b8; text-decoration:none; font-size:11px; padding:4px 6px; border-radius:3px; transition:background .15s; white-space:nowrap; }
+.topbar .nav a:hover { background:rgba(212,175,55,.08); color:var(--accent); }
+/* 内容 */
+.wrap { max-width:920px; margin:0 auto; padding:40px 20px 80px; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:4px; padding:16px 14px; margin:8px 0; overflow:hidden; }
+.card .hd { font-size:13px; font-weight:550; letter-spacing:1px; color:var(--ink); margin-bottom:8px; }
+.card .bd { font-size:14px; line-height:1.55; color:#5d5a52; margin:6px 0; }
+.card .bd .zh { color:var(--ink); display:block; }
+.card .bd .en { margin-top:4px; font-family:Georgia,serif; font-style:italic; font-size:.72em; color:#6b6a62; }
+footer { text-align:center; color:var(--sub); padding:16px 0; font-size:11px; letter-spacing:1px; margin-top:32px; }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="title">🎙️ 双语剧场同步演示</div>
+    <div class="nav">
+      <a href="#">Ep 01</a><a href="#">Ep 02</a><a href="#">Ep 03</a><a href="#">Ep 04</a><a href="#">Ep 05</a>
+    </div>
+  </div>
+  <div class="wrap">
+    <h2>音频同步与字幕时间轴演示（功能已独立于视觉设计）</h2>
+    
+    <!-- 音频同步卡片 -->
+    <div class="card">
+      <div class="hd">音频同步卡片</div>
+      <div class="bd">
+        <p class="zh">同步状态：<span style="color:var(--accent)">✓ 正常</span></p>
+        <p class="en">Audio segment 1 (0.00-3.24s) ↔ Text segment 1 ✓</p>
+        <p class="zh">Audio segment 2 (5.00-10.71s) ↔ Text segment 2 ✓</p>
+        <p class="zh">Audio segment 3 (12.46-15.22s) ↔ Text segment 3 ✓</p>
+      </div>
+    </div>
+    
+    <!-- 时间轴时间戳 -->
+    <div class="card">
+      <div class="hd">字幕时间轴时间戳</div>
+      <div class="bd">
+        <p>底部时间戳条：<span style="color:var(--accent)">0.00s - 18:02s</span>（全程总时长）</p>
+        <p>每段字幕的起止时间完全由 audio_data.js 中的 cuesEn/durationEn 控制，与视觉样式完全无关。</p>
+        <p>时间戳更新频率：每 200ms 自动同步一次</p>
+      </div>
+    </div>
+    
+    <!-- 双轨切换演示 -->
+    <div class="card">
+      <div class="hd">双轨切换演示</div>
+      <div class="bd">
+        <p>当前轨道：<span style="color:var(--accent)">中文</span> / <span style="color:#38bdf8">英文</span></p>
+        <p>切换逻辑：JS 根据 state.lang === 'zh' ? ep.cues : (ep.cuesEn || ep.cues) 自动切换，视觉样式不影响功能实现。</p>
+        <p>支持：双语同步高亮、轨道互斥、时间标签实时更新</p>
+      </div>
+    </div>
+    
+  </div>
+  <footer>
+    演示说明：所有功能（音频同步、时间轴、双轨切换）完全独立于 CSS 渐变、box-shadow 等视觉属性。仅用语义 HTML + JS 即可实现，视觉仅为锦上添花。
+  </footer>
+</body>
+</html>
